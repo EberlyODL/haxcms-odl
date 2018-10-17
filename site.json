@@ -1,0 +1,72 @@
+{
+    "id": "3474a06d-9d3b-4ec7-ba9b-0a448a6e685e",
+    "title": "odl",
+    "author": "",
+    "description": "",
+    "license": "by-sa",
+    "metadata": {
+        "siteName": "odl",
+        "image": "assets\/banner.jpg",
+        "theme": "odl-haxtheme",
+        "icon": "icons:add-circle-outline",
+        "domain": "https:\/\/odl.surge.sh",
+        "hexCode": "#5a0020",
+        "created": 1539789245,
+        "updated": 1539789316,
+        "cssVariable": "--simple-colors-pink-foreground1"
+    },
+    "items": [
+        {
+            "id": "item-307e6413-b9f5-4f5e-afff-4c4e0298988f",
+            "indent": 0,
+            "location": "pages\/item-c8cbc341-e660-4e7a-b916-1ee8caf9c97e\/index.html",
+            "order": 0,
+            "parent": null,
+            "title": "New page",
+            "description": "",
+            "metadata": {
+                "created": 1539789316,
+                "updated": 1539789316
+            }
+        },
+        {
+            "id": "item-6eca39d1-5cf3-4a33-80df-000f4e453101",
+            "indent": 0,
+            "location": "pages\/item-6eca39d1-5cf3-4a33-80df-000f4e453101\/index.html",
+            "order": 1,
+            "parent": null,
+            "title": "Home",
+            "description": "",
+            "metadata": {
+                "created": 1539789316,
+                "updated": 1539789316
+            }
+        },
+        {
+            "id": "item-e000d1ea-0165-470f-9109-aa2b5073757c",
+            "indent": 0,
+            "location": "pages\/item-e000d1ea-0165-470f-9109-aa2b5073757c\/index.html",
+            "order": 2,
+            "parent": null,
+            "title": "About",
+            "description": "This is my about page\n",
+            "metadata": {
+                "created": 1539789316,
+                "updated": 1539789353
+            }
+        },
+        {
+            "id": "item-ed5983a0-54bc-45d7-ad38-8a1e301145c7",
+            "indent": 0,
+            "location": "pages\/item-ed5983a0-54bc-45d7-ad38-8a1e301145c7\/index.html",
+            "order": 3,
+            "parent": null,
+            "title": "Contact",
+            "description": "",
+            "metadata": {
+                "created": 1539789316,
+                "updated": 1539789316
+            }
+        }
+    ]
+}
