@@ -1,0 +1,32 @@
+<link rel="import" href="odl-ecos-mark.html">
+
+<dom-module id="odl-topbar">
+  <template>
+    <style>
+            :host {
+                display: block;
+            }
+
+            #topbar-wrap {
+                border-bottom: solid 2px gray;
+            }
+
+            odl-ecos-mark {
+              width: 20%;
+              padding: 5px 5px 0;
+            }
+            
+        </style>
+    <div id="topbar-wrap">
+      <odl-ecos-mark></odl-ecos-mark>
+    </div>
+  </template>
+  <script>
+        Polymer({
+            is: 'odl-topbar',
+
+					
+        });
+				
+    </script>
+</dom-module>
