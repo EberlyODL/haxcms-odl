@@ -12,51 +12,38 @@
         "domain": "https:\/\/odl.surge.sh",
         "hexCode": "#5a0020",
         "created": 1539789245,
-        "updated": 1539789316,
+        "updated": 1540413060,
         "cssVariable": "--simple-colors-pink-foreground1"
     },
     "items": [
         {
-            "id": "item-307e6413-b9f5-4f5e-afff-4c4e0298988f",
-            "indent": 0,
-            "location": "pages\/item-c8cbc341-e660-4e7a-b916-1ee8caf9c97e\/index.html",
-            "order": 0,
-            "parent": null,
-            "title": "New page",
-            "description": "",
-            "metadata": {
-                "created": 1539789316,
-                "updated": 1539789316
-            }
-        },
-        {
-            "id": "item-6eca39d1-5cf3-4a33-80df-000f4e453101",
+            "id": "item-e522497e-623d-446d-af44-98c44e14049b",
             "indent": 0,
             "location": "pages\/item-6eca39d1-5cf3-4a33-80df-000f4e453101\/index.html",
             "order": 1,
             "parent": null,
-            "title": "Home",
+            "title": "News",
             "description": "",
             "metadata": {
-                "created": 1539789316,
-                "updated": 1539789316
+                "created": 1540413060,
+                "updated": 1540413060
             }
         },
         {
-            "id": "item-e000d1ea-0165-470f-9109-aa2b5073757c",
+            "id": "item-2547494f-59a1-42cc-97fe-0f070fcdaf2c",
             "indent": 0,
             "location": "pages\/item-e000d1ea-0165-470f-9109-aa2b5073757c\/index.html",
             "order": 2,
             "parent": null,
             "title": "About",
-            "description": "This is my about page\n",
+            "description": "",
             "metadata": {
-                "created": 1539789316,
-                "updated": 1539789353
+                "created": 1540413060,
+                "updated": 1540413060
             }
         },
         {
-            "id": "item-ed5983a0-54bc-45d7-ad38-8a1e301145c7",
+            "id": "item-7ac7444e-2df5-4441-95c1-90d24cf990e8",
             "indent": 0,
             "location": "pages\/item-ed5983a0-54bc-45d7-ad38-8a1e301145c7\/index.html",
             "order": 3,
@@ -64,8 +51,8 @@
             "title": "Contact",
             "description": "",
             "metadata": {
-                "created": 1539789316,
-                "updated": 1539789316
+                "created": 1540413060,
+                "updated": 1540413060
             }
         }
     ]

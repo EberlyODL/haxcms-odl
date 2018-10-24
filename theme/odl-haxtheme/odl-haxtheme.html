@@ -7,6 +7,10 @@
 <link rel="import" href="../iron-icons/iron-icons.html">
 <link rel="import" href="../map-menu/map-menu.html">
 
+
+<link rel="import" href="odl-haxtheme-home.html">
+<link rel="import" href="odl-haxtheme-news.html">
+
 <!--
 `odl-haxtheme`
 A theme intended as the starting point to fork from and build new themes for HAXCMS
@@ -21,23 +25,33 @@ and then IF hax is around it'll show up :)
     <style is="custom-style" include="simple-colors">
 
     </style>
+
+    <!-- <odl-haxtheme-news></odl-haxtheme-news> -->
+    <odl-haxtheme-home></odl-haxtheme-home>
+
+
+    
     <h1 style="margin:0;">[[manifest.title]]</h1>
     <map-menu id="menu"></map-menu>
-    <div class="manifest">
-    <h2>title: [[manifest.title]]</h2>
-    <div>description: [[manifest.description]]</div>
-    <div>icon: <iron-icon icon="[[manifest.metadata.icon]]"></iron-icon></div>
-    <div>image: <img src$="[[manifest.metadata.image]]" height="200px" width="200px" /></div>
-    </div>
+
+
+
+    <!-- <div class="manifest">
+      <h2>title: [[manifest.title]]</h2>
+      <div>description: [[manifest.description]]</div>
+      <div>icon: <iron-icon icon="[[manifest.metadata.icon]]"></iron-icon></div>
+      <div>image: <img src$="[[manifest.metadata.image]]" height="200px"
+          width="200px" /></div>
+    </div> -->
     <div class="activeitem">
-    <paper-button id="unset">Unset activeItem</paper-button>
-    <h2>ACTIVE ITEM</h2>
-    <div>[[activeItem.title]]</div>
-    <div id="contentcontainer">
-      <div id="slot">
-        <slot></slot>
+      <paper-button id="unset">Unset activeItem</paper-button>
+      <!-- <h2>ACTIVE ITEM</h2> -->
+      <div>[[activeItem.title]]</div>
+      <div id="contentcontainer">
+        <div id="slot">
+          <slot></slot>
+        </div>
       </div>
-    </div>
     </div>
   </template>
   <script>
