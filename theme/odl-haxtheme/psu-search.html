@@ -10,7 +10,7 @@
 
       #search_wrap {
         border: 1px solid #c3c3c3;
-        margin: 10px;
+        margin-right: 10px;
         padding: 5px;
       }
 
@@ -18,9 +18,21 @@
         color: #c3c3c3;
       }
 
+      @media screen and (max-width: 1200px) {
+        :host {
+          width: 20%;
+        }
+      }
+
       @media screen and (max-width: 700px) {
         :host {
-          width: 40%;
+          width: 30%;
+        }
+      }
+      @media screen and (max-width: 500px) {
+        :host {
+          width: 45%;
+          margin-right: -4px;
         }
       }
     </style>
