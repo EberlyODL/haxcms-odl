@@ -6,12 +6,13 @@
       :host {
         display: block;
         width: 15%;
-        }
+      }
+
       #search_wrap {
         border: 1px solid #c3c3c3;
         margin: 10px;
         padding: 5px;
-        }
+      }
 
       iron-icon {
         color: #c3c3c3;
@@ -19,18 +20,17 @@
 
       @media screen and (max-width: 700px) {
         :host {
-        width: 40%;
+          width: 40%;
+        }
       }
-    }
-  
-        </style>
+    </style>
     <div id="search_wrap">
       <iron-icon icon="search"></iron-icon>
     </div>
   </template>
   <script>
-        Polymer({
-            is: 'psu-search'
-        });
-    </script>
+    Polymer({
+      is: 'psu-search'
+    });
+  </script>
 </dom-module>

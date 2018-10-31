@@ -3,86 +3,93 @@
 <dom-module id="temp-nav">
   <template>
     <style>
-            :host {
-                display: block;
-            }
-#nav-wrap {
-  background-color: #e2801e; 
-}
-.nav-items {
-  display: flex;
-  justify-content: stretch;
-}
-.nav-item {
-  flex: 1 1 auto;
-}
-.nav-item a {
-  color: #fff;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  text-transform: uppercase;
-  color: #fff;
-}
-.nav-item a:focus {
-  background-color: #363533;
-}
-@media screen and (max-width: 700px) {
-  .nav-items {
-    display: none;
-  }
-}
-#mobile_wrap {
-  display: none;
-}
-.button_nav {
-  display: none;
-}
-@media screen and (max-width: 700px) {
-.button_nav {
-    display: block;
-  }
-}
-.logo_nav img {
-  border: 2px solid #fff;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  margin: 8px;
-}
-@media screen and (max-width: 700px) {
-  #mobile_wrap {
-    display: flex;
-    align-items: center;
-  }
-}
-.name_nav {
-  display: flex;
-  align-items: center;
-  margin-left: 5px;
-}
-.name_nav h1 {
-  font-size: 18px;
-  font-weight: normal;
-  color: #fff;
-}
-.button_nav paper-icon-button {
-  float: right;
-  position: relative;
-  top: -59px;
-  color: #fff;
-  width: 45px;
-  height: 45px;
-}
+      :host {
+        display: block;
+      }
 
+      #nav-wrap {
+        background-color: #e2801e;
+      }
 
+      .nav-items {
+        display: flex;
+        justify-content: stretch;
+      }
 
+      .nav-item {
+        flex: 1 1 auto;
+      }
 
+      .nav-item a {
+        color: #fff;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        text-transform: uppercase;
+        color: #fff;
+      }
 
+      .nav-item a:focus {
+        background-color: #363533;
+      }
 
+      @media screen and (max-width: 700px) {
+        .nav-items {
+          display: none;
+        }
+      }
 
-      </style>
+      #mobile_wrap {
+        display: none;
+      }
+
+      .button_nav {
+        display: none;
+      }
+
+      @media screen and (max-width: 700px) {
+        .button_nav {
+          display: block;
+        }
+      }
+
+      .logo_nav img {
+        border: 2px solid #fff;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin: 8px;
+      }
+
+      @media screen and (max-width: 700px) {
+        #mobile_wrap {
+          display: flex;
+          align-items: center;
+        }
+      }
+
+      .name_nav {
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+      }
+
+      .name_nav h1 {
+        font-size: 18px;
+        font-weight: normal;
+        color: #fff;
+      }
+
+      .button_nav paper-icon-button {
+        float: right;
+        position: relative;
+        top: -59px;
+        color: #fff;
+        width: 45px;
+        height: 45px;
+      }
+    </style>
     <div id="nav-wrap">
       <div class="nav-items">
         <div class="nav-item"><a href="#">Home</a></div>
@@ -104,15 +111,15 @@
         </div>
       </div>
       <div class="button_nav">
-          <paper-icon-button icon="menu"></paper-icon-button>
-        </div>
+        <paper-icon-button icon="menu"></paper-icon-button>
+      </div>
 
     </div>
 
   </template>
   <script>
-        Polymer({
-            is: 'temp-nav'
-        });
-    </script>
+    Polymer({
+      is: 'temp-nav'
+    });
+  </script>
 </dom-module>
