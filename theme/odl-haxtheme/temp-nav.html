@@ -25,7 +25,7 @@
         text-decoration: none;
         display: flex;
         justify-content: center;
-        padding: 10px;
+        padding: 15px 10px;
         text-transform: uppercase;
         color: #fff;
       }
@@ -63,9 +63,19 @@
       }
 
       @media screen and (max-width: 700px) {
+        .logo_nav img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+
+      @media screen and (max-width: 700px) {
         #mobile_wrap {
           display: flex;
           align-items: center;
+        }
+        #mobile_wrap .name_nav {
+          flex: 1 1 auto;
         }
       }
 
@@ -77,14 +87,19 @@
 
       .name_nav h1 {
         font-size: 18px;
+        margin: 0;
         font-weight: normal;
         color: #fff;
       }
 
+      @media screen and (max-width: 700px) {
+        .name_nav {
+          font-size: 16px;
+        }
+      }
+
       .button_nav paper-icon-button {
-        float: right;
         position: relative;
-        top: -59px;
         color: #fff;
         width: 45px;
         height: 45px;
@@ -109,9 +124,9 @@
         <div class="name_nav">
           <h1>Office of Digital Learning</h1>
         </div>
-      </div>
-      <div class="button_nav">
-        <paper-icon-button icon="menu"></paper-icon-button>
+        <div class="button_nav">
+            <paper-icon-button icon="menu"></paper-icon-button>
+          </div>
       </div>
 
     </div>
