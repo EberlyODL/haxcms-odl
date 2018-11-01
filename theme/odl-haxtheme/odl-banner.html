@@ -10,7 +10,7 @@
         .image_wrap {
           height: 55vw;
         }
-      } 
+      }
 
       .image_wrap {
         background-image: var(--image-background);
@@ -31,7 +31,6 @@
         margin: 0;
         padding: 0;
       }
-      
 
       .image_text {
         display: flex;
@@ -52,14 +51,24 @@
       }
 
       .branding_wrap {
+        display: flex;
+        align-items: center;
         background-color: #e2801e;
         border-top: solid 2px #fff;
         border-bottom: solid 2px #fff;
       }
 
       .company_name h2 {
+        font-size: calc(18px + (72 - 28) * ((100vw - 300px) / (1600 - 300)));
+        font-weight: normal;
         color: #fff;
         margin: 0;
+      }
+
+      .logo img {
+        border: solid 2px #fff;
+        border-radius: 50%;
+        width: 40%;
       }
     </style>
     <div id="banner_wrap">
@@ -70,7 +79,9 @@
         </div>
       </div>
       <div class="branding_wrap">
-        <div class="logo"></div>
+        <div class="logo">
+          <img src="../../../assets/odl-images/odl-logo.png" alt="Office of Digital Learning">
+        </div>
         <div class="company_name">
           <h2>Office of Digital Learning</h2>
         </div>
