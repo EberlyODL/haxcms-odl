@@ -1,6 +1,9 @@
 <link rel="import" href="odl-topbar.html">
 <link rel="import" href="temp-nav.html">
 <link rel="import" href="odl-banner.html">
+<link rel="import" href="odl-action-box.html">
+
+
 
 <dom-module id="odl-haxtheme-home">
   <template>
@@ -11,7 +14,13 @@
     </style>
     <odl-topbar></odl-topbar>
     <temp-nav></temp-nav>
-    <odl-banner image="../odl/assets/odl-images/odl_homepage_banner.png" alt="students receiving instruction in classroom" text="A creative studio for your classroom"></odl-banner>
+    <odl-banner image="../odl/assets/odl-images/odl_homepage_banner.png" alt="students receiving instruction in classroom"
+      text="A creative studio for your classroom"></odl-banner>
+    <odl-action-box>
+      <span slot="action_text">
+        The Office of Digital Learning (ODL) helps faculty and students make the most of digital learning technology.  We collaboratively design and build tools for any pedagogy. Dream it and we'll build it.
+      </span>
+    </odl-action-box>
     <div>This is my home page!</div>
   </template>
   <script>

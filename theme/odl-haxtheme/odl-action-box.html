@@ -1,0 +1,77 @@
+<link rel="import" href="../iron-icons/iron-icons.html">
+<link rel="import" href="../paper-button/paper-button.html">
+<dom-module id="odl-action-box">
+  <template>
+    <style>
+      :host {
+        display: block;
+        background-color: #363533;
+      }
+
+      .action_text {
+        padding: 50px 0 50px 80px;
+        width: 59%;
+        margin-top: -1px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5em;
+        font-weight: 100;
+        color: #fff;
+        line-height: 1.5;
+      }
+
+      @media screen and (max-width: 700px) {
+        .action_text {
+          width: 93%;
+          font-size: 1em;
+          padding: 20px 15px;
+          border-top: solid 5px #e2801e;
+        }
+      }
+
+      .action_button {
+        padding: 25px 10px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -50px;
+        margin-right: 60px;
+      }
+
+      @media screen and (max-width: 700px) {
+        .action_button {
+          justify-content: center;
+          margin-top: -35px;
+          margin-right: 0;
+          padding-bottom: 15px
+        }
+      }
+
+      paper-button#learn {
+        color: #fff;
+        border: solid 1px #fff;
+        border-radius: 0;
+      }
+      paper-button#learn:hover, paper-button#learn:focus {
+        background-color: #e2801e;
+      }
+    </style>
+    <div class="box_wrap">
+      <div class="action_text">
+        <slot name="action_text"></slot>
+      </div>
+      <div class="action_button">
+        <a href$="#">
+          <paper-button noink id="learn">
+            <div class="title">Learn More</div>
+            <iron-icon icon="chevron-right"></iron-icon>
+          </paper-button>
+        </a>
+      </div>
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: 'odl-action-box'
+    });
+  </script>
+</dom-module>

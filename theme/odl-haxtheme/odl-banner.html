@@ -54,21 +54,40 @@
         display: flex;
         align-items: center;
         background-color: #e2801e;
-        border-top: solid 2px #fff;
-        border-bottom: solid 2px #fff;
+        border-top: solid 4px #fff;
+        border-bottom: solid 4px #fff;
+      }
+
+      @media screen and (max-width: 700px) {
+        .branding_wrap {
+          display: none;
+        }
+      }
+
+      .logo {
+        position: absolute;
+        width: 40%;
+      }
+
+      .logo img {
+        width: 53%;
+        border: 4px solid white;
+        border-radius: 50%;
+        background-color: #e2801e;
+        margin-left: 25px;
+        margin-top: -52px;
+      }
+
+      .company_name {
+        width: 74%;
+        margin-left: auto;
       }
 
       .company_name h2 {
         font-size: calc(18px + (72 - 28) * ((100vw - 300px) / (1600 - 300)));
+        color: white;
         font-weight: normal;
-        color: #fff;
-        margin: 0;
-      }
-
-      .logo img {
-        border: solid 2px #fff;
-        border-radius: 50%;
-        width: 40%;
+        margin: 5px 0;
       }
     </style>
     <div id="banner_wrap">

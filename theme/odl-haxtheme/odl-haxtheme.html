@@ -11,6 +11,8 @@
 <link rel="import" href="odl-haxtheme-home.html">
 <link rel="import" href="odl-haxtheme-news.html">
 
+<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+
 <!--
 `odl-haxtheme`
 A theme intended as the starting point to fork from and build new themes for HAXCMS
@@ -23,6 +25,10 @@ and then IF hax is around it'll show up :)
 <dom-module id="odl-haxtheme">
   <template>
     <style is="custom-style" include="simple-colors">
+      
+     ::slotted(*) {
+        font-family: "Roboto", sans-serif;
+      }
 
     </style>
 
