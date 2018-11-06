@@ -1,0 +1,74 @@
+<dom-module id="odl-news-feed">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+      h2 {
+        margin: 0;
+        color: #fff;
+        font-size: 2.5em;
+        font-weight: normal;
+      }
+
+      .feed_header {
+        background-color: #e2801e;
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+    <div id="news_feed_wrap">
+      <div class="feed_header">
+        <h2>News</h2>
+      </div>
+      <template is="dom-repeat" items="{{_items}}">
+        <img src="{{item.metadata.image}}">
+        <span>{{item.description}}</span>
+      </template>
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: 'odl-news-feed',
+      properties: {
+        /**
+        * Type of data to select from site.json
+        */
+        type: {
+          type: String,
+          value: 'news',
+          reflectToAttribute: true,
+        },
+        /**
+        * Items from sites.json
+        */
+        _items: {
+          type: Array,
+          value: [],
+        },
+      },
+
+      ready: async function () {
+        const manifest = await fetch('/_sites/odl/site.json').then(res => res.json())
+        const pages = manifest.items
+        const pagesFiltered = pages.filter(item => {
+          if (typeof item.metadata !== 'undefined') {
+            if (typeof item.metadata.type !== 'undefined') {
+              if (item.metadata.type === 'news') {
+                return true;
+              }
+            }
+          }
+          return false
+        })
+
+        this.set("_items", pagesFiltered);
+
+        console.log(pagesFiltered);
+        // loop over pages
+        // if page has type === 'news'
+        // return a new array containing the filtered pages
+      }
+    });
+  </script>
+</dom-module>

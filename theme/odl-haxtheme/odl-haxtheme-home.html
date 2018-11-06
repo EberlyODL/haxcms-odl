@@ -2,6 +2,7 @@
 <link rel="import" href="temp-nav.html">
 <link rel="import" href="odl-banner.html">
 <link rel="import" href="odl-action-box.html">
+<link rel="import" href="odl-news-feed.html">
 <link rel="import" href="../promo-tile/promo-tile.html">
 
 
@@ -29,21 +30,43 @@
         }
       }
 
-      @media screen and (min-width: 730px) {
+      @media screen and (min-width: 1124px) {
         #promo_tile_wrap>* {
           width: 25%;
         }
       }
 
-      /* @media screen and (max-width: 700px) {
-        .promo_tile {
-          display: block;
-          overflow: hidden;
-          height: 300px;
+      #content_wrap {
+        display: flex;
+      }
+
+      @media screen and (max-width: 700px) {
+        #content_wrap {
+          flex-direction: column;
         }
-      } */
+      }
 
+      .news_items {
+        width: 33.3%;
+      }
 
+      @media screen and (max-width: 700px) {
+        .news_items {
+          width: 100%;
+        }
+      }
+
+      #news_wrap {
+        background-color: blue;
+      }
+
+      #video_wrap {
+        background-color: green;
+      }
+
+      #testimonial_wrap {
+        background-color: purple;
+      }
     </style>
     <odl-topbar></odl-topbar>
     <temp-nav></temp-nav>
@@ -79,6 +102,18 @@
           alt="student using VR goggles" url="https://www.google.com">
           <slot>Add exciting virtual experiences to your online classroom.</slot>
         </promo-tile>
+      </div>
+    </div>
+
+    <div id="content_wrap">
+      <div id="news_wrap" class="news_items">
+        <odl-news-feed></odl-news-feed>
+      </div>
+      <div id="video_wrap" class="news_items">
+        Videos Here
+      </div>
+      <div id="testimonial_wrap" class="news_items">
+        Testimonials here
       </div>
     </div>
   </template>

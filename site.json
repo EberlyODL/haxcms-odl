@@ -1,59 +1,75 @@
 {
-    "id": "3474a06d-9d3b-4ec7-ba9b-0a448a6e685e",
-    "title": "odl",
-    "author": "",
-    "description": "",
-    "license": "by-sa",
-    "metadata": {
-        "siteName": "odl",
-        "image": "assets\/banner.jpg",
-        "theme": "odl-haxtheme",
-        "icon": "icons:add-circle-outline",
-        "domain": "https:\/\/odl.surge.sh",
-        "hexCode": "#5a0020",
-        "created": 1539789245,
-        "updated": 1540413060,
-        "cssVariable": "--simple-colors-pink-foreground1"
+  "id": "3474a06d-9d3b-4ec7-ba9b-0a448a6e685e",
+  "title": "odl",
+  "author": "",
+  "description": "",
+  "license": "by-sa",
+  "metadata": {
+    "siteName": "odl",
+    "image": "assets/banner.jpg",
+    "theme": "odl-haxtheme",
+    "icon": "icons:add-circle-outline",
+    "domain": "https://odl.surge.sh",
+    "hexCode": "#5a0020",
+    "created": 1539789245,
+    "updated": 1541517755,
+    "cssVariable": "--simple-colors-pink-foreground1"
+  },
+  "items": [
+    {
+      "id": "item-01619e09-3dbb-491d-b85e-308340724bc6",
+      "indent": 0,
+      "location": "pages/item-6eca39d1-5cf3-4a33-80df-000f4e453101/index.html",
+      "order": 1,
+      "parent": null,
+      "title": "News",
+      "description": "",
+      "metadata": {
+        "created": 1541517755,
+        "updated": 1541517755
+      }
     },
-    "items": [
-        {
-            "id": "news",
-            "indent": 0,
-            "location": "pages\/item-6eca39d1-5cf3-4a33-80df-000f4e453101\/index.html",
-            "order": 1,
-            "parent": null,
-            "title": "News",
-            "description": "",
-            "metadata": {
-                "created": 1540413060,
-                "updated": 1540413060
-            }
-        },
-        {
-            "id": "item-2547494f-59a1-42cc-97fe-0f070fcdaf2c",
-            "indent": 0,
-            "location": "pages\/item-e000d1ea-0165-470f-9109-aa2b5073757c\/index.html",
-            "order": 2,
-            "parent": null,
-            "title": "About",
-            "description": "",
-            "metadata": {
-                "created": 1540413060,
-                "updated": 1540413060
-            }
-        },
-        {
-            "id": "item-7ac7444e-2df5-4441-95c1-90d24cf990e8",
-            "indent": 0,
-            "location": "pages\/item-ed5983a0-54bc-45d7-ad38-8a1e301145c7\/index.html",
-            "order": 3,
-            "parent": null,
-            "title": "Contact",
-            "description": "",
-            "metadata": {
-                "created": 1540413060,
-                "updated": 1540413060
-            }
-        }
-    ]
+    {
+      "id": "item-5643c669-454b-4789-b91b-37d69980deeb",
+      "indent": 1,
+      "location": "pages/item-5643c669-454b-4789-b91b-37d69980deeb/index.html",
+      "order": 1,
+      "parent": "item-01619e09-3dbb-491d-b85e-308340724bc6",
+      "title": "News Item 1",
+      "description": "This is an important news post about science stuff.  Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.",
+      "metadata": {
+        "created": 1541517755,
+        "updated": 1541517755,
+        "type": "news",
+        "template": "news",
+        "image": "assets/odl-news-images/news-image-1.png"
+      }
+    },
+    {
+      "id": "item-dd007fc5-b3bf-4e2d-a961-2177e74135f7",
+      "indent": 0,
+      "location": "pages/item-e000d1ea-0165-470f-9109-aa2b5073757c/index.html",
+      "order": 2,
+      "parent": null,
+      "title": "About",
+      "description": "",
+      "metadata": {
+        "created": 1541517755,
+        "updated": 1541517755
+      }
+    },
+    {
+      "id": "item-5270cc7f-0310-4a6f-9872-812069eead4c",
+      "indent": 0,
+      "location": "pages/item-ed5983a0-54bc-45d7-ad38-8a1e301145c7/index.html",
+      "order": 3,
+      "parent": null,
+      "title": "Contact",
+      "description": "",
+      "metadata": {
+        "created": 1541517755,
+        "updated": 1541517755
+      }
+    }
+  ]
 }
