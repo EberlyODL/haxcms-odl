@@ -4,6 +4,7 @@
       :host {
         display: block;
       }
+
       h2 {
         margin: 0;
         color: #fff;
@@ -16,16 +17,37 @@
         display: flex;
         justify-content: center;
       }
+
+      .card_wrap {
+        padding: 10px;
+      }
     </style>
     <div id="news_feed_wrap">
       <div class="feed_header">
         <h2>News</h2>
       </div>
-      <template is="dom-repeat" items="{{_items}}">
-        <img src="{{item.metadata.image}}">
-        <span>{{item.description}}</span>
-      </template>
-    </div>
+
+      <div class="card_wrap">
+        <template is="dom-repeat" items="{{_items}}">
+          <paper-card heading="Card Title" image="{{item.metadata.image}}">
+            <div class="card-content">
+              <span>{{item.description}}</span>
+            </div>
+            <div class="card-actions">
+              <paper-button raised>Read More</paper-button>
+            </div>
+          </paper-card>
+        </template>
+      </div>
+
+
+
+
+
+
+
+  </template>
+  </div>
   </template>
   <script>
     Polymer({

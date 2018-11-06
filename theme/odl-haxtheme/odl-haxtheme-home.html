@@ -14,6 +14,19 @@
         display: block;
       }
 
+      .feed_header h2 {
+        margin: 0;
+        color: #fff;
+        font-size: 2.5em;
+        font-weight: normal;
+      }
+
+      .feed_header {
+        background-color: #e2801e;
+        display: flex;
+        justify-content: center;
+      }
+
       #promo_tile_wrap {
         display: flex;
         flex-wrap: wrap;
@@ -80,7 +93,13 @@
     </odl-action-box>
     <div id="promo_tile_wrap">
       <div class="promo_tile">
-        <promo-tile title="Virtual Reality" image="https://www.wallpaperflare.com/static/739/747/773/intel-project-alloy-vr-idf-virtual-reality-wallpaper.jpg"
+        <promo-tile title="ELMS:LN" image="assets/odl-images/elmsln-tile.png"
+          alt="student using VR goggles" url="https://www.elmsln.org/">
+          <slot>Create your course using the ELMS:LN platform and gain access to a network of innovative technologies instantly.</slot>
+        </promo-tile>
+      </div>
+      <div class="promo_tile">
+        <promo-tile title="VR" image="https://www.wallpaperflare.com/static/739/747/773/intel-project-alloy-vr-idf-virtual-reality-wallpaper.jpg"
           alt="student using VR goggles" url="https://www.google.com">
           <slot>Add exciting virtual experiences to your online classroom.</slot>
         </promo-tile>
@@ -92,15 +111,9 @@
         </promo-tile>
       </div>
       <div class="promo_tile">
-        <promo-tile title="Virtual Reality" image="https://www.wallpaperflare.com/static/739/747/773/intel-project-alloy-vr-idf-virtual-reality-wallpaper.jpg"
+        <promo-tile title="One Button Studio" image="assets/odl-images/obs-tile.png"
           alt="student using VR goggles" url="https://www.google.com">
-          <slot>Add exciting virtual experiences to your online classroom.</slot>
-        </promo-tile>
-      </div>
-      <div class="promo_tile">
-        <promo-tile title="Virtual Reality" image="https://www.wallpaperflare.com/static/739/747/773/intel-project-alloy-vr-idf-virtual-reality-wallpaper.jpg"
-          alt="student using VR goggles" url="https://www.google.com">
-          <slot>Add exciting virtual experiences to your online classroom.</slot>
+          <slot>Create engaging video content for your class with our one button studio.</slot>
         </promo-tile>
       </div>
     </div>
@@ -110,10 +123,14 @@
         <odl-news-feed></odl-news-feed>
       </div>
       <div id="video_wrap" class="news_items">
-        Videos Here
+        <div class="feed_header">
+          <h2>Videos</h2>
+        </div>
       </div>
       <div id="testimonial_wrap" class="news_items">
-        Testimonials here
+        <div class="feed_header">
+          <h2>Testimonials</h2>
+        </div>
       </div>
     </div>
   </template>
