@@ -1,3 +1,4 @@
+<link rel="import" href="../iron-image/iron-image.html">
 <dom-module id="odl-news-feed">
   <template>
     <style>
@@ -12,40 +13,61 @@
         font-weight: normal;
       }
 
+      #news_feed_wrap {
+        margin: 20px;
+      }
+
       .feed_header {
-        background-color: #363533;
+        background-color: #e2801e;
         display: flex;
         justify-content: center;
+        margin-bottom: 20px;
+        padding: 5px;
       }
 
       .card_wrap {
-        padding: 10px;
+        background-color: white;
+        margin: 10px;
+        padding: 15px;
+        box-shadow: 0 1px 7px grey;
+      }
+
+      #card_image {
+        height: 9em;
+      }
+
+      #card_image iron-image {
+        height: 100%;
+        width: 100%;
+      }
+
+      .card_heading {}
+
+      .card_heading h2 {
+        color: #363533;
+        margin: 0;
+        font-size: 1.2em;
+      }
+
+      .card-actions {
+
       }
     </style>
     <div id="news_feed_wrap">
       <div class="feed_header">
         <h2>News</h2>
       </div>
-
-      <div class="card_wrap">
-        <template is="dom-repeat" items="{{_items}}">
-          <paper-card heading="Card Title" image="{{item.metadata.image}}">
-            <div class="card-content">
-              <span>{{item.description}}</span>
-            </div>
-            <div class="card-actions">
-              <paper-button raised>Read More</paper-button>
-            </div>
-          </paper-card>
-        </template>
-      </div>
-
-
-
-
-
-
-
+      <template is="dom-repeat" items="{{_items}}">
+        <div class="card_wrap">
+          <div id="card_image">
+            <iron-image sizing="cover" src="{{item.metadata.image}}"></iron-image>
+          </div>
+          <div class="card_heading">
+            <h2>{{item.title}}</h2>
+          </div>
+          <!-- To do- Add iron image / auther photo and name here -->
+        </div>
+      </template>
   </template>
   </div>
   </template>
@@ -84,12 +106,12 @@
           return false
         })
 
+        // const pagesTrimmed = pagesFiltered.slice(2);
+        // this.set("_items", pagesTrimmed);
+
         this.set("_items", pagesFiltered);
 
-        console.log(pagesFiltered);
-        // loop over pages
-        // if page has type === 'news'
-        // return a new array containing the filtered pages
+        // To do - Will need to sort by date created.
       }
     });
   </script>

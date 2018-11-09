@@ -3,6 +3,8 @@
 <link rel="import" href="odl-banner.html">
 <link rel="import" href="odl-action-box.html">
 <link rel="import" href="odl-news-feed.html">
+<link rel="import" href="odl-videos-feed.html">
+<link rel="import" href="odl-testimonials-feed.html">
 <link rel="import" href="../promo-tile/promo-tile.html">
 
 
@@ -70,15 +72,63 @@
       }
 
       #news_wrap {
-        background-color: blue;
+        background-color: whitesmoke;
+      }
+
+      .action_button {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+
+      paper-button#news {
+        display: flex;
+        justify-content: center;
+        border: solid 1px #000;
+        border-radius: 0;
+        margin-bottom: 10px;
+      }
+
+      paper-button#news:hover,
+      paper-button#news:focus {
+        background-color: #e2801e;
+        color: #fff;
+      }
+
+      paper-button#videos {
+        display: flex;
+        justify-content: center;
+        border: solid 1px #000;
+        border-radius: 0;
+        margin-bottom: 10px;
+      }
+
+      paper-button#videos:hover,
+      paper-button#videos:focus {
+        background-color: #e2801e;
+        color: #fff;
+      }
+
+      paper-button#testimonials {
+        display: flex;
+        justify-content: center;
+        border: solid 1px #000;
+        border-radius: 0;
+        margin-bottom: 10px;
+      }
+
+      paper-button#testimonials:hover,
+      paper-button#testimonials:focus {
+        background-color: #e2801e;
+        color: #fff;
       }
 
       #video_wrap {
-        background-color: green;
+        background-color: whitesmoke;
       }
 
       #testimonial_wrap {
-        background-color: purple;
+        background-color: whitesmoke;
       }
     </style>
     <odl-topbar></odl-topbar>
@@ -93,43 +143,61 @@
     </odl-action-box>
     <div id="promo_tile_wrap">
       <div class="promo_tile">
-        <promo-tile title="ELMS:LN" image="assets/odl-images/elmsln-tile.png"
-          alt="student using VR goggles" url="https://www.elmsln.org/">
-          <slot>Create your course using the ELMS:LN platform and gain access to a network of innovative technologies instantly.</slot>
+        <promo-tile title="ELMS:LN" image="assets/odl-images/elmsln-tile.png" alt="ELMS:LN" url="https://www.elmsln.org/">
+          <slot>Create your course using the ELMS:LN platform and gain access to a network of innovative technologies
+            instantly.</slot>
         </promo-tile>
       </div>
       <div class="promo_tile">
-        <promo-tile title="Virtual Reality" image="assets/odl-images/vr-tile.png"
-          alt="student using VR goggles" url="https://www.google.com">
-          <slot>Enter another dimension and add exciting virtual experiences to your online classroom.</slot>
+        <promo-tile title="Virtual Reality" image="assets/odl-images/vr-tile.png" alt="student using VR goggles" url="https://www.google.com">
+          <slot>Enter another dimension and add exciting virtual interactions to your online classroom.</slot>
         </promo-tile>
       </div>
       <div class="promo_tile">
-        <promo-tile title="HAX" image="assets/odl-images/hax-tile.png"
-          alt="student using VR goggles" url="https://haxtheweb.org">
-          <slot>Quickly create and edit accessible, high quality content using this next generation authoring suite.</slot>
+        <promo-tile title="HAX" image="assets/odl-images/hax-tile.png" alt="user enjoying the HAX authoring experience"
+          url="https://haxtheweb.org">
+          <slot>Quickly create and edit accessible, high quality content using this next generation authoring
+            experience.</slot>
         </promo-tile>
       </div>
       <div class="promo_tile">
-        <promo-tile title="One Button Studio" image="assets/odl-images/obs-tile.png"
-          alt="student using VR goggles" url="https://www.google.com">
-          <slot>Film engaging video content for your class with ease using our one button studio.</slot>
+        <promo-tile title="One Button Studio" image="assets/odl-images/obs-test7.png" alt="camera filming video" url="https://www.google.com">
+          <slot>Film engaging video content for your class with ease using our one button studio and light board.</slot>
         </promo-tile>
       </div>
     </div>
-
     <div id="content_wrap">
       <div id="news_wrap" class="news_items">
         <odl-news-feed></odl-news-feed>
+        <div class="action_button">
+          <a href$="#">
+            <paper-button noink id="news">
+              <div class="wrap_action">News</div>
+              <iron-icon icon="chevron-right"></iron-icon>
+            </paper-button>
+          </a>
+        </div>
       </div>
       <div id="video_wrap" class="news_items">
-        <div class="feed_header">
-          <h2>Videos</h2>
+        <odl-videos-feed></odl-videos-feed>
+        <div class="action_button">
+          <a href$="#">
+            <paper-button noink id="videos">
+              <div class="wrap_action">Videos</div>
+              <iron-icon icon="chevron-right"></iron-icon>
+            </paper-button>
+          </a>
         </div>
       </div>
       <div id="testimonial_wrap" class="news_items">
-        <div class="feed_header">
-          <h2>Testimonials</h2>
+        <odl-testimonials-feed></odl-testimonials-feed>
+        <div class="action_button">
+          <a href$="#">
+            <paper-button noink id="testimonials">
+              <div class="wrap_action">Testimonials</div>
+              <iron-icon icon="chevron-right"></iron-icon>
+            </paper-button>
+          </a>
         </div>
       </div>
     </div>

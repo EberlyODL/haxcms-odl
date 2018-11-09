@@ -35,14 +35,34 @@
       "location": "pages/item-5643c669-454b-4789-b91b-37d69980deeb/index.html",
       "order": 1,
       "parent": "item-01619e09-3dbb-491d-b85e-308340724bc6",
-      "title": "News Item 1",
-      "description": "This is an important news post about science stuff.  Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.",
+      "title": "5 Web Accessibility Tips for Developers",
+      "description": "",
       "metadata": {
         "created": 1541517755,
         "updated": 1541517755,
         "type": "news",
         "template": "news",
-        "image": "assets/odl-news-images/news-image-1.png"
+        "image": "assets/odl-news-images/news-image-1.png",
+        "author": "Charles Lavera",
+        "authorImage": ""
+      }
+    },
+    {
+      "id": "item-5643c669-454b-4789-b91b-37d69980deex",
+      "indent": 1,
+      "location": "pages/item-5643c669-454b-4789-b91b-37d69980dex/index.html",
+      "order": 2,
+      "parent": "item-01619e09-3dbb-491d-b85e-308340724bc6",
+      "title": "What do I Need to Know About the Universal Design for Learning (UDL) Framework?",
+      "description": "",
+      "metadata": {
+        "created": 1541517755,
+        "updated": 1541517755,
+        "type": "news",
+        "template": "news",
+        "image": "assets/odl-news-images/news-image-1.png",
+        "author": "Charles Lavera",
+        "authorImage": ""
       }
     },
     {

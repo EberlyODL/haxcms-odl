@@ -1,0 +1,38 @@
+<dom-module id="odl-videos-feed">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+
+      h2 {
+        margin: 0;
+        color: #fff;
+        font-size: 2.5em;
+        font-weight: normal;
+      }
+
+      #videos_feed_wrap {
+        margin: 20px;
+      }
+
+      .feed_header {
+        background-color: #e2801e;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        padding: 5px;
+      }
+    </style>
+    <div id="videos_feed_wrap">
+      <div class="feed_header">
+        <h2>Videos</h2>
+      </div>
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: 'odl-videos-feed'
+    });
+  </script>
+</dom-module>
