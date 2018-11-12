@@ -1,0 +1,102 @@
+<dom-module id="odl-footer">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+      #social_wrap {
+        background-color: #363533;
+        height: 80px;
+        padding: 25px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #icons {
+        display: flex;
+        color: #fff;
+      }
+      #info_wrap {
+        background-color: #e2801e;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-weight: 100;
+      }
+
+      .legal_statement {
+        display: flex;
+        padding-top: 10px;
+      }
+
+      .legal_item {
+        color: #fff;
+        padding: 0 5px 25px 0;
+      }
+
+      .legal_item a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .legal_item a:hover {
+        color: #000;
+      }
+
+      @media screen and (max-width: 600px) {
+        .legal_item  {
+          font-size: 12px;
+        }
+      }
+
+    </style>
+    <div id="footer_wrap">
+      <div id="social_wrap">
+        <div id="icons">
+          <div class="icon">Twitter</div>
+          <div class="icon">Vimeo</div>
+          <div class="icon">Pinterest</div>
+          <div class="icon">Flickr</div>
+          <div class="icon">YouTube</div>
+          <div class="icon">Email</div>
+        </div>
+      </div>
+      <div id="info_wrap">
+        <div class="address">221 Ritenour | University Park, PA 16802 | (814)
+          867-1391</div>
+        <div id="basement">
+          <div class="legal_statement">
+            <div class="legal_item">
+              <a href="https://www.psu.edu/web-privacy-statement"
+                target="_blank">Privacy |</a>
+            </div>
+            <div class="legal_item">
+              <a href="https://policy.psu.edu/policies" target="_blank">Non
+                Discrimination |</a>
+            </div>
+            <div class="legal_item">
+              <a href="https://policy.psu.edu/policies" target="_blank">Equal
+                Opportunity |</a>
+            </div>
+            <div class="legal_item">
+              <a href="https://www.psu.edu/accessibilitystatement"
+                target="_blank">Accessibility |</a>
+            </div>
+            <div class="legal_item">
+              <a href="https://www.psu.edu/copyright-information"
+                target="_blank">Copyright</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: "odl-footer"
+    });
+  </script>
+</dom-module>
