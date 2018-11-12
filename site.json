@@ -17,9 +17,9 @@
   },
   "items": [
     {
-      "id": "item-01619e09-3dbb-491d-b85e-308340724bc6",
+      "id": "news",
       "indent": 0,
-      "location": "pages/item-6eca39d1-5cf3-4a33-80df-000f4e453101/index.html",
+      "location": "pages/news/index.html",
       "order": 1,
       "parent": null,
       "title": "News",
@@ -30,11 +30,11 @@
       }
     },
     {
-      "id": "item-5643c669-454b-4789-b91b-37d69980deeb",
+      "id": "accessibility_tips_for_developers",
       "indent": 1,
-      "location": "pages/item-5643c669-454b-4789-b91b-37d69980deeb/index.html",
+      "location": "pages/blog-posts/10-22-18/index.html",
       "order": 1,
-      "parent": "item-01619e09-3dbb-491d-b85e-308340724bc6",
+      "parent": "news",
       "title": "5 Web Accessibility Tips for Developers",
       "description": "",
       "metadata": {
@@ -42,17 +42,17 @@
         "updated": 1541517755,
         "type": "news",
         "template": "news",
-        "image": "assets/odl-news-images/news-image-1.png",
+        "image": "assets/blog-images/10_22_18.jpg",
         "author": "Charles Lavera",
-        "authorImage": ""
+        "authorImage": "assets/odl-team/chuck.jpg"
       }
     },
     {
-      "id": "item-5643c669-454b-4789-b91b-37d69980deex",
+      "id": "udl_design_framework",
       "indent": 1,
-      "location": "pages/item-5643c669-454b-4789-b91b-37d69980dex/index.html",
+      "location": "pages/blog-posts/10-9-18/index.html",
       "order": 2,
-      "parent": "item-01619e09-3dbb-491d-b85e-308340724bc6",
+      "parent": "news",
       "title": "What do I Need to Know About the Universal Design for Learning (UDL) Framework?",
       "description": "",
       "metadata": {
@@ -60,15 +60,33 @@
         "updated": 1541517755,
         "type": "news",
         "template": "news",
-        "image": "assets/odl-news-images/news-image-1.png",
-        "author": "Charles Lavera",
-        "authorImage": ""
+        "image": "assets/blog-images/10_9_18.jpg",
+        "author": "Carly Dreibelbis",
+        "authorImage": "assets/odl-team/carly.jpg"
       }
     },
     {
-      "id": "item-dd007fc5-b3bf-4e2d-a961-2177e74135f7",
+      "id": "kaltura_update",
+      "indent": 1,
+      "location": "pages/blog-posts/8-14-18/index.html",
+      "order": 2,
+      "parent": "news",
+      "title": "Kaltura: What You Need To Know",
+      "description": "",
+      "metadata": {
+        "created": 1541517756,
+        "updated": 1541517757,
+        "type": "news",
+        "template": "news",
+        "image": "assets/blog-images/8-14-18.jpg",
+        "author": "Charles Lavera",
+        "authorImage": "assets/odl-team/chuck.jpg"
+      }
+    },
+    {
+      "id": "about",
       "indent": 0,
-      "location": "pages/item-e000d1ea-0165-470f-9109-aa2b5073757c/index.html",
+      "location": "pages/about/index.html",
       "order": 2,
       "parent": null,
       "title": "About",
@@ -79,9 +97,9 @@
       }
     },
     {
-      "id": "item-5270cc7f-0310-4a6f-9872-812069eead4c",
+      "id": "contact",
       "indent": 0,
-      "location": "pages/item-ed5983a0-54bc-45d7-ad38-8a1e301145c7/index.html",
+      "location": "pages/contact/index.html",
       "order": 3,
       "parent": null,
       "title": "Contact",
