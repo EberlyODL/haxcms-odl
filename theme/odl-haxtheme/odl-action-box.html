@@ -5,7 +5,13 @@
     <style>
       :host {
         display: block;
-        background-color: #363533;
+        --theme-color-1: #363533;
+        --theme-color-2: #e2801e;
+        --theme-color-4: #fff;
+      }
+
+      #box_wrap {
+        background-color: var(--theme-color-1);
       }
 
       .action_text {
@@ -14,18 +20,18 @@
         margin-top: -1px;
         margin-left: auto;
         margin-right: auto;
-        font-size: 1.5em;
+        font-size: 24px;
         font-weight: 100;
-        color: #fff;
+        color: var(--theme-color-4);
         line-height: 1.5;
       }
 
       @media screen and (max-width: 700px) {
         .action_text {
           width: 93%;
-          font-size: 1.2em;
+          font-size: 18px;
           padding: 20px 15px;
-          border-top: solid 5px #e2801e;
+          border-top: solid 5px var(--theme-color-2);
         }
       }
 
@@ -46,17 +52,17 @@
       }
 
       paper-button#learn {
-        color: #fff;
-        border: solid 1px #fff;
+        color: var(--theme-color-4);
+        border: solid 1px var(--theme-color-4);
         border-radius: 0;
       }
 
       paper-button#learn:hover,
       paper-button#learn:focus {
-        background-color: #e2801e;
+        background-color: var(--theme-color-2);
       }
     </style>
-    <div class="box_wrap">
+    <div id="box_wrap">
       <div class="action_text">
         <slot name="action_text"></slot>
       </div>

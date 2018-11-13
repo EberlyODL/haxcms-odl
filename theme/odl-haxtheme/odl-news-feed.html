@@ -4,6 +4,9 @@
     <style>
       :host {
         display: block;
+        --theme-color-1: #363533;
+        --theme-color-2: #e2801e;
+        --theme-color-4: #fff;
       }
 
       h2 {
@@ -13,7 +16,7 @@
 
       .feed_header h2 {
         margin: 0;
-        color: #fff;
+        color: var(--theme-color-4);
         font-size: 40px;
         font-weight: normal;
       }
@@ -23,7 +26,7 @@
       }
 
       .feed_header {
-        background-color: #e2801e;
+        background-color: var(--theme-color-2);
         display: flex;
         justify-content: center;
         margin-bottom: 20px;
@@ -31,10 +34,10 @@
       }
 
       #card_wrap {
-        background-color: white;
+        background-color: var(--font-color);
         margin: 10px;
         padding: 15px;
-        box-shadow: 0 1px 2px #cfd8dc;
+        box-shadow: 0 1px 2px #dcdcdc;
       }
 
       #card_image {
@@ -47,7 +50,7 @@
       }
 
       #card_heading h2 {
-        color: #363533;
+        color: var(--theme-color-1);
         margin: 11px 0px 11px;
         font-size: 18px;
       }
@@ -57,7 +60,7 @@
       }
 
       #card_heading h2:hover {
-        color: #e2801e;
+        color: var(--theme-color-2);
       }
 
       #card_footer {
