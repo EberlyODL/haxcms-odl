@@ -1,0 +1,82 @@
+<link rel="import" href="../iron-image/iron-image.html">
+<link rel="import" href="../paper-button/paper-button.html">
+
+<dom-module id="odl-team-card">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+      #card_wrap {
+        margin: 10px;
+      }
+      #card_image iron-image {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+    <div id="card_wrap">
+
+      <paper-button on-tap="__setPage">
+        <div id="card_image">
+          <iron-image style="width:300px; height:300px;" sizing="cover"
+            src="[[image]]"></iron-image>
+        </div>
+      </paper-button>
+
+      <div id="name">[[name]]</div>
+      <div id="position">[[position]]</div>
+    </div>
+
+  </template>
+  <script>
+    Polymer({
+        is: 'odl-team-card',
+        properties: {
+        /**
+        * url
+        */
+        url: {
+          type: String,
+          value: '',
+          reflectToAttribute: true,
+        },
+        /**
+        * image
+        */
+        image: {
+          type: String,
+          value: '',
+          reflectToAttribute: true,
+        },
+        /**
+        * name
+        */
+        name: {
+          type: String,
+          value: '',
+          reflectToAttribute: true,
+        },
+        /**
+        * position
+        */
+        position: {
+          type: String,
+          value: '',
+          reflectToAttribute: true,
+        
+        },
+        /**
+        * id of page
+        */
+        item: {
+          type: Object,
+        }
+        },
+        __setPage: function () {
+          this.fire('json-outline-schema-active-item-changed', this.item);
+        },
+      });
+    
+  </script>
+</dom-module>

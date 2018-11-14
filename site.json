@@ -51,7 +51,7 @@
       "id": "udl_design_framework",
       "indent": 1,
       "location": "pages/blog-posts/10-9-18/index.html",
-      "order": 2,
+      "order": 1,
       "parent": "news",
       "title": "What do I Need to Know About the Universal Design for Learning (UDL) Framework?",
       "description": "",
@@ -81,6 +81,61 @@
         "image": "assets/blog-images/8-14-18.jpg",
         "author": "Charles Lavera",
         "authorImage": "assets/odl-team/chuck.jpg"
+      }
+    },
+    {
+      "id": "team",
+      "indent": 0,
+      "location": "pages/team/index.html",
+      "order": 3,
+      "parent": null,
+      "title": "Team",
+      "description": "",
+      "metadata": {
+        "created": 1541517724,
+        "updated": 1541517767
+      }
+    },
+    {
+      "id": "melissa",
+      "indent": 1,
+      "location": "pages/team-directory/melissa/index.html",
+      "order": 1,
+      "parent": "team",
+      "title": "Melissa Hicks",
+      "description": "",
+      "metadata": {
+        "created": 1541517756,
+        "updated": 1541517757,
+        "type": "team",
+        "template": "team",
+        "image": "assets/odl-team/melissa.png",
+        "jobTitle": "Director / Instructional Designer",
+        "address": "221 Ritenour",
+        "phone": "555-555-555",
+        "email": "example@psu.edu",
+        "twitter": "@JustStormy"
+      }
+    },
+    {
+      "id": "mike",
+      "indent": 1,
+      "location": "pages/team-directory/mike/index.html",
+      "order": 2,
+      "parent": "team",
+      "title": "Michael Potter",
+      "description": "",
+      "metadata": {
+        "created": 1541517756,
+        "updated": 1541517757,
+        "type": "team",
+        "template": "team",
+        "image": "assets/odl-team/mike.jpg",
+        "jobTitle": "Educational Technologist",
+        "address": "221 Ritenour",
+        "phone": "555-555-555",
+        "email": "example@psu.edu",
+        "twitter": "@hey__MP"
       }
     },
     {

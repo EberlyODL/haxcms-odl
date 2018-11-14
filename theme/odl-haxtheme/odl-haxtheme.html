@@ -6,13 +6,18 @@
 <link rel="import" href="../paper-button/paper-button.html">
 <link rel="import" href="../iron-icons/iron-icons.html">
 <link rel="import" href="../map-menu/map-menu.html">
+<link rel="import" href="../iron-pages/iron-pages.html">
 
 
 <link rel="import" href="odl-haxtheme-home.html">
 <link rel="import" href="odl-haxtheme-news.html">
+<link rel="import" href="odl-topbar.html">
+<link rel="import" href="temp-nav.html">
+<link rel="import" href="odl-footer.html">
 <link rel="import" href="scroll-to-top.html">
 
-<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100"
+  rel="stylesheet">
 
 <!--
 `odl-haxtheme`
@@ -32,10 +37,18 @@ and then IF hax is around it'll show up :)
       }
 
     </style>
-
-    <!-- <odl-haxtheme-news></odl-haxtheme-news> -->
-    <odl-haxtheme-home></odl-haxtheme-home>
+    
+    <odl-topbar></odl-topbar>
+    <temp-nav></temp-nav>
+    <iron-pages selected="[[selectedPage]]">
+      <odl-haxtheme-home></odl-haxtheme-home>
+      <odl-haxtheme-news></odl-haxtheme-news>
+      <div>Page 2</div>
+      <div>Page 3</div>
+    </iron-pages>
     <scroll-to-top></scroll-to-top>
+    <odl-footer></odl-footer>
+
 
 
 
@@ -71,6 +84,22 @@ and then IF hax is around it'll show up :)
         HAXCMSBehaviors.Theme,
       ],
       properties: {
+          /**
+          * The "page" to show (overview or blog post itself).
+          */
+          selectedPage: {
+          type: Number,
+          reflectToAttribute: true,
+          value: 0,
+        },
+          /**
+         * item in JSON Outline Schema Item format
+         */
+         activeItem: {
+          type: Object,
+          notify: true,
+        },
+        
         // The behavior gives you editMode, activeItem and manifest
         // You can add whatever else you need here
       },
@@ -87,6 +116,30 @@ and then IF hax is around it'll show up :)
       ready: function () {
         // required so that HAX is injected when available
         this.setupHAXTheme();
+        document.body.addEventListener('json-outline-schema-active-item-changed', this._activeItemEvent.bind(this));
+      },
+       /**
+       * Notice active item changed state
+       */
+       _activeItemEvent: function (e) {
+        if (typeof e.detail.id !== typeof undefined) {
+          switch (e.detail.metadata.type) {
+          case 'news':
+          this.selectedPage = 2;
+        // whatever
+        break;
+        case 'team-member':
+          this.selectedPage = 3;
+          // whatever
+          break;
+      }
+          window.scrollTo(0, 0);
+          this.set('activeItem', e.detail);
+
+        }
+        else {
+          this.selectedPage = 0;
+        }
       },
       /**
        * Detatched life cycle
@@ -94,6 +147,7 @@ and then IF hax is around it'll show up :)
       detached: function () {
         // this helps with cleaning things up if the theme is changed
         this.setupHAXTheme(false);
+        document.body.removeEventListener('json-outline-schema-active-item-changed', this._activeItemEvent.bind(this));
       },
       /**
        * Settings activeItem to nothing will ensure that state goes back to nothing active

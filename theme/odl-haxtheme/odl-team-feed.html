@@ -1,0 +1,66 @@
+<link rel="import" href="odl-team-card.html">
+<dom-module id="odl-team-feed">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    
+        </style>
+    <template is="dom-repeat" items="{{_items}}">
+      <odl-team-card name="{{item.title}}" image="{{item.metadata.image}}"
+        item="{{item}}" position="{{item.metadata.jobTitle}}"></odl-team-card>
+    </template>
+  </template>
+  <script>
+    Polymer({
+        is: 'odl-team-feed',
+        properties: {
+        /**
+        * Type of data to select from site.json
+        */
+        type: {
+          type: String,
+          value: 'team',
+          reflectToAttribute: true,
+        },
+        /**
+        * Items from sites.json
+        */
+        _items: {
+          type: Array,
+          value: [],
+        },
+
+      },
+      _getLink: function (id) {
+        return `?page=item-${id}`
+      },      
+
+      ready: async function () {
+        const manifest = await fetch('/_sites/odl/site.json').then(res => res.json())
+        const pages = manifest.items
+        const pagesFiltered = pages.filter(item => {
+          if (typeof item.metadata !== 'undefined') {
+            if (typeof item.metadata.type !== 'undefined') {
+              if (item.metadata.type === 'team') {
+                return true;
+              }
+            }
+          }
+          return false
+        })
+        
+        // const pagesTrimmed = pagesFiltered.slice(2);
+        // this.set("_items", pagesTrimmed);
+        console.log(pagesFiltered);
+        this.set("_items", pagesFiltered);
+
+        // To do - Will need to sort by date created.
+      }
+
+     
+    
+      });
+    </script>
+</dom-module>
