@@ -42,7 +42,11 @@ and then IF hax is around it'll show up :)
     <temp-nav></temp-nav>
     <iron-pages selected="[[selectedPage]]">
       <odl-haxtheme-home></odl-haxtheme-home>
-      <odl-haxtheme-news></odl-haxtheme-news>
+      <odl-haxtheme-news>
+          <div id="slot">
+            <slot></slot>
+          </div>
+      </odl-haxtheme-news>
       <div>Page 2</div>
       <div>Page 3</div>
     </iron-pages>
@@ -52,7 +56,7 @@ and then IF hax is around it'll show up :)
 
 
 
-    <!-- <h1 style="margin:0;">[[manifest.title]]</h1> -->
+    
     <map-menu id="menu"></map-menu>
 
 
@@ -66,10 +70,8 @@ and then IF hax is around it'll show up :)
     </div> -->
     <div class="activeitem">
       <paper-button id="unset">Unset activeItem</paper-button>
-      <!-- <h2>ACTIVE ITEM</h2> -->
-      <div>[[activeItem.title]]</div>
       <div id="contentcontainer">
-        <div id="slot">
+        
           <slot></slot>
         </div>
       </div>
@@ -122,11 +124,15 @@ and then IF hax is around it'll show up :)
        * Notice active item changed state
        */
        _activeItemEvent: function (e) {
+        // console.log(e.detail);
         if (typeof e.detail.id !== typeof undefined) {
-          switch (e.detail.metadata.type) {
+          switch (e.detail.id) {
+          case 'home':
+          this.selectedPage = 0;
+         break;
           case 'news':
-          this.selectedPage = 2;
-        // whatever
+          this.selectedPage = 1;
+          // Polymer.cmsSiteEditor.requestAvailability(this, this.$.blogpost.$.contentcontainer);
         break;
         case 'team-member':
           this.selectedPage = 3;

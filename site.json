@@ -1,168 +1,181 @@
 {
-  "id": "3474a06d-9d3b-4ec7-ba9b-0a448a6e685e",
-  "title": "odl",
-  "author": "",
-  "description": "",
-  "license": "by-sa",
-  "metadata": {
-    "siteName": "odl",
-    "image": "assets/banner.jpg",
-    "theme": "odl-haxtheme",
-    "icon": "icons:add-circle-outline",
-    "domain": "https://odl.surge.sh",
-    "hexCode": "#5a0020",
-    "created": 1539789245,
-    "updated": 1541517755,
-    "cssVariable": "--simple-colors-pink-foreground1"
-  },
-  "items": [
-    {
-      "id": "news",
-      "indent": 0,
-      "location": "pages/news/index.html",
-      "order": 1,
-      "parent": null,
-      "title": "News",
-      "description": "",
-      "metadata": {
-        "created": 1541517755,
-        "updated": 1541517755
-      }
-    },
-    {
-      "id": "accessibility_tips_for_developers",
-      "indent": 1,
-      "location": "pages/blog-posts/10-22-18/index.html",
-      "order": 1,
-      "parent": "news",
-      "title": "5 Web Accessibility Tips for Developers",
-      "description": "",
-      "metadata": {
-        "created": 1541517755,
+    "id": "3474a06d-9d3b-4ec7-ba9b-0a448a6e685e",
+    "title": "odl",
+    "author": "",
+    "description": "",
+    "license": "by-sa",
+    "metadata": {
+        "siteName": "odl",
+        "image": "assets\/banner.jpg",
+        "theme": "odl-haxtheme",
+        "icon": "icons:add-circle-outline",
+        "domain": "https:\/\/odl.surge.sh",
+        "hexCode": "#5a0020",
+        "created": 1539789245,
         "updated": 1541517755,
-        "type": "news",
-        "template": "news",
-        "image": "assets/blog-images/10_22_18.jpg",
-        "author": "Charles Lavera",
-        "authorImage": "assets/odl-team/chuck.jpg"
-      }
+        "cssVariable": "--simple-colors-pink-foreground1"
     },
-    {
-      "id": "udl_design_framework",
-      "indent": 1,
-      "location": "pages/blog-posts/10-9-18/index.html",
-      "order": 1,
-      "parent": "news",
-      "title": "What do I Need to Know About the Universal Design for Learning (UDL) Framework?",
-      "description": "",
-      "metadata": {
-        "created": 1541517755,
-        "updated": 1541517755,
-        "type": "news",
-        "template": "news",
-        "image": "assets/blog-images/10_9_18.jpg",
-        "author": "Carly Dreibelbis",
-        "authorImage": "assets/odl-team/carly.jpg"
-      }
-    },
-    {
-      "id": "kaltura_update",
-      "indent": 1,
-      "location": "pages/blog-posts/8-14-18/index.html",
-      "order": 2,
-      "parent": "news",
-      "title": "Kaltura: What You Need To Know",
-      "description": "",
-      "metadata": {
-        "created": 1541517756,
-        "updated": 1541517757,
-        "type": "news",
-        "template": "news",
-        "image": "assets/blog-images/8-14-18.jpg",
-        "author": "Charles Lavera",
-        "authorImage": "assets/odl-team/chuck.jpg"
-      }
-    },
-    {
-      "id": "team",
-      "indent": 0,
-      "location": "pages/team/index.html",
-      "order": 3,
-      "parent": null,
-      "title": "Team",
-      "description": "",
-      "metadata": {
-        "created": 1541517724,
-        "updated": 1541517767
-      }
-    },
-    {
-      "id": "melissa",
-      "indent": 1,
-      "location": "pages/team-directory/melissa/index.html",
-      "order": 1,
-      "parent": "team",
-      "title": "Melissa Hicks",
-      "description": "",
-      "metadata": {
-        "created": 1541517756,
-        "updated": 1541517757,
-        "type": "team",
-        "template": "team",
-        "image": "assets/odl-team/melissa.png",
-        "jobTitle": "Director / Instructional Designer",
-        "address": "221 Ritenour",
-        "phone": "555-555-555",
-        "email": "example@psu.edu",
-        "twitter": "@JustStormy"
-      }
-    },
-    {
-      "id": "mike",
-      "indent": 1,
-      "location": "pages/team-directory/mike/index.html",
-      "order": 2,
-      "parent": "team",
-      "title": "Michael Potter",
-      "description": "",
-      "metadata": {
-        "created": 1541517756,
-        "updated": 1541517757,
-        "type": "team",
-        "template": "team",
-        "image": "assets/odl-team/mike.jpg",
-        "jobTitle": "Educational Technologist",
-        "address": "221 Ritenour",
-        "phone": "555-555-555",
-        "email": "example@psu.edu",
-        "twitter": "@hey__MP"
-      }
-    },
-    {
-      "id": "about",
-      "indent": 0,
-      "location": "pages/about/index.html",
-      "order": 2,
-      "parent": null,
-      "title": "About",
-      "description": "",
-      "metadata": {
-        "created": 1541517755,
-        "updated": 1541517755
-      }
-    },
-    {
-      "id": "contact",
-      "indent": 0,
-      "location": "pages/contact/index.html",
-      "order": 3,
-      "parent": null,
-      "title": "Contact",
-      "description": "",
-      "metadata": {
-        "created": 1541517755,
-        "updated": 1541517755
-      }
-    }
-  ]
+    "items": [
+        {
+            "id": "home",
+            "indent": 0,
+            "location": "pages\/home\/index.html",
+            "order": 1,
+            "parent": null,
+            "title": "Home",
+            "description": "this is my home page\n",
+            "metadata": {
+                "created": 1541517715,
+                "updated": 1542224773
+            }
+        },
+        {
+            "id": "news",
+            "indent": 0,
+            "location": "pages\/news\/index.html",
+            "order": 1,
+            "parent": null,
+            "title": "News",
+            "description": "News FUll page!\n",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1542224931
+            }
+        },
+        {
+            "id": "accessibility_tips_for_developers",
+            "indent": 1,
+            "location": "pages\/blog-posts\/10-22-18\/index.html",
+            "order": 1,
+            "parent": "news",
+            "title": "5 Web Accessibility Tips for Developers",
+            "description": "",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "news",
+                "template": "news",
+                "image": "assets\/blog-images\/10_22_18.jpg",
+                "author": "Charles Lavera",
+                "authorImage": "assets\/odl-team\/chuck.jpg"
+            }
+        },
+        {
+            "id": "udl_design_framework",
+            "indent": 1,
+            "location": "pages\/blog-posts\/10-9-18\/index.html",
+            "order": 1,
+            "parent": "news",
+            "title": "What do I Need to Know About the Universal Design for Learning (UDL) Framework?",
+            "description": "",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "news",
+                "template": "news",
+                "image": "assets\/blog-images\/10_9_18.jpg",
+                "author": "Carly Dreibelbis",
+                "authorImage": "assets\/odl-team\/carly.jpg"
+            }
+        },
+        {
+            "id": "kaltura_update",
+            "indent": 1,
+            "location": "pages\/blog-posts\/8-14-18\/index.html",
+            "order": 2,
+            "parent": "news",
+            "title": "Kaltura: What You Need To Know",
+            "description": "",
+            "metadata": {
+                "created": 1541517756,
+                "updated": 1541517757,
+                "type": "news",
+                "template": "news",
+                "image": "assets\/blog-images\/8-14-18.jpg",
+                "author": "Charles Lavera",
+                "authorImage": "assets\/odl-team\/chuck.jpg"
+            }
+        },
+        {
+            "id": "team",
+            "indent": 0,
+            "location": "pages\/team\/index.html",
+            "order": 3,
+            "parent": null,
+            "title": "Team",
+            "description": "",
+            "metadata": {
+                "created": 1541517724,
+                "updated": 1541517767
+            }
+        },
+        {
+            "id": "melissa",
+            "indent": 1,
+            "location": "pages\/team-directory\/melissa\/index.html",
+            "order": 1,
+            "parent": "team",
+            "title": "Melissa Hicks",
+            "description": "",
+            "metadata": {
+                "created": 1541517756,
+                "updated": 1541517757,
+                "type": "team",
+                "template": "team",
+                "image": "assets\/odl-team\/melissa.png",
+                "jobTitle": "Director \/ Instructional Designer",
+                "address": "221 Ritenour",
+                "phone": "555-555-555",
+                "email": "example@psu.edu",
+                "twitter": "@JustStormy"
+            }
+        },
+        {
+            "id": "mike",
+            "indent": 1,
+            "location": "pages\/team-directory\/mike\/index.html",
+            "order": 2,
+            "parent": "team",
+            "title": "Michael Potter",
+            "description": "",
+            "metadata": {
+                "created": 1541517756,
+                "updated": 1541517757,
+                "type": "team",
+                "template": "team",
+                "image": "assets\/odl-team\/mike.jpg",
+                "jobTitle": "Educational Technologist",
+                "address": "221 Ritenour",
+                "phone": "555-555-555",
+                "email": "example@psu.edu",
+                "twitter": "@hey__MP"
+            }
+        },
+        {
+            "id": "about",
+            "indent": 0,
+            "location": "pages\/about\/index.html",
+            "order": 2,
+            "parent": null,
+            "title": "About",
+            "description": "",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755
+            }
+        },
+        {
+            "id": "contact",
+            "indent": 0,
+            "location": "pages\/contact\/index.html",
+            "order": 3,
+            "parent": null,
+            "title": "Contact",
+            "description": "",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755
+            }
+        }
+    ]
 }
