@@ -1,12 +1,67 @@
-
+<link rel="import" href="page-banner.html">
+<link rel="import" href="../iron-image/iron-image.html">
 <dom-module id="odl-haxtheme-news">
   <template>
     <style>
       :host {
         display: block;
       }
+
+      #news_wrap {
+     
+      }
+
+      .news_container {
+        display: flex;
+      }
+
+      #card_wrap {
+        background-color: var(--font-color);
+        margin: 10px;
+        padding: 15px;
+        box-shadow: 0 1px 2px #dcdcdc;
+      }
+
+      #card_image {
+        height: 176px;
+      }
+
+      #card_image iron-image {
+        height: 100%;
+        width: 100%;
+      }
+
+      .sidebar_wrap {
+        background-color: red;
+      }
     </style>
-    <div>this is my news page</div>
+    <page-banner image="../odl/assets/theme-images/page-banners/news_banner.png" text="News" alt="alt text here"></page-banner>
+    <div id="news_wrap">
+      <div class="news_container">
+        <div class="news_page_feed">
+          <template is="dom-repeat" items="{{_items}}">
+              <div id="card_wrap">
+                <div id="card_image">
+                  <iron-image sizing="cover" src="{{item.metadata.image}}"></iron-image>
+                </div>
+                <div id="card_heading">
+                  <a href$="[[_getLink(item.id)]]">
+                    <h2>{{item.title}}</h2>
+                  </a>
+                </div>
+                <div id="card_footer">
+                  <iron-image id="author_image" style="width:50px; height:50px;" sizing="cover" src="{{item.metadata.authorImage}}"></iron-image>
+                  <div id="author_name">{{item.metadata.author}}</div>
+                </div>
+              </div>
+            </template>
+        </div>
+        <div class="sidebar_wrap">
+          <div>Sidebar content here</div>
+        </div>
+
+      </div>
+    </div>
 
    <!-- The slot area is for content that will be edited by HAX
     <slot></slot> -->
@@ -15,7 +70,50 @@
   </template>
   <script>
     Polymer({
-      is: 'odl-haxtheme-news'
+      is: 'odl-haxtheme-news',
+      properties: {
+        /**
+        * Type of data to select from site.json
+        */
+        type: {
+          type: String,
+          value: 'news',
+          reflectToAttribute: true,
+        },
+        /**
+        * Items from sites.json
+        */
+        _items: {
+          type: Array,
+          value: [],
+        },
+      },
+
+      _getLink: function (id) {
+        return `?page=item-${id}`
+      },      
+
+      ready: async function () {
+        const manifest = await fetch('/_sites/odl/site.json').then(res => res.json())
+        const pages = manifest.items
+        const pagesFiltered = pages.filter(item => {
+          if (typeof item.metadata !== 'undefined') {
+            if (typeof item.metadata.type !== 'undefined') {
+              if (item.metadata.type === 'news') {
+                return true;
+              }
+            }
+          }
+          return false
+        })
+
+        // const pagesTrimmed = pagesFiltered.slice(2);
+        // this.set("_items", pagesTrimmed);
+
+        this.set("_items", pagesFiltered);
+
+        // To do - Will need to sort by date created.
+      }
     });
   </script>
 </dom-module>

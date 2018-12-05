@@ -2,7 +2,7 @@
 <link rel="import" href="odl-action-box.html">
 <link rel="import" href="odl-news-feed.html">
 <link rel="import" href="odl-videos-feed.html">
-<link rel="import" href="odl-testimonials-feed.html">
+<link rel="import" href="odl-highlights-feed.html">
 
 <link rel="import" href="../promo-tile/promo-tile.html">
 <dom-module id="odl-haxtheme-home">
@@ -117,7 +117,7 @@
         background-color: var(--theme-color-3);
       }
 
-      paper-button#testimonials {
+      paper-button#highlights {
         display: flex;
         justify-content: center;
         border: solid 1px #000;
@@ -125,8 +125,8 @@
         margin-bottom: 10px;
       }
 
-      paper-button#testimonials:hover,
-      paper-button#testimonials:focus {
+      paper-button#highlights:hover,
+      paper-button#highlights:focus {
         background-color: var(--theme-color-2);
         color: var(--theme-color-4);
       }
@@ -205,11 +205,11 @@
         </div>
       </div>
       <div id="testimonial_wrap" class="news_items">
-        <odl-testimonials-feed></odl-testimonials-feed>
+        <odl-highlights-feed></odl-highlights-feed>
         <div class="action_button">
           <a href$="#">
-            <paper-button noink id="testimonials">
-              <div class="wrap_action">Testimonials</div>
+            <paper-button noink id="highlights">
+              <div class="wrap_action">highlights</div>
               <iron-icon icon="chevron-right"></iron-icon>
             </paper-button>
           </a>
