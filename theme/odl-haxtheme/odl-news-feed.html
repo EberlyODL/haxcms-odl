@@ -77,19 +77,19 @@
       <div class="feed_header">
         <h2>News</h2>
       </div>
-      <template is="dom-repeat" items="{{_items}}">
+      <template is="dom-repeat" items="[[_items]]">
         <div id="card_wrap">
           <div id="card_image">
-            <iron-image sizing="cover" src="{{item.metadata.image}}"></iron-image>
+            <iron-image sizing="cover" src="[[item.metadata.image]]"></iron-image>
           </div>
           <div id="card_heading">
             <a href$="[[_getLink(item.id)]]">
-              <h2>{{item.title}}</h2>
+              <h2>[[item.title]]</h2>
             </a>
           </div>
           <div id="card_footer">
-            <iron-image id="author_image" style="width:50px; height:50px;" sizing="cover" src="{{item.metadata.authorImage}}"></iron-image>
-            <div id="author_name">{{item.metadata.author}}</div>
+            <iron-image id="author_image" style="width:50px; height:50px;" sizing="cover" src="[[item.metadata.authorImage]]"></iron-image>
+            <div id="author_name">[[item.metadata.author]]</div>
           </div>
         </div>
       </template>

@@ -7,9 +7,9 @@
       }
     
         </style>
-    <template is="dom-repeat" items="{{_items}}">
-      <odl-team-card name="{{item.title}}" image="{{item.metadata.image}}"
-        item="{{item}}" position="{{item.metadata.jobTitle}}"></odl-team-card>
+    <template is="dom-repeat" items="[[_items]]">
+      <odl-team-card name="[[item.title]]" image="[[item.metadata.image]]"
+        item="[[item]]" position="[[item.metadata.jobTitle]]"></odl-team-card>
     </template>
   </template>
   <script>
