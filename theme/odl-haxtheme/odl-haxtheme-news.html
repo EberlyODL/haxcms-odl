@@ -24,8 +24,21 @@
         margin-right: auto;
       }
 
+      @media screen and (max-width: 768px) {
+        .news_container {
+          flex-direction: column;
+          width: 98%;
+        }
+      }
+
       .news_page_feed {
         width: 75%;
+      }
+
+      @media screen and (max-width: 768px) {
+        .news_page_feed {
+          width: 100%;
+        }
       }
 
       #card_wrap {
@@ -38,6 +51,19 @@
       #card_image {
         margin-right: 15px;
         float: left;
+      }
+
+      @media screen and (max-width: 768px) {
+        #card_image {
+          float: none;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        #card_image iron-image {
+          width: 100% !important;
+          height: 200px;
+        }
       }
 
       #card_image iron-image {
@@ -63,6 +89,21 @@
         width: 25%;
         margin-top: 15px;
       }
+
+      @media screen and (max-width: 768px) {
+       .sidebar_wrap {
+          width: 100%;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        #twitter_feed {
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    
 
       #card_description {
         margin-bottom: 10px;
@@ -90,8 +131,7 @@
           <template is="dom-repeat" items="[[_items]]">
             <div id="card_wrap">
               <div id="card_image">
-                <iron-image  sizing="cover"
-                  src="[[item.metadata.image]]"></iron-image>
+                <iron-image  sizing="cover" src="[[item.metadata.image]]"></iron-image>
               </div>
               <div id="card_heading">
                 <a href$="[[_getLink(item.id)]]">
