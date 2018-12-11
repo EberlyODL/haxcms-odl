@@ -11,6 +11,7 @@
 
 <link rel="import" href="odl-haxtheme-home.html">
 <link rel="import" href="odl-haxtheme-news.html">
+<link rel="import" href="odl-team-feed.html">
 <link rel="import" href="odl-topbar.html">
 <link rel="import" href="temp-nav.html">
 <link rel="import" href="odl-footer.html">
@@ -33,7 +34,6 @@ and then IF hax is around it'll show up :)
     <style is="custom-style" include="simple-colors">
      ::slotted(*) {
         font-family: "Roboto", sans-serif;
-        font-size: 18px;
       }
 
     </style>
@@ -41,14 +41,18 @@ and then IF hax is around it'll show up :)
     <odl-topbar></odl-topbar>
     <temp-nav></temp-nav>
     <iron-pages selected="[[selectedPage]]">
-      <odl-haxtheme-home></odl-haxtheme-home>
+      <odl-haxtheme-home>
+                  <div id="slot">
+            <slot></slot>
+          </div>
+      </odl-haxtheme-home>
       <odl-haxtheme-news>
           <div id="slot">
             <slot></slot>
           </div>
       </odl-haxtheme-news>
       <div>Page 2</div>
-      <div>Page 3</div>
+      <odl-team-feed></odl-team-feed>
     </iron-pages>
     <scroll-to-top></scroll-to-top>
     <odl-footer></odl-footer>
@@ -134,7 +138,7 @@ and then IF hax is around it'll show up :)
           this.selectedPage = 1;
           // Polymer.cmsSiteEditor.requestAvailability(this, this.$.blogpost.$.contentcontainer);
         break;
-        case 'team-member':
+        case 'team':
           this.selectedPage = 3;
           // whatever
           break;

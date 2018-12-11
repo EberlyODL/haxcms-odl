@@ -23,10 +23,10 @@
             "order": 1,
             "parent": null,
             "title": "Home",
-            "description": "this is my home page\n",
+            "description": "Home Page\n",
             "metadata": {
                 "created": 1541517715,
-                "updated": 1542224773
+                "updated": 1544543534
             }
         },
         {
@@ -36,10 +36,28 @@
             "order": 1,
             "parent": null,
             "title": "News",
-            "description": "News FUll page!\n",
+            "description": "Team page\n\n",
             "metadata": {
                 "created": 1541517755,
-                "updated": 1542224931
+                "updated": 1544543594
+            }
+        },
+        {
+            "id": "h5p_documentation_tool",
+            "indent": 1,
+            "location": "pages\/blog-posts\/11-19-18\/index.html",
+            "order": 2,
+            "parent": "news",
+            "title": "H5P: Documentation Tool",
+            "description": "Are you searching for a creative, interactive, and engaging way to have students submit details about an assignment or project they’re working on?  Would you like this information to be exported to a nicely formatted text document instantly?  Look no further...",
+            "metadata": {
+                "created": 1542603600,
+                "updated": 1541517757,
+                "type": "news",
+                "template": "news",
+                "image": "assets\/blog-images\/11-19-18.jpg",
+                "author": "Charles Lavera",
+                "authorImage": "assets\/odl-team\/chuck.jpg"
             }
         },
         {
@@ -49,13 +67,13 @@
             "order": 1,
             "parent": "news",
             "title": "5 Web Accessibility Tips for Developers",
-            "description": "Web accessibility is an intricate part of the development process.  As a builder, we need to ensure that our content is available to everyone, including the growing population of people with disabilities.  If you’re just starting to explore web accessibility...",
+            "description": "Web accessibility is an intricate part of the development process.  As a builder, we need to ensure that our content is available to everyone, including the growing population of people with disabilities.  If you\u2019re just starting to explore web accessibility...",
             "metadata": {
                 "created": 1540180800,
                 "updated": 1541517755,
                 "type": "news",
                 "template": "news",
-                "image": "assets\/blog-images\/10_22_18.jpg",
+                "image": "assets\/blog-images\/10-22-18.jpg",
                 "author": "Charles Lavera",
                 "authorImage": "assets\/odl-team\/chuck.jpg"
             }
@@ -67,13 +85,13 @@
             "order": 1,
             "parent": "news",
             "title": "The Universal Design for Learning (UDL) Framework",
-            "description": "Do you know about Universal Design for Learning? Do you consider yourself a teacher, a learner or even BOTH? If so, UDL and it’s guidelines applies to you...",
+            "description": "Do you know about Universal Design for Learning? Do you consider yourself a teacher, a learner or even BOTH? If so, UDL and it\u2019s guidelines applies to you...",
             "metadata": {
                 "created": 1539057600,
                 "updated": 1541517755,
                 "type": "news",
                 "template": "news",
-                "image": "assets\/blog-images\/10_9_18.jpg",
+                "image": "assets\/blog-images\/10-9-18.jpg",
                 "author": "Carly Dreibelbis",
                 "authorImage": "assets\/odl-team\/carly.jpg"
             }
@@ -97,16 +115,52 @@
             }
         },
         {
+            "id": "featured_element_custom_alert_message",
+            "indent": 1,
+            "location": "pages\/blog-posts\/6-29-18\/index.html",
+            "order": 2,
+            "parent": "news",
+            "title": "Featured Element: Custom Alert Message",
+            "description": "Recently, our office was approached by Louis Leblond to create a custom instructional element for his online course.  Louis is an Associate Teaching Professor and Director of Online Education in Physics...",
+            "metadata": {
+                "created": 1530244800,
+                "updated": 1541517757,
+                "type": "news",
+                "template": "news",
+                "image": "assets\/blog-images\/6-29-18.jpeg",
+                "author": "Charles Lavera",
+                "authorImage": "assets\/odl-team\/chuck.jpg"
+            }
+        },
+        {
+            "id": "cost_savings_asset_retention_with_digital_models",
+            "indent": 1,
+            "location": "pages\/blog-posts\/6-4-18\/index.html",
+            "order": 2,
+            "parent": "news",
+            "title": "Cost-Savings and Assest-Retention using Digital Models",
+            "description": "We were approached by John Waters from the Biology department with an interesting request.  He told us he wanted to turn a plastinated human head into a 3D...",
+            "metadata": {
+                "created": 1528084800,
+                "updated": 1541517757,
+                "type": "news",
+                "template": "news",
+                "image": "assets\/blog-images\/6-4-18.png",
+                "author": "Joseph Foresman",
+                "authorImage": "assets\/odl-team\/joe.jpg"
+            }
+        },
+        {
             "id": "team",
             "indent": 0,
             "location": "pages\/team\/index.html",
             "order": 3,
             "parent": null,
             "title": "Team",
-            "description": "",
+            "description": "Team page\n\n",
             "metadata": {
                 "created": 1541517724,
-                "updated": 1541517767
+                "updated": 1544540697
             }
         },
         {

@@ -1,4 +1,5 @@
 <link rel="import" href="page-banner.html">
+<link rel="import" href="news-archive.html">
 <link rel="import" href="../iron-image/iron-image.html">
 <dom-module id="odl-haxtheme-news">
   <template>
@@ -107,6 +108,7 @@
   
       #card_description {
         margin-bottom: 10px;
+        font-size: 18px;
         font-weight: 300;
       }
 
@@ -155,6 +157,9 @@
         <div class="sidebar_wrap">
           <div id="twitter_feed">
               <a class="twitter-timeline" data-height="600" href="https://twitter.com/Eberly_ODL?ref_src=twsrc%5Etfw">Tweets by Eberly_ODL</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+          <div id="news_archive">
+            <news-archive></news-archive>
           </div>
         </div>
 
@@ -216,6 +221,8 @@
         // this.set("_items", pagesTrimmed);
 
         this.set("_items", pagesFiltered);
+
+        const archiveList = pagesFiltered.splice(5);
 
         // To do - Will need to sort by date created.
       }

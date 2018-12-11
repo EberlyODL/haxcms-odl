@@ -1,0 +1,65 @@
+
+<dom-module id="news-archive">
+    <template>
+        <style>
+            :host {
+                display: block;
+            }
+        </style>
+        <div id="archive_wrap">
+            <div id="archive_header">
+                <h2>News Archive</h2>
+            </div>
+            <template is="dom-repeat" items="[[_items]]">
+              <div id="card_heading">
+                <a href$="[[_getLink(item.id)]]">[[item.title]]</a>
+              </div>
+            </template>
+        </div>
+    </template>
+    <script>
+        Polymer({
+            is: 'news-archive',
+            properties: {
+        /**
+        * Type of data to select from site.json
+        */
+        type: {
+          type: String,
+          value: 'news',
+          reflectToAttribute: true,
+        },
+        /**
+        * Items from sites.json
+        */
+        _items: {
+          type: Array,
+          value: [],
+        },
+      },
+
+      _getLink: function (id) {
+        return `?page=item-${id}`
+      },      
+
+
+      ready: async function () {
+        const manifest = await fetch('/_sites/odl/site.json').then(res => res.json())
+        const pages = manifest.items
+        const pagesFiltered = pages.filter(item => {
+          if (typeof item.metadata !== 'undefined') {
+            if (typeof item.metadata.type !== 'undefined') {
+              if (item.metadata.type === 'news') {
+                return true;
+              }
+            }
+          }
+          return false
+        })
+        this.set("_items", pagesFiltered);
+
+        const archiveList = pagesFiltered.splice(0,5);
+      }
+        });
+    </script>
+</dom-module>
