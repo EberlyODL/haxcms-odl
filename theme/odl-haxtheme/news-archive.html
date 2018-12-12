@@ -1,38 +1,60 @@
-
+<link rel="import" href="../iron-image/iron-image.html">
 <dom-module id="news-archive">
     <template>
         <style>
             :host {
                 display: block;
+                background-color: #fff;
+                box-shadow: 0 1px 2px #dcdcdc;
+                padding: 10px;
+                margin-top: 10px;
                 --theme-color-1: #363533;
                 --theme-color-2: #e2801e;
             }
 
-            #archive_header h2 {
-              font-size: 26px;
-              margin: 15px 0 10px;
-              color: var(--theme-color-2);
+            #archive_wrap {
+              display: flex;
+              align-items: center;
+              border-bottom: solid 1px #dcdcdc;
+              padding-bottom: 8px;
+              padding-top: 8px;
             }
 
-            #card_heading {
-              border-bottom: solid 1px #dcdcdc;
-              padding-bottom: 10px;
+            #archive_header h2 {
+              font-size: 26px;
+              margin: 0 0 10px;
+              color: var(--theme-color-2);
             }
 
             #card_heading a {
               text-decoration: none;
-              font-size: 18px;
+              font-size: 16px;
             }
 
             #card_heading a:hover {
               color: #4c4c4c;
             }
+
+            #card_image {
+              display: flex;
+              margin-right: 10px;
+            }
+
+            #card_image iron-image {
+              height: 50px;
+              width: 50px;
+            }
         </style>
-        <div id="archive_wrap">
-            <div id="archive_header">
-                <h2>News Archive</h2>
-            </div>
+                    <div id="archive_header">
+                        <h2>News Archive</h2>
+                    </div>
+        
+
             <template is="dom-repeat" items="[[_items]]">
+                <div id="archive_wrap">
+              <div id="card_image">
+                <iron-image sizing="cover" src="[[item.metadata.image]]"></iron-image>
+              </div>
               <div id="card_heading">
                 <a href$="[[_getLink(item.id)]]">[[item.title]]</a>
               </div>

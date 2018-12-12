@@ -115,6 +115,26 @@
         border-radius: 0;
         margin-bottom: 10px;
       }
+
+      .video {
+        margin-bottom: 15px;
+        background-color: #fff;
+        box-shadow: 0 1px 2px #dcdcdc;
+        padding: 16px;
+      }
+
+      .video_title {
+        background-color: var(--theme-color-1);
+        padding: 4px 10px;
+        margin-top: -5px;
+      }
+
+      .video_title h2 {
+        font-weight: normal;
+        color: #fff;
+        margin: 11px 0px 11px;
+        font-size: 18px;
+      }
     </style>
     <odl-banner
       image="../odl/assets/theme-images/page-banners/odl_homepage_banner.png"
@@ -179,7 +199,26 @@
         </div>
       </div>
       <div id="video_wrap" class="news_items">
-        <odl-videos-feed></odl-videos-feed>
+        <odl-videos-feed>
+          <div class="video">
+            <iframe width="100%" height="220" src="https://www.youtube.com/embed/sCr3w_azmC8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="video_title">
+                <h2>Chem 110 | Ions | Joseph Houck</h2>
+              </div>
+          </div>
+          <div class="video">
+            <iframe width="100%" height="220" src="https://www.youtube.com/embed/8-PdyiAkkuI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="video_title">
+                <h2>Tutorial | H5P | Charles Lavera</h2>
+              </div>
+          </div>
+          <div class="video">
+              <iframe width="100%" height="220" src="https://www.youtube.com/embed/5zL1lmPwEt8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="video_title">
+                  <h2>Tutorial | Monorepos | Michael Potter</h2>
+                </div>
+            </div>
+        </odl-videos-feed>
         <div class="action_button">
           <a href$="#">
             <paper-button noink id="videos">
@@ -190,7 +229,11 @@
         </div>
       </div>
       <div id="testimonial_wrap" class="news_items">
-        <odl-highlights-feed></odl-highlights-feed>
+        <odl-highlights-feed>
+            <div id="contentcontainer">
+                <slot></slot>
+              </div>
+        </odl-highlights-feed>
         <div class="action_button">
           <a href$="#">
             <paper-button noink id="highlights">
