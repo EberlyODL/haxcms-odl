@@ -162,12 +162,9 @@
             <news-archive></news-archive>
           </div>
         </div>
-
       </div>
     </div>
 
-    <!-- The slot area is for content that will be edited by HAX
-    <slot></slot> -->
   </template>
   <script>
     Polymer({
@@ -217,14 +214,9 @@
           return false
         })
 
-        // const pagesTrimmed = pagesFiltered.slice(2);
-        // this.set("_items", pagesTrimmed);
-
         this.set("_items", pagesFiltered);
 
         const archiveList = pagesFiltered.splice(5);
-
-        // To do - Will need to sort by date created.
       }
     });
   </script>

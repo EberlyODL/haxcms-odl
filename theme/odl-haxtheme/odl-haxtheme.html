@@ -42,15 +42,11 @@ and then IF hax is around it'll show up :)
     <temp-nav></temp-nav>
     <iron-pages selected="[[selectedPage]]">
       <odl-haxtheme-home>
-                  <div id="slot">
-            <slot></slot>
-          </div>
-      </odl-haxtheme-home>
-      <odl-haxtheme-news>
           <div id="slot">
             <slot></slot>
           </div>
-      </odl-haxtheme-news>
+      </odl-haxtheme-home>
+      <odl-haxtheme-news></odl-haxtheme-news>
       <div>Page 2</div>
       <odl-team-feed></odl-team-feed>
     </iron-pages>
@@ -75,8 +71,7 @@ and then IF hax is around it'll show up :)
     <div class="activeitem">
       <paper-button id="unset">Unset activeItem</paper-button>
       <div id="contentcontainer">
-        
-          <slot></slot>
+          <!-- <slot></slot> -->
         </div>
       </div>
     </div>
