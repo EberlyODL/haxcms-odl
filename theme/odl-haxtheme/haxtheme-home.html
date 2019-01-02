@@ -1,11 +1,11 @@
-<link rel="import" href="odl-banner.html">
-<link rel="import" href="odl-action-box.html">
-<link rel="import" href="odl-news-feed.html">
-<link rel="import" href="odl-videos-feed.html">
-<link rel="import" href="odl-highlights-feed.html">
+<link rel="import" href="homepage-banner.html">
+<link rel="import" href="info-box.html">
+<link rel="import" href="news-feed.html">
+<link rel="import" href="videos-feed.html">
+<link rel="import" href="highlights-feed.html">
 
 <link rel="import" href="../promo-tile/promo-tile.html">
-<dom-module id="odl-haxtheme-home">
+<dom-module id="haxtheme-home">
   <template>
     <style>
       :host {
@@ -136,18 +136,18 @@
         font-size: 18px;
       }
     </style>
-    <odl-banner
+    <homepage-banner
       image="../odl/assets/theme-images/page-banners/odl_homepage_banner.png"
       alt="students receiving instruction in classroom"
-      text="A creative studio for your classroom"></odl-banner>
-    <odl-action-box>
+      text="A creative studio for your classroom"></homepage-banner>
+    <info-box>
       <span slot="action_text">
         The Office of Digital Learning (ODL) helps faculty and students make the
         most of digital learning technology.
         We collaboratively design and build tools for any pedagogy. Dream it and
         we'll build it.
       </span>
-    </odl-action-box>
+    </info-box>
     <div id="promo_tile_wrap">
       <div class="promo_tile">
         <promo-tile title="ELMS:LN"
@@ -188,7 +188,7 @@
 
     <div id="content_wrap">
       <div id="news_wrap" class="news_items">
-        <odl-news-feed></odl-news-feed>
+        <news-feed></news-feed>
         <div class="action_button">
           <a href$="#">
             <paper-button noink id="news">
@@ -199,7 +199,7 @@
         </div>
       </div>
       <div id="video_wrap" class="news_items">
-        <odl-videos-feed>
+        <videos-feed>
           <div class="video">
             <iframe width="100%" height="220" src="https://www.youtube.com/embed/sCr3w_azmC8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="video_title">
@@ -218,7 +218,7 @@
                   <h2>Tutorial | Monorepos | Michael Potter</h2>
                 </div>
             </div>
-        </odl-videos-feed>
+        </videos-feed>
         <div class="action_button">
           <a href$="#">
             <paper-button noink id="videos">
@@ -229,11 +229,11 @@
         </div>
       </div>
       <div id="testimonial_wrap" class="news_items">
-        <odl-highlights-feed>
+        <highlights-feed>
             <div id="contentcontainer">
                 <slot></slot>
               </div>
-        </odl-highlights-feed>
+        </highlights-feed>
         <div class="action_button">
           <a href$="#">
             <paper-button noink id="highlights">
@@ -247,7 +247,7 @@
   </template>
   <script>
     Polymer({
-      is: 'odl-haxtheme-home'
+      is: 'haxtheme-home'
     });
   </script>
 </dom-module>

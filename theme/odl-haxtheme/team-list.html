@@ -1,5 +1,5 @@
-<link rel="import" href="odl-team-card.html">
-<dom-module id="odl-team-feed">
+<link rel="import" href="team-card.html">
+<dom-module id="team-list">
   <template>
     <style>
       :host {
@@ -8,13 +8,13 @@
     
         </style>
     <template is="dom-repeat" items="[[_items]]">
-      <odl-team-card name="[[item.title]]" image="[[item.metadata.image]]"
-        item="[[item]]" position="[[item.metadata.jobTitle]]"></odl-team-card>
+      <team-card name="[[item.title]]" image="[[item.metadata.image]]"
+        item="[[item]]" position="[[item.metadata.jobTitle]]"></team-card>
     </template>
   </template>
   <script>
     Polymer({
-        is: 'odl-team-feed',
+        is: 'team-list',
         properties: {
         /**
         * Type of data to select from site.json

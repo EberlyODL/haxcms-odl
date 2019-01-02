@@ -1,4 +1,4 @@
-<dom-module id="odl-videos-feed">
+<dom-module id="highlights-feed">
   <template>
     <style>
       :host {
@@ -16,7 +16,7 @@
         font-weight: normal;
       }
 
-      #videos_feed_wrap {
+      #highlights_feed_wrap {
         margin: 20px;
       }
 
@@ -28,16 +28,16 @@
         padding: 5px;
       }
     </style>
-    <div id="videos_feed_wrap">
+    <div id="highlights_feed_wrap">
       <div class="feed_header">
-        <h2>Videos</h2>
+        <h2>Spotlight</h2>
       </div>
       <slot></slot>
     </div>
   </template>
   <script>
     Polymer({
-      is: 'odl-videos-feed'
+      is: "highlights-feed"
     });
   </script>
 </dom-module>
