@@ -6,6 +6,7 @@
     <style>
       :host {
         display: block;
+        background-color: #f5f5f5;
       }
       #team_card {
         display: flex;
@@ -19,7 +20,7 @@
     
         </style>
     <page-banner image="../odl/assets/theme-images/page-banners/haxtheme-team-banner.jpg"
-      text="Team" alt="Office of Digital Learning Team"></page-banner>
+      text="Our Team" alt="Office of Digital Learning Team"></page-banner>
       <div id="team_card">
         <template is="dom-repeat" items="[[_items]]">
           <team-card name="[[item.title]]" image="[[item.metadata.image]]"
