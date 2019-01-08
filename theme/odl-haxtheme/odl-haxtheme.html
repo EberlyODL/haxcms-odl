@@ -11,7 +11,7 @@
 
 <link rel="import" href="haxtheme-home.html">
 <link rel="import" href="haxtheme-news.html">
-<link rel="import" href="team-list.html">
+<link rel="import" href="haxtheme-team.html">
 <link rel="import" href="page-topbar.html">
 <link rel="import" href="temp-nav.html">
 <link rel="import" href="page-footer.html">
@@ -41,14 +41,13 @@ and then IF hax is around it'll show up :)
     <page-topbar></page-topbar>
     <temp-nav></temp-nav>
     <iron-pages selected="[[selectedPage]]">
-      <haxtheme-home>
+      <haxtheme-home name="home">
           <div id="slot">
             <slot></slot>
           </div>
       </haxtheme-home>
       <haxtheme-news></haxtheme-news>
-      <div>Page 2</div>
-      <team-list></team-list>
+      <haxtheme-team></haxtheme-team>
     </iron-pages>
     <page-scroll></page-scroll>
     <page-footer></page-footer>
@@ -123,7 +122,6 @@ and then IF hax is around it'll show up :)
        * Notice active item changed state
        */
        _activeItemEvent: function (e) {
-        // console.log(e.detail);
         if (typeof e.detail.id !== typeof undefined) {
           switch (e.detail.id) {
           case 'home':
@@ -134,7 +132,7 @@ and then IF hax is around it'll show up :)
           // Polymer.cmsSiteEditor.requestAvailability(this, this.$.blogpost.$.contentcontainer);
         break;
         case 'team':
-          this.selectedPage = 3;
+          this.selectedPage = 2;
           // whatever
           break;
       }

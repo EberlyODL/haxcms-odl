@@ -26,7 +26,7 @@
             "description": "    The Office of Digital Learning helped me create a wonderful online course experience for my students.  They were innovative and a lot of fun to  work with.\n\n\n    The Office of Digital Learning hel",
             "metadata": {
                 "created": 1541517715,
-                "updated": 1546548520
+                "updated": 1546976172
             }
         },
         {
@@ -175,10 +175,10 @@
             "order": 3,
             "parent": null,
             "title": "Team",
-            "description": "Team page\n\n",
+            "description": "Team page\n",
             "metadata": {
                 "created": 1541517724,
-                "updated": 1544540697
+                "updated": 1546976210
             }
         },
         {
@@ -198,20 +198,41 @@
                 "jobTitle": "Director \/ Instructional Designer",
                 "address": "221 Ritenour",
                 "phone": "555-555-555",
-                "email": "example@psu.edu",
+                "email": "mjs100@psu.edu",
                 "twitter": "@JustStormy"
+            }
+        },
+        {
+            "id": "carly",
+            "indent": 1,
+            "location": "pages\/team-directory\/carly\/index.html",
+            "order": 2,
+            "parent": "team",
+            "title": "Carly Dreibelbis",
+            "description": "",
+            "metadata": {
+                "created": 1541517756,
+                "updated": 1541517757,
+                "type": "team",
+                "template": "team",
+                "image": "assets\/odl-team\/carly.jpg",
+                "jobTitle": "Multimedia Specialist",
+                "address": "221 Ritenour",
+                "phone": "555-555-555",
+                "email": "cmd30@psu.edu",
+                "twitter": "@evercarly"
             }
         },
         {
             "id": "mike",
             "indent": 1,
             "location": "pages\/team-directory\/mike\/index.html",
-            "order": 2,
+            "order": 3,
             "parent": "team",
             "title": "Michael Potter",
             "description": "",
             "metadata": {
-                "created": 1541517756,
+                "created": 1541517819,
                 "updated": 1541517757,
                 "type": "team",
                 "template": "team",
@@ -219,8 +240,29 @@
                 "jobTitle": "Educational Technologist",
                 "address": "221 Ritenour",
                 "phone": "555-555-555",
-                "email": "example@psu.edu",
+                "email": "mgp140@psu.edu",
                 "twitter": "@hey__MP"
+            }
+        },
+        {
+            "id": "chuck",
+            "indent": 1,
+            "location": "pages\/team-directory\/chuck\/index.html",
+            "order": 4,
+            "parent": "team",
+            "title": "Charles Lavera",
+            "description": "",
+            "metadata": {
+                "created": 1541517910,
+                "updated": 1541517757,
+                "type": "team",
+                "template": "team",
+                "image": "assets\/odl-team\/chuck.jpg",
+                "jobTitle": "Web Developer",
+                "address": "221 Ritenour",
+                "phone": "555-555-555",
+                "email": "cgl109@psu.edu",
+                "twitter": "@cgldevel"
             }
         },
         {

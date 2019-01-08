@@ -1,23 +1,35 @@
+<link rel="import" href="page-banner.html">
 <link rel="import" href="team-card.html">
 
-
-<dom-module id="team-list">
+<dom-module id="haxtheme-team">
   <template>
     <style>
       :host {
         display: block;
       }
+      #team_card {
+        display: flex;
+        flex-wrap: wrap;
+        width: 62%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
     
         </style>
-      
-    <template is="dom-repeat" items="[[_items]]">
-      <team-card name="[[item.title]]" image="[[item.metadata.image]]"
-        item="[[item]]" position="[[item.metadata.jobTitle]]"></team-card>
-    </template>
+    <page-banner image="../odl/assets/theme-images/page-banners/haxtheme-team-banner.jpg"
+      text="Team" alt="Office of Digital Learning Team"></page-banner>
+      <div id="team_card">
+        <template is="dom-repeat" items="[[_items]]">
+          <team-card name="[[item.title]]" image="[[item.metadata.image]]"
+            item="[[item]]" position="[[item.metadata.jobTitle]]"></team-card>
+        </template>
+      </div>
   </template>
   <script>
     Polymer({
-        is: 'team-list',
+        is: 'haxtheme-team',
         properties: {
         /**
         * Type of data to select from site.json
@@ -35,7 +47,10 @@
           value: [],
         },
 
-      },     
+      },
+      _getLink: function (id) {
+        return `?page=item-${id}`
+      },      
 
       ready: async function () {
         const manifest = await fetch('/_sites/odl/site.json').then(res => res.json())
@@ -50,9 +65,16 @@
           }
           return false
         })
-
+        
+        // const pagesTrimmed = pagesFiltered.slice(2);
+        // this.set("_items", pagesTrimmed);
         this.set("_items", pagesFiltered);
-      },
+
+        // To do - Will need to sort by date created.
+      }
+
+     
+    
       });
     </script>
 </dom-module>
