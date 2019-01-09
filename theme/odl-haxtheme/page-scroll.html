@@ -1,29 +1,55 @@
-<link rel="import" href="../iron-icons/iron-icons.html" />
 <link rel="import" href="../paper-button/paper-button.html" />
+<link rel="import" href="../paper-tooltip/paper-tooltip.html" />
+<link rel="import" href="haxtheme-icons.html" />
 <dom-module id="page-scroll">
   <template>
     <style>
       :host {
         display: block;
-        --theme-color-1: #363533;
-        --theme-color-4: #fff;
+        --icon-fill:#adb5bd;
+        --icon-fill-hover:#6c757d;
+        --paper-tooltip-background: #6c757d;
+        --paper-tooltip-delay-in: 100;
       }
+
+     paper-tooltip {
+      --paper-tooltip: {
+        font-size: 16px;
+        text-transform: none;
+        padding: 10px;
+      }
+     }
+
+      iron-icon {
+        width: 60px;
+        height: 60px;
+        fill: var(--icon-fill);
+      }
+
+      iron-icon:hover {
+        fill: var(--icon-fill-hover);
+      }
+      
       paper-button#scroll {
-        display: none;
+        
+        transition: opacity .25s ease-in-out;
         position: fixed;
         bottom: 70px;
-        right: 50px;
+        right: 10px;
         z-index: 99;
-        background-color: var(--theme-color-4);
-        color: #000;
         padding: 10px;
-        border: 1px solid var(--theme-color-1);
-        border-radius: 0;
-        font-size: 18px;
+      }
+
+      @media screen and (max-width: 700px) {
+        paper-button#scroll {
+          bottom: 70px;
+          right: 0;
+        }
       }
     </style>
-    <paper-button id="scroll" on-click="__topFunction">Top
-      <iron-icon icon="expand-less"></iron-icon>
+    <paper-button id="scroll" on-click="__topFunction" aria-label="scroll to top" noink>
+      <iron-icon icon="haxthemeicons:scroll" role="img"></iron-icon>
+      <paper-tooltip for="scroll" position="left" offset="2">Scroll to top</paper-tooltip>
     </paper-button>
   </template>
   <script>
@@ -37,12 +63,12 @@
 
       scrollTop: function() {
         if (
-          document.body.scrollTop > 500 ||
-          document.documentElement.scrollTop > 500
+          document.body.scrollTop > 600 ||
+          document.documentElement.scrollTop > 600
         ) {
-          document.getElementById("scroll").style.display = "block";
+          document.getElementById("scroll").style.opacity = "0.9";
         } else {
-          document.getElementById("scroll").style.display = "none";
+          document.getElementById("scroll").style.opacity = "0";
         }
       },
 
