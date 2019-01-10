@@ -23,7 +23,7 @@
             "order": 1,
             "parent": null,
             "title": "Home",
-            "description": "    The Office of Digital Learning helped me create a wonderful online course experience for my students.  They were innovative and a lot of fun to  work with.\n\n\n    The Office of Digital Learning hel",
+            "description": "",
             "metadata": {
                 "created": 1541517715,
                 "updated": 1547052847
@@ -36,7 +36,7 @@
             "order": 1,
             "parent": null,
             "title": "News",
-            "description": "Team page\n\n",
+            "description": "",
             "metadata": {
                 "created": 1541517755,
                 "updated": 1544543594
@@ -258,7 +258,7 @@
                 "type": "team",
                 "template": "team",
                 "image": "assets\/odl-team\/chuck.jpg",
-                "jobTitle": "Web Developer",
+                "jobTitle": "Multimedia Specialist",
                 "address": "221 Ritenour",
                 "phone": "555-555-555",
                 "email": "cgl109@psu.edu",
