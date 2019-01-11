@@ -12,6 +12,7 @@
 <link rel="import" href="haxtheme-home.html">
 <link rel="import" href="haxtheme-news.html">
 <link rel="import" href="haxtheme-team.html">
+<link rel="import" href="haxtheme-courses.html">
 <link rel="import" href="page-topbar.html">
 <link rel="import" href="temp-nav.html">
 <link rel="import" href="page-footer.html">
@@ -48,6 +49,7 @@ and then IF hax is around it'll show up :)
       </haxtheme-home>
       <haxtheme-news></haxtheme-news>
       <haxtheme-team></haxtheme-team>
+      <haxtheme-courses></haxtheme-courses>
     </iron-pages>
     <page-scroll></page-scroll>
     <page-footer></page-footer>
@@ -129,12 +131,13 @@ and then IF hax is around it'll show up :)
          break;
           case 'news':
           this.selectedPage = 1;
-          // Polymer.cmsSiteEditor.requestAvailability(this, this.$.blogpost.$.contentcontainer);
-        break;
-        case 'team':
+         break;
+          case 'team':
           this.selectedPage = 2;
-          // whatever
-          break;
+         break;
+          case 'courses':
+          this.selectedPage = 3;
+         break;
       }
           window.scrollTo(0, 0);
           this.set('activeItem', e.detail);

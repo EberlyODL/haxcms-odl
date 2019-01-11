@@ -290,6 +290,418 @@
                 "created": 1541517755,
                 "updated": 1541517755
             }
+        },
+        {
+            "id": "courses",
+            "indent": 0,
+            "location": "pages\/courses\/index.html",
+            "order": 4,
+            "parent": null,
+            "title": "Courses",
+            "description": "",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755
+            }
+        },
+        {
+            "id": "astro001",
+            "indent": 0,
+            "location": "pages\/courses\/astro001\/index.html",
+            "order": 1,
+            "parent": "courses",
+            "title": "Astro 001",
+            "name": "Astronomical Universe",
+            "description": "This course provides a broad introduction to Astronomy including the historical development of the subject, basic physics of gravity, light, and atoms; telescopes; planets, moons, and other objects in our solar system; exosolar planets; the Sun and other stars; the evolution of stars; the Milky Way galaxy and other galaxies; distant quasars and other active galaxies; the expanding universe; cosmology based on the Big Bang theory; and life in the universe. The goal of this course is to cover most of the areas of modern astronomy at a level which requires only basic mathematics. The online version also includes a game version, where students have a chance to explore Mars in a virtual space, testing and applying concepts as they move around.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/astro001\/index.html",
+                "icon": "courseicons:astro001"
+            }
+        },
+        {
+            "id": "astro011",
+            "indent": 0,
+            "location": "pages\/courses\/astro011\/index.html",
+            "order": 2,
+            "parent": "courses",
+            "title": "Astro 011",
+            "name": "Elementary Astronomy Laboratory",
+            "description": "This course focuses on experiments and explorations to illustrate major astronomical principles and techniques. Travel through a telescope to form observations of planets, stars and nebulae. Discover the universe through engaging discussions and weekly labs. Weekly labs include discussion of the search for extraterrestrial intelligence, an activity to illustrate the phases of the moon, analysis of the colorful spectra of different chemical elements, and exploration of the deepest image of space ever obtained. In addition, students will complete a semester nighttime observation project that typically involves learning some constellations, tracing phases of the moon, and sketching images seen through our well-equipped rooftop student observatory.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/astro011\/index.html",
+                "icon": "courseicons:astro011"
+            }
+        },
+        {
+            "id": "astro120",
+            "indent": 0,
+            "location": "pages\/courses\/astro120\/index.html",
+            "order": 3,
+            "parent": "courses",
+            "title": "Astro 120",
+            "name": "The Big Bang Universe",
+            "description": "This course is to introduce you to current state of research on cosmology, the study of the Universe on large scale, its structure and evolution, and current theories on the formation, evolution and fate of the Universe. The great success of the Big Bang theory in explaining the expansion of the Universe, the synthesis of the chemical elements, and the relic radiation leftover from the first moments are reviewed. This is a general education class designed for the non-science students who, after learning the fundamentals of astronomy in Astro 001(GN), 005 (GN) or 010 (GN), want to pursue further the questions of cosmology. The material is presented mostly at a qualitative level. The intended outcome of the course is an appreciation of what we know about the Universe, what the current limits to our understanding are, what the process by which we know and test this is, and what we hope to learn in the future.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/astro120\/index.html",
+                "icon": "courseicons:astro120"
+            }
+        },
+        {
+            "id": "astro130",
+            "indent": 0,
+            "location": "pages\/courses\/astro130\/index.html",
+            "order": 4,
+            "parent": "courses",
+            "title": "Astro 130",
+            "name": "Black Holes in the Universe",
+            "description": "This course is intended to introduce students to the predicted properties of black holes and the astronomical evidence for their existence. It will cover spacetime, special and general relativity, types of black holes and their characteristics, the evaporation of black holes, wormholes and time travel. It combines basic physical concepts, astronomical observations, and philosophical ideas to present a complete picture of the current understanding of black holes. The course is intended for students who have completed and enjoyed the one-semester survey of modern astronomy, ASTRO 001 or 010.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/astro130\/index.html",
+                "icon": "courseicons:astro130"
+            }
+        },
+        {
+            "id": "astro140",
+            "indent": 0,
+            "location": "pages\/courses\/astro140\/index.html",
+            "order": 5,
+            "parent": "courses",
+            "title": "Astro 140",
+            "name": "Life in the Universe",
+            "description": "Advances in modern physics and astrophysics have dramatically changed and enriched the understanding of our cosmic surroundings, but have not yet produced unambiguous evidence concerning the extraterrestrial life. To date, significant progress has been made on certain aspects of the problem, and many recent scientific observations hint in favor of the existence of non-terrestrial life. During this course, we will explore such evidence and observations. ASTRO 140 is for students who are interested in enriching and broadening their understanding of modern science. The course is highly interdisciplinary, and would be a logical choice for students who completed and enjoyed ASTRO 001, ASTRO 005 or ASTRO 010.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/astro140\/index.html",
+                "icon": "courseicons:astro140"
+            }
+        },
+        {
+            "id": "bisc001",
+            "indent": 0,
+            "location": "pages\/courses\/bisc001\/index.html",
+            "order": 6,
+            "parent": "courses",
+            "title": "BiSc 001",
+            "name": "Structure and Function of Organisms",
+            "description": "An exploration of how cellular structures and processes contribute to life and how life displays unity even in its diversity. At the end of this course, you should have a clear understanding of many important biological principles. You should be able to begin thinking like a scientist and be able to effectively evaluate, analyze, and critique the multifaceted biological topics of today.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/bisc001\/index.html",
+                "icon": "courseicons:bisc001"
+            }
+        },
+        {
+            "id": "bisc002",
+            "indent": 0,
+            "location": "pages\/courses\/bisc002\/index.html",
+            "order": 7,
+            "parent": "courses",
+            "title": "BiSc 002",
+            "name": "Genetics, Ecology, and Evolution",
+            "description": "Evolution is a central theme of biology, and it helps us to understand the process of life that is ongoing all across our globe. The interactions among members of this global community provide the backdrop for understanding the ecology of our planet and our place in that community. BI SC 002 combines genetics/human genetics, evolution, and ecology as a study of how living organisms inherit their traits, how plants and animals evolved, and how they now interact. It is an introductory course for non-science majors. By the end of the course, students should develop a basic understanding of genetic and biological terms and their importance to our technologically advanced society. There are no prerequisites for this course.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/bisc002\/index.html",
+                "icon": "courseicons:bisc002"
+            }
+        },
+        {
+            "id": "bisc003",
+            "indent": 0,
+            "location": "pages\/courses\/bisc003\/index.html",
+            "order": 8,
+            "parent": "courses",
+            "title": "BiSc 003",
+            "name": "Environmental Science",
+            "description": "As citizens of both local and global communities, some environmental issues are guaranteed to impact our lives. We are all dependent upon and supported by natural systems, without which life on earth could not exist. Policy makers and citizens are urgently needed who can act with an understanding of ecological principles when exercising community responsibilities to handle the environmental problems of our times, such as water use, solid waste management, global warming, energy use, conservation of irreplaceable natural resources, overpopulation, and the preservation of biodiversity. Thus, the purpose of BI SC 003 is to help students prepare for living in the 21st century in a sustainable way. BI SC 003 will help students prepare for living in current and future society's mixture of technology and mythology by presenting ideas and concepts about living systems and their environments. An understanding of biological and ecological principles and their application towards environmental challenges should give students the confidence to be active citizens, conscientious stewards of nature, and actively pursuing a healthy, sustainable community and society.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/bisc003\/index.html",
+                "icon": "courseicons:bisc003"
+            }
+        },
+        {
+            "id": "bisc004",
+            "indent": 0,
+            "location": "pages\/courses\/bisc004\/index.html",
+            "order": 9,
+            "parent": "courses",
+            "title": "BiSc 004",
+            "name": "Human Body: Form & Function",
+            "description": "Everyone should understand, to some extent, how their lives depend on a properly developed and functioning body. It is important to understand biological principles fundamental to understanding human life, such as cell structure, metabolism, organ functions, human genetics, and how the human body reacts to disease. BI SC 004 combines the study of human anatomy, which is the study of parts of the human body, with human physiology, which is the study of how parts of the body work together to make the body function. It is an introductory course for non-science majors that provides a general survey of structure and function of the human body—from conception, through growth and reproduction to death. By course end, students should develop a better understanding about the human body that will assist them as they deal with their own injuries or illnesses in the future, as well as other’s.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/bisc004\/index.html",
+                "icon": "courseicons:bisc004"
+            }
+        },
+        {
+            "id": "biol11",
+            "indent": 0,
+            "location": "pages\/courses\/biol11\/index.html",
+            "order": 10,
+            "parent": "courses",
+            "title": "Biol 11",
+            "name": "Introductory Biology I",
+            "description": "You are a biological being, as are the foods that you eat. We use products from other organisms to make many of the clothes that we wear, build our homes, provide medicines, and give beauty to our lives. Therefore, developing an appreciation and understanding of the biological world is important to living in this world and becoming a responsible steward of its resources. Who hasn't watched a bird and wondered what it would be like to be able to fly? To see the world from a different perspective? This course will provide an introduction to fundamental biological topics (including cells, energy transduction, genetics, evolution, organismal structure/function, ecology) for non-majors in biology-related fields.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/biol11\/index.html",
+                "icon": "courseicons:biol11"
+            }
+        },
+        {
+            "id": "biol110",
+            "indent": 0,
+            "location": "pages\/courses\/biol110\/index.html",
+            "order": 11,
+            "parent": "courses",
+            "title": "Biol 110",
+            "name": "Biology: Basic Concepts and Biodiversity",
+            "description": "This course is a study of the evolution of the major groups of organisms including the fundamental concepts of biology. The goal of this course is to introduce you to fundamental concepts that are common to all organisms and to explore the biological diversity of life on Earth. Biology 110 is intended for students who need a majors-level introductory biology course and is not the best option for students who are looking for a general education course in science.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/biol110\/index.html",
+                "icon": "courseicons:biol110"
+            }
+        },
+        {
+            "id": "biol120n",
+            "indent": 0,
+            "location": "pages\/courses\/biol120n\/index.html",
+            "order": 12,
+            "parent": "courses",
+            "title": "Biol 120N",
+            "name": "Plants, Places, and People",
+            "description": "The purpose of Biology 120N is to introduce you to the fascinating world of plants with an emphasis on the historical, cultural, and economic uses. This course is designed to introduce you to the discipline of plant biology and increase your awareness and appreciation of the impact of plants on your daily lives. The first part of the course will present the fundamentals of botany to provide you with a basic understanding of plant form and function. The rest of the course will be devoted to a survey of historical, cultural, and economic aspects of botany and related fields. We will finish up with an examination of the role of plants as an integral part of the world's ecosystem.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/biol120n\/index.html",
+                "icon": "courseicons:biol120n"
+            }
+        },
+        {
+            "id": "biol133",
+            "indent": 0,
+            "location": "pages\/courses\/biol133\/index.html",
+            "order": 13,
+            "parent": "courses",
+            "title": "Biol 133",
+            "name": "Genetics and Evolution of the Human Species",
+            "description": "This course is an overview of our current knowledge of human heredity, genetic issues, genetic diseases, and human evolution. Background information that is necessary for understanding these issues will be taught including cell structure, the structure and function of DNA and chromosomes, patterns of inheritance, population genetics, and genetic technologies. Throughout the course, students will explore and discuss genetic issues, make informed decisions about genetic issues relating to their personal health, illustrate the impact of genetic technologies on our everyday lives, identify where to find information and web pages relating to genetic issues, and summarize the major theories of human evolution. They will also research genetic conditions within their own families and have the opportunity to share what they have learned, as well as read and describe popular science articles pertaining to genetic issues. This course is intended for non-biology majors and does not include a detailed analysis of human genetics.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/biol133\/index.html",
+                "icon": "courseicons:biol133"
+            }
+        },
+        {
+            "id": "biol141",
+            "indent": 0,
+            "location": "pages\/courses\/biol141\/index.html",
+            "order": 14,
+            "parent": "courses",
+            "title": "Biol 141",
+            "name": "Introduction to Physiology",
+            "description": "The human body is fascinating to most of us, presumably because we have a vested interest in it. It is especially interesting when we include the physiology of diseases, as diseases often represent good illustrations of the system not functioning properly. One of the goals of this course is to develop your ability to understand the more complex scientific and medical advances that are occurring with increasing frequency today. This course is designed to cover the fundamentals of human physiology for students in a variety of life science-related majors including Nursing, Kinesiology, Athletic Training, and Science. Throughout the course, students will obtain a working knowledge and understanding of basic human physiology, apply these physiological principles to problem solving situations as observed in medical situations, including cardiac problems, hypertension, renal failure, acid-base balance disturbances, and endocrine imbalances, and obtain a practical understanding of physiology which you can build upon and use in future clinical settings. Physiology is not an easy subject to learn because it contains a tremendous amount of information. It is, however, a logical science and can usually be understood with reasoning. Students who have passed BIOL 472 may not schedule this course.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/biol141\/index.html",
+                "icon": "courseicons:biol141"
+            }
+        },
+        {
+            "id": "biol155",
+            "indent": 0,
+            "location": "pages\/courses\/biol155\/index.html",
+            "order": 15,
+            "parent": "courses",
+            "title": "Biol 155",
+            "name": "An Introduction to the Biology of Aging",
+            "description": "Biology 155 is designed to give both science and non-science majors a basic understanding of the aging process, with special emphasis on aging as it relates to the human body and health. Students will learn important aging terminology, methods of measuring aging, current theories of the aging process, and research models used to study aging. Additionally, they will explore aging as related to specific body systems. Students will have an opportunity to review normal anatomy (structure naming) and physiology (body function) of these body systems as well as drill into the details of both senescence and age-related disease processes. By the end of the course, students should have developed a functional understanding of how our bodies change over time and gained a perspective on major diseases that affect our aging bodies. Ultimately students should understand how long-term, healthy living strategies and interventions, started during young life, can potentially prolong life and add additional healthy years to their lifespan.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/biol155\/index.html",
+                "icon": "courseicons:biol155"
+            }
+        },
+        {
+            "id": "biol177",
+            "indent": 0,
+            "location": "pages\/courses\/biol177\/index.html",
+            "order": 16,
+            "parent": "courses",
+            "title": "Biol 177",
+            "name": "Biology of Sex",
+            "description": "This course presents a thorough background on the anatomy and physiology of the reproductive system in animals, with particular attention given to humans. Students will learn about the purported role of evolution and natural selection in the development of sex, a review of cell division, and the principles of both Medelian and non-Mendelian inheritance; essential female and male reproductive anatomy, along with a presentation of the roles of hormones in the realm of reproductive physiology; growth and development of a new person, maternal anatomical and physiological changes, childbirth, and lactation are all presented in detail; and other topics, such as family planning, sexually transmitted diseases, and cultural issues with regard to sex. The course also takes a look at contemporary research related to human sexuality.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/biol177\/index.html",
+                "icon": "courseicons:biol177"
+            }
+        },
+        {
+            "id": "bmmb551",
+            "indent": 0,
+            "location": "pages\/courses\/bmmb551\/index.html",
+            "order": 17,
+            "parent": "courses",
+            "title": "Bmmb 551",
+            "name": "Genomics",
+            "description": "BMMB 551 will deal with the structure and function of genomes including the use of some current web-based tools and resources for studies and research in genomics. The overall objective is to learn current information about the structure and function of genomes, to develop facility in the many web-based tools and resources for further studies and research in genomics, and to appreciate the power and limitations of current resources and knowledge. Throughout this course, we will introduce and/or review the fundamentals of genomics. You will also learn about the approaches used to asses function of genomic DNA. As you acquire this information, you will be asked to apply this information for cutting edge exploration of functional regions of genomes. Additionally, this course will serve as a forum to explore new approaches to self-motivation and group learning. It will also provide you with a place to do something fresh and exciting!",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Graduate",
+                "syllabus": "pages\/syllabi\/bmmb551\/index.html",
+                "icon": "courseicons:bmmb551"
+            }
+        },
+        {
+            "id": "bmmb852",
+            "indent": 0,
+            "location": "pages\/courses\/bmmb852\/index.html",
+            "order": 18,
+            "parent": "courses",
+            "title": "Bmmb 852",
+            "name": "Applied Bioinformatics",
+            "description": "The purpose of this course is to provide students with a foundation in the various applications of high-throughput sequencing including: chip-Seq, RNA-Seq, SNP calling, metagenomics, de-novo assembly and others. The course material will concentrate on presenting complete data analysis scenarios for each of these domains of applications and will introduce students to a wide variety of existing tools and techniques. By the end of the course work students will understand common bioinformatics data formats and standards, become familiar with the practice of analyzing sequencing data from various instruments and will develop the computationally oriented thinking that is necessary to take on large-scale data analysis projects.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Graduate",
+                "syllabus": "pages\/syllabi\/bmmb852\/index.html",
+                "icon": "courseicons:bmmb852"
+            }
+        },
+        {
+            "id": "chem005",
+            "indent": 0,
+            "location": "pages\/courses\/chem005\/index.html",
+            "order": 19,
+            "parent": "courses",
+            "title": "Chem 005",
+            "name": "Kitchen Chemistry",
+            "description": "Foods are made of chemical substances, and cooking may be the most widespread application of chemistry. Your overall goal for this course is to gain knowledge of the structures and functions of foods and to apply this to better understand the chemical principles involved in food products and common cooking techniques. You will learn an array of elementary chemical concepts such as physical and chemical changes, chemical bonding, energy, polarity, solubility, acids and bases, functional groups, etc. You will also learn how to read and critically analyze the nutritional facts on food labels, classify food additives according to their properties, and identify key chemical properties of food ingredients and explain their effects on their handling, use and taste. CHEM 005 incorporates reading, problem-solving, and ‘edible’ home experiments to develop an understanding of chemical concepts and scientific inquiry within the context of food and cooking. Students will develop an enhanced understanding of the chemical principles involved in food products and common cooking techniques.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/chem005\/index.html",
+                "icon": "courseicons:chem005"
+            }
+        },
+        {
+            "id": "chem101",
+            "indent": 0,
+            "location": "pages\/courses\/chem101\/index.html",
+            "order": 20,
+            "parent": "courses",
+            "title": "Chem 101",
+            "name": "Introductory Chemistry",
+            "description": "Chemistry is the central science that allows you to connect the microscopic structure of molecules to the observable properties and behavior of materials that we see everyday. The main goals of Chem 101 are for you to gain a solid foundation of the principles of chemistry and use these principles to better understand your observations of the real world. Along the way, you will improve your observation skills and your ability to think critically about your observations. Doing experiments will help you learn good laboratory techniques in taking measurements properly, recording data carefully, and working safely. Using your experimental results, you will learn to analyze and draw logical conclusions from your data. Then you can connect what you observe in the lab with what you have read in the text and practiced in the online activities. The last step is to connect your observations in the lab and class with the real world. While prior study of chemistry is not required, it is recommended that you have taken at least one class in Algebra.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/chem101\/index.html",
+                "icon": "courseicons:chem101"
+            }
+        },
+        {
+            "id": "chem110",
+            "indent": 0,
+            "location": "pages\/courses\/chem110\/index.html",
+            "order": 21,
+            "parent": "courses",
+            "title": "Chem 110",
+            "name": "Chemical Principles",
+            "description": "Why is water a liquid? Why does a party balloon float? Is it true that microwaves are bad? You’ll find an answer to these questions and more in this course! CHEM 110 will begin by exploring the structure of an atom, and at the end of the course you will be able to explain the underlying reasons for the observed behaviors of matter. We’ll cover topics such as atomic and molecular structure, physical properties, and chemical reactions and stoichiometry. All the while, we will highlight how energy plays a role in chemical and physical processes. Throughout the course, you will improve your problem-solving skills by working through examples and applying concepts to real-world scenarios. You will see a variety of examples from biology, engineering, and everyday life that highlight the importance of chemistry in the world around you.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/chem110\/index.html",
+                "icon": "courseicons:chem110"
+            }
         }
     ]
 }
