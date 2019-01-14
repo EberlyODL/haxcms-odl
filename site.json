@@ -23,10 +23,10 @@
             "order": 1,
             "parent": null,
             "title": "Home",
-            "description": "",
+            "description": "    The Office of Digital Learning helped me create a wonderful online course experience for my students.  They were innovative and a lot of fun to  work with.\n\n\n    The Office of Digital Learning hel",
             "metadata": {
                 "created": 1541517715,
-                "updated": 1547052847
+                "updated": 1547477518
             }
         },
         {
@@ -426,7 +426,7 @@
             "parent": "courses",
             "title": "BiSc 002",
             "name": "Genetics, Ecology, and Evolution",
-            "description": "Evolution is a central theme of biology, and it helps us to understand the process of life that is ongoing all across our globe. The interactions among members of this global community provide the backdrop for understanding the ecology of our planet and our place in that community. BI SC 002 combines genetics/human genetics, evolution, and ecology as a study of how living organisms inherit their traits, how plants and animals evolved, and how they now interact. It is an introductory course for non-science majors. By the end of the course, students should develop a basic understanding of genetic and biological terms and their importance to our technologically advanced society. There are no prerequisites for this course.",
+            "description": "Evolution is a central theme of biology, and it helps us to understand the process of life that is ongoing all across our globe. The interactions among members of this global community provide the backdrop for understanding the ecology of our planet and our place in that community. BI SC 002 combines genetics\/human genetics, evolution, and ecology as a study of how living organisms inherit their traits, how plants and animals evolved, and how they now interact. It is an introductory course for non-science majors. By the end of the course, students should develop a basic understanding of genetic and biological terms and their importance to our technologically advanced society. There are no prerequisites for this course.",
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -463,8 +463,8 @@
             "order": 9,
             "parent": "courses",
             "title": "BiSc 004",
-            "name": "Human Body: Form & Function",
-            "description": "Everyone should understand, to some extent, how their lives depend on a properly developed and functioning body. It is important to understand biological principles fundamental to understanding human life, such as cell structure, metabolism, organ functions, human genetics, and how the human body reacts to disease. BI SC 004 combines the study of human anatomy, which is the study of parts of the human body, with human physiology, which is the study of how parts of the body work together to make the body function. It is an introductory course for non-science majors that provides a general survey of structure and function of the human body—from conception, through growth and reproduction to death. By course end, students should develop a better understanding about the human body that will assist them as they deal with their own injuries or illnesses in the future, as well as other’s.",
+            "name": "Human Body: Form and Function",
+            "description": "Everyone should understand, to some extent, how their lives depend on a properly developed and functioning body. It is important to understand biological principles fundamental to understanding human life, such as cell structure, metabolism, organ functions, human genetics, and how the human body reacts to disease. BI SC 004 combines the study of human anatomy, which is the study of parts of the human body, with human physiology, which is the study of how parts of the body work together to make the body function. It is an introductory course for non-science majors that provides a general survey of structure and function of the human body\u2014from conception, through growth and reproduction to death. By course end, students should develop a better understanding about the human body that will assist them as they deal with their own injuries or illnesses in the future, as well as other\u2019s.",
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -482,8 +482,8 @@
             "order": 10,
             "parent": "courses",
             "title": "Biol 11",
-            "name": "Introductory Biology I",
-            "description": "You are a biological being, as are the foods that you eat. We use products from other organisms to make many of the clothes that we wear, build our homes, provide medicines, and give beauty to our lives. Therefore, developing an appreciation and understanding of the biological world is important to living in this world and becoming a responsible steward of its resources. Who hasn't watched a bird and wondered what it would be like to be able to fly? To see the world from a different perspective? This course will provide an introduction to fundamental biological topics (including cells, energy transduction, genetics, evolution, organismal structure/function, ecology) for non-majors in biology-related fields.",
+            "name": "Introductory Biology 1",
+            "description": "You are a biological being, as are the foods that you eat. We use products from other organisms to make many of the clothes that we wear, build our homes, provide medicines, and give beauty to our lives. Therefore, developing an appreciation and understanding of the biological world is important to living in this world and becoming a responsible steward of its resources. Who hasn't watched a bird and wondered what it would be like to be able to fly? To see the world from a different perspective? This course will provide an introduction to fundamental biological topics (including cells, energy transduction, genetics, evolution, organismal structure\/function, ecology) for non-majors in biology-related fields.",
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -616,7 +616,7 @@
             "parent": "courses",
             "title": "Bmmb 551",
             "name": "Genomics",
-            "description": "BMMB 551 will deal with the structure and function of genomes including the use of some current web-based tools and resources for studies and research in genomics. The overall objective is to learn current information about the structure and function of genomes, to develop facility in the many web-based tools and resources for further studies and research in genomics, and to appreciate the power and limitations of current resources and knowledge. Throughout this course, we will introduce and/or review the fundamentals of genomics. You will also learn about the approaches used to asses function of genomic DNA. As you acquire this information, you will be asked to apply this information for cutting edge exploration of functional regions of genomes. Additionally, this course will serve as a forum to explore new approaches to self-motivation and group learning. It will also provide you with a place to do something fresh and exciting!",
+            "description": "BMMB 551 will deal with the structure and function of genomes including the use of some current web-based tools and resources for studies and research in genomics. The overall objective is to learn current information about the structure and function of genomes, to develop facility in the many web-based tools and resources for further studies and research in genomics, and to appreciate the power and limitations of current resources and knowledge. Throughout this course, we will introduce and\/or review the fundamentals of genomics. You will also learn about the approaches used to asses function of genomic DNA. As you acquire this information, you will be asked to apply this information for cutting edge exploration of functional regions of genomes. Additionally, this course will serve as a forum to explore new approaches to self-motivation and group learning. It will also provide you with a place to do something fresh and exciting!",
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -654,7 +654,7 @@
             "parent": "courses",
             "title": "Chem 005",
             "name": "Kitchen Chemistry",
-            "description": "Foods are made of chemical substances, and cooking may be the most widespread application of chemistry. Your overall goal for this course is to gain knowledge of the structures and functions of foods and to apply this to better understand the chemical principles involved in food products and common cooking techniques. You will learn an array of elementary chemical concepts such as physical and chemical changes, chemical bonding, energy, polarity, solubility, acids and bases, functional groups, etc. You will also learn how to read and critically analyze the nutritional facts on food labels, classify food additives according to their properties, and identify key chemical properties of food ingredients and explain their effects on their handling, use and taste. CHEM 005 incorporates reading, problem-solving, and ‘edible’ home experiments to develop an understanding of chemical concepts and scientific inquiry within the context of food and cooking. Students will develop an enhanced understanding of the chemical principles involved in food products and common cooking techniques.",
+            "description": "Foods are made of chemical substances, and cooking may be the most widespread application of chemistry. Your overall goal for this course is to gain knowledge of the structures and functions of foods and to apply this to better understand the chemical principles involved in food products and common cooking techniques. You will learn an array of elementary chemical concepts such as physical and chemical changes, chemical bonding, energy, polarity, solubility, acids and bases, functional groups, etc. You will also learn how to read and critically analyze the nutritional facts on food labels, classify food additives according to their properties, and identify key chemical properties of food ingredients and explain their effects on their handling, use and taste. CHEM 005 incorporates reading, problem-solving, and \u2018edible\u2019 home experiments to develop an understanding of chemical concepts and scientific inquiry within the context of food and cooking. Students will develop an enhanced understanding of the chemical principles involved in food products and common cooking techniques.",
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -692,7 +692,7 @@
             "parent": "courses",
             "title": "Chem 110",
             "name": "Chemical Principles",
-            "description": "Why is water a liquid? Why does a party balloon float? Is it true that microwaves are bad? You’ll find an answer to these questions and more in this course! CHEM 110 will begin by exploring the structure of an atom, and at the end of the course you will be able to explain the underlying reasons for the observed behaviors of matter. We’ll cover topics such as atomic and molecular structure, physical properties, and chemical reactions and stoichiometry. All the while, we will highlight how energy plays a role in chemical and physical processes. Throughout the course, you will improve your problem-solving skills by working through examples and applying concepts to real-world scenarios. You will see a variety of examples from biology, engineering, and everyday life that highlight the importance of chemistry in the world around you.",
+            "description": "Why is water a liquid? Why does a party balloon float? Is it true that microwaves are bad? You\u2019ll find an answer to these questions and more in this course! CHEM 110 will begin by exploring the structure of an atom, and at the end of the course you will be able to explain the underlying reasons for the observed behaviors of matter. We\u2019ll cover topics such as atomic and molecular structure, physical properties, and chemical reactions and stoichiometry. All the while, we will highlight how energy plays a role in chemical and physical processes. Throughout the course, you will improve your problem-solving skills by working through examples and applying concepts to real-world scenarios. You will see a variety of examples from biology, engineering, and everyday life that highlight the importance of chemistry in the world around you.",
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -701,6 +701,177 @@
                 "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/chem110\/index.html",
                 "icon": "courseicons:chem110"
+            }
+        },
+        {
+            "id": "chem111",
+            "indent": 0,
+            "location": "pages\/courses\/chem111\/index.html",
+            "order": 22,
+            "parent": "courses",
+            "title": "Chem 111",
+            "name": "Experimental Chemistry",
+            "description": "This course provides an introduction to quantitative experimentation in chemistry. The students are introduced to laboratory safety and good experimental techniques, how to keep a proper laboratory notebook, interpret data, and write a formal report. The course introduces laboratory experimentation in the context of a variety of specific topics, such as reactions in solutions, spectroscopy, chemistry of natural waters, acids and bases, and the synthesis and analysis of chemical compounds.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/chem111\/index.html",
+                "icon": "courseicons:chem111"
+            }
+        },
+        {
+            "id": "chem202",
+            "indent": 0,
+            "location": "pages\/courses\/chem202\/index.html",
+            "order": 23,
+            "parent": "courses",
+            "title": "Chem 202",
+            "name": "Fundamentals of Organic Chemistry",
+            "description": "This course provides an introduction to organic chemistry, with emphasis on the properties of organic compounds of biochemical importance and fundamental principles. Some of the principles are illustrated with a variety of examples from nature and everyday life. The course covers the following topics: alkanes; alkenes, including polymers; alkynes; benzene and aromaticity; alcohols and phenols; ethers; aldehydes; ketones; carboxylic acids and their acyl derivatives; amines; alkyl halides; nomenclature; stereochemistry, including conformational analysis and chirality. Chemical reactions of the functional groups will be discussed along with the mechanistic details, including stereospecificity, of some of these processes. Biological molecules such as carbohydrates, lipids, steroids, peptides/proteins and nucleic acids, along with their importance in living systems, will be surveyed.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/chem202\/index.html",
+                "icon": "courseicons:chem202"
+            }
+        },
+        {
+            "id": "chem810",
+            "indent": 0,
+            "location": "pages\/courses\/chem810\/index.html",
+            "order": 24,
+            "parent": "courses",
+            "title": "Chem 810",
+            "name": "Liquid Chromatography",
+            "description": "The course specifically caters to the needs of the analytical chemical industry and individuals newly hired into entry-level sample management/preparation and quality assurance/quality control positions within companies using liquid chromatographic techniques. The course material is designed to increase student understanding of both the liquid chromatography instrument used in the laboratory and the principles underlying the measurements.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Graduate",
+                "syllabus": "pages\/syllabi\/chem810\/index.html",
+                "icon": "courseicons:chem810"
+            }
+        },
+        {
+            "id": "chem811",
+            "indent": 0,
+            "location": "pages\/courses\/chem811\/index.html",
+            "order": 25,
+            "parent": "courses",
+            "title": "Chem 811",
+            "name": "Liquid Chromatography II",
+            "description": "The course specifically caters to the needs of the analytical chemical industry and individuals hired into, or transitioning into, technician level positions within companies using liquid chromatographic techniques. The course material is designed to increase student understanding of both the liquid chromatography instrument used in the laboratory and the principles underlying the measurements.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Graduate",
+                "syllabus": "pages\/syllabi\/chem811\/index.html",
+                "icon": "courseicons:chem811"
+            }
+        },
+        {
+            "id": "chem812",
+            "indent": 0,
+            "location": "pages\/courses\/chem812\/index.html",
+            "order": 26,
+            "parent": "courses",
+            "title": "Chem 812",
+            "name": "Liquid Chromatography III",
+            "description": "The course specifically caters to the needs of the analytical chemical industry and individuals hired into, or transitioning into, development-level, or senior-level, chemist positions within companies using liquid chromatographic techniques. The course material is designed to increase student understanding of both the liquid chromatography instrument used in the laboratory and the principles underlying the measurements.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Graduate",
+                "syllabus": "pages\/syllabi\/chem812\/index.html",
+                "icon": "courseicons:chem812"
+            }
+        },
+        {
+            "id": "frnsc100",
+            "indent": 0,
+            "location": "pages\/courses\/frnsc100\/index.html",
+            "order": 27,
+            "parent": "courses",
+            "title": "Frnsc 100",
+            "name": "Introduction to Forensic Science",
+            "description": "Forensic science is the study and application of science to the processes of law and involves the collection, examination, evaluation and interpretation of evidence. This course introduces the field of forensic science through an exploration of its applications to criminal investigation. This field encompasses many scientific areas which, if used properly, can make invaluable contributions to the resolution of social and legal disputes. The course will review the basic applications of selected forensic science disciplines and will explore the underlying scientific principals and methods used within each. Using examples taken from adjudicated cases, the capabilities and limitations of the forensic sciences will be illustrated. No background in natural sciences is presumed.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/frnsc100\/index.html",
+                "icon": "courseicons:frnsc100"
+            }
+        },
+        {
+            "id": "frnsc200",
+            "indent": 0,
+            "location": "pages\/courses\/frnsc200\/index.html",
+            "order": 28,
+            "parent": "courses",
+            "title": "Frnsc 200",
+            "name": "Introduction to Crime Scene Investigation",
+            "description": "Introduction to Crime Scene Investigation is a course that will engage you simply by its nature. It is a course that will introduce you to the philosophies, principles, and professional practices of Crime Scene Investigation. You will be expected to apply knowledge from multiple fields of study including, but not limited to Chemistry, Biology, Sociology, Psychology, Statistics, Philosophy, and Criminology. What you do not already know will be taught to ensure your success; however, you need to be prepared to think critically and scientifically throughout the rigorous curriculum. You will need to think like a scientist, conduct yourself like a professional, and investigate scenes to fully apply your forensic skills. This is a rigorous course that requires a dedicated amount of your time; by the nature of its content, FRNSC 200 is a course that requires your active participation and full academic commitment.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/frnsc200\/index.html",
+                "icon": "courseicons:frnsc200"
+            }
+        },
+        {
+            "id": "frnsc210",
+            "indent": 0,
+            "location": "pages\/courses\/frnsc210\/index.html",
+            "order": 29,
+            "parent": "courses",
+            "title": "Frnsc 210",
+            "name": "Essential Practices of Forensic Science",
+            "description": "Forensic science encompasses many scientific areas which, if used properly, can make invaluable contributions to the resolution of social and legal disputes. In this course, students will learn the essential practices of forensic science and criminalistics and review practices of forensic science including documentation, microscopy, communication of results, and integration of concepts from other sciences, mathematics, and statistics. The necessity of an objective, rigorous, scientific approach in a forensic investigation will be stressed. This course will prepare students to understand the foundation of forensic science practice including the basic knowledge required to understand the nature and origin of physical evidence, preservation of the physical evidence record, forensic microscopy, and communication of results. It is important to note that this course uses an intensive, problem-solving style and through practical exercises, students will be introduced to documentation techniques, basic and forensic microscopy, the verbal and written communication of forensic findings. The primary aims of the course are to introduce students to scientific philosophy, integrity, forensic science, criminalistics, basic practices of forensic science/criminalistics, and the role of the criminalist as they relate to a forensic investigation as well as prepare students for advanced 400-level courses in forensic science and criminalistics.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/frnsc210\/index.html",
+                "icon": "courseicons:frnsc210"
+            }
+        },
+        {
+            "id": "math004",
+            "indent": 0,
+            "location": "pages\/courses\/math004\/index.html",
+            "order": 30,
+            "parent": "courses",
+            "title": "Math 004",
+            "name": "Intermediate Algebra",
+            "description": "This course explores algebraic expressions; linear, absolute value equations and inequalities; lines; systems of linear equations; integral exponents; polynomials; factoring.",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "course",
+                "template": "courses",
+                "program": "Undergraduate",
+                "syllabus": "pages\/syllabi\/math004\/index.html",
+                "icon": "courseicons:math004"
             }
         }
     ]
