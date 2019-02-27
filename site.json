@@ -1,19 +1,62 @@
 {
     "id": "3474a06d-9d3b-4ec7-ba9b-0a448a6e685e",
     "title": "odl",
-    "author": "",
+    "author": "odl",
     "description": "",
     "license": "by-sa",
     "metadata": {
         "siteName": "odl",
         "image": "assets\/banner.jpg",
-        "theme": "odl-haxtheme",
+        "theme": {
+            "element": "odl-haxtheme",
+            "path": "odl-haxtheme/odl-haxtheme.js",
+            "name": "Eberly ODL"
+        },
         "icon": "icons:add-circle-outline",
         "domain": "https:\/\/odl.surge.sh",
-        "hexCode": "#5a0020",
+        "hexCode": "#aeff00",
         "created": 1539789245,
         "updated": 1541517755,
-        "cssVariable": "--simple-colors-pink-foreground1"
+        "cssVariable": "--simple-colors-default-theme-light-blue-7",
+        "publishing": {
+            "git": {
+                "vendor": "github",
+                "branch": "gh-pages",
+                "url": "git@github.com:EberlyODL\/haxcms-odl.git",
+                "cdn": "custom"
+            }
+        },
+        "dynamicElementLoader": {
+            "a11y-gif-player": "@lrnwebcomponents\/a11y-gif-player\/a11y-gif-player.js",
+            "citation-element": "@lrnwebcomponents\/citation-element\/citation-element.js",
+            "hero-banner": "@lrnwebcomponents\/hero-banner\/hero-banner.js",
+            "image-compare-slider": "@lrnwebcomponents\/image-compare-slider\/image-compare-slider.js",
+            "license-element": "@lrnwebcomponents\/license-element\/license-element.js",
+            "lrn-aside": "@lrnwebcomponents\/lrn-aside\/lrn-aside.js",
+            "lrn-calendar": "@lrnwebcomponents\/lrn-calendar\/lrn-calendar.js",
+            "lrn-math": "@lrnwebcomponents\/lrn-math\/lrn-math.js",
+            "lrn-table": "@lrnwebcomponents\/lrn-table\/lrn-table.js",
+            "lrn-vocab": "@lrnwebcomponents\/lrn-vocab\/lrn-vocab.js",
+            "lrndesign-blockquote": "@lrnwebcomponents\/lrndesign-blockquote\/lrndesign-blockquote.js",
+            "magazine-cover": "@lrnwebcomponents\/magazine-cover\/magazine-cover.js",
+            "media-behaviors": "@lrnwebcomponents\/media-behaviors\/media-behaviors.js",
+            "media-image": "@lrnwebcomponents\/media-image\/media-image.js",
+            "meme-maker": "@lrnwebcomponents\/meme-maker\/meme-maker.js",
+            "multiple-choice": "@lrnwebcomponents\/multiple-choice\/multiple-choice.js",
+            "paper-audio-player": "@lrnwebcomponents\/paper-audio-player\/paper-audio-player.js",
+            "person-testimonial": "@lrnwebcomponents\/person-testimonial\/person-testimonial.js",
+            "place-holder": "@lrnwebcomponents\/place-holder\/place-holder.js",
+            "q-r": "@lrnwebcomponents\/q-r\/q-r.js",
+            "full-width-image": "@lrnwebcomponents\/full-width-image\/full-width-image.js",
+            "self-check": "@lrnwebcomponents\/self-check\/self-check.js",
+            "simple-concept-network": "@lrnwebcomponents\/simple-concept-network\/simple-concept-network.js",
+            "stop-note": "@lrnwebcomponents\/stop-note\/stop-note.js",
+            "tab-list": "@lrnwebcomponents\/tab-list\/tab-list.js",
+            "task-list": "@lrnwebcomponents\/task-list\/task-list.js",
+            "video-player": "@lrnwebcomponents\/video-player\/video-player.js",
+            "wave-player": "@lrnwebcomponents\/wave-player\/wave-player.js",
+            "wikipedia-query": "@lrnwebcomponents\/wikipedia-query\/wikipedia-query.js"
+        }
     },
     "items": [
         {
@@ -55,9 +98,9 @@
                 "updated": 1541517757,
                 "type": "news",
                 "template": "news",
-                "image": "assets\/blog-images\/11-19-18.jpg",
+                "image": "files\/blog-images\/11-19-18.jpg",
                 "author": "Charles Lavera",
-                "authorImage": "assets\/odl-team\/chuck.jpg"
+                "authorImage": "files\/odl-team\/chuck.jpg"
             }
         },
         {
@@ -73,9 +116,9 @@
                 "updated": 1541517755,
                 "type": "news",
                 "template": "news",
-                "image": "assets\/blog-images\/10-22-18.jpg",
+                "image": "files\/blog-images\/10-22-18.jpg",
                 "author": "Charles Lavera",
-                "authorImage": "assets\/odl-team\/chuck.jpg"
+                "authorImage": "files\/odl-team\/chuck.jpg"
             }
         },
         {
@@ -91,9 +134,9 @@
                 "updated": 1541517755,
                 "type": "news",
                 "template": "news",
-                "image": "assets\/blog-images\/10-9-18.jpg",
+                "image": "files\/blog-images\/10-9-18.jpg",
                 "author": "Carly Dreibelbis",
-                "authorImage": "assets\/odl-team\/carly.jpg"
+                "authorImage": "files\/odl-team\/carly.jpg"
             }
         },
         {
@@ -109,9 +152,9 @@
                 "updated": 1541517757,
                 "type": "news",
                 "template": "news",
-                "image": "assets\/blog-images\/8-14-18.jpg",
+                "image": "files\/blog-images\/8-14-18.jpg",
                 "author": "Charles Lavera",
-                "authorImage": "assets\/odl-team\/chuck.jpg"
+                "authorImage": "files\/odl-team\/chuck.jpg"
             }
         },
         {
@@ -127,9 +170,9 @@
                 "updated": 1541517757,
                 "type": "news",
                 "template": "news",
-                "image": "assets\/blog-images\/6-29-18.jpeg",
+                "image": "files\/blog-images\/6-29-18.jpeg",
                 "author": "Charles Lavera",
-                "authorImage": "assets\/odl-team\/chuck.jpg"
+                "authorImage": "files\/odl-team\/chuck.jpg"
             }
         },
         {
@@ -145,9 +188,9 @@
                 "updated": 1541517757,
                 "type": "news",
                 "template": "news",
-                "image": "assets\/blog-images\/6-4-18.png",
+                "image": "files\/blog-images\/6-4-18.png",
                 "author": "Joseph Foresman",
-                "authorImage": "assets\/odl-team\/joe.jpg"
+                "authorImage": "files\/odl-team\/joe.jpg"
             }
         },
         {
@@ -163,9 +206,9 @@
                 "updated": 1541517757,
                 "type": "news",
                 "template": "news",
-                "image": "assets\/blog-images\/6-4-18-2.jpg",
+                "image": "files\/blog-images\/6-4-18-2.jpg",
                 "author": "Charles Lavera",
-                "authorImage": "assets\/odl-team\/chuck.jpg"
+                "authorImage": "files\/odl-team\/chuck.jpg"
             }
         },
         {
@@ -194,7 +237,7 @@
                 "updated": 1541517345,
                 "type": "team",
                 "template": "team",
-                "image": "assets\/odl-team\/melissa.png",
+                "image": "files\/odl-team\/melissa.png",
                 "jobTitle": "Director \/ Instructional Designer",
                 "address": "221 Ritenour",
                 "phone": "555-555-555",
@@ -215,7 +258,7 @@
                 "updated": 1541517757,
                 "type": "team",
                 "template": "team",
-                "image": "assets\/odl-team\/carly.jpg",
+                "image": "files\/odl-team\/carly.jpg",
                 "jobTitle": "Multimedia Specialist",
                 "address": "221 Ritenour",
                 "phone": "555-555-555",
@@ -236,7 +279,7 @@
                 "updated": 1541517757,
                 "type": "team",
                 "template": "team",
-                "image": "assets\/odl-team\/mike.jpg",
+                "image": "files\/odl-team\/mike.jpg",
                 "jobTitle": "Educational Technologist",
                 "address": "221 Ritenour",
                 "phone": "555-555-555",
@@ -257,7 +300,7 @@
                 "updated": 1541517757,
                 "type": "team",
                 "template": "team",
-                "image": "assets\/odl-team\/chuck.jpg",
+                "image": "files\/odl-team\/chuck.jpg",
                 "jobTitle": "Multimedia Specialist",
                 "address": "221 Ritenour",
                 "phone": "555-555-555",
