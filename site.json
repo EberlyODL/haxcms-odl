@@ -9,12 +9,12 @@
         "image": "assets\/banner.jpg",
         "theme": {
             "element": "odl-haxtheme",
-            "path": "odl-haxtheme/odl-haxtheme.js",
+            "path": "@eberlywc/odl-haxtheme/odl-haxtheme.js",
             "name": "Eberly ODL"
         },
         "icon": "icons:add-circle-outline",
         "domain": "https:\/\/odl.surge.sh",
-        "hexCode": "#aeff00",
+        "hexCode": "#ffffff",
         "created": 1539789245,
         "updated": 1541517755,
         "cssVariable": "--simple-colors-default-theme-light-blue-7",
@@ -76,7 +76,7 @@
             "id": "news",
             "indent": 0,
             "location": "pages\/news\/index.html",
-            "order": 1,
+            "order": 4,
             "parent": null,
             "title": "News",
             "description": "",
@@ -100,7 +100,9 @@
                 "template": "news",
                 "image": "files\/blog-images\/11-19-18.jpg",
                 "author": "Charles Lavera",
-                "authorImage": "files\/odl-team\/chuck.jpg"
+                "authorImage": "files\/odl-team\/chuck.jpg",
+                "tagLine": "Fun with H5P",
+                "tags": ["H5P", "Content", "Engagement" ]
             }
         },
         {
@@ -325,7 +327,7 @@
             "id": "contact",
             "indent": 0,
             "location": "pages\/contact\/index.html",
-            "order": 3,
+            "order": 6,
             "parent": null,
             "title": "Contact",
             "description": "",
