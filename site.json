@@ -89,16 +89,18 @@
             "id": "h5p_documentation_tool",
             "indent": 1,
             "location": "pages\/blog-posts\/11-19-18\/index.html",
-            "order": 2,
+            "order": 1,
             "parent": "news",
             "title": "H5P: Documentation Tool",
             "description": "Are you searching for a creative, interactive, and engaging way to have students submit details about an assignment or project they\u2019re working on?  Would you like this information to be exported to a nicely formatted text document instantly?  Look no further...",
             "metadata": {
+                "fields": {
+                    "image": "files\/blog-images\/11-19-18.jpg"
+                },
                 "created": 1542603600,
                 "updated": 1541517757,
                 "type": "news",
                 "template": "news",
-                "image": "files\/blog-images\/11-19-18.jpg",
                 "author": "Charles Lavera",
                 "authorImage": "files\/odl-team\/chuck.jpg",
                 "tagLine": "Fun with H5P",
@@ -109,108 +111,132 @@
             "id": "accessibility_tips_for_developers",
             "indent": 1,
             "location": "pages\/blog-posts\/10-22-18\/index.html",
-            "order": 1,
+            "order": 2,
             "parent": "news",
             "title": "5 Web Accessibility Tips for Developers",
             "description": "Web accessibility is an intricate part of the development process.  As a builder, we need to ensure that our content is available to everyone, including the growing population of people with disabilities.  If you\u2019re just starting to explore web accessibility...",
             "metadata": {
+                "fields": {
+                    "image": "files\/blog-images\/10-22-18.jpg"
+                },
                 "created": 1540180800,
                 "updated": 1541517755,
                 "type": "news",
                 "template": "news",
-                "image": "files\/blog-images\/10-22-18.jpg",
                 "author": "Charles Lavera",
-                "authorImage": "files\/odl-team\/chuck.jpg"
+                "authorImage": "files\/odl-team\/chuck.jpg",
+                "tagLine": "Accessibility Matters",
+                "tags": ["Accessibility", "Web Design", "Web" ]
             }
         },
         {
             "id": "udl_design_framework",
             "indent": 1,
             "location": "pages\/blog-posts\/10-9-18\/index.html",
-            "order": 1,
+            "order": 3,
             "parent": "news",
             "title": "The Universal Design for Learning (UDL) Framework",
             "description": "Do you know about Universal Design for Learning? Do you consider yourself a teacher, a learner or even BOTH? If so, UDL and it\u2019s guidelines applies to you...",
             "metadata": {
+                "fields": {
+                    "image": "files\/blog-images\/10-9-18.jpg"
+                },
                 "created": 1539057600,
                 "updated": 1541517755,
                 "type": "news",
                 "template": "news",
-                "image": "files\/blog-images\/10-9-18.jpg",
                 "author": "Carly Dreibelbis",
-                "authorImage": "files\/odl-team\/carly.jpg"
+                "authorImage": "files\/odl-team\/carly.jpg",
+                "tagLine": "UDL Design",
+                "tags": ["Design", "Learning", "Framework" ]
             }
         },
         {
             "id": "kaltura_update",
             "indent": 1,
             "location": "pages\/blog-posts\/8-14-18\/index.html",
-            "order": 2,
+            "order": 4,
             "parent": "news",
             "title": "Kaltura: What You Need To Know",
             "description": "Are you a faculty member looking to enrich your learning environment?  Are you involved with long-distance learning or hoping to extend the reach of your content online?  Kaltura might be the solution you are searching for...",
             "metadata": {
+                "fields": {
+                    "image": "files\/blog-images\/8-14-18.jpg"
+                },
                 "created": 1534219200,
                 "updated": 1541517757,
                 "type": "news",
                 "template": "news",
-                "image": "files\/blog-images\/8-14-18.jpg",
                 "author": "Charles Lavera",
-                "authorImage": "files\/odl-team\/chuck.jpg"
+                "authorImage": "files\/odl-team\/chuck.jpg",
+                "tagLine": "Fun with H5P",
+                "tags": ["H5P", "Content", "Engagement" ]
             }
         },
         {
             "id": "featured_element_custom_alert_message",
             "indent": 1,
             "location": "pages\/blog-posts\/6-29-18\/index.html",
-            "order": 2,
+            "order": 5,
             "parent": "news",
             "title": "Featured Element: Custom Alert Message",
             "description": "Recently, our office was approached by Louis Leblond to create a custom instructional element for his online course.  Louis is an Associate Teaching Professor and Director of Online Education in Physics here at Eberly College of Science...",
             "metadata": {
+                "fields": {
+                    "image": "files\/blog-images\/6-29-18.jpeg"
+                },
                 "created": 1530244800,
                 "updated": 1541517757,
                 "type": "news",
                 "template": "news",
-                "image": "files\/blog-images\/6-29-18.jpeg",
                 "author": "Charles Lavera",
-                "authorImage": "files\/odl-team\/chuck.jpg"
+                "authorImage": "files\/odl-team\/chuck.jpg",
+                "tagLine": "Fun with H5P",
+                "tags": ["H5P", "Content", "Engagement" ]
             }
         },
         {
             "id": "cost_savings_asset_retention_with_digital_models",
             "indent": 1,
             "location": "pages\/blog-posts\/6-4-18\/index.html",
-            "order": 2,
+            "order": 6,
             "parent": "news",
             "title": "Cost-Savings and Assest-Retention using Digital Models",
             "description": "We were approached by John Waters from the Biology department with an interesting request.  He told us he wanted to turn a plastinated human head into a 3D...",
             "metadata": {
+                "fields": {
+                    "image": "files\/blog-images\/6-4-18.png"
+                },
                 "created": 1528084800,
                 "updated": 1541517757,
                 "type": "news",
                 "template": "news",
-                "image": "files\/blog-images\/6-4-18.png",
                 "author": "Joseph Foresman",
-                "authorImage": "files\/odl-team\/joe.jpg"
+                "authorImage": "files\/odl-team\/joe.jpg",
+                "tagLine": "Fun with H5P",
+                "tags": ["H5P", "Content", "Engagement" ]
             }
         },
         {
             "id": "odl_alters_reality_tech_pros",
             "indent": 1,
             "location": "pages\/blog-posts\/6-4-18-2\/index.html",
-            "order": 2,
+            "order": 7,
             "parent": "news",
             "title": "ODL Alters Reality at Tech Pros",
             "description": "Recently (May 24th - 25th), Michael Potter and I had the opportunity to present at the Tech Pros Conference at Penn State Dickinson Law. For those unfamiliar, Tech Pros is a conference that visits a different Commonwealth Campus each year to increase development and networking opportunities for IT professionals at the university...",
             "metadata": {
+                "fields": {
+                    "image": "files\/blog-images\/6-4-18-2.jpg"
+                },
                 "created": 1528084800,
                 "updated": 1541517757,
                 "type": "news",
                 "template": "news",
-                "image": "files\/blog-images\/6-4-18-2.jpg",
                 "author": "Charles Lavera",
-                "authorImage": "files\/odl-team\/chuck.jpg"
+                "authorImage": "files\/odl-team\/chuck.jpg",
+                "tagLine": "Fun with H5P",
+                "tags": ["H5P", "Content", "Engagement" ]
             }
         },
         {
