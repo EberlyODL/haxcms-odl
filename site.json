@@ -191,8 +191,8 @@
                 "template": "news",
                 "author": "Charles Lavera",
                 "authorImage": "files\/odl-team\/chuck.jpg",
-                "tagLine": "Fun with H5P",
-                "tags": ["H5P", "Content", "Engagement" ]
+                "tagLine": "Learning Tools",
+                "tags": ["Web Components", "ELMSLN", "EdTech" ]
             }
         },
         {
@@ -213,8 +213,8 @@
                 "template": "news",
                 "author": "Joseph Foresman",
                 "authorImage": "files\/odl-team\/joe.jpg",
-                "tagLine": "Fun with H5P",
-                "tags": ["H5P", "Content", "Engagement" ]
+                "tagLine": "3D Modeling",
+                "tags": ["3D", "Virtual Reality", "Immersive" ]
             }
         },
         {
