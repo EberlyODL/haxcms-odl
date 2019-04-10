@@ -257,20 +257,23 @@
             "indent": 1,
             "location": "pages\/team-directory\/melissa\/index.html",
             "order": 1,
-            "parent": "team",
             "title": "Melissa Hicks",
+            "parent": "team",
             "description": "",
             "metadata": {
+                "fields": {
+                    "name": "Melissa Hicks",
+                    "image": "files\/odl-team\/melissa.png",
+                    "jobTitle": "Director \/ Instructional Designer",
+                    "address": "221 Ritenour",
+                    "phone": "555-555-555",
+                    "email": "mjs100@psu.edu",
+                    "twitter": "@JustStormy"
+                },
                 "created": 1541517321,
                 "updated": 1541517345,
                 "type": "team",
-                "template": "team",
-                "image": "files\/odl-team\/melissa.png",
-                "jobTitle": "Director \/ Instructional Designer",
-                "address": "221 Ritenour",
-                "phone": "555-555-555",
-                "email": "mjs100@psu.edu",
-                "twitter": "@JustStormy"
+                "template": "team"
             }
         },
         {
@@ -278,20 +281,23 @@
             "indent": 1,
             "location": "pages\/team-directory\/carly\/index.html",
             "order": 2,
-            "parent": "team",
             "title": "Carly Dreibelbis",
+            "parent": "team",
             "description": "",
             "metadata": {
+                "fields": {
+                    "name": "Carly Dreibelbis",
+                    "image": "files\/odl-team\/carly.jpg",
+                    "jobTitle": "Multimedia Specialist",
+                    "address": "221 Ritenour",
+                    "phone": "555-555-555",
+                    "email": "cmd30@psu.edu",
+                    "twitter": "@evercarly"
+                },
                 "created": 1541517756,
                 "updated": 1541517757,
                 "type": "team",
-                "template": "team",
-                "image": "files\/odl-team\/carly.jpg",
-                "jobTitle": "Multimedia Specialist",
-                "address": "221 Ritenour",
-                "phone": "555-555-555",
-                "email": "cmd30@psu.edu",
-                "twitter": "@evercarly"
+                "template": "team"
             }
         },
         {
@@ -299,20 +305,23 @@
             "indent": 1,
             "location": "pages\/team-directory\/mike\/index.html",
             "order": 3,
+            "title":  "Michael Potter",
             "parent": "team",
-            "title": "Michael Potter",
             "description": "",
             "metadata": {
+                "fields": {
+                    "name": "Michael Potter",
+                    "image": "files\/odl-team\/mike.jpg",
+                    "jobTitle": "Educational Technologist",
+                    "address": "221 Ritenour",
+                    "phone": "555-555-555",
+                    "email": "mgp140@psu.edu",
+                    "twitter": "@hey__MP"
+                },
                 "created": 1541517819,
                 "updated": 1541517757,
                 "type": "team",
-                "template": "team",
-                "image": "files\/odl-team\/mike.jpg",
-                "jobTitle": "Educational Technologist",
-                "address": "221 Ritenour",
-                "phone": "555-555-555",
-                "email": "mgp140@psu.edu",
-                "twitter": "@hey__MP"
+                "template": "team"
             }
         },
         {
@@ -320,20 +329,23 @@
             "indent": 1,
             "location": "pages\/team-directory\/chuck\/index.html",
             "order": 4,
-            "parent": "team",
             "title": "Charles Lavera",
+            "parent": "team",
             "description": "",
             "metadata": {
+                "fields": {
+                    "name": "Charles Lavera",
+                    "image": "files\/odl-team\/chuck.jpg",
+                    "jobTitle": "Multimedia Specialist",
+                    "address": "221 Ritenour",
+                    "phone": "555-555-555",
+                    "email": "cgl109@psu.edu",
+                    "twitter": "@cgldevel"
+                },
                 "created": 1541517910,
                 "updated": 1541517757,
                 "type": "team",
-                "template": "team",
-                "image": "files\/odl-team\/chuck.jpg",
-                "jobTitle": "Multimedia Specialist",
-                "address": "221 Ritenour",
-                "phone": "555-555-555",
-                "email": "cgl109@psu.edu",
-                "twitter": "@cgldevel"
+                "template": "team"
             }
         },
         {
