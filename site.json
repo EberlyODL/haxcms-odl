@@ -95,7 +95,8 @@
             "description": "Are you searching for a creative, interactive, and engaging way to have students submit details about an assignment or project they\u2019re working on?  Would you like this information to be exported to a nicely formatted text document instantly?  Look no further...",
             "metadata": {
                 "fields": {
-                    "image": "files\/blog-images\/11-19-18.jpg"
+                    "image": "files\/blog-images\/11-19-18.jpg",
+                    "authorId": "chuck"
                 },
                 "created": 1542603600,
                 "updated": 1541517757,
@@ -117,7 +118,8 @@
             "description": "Web accessibility is an intricate part of the development process.  As a builder, we need to ensure that our content is available to everyone, including the growing population of people with disabilities.  If you\u2019re just starting to explore web accessibility...",
             "metadata": {
                 "fields": {
-                    "image": "files\/blog-images\/10-22-18.jpg"
+                    "image": "files\/blog-images\/10-22-18.jpg",
+                    "authorId": "chuck"
                 },
                 "created": 1540180800,
                 "updated": 1541517755,
@@ -139,7 +141,8 @@
             "description": "Do you know about Universal Design for Learning? Do you consider yourself a teacher, a learner or even BOTH? If so, UDL and it\u2019s guidelines applies to you...",
             "metadata": {
                 "fields": {
-                    "image": "files\/blog-images\/10-9-18.jpg"
+                    "image": "files\/blog-images\/10-9-18.jpg",
+                    "authorId": "carly"
                 },
                 "created": 1539057600,
                 "updated": 1541517755,
@@ -161,7 +164,8 @@
             "description": "Are you a faculty member looking to enrich your learning environment?  Are you involved with long-distance learning or hoping to extend the reach of your content online?  Kaltura might be the solution you are searching for...",
             "metadata": {
                 "fields": {
-                    "image": "files\/blog-images\/8-14-18.jpg"
+                    "image": "files\/blog-images\/8-14-18.jpg",
+                    "authorId": "chuck"
                 },
                 "created": 1534219200,
                 "updated": 1541517757,
@@ -183,7 +187,8 @@
             "description": "Recently, our office was approached by Louis Leblond to create a custom instructional element for his online course.  Louis is an Associate Teaching Professor and Director...",
             "metadata": {
                 "fields": {
-                    "image": "files\/blog-images\/6-29-18.jpeg"
+                    "image": "files\/blog-images\/6-29-18.jpeg",
+                    "authorId": "chuck"
                 },
                 "created": 1530244800,
                 "updated": 1541517757,
@@ -196,38 +201,17 @@
             }
         },
         {
-            "id": "cost_savings_asset_retention_with_digital_models",
-            "indent": 1,
-            "location": "pages\/blog-posts\/6-4-18\/index.html",
-            "order": 6,
-            "parent": "news",
-            "title": "Cost-Savings and Assest-Retention using Digital Models",
-            "description": "We were approached by John Waters from the Biology department with an interesting request.  He told us he wanted to turn a plastinated human head into a 3D...",
-            "metadata": {
-                "fields": {
-                    "image": "files\/blog-images\/6-4-18.png"
-                },
-                "created": 1528084800,
-                "updated": 1541517757,
-                "type": "news",
-                "template": "news",
-                "author": "Joseph Foresman",
-                "authorImage": "files\/odl-team\/joe.jpg",
-                "tagLine": "3D Modeling",
-                "tags": ["3D", "Virtual Reality", "Immersive" ]
-            }
-        },
-        {
             "id": "odl_alters_reality_tech_pros",
             "indent": 1,
             "location": "pages\/blog-posts\/6-4-18-2\/index.html",
-            "order": 7,
+            "order": 6,
             "parent": "news",
             "title": "ODL Alters Reality at Tech Pros",
             "description": "Recently (May 24th - 25th), Michael Potter and I had the opportunity to present at the Tech Pros Conference at Penn State Dickinson Law. For those unfamiliar, Tech Pros is a conference that visits a different Commonwealth Campus each year to increase development and networking opportunities for IT professionals at the university...",
             "metadata": {
                 "fields": {
-                    "image": "files\/blog-images\/6-4-18-2.jpg"
+                    "image": "files\/blog-images\/6-4-18-2.jpg",
+                    "authorId": "chuck"
                 },
                 "created": 1528084800,
                 "updated": 1541517757,
@@ -263,12 +247,12 @@
             "metadata": {
                 "fields": {
                     "name": "Melissa Hicks",
-                    "image": "files\/odl-team\/melissa.png",
+                    "image": "files\/odl-team\/melissa.jpg",
                     "jobTitle": "Director \/ Instructional Designer",
                     "address": "221 Ritenour",
-                    "phone": "555-555-555",
+                    "phone": "814-867-1391",
                     "email": "mjs100@psu.edu",
-                    "twitter": "@JustStormy"
+                    "twitter": "https://twitter.com/JustStormy"
                 },
                 "created": 1541517321,
                 "updated": 1541517345,
@@ -290,9 +274,9 @@
                     "image": "files\/odl-team\/carly.jpg",
                     "jobTitle": "Multimedia Specialist",
                     "address": "221 Ritenour",
-                    "phone": "555-555-555",
+                    "phone": "814-863-7992",
                     "email": "cmd30@psu.edu",
-                    "twitter": "@evercarly"
+                    "twitter": "https://twitter.com/evercarly"
                 },
                 "created": 1541517756,
                 "updated": 1541517757,
@@ -314,9 +298,9 @@
                     "image": "files\/odl-team\/mike.jpg",
                     "jobTitle": "Educational Technologist",
                     "address": "221 Ritenour",
-                    "phone": "555-555-555",
+                    "phone": "814-867-4602",
                     "email": "mgp140@psu.edu",
-                    "twitter": "@hey__MP"
+                    "twitter": "https://twitter.com/hey__MP"
                 },
                 "created": 1541517819,
                 "updated": 1541517757,
@@ -338,12 +322,60 @@
                     "image": "files\/odl-team\/chuck.jpg",
                     "jobTitle": "Multimedia Specialist",
                     "address": "221 Ritenour",
-                    "phone": "555-555-555",
+                    "phone": "814-867-4604",
                     "email": "cgl109@psu.edu",
-                    "twitter": "@cgldevel"
+                    "twitter": "https://twitter.com/CGLDevel"
                 },
                 "created": 1541517910,
                 "updated": 1541517757,
+                "type": "team",
+                "template": "team"
+            }
+        },
+        {
+            "id": "louis",
+            "indent": 1,
+            "location": "pages\/team-directory\/louis\/index.html",
+            "order": 5,
+            "title": "Louis Leblond",
+            "parent": "team",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "name": "Louis Leblond",
+                    "image": "files\/odl-team\/louis.jpg",
+                    "jobTitle": "Tombros Fellow / Digital Learning",
+                    "address": "234 Davey Lab",
+                    "phone": "814-865-5233",
+                    "email": "lul29@psu.edu",
+                    "twitter": "https://twitter.com/louisleb"
+                },
+                "created": 1555387200,
+                "updated": 1555387200,
+                "type": "team",
+                "template": "team"
+            }
+        },
+        {
+            "id": "joe",
+            "indent": 1,
+            "location": "pages\/team-directory\/joseph\/index.html",
+            "order": 6,
+            "title": "Joseph Houck",
+            "parent": "team",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "name": "Joseph Houck",
+                    "image": "files\/odl-team\/joseph.jpg",
+                    "jobTitle": "Assistant Teaching Professor",
+                    "address": "220B Whitmore Laboratory",
+                    "phone": "814-865-0106",
+                    "email": "jdh68@psu.edu",
+                    "twitter": "https://twitter.com/joehouck"
+                },
+                "created": 1555387200,
+                "updated": 1555387200,
                 "type": "team",
                 "template": "team"
             }
