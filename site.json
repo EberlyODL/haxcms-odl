@@ -66,7 +66,7 @@
             "order": 1,
             "parent": null,
             "title": "Home",
-            "description": "    The Office of Digital Learning helped me create a wonderful online course experience for my students.  They were innovative and a lot of fun to  work with.\n\n\n    The Office of Digital Learning hel",
+            "description": "",
             "metadata": {
                 "created": 1541517715,
                 "updated": 1547477518
@@ -92,7 +92,7 @@
             "order": 1,
             "parent": "news",
             "title": "H5P: Documentation Tool",
-            "description": "Are you searching for a creative, interactive, and engaging way to have students submit details about an assignment or project they\u2019re working on?  Would you like this information to be exported to a nicely formatted text document instantly?  Look no further...",
+            "description": "Are you searching for a creative, interactive, and engaging way to have students submit details about an assignment or project they\u2019re working on?  Would you like this information to be exported to a nicely formatted text document instantly?  Look no further",
             "metadata": {
                 "fields": {
                     "image": "files\/blog-images\/11-19-18.jpg",
@@ -115,7 +115,7 @@
             "order": 2,
             "parent": "news",
             "title": "5 Web Accessibility Tips for Developers",
-            "description": "Web accessibility is an intricate part of the development process.  As a builder, we need to ensure that our content is available to everyone, including the growing population of people with disabilities.  If you\u2019re just starting to explore web accessibility...",
+            "description": "Web accessibility is an intricate part of the development process.  As a builder, we need to ensure that our content is available to everyone, including the growing population of people with disabilities",
             "metadata": {
                 "fields": {
                     "image": "files\/blog-images\/10-22-18.jpg",
@@ -138,7 +138,7 @@
             "order": 3,
             "parent": "news",
             "title": "The Universal Design for Learning (UDL) Framework",
-            "description": "Do you know about Universal Design for Learning? Do you consider yourself a teacher, a learner or even BOTH? If so, UDL and it\u2019s guidelines applies to you...",
+            "description": "Do you know about Universal Design for Learning? Do you consider yourself a teacher, a learner or even BOTH? If so, UDL and it\u2019s guidelines applies to you",
             "metadata": {
                 "fields": {
                     "image": "files\/blog-images\/10-9-18.jpg",
@@ -161,7 +161,7 @@
             "order": 4,
             "parent": "news",
             "title": "Kaltura: What You Need To Know",
-            "description": "Are you a faculty member looking to enrich your learning environment?  Are you involved with long-distance learning or hoping to extend the reach of your content online?  Kaltura might be the solution you are searching for...",
+            "description": "Are you a faculty member looking to enrich your learning environment?  Are you involved with long-distance learning or hoping to extend the reach of your content online?  Kaltura might be the solution you are searching for",
             "metadata": {
                 "fields": {
                     "image": "files\/blog-images\/8-14-18.jpg",
@@ -184,7 +184,7 @@
             "order": 5,
             "parent": "news",
             "title": "Featured Element: Custom Alert Message",
-            "description": "Recently, our office was approached by Louis Leblond to create a custom instructional element for his online course.  Louis is an Associate Teaching Professor and Director...",
+            "description": "Recently, our office was approached by Louis Leblond to create a custom instructional element for his online course.  Louis is an Associate Teaching Professor and Director",
             "metadata": {
                 "fields": {
                     "image": "files\/blog-images\/6-29-18.jpeg",
@@ -207,7 +207,7 @@
             "order": 6,
             "parent": "news",
             "title": "ODL Alters Reality at Tech Pros",
-            "description": "Recently (May 24th - 25th), Michael Potter and I had the opportunity to present at the Tech Pros Conference at Penn State Dickinson Law. For those unfamiliar, Tech Pros is a conference that visits a different Commonwealth Campus each year to increase development and networking opportunities for IT professionals at the university...",
+            "description": "Recently (May 24th - 25th), Michael Potter and I had the opportunity to present at the Tech Pros Conference at Penn State Dickinson Law. For those unfamiliar, Tech Pros is a conference that visits a different Commonwealth Campus each year to increase development and networking opportunities for IT professionals at the university",
             "metadata": {
                 "fields": {
                     "image": "files\/blog-images\/6-4-18-2.jpg",
@@ -406,6 +406,39 @@
                 "updated": 1541517755
             }
         },
+        {
+            "id": "spotlight",
+            "indent": 0,
+            "location": "pages\/spotlight\/index.html",
+            "order": 1,
+            "parent": null,
+            "title": "Spotlight",
+            "description": "Faculty spotlight pages",
+            "metadata": {
+                "created": 1492920000,
+                "updated": 1492920000
+            }
+        },
+        {
+          "id": "louis",
+          "indent": 1,
+          "location": "pages\/spotlight\/louis\/index.html",
+          "order": 1,
+          "title": "Louis Leblond",
+          "parent": "spotlight",
+          "description": "Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit.",
+          "metadata": {
+              "fields": {
+                  "name": "Louis Leblond",
+                  "image": "files\/feature-images\/louis_feature.jpg",
+                  "jobTitle": "Director of Online Education in Physics"
+              },
+              "created": 1555387200,
+              "updated": 1555387200,
+              "type": "spotlight",
+              "template": "spotlight"
+          }
+      },
         {
             "id": "courses",
             "indent": 0,
