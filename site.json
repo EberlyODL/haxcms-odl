@@ -464,6 +464,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Astronomy",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -483,6 +484,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Astronomy",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -502,6 +504,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Astronomy",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -521,6 +524,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Astronomy",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -540,10 +544,12 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Astronomy",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/astro140\/index.html",
+                "video": "https://www.youtube.com/embed/I-hGBG7zJX4",
                 "icon": "courseicons:astro140"
             }
         },
@@ -559,6 +565,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Biologicial Science",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -578,6 +585,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Biologicial Science",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -597,6 +605,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Biologicial Science",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -616,6 +625,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Biologicial Science",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -635,6 +645,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Biology",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -654,6 +665,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Biology",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -673,6 +685,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Biology",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -692,6 +705,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Biology",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -711,6 +725,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Biology",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -730,6 +745,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Biology",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -749,6 +765,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Biology",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -768,6 +785,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Biochemistry, Microbiology and Molecular Biology",
                 "type": "course",
                 "template": "courses",
                 "program": "Graduate",
@@ -787,6 +805,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Biochemistry, Microbiology and Molecular Biology",
                 "type": "course",
                 "template": "courses",
                 "program": "Graduate",
@@ -806,6 +825,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Chemistry",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -825,6 +845,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Chemistry",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -844,6 +865,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Chemistry",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -863,6 +885,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Chemistry",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -882,6 +905,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Chemistry",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -901,6 +925,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Chemistry",
                 "type": "course",
                 "template": "courses",
                 "program": "Graduate",
@@ -920,6 +945,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Chemistry",
                 "type": "course",
                 "template": "courses",
                 "program": "Graduate",
@@ -939,6 +965,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Chemistry",
                 "type": "course",
                 "template": "courses",
                 "program": "Graduate",
@@ -958,6 +985,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Forensic Science",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -977,6 +1005,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Forensic Science",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -996,6 +1025,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Forensic Science",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -1015,6 +1045,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Math",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -1034,6 +1065,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Math",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -1053,6 +1085,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Math",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -1072,6 +1105,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Math",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -1091,6 +1125,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Math",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -1110,6 +1145,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Math",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -1129,6 +1165,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Math",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -1148,6 +1185,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Math",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -1167,6 +1205,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Math",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -1186,6 +1225,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Math",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -1205,6 +1245,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Math",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -1224,6 +1265,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Math",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -1243,6 +1285,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Math",
                 "type": "course",
                 "template": "courses",
                 "program": "Graduate",
@@ -1262,6 +1305,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Microbiology",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -1281,6 +1325,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Microbiology",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -1300,6 +1345,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Physics",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
@@ -1319,6 +1365,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
+                "subject": "Physics",
                 "type": "course",
                 "template": "courses",
                 "program": "Undergraduate",
