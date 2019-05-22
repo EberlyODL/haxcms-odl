@@ -462,12 +462,16 @@
             "name": "Astronomical Universe",
             "description": "This course provides a broad introduction to Astronomy including the historical development of the subject, basic physics of gravity, light, and atoms; telescopes; planets, moons, and other objects in our solar system; exosolar planets; the Sun and other stars; the evolution of stars; the Milky Way galaxy and other galaxies; distant quasars and other active galaxies; the expanding universe; cosmology based on the Big Bang theory; and life in the universe. The goal of this course is to cover most of the areas of modern astronomy at a level which requires only basic mathematics. The online version also includes a game version, where students have a chance to explore Mars in a virtual space, testing and applying concepts as they move around.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Astronomy",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Astronomy",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/astro001\/index.html",
                 "icon": "courseicons:astro001"
             }
@@ -482,12 +486,16 @@
             "name": "Elementary Astronomy Laboratory",
             "description": "This course focuses on experiments and explorations to illustrate major astronomical principles and techniques. Travel through a telescope to form observations of planets, stars and nebulae. Discover the universe through engaging discussions and weekly labs. Weekly labs include discussion of the search for extraterrestrial intelligence, an activity to illustrate the phases of the moon, analysis of the colorful spectra of different chemical elements, and exploration of the deepest image of space ever obtained. In addition, students will complete a semester nighttime observation project that typically involves learning some constellations, tracing phases of the moon, and sketching images seen through our well-equipped rooftop student observatory.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Astronomy",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Astronomy",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/astro011\/index.html",
                 "icon": "courseicons:astro011"
             }
@@ -502,12 +510,16 @@
             "name": "The Big Bang Universe",
             "description": "This course is to introduce you to current state of research on cosmology, the study of the Universe on large scale, its structure and evolution, and current theories on the formation, evolution and fate of the Universe. The great success of the Big Bang theory in explaining the expansion of the Universe, the synthesis of the chemical elements, and the relic radiation leftover from the first moments are reviewed. This is a general education class designed for the non-science students who, after learning the fundamentals of astronomy in Astro 001(GN), 005 (GN) or 010 (GN), want to pursue further the questions of cosmology. The material is presented mostly at a qualitative level. The intended outcome of the course is an appreciation of what we know about the Universe, what the current limits to our understanding are, what the process by which we know and test this is, and what we hope to learn in the future.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Astronomy",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Astronomy",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/astro120\/index.html",
                 "icon": "courseicons:astro120"
             }
@@ -522,12 +534,16 @@
             "name": "Black Holes in the Universe",
             "description": "This course is intended to introduce students to the predicted properties of black holes and the astronomical evidence for their existence. It will cover spacetime, special and general relativity, types of black holes and their characteristics, the evaporation of black holes, wormholes and time travel. It combines basic physical concepts, astronomical observations, and philosophical ideas to present a complete picture of the current understanding of black holes. The course is intended for students who have completed and enjoyed the one-semester survey of modern astronomy, ASTRO 001 or 010.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Astronomy",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Astronomy",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/astro130\/index.html",
                 "icon": "courseicons:astro130"
             }
@@ -542,14 +558,17 @@
             "name": "Life in the Universe",
             "description": "Advances in modern physics and astrophysics have dramatically changed and enriched the understanding of our cosmic surroundings, but have not yet produced unambiguous evidence concerning the extraterrestrial life. To date, significant progress has been made on certain aspects of the problem, and many recent scientific observations hint in favor of the existence of non-terrestrial life. During this course, we will explore such evidence and observations. ASTRO 140 is for students who are interested in enriching and broadening their understanding of modern science. The course is highly interdisciplinary, and would be a logical choice for students who completed and enjoyed ASTRO 001, ASTRO 005 or ASTRO 010.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Astronomy",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Astronomy",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/astro140\/index.html",
-                "video": "https://www.youtube.com/embed/I-hGBG7zJX4",
                 "icon": "courseicons:astro140"
             }
         },
@@ -563,12 +582,16 @@
             "name": "Structure and Function of Organisms",
             "description": "An exploration of how cellular structures and processes contribute to life and how life displays unity even in its diversity. At the end of this course, you should have a clear understanding of many important biological principles. You should be able to begin thinking like a scientist and be able to effectively evaluate, analyze, and critique the multifaceted biological topics of today.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Biologicial Science",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Biologicial Science",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/bisc001\/index.html",
                 "icon": "courseicons:bisc001"
             }
@@ -583,12 +606,16 @@
             "name": "Genetics, Ecology, and Evolution",
             "description": "Evolution is a central theme of biology, and it helps us to understand the process of life that is ongoing all across our globe. The interactions among members of this global community provide the backdrop for understanding the ecology of our planet and our place in that community. BI SC 002 combines genetics\/human genetics, evolution, and ecology as a study of how living organisms inherit their traits, how plants and animals evolved, and how they now interact. It is an introductory course for non-science majors. By the end of the course, students should develop a basic understanding of genetic and biological terms and their importance to our technologically advanced society. There are no prerequisites for this course.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Biologicial Science",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Biologicial Science",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/bisc002\/index.html",
                 "icon": "courseicons:bisc002"
             }
@@ -603,12 +630,16 @@
             "name": "Environmental Science",
             "description": "As citizens of both local and global communities, some environmental issues are guaranteed to impact our lives. We are all dependent upon and supported by natural systems, without which life on earth could not exist. Policy makers and citizens are urgently needed who can act with an understanding of ecological principles when exercising community responsibilities to handle the environmental problems of our times, such as water use, solid waste management, global warming, energy use, conservation of irreplaceable natural resources, overpopulation, and the preservation of biodiversity. Thus, the purpose of BI SC 003 is to help students prepare for living in the 21st century in a sustainable way. BI SC 003 will help students prepare for living in current and future society's mixture of technology and mythology by presenting ideas and concepts about living systems and their environments. An understanding of biological and ecological principles and their application towards environmental challenges should give students the confidence to be active citizens, conscientious stewards of nature, and actively pursuing a healthy, sustainable community and society.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Biologicial Science",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Biologicial Science",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/bisc003\/index.html",
                 "icon": "courseicons:bisc003"
             }
@@ -623,12 +654,16 @@
             "name": "Human Body: Form and Function",
             "description": "Everyone should understand, to some extent, how their lives depend on a properly developed and functioning body. It is important to understand biological principles fundamental to understanding human life, such as cell structure, metabolism, organ functions, human genetics, and how the human body reacts to disease. BI SC 004 combines the study of human anatomy, which is the study of parts of the human body, with human physiology, which is the study of how parts of the body work together to make the body function. It is an introductory course for non-science majors that provides a general survey of structure and function of the human body\u2014from conception, through growth and reproduction to death. By course end, students should develop a better understanding about the human body that will assist them as they deal with their own injuries or illnesses in the future, as well as other\u2019s.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Biologicial Science",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Biologicial Science",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/bisc004\/index.html",
                 "icon": "courseicons:bisc004"
             }
@@ -643,12 +678,16 @@
             "name": "Introductory Biology 1",
             "description": "You are a biological being, as are the foods that you eat. We use products from other organisms to make many of the clothes that we wear, build our homes, provide medicines, and give beauty to our lives. Therefore, developing an appreciation and understanding of the biological world is important to living in this world and becoming a responsible steward of its resources. Who hasn't watched a bird and wondered what it would be like to be able to fly? To see the world from a different perspective? This course will provide an introduction to fundamental biological topics (including cells, energy transduction, genetics, evolution, organismal structure\/function, ecology) for non-majors in biology-related fields.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Biology",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Biology",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/biol11\/index.html",
                 "icon": "courseicons:biol11"
             }
@@ -663,12 +702,16 @@
             "name": "Biology: Basic Concepts and Biodiversity",
             "description": "This course is a study of the evolution of the major groups of organisms including the fundamental concepts of biology. The goal of this course is to introduce you to fundamental concepts that are common to all organisms and to explore the biological diversity of life on Earth. Biology 110 is intended for students who need a majors-level introductory biology course and is not the best option for students who are looking for a general education course in science.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Biology",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Biology",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/biol110\/index.html",
                 "icon": "courseicons:biol110"
             }
@@ -683,12 +726,16 @@
             "name": "Plants, Places, and People",
             "description": "The purpose of Biology 120N is to introduce you to the fascinating world of plants with an emphasis on the historical, cultural, and economic uses. This course is designed to introduce you to the discipline of plant biology and increase your awareness and appreciation of the impact of plants on your daily lives. The first part of the course will present the fundamentals of botany to provide you with a basic understanding of plant form and function. The rest of the course will be devoted to a survey of historical, cultural, and economic aspects of botany and related fields. We will finish up with an examination of the role of plants as an integral part of the world's ecosystem.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Biology",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Biology",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/biol120n\/index.html",
                 "icon": "courseicons:biol120n"
             }
@@ -703,12 +750,16 @@
             "name": "Genetics and Evolution of the Human Species",
             "description": "This course is an overview of our current knowledge of human heredity, genetic issues, genetic diseases, and human evolution. Background information that is necessary for understanding these issues will be taught including cell structure, the structure and function of DNA and chromosomes, patterns of inheritance, population genetics, and genetic technologies. Throughout the course, students will explore and discuss genetic issues, make informed decisions about genetic issues relating to their personal health, illustrate the impact of genetic technologies on our everyday lives, identify where to find information and web pages relating to genetic issues, and summarize the major theories of human evolution. They will also research genetic conditions within their own families and have the opportunity to share what they have learned, as well as read and describe popular science articles pertaining to genetic issues. This course is intended for non-biology majors and does not include a detailed analysis of human genetics.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Biology",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Biology",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/biol133\/index.html",
                 "icon": "courseicons:biol133"
             }
@@ -723,12 +774,16 @@
             "name": "Introduction to Physiology",
             "description": "The human body is fascinating to most of us, presumably because we have a vested interest in it. It is especially interesting when we include the physiology of diseases, as diseases often represent good illustrations of the system not functioning properly. One of the goals of this course is to develop your ability to understand the more complex scientific and medical advances that are occurring with increasing frequency today. This course is designed to cover the fundamentals of human physiology for students in a variety of life science-related majors including Nursing, Kinesiology, Athletic Training, and Science. Throughout the course, students will obtain a working knowledge and understanding of basic human physiology, apply these physiological principles to problem solving situations as observed in medical situations, including cardiac problems, hypertension, renal failure, acid-base balance disturbances, and endocrine imbalances, and obtain a practical understanding of physiology which you can build upon and use in future clinical settings. Physiology is not an easy subject to learn because it contains a tremendous amount of information. It is, however, a logical science and can usually be understood with reasoning. Students who have passed BIOL 472 may not schedule this course.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Biology",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Biology",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/biol141\/index.html",
                 "icon": "courseicons:biol141"
             }
@@ -743,12 +798,16 @@
             "name": "An Introduction to the Biology of Aging",
             "description": "Biology 155 is designed to give both science and non-science majors a basic understanding of the aging process, with special emphasis on aging as it relates to the human body and health. Students will learn important aging terminology, methods of measuring aging, current theories of the aging process, and research models used to study aging. Additionally, they will explore aging as related to specific body systems. Students will have an opportunity to review normal anatomy (structure naming) and physiology (body function) of these body systems as well as drill into the details of both senescence and age-related disease processes. By the end of the course, students should have developed a functional understanding of how our bodies change over time and gained a perspective on major diseases that affect our aging bodies. Ultimately students should understand how long-term, healthy living strategies and interventions, started during young life, can potentially prolong life and add additional healthy years to their lifespan.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Biology",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Biology",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/biol155\/index.html",
                 "icon": "courseicons:biol155"
             }
@@ -763,12 +822,16 @@
             "name": "Biology of Sex",
             "description": "This course presents a thorough background on the anatomy and physiology of the reproductive system in animals, with particular attention given to humans. Students will learn about the purported role of evolution and natural selection in the development of sex, a review of cell division, and the principles of both Medelian and non-Mendelian inheritance; essential female and male reproductive anatomy, along with a presentation of the roles of hormones in the realm of reproductive physiology; growth and development of a new person, maternal anatomical and physiological changes, childbirth, and lactation are all presented in detail; and other topics, such as family planning, sexually transmitted diseases, and cultural issues with regard to sex. The course also takes a look at contemporary research related to human sexuality.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Biology",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Biology",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/biol177\/index.html",
                 "icon": "courseicons:biol177"
             }
@@ -783,12 +846,16 @@
             "name": "Genomics",
             "description": "BMMB 551 will deal with the structure and function of genomes including the use of some current web-based tools and resources for studies and research in genomics. The overall objective is to learn current information about the structure and function of genomes, to develop facility in the many web-based tools and resources for further studies and research in genomics, and to appreciate the power and limitations of current resources and knowledge. Throughout this course, we will introduce and\/or review the fundamentals of genomics. You will also learn about the approaches used to asses function of genomic DNA. As you acquire this information, you will be asked to apply this information for cutting edge exploration of functional regions of genomes. Additionally, this course will serve as a forum to explore new approaches to self-motivation and group learning. It will also provide you with a place to do something fresh and exciting!",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Biochemistry, Microbiology and Molecular Biology",
+                    "program": "Graduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Biochemistry, Microbiology and Molecular Biology",
                 "type": "course",
                 "template": "courses",
-                "program": "Graduate",
                 "syllabus": "pages\/syllabi\/bmmb551\/index.html",
                 "icon": "courseicons:bmmb551"
             }
@@ -803,12 +870,16 @@
             "name": "Applied Bioinformatics",
             "description": "The purpose of this course is to provide students with a foundation in the various applications of high-throughput sequencing including: chip-Seq, RNA-Seq, SNP calling, metagenomics, de-novo assembly and others. The course material will concentrate on presenting complete data analysis scenarios for each of these domains of applications and will introduce students to a wide variety of existing tools and techniques. By the end of the course work students will understand common bioinformatics data formats and standards, become familiar with the practice of analyzing sequencing data from various instruments and will develop the computationally oriented thinking that is necessary to take on large-scale data analysis projects.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Biochemistry, Microbiology and Molecular Biology",
+                    "program": "Graduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Biochemistry, Microbiology and Molecular Biology",
                 "type": "course",
                 "template": "courses",
-                "program": "Graduate",
                 "syllabus": "pages\/syllabi\/bmmb852\/index.html",
                 "icon": "courseicons:bmmb852"
             }
@@ -823,12 +894,16 @@
             "name": "Kitchen Chemistry",
             "description": "Foods are made of chemical substances, and cooking may be the most widespread application of chemistry. Your overall goal for this course is to gain knowledge of the structures and functions of foods and to apply this to better understand the chemical principles involved in food products and common cooking techniques. You will learn an array of elementary chemical concepts such as physical and chemical changes, chemical bonding, energy, polarity, solubility, acids and bases, functional groups, etc. You will also learn how to read and critically analyze the nutritional facts on food labels, classify food additives according to their properties, and identify key chemical properties of food ingredients and explain their effects on their handling, use and taste. CHEM 005 incorporates reading, problem-solving, and \u2018edible\u2019 home experiments to develop an understanding of chemical concepts and scientific inquiry within the context of food and cooking. Students will develop an enhanced understanding of the chemical principles involved in food products and common cooking techniques.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Chemistry",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Chemistry",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/chem005\/index.html",
                 "icon": "courseicons:chem005"
             }
@@ -843,12 +918,16 @@
             "name": "Introductory Chemistry",
             "description": "Chemistry is the central science that allows you to connect the microscopic structure of molecules to the observable properties and behavior of materials that we see everyday. The main goals of Chem 101 are for you to gain a solid foundation of the principles of chemistry and use these principles to better understand your observations of the real world. Along the way, you will improve your observation skills and your ability to think critically about your observations. Doing experiments will help you learn good laboratory techniques in taking measurements properly, recording data carefully, and working safely. Using your experimental results, you will learn to analyze and draw logical conclusions from your data. Then you can connect what you observe in the lab with what you have read in the text and practiced in the online activities. The last step is to connect your observations in the lab and class with the real world. While prior study of chemistry is not required, it is recommended that you have taken at least one class in Algebra.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Chemistry",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Chemistry",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/chem101\/index.html",
                 "icon": "courseicons:chem101"
             }
@@ -863,14 +942,18 @@
             "name": "Chemical Principles",
             "description": "Why is water a liquid? Why does a party balloon float? Is it true that microwaves are bad? You\u2019ll find an answer to these questions and more in this course! CHEM 110 will begin by exploring the structure of an atom, and at the end of the course you will be able to explain the underlying reasons for the observed behaviors of matter. We\u2019ll cover topics such as atomic and molecular structure, physical properties, and chemical reactions and stoichiometry. All the while, we will highlight how energy plays a role in chemical and physical processes. Throughout the course, you will improve your problem-solving skills by working through examples and applying concepts to real-world scenarios. You will see a variety of examples from biology, engineering, and everyday life that highlight the importance of chemistry in the world around you.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/chem110.png",
+                    "subject": "Chemistry",
+                    "program": "Undergraduate",
+                    "video": "https://www.youtube.com/embed/I-hGBG7zJX4"
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Chemistry",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/chem110\/index.html",
-                "icon": "courseicons:chem110"
+                "icon": "courseicons:chem101"
             }
         },
         {
@@ -883,12 +966,16 @@
             "name": "Experimental Chemistry",
             "description": "This course provides an introduction to quantitative experimentation in chemistry. The students are introduced to laboratory safety and good experimental techniques, how to keep a proper laboratory notebook, interpret data, and write a formal report. The course introduces laboratory experimentation in the context of a variety of specific topics, such as reactions in solutions, spectroscopy, chemistry of natural waters, acids and bases, and the synthesis and analysis of chemical compounds.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Chemistry",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Chemistry",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/chem111\/index.html",
                 "icon": "courseicons:chem111"
             }
@@ -903,12 +990,16 @@
             "name": "Fundamentals of Organic Chemistry",
             "description": "This course provides an introduction to organic chemistry, with emphasis on the properties of organic compounds of biochemical importance and fundamental principles. Some of the principles are illustrated with a variety of examples from nature and everyday life. The course covers the following topics: alkanes; alkenes, including polymers; alkynes; benzene and aromaticity; alcohols and phenols; ethers; aldehydes; ketones; carboxylic acids and their acyl derivatives; amines; alkyl halides; nomenclature; stereochemistry, including conformational analysis and chirality. Chemical reactions of the functional groups will be discussed along with the mechanistic details, including stereospecificity, of some of these processes. Biological molecules such as carbohydrates, lipids, steroids, peptides/proteins and nucleic acids, along with their importance in living systems, will be surveyed.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Chemistry",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Chemistry",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/chem202\/index.html",
                 "icon": "courseicons:chem202"
             }
@@ -923,12 +1014,16 @@
             "name": "Liquid Chromatography",
             "description": "The course specifically caters to the needs of the analytical chemical industry and individuals newly hired into entry-level sample management/preparation and quality assurance/quality control positions within companies using liquid chromatographic techniques. The course material is designed to increase student understanding of both the liquid chromatography instrument used in the laboratory and the principles underlying the measurements.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Chemistry",
+                    "program": "Graduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Chemistry",
                 "type": "course",
                 "template": "courses",
-                "program": "Graduate",
                 "syllabus": "pages\/syllabi\/chem810\/index.html",
                 "icon": "courseicons:chem810"
             }
@@ -943,12 +1038,16 @@
             "name": "Liquid Chromatography II",
             "description": "The course specifically caters to the needs of the analytical chemical industry and individuals hired into, or transitioning into, technician level positions within companies using liquid chromatographic techniques. The course material is designed to increase student understanding of both the liquid chromatography instrument used in the laboratory and the principles underlying the measurements.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Chemistry",
+                    "program": "Graduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Chemistry",
                 "type": "course",
                 "template": "courses",
-                "program": "Graduate",
                 "syllabus": "pages\/syllabi\/chem811\/index.html",
                 "icon": "courseicons:chem811"
             }
@@ -963,12 +1062,16 @@
             "name": "Liquid Chromatography III",
             "description": "The course specifically caters to the needs of the analytical chemical industry and individuals hired into, or transitioning into, development-level, or senior-level, chemist positions within companies using liquid chromatographic techniques. The course material is designed to increase student understanding of both the liquid chromatography instrument used in the laboratory and the principles underlying the measurements.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Chemistry",
+                    "program": "Graduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Chemistry",
                 "type": "course",
                 "template": "courses",
-                "program": "Graduate",
                 "syllabus": "pages\/syllabi\/chem812\/index.html",
                 "icon": "courseicons:chem812"
             }
@@ -983,12 +1086,16 @@
             "name": "Introduction to Forensic Science",
             "description": "Forensic science is the study and application of science to the processes of law and involves the collection, examination, evaluation and interpretation of evidence. This course introduces the field of forensic science through an exploration of its applications to criminal investigation. This field encompasses many scientific areas which, if used properly, can make invaluable contributions to the resolution of social and legal disputes. The course will review the basic applications of selected forensic science disciplines and will explore the underlying scientific principals and methods used within each. Using examples taken from adjudicated cases, the capabilities and limitations of the forensic sciences will be illustrated. No background in natural sciences is presumed.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Forensic Science",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Forensic Science",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/frnsc100\/index.html",
                 "icon": "courseicons:frnsc100"
             }
@@ -1003,12 +1110,16 @@
             "name": "Introduction to Crime Scene Investigation",
             "description": "Introduction to Crime Scene Investigation is a course that will engage you simply by its nature. It is a course that will introduce you to the philosophies, principles, and professional practices of Crime Scene Investigation. You will be expected to apply knowledge from multiple fields of study including, but not limited to Chemistry, Biology, Sociology, Psychology, Statistics, Philosophy, and Criminology. What you do not already know will be taught to ensure your success; however, you need to be prepared to think critically and scientifically throughout the rigorous curriculum. You will need to think like a scientist, conduct yourself like a professional, and investigate scenes to fully apply your forensic skills. This is a rigorous course that requires a dedicated amount of your time; by the nature of its content, FRNSC 200 is a course that requires your active participation and full academic commitment.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Forensic Science",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Forensic Science",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/frnsc200\/index.html",
                 "icon": "courseicons:frnsc200"
             }
@@ -1023,12 +1134,16 @@
             "name": "Essential Practices of Forensic Science",
             "description": "Forensic science encompasses many scientific areas which, if used properly, can make invaluable contributions to the resolution of social and legal disputes. In this course, students will learn the essential practices of forensic science and criminalistics and review practices of forensic science including documentation, microscopy, communication of results, and integration of concepts from other sciences, mathematics, and statistics. The necessity of an objective, rigorous, scientific approach in a forensic investigation will be stressed. This course will prepare students to understand the foundation of forensic science practice including the basic knowledge required to understand the nature and origin of physical evidence, preservation of the physical evidence record, forensic microscopy, and communication of results. It is important to note that this course uses an intensive, problem-solving style and through practical exercises, students will be introduced to documentation techniques, basic and forensic microscopy, the verbal and written communication of forensic findings. The primary aims of the course are to introduce students to scientific philosophy, integrity, forensic science, criminalistics, basic practices of forensic science/criminalistics, and the role of the criminalist as they relate to a forensic investigation as well as prepare students for advanced 400-level courses in forensic science and criminalistics.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Forensic Science",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Forensic Science",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/frnsc210\/index.html",
                 "icon": "courseicons:frnsc210"
             }
@@ -1043,12 +1158,16 @@
             "name": "Intermediate Algebra",
             "description": "This course explores algebraic expressions; linear, absolute value equations and inequalities; lines; systems of linear equations; integral exponents; polynomials; factoring.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Math",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/math004\/index.html",
                 "icon": "courseicons:math004"
             }
@@ -1063,12 +1182,16 @@
             "name": "Finite Mathematics",
             "description": "This course will introduce logic, sets, and probability. Specifically, students learn the elementary mathematics of logic and sets. Logic is the symbolic, algebraic way of representing and analyzing statements and sentences. While students will get just a brief introduction to logic, the mathematics used in logic are found at the heart of computer programming and in designing electrical circuits. Problems of counting various kinds of sets lead to the study of combinatorics, the art of advanced counting. For example, if a room has twenty chairs and twelve people, in how many ways can these people occupy the chairs? And are you accounting for differences in who sits in particular chairs, or does it only matter whether a chair has a body in it? These kinds of counting problems are the basis for probability. In order to calculate the chance of a particular event occurring you must be able to count all the possible outcomes.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Math",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/math017\/index.html",
                 "icon": "courseicons:math017"
             }
@@ -1083,12 +1206,16 @@
             "name": "College Algebra I",
             "description": "This course covers quadratic equations; equations in quadratic form; word problems, graphing; algebraic fractions; negative and rational exponents; radicals. Both algebraic skills and conceptual understanding will be expected and assessed. Algebraic skills will be primarily developed through work on ALEKS. ALEKS is a web-based tutorial system which provides students with ongoing skills based assessments and tracks progress. Conceptual skills will be incorporated into quizzes and home work assignments. Such assignments will be due approximately every other week. If necessary, students will be expected to attend online lectures.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Math",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/math021\/index.html",
                 "icon": "courseicons:math021"
             }
@@ -1103,12 +1230,16 @@
             "name": "College Algebra II and Analytic Geometry",
             "description": "This course presents an extensive review of intermediate algebra topics. The review will include: solving linear equations and inequalities, fundamental concepts associated with quadratic equations, solving equations and inequalities with absolute values and other miscellaneous equations involving rational expressions and radical expressions. An introduction to complex number arithmetic is also included. Additionally, it covers general concepts associated with relations and functions. Topics such as the algebra of functions, function composition and range and domain are studied. The graphical representation of linear and quadratic functions are also presented. The algebraic and graphical representation of circles will also be studied as it pertains to terminology associated with relations in general. Basic graphical transformations are introduced. Polynomial and rational functions are studied in detail. In particular, ideas associated with zeros of polynomials, end-behavior, and graph sketching are discussed. Students will learn about synthetic division, the remainder theorem, the conjugate root theorem, horizontal and slant (oblique) asymptotes, and vertical asymptotes. Finally, exponential and logarithmic functions are studied in detail. Specific skills entail working with the rules of exponents and logarithms and solving exponential and logarithmic equations. Concepts associated with one-to-one functions and the existence of inverses are also studied. Sketching and recognizing the graphical representation of exponential and log functions is included.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Math",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/math022\/index.html",
                 "icon": "courseicons:math022"
             }
@@ -1123,12 +1254,16 @@
             "name": "Plane Trigonometry",
             "description": "Trigonometry is a field of mathematics in which the geometric properties of the angles and edges of triangles are used to measure lengths. Real-world problems involving trigonometry are common in engineering, physics, construction and design. This course is well suited for students who need sufficient mastery of trigonometry for use in fieldwork as well as those continuing on to engineering, kinesiology, surveying and physical sciences. Intermediate algebra skills are assumed. MATH 026 provides the trigonometry skills and concepts essential to success in calculus courses. Topics include right-triangle relationships, unit circle, sine, cosine, and tangent functions and their applications, inverse trigonometric functions, identities, and trigonometric form of complex numbers.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Math",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/math026\/index.html",
                 "icon": "courseicons:math026"
             }
@@ -1143,12 +1278,16 @@
             "name": "The Mathematics of Money",
             "description": "This course introduces students to the time value of money, including, working with loans and associated interest calculations. It also covers the theme of Common Investment. Students will work with basic investments such as annuities, stocks and bonds, learn about sales and income taxes, and be introduced to retirement planning. Finally, students will learn about business applications and personal financial planning, where they will work with inflation and depreciation, consider consumer implications associated with credit cards, mortgages and leasing, and learn about profit margin and cost-revenue analysis associated with business. The student will be expected to obtain both a conceptual understanding for the financial objectives and the ability to calculate and manipulate formulas and equations associated with the financial objectives.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Math",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/math034\/index.html",
                 "icon": "courseicons:math034"
             }
@@ -1163,12 +1302,16 @@
             "name": "Insights into Mathematics",
             "description": "This course covers examples of mathematical applications in many areas including voting theory, fair division, apportionment, and Euler and Hamilton circuits. In this course, we hope to demonstrate to the students that mathematics is very useful in contemporary problems in our society - from voting theory issues to apportionment of the seats in the U.S. House of Representatives to optimizing the route taken by a delivery person and a variety of other issues. We focus on historical issues related to such contemporary problems and also discuss the merits of various problem-solving techniques throughout the course.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Math",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/math036\/index.html",
                 "icon": "courseicons:math036"
             }
@@ -1183,12 +1326,16 @@
             "name": "Techniques of Calculus I",
             "description": "MATH 110 is an entry-level course in mathematics that introduces the skills associated with the application of calculus techniques to business and social science applications. We will review and deepen our understanding of polynomial and exponential functions as well as introduce the concepts of derivatives and integration. Most topics will be explored analytically and graphically as they are applied to real life examples and problems. Students are expected to study the concepts and examples and be able to extend the skills and techniques to the solution of similar problems.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Math",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/math110\/index.html",
                 "icon": "courseicons:math110"
             }
@@ -1203,12 +1350,16 @@
             "name": "Calculus With Analytic Geometry I",
             "description": "Calculus is an important building block in the education of any professional who uses quantitative analysis. This course introduces and develops the mathematical skills required for analyzing change and creating mathematical models that replicate real-life phenomena. The goals of our calculus courses include to develop the students' knowledge of calculus techniques and to use the calculus environment to develop critical thinking and problem solving skills. The concept of limit is central to calculus; MATH 140 begins with a study of this concept. Differential calculus topics include derivatives and their applications to rates of change, related rates, linearization, optimization, and graphing techniques. The Fundamental Theorem of Calculus, relating differential and integral calculus begins the study of Integral Calculus. Antidifferentiation and the technique of substitution is used in integration applications of finding areas of plane figures and volumes of solids of revolution. Trigonometric functions are included in every topic.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Math",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/math140\/index.html",
                 "icon": "courseicons:math140"
             }
@@ -1223,12 +1374,16 @@
             "name": "Calculus with Analytic Geometry II",
             "description": "Calculus is an important building block in the education of any professional who uses quantitative analysis. This course further introduces and develops the mathematical skills required for analyzing growth and change and creating mathematical models that replicate reallife phenomena. The goals of our calculus courses include to develop the students' knowledge of calculus techniques and to use the calculus environment to develop critical thinking and problem solving skills. This course covers the following topics: logarithms, exponentials, and inverse trigonometric functions; applications of the definite integral and techniques of integration; sequences and series; power series and Taylor polynomials; parametric equations and polar functions.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Math",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/math141\/index.html",
                 "icon": "courseicons:math141"
             }
@@ -1243,12 +1398,16 @@
             "name": "Matrices",
             "description": "Systems of linear equations appear everywhere in mathematics and its applications. MATH 220 will give students the basic tools necessary to analyze and understand such systems. The initial portion of the course teaches the fundamentals of solving linear systems. This requires the language and notation of matrices and fundamental techniques for working with matrices such as row and column operations, echelon form, and invertibility. The determinant of a matrix is also introduced; it gives a test for invertibility. In the second part of the course the key ideas of eigenvector and eigenvalue are developed. These allow one to analyze a complicated matrix problem into simpler components and appear in many disguises in physical problems. The course also introduces the concept of a vector space, a crucial element in future linear algebra courses. This course is completed by a wide variety of students across the university, including students majoring in engineering programs, the sciences, and mathematics. (In case of many of these students, MATH 220 is a required course in their degree program.)",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Math",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/math220\/index.html",
                 "icon": "courseicons:math220"
             }
@@ -1263,12 +1422,16 @@
             "name": "Ordinary Differential Equations",
             "description": "In this course, students will learn how derivatives commonly appear in equations used to describe the world. Equations involving derivatives are called differential equations. Differential equations play an important role in modeling the real world. Newton's laws, Maxwell's laws of electromagnetism, Einstein's equations of general relativity, Euler and Bernoulli's beam equation, the Black-Scholes equation from finance, Perelson's viral-dynamics equations in biology, and the million-dollar NavierStokes equations are all differential equations used daily in their respective disciplines. Today, differential equations are one of the fundamental mathematical tools for the study of systems that change over time, and are used in most areas of science, engineering, and mathematics. MATH 250 is an introductory course on ordinary differential equations. Ordinary differential equations are equations that involve derivative of a function with respect to only one variable. The goal of this course is to teach the students some of the elementary techniques in dealing with several fundamental types of equations. Some topics include linear equations involving only first and second derivatives, Laplace transforms, systems of linear equations involving only first derivatives, and phase-plane analysis.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Math",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/math250\/index.html",
                 "icon": "courseicons:math250"
             }
@@ -1283,12 +1446,16 @@
             "name": "Linear Algebra",
             "description": "This is course about vector spaces and linear transformations. It is not a course about vectors, in the sense of lists of numbers, and matrices (for this see Math 220), although we will of course make use of these concepts as needed. This course has a theoretical bent: we want to understand vector spaces and linear transformations, rather than use them to solve specific problems. For a more applied, engineering-oriented approach, try Math 441. This is a mathematics class, and you will be expected to read and do proofs. Students come to this class with a range of backgrounds. This is a second course in linear algebra, and emphasizes proofs and an abstract point of view (understanding vector spaces and linear transformations, not manipulating lists and matrices of numbers). We build up to and use structure theorems for linear operators.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Math",
+                    "program": "Graduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Math",
                 "type": "course",
                 "template": "courses",
-                "program": "Graduate",
                 "syllabus": "pages\/syllabi\/math436\/index.html",
                 "icon": "courseicons:math436"
             }
@@ -1303,12 +1470,16 @@
             "name": "Elementary Microbiology",
             "description": "This course focuses on the importance of microorganisms in health, disease, agriculture, and industry. Specifically, Microbiology 106 looks at the unique nature of microorganisms and their importance to life on earth. Microbes were the first form of life to evolve, and even though different in structure from other forms of living things, many similarities can be found in terms of genetics, metabolism, and the roles they play in nature. Bacteria, viruses, and other forms of microscopic life will be examined in some detail, as will their biological activities both beneficial and harmful.Most people think of microbes in their negative roles: disease, food spoilage, and bio-deterioration. Indeed, we spend a lot of time and resources controlling microbes in our environment and treating diseases they cause. But microbes are found naturally on and within the human body with beneficial effect. They are also important in the production of food, vitamins, drugs, and other useful products. They are used extensively in biotechnology. They have important ecological roles and are essential to the continued existence of life on earth.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Microbiology",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Microbiology",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/micrb106\/index.html",
                 "icon": "courseicons:micrb106"
             }
@@ -1323,12 +1494,16 @@
             "name": "Elementary Microbiology Laboratory",
             "description": "This course explores selected techniques used to observe, identify and count bacteria, as well as the effects of chemical and physical agents on microorganisms. The course demonstrates the use and importance of microbes in everyday life. Instruction begins with the proper handling and visualization of microorganisms. Almost by definition, the vast majority of microorganisms are too small to be seen with the naked eye. Therefore, students must learn the correct use of the light microscope. Instruction in the proper care and maintenance of the microscope is provided. Students prepare and stain specimens using a number of methods designed to characterize microorganisms. The importance of working safely in a laboratory setting is emphasized throughout the course.Many skills are developed in this laboratory course. Aseptic (without contamination) technique is taught and is used to transfer organisms properly from one culture medium to another. A variety of media are used and the reasons for their use are explained. Students also learn how to calculate the number of bacteria in specimens such as water, soil or food. The course demonstrates ways to control microbial growth by means of temperature, osmotic pressure, pH, exposure to ultraviolet light and disinfectants.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "subject": "Microbiology",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Microbiology",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/micrb107\/index.html",
                 "icon": "courseicons:micrb107"
             }
@@ -1343,12 +1518,16 @@
             "name": "Physics Behind the Headlines",
             "description": "This course is an introduction for non-science majors to select topics in the modern physics of quantum mechanics and relativity with the goal of understanding recent technological advances, scientific breakthroughs and social events related to science as they appear in the news. These range from the discovery of the Higgs boson and dark energy to developments in lasers or superconductors. Social events in the news where science played a large role such as the Roswell “UFO” event in 1947 or the Fukushima nuclear crisis in 2011 will also be discussed. Students will learn about the scientific method and scientific reporting; the conceptual aspects of the structure of matter from atoms to quarks, waves, energy and light; quantum mechanics and its applications to high tech such as computers and lasers; relativity E=mc2, nuclear forces, gravity and the Big-Bang theory. Particular emphasis will be put on learning the scientific standards for a hypothesis to be truly established as a working theory and how the simple laws of physics apply broadly to many different systems. This class will emphasize conceptual aspects and there is no mathematics prerequisite. This course is for non-science majors.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/phys010.png",
+                    "subject": "Physics",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Physics",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/phys010\/index.html",
                 "icon": "courseicons:phys010"
             }
@@ -1363,12 +1542,16 @@
             "name": "General Physics: Mechanics",
             "description": "This course provides a calculus-based introduction to classical mechanics, including such topics as: measurement, dimensional analysis, motion in one-dimension, vectors, motion in 2 and 3 dimensions, relative and circular motion, force and dynamics, Newton's Laws, friction, kinetic energy, work, potential energy, energy conservation, systems of particles, center of mass and momentum, elastic and inelastic collisions, rotation (moments of inertia), rolling motion, torque, angular momentum, static equilibrium, gravitational force and Kepler's laws, gravitational potential energy, oscillations, waves (transverse and longitudinal, superposition of waves). PHYS 211 is designed to provide students with a working knowledge of the elementary physics principles mentioned above, as well as their applications, and to enhance their conceptual understanding of physical laws.",
             "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/phys211.png",
+                    "subject": "Physics",
+                    "program": "Undergraduate",
+                    "video": ""
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
-                "subject": "Physics",
                 "type": "course",
                 "template": "courses",
-                "program": "Undergraduate",
                 "syllabus": "pages\/syllabi\/phys211\/index.html",
                 "icon": "courseicons:phys211"
             }
