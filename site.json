@@ -464,6 +464,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Astronomy",
                     "program": "Undergraduate",
                     "video": ""
@@ -488,6 +489,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Astronomy",
                     "program": "Undergraduate",
                     "video": ""
@@ -512,6 +514,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Astronomy",
                     "program": "Undergraduate",
                     "video": ""
@@ -536,6 +539,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Astronomy",
                     "program": "Undergraduate",
                     "video": ""
@@ -560,6 +564,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Astronomy",
                     "program": "Undergraduate",
                     "video": ""
@@ -584,6 +589,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Biologicial Science",
                     "program": "Undergraduate",
                     "video": ""
@@ -608,6 +614,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Biologicial Science",
                     "program": "Undergraduate",
                     "video": ""
@@ -632,6 +639,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Biologicial Science",
                     "program": "Undergraduate",
                     "video": ""
@@ -656,6 +664,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Biologicial Science",
                     "program": "Undergraduate",
                     "video": ""
@@ -680,6 +689,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Biology",
                     "program": "Undergraduate",
                     "video": ""
@@ -704,6 +714,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Biology",
                     "program": "Undergraduate",
                     "video": ""
@@ -728,6 +739,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Biology",
                     "program": "Undergraduate",
                     "video": ""
@@ -752,6 +764,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Biology",
                     "program": "Undergraduate",
                     "video": ""
@@ -776,6 +789,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Biology",
                     "program": "Undergraduate",
                     "video": ""
@@ -800,6 +814,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Biology",
                     "program": "Undergraduate",
                     "video": ""
@@ -824,6 +839,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Biology",
                     "program": "Undergraduate",
                     "video": ""
@@ -848,6 +864,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Biochemistry, Microbiology and Molecular Biology",
                     "program": "Graduate",
                     "video": ""
@@ -872,6 +889,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Biochemistry, Microbiology and Molecular Biology",
                     "program": "Graduate",
                     "video": ""
@@ -896,6 +914,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Chemistry",
                     "program": "Undergraduate",
                     "video": ""
@@ -920,6 +939,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Chemistry",
                     "program": "Undergraduate",
                     "video": ""
@@ -944,8 +964,10 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/chem110.png",
+                    "imageAlt":"Periodic Table 2 by Princess Rashid",
                     "subject": "Chemistry",
                     "program": "Undergraduate",
+                    "credits": "3",
                     "video": "https://www.youtube.com/embed/I-hGBG7zJX4"
                 },
                 "created": 1541517755,
@@ -968,6 +990,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Chemistry",
                     "program": "Undergraduate",
                     "video": ""
@@ -992,6 +1015,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Chemistry",
                     "program": "Undergraduate",
                     "video": ""
@@ -1016,6 +1040,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Chemistry",
                     "program": "Graduate",
                     "video": ""
@@ -1040,6 +1065,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Chemistry",
                     "program": "Graduate",
                     "video": ""
@@ -1064,6 +1090,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Chemistry",
                     "program": "Graduate",
                     "video": ""
@@ -1088,6 +1115,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Forensic Science",
                     "program": "Undergraduate",
                     "video": ""
@@ -1112,6 +1140,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Forensic Science",
                     "program": "Undergraduate",
                     "video": ""
@@ -1136,6 +1165,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Forensic Science",
                     "program": "Undergraduate",
                     "video": ""
@@ -1160,6 +1190,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1184,6 +1215,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1208,6 +1240,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1232,6 +1265,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1256,6 +1290,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1280,6 +1315,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1304,6 +1340,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1328,6 +1365,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1352,6 +1390,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1376,6 +1415,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1400,6 +1440,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1424,6 +1465,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1448,6 +1490,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Math",
                     "program": "Graduate",
                     "video": ""
@@ -1472,6 +1515,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Microbiology",
                     "program": "Undergraduate",
                     "video": ""
@@ -1496,6 +1540,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
                     "subject": "Microbiology",
                     "program": "Undergraduate",
                     "video": ""
@@ -1520,6 +1565,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/phys010.png",
+                    "imageAlt":"Abstract Rocket Launch",
                     "subject": "Physics",
                     "program": "Undergraduate",
                     "video": ""
@@ -1544,6 +1590,7 @@
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/phys211.png",
+                    "imageAlt":"Farris Wheel in motion at night by Engin Akyurt",
                     "subject": "Physics",
                     "program": "Undergraduate",
                     "video": ""
@@ -1553,6 +1600,1099 @@
                 "type": "course",
                 "template": "courses",
                 "syllabus": "pages\/syllabi\/phys211\/index.html",
+                "icon": "courseicons:phys211"
+            }
+        },
+        {
+            "id": "syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/index.html",
+            "order": 4,
+            "parent": null,
+            "title": "Syllabi",
+            "description": "",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755
+            }
+        },
+        {
+            "id": "astro001syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/astro001\/index.html",
+            "order": 1,
+            "parent": "syllabi",
+            "title": "Astro 001",
+            "name": "Astronomical Universe",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Astronomy",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:astro001"
+            }
+        },
+        {
+            "id": "astro011syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/astro011\/index.html",
+            "order": 2,
+            "parent": "syllabi",
+            "title": "Astro 011",
+            "name": "Elementary Astronomy Laboratory",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Astronomy",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:astro011"
+            }
+        },
+        {
+            "id": "astro120syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/astro120\/index.html",
+            "order": 3,
+            "parent": "syllabi",
+            "title": "Astro 120",
+            "name": "The Big Bang Universe",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Astronomy",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:astro120"
+            }
+        },
+        {
+            "id": "astro130syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/astro130\/index.html",
+            "order": 4,
+            "parent": "syllabi",
+            "title": "Astro 130",
+            "name": "Black Holes in the Universe",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Astronomy",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:astro130"
+            }
+        },
+        {
+            "id": "astro140syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/astro140\/index.html",
+            "order": 5,
+            "parent": "syllabi",
+            "title": "Astro 140",
+            "name": "Life in the Universe",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Astronomy",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:astro140"
+            }
+        },
+        {
+            "id": "bisc001syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/bisc001\/index.html",
+            "order": 6,
+            "parent": "syllabi",
+            "title": "BiSc 001",
+            "name": "Structure and Function of Organisms",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Biologicial Science",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:bisc001"
+            }
+        },
+        {
+            "id": "bisc002syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/bisc002\/index.html",
+            "order": 7,
+            "parent": "syllabi",
+            "title": "BiSc 002",
+            "name": "Genetics, Ecology, and Evolution",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Biologicial Science",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:bisc002"
+            }
+        },
+        {
+            "id": "bisc003syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/bisc003\/index.html",
+            "order": 8,
+            "parent": "syllabi",
+            "title": "BiSc 003",
+            "name": "Environmental Science",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Biologicial Science",
+                    "program": "Undergraduate",
+                    "credits:": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:bisc003"
+            }
+        },
+        {
+            "id": "bisc004syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/bisc004\/index.html",
+            "order": 9,
+            "parent": "syllabi",
+            "title": "BiSc 004",
+            "name": "Human Body: Form and Function",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Biologicial Science",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:bisc004"
+            }
+        },
+        {
+            "id": "biol11syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/biol11\/index.html",
+            "order": 10,
+            "parent": "syllabi",
+            "title": "Biol 11",
+            "name": "Introductory Biology 1",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Biology",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:biol11"
+            }
+        },
+        {
+            "id": "biol110syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/biol110\/index.html",
+            "order": 11,
+            "parent": "syllabi",
+            "title": "Biol 110",
+            "name": "Biology: Basic Concepts and Biodiversity",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Biology",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:biol110"
+            }
+        },
+        {
+            "id": "biol120nsyllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/biol120n\/index.html",
+            "order": 12,
+            "parent": "syllabi",
+            "title": "Biol 120N",
+            "name": "Plants, Places, and People",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Biology",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:biol120n"
+            }
+        },
+        {
+            "id": "biol133syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/biol133\/index.html",
+            "order": 13,
+            "parent": "syllabi",
+            "title": "Biol 133",
+            "name": "Genetics and Evolution of the Human Species",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Biology",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:biol133"
+            }
+        },
+        {
+            "id": "biol141syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/biol141\/index.html",
+            "order": 14,
+            "parent": "syllabi",
+            "title": "Biol 141",
+            "name": "Introduction to Physiology",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Biology",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:biol141"
+            }
+        },
+        {
+            "id": "biol155syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/biol155\/index.html",
+            "order": 15,
+            "parent": "syllabi",
+            "title": "Biol 155",
+            "name": "An Introduction to the Biology of Aging",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Biology",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:biol155"
+            }
+        },
+        {
+            "id": "biol177syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/biol177\/index.html",
+            "order": 16,
+            "parent": "syllabi",
+            "title": "Biol 177",
+            "name": "Biology of Sex",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Biology",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:biol177"
+            }
+        },
+        {
+            "id": "bmmb551syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/bmmb551\/index.html",
+            "order": 17,
+            "parent": "syllabi",
+            "title": "Bmmb 551",
+            "name": "Genomics",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Biochemistry, Microbiology and Molecular Biology",
+                    "program": "Graduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:bmmb551"
+            }
+        },
+        {
+            "id": "bmmb852syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/bmmb852\/index.html",
+            "order": 18,
+            "parent": "syllabi",
+            "title": "Bmmb 852",
+            "name": "Applied Bioinformatics",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Biochemistry, Microbiology and Molecular Biology",
+                    "program": "Graduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:bmmb852"
+            }
+        },
+        {
+            "id": "chem005syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/chem005\/index.html",
+            "order": 19,
+            "parent": "syllabi",
+            "title": "Chem 005",
+            "name": "Kitchen Chemistry",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Chemistry",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:chem005"
+            }
+        },
+        {
+            "id": "chem101syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/chem101\/index.html",
+            "order": 20,
+            "parent": "syllabi",
+            "title": "Chem 101",
+            "name": "Introductory Chemistry",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Chemistry",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:chem101"
+            }
+        },
+        {
+            "id": "chem110syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/chem110\/index.html",
+            "order": 21,
+            "parent": "syllabi",
+            "title": "Chem 110",
+            "name": "Chemical Principles",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/chem110.png",
+                    "imageAlt":"Periodic Table 2 by Princess Rashid",
+                    "subject": "Chemistry",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:chem101"
+            }
+        },
+        {
+            "id": "chem111syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/chem111\/index.html",
+            "order": 22,
+            "parent": "syllabi",
+            "title": "Chem 111",
+            "name": "Experimental Chemistry",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Chemistry",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:chem111"
+            }
+        },
+        {
+            "id": "chem202syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/chem202\/index.html",
+            "order": 23,
+            "parent": "syllabi",
+            "title": "Chem 202",
+            "name": "Fundamentals of Organic Chemistry",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Chemistry",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:chem202"
+            }
+        },
+        {
+            "id": "chem810syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/chem810\/index.html",
+            "order": 24,
+            "parent": "syllabi",
+            "title": "Chem 810",
+            "name": "Liquid Chromatography",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Chemistry",
+                    "program": "Graduate",
+                    "credits": "1"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:chem810"
+            }
+        },
+        {
+            "id": "chem811syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/chem811\/index.html",
+            "order": 25,
+            "parent": "syllabi",
+            "title": "Chem 811",
+            "name": "Liquid Chromatography II",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Chemistry",
+                    "program": "Graduate",
+                    "credits": "1"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:chem811"
+            }
+        },
+        {
+            "id": "chem812syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/chem812\/index.html",
+            "order": 26,
+            "parent": "syllabi",
+            "title": "Chem 812",
+            "name": "Liquid Chromatography III",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Chemistry",
+                    "program": "Graduate",
+                    "credits": "1"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:chem812"
+            }
+        },
+        {
+            "id": "frnsc100syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/frnsc100\/index.html",
+            "order": 27,
+            "parent": "syllabi",
+            "title": "Frnsc 100",
+            "name": "Introduction to Forensic Science",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Forensic Science",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:frnsc100"
+            }
+        },
+        {
+            "id": "frnsc200syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/frnsc200\/index.html",
+            "order": 28,
+            "parent": "syllabi",
+            "title": "Frnsc 200",
+            "name": "Introduction to Crime Scene Investigation",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Forensic Science",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:frnsc200"
+            }
+        },
+        {
+            "id": "frnsc210syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/frnsc210\/index.html",
+            "order": 29,
+            "parent": "syllabi",
+            "title": "Frnsc 210",
+            "name": "Essential Practices of Forensic Science",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Forensic Science",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:frnsc210"
+            }
+        },
+        {
+            "id": "math004syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/math004\/index.html",
+            "order": 30,
+            "parent": "syllabi",
+            "title": "Math 004",
+            "name": "Intermediate Algebra",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:math004"
+            }
+        },
+        {
+            "id": "math017syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/math017\/index.html",
+            "order": 31,
+            "parent": "syllabi",
+            "title": "Math 017",
+            "name": "Finite Mathematics",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:math017"
+            }
+        },
+        {
+            "id": "math021syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/math021\/index.html",
+            "order": 32,
+            "parent": "syllabi",
+            "title": "Math 021",
+            "name": "College Algebra I",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:math021"
+            }
+        },
+        {
+            "id": "math022syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/math022\/index.html",
+            "order": 33,
+            "parent": "syllabi",
+            "title": "Math 022",
+            "name": "College Algebra II and Analytic Geometry",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:math022"
+            }
+        },
+        {
+            "id": "math026syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/math026\/index.html",
+            "order": 34,
+            "parent": "syllabi",
+            "title": "Math 026",
+            "name": "Plane Trigonometry",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:math026"
+            }
+        },
+        {
+            "id": "math034syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/math034\/index.html",
+            "order": 35,
+            "parent": "syllabi",
+            "title": "Math 034",
+            "name": "The Mathematics of Money",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:math034"
+            }
+        },
+        {
+            "id": "math036syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/math036\/index.html",
+            "order": 36,
+            "parent": "syllabi",
+            "title": "Math 036",
+            "name": "Insights into Mathematics",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "credit": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:math036"
+            }
+        },
+        {
+            "id": "math110syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/math110\/index.html",
+            "order": 37,
+            "parent": "syllabi",
+            "title": "Math 110",
+            "name": "Techniques of Calculus I",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:math110"
+            }
+        },
+        {
+            "id": "math141syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/math141\/index.html",
+            "order": 39,
+            "parent": "syllabi",
+            "title": "Math 141",
+            "name": "Calculus with Analytic Geometry II",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:math141"
+            }
+        },
+        {
+            "id": "math220syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/math220\/index.html",
+            "order": 40,
+            "parent": "syllabi",
+            "title": "Math 220",
+            "name": "Matrices",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:math220"
+            }
+        },
+        {
+            "id": "math250syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/math250\/index.html",
+            "order": 41,
+            "parent": "syllabi",
+            "title": "Math 250",
+            "name": "Ordinary Differential Equations",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Math",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:math250"
+            }
+        },
+        {
+            "id": "math436syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/math436\/index.html",
+            "order": 42,
+            "parent": "syllabi",
+            "title": "Math 436",
+            "name": "Linear Algebra",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Math",
+                    "program": "Graduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:math436"
+            }
+        },
+        {
+            "id": "micrb106syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/micrb106\/index.html",
+            "order": 43,
+            "parent": "syllabi",
+            "title": "Micrb 106",
+            "name": "Elementary Microbiology",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Microbiology",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:micrb106"
+            }
+        },
+        {
+            "id": "micrb107syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/micrb107\/index.html",
+            "order": 44,
+            "parent": "syllabi",
+            "title": "Micrb 107",
+            "name": "Elementary Microbiology Laboratory",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/default_course_bg.png",
+                    "imageAlt":"",
+                    "subject": "Microbiology",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:micrb107"
+            }
+        },
+        {
+            "id": "phys010syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/phys010\/index.html",
+            "order": 45,
+            "parent": "syllabi",
+            "title": "Phys 010",
+            "name": "Physics Behind the Headlines",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/phys010.png",
+                    "imageAlt":"Abstract Rocket Launch",
+                    "subject": "Physics",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:phys010"
+            }
+        },
+        {
+            "id": "phys211syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/phys211\/index.html",
+            "order": 46,
+            "parent": "syllabi",
+            "title": "Phys 211",
+            "name": "General Physics: Mechanics",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/phys211.png",
+                    "imageAlt":"Farris Wheel in motion at night by Engin Akyurt",
+                    "subject": "Physics",
+                    "program": "Undergraduate",
+                    "credits": "3"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
                 "icon": "courseicons:phys211"
             }
         }
