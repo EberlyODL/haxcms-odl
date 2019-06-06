@@ -463,8 +463,8 @@
             "description": "This course provides a broad introduction to Astronomy including the historical development of the subject, basic physics of gravity, light, and atoms; telescopes; planets, moons, and other objects in our solar system; exosolar planets; the Sun and other stars; the evolution of stars; the Milky Way galaxy and other galaxies; distant quasars and other active galaxies; the expanding universe; cosmology based on the Big Bang theory; and life in the universe. The goal of this course is to cover most of the areas of modern astronomy at a level which requires only basic mathematics. The online version also includes a game version, where students have a chance to explore Mars in a virtual space, testing and applying concepts as they move around.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/astro001.png",
+                    "imageAlt":"Silhouette of man looking up into large moon. Photo by: Greg Rakozy - Unsplash.com",
                     "subject": "Astronomy",
                     "program": "Undergraduate",
                     "video": ""
@@ -488,8 +488,8 @@
             "description": "This course focuses on experiments and explorations to illustrate major astronomical principles and techniques. Travel through a telescope to form observations of planets, stars and nebulae. Discover the universe through engaging discussions and weekly labs. Weekly labs include discussion of the search for extraterrestrial intelligence, an activity to illustrate the phases of the moon, analysis of the colorful spectra of different chemical elements, and exploration of the deepest image of space ever obtained. In addition, students will complete a semester nighttime observation project that typically involves learning some constellations, tracing phases of the moon, and sketching images seen through our well-equipped rooftop student observatory.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/astro011.png",
+                    "imageAlt":"Observatory with sky and stars. Photo by: Alex Franzelin - Unsplash.com",
                     "subject": "Astronomy",
                     "program": "Undergraduate",
                     "video": ""
@@ -513,8 +513,8 @@
             "description": "This course is to introduce you to current state of research on cosmology, the study of the Universe on large scale, its structure and evolution, and current theories on the formation, evolution and fate of the Universe. The great success of the Big Bang theory in explaining the expansion of the Universe, the synthesis of the chemical elements, and the relic radiation leftover from the first moments are reviewed. This is a general education class designed for the non-science students who, after learning the fundamentals of astronomy in Astro 001(GN), 005 (GN) or 010 (GN), want to pursue further the questions of cosmology. The material is presented mostly at a qualitative level. The intended outcome of the course is an appreciation of what we know about the Universe, what the current limits to our understanding are, what the process by which we know and test this is, and what we hope to learn in the future.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/astro120.png",
+                    "imageAlt":"Colorful image of space, nebula, universe. Photo by: NASA - Unsplash.com",
                     "subject": "Astronomy",
                     "program": "Undergraduate",
                     "video": ""
@@ -538,8 +538,8 @@
             "description": "This course is intended to introduce students to the predicted properties of black holes and the astronomical evidence for their existence. It will cover spacetime, special and general relativity, types of black holes and their characteristics, the evaporation of black holes, wormholes and time travel. It combines basic physical concepts, astronomical observations, and philosophical ideas to present a complete picture of the current understanding of black holes. The course is intended for students who have completed and enjoyed the one-semester survey of modern astronomy, ASTRO 001 or 010.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/astro130.png",
+                    "imageAlt":"A photo of a Black hole. Photo by: Event Horizon Telescope - https://www.eso.org/public/images/eso1907a/ (image link) The highest-quality image (7416x4320 pixels, TIF, 16-bit, 180 Mb), ESO Article, ESO TIF, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=77925953",
                     "subject": "Astronomy",
                     "program": "Undergraduate",
                     "video": ""
@@ -563,8 +563,8 @@
             "description": "Advances in modern physics and astrophysics have dramatically changed and enriched the understanding of our cosmic surroundings, but have not yet produced unambiguous evidence concerning the extraterrestrial life. To date, significant progress has been made on certain aspects of the problem, and many recent scientific observations hint in favor of the existence of non-terrestrial life. During this course, we will explore such evidence and observations. ASTRO 140 is for students who are interested in enriching and broadening their understanding of modern science. The course is highly interdisciplinary, and would be a logical choice for students who completed and enjoyed ASTRO 001, ASTRO 005 or ASTRO 010.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/astro140.png",
+                    "imageAlt":"Two green leaf trees beside mountain with a night time sky. Photo by: Kayla Gibson - Unsplash.com",
                     "subject": "Astronomy",
                     "program": "Undergraduate",
                     "video": ""
@@ -588,8 +588,8 @@
             "description": "An exploration of how cellular structures and processes contribute to life and how life displays unity even in its diversity. At the end of this course, you should have a clear understanding of many important biological principles. You should be able to begin thinking like a scientist and be able to effectively evaluate, analyze, and critique the multifaceted biological topics of today.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/bisc001.png",
+                    "imageAlt":"Cellular Structure.  Photo by: Dante Metaphor - Reddit - https://www.reddit.com/r/wallpapers/comments/95ogkv",
                     "subject": "Biologicial Science",
                     "program": "Undergraduate",
                     "video": ""
@@ -613,8 +613,8 @@
             "description": "Evolution is a central theme of biology, and it helps us to understand the process of life that is ongoing all across our globe. The interactions among members of this global community provide the backdrop for understanding the ecology of our planet and our place in that community. BI SC 002 combines genetics\/human genetics, evolution, and ecology as a study of how living organisms inherit their traits, how plants and animals evolved, and how they now interact. It is an introductory course for non-science majors. By the end of the course, students should develop a basic understanding of genetic and biological terms and their importance to our technologically advanced society. There are no prerequisites for this course.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/bisc002.png",
+                    "imageAlt":"Pink and purple plasma ball. Photo: Hal Gatewood - Unsplash.com",
                     "subject": "Biologicial Science",
                     "program": "Undergraduate",
                     "video": ""
@@ -638,8 +638,8 @@
             "description": "As citizens of both local and global communities, some environmental issues are guaranteed to impact our lives. We are all dependent upon and supported by natural systems, without which life on earth could not exist. Policy makers and citizens are urgently needed who can act with an understanding of ecological principles when exercising community responsibilities to handle the environmental problems of our times, such as water use, solid waste management, global warming, energy use, conservation of irreplaceable natural resources, overpopulation, and the preservation of biodiversity. Thus, the purpose of BI SC 003 is to help students prepare for living in the 21st century in a sustainable way. BI SC 003 will help students prepare for living in current and future society's mixture of technology and mythology by presenting ideas and concepts about living systems and their environments. An understanding of biological and ecological principles and their application towards environmental challenges should give students the confidence to be active citizens, conscientious stewards of nature, and actively pursuing a healthy, sustainable community and society.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/bisc003.png",
+                    "imageAlt":"Plants in beakers. Photo by: chuttersnap - Unsplash.com",
                     "subject": "Biologicial Science",
                     "program": "Undergraduate",
                     "video": ""
@@ -663,8 +663,8 @@
             "description": "Everyone should understand, to some extent, how their lives depend on a properly developed and functioning body. It is important to understand biological principles fundamental to understanding human life, such as cell structure, metabolism, organ functions, human genetics, and how the human body reacts to disease. BI SC 004 combines the study of human anatomy, which is the study of parts of the human body, with human physiology, which is the study of how parts of the body work together to make the body function. It is an introductory course for non-science majors that provides a general survey of structure and function of the human body\u2014from conception, through growth and reproduction to death. By course end, students should develop a better understanding about the human body that will assist them as they deal with their own injuries or illnesses in the future, as well as other\u2019s.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/bisc004.png",
+                    "imageAlt":"Human anatomy figure below white wooden ceiling. Photo by: Nhia Moua - Unsplash.com",
                     "subject": "Biologicial Science",
                     "program": "Undergraduate",
                     "video": ""
@@ -688,8 +688,8 @@
             "description": "You are a biological being, as are the foods that you eat. We use products from other organisms to make many of the clothes that we wear, build our homes, provide medicines, and give beauty to our lives. Therefore, developing an appreciation and understanding of the biological world is important to living in this world and becoming a responsible steward of its resources. Who hasn't watched a bird and wondered what it would be like to be able to fly? To see the world from a different perspective? This course will provide an introduction to fundamental biological topics (including cells, energy transduction, genetics, evolution, organismal structure\/function, ecology) for non-majors in biology-related fields.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/biol11.png",
+                    "imageAlt":"Bird in flight. Photo by: W R - Unsplash.com",
                     "subject": "Biology",
                     "program": "Undergraduate",
                     "video": ""
@@ -713,8 +713,8 @@
             "description": "This course is a study of the evolution of the major groups of organisms including the fundamental concepts of biology. The goal of this course is to introduce you to fundamental concepts that are common to all organisms and to explore the biological diversity of life on Earth. Biology 110 is intended for students who need a majors-level introductory biology course and is not the best option for students who are looking for a general education course in science.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/biol110.png",
+                    "imageAlt":"People holding different color leaves.  Photo by: Providence Doucet - Unsplash.com",
                     "subject": "Biology",
                     "program": "Undergraduate",
                     "video": ""
@@ -738,8 +738,8 @@
             "description": "The purpose of Biology 120N is to introduce you to the fascinating world of plants with an emphasis on the historical, cultural, and economic uses. This course is designed to introduce you to the discipline of plant biology and increase your awareness and appreciation of the impact of plants on your daily lives. The first part of the course will present the fundamentals of botany to provide you with a basic understanding of plant form and function. The rest of the course will be devoted to a survey of historical, cultural, and economic aspects of botany and related fields. We will finish up with an examination of the role of plants as an integral part of the world's ecosystem.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/biol120n.png",
+                    "imageAlt":"People sitting on mountain side.  Photo by: Muhammed Fayiz - Unsplash.com",
                     "subject": "Biology",
                     "program": "Undergraduate",
                     "video": ""
@@ -763,8 +763,8 @@
             "description": "This course is an overview of our current knowledge of human heredity, genetic issues, genetic diseases, and human evolution. Background information that is necessary for understanding these issues will be taught including cell structure, the structure and function of DNA and chromosomes, patterns of inheritance, population genetics, and genetic technologies. Throughout the course, students will explore and discuss genetic issues, make informed decisions about genetic issues relating to their personal health, illustrate the impact of genetic technologies on our everyday lives, identify where to find information and web pages relating to genetic issues, and summarize the major theories of human evolution. They will also research genetic conditions within their own families and have the opportunity to share what they have learned, as well as read and describe popular science articles pertaining to genetic issues. This course is intended for non-biology majors and does not include a detailed analysis of human genetics.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/biol133.png",
+                    "imageAlt":"Silhouette photo of group people standing on grass.  Photo by: Johannes Plenio - Unsplash.com",
                     "subject": "Biology",
                     "program": "Undergraduate",
                     "video": ""
@@ -1629,7 +1629,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Astronomy",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1653,7 +1652,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Astronomy",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1677,7 +1675,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Astronomy",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1701,7 +1698,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Astronomy",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1725,7 +1721,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Astronomy",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1749,7 +1744,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Biologicial Science",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1773,7 +1767,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Biologicial Science",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1797,7 +1790,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Biologicial Science",
                     "program": "Undergraduate",
                     "credits:": "3"
                 },
@@ -1821,7 +1813,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Biologicial Science",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1845,7 +1836,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Biology",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1869,7 +1859,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Biology",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1893,7 +1882,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Biology",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1917,7 +1905,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Biology",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1941,7 +1928,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Biology",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1965,7 +1951,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Biology",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1989,7 +1974,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Biology",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2013,7 +1997,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Biochemistry, Microbiology and Molecular Biology",
                     "program": "Graduate",
                     "credits": "3"
                 },
@@ -2037,7 +2020,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Biochemistry, Microbiology and Molecular Biology",
                     "program": "Graduate",
                     "credits": "3"
                 },
@@ -2061,7 +2043,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Chemistry",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2085,7 +2066,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Chemistry",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2109,7 +2089,6 @@
                 "fields": {
                     "image": "files\/course-banners\/chem110.png",
                     "imageAlt":"Periodic Table 2 by Princess Rashid",
-                    "subject": "Chemistry",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2133,7 +2112,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Chemistry",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2157,7 +2135,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Chemistry",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2181,7 +2158,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Chemistry",
                     "program": "Graduate",
                     "credits": "1"
                 },
@@ -2205,7 +2181,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Chemistry",
                     "program": "Graduate",
                     "credits": "1"
                 },
@@ -2229,7 +2204,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Chemistry",
                     "program": "Graduate",
                     "credits": "1"
                 },
@@ -2253,7 +2227,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Forensic Science",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2277,7 +2250,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Forensic Science",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2301,7 +2273,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Forensic Science",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2325,7 +2296,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2349,7 +2319,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2373,7 +2342,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2397,7 +2365,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2421,7 +2388,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2445,7 +2411,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2469,7 +2434,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Math",
                     "program": "Undergraduate",
                     "credit": "3"
                 },
@@ -2493,7 +2457,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2517,7 +2480,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2541,7 +2503,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2565,7 +2526,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2589,7 +2549,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Math",
                     "program": "Graduate",
                     "credits": "3"
                 },
@@ -2613,7 +2572,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Microbiology",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2637,7 +2595,6 @@
                 "fields": {
                     "image": "files\/course-banners\/default_course_bg.png",
                     "imageAlt":"",
-                    "subject": "Microbiology",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2661,7 +2618,6 @@
                 "fields": {
                     "image": "files\/course-banners\/phys010.png",
                     "imageAlt":"Abstract Rocket Launch",
-                    "subject": "Physics",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2685,7 +2641,6 @@
                 "fields": {
                     "image": "files\/course-banners\/phys211.png",
                     "imageAlt":"Farris Wheel in motion at night by Engin Akyurt",
-                    "subject": "Physics",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
