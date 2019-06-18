@@ -91,7 +91,7 @@
             "location": "pages\/blog-posts\/11-19-18\/index.html",
             "order": 1,
             "parent": "news",
-            "title": "H5P: Documentation Tool",
+            "title": "H5P - Documentation Tool",
             "description": "Are you searching for a creative, interactive, and engaging way to have students submit details about an assignment or project they\u2019re working on?  Would you like this information to be exported to a nicely formatted text document instantly?  Look no further",
             "metadata": {
                 "fields": {
@@ -788,8 +788,8 @@
             "description": "The human body is fascinating to most of us, presumably because we have a vested interest in it. It is especially interesting when we include the physiology of diseases, as diseases often represent good illustrations of the system not functioning properly. One of the goals of this course is to develop your ability to understand the more complex scientific and medical advances that are occurring with increasing frequency today. This course is designed to cover the fundamentals of human physiology for students in a variety of life science-related majors including Nursing, Kinesiology, Athletic Training, and Science. Throughout the course, students will obtain a working knowledge and understanding of basic human physiology, apply these physiological principles to problem solving situations as observed in medical situations, including cardiac problems, hypertension, renal failure, acid-base balance disturbances, and endocrine imbalances, and obtain a practical understanding of physiology which you can build upon and use in future clinical settings. Physiology is not an easy subject to learn because it contains a tremendous amount of information. It is, however, a logical science and can usually be understood with reasoning. Students who have passed BIOL 472 may not schedule this course.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/biol141.png",
+                    "imageAlt":"Transparent skull model. Photo by: Jesse Orrico - Unsplash.com",
                     "subject": "Biology",
                     "program": "Undergraduate",
                     "video": ""
@@ -813,8 +813,8 @@
             "description": "Biology 155 is designed to give both science and non-science majors a basic understanding of the aging process, with special emphasis on aging as it relates to the human body and health. Students will learn important aging terminology, methods of measuring aging, current theories of the aging process, and research models used to study aging. Additionally, they will explore aging as related to specific body systems. Students will have an opportunity to review normal anatomy (structure naming) and physiology (body function) of these body systems as well as drill into the details of both senescence and age-related disease processes. By the end of the course, students should have developed a functional understanding of how our bodies change over time and gained a perspective on major diseases that affect our aging bodies. Ultimately students should understand how long-term, healthy living strategies and interventions, started during young life, can potentially prolong life and add additional healthy years to their lifespan.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/biol155.png",
+                    "imageAlt":"A pile of wooden clocks of various sizes.  Photo by: Jon Tyson - Unsplash.com",
                     "subject": "Biology",
                     "program": "Undergraduate",
                     "video": ""
@@ -838,8 +838,8 @@
             "description": "This course presents a thorough background on the anatomy and physiology of the reproductive system in animals, with particular attention given to humans. Students will learn about the purported role of evolution and natural selection in the development of sex, a review of cell division, and the principles of both Medelian and non-Mendelian inheritance; essential female and male reproductive anatomy, along with a presentation of the roles of hormones in the realm of reproductive physiology; growth and development of a new person, maternal anatomical and physiological changes, childbirth, and lactation are all presented in detail; and other topics, such as family planning, sexually transmitted diseases, and cultural issues with regard to sex. The course also takes a look at contemporary research related to human sexuality.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/biol177.png",
+                    "imageAlt":"Two persons under a pink and white comforter.  Photo by: Hop Design - Unsplash.com",
                     "subject": "Biology",
                     "program": "Undergraduate",
                     "video": ""
@@ -863,8 +863,8 @@
             "description": "BMMB 551 will deal with the structure and function of genomes including the use of some current web-based tools and resources for studies and research in genomics. The overall objective is to learn current information about the structure and function of genomes, to develop facility in the many web-based tools and resources for further studies and research in genomics, and to appreciate the power and limitations of current resources and knowledge. Throughout this course, we will introduce and\/or review the fundamentals of genomics. You will also learn about the approaches used to asses function of genomic DNA. As you acquire this information, you will be asked to apply this information for cutting edge exploration of functional regions of genomes. Additionally, this course will serve as a forum to explore new approaches to self-motivation and group learning. It will also provide you with a place to do something fresh and exciting!",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/bmmb551.png",
+                    "imageAlt":"DNA strands on a blue background.  Photo by: Gerd Altmann - Pixabay",
                     "subject": "Biochemistry, Microbiology and Molecular Biology",
                     "program": "Graduate",
                     "video": ""
@@ -888,8 +888,8 @@
             "description": "The purpose of this course is to provide students with a foundation in the various applications of high-throughput sequencing including: chip-Seq, RNA-Seq, SNP calling, metagenomics, de-novo assembly and others. The course material will concentrate on presenting complete data analysis scenarios for each of these domains of applications and will introduce students to a wide variety of existing tools and techniques. By the end of the course work students will understand common bioinformatics data formats and standards, become familiar with the practice of analyzing sequencing data from various instruments and will develop the computationally oriented thinking that is necessary to take on large-scale data analysis projects.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/bmmb852.png",
+                    "imageAlt":"Doctor on a computer looking at data.  Photo by: Campaign Creators - Unsplash.com",
                     "subject": "Biochemistry, Microbiology and Molecular Biology",
                     "program": "Graduate",
                     "video": ""
@@ -913,8 +913,8 @@
             "description": "Foods are made of chemical substances, and cooking may be the most widespread application of chemistry. Your overall goal for this course is to gain knowledge of the structures and functions of foods and to apply this to better understand the chemical principles involved in food products and common cooking techniques. You will learn an array of elementary chemical concepts such as physical and chemical changes, chemical bonding, energy, polarity, solubility, acids and bases, functional groups, etc. You will also learn how to read and critically analyze the nutritional facts on food labels, classify food additives according to their properties, and identify key chemical properties of food ingredients and explain their effects on their handling, use and taste. CHEM 005 incorporates reading, problem-solving, and \u2018edible\u2019 home experiments to develop an understanding of chemical concepts and scientific inquiry within the context of food and cooking. Students will develop an enhanced understanding of the chemical principles involved in food products and common cooking techniques.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/chem005.png",
+                    "imageAlt":"Kitchen utensils on display.  Photo by: Caroline Attwood - Unsplash.com",
                     "subject": "Chemistry",
                     "program": "Undergraduate",
                     "video": ""
@@ -938,8 +938,8 @@
             "description": "Chemistry is the central science that allows you to connect the microscopic structure of molecules to the observable properties and behavior of materials that we see everyday. The main goals of Chem 101 are for you to gain a solid foundation of the principles of chemistry and use these principles to better understand your observations of the real world. Along the way, you will improve your observation skills and your ability to think critically about your observations. Doing experiments will help you learn good laboratory techniques in taking measurements properly, recording data carefully, and working safely. Using your experimental results, you will learn to analyze and draw logical conclusions from your data. Then you can connect what you observe in the lab with what you have read in the text and practiced in the online activities. The last step is to connect your observations in the lab and class with the real world. While prior study of chemistry is not required, it is recommended that you have taken at least one class in Algebra.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/chem101.png",
+                    "imageAlt":"Three clear beakers placed on tabletop.  Photo by: Hans Reniers - Unsplash.com",
                     "subject": "Chemistry",
                     "program": "Undergraduate",
                     "video": ""
@@ -989,8 +989,8 @@
             "description": "This course provides an introduction to quantitative experimentation in chemistry. The students are introduced to laboratory safety and good experimental techniques, how to keep a proper laboratory notebook, interpret data, and write a formal report. The course introduces laboratory experimentation in the context of a variety of specific topics, such as reactions in solutions, spectroscopy, chemistry of natural waters, acids and bases, and the synthesis and analysis of chemical compounds.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/chem111.png",
+                    "imageAlt":"Person holding laboratory flasks.  Photo by: Alex Kondratiev - Unsplash.com",
                     "subject": "Chemistry",
                     "program": "Undergraduate",
                     "video": ""
@@ -1000,7 +1000,7 @@
                 "type": "course",
                 "template": "courses",
                 "syllabus": "pages\/syllabi\/chem111\/index.html",
-                "icon": "courseicons:chem111"
+                "icon": "courseicons:chem101"
             }
         },
         {
@@ -1014,8 +1014,8 @@
             "description": "This course provides an introduction to organic chemistry, with emphasis on the properties of organic compounds of biochemical importance and fundamental principles. Some of the principles are illustrated with a variety of examples from nature and everyday life. The course covers the following topics: alkanes; alkenes, including polymers; alkynes; benzene and aromaticity; alcohols and phenols; ethers; aldehydes; ketones; carboxylic acids and their acyl derivatives; amines; alkyl halides; nomenclature; stereochemistry, including conformational analysis and chirality. Chemical reactions of the functional groups will be discussed along with the mechanistic details, including stereospecificity, of some of these processes. Biological molecules such as carbohydrates, lipids, steroids, peptides/proteins and nucleic acids, along with their importance in living systems, will be surveyed.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/chem202.png",
+                    "imageAlt":"A table with various text tubes in a holding rack.  Photo by: bdyczewski - Pixabay.com",
                     "subject": "Chemistry",
                     "program": "Undergraduate",
                     "video": ""
@@ -1025,7 +1025,7 @@
                 "type": "course",
                 "template": "courses",
                 "syllabus": "pages\/syllabi\/chem202\/index.html",
-                "icon": "courseicons:chem202"
+                "icon": "courseicons:chem101"
             }
         },
         {
@@ -1039,8 +1039,8 @@
             "description": "The course specifically caters to the needs of the analytical chemical industry and individuals newly hired into entry-level sample management/preparation and quality assurance/quality control positions within companies using liquid chromatographic techniques. The course material is designed to increase student understanding of both the liquid chromatography instrument used in the laboratory and the principles underlying the measurements.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/chem810.png",
+                    "imageAlt":"Liquid Chromatography tools in a lab setting.  Photo: Restek Corporation",
                     "subject": "Chemistry",
                     "program": "Graduate",
                     "video": ""
@@ -1050,7 +1050,7 @@
                 "type": "course",
                 "template": "courses",
                 "syllabus": "pages\/syllabi\/chem810\/index.html",
-                "icon": "courseicons:chem810"
+                "icon": "courseicons:chem101"
             }
         },
         {
@@ -1064,8 +1064,8 @@
             "description": "The course specifically caters to the needs of the analytical chemical industry and individuals hired into, or transitioning into, technician level positions within companies using liquid chromatographic techniques. The course material is designed to increase student understanding of both the liquid chromatography instrument used in the laboratory and the principles underlying the measurements.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/chem810.png",
+                    "imageAlt":"Liquid Chromatography tools in a lab setting.  Photo: Restek Corporation",
                     "subject": "Chemistry",
                     "program": "Graduate",
                     "video": ""
@@ -1075,7 +1075,7 @@
                 "type": "course",
                 "template": "courses",
                 "syllabus": "pages\/syllabi\/chem811\/index.html",
-                "icon": "courseicons:chem811"
+                "icon": "courseicons:chem101"
             }
         },
         {
@@ -1089,8 +1089,8 @@
             "description": "The course specifically caters to the needs of the analytical chemical industry and individuals hired into, or transitioning into, development-level, or senior-level, chemist positions within companies using liquid chromatographic techniques. The course material is designed to increase student understanding of both the liquid chromatography instrument used in the laboratory and the principles underlying the measurements.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/chem810.png",
+                    "imageAlt":"Liquid Chromatography tools in a lab setting.  Photo: Restek Corporation",
                     "subject": "Chemistry",
                     "program": "Graduate",
                     "video": ""
@@ -1100,7 +1100,7 @@
                 "type": "course",
                 "template": "courses",
                 "syllabus": "pages\/syllabi\/chem812\/index.html",
-                "icon": "courseicons:chem812"
+                "icon": "courseicons:chem101"
             }
         },
         {
@@ -1114,8 +1114,8 @@
             "description": "Forensic science is the study and application of science to the processes of law and involves the collection, examination, evaluation and interpretation of evidence. This course introduces the field of forensic science through an exploration of its applications to criminal investigation. This field encompasses many scientific areas which, if used properly, can make invaluable contributions to the resolution of social and legal disputes. The course will review the basic applications of selected forensic science disciplines and will explore the underlying scientific principals and methods used within each. Using examples taken from adjudicated cases, the capabilities and limitations of the forensic sciences will be illustrated. No background in natural sciences is presumed.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/frnsc100.png",
+                    "imageAlt":"A finger print. Photo by: Stux - Pixabay.com",
                     "subject": "Forensic Science",
                     "program": "Undergraduate",
                     "video": ""
@@ -1139,8 +1139,8 @@
             "description": "Introduction to Crime Scene Investigation is a course that will engage you simply by its nature. It is a course that will introduce you to the philosophies, principles, and professional practices of Crime Scene Investigation. You will be expected to apply knowledge from multiple fields of study including, but not limited to Chemistry, Biology, Sociology, Psychology, Statistics, Philosophy, and Criminology. What you do not already know will be taught to ensure your success; however, you need to be prepared to think critically and scientifically throughout the rigorous curriculum. You will need to think like a scientist, conduct yourself like a professional, and investigate scenes to fully apply your forensic skills. This is a rigorous course that requires a dedicated amount of your time; by the nature of its content, FRNSC 200 is a course that requires your active participation and full academic commitment.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/frnsc200.png",
+                    "imageAlt":"Police crime scene. Photo by: Alexas Fotos - Pixabay.com",
                     "subject": "Forensic Science",
                     "program": "Undergraduate",
                     "video": ""
@@ -1164,8 +1164,8 @@
             "description": "Forensic science encompasses many scientific areas which, if used properly, can make invaluable contributions to the resolution of social and legal disputes. In this course, students will learn the essential practices of forensic science and criminalistics and review practices of forensic science including documentation, microscopy, communication of results, and integration of concepts from other sciences, mathematics, and statistics. The necessity of an objective, rigorous, scientific approach in a forensic investigation will be stressed. This course will prepare students to understand the foundation of forensic science practice including the basic knowledge required to understand the nature and origin of physical evidence, preservation of the physical evidence record, forensic microscopy, and communication of results. It is important to note that this course uses an intensive, problem-solving style and through practical exercises, students will be introduced to documentation techniques, basic and forensic microscopy, the verbal and written communication of forensic findings. The primary aims of the course are to introduce students to scientific philosophy, integrity, forensic science, criminalistics, basic practices of forensic science/criminalistics, and the role of the criminalist as they relate to a forensic investigation as well as prepare students for advanced 400-level courses in forensic science and criminalistics.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/frnsc210.png",
+                    "imageAlt":"Photo of a face focused on the eye faded into dark background. Photo by: Geralt - Pixabay.com",
                     "subject": "Forensic Science",
                     "program": "Undergraduate",
                     "video": ""
@@ -1189,8 +1189,8 @@
             "description": "This course explores algebraic expressions; linear, absolute value equations and inequalities; lines; systems of linear equations; integral exponents; polynomials; factoring.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math004.png",
+                    "imageAlt":"Pen, ruler, and calculator resting on graph paper. Photo by: Robert-Owen-Wahl - Pixabay.com",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1200,7 +1200,7 @@
                 "type": "course",
                 "template": "courses",
                 "syllabus": "pages\/syllabi\/math004\/index.html",
-                "icon": "courseicons:math004"
+                "icon": "courseicons:math022"
             }
         },
         {
@@ -1214,8 +1214,8 @@
             "description": "This course will introduce logic, sets, and probability. Specifically, students learn the elementary mathematics of logic and sets. Logic is the symbolic, algebraic way of representing and analyzing statements and sentences. While students will get just a brief introduction to logic, the mathematics used in logic are found at the heart of computer programming and in designing electrical circuits. Problems of counting various kinds of sets lead to the study of combinatorics, the art of advanced counting. For example, if a room has twenty chairs and twelve people, in how many ways can these people occupy the chairs? And are you accounting for differences in who sits in particular chairs, or does it only matter whether a chair has a body in it? These kinds of counting problems are the basis for probability. In order to calculate the chance of a particular event occurring you must be able to count all the possible outcomes.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math017.png",
+                    "imageAlt":"Dice laying on a table in order from 1 to 6. Photo by: Mar_D - Pixabay.com",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1225,7 +1225,7 @@
                 "type": "course",
                 "template": "courses",
                 "syllabus": "pages\/syllabi\/math017\/index.html",
-                "icon": "courseicons:math017"
+                "icon": "courseicons:math110"
             }
         },
         {
@@ -1239,8 +1239,8 @@
             "description": "This course covers quadratic equations; equations in quadratic form; word problems, graphing; algebraic fractions; negative and rational exponents; radicals. Both algebraic skills and conceptual understanding will be expected and assessed. Algebraic skills will be primarily developed through work on ALEKS. ALEKS is a web-based tutorial system which provides students with ongoing skills based assessments and tracks progress. Conceptual skills will be incorporated into quizzes and home work assignments. Such assignments will be due approximately every other week. If necessary, students will be expected to attend online lectures.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math021.png",
+                    "imageAlt":"System of Equations. Photo by: Antoine Dautry - Unsplash.com",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1264,8 +1264,8 @@
             "description": "This course presents an extensive review of intermediate algebra topics. The review will include: solving linear equations and inequalities, fundamental concepts associated with quadratic equations, solving equations and inequalities with absolute values and other miscellaneous equations involving rational expressions and radical expressions. An introduction to complex number arithmetic is also included. Additionally, it covers general concepts associated with relations and functions. Topics such as the algebra of functions, function composition and range and domain are studied. The graphical representation of linear and quadratic functions are also presented. The algebraic and graphical representation of circles will also be studied as it pertains to terminology associated with relations in general. Basic graphical transformations are introduced. Polynomial and rational functions are studied in detail. In particular, ideas associated with zeros of polynomials, end-behavior, and graph sketching are discussed. Students will learn about synthetic division, the remainder theorem, the conjugate root theorem, horizontal and slant (oblique) asymptotes, and vertical asymptotes. Finally, exponential and logarithmic functions are studied in detail. Specific skills entail working with the rules of exponents and logarithms and solving exponential and logarithmic equations. Concepts associated with one-to-one functions and the existence of inverses are also studied. Sketching and recognizing the graphical representation of exponential and log functions is included.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math022.png",
+                    "imageAlt":"Calculator laying on math work-book. Photo by: Free-Photos - Pixabay.com",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1289,8 +1289,8 @@
             "description": "Trigonometry is a field of mathematics in which the geometric properties of the angles and edges of triangles are used to measure lengths. Real-world problems involving trigonometry are common in engineering, physics, construction and design. This course is well suited for students who need sufficient mastery of trigonometry for use in fieldwork as well as those continuing on to engineering, kinesiology, surveying and physical sciences. Intermediate algebra skills are assumed. MATH 026 provides the trigonometry skills and concepts essential to success in calculus courses. Topics include right-triangle relationships, unit circle, sine, cosine, and tangent functions and their applications, inverse trigonometric functions, identities, and trigonometric form of complex numbers.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math026.png",
+                    "imageAlt":"A staircase in triangular patterns. Photo by:  Viswanath V Pai - Unsplash.com",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1300,7 +1300,7 @@
                 "type": "course",
                 "template": "courses",
                 "syllabus": "pages\/syllabi\/math026\/index.html",
-                "icon": "courseicons:math026"
+                "icon": "courseicons:math140"
             }
         },
         {
@@ -1314,8 +1314,8 @@
             "description": "This course introduces students to the time value of money, including, working with loans and associated interest calculations. It also covers the theme of Common Investment. Students will work with basic investments such as annuities, stocks and bonds, learn about sales and income taxes, and be introduced to retirement planning. Finally, students will learn about business applications and personal financial planning, where they will work with inflation and depreciation, consider consumer implications associated with credit cards, mortgages and leasing, and learn about profit margin and cost-revenue analysis associated with business. The student will be expected to obtain both a conceptual understanding for the financial objectives and the ability to calculate and manipulate formulas and equations associated with the financial objectives.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math034.png",
+                    "imageAlt":"New York Times paper with investment quotes. Photo by: Markus Spiske - Unsplash.com",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1339,8 +1339,8 @@
             "description": "This course covers examples of mathematical applications in many areas including voting theory, fair division, apportionment, and Euler and Hamilton circuits. In this course, we hope to demonstrate to the students that mathematics is very useful in contemporary problems in our society - from voting theory issues to apportionment of the seats in the U.S. House of Representatives to optimizing the route taken by a delivery person and a variety of other issues. We focus on historical issues related to such contemporary problems and also discuss the merits of various problem-solving techniques throughout the course.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math036.png",
+                    "imageAlt":"Light bulbs hanging from the ceiling. Photo by: Sara Kurfeß - Unsplash.com",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1364,8 +1364,8 @@
             "description": "MATH 110 is an entry-level course in mathematics that introduces the skills associated with the application of calculus techniques to business and social science applications. We will review and deepen our understanding of polynomial and exponential functions as well as introduce the concepts of derivatives and integration. Most topics will be explored analytically and graphically as they are applied to real life examples and problems. Students are expected to study the concepts and examples and be able to extend the skills and techniques to the solution of similar problems.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math110.png",
+                    "imageAlt":"Math study book. Photo by: Joshua_seajw92 - Pixabay.com",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1389,8 +1389,8 @@
             "description": "Calculus is an important building block in the education of any professional who uses quantitative analysis. This course introduces and develops the mathematical skills required for analyzing change and creating mathematical models that replicate real-life phenomena. The goals of our calculus courses include to develop the students' knowledge of calculus techniques and to use the calculus environment to develop critical thinking and problem solving skills. The concept of limit is central to calculus; MATH 140 begins with a study of this concept. Differential calculus topics include derivatives and their applications to rates of change, related rates, linearization, optimization, and graphing techniques. The Fundamental Theorem of Calculus, relating differential and integral calculus begins the study of Integral Calculus. Antidifferentiation and the technique of substitution is used in integration applications of finding areas of plane figures and volumes of solids of revolution. Trigonometric functions are included in every topic.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math140.png",
+                    "imageAlt":"Brown wooden triangle ruler laying on paper. Photo by: Dawid Małecki - Unsplash.com",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1414,8 +1414,8 @@
             "description": "Calculus is an important building block in the education of any professional who uses quantitative analysis. This course further introduces and develops the mathematical skills required for analyzing growth and change and creating mathematical models that replicate reallife phenomena. The goals of our calculus courses include to develop the students' knowledge of calculus techniques and to use the calculus environment to develop critical thinking and problem solving skills. This course covers the following topics: logarithms, exponentials, and inverse trigonometric functions; applications of the definite integral and techniques of integration; sequences and series; power series and Taylor polynomials; parametric equations and polar functions.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math141.png",
+                    "imageAlt":"View looking down a spiral staircase. Photo by: Maxime Lebrun - Unsplash.com",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1425,7 +1425,7 @@
                 "type": "course",
                 "template": "courses",
                 "syllabus": "pages\/syllabi\/math141\/index.html",
-                "icon": "courseicons:math141"
+                "icon": "courseicons:math110"
             }
         },
         {
@@ -1439,8 +1439,8 @@
             "description": "Systems of linear equations appear everywhere in mathematics and its applications. MATH 220 will give students the basic tools necessary to analyze and understand such systems. The initial portion of the course teaches the fundamentals of solving linear systems. This requires the language and notation of matrices and fundamental techniques for working with matrices such as row and column operations, echelon form, and invertibility. The determinant of a matrix is also introduced; it gives a test for invertibility. In the second part of the course the key ideas of eigenvector and eigenvalue are developed. These allow one to analyze a complicated matrix problem into simpler components and appear in many disguises in physical problems. The course also introduces the concept of a vector space, a crucial element in future linear algebra courses. This course is completed by a wide variety of students across the university, including students majoring in engineering programs, the sciences, and mathematics. (In case of many of these students, MATH 220 is a required course in their degree program.)",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math220.png",
+                    "imageAlt":"Equations written on a chalkboard. Photo by: Athree23 - Pixabay.com",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1464,8 +1464,8 @@
             "description": "In this course, students will learn how derivatives commonly appear in equations used to describe the world. Equations involving derivatives are called differential equations. Differential equations play an important role in modeling the real world. Newton's laws, Maxwell's laws of electromagnetism, Einstein's equations of general relativity, Euler and Bernoulli's beam equation, the Black-Scholes equation from finance, Perelson's viral-dynamics equations in biology, and the million-dollar NavierStokes equations are all differential equations used daily in their respective disciplines. Today, differential equations are one of the fundamental mathematical tools for the study of systems that change over time, and are used in most areas of science, engineering, and mathematics. MATH 250 is an introductory course on ordinary differential equations. Ordinary differential equations are equations that involve derivative of a function with respect to only one variable. The goal of this course is to teach the students some of the elementary techniques in dealing with several fundamental types of equations. Some topics include linear equations involving only first and second derivatives, Laplace transforms, systems of linear equations involving only first derivatives, and phase-plane analysis.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math250.png",
+                    "imageAlt":"Equations written on a white board. Photo by: Lucas Rosas - Unsplash.com",
                     "subject": "Math",
                     "program": "Undergraduate",
                     "video": ""
@@ -1475,7 +1475,7 @@
                 "type": "course",
                 "template": "courses",
                 "syllabus": "pages\/syllabi\/math250\/index.html",
-                "icon": "courseicons:math250"
+                "icon": "courseicons:math140"
             }
         },
         {
@@ -1489,8 +1489,8 @@
             "description": "This is course about vector spaces and linear transformations. It is not a course about vectors, in the sense of lists of numbers, and matrices (for this see Math 220), although we will of course make use of these concepts as needed. This course has a theoretical bent: we want to understand vector spaces and linear transformations, rather than use them to solve specific problems. For a more applied, engineering-oriented approach, try Math 441. This is a mathematics class, and you will be expected to read and do proofs. Students come to this class with a range of backgrounds. This is a second course in linear algebra, and emphasizes proofs and an abstract point of view (understanding vector spaces and linear transformations, not manipulating lists and matrices of numbers). We build up to and use structure theorems for linear operators.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math436.png",
+                    "imageAlt":"Looking up at a glass building. Photo by: Joel Filipe - Unsplash.com",
                     "subject": "Math",
                     "program": "Graduate",
                     "video": ""
@@ -1514,8 +1514,8 @@
             "description": "This course focuses on the importance of microorganisms in health, disease, agriculture, and industry. Specifically, Microbiology 106 looks at the unique nature of microorganisms and their importance to life on earth. Microbes were the first form of life to evolve, and even though different in structure from other forms of living things, many similarities can be found in terms of genetics, metabolism, and the roles they play in nature. Bacteria, viruses, and other forms of microscopic life will be examined in some detail, as will their biological activities both beneficial and harmful.Most people think of microbes in their negative roles: disease, food spoilage, and bio-deterioration. Indeed, we spend a lot of time and resources controlling microbes in our environment and treating diseases they cause. But microbes are found naturally on and within the human body with beneficial effect. They are also important in the production of food, vitamins, drugs, and other useful products. They are used extensively in biotechnology. They have important ecological roles and are essential to the continued existence of life on earth.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/micrb106.png",
+                    "imageAlt":"Person holding a petri dish. Photo by: Drew Hays - Unsplash.com",
                     "subject": "Microbiology",
                     "program": "Undergraduate",
                     "video": ""
@@ -1525,7 +1525,7 @@
                 "type": "course",
                 "template": "courses",
                 "syllabus": "pages\/syllabi\/micrb106\/index.html",
-                "icon": "courseicons:micrb106"
+                "icon": "courseicons:frnsc100"
             }
         },
         {
@@ -1539,8 +1539,8 @@
             "description": "This course explores selected techniques used to observe, identify and count bacteria, as well as the effects of chemical and physical agents on microorganisms. The course demonstrates the use and importance of microbes in everyday life. Instruction begins with the proper handling and visualization of microorganisms. Almost by definition, the vast majority of microorganisms are too small to be seen with the naked eye. Therefore, students must learn the correct use of the light microscope. Instruction in the proper care and maintenance of the microscope is provided. Students prepare and stain specimens using a number of methods designed to characterize microorganisms. The importance of working safely in a laboratory setting is emphasized throughout the course.Many skills are developed in this laboratory course. Aseptic (without contamination) technique is taught and is used to transfer organisms properly from one culture medium to another. A variety of media are used and the reasons for their use are explained. Students also learn how to calculate the number of bacteria in specimens such as water, soil or food. The course demonstrates ways to control microbial growth by means of temperature, osmotic pressure, pH, exposure to ultraviolet light and disinfectants.",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/micrb107.png",
+                    "imageAlt":"Refilling liquid in test tubes. Photo by: Louis Reed - Unsplash.com",
                     "subject": "Microbiology",
                     "program": "Undergraduate",
                     "video": ""
@@ -1550,7 +1550,7 @@
                 "type": "course",
                 "template": "courses",
                 "syllabus": "pages\/syllabi\/micrb107\/index.html",
-                "icon": "courseicons:micrb107"
+                "icon": "courseicons:frnsc100"
             }
         },
         {
@@ -1600,7 +1600,7 @@
                 "type": "course",
                 "template": "courses",
                 "syllabus": "pages\/syllabi\/phys211\/index.html",
-                "icon": "courseicons:phys211"
+                "icon": "courseicons:phys010"
             }
         },
         {
@@ -1627,8 +1627,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/astro001.png",
+                    "imageAlt":"Silhouette of man looking up into large moon. Photo by: Greg Rakozy - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1650,8 +1650,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/astro011.png",
+                    "imageAlt":"Observatory with sky and stars. Photo by: Alex Franzelin - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1673,8 +1673,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/astro120.png",
+                    "imageAlt":"Colorful image of space, nebula, universe. Photo by: NASA - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1696,8 +1696,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/astro130.png",
+                    "imageAlt":"A photo of a Black hole. Photo by: Event Horizon Telescope - https://www.eso.org/public/images/eso1907a/ (image link) The highest-quality image (7416x4320 pixels, TIF, 16-bit, 180 Mb), ESO Article, ESO TIF, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=77925953",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1719,8 +1719,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/astro140.png",
+                    "imageAlt":"Two green leaf trees beside mountain with a night time sky. Photo by: Kayla Gibson - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1742,8 +1742,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/bisc001.png",
+                    "imageAlt":"Cellular Structure.  Photo by: Dante Metaphor - Reddit - https://www.reddit.com/r/wallpapers/comments/95ogkv",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1765,8 +1765,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/bisc002.png",
+                    "imageAlt":"Pink and purple plasma ball. Photo: Hal Gatewood - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1788,8 +1788,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/bisc003.png",
+                    "imageAlt":"Plants in beakers. Photo by: chuttersnap - Unsplash.com",
                     "program": "Undergraduate",
                     "credits:": "3"
                 },
@@ -1811,8 +1811,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/bisc004.png",
+                    "imageAlt":"Human anatomy figure below white wooden ceiling. Photo by: Nhia Moua - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1822,7 +1822,7 @@
                 "template": "syllabi",
                 "icon": "courseicons:bisc004"
             }
-        },
+        }, 
         {
             "id": "biol11syllabi",
             "indent": 0,
@@ -1834,8 +1834,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/biol11.png",
+                    "imageAlt":"Bird in flight. Photo by: W R - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1857,8 +1857,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/biol110.png",
+                    "imageAlt":"This course is a study of the evolution of the major groups of organisms including the fundamental concepts of biology. The goal of this course is to introduce you to fundamental concepts that are common to all organisms and to explore the biological diversity of life on Earth. Biology 110 is intended for students who need a majors-level introductory biology course and is not the best option for students who are looking for a general education course in science.",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1880,8 +1880,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/biol120n.png",
+                    "imageAlt":"People sitting on mountain side.  Photo by: Muhammed Fayiz - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1903,8 +1903,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/biol133.png",
+                    "imageAlt":"Silhouette photo of group people standing on grass.  Photo by: Johannes Plenio - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1926,8 +1926,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/biol141.png",
+                    "imageAlt":"Transparent skull model. Photo by: Jesse Orrico - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1949,8 +1949,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/biol155.png",
+                    "imageAlt":"A pile of wooden clocks of various sizes.  Photo by: Jon Tyson - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1972,8 +1972,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/biol177.png",
+                    "imageAlt":"Two people under a pink and white comforter.  Photo by: Hop Design - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -1995,8 +1995,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/bmmb551.png",
+                    "imageAlt":"DNA strands on a blue background.  Photo by: Gerd Altmann - Pixabay",
                     "program": "Graduate",
                     "credits": "3"
                 },
@@ -2018,8 +2018,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/bmmb852.png",
+                    "imageAlt":"Doctor on a computer looking at data.  Photo by: Campaign Creators - Unsplash.com",
                     "program": "Graduate",
                     "credits": "3"
                 },
@@ -2041,8 +2041,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/chem005.png",
+                    "imageAlt":"Kitchen utensils on display.  Photo by: Caroline Attwood - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2064,8 +2064,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/chem101.png",
+                    "imageAlt":"Three clear beakers placed on tabletop.  Photo by: Hans Reniers - Unsplash.co",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2110,8 +2110,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/chem111.png",
+                    "imageAlt":"Person holding laboratory flasks.  Photo by: Alex Kondratiev - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2133,8 +2133,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/chem202.png",
+                    "imageAlt":"A table with various text tubes in a holding rack.  Photo by: bdyczewski - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2156,8 +2156,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/chem810.png",
+                    "imageAlt":"Liquid Chromatography tools in a lab setting.  Photo: Restek Corporation",
                     "program": "Graduate",
                     "credits": "1"
                 },
@@ -2179,8 +2179,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/chem810.png",
+                    "imageAlt":"Liquid Chromatography tools in a lab setting.  Photo: Restek Corporation",
                     "program": "Graduate",
                     "credits": "1"
                 },
@@ -2202,8 +2202,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/chem810.png",
+                    "imageAlt":"Liquid Chromatography tools in a lab setting.  Photo: Restek Corporation",
                     "program": "Graduate",
                     "credits": "1"
                 },
@@ -2225,8 +2225,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/frnsc100.png",
+                    "imageAlt":"A finger print. Photo by: Stux - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2248,8 +2248,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/frnsc200.png",
+                    "imageAlt":"Police crime scene. Photo by: Alexas Fotos - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2271,8 +2271,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/frnsc210.png",
+                    "imageAlt":"Photo of a face focused on the eye faded into dark background. Photo by: Geralt - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2294,8 +2294,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math004.png",
+                    "imageAlt":"Pen, ruler, and calculator resting on graph paper. Photo by: Robert-Owen-Wahl - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2317,8 +2317,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math017.png",
+                    "imageAlt":"Dice laying on a table in order from 1 to 6. Photo by: Mar_D - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2340,8 +2340,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math021.png",
+                    "imageAlt":"System of Equations. Photo by: Antoine Dautry - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2363,8 +2363,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math022.png",
+                    "imageAlt":"Calculator laying on math work-book. Photo by: Free-Photos - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2386,8 +2386,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math026.png",
+                    "imageAlt":"A staircase in triangular patterns. Photo by:  Viswanath V Pai - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2409,8 +2409,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math034.png",
+                    "imageAlt":"New York Times paper with investment quotes. Photo by: Markus Spiske - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2432,8 +2432,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math036.png",
+                    "imageAlt":"Light bulbs hanging from the ceiling. Photo by: Sara Kurfeß - Unsplash.com",
                     "program": "Undergraduate",
                     "credit": "3"
                 },
@@ -2455,8 +2455,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math110.png",
+                    "imageAlt":"Math study book. Photo by: Joshua_seajw92 - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2478,8 +2478,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math141.png",
+                    "imageAlt":"View looking down a spiral staircase. Photo by: Maxime Lebrun - Unsplash.com ",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2501,8 +2501,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math220.png",
+                    "imageAlt":"Equations written on a chalkboard. Photo by: Athree23 - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2524,8 +2524,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math250.png",
+                    "imageAlt":"Equations written on a white board. Photo by: Lucas Rosas - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2547,8 +2547,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/math436.png",
+                    "imageAlt":"Looking up at a glass building. Photo by: Joel Filipe - Unsplash.com",
                     "program": "Graduate",
                     "credits": "3"
                 },
@@ -2570,8 +2570,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/micrb106.png",
+                    "imageAlt":"Person holding a petri dish. Photo by: Drew Hays - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
@@ -2593,8 +2593,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/default_course_bg.png",
-                    "imageAlt":"",
+                    "image": "files\/course-banners\/micrb107.png",
+                    "imageAlt":"Refilling liquid in test tubes. Photo by: Louis Reed - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3"
                 },
