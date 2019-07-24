@@ -995,6 +995,7 @@
                     "subject": "Chemistry",
                     "program": "Undergraduate",
                     "credits": "3",
+                    "prereqs": ["Math 22", "Math 33", "Math 44", "Math 56", "Math 100"],
                     "video": "https://www.youtube.com/embed/I-hGBG7zJX4"
                 },
                 "created": 1541517755,
