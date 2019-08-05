@@ -5,11 +5,11 @@
     "description": "",
     "license": "by-sa",
     "metadata": {
-        "siteName": "odl",
+        "siteName": "haxcms-odl",
         "image": "assets\/banner.jpg",
         "theme": {
             "element": "odl-haxtheme",
-            "path": "@eberlywc/odl-haxtheme/odl-haxtheme.js",
+            "path": "@lrnwebcomponents\/haxcms-elements\/lib\/core\/themes\/haxcms-basic-theme.js",
             "name": "Eberly ODL"
         },
         "icon": "icons:add-circle-outline",
@@ -191,7 +191,7 @@
             "description": "Recently, our office was approached by Louis Leblond to create a custom instructional element for his online course.  Louis is an Associate Teaching Professor and Director",
             "metadata": {
                 "fields": {
-                    "image": "files\/blog-images\/6-29-18.jpeg",
+                    "image": "files\/blog-images\/6-29-18.jpg",
                     "imageAlt": "Code window open on a lap top.",
                     "authorId": "chuck"
                 },
