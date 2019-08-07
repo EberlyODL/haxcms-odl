@@ -11,191 +11,200 @@ import '../../build/es6/node_modules/@polymer/polymer/lib/elements/dom-repeat.js
 import { LitElement, css, html as html$1 } from '../../build/es6/node_modules/lit-element/lit-element.js';
 import '../../build/es6/node_modules/@polymer/iron-icon/iron-icon.js';
 import '../../build/es6/node_modules/@polymer/iron-iconset-svg/iron-iconset-svg.js';
+import '../../build/es6/node_modules/@polymer/iron-list/iron-list.js';
 import '../../build/es6/node_modules/@polymer/polymer/lib/elements/dom-if.js';
 
 class HomePageBanner extends PolymerElement {
   static get template() {
     return html`
-    <style>
-      :host {
-        display: block;
-      }
+      <style>
+        :host {
+          display: block;
+        }
 
-      .image_wrap {
-        background-repeat: var(
-          --haxtheme-homepage-banner-image-wrap-background-repeat,
-          no-repeat
-        );
-        background-size: var(
-          --haxtheme-homepage-banner-image-wrap-background-size,
-          cover
-        );
-        background-position: var(
-          --haxtheme-homepage-banner-image-wrap-background-position,
-          right center
-        );
-        width: var(--haxtheme-homepage-banner-image-wrap-width, 100%);
-        min-height: var(--haxtheme-homepage-banner-image-wrap-min-height, 32vw);
-        display: var(--haxtheme-homepage-banner-image-wrap-display, flex);
-        justify-content: var(
-          --haxtheme-homepage-banner-image-wrap-justify-content,
-          flex-end
-        );
-        align-items: var(
-          --haxtheme-homepage-banner-image-wrap-align-items,
-          center
-        );
-        flex: var(--haxtheme-homepage-banner-image-wrap-flex, 1 1 auto);
-        margin: var(--haxtheme-homepage-banner-image-wrap-margin, 0);
-        padding: var(--haxtheme-homepage-banner-image-wrap-padding, 0);
-        @apply --haxtheme-homepage-banner-image-wrap;
-      }
-
-      @media screen and (max-width: 700px) {
         .image_wrap {
-          height: var(
-            --haxtheme-homepage-banner-image-wrap-height-mobile,
-            55vw
+          background-repeat: var(
+            --haxtheme-homepage-banner-image-wrap-background-repeat,
+            no-repeat
           );
-          @apply --haxtheme-homepage-banner-image-wrap-mobile;
+          background-size: var(
+            --haxtheme-homepage-banner-image-wrap-background-size,
+            cover
+          );
+          background-position: var(
+            --haxtheme-homepage-banner-image-wrap-background-position,
+            right center
+          );
+          width: var(--haxtheme-homepage-banner-image-wrap-width, 100%);
+          min-height: var(
+            --haxtheme-homepage-banner-image-wrap-min-height,
+            32vw
+          );
+          display: var(--haxtheme-homepage-banner-image-wrap-display, flex);
+          justify-content: var(
+            --haxtheme-homepage-banner-image-wrap-justify-content,
+            flex-end
+          );
+          align-items: var(
+            --haxtheme-homepage-banner-image-wrap-align-items,
+            center
+          );
+          flex: var(--haxtheme-homepage-banner-image-wrap-flex, 1 1 auto);
+          margin: var(--haxtheme-homepage-banner-image-wrap-margin, 0);
+          padding: var(--haxtheme-homepage-banner-image-wrap-padding, 0);
+          @apply --haxtheme-homepage-banner-image-wrap;
         }
-      }
 
-      .image_text {
-        background: var(
-          --haxtheme-homepage-banner-image-text-background,
-          rgba(0, 0, 0, 0.5)
-        );
-        width: var(
-          --haxtheme-homepage-banner-image-text-width,
-          calc(150px + (355 - 28) * ((100vw - 300px) / (1600 - 300)))
-        );
-        margin: var(--haxtheme-homepage-banner-image-text-margin, 0 5vw);
-        padding: var(--haxtheme-homepage-banner-image-text-padding, 2vw);
-        @apply --haxtheme-homepage-banner-image-text;
-      }
+        @media screen and (max-width: 700px) {
+          .image_wrap {
+            height: var(
+              --haxtheme-homepage-banner-image-wrap-height-mobile,
+              55vw
+            );
+            @apply --haxtheme-homepage-banner-image-wrap-mobile;
+          }
+        }
 
-      .image_text h1 {
-        font-size: var(
-          --haxtheme-homepage-banner-image-text-h1-font-size,
-          calc(23px + (72 - 28) * ((100vw - 300px) / (1600 - 300)))
-        );
-        color: var(--haxtheme-homepage-banner-image-text-h1-color);
-        font-weight: var(--haxtheme-homepage-banner-image-text-h1-font-weight);
-        line-height: var(
-          --haxtheme-homepage-banner-image-text-h1-line-height,
-          1.1
-        );
-        margin: var(--haxtheme-homepage-banner-image-text-h1-margin, 0);
-        padding: var(--haxtheme-homepage-banner-image-text-h1-padding, 0);
-        width: var(--haxtheme-homepage-banner-image-text-h1-width, 100%);
-        @apply --haxtheme-homepage-banner-image-text-h1;
-      }
+        .image_text {
+          background: var(
+            --haxtheme-homepage-banner-image-text-background,
+            rgba(0, 0, 0, 0.5)
+          );
+          width: var(
+            --haxtheme-homepage-banner-image-text-width,
+            calc(150px + (355 - 28) * ((100vw - 300px) / (1600 - 300)))
+          );
+          margin: var(--haxtheme-homepage-banner-image-text-margin, 0 5vw);
+          padding: var(--haxtheme-homepage-banner-image-text-padding, 2vw);
+          @apply --haxtheme-homepage-banner-image-text;
+        }
 
-      .branding_wrap {
-        display: var(--haxtheme-homepage-banner-branding-wrap-display, flex);
-        align-items: var(
-          --haxtheme-homepage-banner-branding-wrap-align-items,
-          center
-        );
-        background-color: var(
-          --haxtheme-homepage-banner-branding-wrap-background-color
-        );
-        border-top: var(
-          --haxtheme-homepage-banner-branding-wrap-border-top,
-          solid
-        );
-        border-top-width: var(
-          --haxtheme-homepage-banner-branding-wrap-border-top-width,
-          4px
-        );
-        border-top-color: var(
-          --haxtheme-homepage-banner-branding-wrap-border-top-color
-        );
-        @apply --haxtheme-homepage-banner-branding-wrap;
-      }
+        .image_text h1 {
+          font-size: var(
+            --haxtheme-homepage-banner-image-text-h1-font-size,
+            calc(23px + (72 - 28) * ((100vw - 300px) / (1600 - 300)))
+          );
+          color: var(--haxtheme-homepage-banner-image-text-h1-color);
+          font-weight: var(
+            --haxtheme-homepage-banner-image-text-h1-font-weight
+          );
+          line-height: var(
+            --haxtheme-homepage-banner-image-text-h1-line-height,
+            1.1
+          );
+          margin: var(--haxtheme-homepage-banner-image-text-h1-margin, 0);
+          padding: var(--haxtheme-homepage-banner-image-text-h1-padding, 0);
+          width: var(--haxtheme-homepage-banner-image-text-h1-width, 100%);
+          @apply --haxtheme-homepage-banner-image-text-h1;
+        }
 
-      @media screen and (max-width: 700px) {
         .branding_wrap {
-          display: var(
-            --haxtheme-homepage-banner-branding-wrap-display-mobile,
-            none
+          display: var(--haxtheme-homepage-banner-branding-wrap-display, flex);
+          align-items: var(
+            --haxtheme-homepage-banner-branding-wrap-align-items,
+            center
           );
-          @apply --haxtheme-homepage-banner-branding-wrap-mobile;
+          background-color: var(
+            --haxtheme-homepage-banner-branding-wrap-background-color
+          );
+          border-top: var(
+            --haxtheme-homepage-banner-branding-wrap-border-top,
+            solid
+          );
+          border-top-width: var(
+            --haxtheme-homepage-banner-branding-wrap-border-top-width,
+            4px
+          );
+          border-top-color: var(
+            --haxtheme-homepage-banner-branding-wrap-border-top-color
+          );
+          @apply --haxtheme-homepage-banner-branding-wrap;
         }
-      }
 
-      .logo {
-        position: var(--haxtheme-homepage-banner-logo-position, absolute);
-        width: var(--haxtheme-homepage-banner-logo-width, 40%);
-        @apply --haxtheme-homepage-banner-logo;
-      }
+        @media screen and (max-width: 700px) {
+          .branding_wrap {
+            display: var(
+              --haxtheme-homepage-banner-branding-wrap-display-mobile,
+              none
+            );
+            @apply --haxtheme-homepage-banner-branding-wrap-mobile;
+          }
+        }
 
-      .logo img {
-        width: var(--haxtheme-homepage-banner-logo-image-width, 48%);
-        border: var(--haxtheme-homepage-banner-logo-image-border, solid);
-        border-width: var(
-          --haxtheme-homepage-banner-logo-image-border-width,
-          4px
-        );
-        border-color: var(--haxtheme-homepage-banner-logo-image-border-color);
-        border-radius: var(
-          --haxtheme-homepage-banner-logo-image-border-radius,
-          50%
-        );
-        background-color: var(
-          --haxtheme-homepage-banner-logo-image-background-color
-        );
-        margin: var(
-          --haxtheme-homepage-banner-logo-image-margin,
-          -52px 0 0 25px
-        );
-        @apply --haxtheme-homepage-banner-logo-image;
-      }
+        .logo {
+          position: var(--haxtheme-homepage-banner-logo-position, absolute);
+          width: var(--haxtheme-homepage-banner-logo-width, 40%);
+          @apply --haxtheme-homepage-banner-logo;
+        }
 
-      .company_name {
-        width: var(--haxtheme-homepage-banner-company-name-width, 76%);
-        margin: var(--haxtheme-homepage-banner-company-name-margin, 0 0 0 auto);
-        @apply --haxtheme-homepage-banner-company-name;
-      }
+        .logo img {
+          width: var(--haxtheme-homepage-banner-logo-image-width, 48%);
+          border: var(--haxtheme-homepage-banner-logo-image-border, solid);
+          border-width: var(
+            --haxtheme-homepage-banner-logo-image-border-width,
+            4px
+          );
+          border-color: var(--haxtheme-homepage-banner-logo-image-border-color);
+          border-radius: var(
+            --haxtheme-homepage-banner-logo-image-border-radius,
+            50%
+          );
+          background-color: var(
+            --haxtheme-homepage-banner-logo-image-background-color
+          );
+          margin: var(
+            --haxtheme-homepage-banner-logo-image-margin,
+            -52px 0 0 25px
+          );
+          @apply --haxtheme-homepage-banner-logo-image;
+        }
 
-      .company_name h2 {
-        font-size: var(
-          --haxtheme-homepage-banner-company-name-h2-font-size,
-          calc(18px + (72 - 28) * ((100vw - 300px) / (1600 - 300)))
-        );
-        font-weight: var(
-          --haxtheme-homepage-banner-company-name-h2-font-weight,
-          400
-        );
-        color: var(--haxtheme-homepage-banner-company-name-h2-color);
-        margin: var(
-          --haxtheme-homepage-banner-company-name-h2-margin,
-          5px 0 5px 0
-        );
-        @apply --haxtheme-homepage-banner-company-name-h2;
-      }
-    </style>
-    <div id="banner_wrap">
-      <div class="image_wrap" style$="background-image:url([[image]])">
-        <div class="image"></div>
-        <div class="image_text">
-          <h1>[[text]]</h1>
+        .company_name {
+          width: var(--haxtheme-homepage-banner-company-name-width, 76%);
+          margin: var(
+            --haxtheme-homepage-banner-company-name-margin,
+            0 0 0 auto
+          );
+          @apply --haxtheme-homepage-banner-company-name;
+        }
+
+        .company_name h2 {
+          font-size: var(
+            --haxtheme-homepage-banner-company-name-h2-font-size,
+            calc(18px + (72 - 28) * ((100vw - 300px) / (1600 - 300)))
+          );
+          font-weight: var(
+            --haxtheme-homepage-banner-company-name-h2-font-weight,
+            400
+          );
+          color: var(--haxtheme-homepage-banner-company-name-h2-color);
+          margin: var(
+            --haxtheme-homepage-banner-company-name-h2-margin,
+            5px 0 5px 0
+          );
+          @apply --haxtheme-homepage-banner-company-name-h2;
+        }
+      </style>
+      <div id="banner_wrap">
+        <div class="image_wrap" style$="background-image:url([[image]])">
+          <div class="image"></div>
+          <div class="image_text">
+            <h1>[[text]]</h1>
+          </div>
+        </div>
+        <div class="branding_wrap">
+          <div class="logo">
+            <img
+              src="files/theme-images/logos/odl-logo.png"
+              alt="Office of Digital Learning"
+            />
+          </div>
+          <div class="company_name">
+            <h2>Office of Digital Learning</h2>
+          </div>
         </div>
       </div>
-      <div class="branding_wrap">
-        <div class="logo">
-          <img
-            src="files/theme-images/logos/odl-logo.png"
-            alt="Office of Digital Learning"
-          />
-        </div>
-        <div class="company_name">
-          <h2>Office of Digital Learning</h2>
-        </div>
-      </div>
-    </div>
-  `;
+    `;
   }
   static get tag() {
     return "homepage-banner";
@@ -206,19 +215,19 @@ class HomePageBanner extends PolymerElement {
        * Image source
        */
       image: {
-        type: String,
+        type: String
       },
       /**
        * Alt text for image
        */
       alt: {
-        type: String,
+        type: String
       },
       /**
        * Text over image
        */
       text: {
-        type: String,
+        type: String
       }
     };
   }
@@ -228,96 +237,96 @@ window.customElements.define(HomePageBanner.tag, HomePageBanner);
 class InfoBox extends PolymerElement {
   static get template() {
     return html`
-    <style>
-      :host {
-        display: block;
-      }
-      a {
-        text-decoration: var(--haxtheme-info-box-a-text-decoration);
-        @apply --haxtheme-info-box-a;
-      }
-      h1 {
-        font-size: var(--haxtheme-info-box-h1-font-size);
-        font-weight: var(--haxtheme-info-box-h1-font-weight);
-        margin: var(--haxtheme-info-box-h1-margin, -11px 0 0 0);
-        @apply --haxtheme-info-box-h1;
-      }
-      #box_wrap {
-        display: var(--haxtheme-info-box-box-wrap-display, flex);
-        flex-direction: var(
-          --haxtheme-info-box-box-wrap-flex-direction,
-          column
-        );
-        align-items: var(--haxtheme-info-box-box-wrap-align-items, center);
-        @apply --haxtheme-info-box-box-wrap;
-      }
-
-      #inner_wrap {
-        border-left: var(--haxtheme-info-box-inner-wrap-border-left);
-        border-left-width: var(
-          --haxtheme-info-box-inner-wrap-border-left-width
-        );
-        border-left-color: var(
-          --haxtheme-info-box-inner-wrap-border-left-color
-        );
-        padding: var(--haxtheme-info-box-inner-wrap-padding, 0 0 0 15px);
-        width: var(--haxtheme-info-box-inner-wrap-width, 85%);
-        @apply --haxtheme-info-box-inner-wrap;
-      }
-
-      .action_text {
-        font-size: var(--haxtheme-info-box-action-text-font-size, 22px);
-        font-weight: var(--haxtheme-info-box-action-text-font-weight);
-        line-height: var(--haxtheme-info-box-action-text-line-height);
-        @apply --haxtheme-info-box-action-text;
-      }
-
-      @media screen and (max-width: 700px) {
-        .action_text {
-          font-size: var(
-            --haxtheme-info-box-action-text-font-size-mobile,
-            18px
-          );
-          width: var(--haxtheme-info-box-action-text-width-mobile, 90%);
-          @apply --haxtheme-info-box-action-text-mobile;
+      <style>
+        :host {
+          display: block;
         }
-      }
+        a {
+          text-decoration: var(--haxtheme-info-box-a-text-decoration);
+          @apply --haxtheme-info-box-a;
+        }
+        h1 {
+          font-size: var(--haxtheme-info-box-h1-font-size);
+          font-weight: var(--haxtheme-info-box-h1-font-weight);
+          margin: var(--haxtheme-info-box-h1-margin, -11px 0 0 0);
+          @apply --haxtheme-info-box-h1;
+        }
+        #box_wrap {
+          display: var(--haxtheme-info-box-box-wrap-display, flex);
+          flex-direction: var(
+            --haxtheme-info-box-box-wrap-flex-direction,
+            column
+          );
+          align-items: var(--haxtheme-info-box-box-wrap-align-items, center);
+          @apply --haxtheme-info-box-box-wrap;
+        }
 
-      .action_button {
-        margin: var(--haxtheme-info-box-action-button-margin, 12px 0 0 0);
-        @apply --haxtheme-info-box-action-button;
-      }
+        #inner_wrap {
+          border-left: var(--haxtheme-info-box-inner-wrap-border-left);
+          border-left-width: var(
+            --haxtheme-info-box-inner-wrap-border-left-width
+          );
+          border-left-color: var(
+            --haxtheme-info-box-inner-wrap-border-left-color
+          );
+          padding: var(--haxtheme-info-box-inner-wrap-padding, 0 0 0 15px);
+          width: var(--haxtheme-info-box-inner-wrap-width, 85%);
+          @apply --haxtheme-info-box-inner-wrap;
+        }
 
-      paper-button#learn {
-        color: var(--haxtheme-info-box-paper-button-color);
-        @apply --haxtheme-info-box-paper-button;
-      }
+        .action_text {
+          font-size: var(--haxtheme-info-box-action-text-font-size, 22px);
+          font-weight: var(--haxtheme-info-box-action-text-font-weight);
+          line-height: var(--haxtheme-info-box-action-text-line-height);
+          @apply --haxtheme-info-box-action-text;
+        }
 
-      paper-button#learn:hover,
-      paper-button#learn:focus {
-        color: var(--haxtheme-info-box-paper-button-color-active);
-        @apply --haxtheme-info-box-paper-button-active;
-      }
-    </style>
-    <div id="box_wrap">
-      <div id="inner_wrap">
-        <div class="action_title">
-          <h1>[[title]]</h1>
+        @media screen and (max-width: 700px) {
+          .action_text {
+            font-size: var(
+              --haxtheme-info-box-action-text-font-size-mobile,
+              18px
+            );
+            width: var(--haxtheme-info-box-action-text-width-mobile, 90%);
+            @apply --haxtheme-info-box-action-text-mobile;
+          }
+        }
+
+        .action_button {
+          margin: var(--haxtheme-info-box-action-button-margin, 12px 0 0 0);
+          @apply --haxtheme-info-box-action-button;
+        }
+
+        paper-button#learn {
+          color: var(--haxtheme-info-box-paper-button-color);
+          @apply --haxtheme-info-box-paper-button;
+        }
+
+        paper-button#learn:hover,
+        paper-button#learn:focus {
+          color: var(--haxtheme-info-box-paper-button-color-active);
+          @apply --haxtheme-info-box-paper-button-active;
+        }
+      </style>
+      <div id="box_wrap">
+        <div id="inner_wrap">
+          <div class="action_title">
+            <h1>[[title]]</h1>
+          </div>
+          <div class="action_text">
+            <slot name="action_text"></slot>
+          </div>
         </div>
-        <div class="action_text">
-          <slot name="action_text"></slot>
+        <div class="action_button">
+          <a href\$="[[url]]">
+            <paper-button noink id="learn">
+              <div class="title">Learn More</div>
+              <iron-icon icon="chevron-right"></iron-icon>
+            </paper-button>
+          </a>
         </div>
       </div>
-      <div class="action_button">
-        <a href\$="[[url]]">
-          <paper-button noink id="learn">
-            <div class="title">Learn More</div>
-            <iron-icon icon="chevron-right"></iron-icon>
-          </paper-button>
-        </a>
-      </div>
-    </div>
-  `;
+    `;
   }
   static get tag() {
     return "info-box";
@@ -328,20 +337,20 @@ class InfoBox extends PolymerElement {
        * Title
        */
       title: {
-        type: String,
+        type: String
       },
       /**
        * Url
        */
       url: {
-        type: String,
+        type: String
       }
     };
   }
   constructor() {
     super();
-    import("../../build/es6/node_modules/@polymer/iron-icons/iron-icons.js");
-    import("../../build/es6/node_modules/@polymer/paper-button/paper-button.js");
+    import('../../build/es6/node_modules/@polymer/iron-icons/iron-icons.js');
+    import('../../build/es6/node_modules/@polymer/paper-button/paper-button.js');
   }
 }
 window.customElements.define(InfoBox.tag, InfoBox);
@@ -586,9 +595,9 @@ class NewsFeed extends PolymerElement {
   }
   constructor() {
     super();
-    import("../../build/es6/node_modules/@polymer/iron-image/iron-image.js");
-    import("../../build/es6/node_modules/@polymer/paper-button/paper-button.js");
-    import("../../build/es6/node_modules/@polymer/iron-icons/iron-icons.js");
+    import('../../build/es6/node_modules/@polymer/iron-image/iron-image.js');
+    import('../../build/es6/node_modules/@polymer/paper-button/paper-button.js');
+    import('../../build/es6/node_modules/@polymer/iron-icons/iron-icons.js');
   }
   static get tag() {
     return "news-feed";
@@ -602,116 +611,118 @@ window.customElements.define(NewsFeed.tag, NewsFeed);
 
 class VideosFeed extends LitElement {
   static get styles() {
-    return [css`
-      :host {
-        display: block;
-        --theme-color-1: #363533;
-        --theme-color-2: #e2801e;
-        --theme-color-4: #fff;
-      }
-
-      h2 {
-        margin: 0;
-      }
-
-      .feed_header {
-        display: flex;
-        justify-content: center;
-        margin-top: -50px;
-      }
-
-      @media screen and (max-width: 768px) {
-        .feed_header {
-          margin-top: 0;
+    return [
+      css`
+        :host {
+          display: block;
+          --theme-color-1: #363533;
+          --theme-color-2: #e2801e;
+          --theme-color-4: #fff;
         }
-      }
 
-      .feed_header h2 {
-        margin: 0 0 20px 0;
-        font-weight: 400;
-        font-size: 34px;
-        background-color: var(--theme-color-2);
-        color: #fff;
-        padding: 15px;
-      }
+        h2 {
+          margin: 0;
+        }
 
-      @media screen and (max-width: 768px) {
-        .feed_header h2 {
+        .feed_header {
           display: flex;
           justify-content: center;
-          width: 100%;
-          font-size: 28px;
-          margin: 0 0 15px 0;
+          margin-top: -50px;
         }
-      }
 
-      #video_feed {
-        display: flex;
-        flex-wrap: wrap;
-      }
+        @media screen and (max-width: 768px) {
+          .feed_header {
+            margin-top: 0;
+          }
+        }
 
-      @media screen and (min-width: 768px) {
+        .feed_header h2 {
+          margin: 0 0 20px 0;
+          font-weight: 400;
+          font-size: 34px;
+          background-color: var(--theme-color-2);
+          color: #fff;
+          padding: 15px;
+        }
+
+        @media screen and (max-width: 768px) {
+          .feed_header h2 {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            font-size: 28px;
+            margin: 0 0 15px 0;
+          }
+        }
+
         #video_feed {
-          flex-wrap: nowrap;
+          display: flex;
+          flex-wrap: wrap;
         }
-      }
 
-      #video_feed_wrap {
-        margin: 20px;
-      }
+        @media screen and (min-width: 768px) {
+          #video_feed {
+            flex-wrap: nowrap;
+          }
+        }
 
-      #card_wrap {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        border-right: solid 2px #dcdcdc;
-        padding: 0 40px;
-      }
+        #video_feed_wrap {
+          margin: 20px;
+        }
 
-      #card_wrap:last-of-type {
-        border-right: none;
-      }
-
-      @media screen and (max-width: 768px) {
         #card_wrap {
-          padding: 0 0 15px 0;
-          border-right: none;
-          border-bottom: solid 2px #dcdcdc;
-          margin-bottom: 25px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          border-right: solid 2px #dcdcdc;
+          padding: 0 40px;
         }
-      }
-    `];
+
+        #card_wrap:last-of-type {
+          border-right: none;
+        }
+
+        @media screen and (max-width: 768px) {
+          #card_wrap {
+            padding: 0 0 15px 0;
+            border-right: none;
+            border-bottom: solid 2px #dcdcdc;
+            margin-bottom: 25px;
+          }
+        }
+      `
+    ];
   }
   render() {
     return html$1`
-    <div id="video_feed_wrap">
-      <div class="feed_header">
-        <h2>Videos</h2>
-      </div>
-      <div id="video_feed">
-        <div id="card_wrap">
-          <iframe
-            width="100%"
-            height="315"
-            src="https://www.youtube.com/embed/5n7WCeHXc4A"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+      <div id="video_feed_wrap">
+        <div class="feed_header">
+          <h2>Videos</h2>
         </div>
-        <div id="card_wrap">
-          <iframe
-            width="100%"
-            height="315"
-            src="https://www.youtube.com/embed/GVTB-jnWDRk"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+        <div id="video_feed">
+          <div id="card_wrap">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/5n7WCeHXc4A"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div id="card_wrap">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/GVTB-jnWDRk"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
-    </div>
-  `;
+    `;
   }
   static get tag() {
     return "videos-feed";
@@ -721,41 +732,43 @@ window.customElements.define(VideosFeed.tag, VideosFeed);
 
 class TestimonialsFeed extends LitElement {
   static get styles() {
-    return [css`
-      :host {
-        display: block;
-        --theme-color-1: #363533;
-        --theme-color-2: #e2801e;
-        --theme-color-3: #f5f5f5;
-        --theme-color-4: #fff;
-      }
-      h2 {
-        margin: 0;
-        color: var(--theme-color-4);
-        font-size: 40px;
-        font-weight: normal;
-      }
-      #highlights_feed_wrap {
-        margin: 20px;
-      }
-      .feed_header {
-        background-color: var(--theme-color-2);
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-        padding: 5px;
-      }
-    `];
+    return [
+      css`
+        :host {
+          display: block;
+          --theme-color-1: #363533;
+          --theme-color-2: #e2801e;
+          --theme-color-3: #f5f5f5;
+          --theme-color-4: #fff;
+        }
+        h2 {
+          margin: 0;
+          color: var(--theme-color-4);
+          font-size: 40px;
+          font-weight: normal;
+        }
+        #highlights_feed_wrap {
+          margin: 20px;
+        }
+        .feed_header {
+          background-color: var(--theme-color-2);
+          display: flex;
+          justify-content: center;
+          margin-bottom: 20px;
+          padding: 5px;
+        }
+      `
+    ];
   }
   render() {
     return html$1`
-    <div id="highlights_feed_wrap">
-      <div class="feed_header">
-        <h2>Testimonials</h2>
+      <div id="highlights_feed_wrap">
+        <div class="feed_header">
+          <h2>Testimonials</h2>
+        </div>
+        <slot></slot>
       </div>
-      <slot></slot>
-    </div>
-  `;
+    `;
   }
   static get tag() {
     return "testimonials-feed";
@@ -766,315 +779,326 @@ window.customElements.define(TestimonialsFeed.tag, TestimonialsFeed);
 class PageFeature extends PolymerElement {
   static get template() {
     return html`
-    <style>
-      :host {
-        display: block;
-      }
+      <style>
+        :host {
+          display: block;
+        }
 
-      a {
-        text-decoration: var(--haxtheme-page-feature-a-text-decoration);
-        @apply --haxtheme-page-feature-a;
-      }
+        a {
+          text-decoration: var(--haxtheme-page-feature-a-text-decoration);
+          @apply --haxtheme-page-feature-a;
+        }
 
-      h1 {
-        font-size: var(--haxtheme-page-feature-h1-font-size);
-        margin: var(--haxtheme-page-feature-h1-margin, 0);
-        line-height: var(--haxtheme-page-feature-h1-line-height, 1);
-        font-weight: var(--haxtheme-page-feature-h1-font-weight);
-        @apply --haxtheme-page-feature-h1;
-      }
-
-      @media screen and (max-width: 768px) {
         h1 {
-          font-size: var(--haxtheme-page-feature-h1-font-size-mobile, 28px);
-          @apply --haxtheme-page-feature-h1-mobile;
+          font-size: var(--haxtheme-page-feature-h1-font-size);
+          margin: var(--haxtheme-page-feature-h1-margin, 0);
+          line-height: var(--haxtheme-page-feature-h1-line-height, 1);
+          font-weight: var(--haxtheme-page-feature-h1-font-weight);
+          @apply --haxtheme-page-feature-h1;
         }
-      }
 
-      h2 {
-        font-size: var(--haxtheme-page-feature-h2-font-size, 32px);
-        margin: var(--haxtheme-page-feature-h2-margin, 0);
-        font-weight: var(--haxtheme-page-feature-h2-font-weight);
-        @apply --haxtheme-page-feature-h2;
-      }
+        @media screen and (max-width: 768px) {
+          h1 {
+            font-size: var(--haxtheme-page-feature-h1-font-size-mobile, 28px);
+            @apply --haxtheme-page-feature-h1-mobile;
+          }
+        }
 
-      @media screen and (max-width: 768px) {
         h2 {
-          font-size: var(--haxtheme-page-feature-h2-font-size-mobile, 24px);
-          @apply --haxtheme-page-feature-h2-mobile;
+          font-size: var(--haxtheme-page-feature-h2-font-size, 32px);
+          margin: var(--haxtheme-page-feature-h2-margin, 0);
+          font-weight: var(--haxtheme-page-feature-h2-font-weight);
+          @apply --haxtheme-page-feature-h2;
         }
-      }
 
-      #feature_wrap {
-        background-color: var(--haxtheme-page-feature-wrap-background-color);
-        padding: var(--haxtheme-page-feature-wrap-padding, 40px 0 55px 0);
-        @apply --haxtheme-page-feature-feature-wrap;
-      }
+        @media screen and (max-width: 768px) {
+          h2 {
+            font-size: var(--haxtheme-page-feature-h2-font-size-mobile, 24px);
+            @apply --haxtheme-page-feature-h2-mobile;
+          }
+        }
 
-      @media screen and (max-width: 1012px) {
         #feature_wrap {
-          flex-direction: var(
-            --haxtheme-page-feature-feature-wrap-flex-direction-mobile,
-            column
-          );
-          height: var(--haxtheme-page-feature-feature-wrap-height-mobile, auto);
-          padding: var(--haxtheme-page-feature-feature-wrap-padding-mobile, 0);
-          background-color: var(
-            --haxtheme-page-feature-feature-wrap-background-color-mobile,
-            transparent
-          );
-          @apply --haxtheme-page-feature-feature-wrap-mobile;
+          background-color: var(--haxtheme-page-feature-wrap-background-color);
+          padding: var(--haxtheme-page-feature-wrap-padding, 40px 0 55px 0);
+          @apply --haxtheme-page-feature-feature-wrap;
         }
-      }
 
-      #border {
-        display: var(--haxtheme-page-feature-border-display, flex);
-        justify-content: var(
-          --haxtheme-page-feature-border-justify-content,
-          center
-        );
-        align-items: var(--haxtheme-page-feature-border-align-items, center);
-        padding: var(--haxtheme-page-feature-border-padding, 40px 0 0 0);
-        width: var(--haxtheme-page-feature-border-width, 94%);
-        border-top: var(--haxtheme-page-feature-border-border-top, dashed);
-        border-top-width: var(
-          --haxtheme-page-feature-border-border-top-width,
-          4px
-        );
-        border-top-color: var(--haxtheme-page-feature-border-border-top-color);
-        margin: var(--haxtheme-page-feature-border-margin, 0 auto 0 auto);
-        @apply --haxtheme-page-feature-border;
-      }
+        @media screen and (max-width: 1012px) {
+          #feature_wrap {
+            flex-direction: var(
+              --haxtheme-page-feature-feature-wrap-flex-direction-mobile,
+              column
+            );
+            height: var(
+              --haxtheme-page-feature-feature-wrap-height-mobile,
+              auto
+            );
+            padding: var(
+              --haxtheme-page-feature-feature-wrap-padding-mobile,
+              0
+            );
+            background-color: var(
+              --haxtheme-page-feature-feature-wrap-background-color-mobile,
+              transparent
+            );
+            @apply --haxtheme-page-feature-feature-wrap-mobile;
+          }
+        }
 
-      @media screen and (max-width: 1012px) {
         #border {
-          flex-direction: var(
-            --haxtheme-page-feature-border-flex-direction-mobile,
-            column
+          display: var(--haxtheme-page-feature-border-display, flex);
+          justify-content: var(
+            --haxtheme-page-feature-border-justify-content,
+            center
           );
-          height: var(--haxtheme-page-feature-border-height-mobile, auto);
-          border: var(--haxtheme-page-feature-border-border-mobile, none);
-          padding: var(
-            --haxtheme-page-feature-border-padding-mobile,
-            5px 0 0 0
+          align-items: var(--haxtheme-page-feature-border-align-items, center);
+          padding: var(--haxtheme-page-feature-border-padding, 40px 0 0 0);
+          width: var(--haxtheme-page-feature-border-width, 94%);
+          border-top: var(--haxtheme-page-feature-border-border-top, dashed);
+          border-top-width: var(
+            --haxtheme-page-feature-border-border-top-width,
+            4px
           );
-          width: var(--haxtheme-page-feature-border-width, 100%);
-          @apply --haxtheme-page-feature-border-mobile;
+          border-top-color: var(
+            --haxtheme-page-feature-border-border-top-color
+          );
+          margin: var(--haxtheme-page-feature-border-margin, 0 auto 0 auto);
+          @apply --haxtheme-page-feature-border;
         }
-      }
 
-      #feature_image {
-        background-repeat: var(
-          --haxtheme-page-feature-feature-image-background-repeat,
-          no-repeat
-        );
-        background-size: var(
-          --haxtheme-page-feature-feature-image-background-size,
-          cover
-        );
-        background-position: var(
-          --haxtheme-page-feature-feature-image-background-position,
-          center
-        );
-        width: var(--haxtheme-page-feature-feature-image-width, 50%);
-        height: var(--haxtheme-page-feature-feature-image-height, 400px);
-        @apply --haxtheme-page-feature-feature-image;
-      }
+        @media screen and (max-width: 1012px) {
+          #border {
+            flex-direction: var(
+              --haxtheme-page-feature-border-flex-direction-mobile,
+              column
+            );
+            height: var(--haxtheme-page-feature-border-height-mobile, auto);
+            border: var(--haxtheme-page-feature-border-border-mobile, none);
+            padding: var(
+              --haxtheme-page-feature-border-padding-mobile,
+              5px 0 0 0
+            );
+            width: var(--haxtheme-page-feature-border-width, 100%);
+            @apply --haxtheme-page-feature-border-mobile;
+          }
+        }
 
-      @media screen and (max-width: 1012px) {
         #feature_image {
-          height: var(
-            --haxtheme-page-feature-feature-image-height-mobile,
-            300px
+          background-repeat: var(
+            --haxtheme-page-feature-feature-image-background-repeat,
+            no-repeat
           );
-          margin: var(
-            --haxtheme-page-feature-feature-image-margin-mobile,
-            15px 0 0 0
+          background-size: var(
+            --haxtheme-page-feature-feature-image-background-size,
+            cover
           );
-          width: var(--haxtheme-page-feature-feature-image-width-mobile, 100%);
-          @apply --haxtheme-page-feature-feature-image-mobile;
+          background-position: var(
+            --haxtheme-page-feature-feature-image-background-position,
+            center
+          );
+          width: var(--haxtheme-page-feature-feature-image-width, 50%);
+          height: var(--haxtheme-page-feature-feature-image-height, 400px);
+          @apply --haxtheme-page-feature-feature-image;
         }
-      }
 
-      #feature_description_wrap {
-        background-color: var(
-          --haxtheme-page-feature-feature-description-wrap-background-color
-        );
-        height: var(
-          --haxtheme-page-feature-feature-description-wrap-height,
-          auto
-        );
-        width: var(
-          --haxtheme-page-feature-feature-description-wrap-width,
-          780px
-        );
-        z-index: var(
-          --haxtheme-page-feature-feature-description-wrap-z-index,
-          1
-        );
-        margin: var(
-          --haxtheme-page-feature-feature-description-wrap-margin,
-          0 25px 0 -30px
-        );
-        box-shadow: var(
-          --haxtheme-page-feature-feature-description-wrap-box-shadow,
-          1px 2px 7px
-            var(
-              --haxtheme-page-feature-feature-description-wrap-box-shadow-color
-            )
-        );
-        @apply --haxtheme-page-feature-feature-description-wrap;
-      }
+        @media screen and (max-width: 1012px) {
+          #feature_image {
+            height: var(
+              --haxtheme-page-feature-feature-image-height-mobile,
+              300px
+            );
+            margin: var(
+              --haxtheme-page-feature-feature-image-margin-mobile,
+              15px 0 0 0
+            );
+            width: var(
+              --haxtheme-page-feature-feature-image-width-mobile,
+              100%
+            );
+            @apply --haxtheme-page-feature-feature-image-mobile;
+          }
+        }
 
-      @media screen and (max-width: 1124px) {
         #feature_description_wrap {
+          background-color: var(
+            --haxtheme-page-feature-feature-description-wrap-background-color
+          );
+          height: var(
+            --haxtheme-page-feature-feature-description-wrap-height,
+            auto
+          );
           width: var(
-            --haxtheme-page-feature-feature-description-wrap-width-mobile,
-            100%
+            --haxtheme-page-feature-feature-description-wrap-width,
+            780px
           );
           z-index: var(
-            --haxtheme-page-feature-feature-description-wrap-z-index-mobile,
-            0
-          );
-          box-shadow: var(
-            --haxtheme-page-feature-feature-description-wrap-box-shadow,
-            none
+            --haxtheme-page-feature-feature-description-wrap-z-index,
+            1
           );
           margin: var(
             --haxtheme-page-feature-feature-description-wrap-margin,
-            0
+            0 25px 0 -30px
           );
-          @apply --haxtheme-page-feature-feature-description-wrap-mobile;
+          box-shadow: var(
+            --haxtheme-page-feature-feature-description-wrap-box-shadow,
+            1px 2px 7px
+              var(
+                --haxtheme-page-feature-feature-description-wrap-box-shadow-color
+              )
+          );
+          @apply --haxtheme-page-feature-feature-description-wrap;
         }
-      }
 
-      #title_wrap {
-        display: var(--haxtheme-page-feature-title-wrap-display, flex);
-        flex-direction: var(
-          --haxtheme-page-feature-title-wrap-flex-direction,
-          column
-        );
-        border-left: var(--haxtheme-page-feature-title-wrap-border-left);
-        border-left-width: var(
-          --haxtheme-page-feature-title-wrap-border-left-width
-        );
-        border-left-color: var(
-          --haxtheme-page-feature-title-wrap-border-left-color
-        );
-        padding: var(--haxtheme-page-feature-title-wrap-padding, 0 0 0 15px);
-        margin: var(--haxtheme-page-feature-title-wrap-margin, 20px 0 0 20px);
-        @apply --haxtheme-page-feature-title-wrap;
-      }
+        @media screen and (max-width: 1124px) {
+          #feature_description_wrap {
+            width: var(
+              --haxtheme-page-feature-feature-description-wrap-width-mobile,
+              100%
+            );
+            z-index: var(
+              --haxtheme-page-feature-feature-description-wrap-z-index-mobile,
+              0
+            );
+            box-shadow: var(
+              --haxtheme-page-feature-feature-description-wrap-box-shadow,
+              none
+            );
+            margin: var(
+              --haxtheme-page-feature-feature-description-wrap-margin,
+              0
+            );
+            @apply --haxtheme-page-feature-feature-description-wrap-mobile;
+          }
+        }
 
-      @media screen and (max-width: 768px) {
         #title_wrap {
-          margin: var(
-            --haxtheme-page-feature-title-wrap-margin-mobile,
-            20px 0 0 0
+          display: var(--haxtheme-page-feature-title-wrap-display, flex);
+          flex-direction: var(
+            --haxtheme-page-feature-title-wrap-flex-direction,
+            column
           );
-          @apply --haxtheme-page-feature-title-wrap-mobile;
+          border-left: var(--haxtheme-page-feature-title-wrap-border-left);
+          border-left-width: var(
+            --haxtheme-page-feature-title-wrap-border-left-width
+          );
+          border-left-color: var(
+            --haxtheme-page-feature-title-wrap-border-left-color
+          );
+          padding: var(--haxtheme-page-feature-title-wrap-padding, 0 0 0 15px);
+          margin: var(--haxtheme-page-feature-title-wrap-margin, 20px 0 0 20px);
+          @apply --haxtheme-page-feature-title-wrap;
         }
-      }
 
-      #description {
-        font-size: var(--haxtheme-page-feature-description-font-size);
-        font-weight: var(--haxtheme-page-feature-description-font-weight);
-        line-height: var(--haxtheme-page-feature-description-line-height);
-        padding: var(
-          --haxtheme-page-feature-description-padding,
-          25px 25px 15px
-        );
-        @apply --haxtheme-page-feature-description;
-      }
+        @media screen and (max-width: 768px) {
+          #title_wrap {
+            margin: var(
+              --haxtheme-page-feature-title-wrap-margin-mobile,
+              20px 0 0 0
+            );
+            @apply --haxtheme-page-feature-title-wrap-mobile;
+          }
+        }
 
-      @media screen and (max-width: 768px) {
         #description {
+          font-size: var(--haxtheme-page-feature-description-font-size);
+          font-weight: var(--haxtheme-page-feature-description-font-weight);
+          line-height: var(--haxtheme-page-feature-description-line-height);
           padding: var(
-            --haxtheme-page-feature-description-padding-mobile,
-            25px 0 0 0
+            --haxtheme-page-feature-description-padding,
+            25px 25px 15px
+          );
+          @apply --haxtheme-page-feature-description;
+        }
+
+        @media screen and (max-width: 768px) {
+          #description {
+            padding: var(
+              --haxtheme-page-feature-description-padding-mobile,
+              25px 0 0 0
+            );
+            margin: var(
+              --haxtheme-page-feature-description-margin-mobile,
+              0 0 25px 0
+            );
+            @apply --haxtheme-page-feature-description-mobile;
+          }
+        }
+
+        #sub_info {
+          font-size: var(--haxtheme-page-feature-sub-info-font-size, 20px);
+          font-weight: var(--haxtheme-page-feature-sub-info-font-weight);
+          margin: var(--haxtheme-page-feature-sub-info-margin, -12px 0 0 0);
+          @apply --haxtheme-page-feature-sub-info;
+        }
+
+        #action_button {
+          display: var(--haxtheme-page-feature-action-button-display, flex);
+          justify-content: var(
+            --haxtheme-page-feature-action-button-justify-content,
+            flex-end
           );
           margin: var(
-            --haxtheme-page-feature-description-margin-mobile,
-            0 0 25px 0
+            --haxtheme-page-feature-action-button-margin,
+            0 25px 25px 0
           );
-          @apply --haxtheme-page-feature-description-mobile;
+          @apply --haxtheme-page-feature-action-button;
         }
-      }
 
-      #sub_info {
-        font-size: var(--haxtheme-page-feature-sub-info-font-size, 20px);
-        font-weight: var(--haxtheme-page-feature-sub-info-font-weight);
-        margin: var(--haxtheme-page-feature-sub-info-margin, -12px 0 0 0);
-        @apply --haxtheme-page-feature-sub-info;
-      }
-
-      #action_button {
-        display: var(--haxtheme-page-feature-action-button-display, flex);
-        justify-content: var(
-          --haxtheme-page-feature-action-button-justify-content,
-          flex-end
-        );
-        margin: var(
-          --haxtheme-page-feature-action-button-margin,
-          0 25px 25px 0
-        );
-        @apply --haxtheme-page-feature-action-button;
-      }
-
-      @media screen and (max-width: 768px) {
-        #action_button {
-          justify-content: var(
-            --haxtheme-page-feature-action-button-justify-content-mobile,
-            center
-          );
-          margin: var(--haxtheme-page-feature-action-button-margin-mobile, 0);
-          @apply --haxtheme-page-feature-action-button-mobile;
+        @media screen and (max-width: 768px) {
+          #action_button {
+            justify-content: var(
+              --haxtheme-page-feature-action-button-justify-content-mobile,
+              center
+            );
+            margin: var(--haxtheme-page-feature-action-button-margin-mobile, 0);
+            @apply --haxtheme-page-feature-action-button-mobile;
+          }
         }
-      }
 
-      paper-button#feature {
-        color: var(--haxtheme-page-feature-paper-button-feature-color);
-        @apply --haxtheme-page-feature-paper-button-feature;
-      }
+        paper-button#feature {
+          color: var(--haxtheme-page-feature-paper-button-feature-color);
+          @apply --haxtheme-page-feature-paper-button-feature;
+        }
 
-      paper-button#feature:hover,
-      paper-button#feature:focus {
-        color: var(--haxtheme-page-feature-paper-button-feature-color-active);
-        @apply --haxtheme-page-feature-paper-button-feature-active;
-      }
-    </style>
-    <div id="feature_wrap">
-      <div id="border">
-        <div
-          id="feature_image"
-          style$="background-image:url([[image]])"
-          alt="[[alt]]"
-        ></div>
-        <div id="feature_description_wrap">
-          <div id="title_wrap">
-            <div id="title">
-              <h1>[[title]]</h1>
+        paper-button#feature:hover,
+        paper-button#feature:focus {
+          color: var(--haxtheme-page-feature-paper-button-feature-color-active);
+          @apply --haxtheme-page-feature-paper-button-feature-active;
+        }
+      </style>
+      <div id="feature_wrap">
+        <div id="border">
+          <div
+            id="feature_image"
+            style$="background-image:url([[image]])"
+            alt="[[alt]]"
+          ></div>
+          <div id="feature_description_wrap">
+            <div id="title_wrap">
+              <div id="title">
+                <h1>[[title]]</h1>
+              </div>
+              <div id="sub_title">
+                <h2>[[subtitle]]</h2>
+              </div>
+              <div id="sub_info">[[info]]</div>
             </div>
-            <div id="sub_title">
-              <h2>[[subtitle]]</h2>
+            <div id="description">
+              <slot></slot>
             </div>
-            <div id="sub_info">[[info]]</div>
-          </div>
-          <div id="description">
-            <slot></slot>
-          </div>
-          <div id="action_button">
-            <a href\$="[[url]]">
-              <paper-button noink id="feature">
-                <div class="title">Read More</div>
-                <iron-icon icon="chevron-right"></iron-icon>
-              </paper-button>
-            </a>
+            <div id="action_button">
+              <a href\$="[[url]]">
+                <paper-button noink id="feature">
+                  <div class="title">Read More</div>
+                  <iron-icon icon="chevron-right"></iron-icon>
+                </paper-button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  `;
+    `;
   }
   static get tag() {
     return "page-feature";
@@ -1085,45 +1109,45 @@ class PageFeature extends PolymerElement {
        * Image source
        */
       image: {
-        type: String,
+        type: String
       },
       /**
        * Alt text for image
        */
       alt: {
-        type: String,
+        type: String
       },
       /**
        * Title for feature
        */
       title: {
-        type: String,
+        type: String
       },
       /**
        * Subtitle for feature
        */
       subtitle: {
-        type: String,
+        type: String
       },
       /**
        * Sub info for feature
        */
       info: {
-        type: String,
+        type: String
       },
       /**
        * Url for feature
        */
       url: {
-        type: String,
+        type: String
       }
     };
   }
   constructor() {
     super();
-    import("../../build/es6/node_modules/@polymer/iron-image/iron-image.js");
-    import("../../build/es6/node_modules/@polymer/iron-icons/iron-icons.js");
-    import("../../build/es6/node_modules/@polymer/paper-button/paper-button.js");
+    import('../../build/es6/node_modules/@polymer/iron-image/iron-image.js');
+    import('../../build/es6/node_modules/@polymer/iron-icons/iron-icons.js');
+    import('../../build/es6/node_modules/@polymer/paper-button/paper-button.js');
   }
 }
 window.customElements.define(PageFeature.tag, PageFeature);
@@ -1131,213 +1155,213 @@ window.customElements.define(PageFeature.tag, PageFeature);
 class HaxThemeHome extends PolymerElement {
   static get template() {
     return html`
-    <style>
-      :host {
-        display: block;
-        --theme-color-1: #363533;
-        --theme-color-2: #e2801e;
-        --theme-color-3: #f5f5f5;
-        --theme-color-4: #fff;
-      }
-      /**
+      <style>
+        :host {
+          display: block;
+          --theme-color-1: #363533;
+          --theme-color-2: #e2801e;
+          --theme-color-3: #f5f5f5;
+          --theme-color-4: #fff;
+        }
+        /**
        * Hide the slotted content during edit mode. This must be here to work.
        */
-      :host([edit-mode]) #slot {
-        display: none;
-      }
-      info-box#about {
-        margin: 80px 0 15px 0;
-      }
-
-      @media screen and (max-width: 768px) {
+        :host([edit-mode]) #slot {
+          display: none;
+        }
         info-box#about {
-          margin: 25px 0 0 0;
+          margin: 80px 0 15px 0;
         }
-      }
 
-      promo-tile {
-        --button-hover-color: none;
-      }
+        @media screen and (max-width: 768px) {
+          info-box#about {
+            margin: 25px 0 0 0;
+          }
+        }
 
-      #promo_tile_header {
-        display: flex;
-        justify-content: center;
-      }
+        promo-tile {
+          --button-hover-color: none;
+        }
 
-      #promo_tile_wrap {
-        display: flex;
-        flex-wrap: wrap;
-        border-top: solid;
-        border-top-width: 20px;
-        border-top-color: var(--theme-color-1);
-      }
+        #promo_tile_header {
+          display: flex;
+          justify-content: center;
+        }
 
-      @media screen and (max-width: 768px) {
         #promo_tile_wrap {
-          border-top: none;
+          display: flex;
+          flex-wrap: wrap;
+          border-top: solid;
+          border-top-width: 20px;
+          border-top-color: var(--theme-color-1);
         }
-      }
 
-      @media screen and (max-width: 1124px) {
-        #promo_tile_wrap {
-          padding: 0;
+        @media screen and (max-width: 768px) {
+          #promo_tile_wrap {
+            border-top: none;
+          }
         }
-      }
 
-      #promo_tile_wrap > * {
-        width: 100%;
-      }
+        @media screen and (max-width: 1124px) {
+          #promo_tile_wrap {
+            padding: 0;
+          }
+        }
 
-      @media screen and (min-width: 600px) {
         #promo_tile_wrap > * {
-          width: 50%;
-        }
-      }
-
-      @media screen and (min-width: 1124px) {
-        #promo_tile_wrap > * {
-          width: 25%;
-        }
-      }
-
-      @media screen and (max-width: 1124px) {
-        page-feature {
           width: 100%;
-          border-bottom: solid 2px #dcdcdc;
-          margin-left: auto;
-          margin-right: auto;
         }
-      }
 
-      @media screen and (max-width: 768px) {
-        page-feature {
-          width: 94%;
+        @media screen and (min-width: 600px) {
+          #promo_tile_wrap > * {
+            width: 50%;
+          }
         }
-      }
-    </style>
-    <homepage-banner
-      image="files/theme-images/page-banners/odl_homepage_banner.jpg"
-      alt="students receiving instruction in classroom"
-      text="A creative studio for your classroom"
-    ></homepage-banner>
-    <info-box id="about" title="What We Do" url="https://www.google.com">
-      <span slot="action_text">
-        The Office of Digital Learning (ODL) helps faculty and students make the
-        most of digital learning technology. We collaboratively design and build
-        tools for any pedagogy; dream it and we will build it.
-      </span>
-    </info-box>
-    <div id="promo_tile_header"></div>
-    <div id="promo_tile_wrap">
-      <div class="promo_tile">
-        <promo-tile
-          title="ELMS:LN"
-          label="Create"
-          image="files/theme-images/promo-tiles/elmsln-tile.jpg"
-          alt="ELMS:LN"
-          url="https://www.elmsln.org/"
-        >
-          Create your course using the ELMS:LN platform and gain access to a
-          network of innovative technologies instantly.
-        </promo-tile>
+
+        @media screen and (min-width: 1124px) {
+          #promo_tile_wrap > * {
+            width: 25%;
+          }
+        }
+
+        @media screen and (max-width: 1124px) {
+          page-feature {
+            width: 100%;
+            border-bottom: solid 2px #dcdcdc;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+
+        @media screen and (max-width: 768px) {
+          page-feature {
+            width: 94%;
+          }
+        }
+      </style>
+      <homepage-banner
+        image="files/theme-images/page-banners/odl_homepage_banner.jpg"
+        alt="students receiving instruction in classroom"
+        text="A creative studio for your classroom"
+      ></homepage-banner>
+      <info-box id="about" title="What We Do" url="https://www.google.com">
+        <span slot="action_text">
+          The Office of Digital Learning (ODL) helps faculty and students make
+          the most of digital learning technology. We collaboratively design and
+          build tools for any pedagogy; dream it and we will build it.
+        </span>
+      </info-box>
+      <div id="promo_tile_header"></div>
+      <div id="promo_tile_wrap">
+        <div class="promo_tile">
+          <promo-tile
+            title="ELMS:LN"
+            label="Create"
+            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
+            alt="ELMS:LN"
+            url="https://www.elmsln.org/"
+          >
+            Create your course using the ELMS:LN platform and gain access to a
+            network of innovative technologies instantly.
+          </promo-tile>
+        </div>
+        <div class="promo_tile">
+          <promo-tile
+            title="Virtual Reality"
+            label="Explore"
+            image="files/theme-images/promo-tiles/vr-tile.jpg"
+            alt="A student using VR goggles"
+            url="https://www.google.com"
+          >
+            Enter another dimension and add exciting virtual interactions to
+            your online classroom.
+          </promo-tile>
+        </div>
+        <div class="promo_tile">
+          <promo-tile
+            title="HAX"
+            label="Build"
+            image="files/theme-images/promo-tiles/hax-tile.jpg"
+            alt="user enjoying the HAX authoring experience"
+            url="https://haxtheweb.org"
+          >
+            Quickly create and edit accessible, high quality content using this
+            next generation authoring experience.
+          </promo-tile>
+        </div>
+        <div class="promo_tile">
+          <promo-tile
+            title="One Button Studio"
+            label="Film"
+            image="files/theme-images/promo-tiles/obs-tile.jpg"
+            alt="camera filming video"
+            url="https://www.google.com"
+          >
+            Film engaging video content for your class with ease using our one
+            button studio and light board.
+          </promo-tile>
+        </div>
       </div>
-      <div class="promo_tile">
-        <promo-tile
-          title="Virtual Reality"
-          label="Explore"
-          image="files/theme-images/promo-tiles/vr-tile.jpg"
-          alt="A student using VR goggles"
-          url="https://www.google.com"
-        >
-          Enter another dimension and add exciting virtual interactions to your
-          online classroom.
-        </promo-tile>
-      </div>
-      <div class="promo_tile">
-        <promo-tile
-          title="HAX"
-          label="Build"
-          image="files/theme-images/promo-tiles/hax-tile.jpg"
-          alt="user enjoying the HAX authoring experience"
-          url="https://haxtheweb.org"
-        >
-          Quickly create and edit accessible, high quality content using this
-          next generation authoring experience.
-        </promo-tile>
-      </div>
-      <div class="promo_tile">
-        <promo-tile
-          title="One Button Studio"
-          label="Film"
-          image="files/theme-images/promo-tiles/obs-tile.jpg"
-          alt="camera filming video"
-          url="https://www.google.com"
-        >
-          Film engaging video content for your class with ease using our one
-          button studio and light board.
-        </promo-tile>
-      </div>
-    </div>
-    <div id="page_feature">
-      <site-query
-        result="{{__newsitems}}"
-        conditions='{
+      <div id="page_feature">
+        <site-query
+          result="{{__newsitems}}"
+          conditions='{
           "metadata.type": "news"
         }'
-        limit="1"
-      ></site-query>
-      <dom-repeat items="[[__newsitems]]" mutable-data>
-        <template>
-          <page-feature
-            title="Top News"
-            subtitle="[[item.title]]"
-            info="[[item.metadata.author]]"
-            url="[[item.location]]"
-            image="[[item.metadata.fields.image]]"
-            alt="[[item.metadata.fields.imageAlt]]"
-          >
-            [[item.description]]</page-feature
-          >
-        </template>
-      </dom-repeat>
-    </div>
-    <div id="news_feed">
-      <news-feed></news-feed>
-    </div>
-    <div id="page_feature">
-      <site-query
-        result="{{__spotlightitems}}"
-        conditions='{
+          limit="1"
+        ></site-query>
+        <dom-repeat items="[[__newsitems]]" mutable-data>
+          <template>
+            <page-feature
+              title="Top News"
+              subtitle="[[item.title]]"
+              info="[[item.metadata.author]]"
+              url="[[item.location]]"
+              image="[[item.metadata.fields.image]]"
+              alt="[[item.metadata.fields.imageAlt]]"
+            >
+              [[item.description]]</page-feature
+            >
+          </template>
+        </dom-repeat>
+      </div>
+      <div id="news_feed">
+        <news-feed></news-feed>
+      </div>
+      <div id="page_feature">
+        <site-query
+          result="{{__spotlightitems}}"
+          conditions='{
           "metadata.type": "spotlight"
         }'
-        limit="1"
-      ></site-query>
-      <dom-repeat items="[[__spotlightitems]]" mutable-data>
-        <template>
-          <page-feature
-            title="Faculty Spotlight"
-            subtitle="[[item.title]]"
-            info="Director of Online Education in Physics"
-            url="[[item.location]]"
-            image="[[item.metadata.fields.image]]"
-            alt="[[item.metadata.fields.imageAlt]]"
-          >
-            [[item.description]]</page-feature
-          >
-        </template>
-      </dom-repeat>
-    </div>
-    <div id="videos_feed">
-      <videos-feed></videos-feed>
-    </div>
-  `;
+          limit="1"
+        ></site-query>
+        <dom-repeat items="[[__spotlightitems]]" mutable-data>
+          <template>
+            <page-feature
+              title="Faculty Spotlight"
+              subtitle="[[item.title]]"
+              info="Director of Online Education in Physics"
+              url="[[item.location]]"
+              image="[[item.metadata.fields.image]]"
+              alt="[[item.metadata.fields.imageAlt]]"
+            >
+              [[item.description]]</page-feature
+            >
+          </template>
+        </dom-repeat>
+      </div>
+      <div id="videos_feed">
+        <videos-feed></videos-feed>
+      </div>
+    `;
   }
   static get tag() {
     return "haxtheme-home";
   }
   constructor() {
     super();
-    import("../../build/es6/node_modules/@polymer/paper-button/paper-button.js");
+    import('../../build/es6/node_modules/@polymer/paper-button/paper-button.js');
   }
 }
 window.customElements.define(HaxThemeHome.tag, HaxThemeHome);
@@ -1345,77 +1369,80 @@ window.customElements.define(HaxThemeHome.tag, HaxThemeHome);
 class PageBanner extends PolymerElement {
   static get template() {
     return html`
-    <style>
-      :host {
-        display: block;
-        --page-banner-text-transform: none;
-      }
+      <style>
+        :host {
+          display: block;
+          --page-banner-text-transform: none;
+        }
 
-      .image_wrap {
-        background-repeat: var(
-          --haxtheme-page-banner-image-wrap-background-repeat,
-          no-repeat
-        );
-        background-size: var(
-          --haxtheme-page-banner-image-wrap-background-size,
-          cover
-        );
-        background-position: var(
-          --haxtheme-page-banner-image-wrap-background-position,
-          right center
-        );
-        width: var(--haxtheme-page-banner-image-wrap-width, 100%);
-        min-height: var(--haxtheme-page-banner-image-wrap-min-height, 32vw);
-        display: var(--haxtheme-page-banner-image-wrap-display, flex);
-        justify-content: var(
-          --haxtheme-page-banner-image-wrap-justify-content,
-          flex-end
-        );
-        align-items: var(--haxtheme-page-banner-image-wrap-align-items, center);
-        flex: var(--haxtheme-page-banner-image-wrap-flex, 1 1 auto);
-        margin: var(--haxtheme-page-banner-image-wrap-margin, 0);
-        padding: var(--haxtheme-page-banner-image-wrap-padding, 0);
-        @apply --haxtheme-page-banner-image-wrap;
-      }
+        .image_wrap {
+          background-repeat: var(
+            --haxtheme-page-banner-image-wrap-background-repeat,
+            no-repeat
+          );
+          background-size: var(
+            --haxtheme-page-banner-image-wrap-background-size,
+            cover
+          );
+          background-position: var(
+            --haxtheme-page-banner-image-wrap-background-position,
+            right center
+          );
+          width: var(--haxtheme-page-banner-image-wrap-width, 100%);
+          min-height: var(--haxtheme-page-banner-image-wrap-min-height, 32vw);
+          display: var(--haxtheme-page-banner-image-wrap-display, flex);
+          justify-content: var(
+            --haxtheme-page-banner-image-wrap-justify-content,
+            flex-end
+          );
+          align-items: var(
+            --haxtheme-page-banner-image-wrap-align-items,
+            center
+          );
+          flex: var(--haxtheme-page-banner-image-wrap-flex, 1 1 auto);
+          margin: var(--haxtheme-page-banner-image-wrap-margin, 0);
+          padding: var(--haxtheme-page-banner-image-wrap-padding, 0);
+          @apply --haxtheme-page-banner-image-wrap;
+        }
 
-      .image_text {
-        background: var(
-          --haxtheme-page-banner-image-text-background,
-          rgba(0, 0, 0, 0.5)
-        );
-        width: var(
-          --haxtheme-page-banner-image-text-width,
-          calc(150px + (355 - 28) * ((100vw - 300px) / (1600 - 300)))
-        );
-        margin: var(--haxtheme-page-banner-image-text-margin, 0 5vw 0 5vw);
-        padding: var(--haxtheme-page-banner-image-text-padding, 2vw);
-        text-align: var(--haxtheme-page-banner-image-text-text-align, center);
-        text-transform: var(--page-banner-text-transform);
-        @apply --haxtheme-page-banner-image-text;
-      }
+        .image_text {
+          background: var(
+            --haxtheme-page-banner-image-text-background,
+            rgba(0, 0, 0, 0.5)
+          );
+          width: var(
+            --haxtheme-page-banner-image-text-width,
+            calc(150px + (355 - 28) * ((100vw - 300px) / (1600 - 300)))
+          );
+          margin: var(--haxtheme-page-banner-image-text-margin, 0 5vw 0 5vw);
+          padding: var(--haxtheme-page-banner-image-text-padding, 2vw);
+          text-align: var(--haxtheme-page-banner-image-text-text-align, center);
+          text-transform: var(--page-banner-text-transform);
+          @apply --haxtheme-page-banner-image-text;
+        }
 
-      .image_text h1 {
-        color: var(--haxtheme-page-banner-image-text-h1-color);
-        width: var(--haxtheme-page-banner-image-text-h1-width, 100%);
-        font-weight: var(--haxtheme-page-banner-image-text-h1-font-weight);
-        margin: var(--haxtheme-page-banner-image-text-h1-margin, 0);
-        padding: var(--haxtheme-page-banner-image-text-h1-padding, 0);
-        font-size: var(
-          --haxtheme-page-banner-image-text-h1-font-size,
-          calc(23px + (72 - 28) * ((100vw - 300px) / (1600 - 300)))
-        );
-        @apply --haxtheme-page-banner-image-text-h1;
-      }
-    </style>
-    <div id="banner_wrap">
-      <div class="image_wrap" style$="background-image:url([[image]])">
-        <div class="banner_image"></div>
-        <div class="image_text">
-          <h1>[[text]]</h1>
+        .image_text h1 {
+          color: var(--haxtheme-page-banner-image-text-h1-color);
+          width: var(--haxtheme-page-banner-image-text-h1-width, 100%);
+          font-weight: var(--haxtheme-page-banner-image-text-h1-font-weight);
+          margin: var(--haxtheme-page-banner-image-text-h1-margin, 0);
+          padding: var(--haxtheme-page-banner-image-text-h1-padding, 0);
+          font-size: var(
+            --haxtheme-page-banner-image-text-h1-font-size,
+            calc(23px + (72 - 28) * ((100vw - 300px) / (1600 - 300)))
+          );
+          @apply --haxtheme-page-banner-image-text-h1;
+        }
+      </style>
+      <div id="banner_wrap">
+        <div class="image_wrap" style$="background-image:url([[image]])">
+          <div class="banner_image"></div>
+          <div class="image_text">
+            <h1>[[text]]</h1>
+          </div>
         </div>
       </div>
-    </div>
-  `;
+    `;
   }
   static get tag() {
     return "page-banner";
@@ -1426,19 +1453,19 @@ class PageBanner extends PolymerElement {
        * Image source
        */
       image: {
-        type: String,
+        type: String
       },
       /**
        * Text over image
        */
       text: {
-        type: String,
+        type: String
       },
       /**
        * Alt text for image
        */
       alt: {
-        type: String,
+        type: String
       }
     };
   }
@@ -1448,45 +1475,45 @@ window.customElements.define(PageBanner.tag, PageBanner);
 class HaxThemeAbout extends PolymerElement {
   static get template() {
     return html`
-    <style>
-      :host {
-        display: block;
-      }
-      /**
+      <style>
+        :host {
+          display: block;
+        }
+        /**
        * Hide the slotted content during edit mode. This must be here to work.
        */
-      :host([edit-mode]) #slot {
-        display: none;
-      }
-      #content-wrap {
-        width: 80%;
-        margin: 0 auto 0 auto;
-      }
+        :host([edit-mode]) #slot {
+          display: none;
+        }
+        #content-wrap {
+          width: 80%;
+          margin: 0 auto 0 auto;
+        }
 
-      #contentcontainer {
-        font-size: 18px;
-        font-weight: 300;
-        line-height: 1.4;
-      }
-    </style>
-    <page-banner
-      image="files/theme-images/page-banners/news_banner.jpg"
-      text="About"
-      alt="Gateway to the Sciences"
-    ></page-banner>
-    <div id="content-wrap">
-      <div id="about_header">
-        <div id="title">
-          <h1>What We Do</h1>
+        #contentcontainer {
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 1.4;
+        }
+      </style>
+      <page-banner
+        image="files/theme-images/page-banners/news_banner.jpg"
+        text="About"
+        alt="Gateway to the Sciences"
+      ></page-banner>
+      <div id="content-wrap">
+        <div id="about_header">
+          <div id="title">
+            <h1>What We Do</h1>
+          </div>
+        </div>
+        <div id="contentcontainer">
+          <div id="slot">
+            <slot></slot>
+          </div>
         </div>
       </div>
-      <div id="contentcontainer">
-        <div id="slot">
-          <slot></slot>
-        </div>
-      </div>
-    </div>
-  `;
+    `;
   }
   static get tag() {
     return "haxtheme-about";
@@ -1514,196 +1541,198 @@ window.customElements.define(HaxThemeAbout.tag, HaxThemeAbout);
 
 class NewsCard extends LitElement {
   static get styles() {
-    return [css`
-    :host {
-        display: block;
-        --theme-color-1: #363533;
-        --theme-color-2: #e2801e;
-        --theme-color-4: #fff;
-      }
+    return [
+      css`
+        :host {
+          display: block;
+          --theme-color-1: #363533;
+          --theme-color-2: #e2801e;
+          --theme-color-4: #fff;
+        }
 
-      a {
-        color: var(--theme-color-1);
-        text-decoration: none;
-      }
+        a {
+          color: var(--theme-color-1);
+          text-decoration: none;
+        }
 
-      h1 {
-        font-size: 28px;
-        font-weight: 400;
-        line-height: 1.2;
-        margin: 0;
-      }
-
-      @media screen and (max-width: 1124px) {
         h1 {
-          font-size: 24px;
+          font-size: 28px;
+          font-weight: 400;
+          line-height: 1.2;
+          margin: 0;
         }
-      }
 
-      h1:hover {
-        color: var(--theme-color-2);
-      }
+        @media screen and (max-width: 1124px) {
+          h1 {
+            font-size: 24px;
+          }
+        }
 
-      h2 {
-        color: var(--theme-color-1);
-        font-size: 18px;
-        font-weight: 400;
-        margin: 0;
-      }
+        h1:hover {
+          color: var(--theme-color-2);
+        }
 
-      #news_wrap {
-        display: flex;
-        background-color: var(--theme-color-4);
-        margin: 15px;
-        padding: 0 0 10px 0;
-        border-bottom: solid 2px #dcdcdc;
-      }
+        h2 {
+          color: var(--theme-color-1);
+          font-size: 18px;
+          font-weight: 400;
+          margin: 0;
+        }
 
-      @media screen and (max-width: 1124px) {
         #news_wrap {
-          flex-direction: column;
+          display: flex;
+          background-color: var(--theme-color-4);
+          margin: 15px;
+          padding: 0 0 10px 0;
+          border-bottom: solid 2px #dcdcdc;
         }
-      }
 
-      #content_wrap {
-        width: 75%;
-      }
+        @media screen and (max-width: 1124px) {
+          #news_wrap {
+            flex-direction: column;
+          }
+        }
 
-      @media screen and (max-width: 1124px) {
         #content_wrap {
-          width: 100%;
+          width: 75%;
         }
-      }
 
-      #news_image {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 175px;
-        height: 250px;
-        margin: 0 15px 0 0;
-      }
+        @media screen and (max-width: 1124px) {
+          #content_wrap {
+            width: 100%;
+          }
+        }
 
-      @media screen and (max-width: 1124px) {
         #news_image {
-          width: 100%;
-          height: 235px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          width: 175px;
+          height: 250px;
+          margin: 0 15px 0 0;
         }
-      }
 
-      #header_info {
-        border-left: solid 4px var(--theme-color-2);
-        padding: 0 0 0 15px;
-      }
+        @media screen and (max-width: 1124px) {
+          #news_image {
+            width: 100%;
+            height: 235px;
+          }
+        }
 
-      @media screen and (max-width: 1124px) {
         #header_info {
-          margin: 15px 0 0 0;
+          border-left: solid 4px var(--theme-color-2);
+          padding: 0 0 0 15px;
         }
-      }
 
-      #author_info {
-        display: flex;
-        align-items: center;
-        margin: 5px 0 5px;
-      }
+        @media screen and (max-width: 1124px) {
+          #header_info {
+            margin: 15px 0 0 0;
+          }
+        }
 
-      #author_image {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: right center;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin: 0 5px 0 0;
-      }
+        #author_info {
+          display: flex;
+          align-items: center;
+          margin: 5px 0 5px;
+        }
 
-      #author a {
-        color: var(--theme-color-1);
-        text-decoration: none;
-      }
+        #author_image {
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: right center;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          margin: 0 5px 0 0;
+        }
 
-      #author a:hover {
-        color: var(--theme-color-2);
-      }
+        #author a {
+          color: var(--theme-color-1);
+          text-decoration: none;
+        }
 
-      #description {
-        margin-top: 10px;
-        font-size: 18px;
-        font-weight: 300;
-        line-height: 1.2;
-      }
+        #author a:hover {
+          color: var(--theme-color-2);
+        }
 
-      @media screen and (max-width: 1124px) {
         #description {
           margin-top: 10px;
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 1.2;
         }
-      }
 
-      #action_button {
-        display: flex;
-        justify-content: flex-end;
-        margin: 20px 0 0 0;
-      }
+        @media screen and (max-width: 1124px) {
+          #description {
+            margin-top: 10px;
+          }
+        }
 
-      @media screen and (max-width: 768px) {
         #action_button {
-          justify-content: center;
-          margin: 15px 0 0 0;
+          display: flex;
+          justify-content: flex-end;
+          margin: 20px 0 0 0;
         }
-      }
 
-      paper-button#action {
-        color: var(--theme-color-2);
-        padding: 0;
-      }
+        @media screen and (max-width: 768px) {
+          #action_button {
+            justify-content: center;
+            margin: 15px 0 0 0;
+          }
+        }
 
-      paper-button#action:hover,
-      paper-button#action:focus {
-        color: var(--theme-color-1);
-      }
-    `];
+        paper-button#action {
+          color: var(--theme-color-2);
+          padding: 0;
+        }
+
+        paper-button#action:hover,
+        paper-button#action:focus {
+          color: var(--theme-color-1);
+        }
+      `
+    ];
   }
   render() {
     return html$1`
-    <div id="news_wrap">
-      <div
-        id="news_image"
-        style="background-image:url(${this.image})"
-        alt="${this.alts}"
-      ></div>
-      <div id="content_wrap">
-        <div id="header_info">
-          <div id="title">
+      <div id="news_wrap">
+        <div
+          id="news_image"
+          style="background-image:url(${this.image})"
+          alt="${this.alts}"
+        ></div>
+        <div id="content_wrap">
+          <div id="header_info">
+            <div id="title">
+              <a href="${this.url}">
+                <h1>${this.title}</h1>
+              </a>
+            </div>
+            <div id="date">
+              <h2>${this.date}</h2>
+            </div>
+            <div id="author_info">
+              <div
+                id="author_image"
+                style="background-image:url(${this.authorimage})"
+              ></div>
+              <div id="author">By: ${this.author}</div>
+            </div>
+          </div>
+          <div id="description">
+            <span>${this.description}</span>
+          </div>
+          <div id="action_button">
             <a href="${this.url}">
-              <h1>${this.title}</h1>
+              <paper-button noink id="action">
+                <div class="title">Read More</div>
+                <iron-icon icon="chevron-right"></iron-icon>
+              </paper-button>
             </a>
           </div>
-          <div id="date">
-            <h2>${this.date}</h2>
-          </div>
-          <div id="author_info">
-            <div
-              id="author_image"
-              style="background-image:url(${this.authorimage})"
-            ></div>
-            <div id="author">By: ${this.author}</div>
-          </div>
-        </div>
-        <div id="description">
-          <span>${this.description}</span>
-        </div>
-        <div id="action_button">
-          <a href="${this.url}">
-            <paper-button noink id="action">
-              <div class="title">Read More</div>
-              <iron-icon icon="chevron-right"></iron-icon>
-            </paper-button>
-          </a>
         </div>
       </div>
-    </div>
-  `;
+    `;
   }
   static get tag() {
     return "news-card";
@@ -1714,61 +1743,61 @@ class NewsCard extends LitElement {
        * Image
        */
       image: {
-        type: String,
+        type: String
       },
       /**
        * Image Alt Text
        */
       alt: {
-        type: String,
+        type: String
       },
       /**
        * Title
        */
       title: {
-        type: String,
+        type: String
       },
       /**
        * Date
        */
       date: {
-        type: String,
+        type: String
       },
       /**
        * Author Image
        */
       authorimage: {
-        type: String,
+        type: String
       },
       /**
        * Author
        */
       author: {
-        type: String,
+        type: String
       },
       /**
        * Author Page
        */
       authorpage: {
-        type: String,
+        type: String
       },
       /**
        * Article Description
        */
       description: {
-        type: String,
+        type: String
       },
       /**
        * Destination Url
        */
       url: {
-        type: String,
+        type: String
       }
     };
   }
   constructor() {
     super();
-    import("../../build/es6/node_modules/@polymer/paper-button/paper-button.js");
+    import('../../build/es6/node_modules/@polymer/paper-button/paper-button.js');
   }
 }
 window.customElements.define(NewsCard.tag, NewsCard);
@@ -1776,183 +1805,190 @@ window.customElements.define(NewsCard.tag, NewsCard);
 class HaxThemeNews extends PolymerElement {
   static get template() {
     return html`
-    <style>
-      :host {
-        display: block;
-      }
-      /**
+      <style>
+        :host {
+          display: block;
+        }
+        /**
        * Hide the slotted content during edit mode. This must be here to work.
        */
-      :host([edit-mode]) #slot {
-        display: none;
-      }
-      .news_container {
-        display: var(--haxtheme-news-news-container-display, flex);
-        width: var(--haxtheme-news-news-container-width, 80%);
-        margin: var(--haxtheme-news-news-container-margin, 0 auto 0 auto);
-        @apply --haxtheme-news-news-container;
-      }
-
-      @media screen and (max-width: 768px) {
+        :host([edit-mode]) #slot {
+          display: none;
+        }
         .news_container {
-          flex-direction: var(
-            --haxtheme-news-news-container-flex-direction-mobile,
-            column
-          );
-          width: var(--haxtheme-news-news-container-width-mobile, 98%);
-          @apply --haxtheme-news-news-container-mobile;
+          display: var(--haxtheme-news-news-container-display, flex);
+          width: var(--haxtheme-news-news-container-width, 80%);
+          margin: var(--haxtheme-news-news-container-margin, 0 auto 0 auto);
+          @apply --haxtheme-news-news-container;
         }
-      }
 
-      .news_page_feed {
-        width: var(--haxtheme-news-news-page-feed-width, 75%);
-        margin: var(--haxtheme-news-news-page-feed-margin, 20px 0 0 0);
-        @apply --haxtheme-news-news-page-feed;
-      }
+        @media screen and (max-width: 768px) {
+          .news_container {
+            flex-direction: var(
+              --haxtheme-news-news-container-flex-direction-mobile,
+              column
+            );
+            width: var(--haxtheme-news-news-container-width-mobile, 98%);
+            @apply --haxtheme-news-news-container-mobile;
+          }
+        }
 
-      @media screen and (max-width: 768px) {
         .news_page_feed {
-          width: var(--haxtheme-news-news-page-feed-width-mobile, 100%);
-          margin: var(--haxtheme-news-news-page-feed-margin-mobile, 10px 0 0 0);
-          @apply --haxtheme-news-news-page-feed-mobile;
+          width: var(--haxtheme-news-news-page-feed-width, 75%);
+          margin: var(--haxtheme-news-news-page-feed-margin, 20px 0 0 0);
+          @apply --haxtheme-news-news-page-feed;
         }
-      }
 
-      .sidebar_wrap {
-        width: var(--haxtheme-news-sidebar-wrap-width);
-        height: var(--haxtheme-news-sidebar-wrap-height);
-        margin: var(--haxtheme-news-sidebar-wrap-margin);
-        border-left: var(--haxtheme-news-sidebar-wrap-border-left);
-        border-left-width: var(--haxtheme-news-sidebar-wrap-border-left-width);
-        border-left-color: var(--haxtheme-news-sidebar-wrap-border-left-color);
-        padding: var(--haxtheme-news-sidebar-wrap-padding);
-        @apply --haxtheme-news-sidebar-wrap;
-      }
+        @media screen and (max-width: 768px) {
+          .news_page_feed {
+            width: var(--haxtheme-news-news-page-feed-width-mobile, 100%);
+            margin: var(
+              --haxtheme-news-news-page-feed-margin-mobile,
+              10px 0 0 0
+            );
+            @apply --haxtheme-news-news-page-feed-mobile;
+          }
+        }
 
-      @media screen and (max-width: 768px) {
         .sidebar_wrap {
-          width: var(--haxtheme-news-sidebar-wrap-width-mobile);
-          height: var(--haxtheme-news-sidebar-wrap-height-mobile);
-          border: var(--haxtheme-news-sidebar-wrap-border-left-mobile);
-          padding: var(--haxtheme-news-sidebar-wrap-padding-mobile);
-          margin: var(--haxtheme-news-sidebar-wrap-margin-mobile);
-          @apply --haxtheme-news-sidebar-wrap-mobile;
+          width: var(--haxtheme-news-sidebar-wrap-width);
+          height: var(--haxtheme-news-sidebar-wrap-height);
+          margin: var(--haxtheme-news-sidebar-wrap-margin);
+          border-left: var(--haxtheme-news-sidebar-wrap-border-left);
+          border-left-width: var(
+            --haxtheme-news-sidebar-wrap-border-left-width
+          );
+          border-left-color: var(
+            --haxtheme-news-sidebar-wrap-border-left-color
+          );
+          padding: var(--haxtheme-news-sidebar-wrap-padding);
+          @apply --haxtheme-news-sidebar-wrap;
         }
-      }
 
-      @media screen and (max-width: 768px) {
-        #twitter_feed {
-          width: var(--haxtheme-news-twitter-feed-width-mobile, 90%);
-          margin: var(--haxtheme-news-twitter-margin-mobile, 0 auto 0 auto);
-          @apply --haxtheme-news-twitter-feed-mobile;
+        @media screen and (max-width: 768px) {
+          .sidebar_wrap {
+            width: var(--haxtheme-news-sidebar-wrap-width-mobile);
+            height: var(--haxtheme-news-sidebar-wrap-height-mobile);
+            border: var(--haxtheme-news-sidebar-wrap-border-left-mobile);
+            padding: var(--haxtheme-news-sidebar-wrap-padding-mobile);
+            margin: var(--haxtheme-news-sidebar-wrap-margin-mobile);
+            @apply --haxtheme-news-sidebar-wrap-mobile;
+          }
         }
-      }
 
-      #news_archive {
-        margin: var(--haxtheme-news-news-archive-margin, 0 0 25px 0);
-        @apply --haxtheme-news-news-archive;
-      }
+        @media screen and (max-width: 768px) {
+          #twitter_feed {
+            width: var(--haxtheme-news-twitter-feed-width-mobile, 90%);
+            margin: var(--haxtheme-news-twitter-margin-mobile, 0 auto 0 auto);
+            @apply --haxtheme-news-twitter-feed-mobile;
+          }
+        }
 
-      @media screen and (max-width: 768px) {
         #news_archive {
-          width: var(--haxtheme-news-news-archive-width-mobile, 90%);
-          margin: var(
-            --haxtheme-news-news-archive-margin-mobile,
-            0 auto 0 auto
-          );
-          @apply --haxtheme-news-news-archive-mobile;
+          margin: var(--haxtheme-news-news-archive-margin, 0 0 25px 0);
+          @apply --haxtheme-news-news-archive;
         }
-      }
 
-      site-recent-content-block {
-        --site-recent-content-block-header-color: #e2801e;
-      }
+        @media screen and (max-width: 768px) {
+          #news_archive {
+            width: var(--haxtheme-news-news-archive-width-mobile, 90%);
+            margin: var(
+              --haxtheme-news-news-archive-margin-mobile,
+              0 auto 0 auto
+            );
+            @apply --haxtheme-news-news-archive-mobile;
+          }
+        }
 
-      #share_actions {
-        display: var(--haxtheme-news-share-actions-display, flex);
-        justify-content: var(
-          --haxtheme-news-share-actions-justify-content,
-          space-around
-        );
-        padding: var(--haxtheme-news-share-actions-padding, 10px);
-        margin: var(--haxtheme-news-share-actions-margin, 10px 0 0 0);
-        @apply --haxtheme-news-share-actions;
-      }
+        site-recent-content-block {
+          --site-recent-content-block-header-color: #e2801e;
+        }
 
-      @media screen and (max-width: 768px) {
         #share_actions {
-          width: var(--haxtheme-news-share-actions-width-mobile, 85%);
-          margin: var(
-            --haxtheme-news-share-actions-margin-mobile,
-            15px auto 15px auto
+          display: var(--haxtheme-news-share-actions-display, flex);
+          justify-content: var(
+            --haxtheme-news-share-actions-justify-content,
+            space-around
           );
-          @apply --haxtheme-news-share-actions-mobile;
+          padding: var(--haxtheme-news-share-actions-padding, 10px);
+          margin: var(--haxtheme-news-share-actions-margin, 10px 0 0 0);
+          @apply --haxtheme-news-share-actions;
         }
-      }
-    </style>
-    <page-banner
-      image="files/theme-images/page-banners/news_banner.jpg"
-      text="News"
-      alt="Gateway to the Sciences"
-    ></page-banner>
-    <div id="news_wrap">
-      <div class="news_container">
-        <div class="news_page_feed">
-          <site-query
-            result="{{__items}}"
-            conditions='{"metadata.type": "news"}'
-            limit="5"
-            sort
-          ></site-query>
-          <dom-repeat items="[[__items]]" mutable-data>
-            <template>
-              <news-card
-                image="[[item.metadata.fields.image]]"
-                alt="[[item.metadata.fields.imageAlt]]"
-                title="[[item.title]]"
-                date="[[_formatDate(item.metadata.created)]]"
-                authorimage="[[item.metadata.authorImage]]"
-                author="[[item.metadata.author]]"
-                description="[[_trimDescription(item.description)]]"
-                url="[[item.location]]"
-              >
-              </news-card>
-            </template>
-          </dom-repeat>
-        </div>
-        <div class="sidebar_wrap">
-          <div id="twitter_feed">
-            <a
-              class="twitter-timeline"
-              data-height="600"
-              href="https://twitter.com/Eberly_ODL?ref_src=twsrc%5Etfw"
-              >Tweets by Eberly_ODL</a
-            >
-            <script
-              async=""
-              src="https://platform.twitter.com/widgets.js"
-              charset="utf-8"
-            ></script>
-          </div>
-          <div id="news_archive">
-            <site-recent-content-block
-              title="News Archive"
-              conditions='{"metadata.type": "news"}'
+
+        @media screen and (max-width: 768px) {
+          #share_actions {
+            width: var(--haxtheme-news-share-actions-width-mobile, 85%);
+            margin: var(
+              --haxtheme-news-share-actions-margin-mobile,
+              15px auto 15px auto
+            );
+            @apply --haxtheme-news-share-actions-mobile;
+          }
+        }
+      </style>
+      <page-banner
+        image="files/theme-images/page-banners/news_banner.jpg"
+        text="News"
+        alt="Gateway to the Sciences"
+      ></page-banner>
+      <div id="news_wrap">
+        <div class="news_container">
+          <div class="news_page_feed">
+            <site-query
               result="{{__items}}"
+              conditions='{"metadata.type": "news"}'
               limit="5"
-              start-index="5"
               sort
-            >
-            </site-recent-content-block>
+            ></site-query>
+            <dom-repeat items="[[__items]]" mutable-data>
+              <template>
+                <news-card
+                  image="[[item.metadata.fields.image]]"
+                  alt="[[item.metadata.fields.imageAlt]]"
+                  title="[[item.title]]"
+                  date="[[_formatDate(item.metadata.created)]]"
+                  authorimage="[[item.metadata.authorImage]]"
+                  author="[[item.metadata.author]]"
+                  description="[[_trimDescription(item.description)]]"
+                  url="[[item.location]]"
+                >
+                </news-card>
+              </template>
+            </dom-repeat>
           </div>
-          <div id="share_actions">
-            <site-rss-button type="rss"></site-rss-button>
-            <site-rss-button type="atom"></site-rss-button>
+          <div class="sidebar_wrap">
+            <div id="twitter_feed">
+              <a
+                class="twitter-timeline"
+                data-height="600"
+                href="https://twitter.com/Eberly_ODL?ref_src=twsrc%5Etfw"
+                >Tweets by Eberly_ODL</a
+              >
+              <script
+                async=""
+                src="https://platform.twitter.com/widgets.js"
+                charset="utf-8"
+              ></script>
+            </div>
+            <div id="news_archive">
+              <site-recent-content-block
+                title="News Archive"
+                conditions='{"metadata.type": "news"}'
+                result="{{__items}}"
+                limit="5"
+                start-index="5"
+                sort
+              >
+              </site-recent-content-block>
+            </div>
+            <div id="share_actions">
+              <site-rss-button type="rss"></site-rss-button>
+              <site-rss-button type="atom"></site-rss-button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  `;
+    `;
   }
   static get tag() {
     return "haxtheme-news";
@@ -1974,8 +2010,8 @@ class HaxThemeNews extends PolymerElement {
 
   constructor() {
     super();
-    import("../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/blocks/site-recent-content-block.js");
-    import("../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-rss-button.js");
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/blocks/site-recent-content-block.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-rss-button.js');
     this.__disposer = autorun(() => {
       this.manifest = toJS(store.routerManifest);
     });
@@ -2149,113 +2185,118 @@ document.head.appendChild($_documentContainer);
 class TeamCard extends PolymerElement {
   static get template() {
     return html`
-    <style>
-      :host {
-        display: block;
-      }
+      <style>
+        :host {
+          display: block;
+        }
 
-      #card_wrap {
-        margin: var(--haxtheme-team-card-card-wrap-margin, 10px);
-        @apply --haxtheme-team-card-card-wrap;
-      }
+        #card_wrap {
+          margin: var(--haxtheme-team-card-card-wrap-margin, 10px);
+          @apply --haxtheme-team-card-card-wrap;
+        }
 
-      .image {
-        background-position: var(
-          --haxtheme-team-card-image-background-position,
-          top center
-        );
-        background-repeat: var(
-          --haxtheme-team-card-image-background-repeat,
-          no-repeat
-        );
-        background-size: var(--haxtheme-team-card-image-background-size, cover);
-        width: var(--haxtheme-team-card-image-width, 100%);
-        height: var(--haxtheme-team-card-image-height, 100%);
-        border: var(--haxtheme-team-card-image-border, solid);
-        border-width: var(--haxtheme-team-card-image-border-width, 8px);
-        border-color: var(--haxtheme-team-card-image-border-color);
-        @apply --haxtheme-team-card-image;
-      }
+        .image {
+          background-position: var(
+            --haxtheme-team-card-image-background-position,
+            top center
+          );
+          background-repeat: var(
+            --haxtheme-team-card-image-background-repeat,
+            no-repeat
+          );
+          background-size: var(
+            --haxtheme-team-card-image-background-size,
+            cover
+          );
+          width: var(--haxtheme-team-card-image-width, 100%);
+          height: var(--haxtheme-team-card-image-height, 100%);
+          border: var(--haxtheme-team-card-image-border, solid);
+          border-width: var(--haxtheme-team-card-image-border-width, 8px);
+          border-color: var(--haxtheme-team-card-image-border-color);
+          @apply --haxtheme-team-card-image;
+        }
 
-      #card_image {
-        width: var(--haxtheme-team-card-card-image-width, 280px);
-        height: var(--haxtheme-team-card-card-image-height, 280px);
-        border-radius: var(--haxtheme-team-card-image-border-radius, 50%);
-        @apply --haxtheme-team-card-card-image;
-      }
+        #card_image {
+          width: var(--haxtheme-team-card-card-image-width, 280px);
+          height: var(--haxtheme-team-card-card-image-height, 280px);
+          border-radius: var(--haxtheme-team-card-image-border-radius, 50%);
+          @apply --haxtheme-team-card-card-image;
+        }
 
-      #info_container {
-        display: var(--haxtheme-team-card-info-container-display, flex);
-        align-items: var(
-          --haxtheme-team-card-info-container-align-items,
-          center
-        );
-        justify-content: var(
-          --haxtheme-team-card-info-container-justify-content,
-          center
-        );
-        width: var(--haxtheme-team-card-info-container-width, 280px);
-        height: var(--haxtheme-team-card-info-container-height, 280px);
-        background: var(
-          --haxtheme-team-card-info-container-background,
-          rgba(0, 0, 0, 0.8)
-        );
-        border-radius: var(
-          --haxtheme-team-card-info-container-border-radius,
-          50%
-        );
-        color: var(--haxtheme-team-card-info-container-color);
-        opacity: var(--haxtheme-team-card-info-container-opacity, 0);
-        @apply --haxtheme-team-card-info-container;
-      }
+        #info_container {
+          display: var(--haxtheme-team-card-info-container-display, flex);
+          align-items: var(
+            --haxtheme-team-card-info-container-align-items,
+            center
+          );
+          justify-content: var(
+            --haxtheme-team-card-info-container-justify-content,
+            center
+          );
+          width: var(--haxtheme-team-card-info-container-width, 280px);
+          height: var(--haxtheme-team-card-info-container-height, 280px);
+          background: var(
+            --haxtheme-team-card-info-container-background,
+            rgba(0, 0, 0, 0.8)
+          );
+          border-radius: var(
+            --haxtheme-team-card-info-container-border-radius,
+            50%
+          );
+          color: var(--haxtheme-team-card-info-container-color);
+          opacity: var(--haxtheme-team-card-info-container-opacity, 0);
+          @apply --haxtheme-team-card-info-container;
+        }
 
-      #info_container:hover {
-        opacity: var(--haxtheme-team-card-info-container-hover-opacity, 0.9);
-        transition: var(
-          --haxtheme-team-card-info-container-hover-transition,
-          all 0.3s ease-in-out
-        );
-        @apply --haxtheme-team-card-info-container-hover;
-      }
+        #info_container:hover {
+          opacity: var(--haxtheme-team-card-info-container-hover-opacity, 0.9);
+          transition: var(
+            --haxtheme-team-card-info-container-hover-transition,
+            all 0.3s ease-in-out
+          );
+          @apply --haxtheme-team-card-info-container-hover;
+        }
 
-      .info {
-        display: var(--haxtheme-team-card-info-display, flex);
-        flex-direction: var(--haxtheme-team-card-info-flex-direction, column);
-        align-items: var(--haxtheme-team-card-info-align-items, center);
-        @apply --haxtheme-team-card-info;
-      }
+        .info {
+          display: var(--haxtheme-team-card-info-display, flex);
+          flex-direction: var(--haxtheme-team-card-info-flex-direction, column);
+          align-items: var(--haxtheme-team-card-info-align-items, center);
+          @apply --haxtheme-team-card-info;
+        }
 
-      #name {
-        font-size: var(--haxtheme-team-card-name-font-size, 20px);
-        text-transform: var(
-          --haxtheme-team-card-name-text-transform,
-          uppercase
-        );
-        margin: var(--haxtheme-team-card-name-margin, 0 0 7px 0);
-        border-bottom: var(--haxtheme-team-card-name-border-bottom, solid);
-        border-bottom-width: var(
-          --haxtheme-team-card-name-border-bottom-width,
-          1px
-        );
-        border-bottom-color: var(--haxtheme-team-card-name-border-bottom-color);
-        @apply --haxtheme-team-card-name;
-      }
-    </style>
-    <div id="card_wrap">
-      <div
-        id="card_image"
-        class="image"
-        style$="background-image:url([[image]])"
-      >
-        <div id="info_container">
-          <div class="info">
-            <div id="name">[[name]]</div>
-            <div id="position">[[position]]</div>
+        #name {
+          font-size: var(--haxtheme-team-card-name-font-size, 20px);
+          text-transform: var(
+            --haxtheme-team-card-name-text-transform,
+            uppercase
+          );
+          margin: var(--haxtheme-team-card-name-margin, 0 0 7px 0);
+          border-bottom: var(--haxtheme-team-card-name-border-bottom, solid);
+          border-bottom-width: var(
+            --haxtheme-team-card-name-border-bottom-width,
+            1px
+          );
+          border-bottom-color: var(
+            --haxtheme-team-card-name-border-bottom-color
+          );
+          @apply --haxtheme-team-card-name;
+        }
+      </style>
+      <div id="card_wrap">
+        <div
+          id="card_image"
+          class="image"
+          style$="background-image:url([[image]])"
+        >
+          <div id="info_container">
+            <div class="info">
+              <div id="name">[[name]]</div>
+              <div id="position">[[position]]</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  `;
+    `;
   }
   static get tag() {
     return "team-card";
@@ -2266,96 +2307,108 @@ class TeamCard extends PolymerElement {
        * image
        */
       image: {
-        type: String,
+        type: String
       },
       /**
        * name
        */
       name: {
-        type: String,
+        type: String
       },
       /**
        * position
        */
       position: {
-        type: String,
+        type: String
       }
     };
   }
   constructor() {
     super();
-    import("../../build/es6/node_modules/@polymer/iron-image/iron-image.js");
+    import('../../build/es6/node_modules/@polymer/iron-image/iron-image.js');
   }
 }
 window.customElements.define(TeamCard.tag, TeamCard);
 
 class HaxThemeTeam extends PolymerElement {
   static get tag() {
-    return 'haxtheme-team';
+    return "haxtheme-team";
   }
   static get template() {
     return html`
-    <style>
-      :host {
-        display: block;
-      }
-            /**
+      <style>
+        :host {
+          display: block;
+        }
+        /**
        * Hide the slotted content during edit mode. This must be here to work.
        */
-      :host([edit-mode]) #slot {
-        display: none;
-      }
-      a {
-        text-decoration: var(--haxtheme-team-a-text-decoration);
-        @apply --haxtheme-team-a;
-      }
-
-      #team_card {
-        display: var(--haxtheme-team-team-card-display, grid);
-        grid-template-columns: var(--haxtheme-team-team-card-grid-template-columns, repeat(2, auto [col-start]));
-        justify-content: var(--haxtheme-team-team-card-justify-content, center);
-        margin: var(--haxtheme-team-team-card-margin, 25px 0 0 0);
-        padding: var(--haxtheme-team-team-card-padding, 0 0 25px 0);
-        @apply --haxtheme-team-card;
-      }
-
-      @media screen and (max-width: 768px) {
-        #team_card {
-          grid-template-columns: var(--haxtheme-team-team-card-grid-template-columns-mobile, repeat(1, auto [col-start]));
-          @apply --haxtheme-team-card-mobile;
+        :host([edit-mode]) #slot {
+          display: none;
         }
-      }
-    </style>
-    <site-query
-      result="{{__items}}"
-      conditions='{"metadata.type": "team"}'
-      sort>
-    </site-query>
-    <page-banner
-      image="files/theme-images/page-banners/team_banner.jpg"
-      text="Team"
-      alt="Office of Digital Learning Team">
-    </page-banner>
-    <div id="team_card">
-      <dom-repeat items="[[__items]]" mutable-data>
-        <template>
-          <a href="[[item.location]]">
-            <team-card
-              name="[[item.metadata.fields.name]]"
-              image="[[item.metadata.fields.image]]"
-              item="[[item]]"
-              position="[[item.metadata.fields.jobTitle]]">
-            </team-card>
-          </a>
-        </template>
+        a {
+          text-decoration: var(--haxtheme-team-a-text-decoration);
+          @apply --haxtheme-team-a;
+        }
+
+        #team_card {
+          display: var(--haxtheme-team-team-card-display, grid);
+          grid-template-columns: var(
+            --haxtheme-team-team-card-grid-template-columns,
+            repeat(2, auto [col-start])
+          );
+          justify-content: var(
+            --haxtheme-team-team-card-justify-content,
+            center
+          );
+          margin: var(--haxtheme-team-team-card-margin, 25px 0 0 0);
+          padding: var(--haxtheme-team-team-card-padding, 0 0 25px 0);
+          @apply --haxtheme-team-card;
+        }
+
+        @media screen and (max-width: 768px) {
+          #team_card {
+            grid-template-columns: var(
+              --haxtheme-team-team-card-grid-template-columns-mobile,
+              repeat(1, auto [col-start])
+            );
+            @apply --haxtheme-team-card-mobile;
+          }
+        }
+      </style>
+      <site-query
+        result="{{__items}}"
+        conditions='{"metadata.type": "team"}'
+        sort
+      >
+      </site-query>
+      <page-banner
+        image="files/theme-images/page-banners/team_banner.jpg"
+        text="Team"
+        alt="Office of Digital Learning Team"
+      >
+      </page-banner>
+      <div id="team_card">
+        <dom-repeat items="[[__items]]" mutable-data>
+          <template>
+            <a href="[[item.location]]">
+              <team-card
+                name="[[item.metadata.fields.name]]"
+                image="[[item.metadata.fields.image]]"
+                item="[[item]]"
+                position="[[item.metadata.fields.jobTitle]]"
+              >
+              </team-card>
+            </a>
+          </template>
         </dom-repeat>
-    </div>
-    <div id="contentcontainer">
-      <div id="slot">
-        <slot></slot>
       </div>
-    </div>
-  `;
+      <div id="contentcontainer">
+        <div id="slot">
+          <slot></slot>
+        </div>
+      </div>
+    `;
   }
 }
 window.customElements.define(HaxThemeTeam.tag, HaxThemeTeam);
@@ -2363,97 +2416,107 @@ window.customElements.define(HaxThemeTeam.tag, HaxThemeTeam);
 class CourseCard extends PolymerElement {
   static get template() {
     return html`
-    <style>
-      :host {
-        display: block;
-      }
-      a {
-        text-decoration: var(--haxtheme-course-card-a-text-decoration);
-        color: var(--haxtheme-course-card-a-color);
-        display: var(--haxtheme-course-card-a-display, block);
-        width: var(--haxtheme-course-card-a-width, 100%);
-        @apply --haxtheme-course-card-a;
-      }
-      #card_wrap {
-        display: var(--haxtheme-course-card-card-wrap-display, flex);
-        flex-direction: var(
-          --haxtheme-course-card-card-wrap-flex-direction,
-          column
-        );
-        align-items: var(--haxtheme-course-card-card-wrap-align-items, center);
-        @apply --haxtheme-course-card-card-wrap;
-      }
-      #course_number {
-        font-size: var(--haxtheme-course-card-course-number-font-size, 28px);
-        text-transform: var(
-          --haxtheme-course-card-course-number-text-transform
-        );
-        line-height: 1.4;
-        @apply --haxtheme-course-card-course-number;
-      }
-      #course_name {
-        font-size: var(--haxtheme-course-card-course-name-font-size);
-        text-align: var(--haxtheme-course-card-course-name-text-align, center);
-        width: var(--haxtheme-course-card-course-name-width, 90%);
-        margin: var(--haxtheme-course-card-course-name-margin, 0 0 15px 0);
-        line-height: 1.2;
-        @apply --haxtheme-course-card-course-name;
-      }
-      #course_icon {
-        background-color: var(
-          --haxtheme-course-card-course-icon-background-color
-        );
-        border-radius: var(
-          --haxtheme-course-card-course-icon-border-radius,
-          50%
-        );
-        position: var(--haxtheme-course-card-course-icon-position, relative);
-        bottom: var(--haxtheme-course-card-course-icon-position-bottom, 50px);
-        border: var(--haxtheme-course-card-course-icon-border, solid);
-        border-color: var(--haxtheme-course-card-course-icon-border-color);
-        border-width: var(--haxtheme-course-card-course-icon-border-width, 5px);
-        margin: var(--haxtheme-course-card-course-icon-margin, 0 0 -40px 0);
-        @apply --haxtheme-course-card-course-icon;
-      }
-      iron-icon {
-        width: var(--haxtheme-course-card-iron-icon-width, 70px);
-        height: var(--haxtheme-course-card-iron-icon-height, 70px);
-        fill: var(--haxtheme-course-card-iron-icon-color);
-        @apply --haxtheme-course-card-course-iron-icon;
-      }
+      <style>
+        :host {
+          display: block;
+        }
+        a {
+          text-decoration: var(--haxtheme-course-card-a-text-decoration);
+          color: var(--haxtheme-course-card-a-color);
+          display: var(--haxtheme-course-card-a-display, block);
+          width: var(--haxtheme-course-card-a-width, 100%);
+          @apply --haxtheme-course-card-a;
+        }
+        #card_wrap {
+          display: var(--haxtheme-course-card-card-wrap-display, flex);
+          flex-direction: var(
+            --haxtheme-course-card-card-wrap-flex-direction,
+            column
+          );
+          align-items: var(
+            --haxtheme-course-card-card-wrap-align-items,
+            center
+          );
+          @apply --haxtheme-course-card-card-wrap;
+        }
+        #course_number {
+          font-size: var(--haxtheme-course-card-course-number-font-size, 28px);
+          text-transform: var(
+            --haxtheme-course-card-course-number-text-transform
+          );
+          line-height: 1.4;
+          @apply --haxtheme-course-card-course-number;
+        }
+        #course_name {
+          font-size: var(--haxtheme-course-card-course-name-font-size);
+          text-align: var(
+            --haxtheme-course-card-course-name-text-align,
+            center
+          );
+          width: var(--haxtheme-course-card-course-name-width, 90%);
+          margin: var(--haxtheme-course-card-course-name-margin, 0 0 15px 0);
+          line-height: 1.2;
+          @apply --haxtheme-course-card-course-name;
+        }
+        #course_icon {
+          background-color: var(
+            --haxtheme-course-card-course-icon-background-color
+          );
+          border-radius: var(
+            --haxtheme-course-card-course-icon-border-radius,
+            50%
+          );
+          position: var(--haxtheme-course-card-course-icon-position, relative);
+          bottom: var(--haxtheme-course-card-course-icon-position-bottom, 50px);
+          border: var(--haxtheme-course-card-course-icon-border, solid);
+          border-color: var(--haxtheme-course-card-course-icon-border-color);
+          border-width: var(
+            --haxtheme-course-card-course-icon-border-width,
+            5px
+          );
+          margin: var(--haxtheme-course-card-course-icon-margin, 0 0 -40px 0);
+          @apply --haxtheme-course-card-course-icon;
+        }
+        iron-icon {
+          width: var(--haxtheme-course-card-iron-icon-width, 70px);
+          height: var(--haxtheme-course-card-iron-icon-height, 70px);
+          fill: var(--haxtheme-course-card-iron-icon-color);
+          @apply --haxtheme-course-card-course-iron-icon;
+        }
 
-      #course_image {
-        background-repeat: var(
-          --haxtheme-course-card-course-image-background-repeat,
-          no-repeat
-        );
-        background-size: var(
-          --haxtheme-course-card-course-image-background-size,
-          cover
-        );
-        background-position: var(
-          --haxtheme-course-card-course-image-background-position,
-          right center
-        );
-        width: var(--haxtheme-course-card-course-image-width, 100%);
-        height: var(--haxtheme-course-card-course-image-height, 150px);
-        @apply --haxtheme-course-card-course-image;
-      }
-    </style>
-    <a href$="[[url]]">
-      <div id="card_wrap">
-        <div
-          id="course_image"
-          style$="background-image:url([[image]])"
-          alt="[[alt]]"
-        ></div>
-        <div id="course_icon">
-          <iron-icon icon="[[icon]]"></iron-icon>
+        #course_image {
+          background-repeat: var(
+            --haxtheme-course-card-course-image-background-repeat,
+            no-repeat
+          );
+          background-size: var(
+            --haxtheme-course-card-course-image-background-size,
+            cover
+          );
+          background-position: var(
+            --haxtheme-course-card-course-image-background-position,
+            right center
+          );
+          width: var(--haxtheme-course-card-course-image-width, 100%);
+          height: var(--haxtheme-course-card-course-image-height, 150px);
+          @apply --haxtheme-course-card-course-image;
+        }
+      </style>
+      <a href$="[[url]]">
+        <div id="card_wrap">
+          <div
+            id="course_image"
+            style$="background-image:url([[image]])"
+            alt="[[alt]]"
+          ></div>
+          <div id="course_icon">
+            <iron-icon icon="[[icon]]"></iron-icon>
+          </div>
+          <div id="course_number">[[number]]</div>
+          <div id="course_name">[[name]]</div>
         </div>
-        <div id="course_number">[[number]]</div>
-        <div id="course_name">[[name]]</div>
-      </div>
-    </a>`;
+      </a>
+    `;
   }
   static get tag() {
     return "course-card";
@@ -2464,37 +2527,37 @@ class CourseCard extends PolymerElement {
        * Course Image
        */
       image: {
-        type: String,
+        type: String
       },
       /**
        * Image Alt Text
        */
       alt: {
-        type: String,
+        type: String
       },
       /**
        * Course Number
        */
       number: {
-        type: String,
+        type: String
       },
       /**
        * Course Icon
        */
       icon: {
-        type: String,
+        type: String
       },
       /**
        * Course Name
        */
       name: {
-        type: String,
+        type: String
       },
       /**
        * Course URL
        */
       url: {
-        type: String,
+        type: String
       }
     };
   }
@@ -3211,77 +3274,87 @@ document.head.appendChild($_documentContainer$1);
 class HaxThemeCourses extends PolymerElement {
   static get template() {
     return html`
-    <style>
-      :host {
-        display: block;
-      }
-      /**
+      <style>
+        :host {
+          display: block;
+        }
+        /**
        * Hide the slotted content during edit mode. This must be here to work.
        */
-      :host([edit-mode]) #slot {
-        display: none;
-      }
-      #course_wrap {
-        width: var(--haxtheme-courses-course-wrap-width, 80%);
-        margin: var(--haxtheme-courses-course-wrap-margin, 25px auto 15px auto);
-        @apply --haxtheme-courses-course-wrap;
-      }
+        :host([edit-mode]) #slot {
+          display: none;
+        }
+        #course_wrap {
+          width: var(--haxtheme-courses-course-wrap-width, 80%);
+          margin: var(
+            --haxtheme-courses-course-wrap-margin,
+            25px auto 15px auto
+          );
+          @apply --haxtheme-courses-course-wrap;
+        }
 
-      #course {
-        display: var(--haxtheme-courses-course-display, grid);
-        grid-template-columns: var(--haxtheme-courses-course-grid-template-columns, repeat(auto-fit, minmax(250px, 1fr)));
-        grid-column-gap: var(--haxtheme-courses-course-grid-column-gap, 2vw);
-        grid-row-gap: var(--haxtheme-courses-course-grid-row-gap, 2vw);
-        @apply --haxtheme-courses-course;
-      }
+        #course {
+          display: var(--haxtheme-courses-course-display, grid);
+          grid-template-columns: var(
+            --haxtheme-courses-course-grid-template-columns,
+            repeat(auto-fit, minmax(250px, 1fr))
+          );
+          grid-column-gap: var(--haxtheme-courses-course-grid-column-gap, 2vw);
+          grid-row-gap: var(--haxtheme-courses-course-grid-row-gap, 2vw);
+          @apply --haxtheme-courses-course;
+        }
 
-      course-card {
-        width: var(--haxtheme-courses-course-card-width, 100%);
-        border: var(--haxtheme-courses-course-card-border, solid);
-        border-width: var(--haxtheme-courses-course-card-border-width, 2px);
-        border-color: var(--haxtheme-courses-course-card-border-color);
-        @apply --haxtheme-courses-course-card;
-      }
+        course-card {
+          width: var(--haxtheme-courses-course-card-width, 100%);
+          border: var(--haxtheme-courses-course-card-border, solid);
+          border-width: var(--haxtheme-courses-course-card-border-width, 2px);
+          border-color: var(--haxtheme-courses-course-card-border-color);
+          @apply --haxtheme-courses-course-card;
+        }
 
-      course-card:hover {
-        box-shadow: var(--haxtheme-courses-course-card-hover-box-shadow, 1px 1px 5px #dcdcdc);
-        @apply --haxtheme-courses-course-card-hover;
-      }
-    </style>
-    <site-query
-      result="{{__items}}"
-      conditions='{"metadata.type": "course"}'
-      sort
-    ></site-query>
-    <page-banner
-      image="files/theme-images/page-banners/course_banner.jpg"
-      text="Courses"
-      alt="Gateway to the Sciences"
-    ></page-banner>
-    <div id="course_wrap">
-      <div id="course_list">
-        <div id="course">
-          <dom-repeat items="[[__items]]" mutable-data>
-            <template>
-              <course-card
-                image="[[item.metadata.fields.image]]"
-                alt="[[item.metadata.fields.imageAlt]]"
-                number="[[item.title]]"
-                icon="[[item.metadata.icon]]"
-                name="[[item.name]]"
-                url="[[item.location]]">
-              </course-card>
-            </template>
-          </dom-repeat>
+        course-card:hover {
+          box-shadow: var(
+            --haxtheme-courses-course-card-hover-box-shadow,
+            1px 1px 5px #dcdcdc
+          );
+          @apply --haxtheme-courses-course-card-hover;
+        }
+      </style>
+      <site-query
+        result="{{__items}}"
+        conditions='{"metadata.type": "course"}'
+        sort
+      ></site-query>
+      <page-banner
+        image="files/theme-images/page-banners/course_banner.jpg"
+        text="Courses"
+        alt="Gateway to the Sciences"
+      ></page-banner>
+      <div id="course_wrap">
+        <div id="course_list">
+          <div id="course">
+            <iron-list items="[[__items]]" mutable-data>
+              <template>
+                <course-card
+                  image="[[item.metadata.fields.image]]"
+                  alt="[[item.metadata.fields.imageAlt]]"
+                  number="[[item.title]]"
+                  icon="[[item.metadata.icon]]"
+                  name="[[item.name]]"
+                  url="[[item.location]]"
+                >
+                </course-card>
+              </template>
+            </iron-list>
+          </div>
         </div>
       </div>
-    </div>
-    <div id="contentcontainer">
-      <div id="slot">
-        <slot></slot>
+      <div id="contentcontainer">
+        <div id="slot">
+          <slot></slot>
+        </div>
       </div>
-    </div>
-  `;
+    `;
   }
   static get tag() {
     return "haxtheme-courses";
@@ -3302,273 +3375,273 @@ window.customElements.define(HaxThemeCourses.tag, HaxThemeCourses);
 class HaxThemeCourse extends PolymerElement {
   static get template() {
     return html`
-    <style>
-      :host {
-        display: block;
-        --site-recent-content-block-item-link: {
-          text-transform: uppercase;
+      <style>
+        :host {
+          display: block;
+          --site-recent-content-block-item-link: {
+            text-transform: uppercase;
+          }
         }
-      }
-      /**
+        /**
        * Hide the slotted content during edit mode. This must be here to work.
        */
-      :host([edit-mode]) #slot {
-        display: none;
-      }
-      h1 {
-        font-size: var(--haxtheme-course-h1-font-size);
-        font-weight: var(--haxtheme-course-h1-font-weight);
-        margin: var(--haxtheme-course-h1-margin, 25px 0 0 0);
-        text-transform: var(--haxtheme-course-h1-text-transform);
-        @apply --haxtheme-course-h1;
-      }
+        :host([edit-mode]) #slot {
+          display: none;
+        }
+        h1 {
+          font-size: var(--haxtheme-course-h1-font-size);
+          font-weight: var(--haxtheme-course-h1-font-weight);
+          margin: var(--haxtheme-course-h1-margin, 25px 0 0 0);
+          text-transform: var(--haxtheme-course-h1-text-transform);
+          @apply --haxtheme-course-h1;
+        }
 
-      h2 {
-        font-size: var(--haxtheme-course-h2-font-size);
-        font-weight: var(--haxtheme-course-h2-font-weight);
-        margin: var(--haxtheme-course-h2-margin, -10px 0 0 0);
-        @apply --haxtheme-course-h2;
-      }
+        h2 {
+          font-size: var(--haxtheme-course-h2-font-size);
+          font-weight: var(--haxtheme-course-h2-font-weight);
+          margin: var(--haxtheme-course-h2-margin, -10px 0 0 0);
+          @apply --haxtheme-course-h2;
+        }
 
-      h3 {
-        font-size: 20px;
-        font-weight: 100;
-        margin: -5px 0 0 0;
-      }
+        h3 {
+          font-size: 20px;
+          font-weight: 100;
+          margin: -5px 0 0 0;
+        }
 
-      page-banner {
-        --page-banner-text-transform: uppercase;
-      }
+        page-banner {
+          --page-banner-text-transform: uppercase;
+        }
 
-      site-breadcrumb {
-        margin: var(--haxtheme-course-site-breadcrumb-margin);
-        @apply --haxtheme-course-site-breadcrumb;
-      }
-
-      @media screen and (max-width: 768px) {
         site-breadcrumb {
-          margin: var(
-            --haxtheme-course-site-breadcrumb-margin-mobile,
-            -15px 0 15px
-          );
-          @apply --haxtheme-course-site-breadcrumb-mobile;
+          margin: var(--haxtheme-course-site-breadcrumb-margin);
+          @apply --haxtheme-course-site-breadcrumb;
         }
-      }
 
-      @media screen and (max-width: 768px) {
-        #course_wrap {
-          padding: var(--haxtheme-course-course-wrap-padding, 20px);
-          @apply --haxtheme-course-course-wrap-mobile;
+        @media screen and (max-width: 768px) {
+          site-breadcrumb {
+            margin: var(
+              --haxtheme-course-site-breadcrumb-margin-mobile,
+              -15px 0 15px
+            );
+            @apply --haxtheme-course-site-breadcrumb-mobile;
+          }
         }
-      }
 
-      .course_container {
-        display: var(--haxtheme-course-course-container-display, flex);
-        width: var(--haxtheme-course-course-container-width, 75%);
-        margin: var(--haxtheme-course-course-container-margin, 0 auto 0 auto);
-        @apply --haxtheme-course-course-container;
-      }
+        @media screen and (max-width: 768px) {
+          #course_wrap {
+            padding: var(--haxtheme-course-course-wrap-padding, 20px);
+            @apply --haxtheme-course-course-wrap-mobile;
+          }
+        }
 
-      @media screen and (max-width: 768px) {
         .course_container {
-          flex-direction: var(
-            --haxtheme-course-course-container-flex-direction-mobile,
-            column
-          );
-          width: var(--haxtheme-course-course-container-width-mobile, 98%);
-          @apply --haxtheme-course-course-container-mobile;
+          display: var(--haxtheme-course-course-container-display, flex);
+          width: var(--haxtheme-course-course-container-width, 75%);
+          margin: var(--haxtheme-course-course-container-margin, 0 auto 0 auto);
+          @apply --haxtheme-course-course-container;
         }
-      }
 
-      .course_inner_wrap {
-        width: var(--haxtheme-course-course-inner-wrap-width, 90%);
-        margin: var(--haxtheme-course-course-inner-wrap-margin, 0 20px 0 0);
-        @apply --haxtheme-course-course-inner-wrap;
-      }
+        @media screen and (max-width: 768px) {
+          .course_container {
+            flex-direction: var(
+              --haxtheme-course-course-container-flex-direction-mobile,
+              column
+            );
+            width: var(--haxtheme-course-course-container-width-mobile, 98%);
+            @apply --haxtheme-course-course-container-mobile;
+          }
+        }
 
-      @media screen and (max-width: 768px) {
         .course_inner_wrap {
-          width: var(--haxtheme-course-course-inner-wrap-width-mobile, 100%);
-          margin: var(
-            --haxtheme-course-course-inner-wrap-margin-mobile,
-            10px 0 0 0
+          width: var(--haxtheme-course-course-inner-wrap-width, 90%);
+          margin: var(--haxtheme-course-course-inner-wrap-margin, 0 20px 0 0);
+          @apply --haxtheme-course-course-inner-wrap;
+        }
+
+        @media screen and (max-width: 768px) {
+          .course_inner_wrap {
+            width: var(--haxtheme-course-course-inner-wrap-width-mobile, 100%);
+            margin: var(
+              --haxtheme-course-course-inner-wrap-margin-mobile,
+              10px 0 0 0
+            );
+            @apply --haxtheme-course-course-inner-wrap-mobile;
+          }
+        }
+
+        #course_header {
+          border-left: var(--haxtheme-course-course-header-border-left);
+          border-left-width: var(
+            --haxtheme-course-course-header-border-left-width
           );
-          @apply --haxtheme-course-course-inner-wrap-mobile;
+          border-left-color: var(--haxtheme-course-course-header-border-color);
+          padding: var(--haxtheme-course-course-header-padding, 0 0 0 15px);
+          @apply --haxtheme-course-course-header;
         }
-      }
 
-      #course_header {
-        border-left: var(--haxtheme-course-course-header-border-left);
-        border-left-width: var(
-          --haxtheme-course-course-header-border-left-width
-        );
-        border-left-color: var(--haxtheme-course-course-header-border-color);
-        padding: var(--haxtheme-course-course-header-padding, 0 0 0 15px);
-        @apply --haxtheme-course-course-header;
-      }
-
-      #course_archive {
-        width: var(--haxtheme-course-course-archive-width, 121%);
-        margin: var(--haxtheme-course-course-arhive-margin, 0 0 25px 0);
-        @apply --haxtheme-course-course-archive;
-      }
-
-      @media screen and (max-width: 768px) {
         #course_archive {
-          width: var(--haxtheme-course-course-archive-width-mobile, 100%);
-          margin: var(--haxtheme-course-course-arhive-margin, 0 auto 0 auto);
-          @apply --haxtheme-course-course-archive-mobile;
+          width: var(--haxtheme-course-course-archive-width, 121%);
+          margin: var(--haxtheme-course-course-arhive-margin, 0 0 25px 0);
+          @apply --haxtheme-course-course-archive;
         }
-      }
 
-      #credit {
-        margin: 5px 0 0 0;
-      }
+        @media screen and (max-width: 768px) {
+          #course_archive {
+            width: var(--haxtheme-course-course-archive-width-mobile, 100%);
+            margin: var(--haxtheme-course-course-arhive-margin, 0 auto 0 auto);
+            @apply --haxtheme-course-course-archive-mobile;
+          }
+        }
 
-      #description {
-        font-size: var(--haxtheme-course-description-font-size);
-        font-weight: var(--haxtheme-course-description-font-weight);
-        line-height: var(--haxtheme-course-description-line-height);
-        margin: var(--haxtheme-course-description-margin, 15px 0 25px 0);
-        @apply --haxtheme-course-course-description;
-      }
+        #credit {
+          margin: 5px 0 0 0;
+        }
 
-      .sidebar_wrap {
-        width: var(--haxtheme-course-sidebar-wrap-width);
-        margin: var(--haxtheme-course-sidebar-wrap-margin);
-        border-left: var(--haxtheme-course-sidebar-wrap-border-left);
-        border-left-width: var(
-          --haxtheme-course-sidebar-wrap-border-left-width
-        );
-        border-left-color: var(
-          --haxtheme-course-sidebar-wrap-border-left-color
-        );
-        height: var(--haxtheme-course-sidebar-wrap-height);
-        padding: var(--haxtheme-course-sidebar-wrap-padding);
-        @apply --haxtheme-course-sidebar-wrap;
-      }
+        #description {
+          font-size: var(--haxtheme-course-description-font-size);
+          font-weight: var(--haxtheme-course-description-font-weight);
+          line-height: var(--haxtheme-course-description-line-height);
+          margin: var(--haxtheme-course-description-margin, 15px 0 25px 0);
+          @apply --haxtheme-course-course-description;
+        }
 
-      @media screen and (max-width: 768px) {
         .sidebar_wrap {
-          width: var(--haxtheme-course-sidebar-wrap-width-mobile);
-          height: var(--haxtheme-course-sidebar-wrap-height-mobile);
-          border: var(--haxtheme-course-sidebar-wrap-border-mobile);
-          padding: var(--haxtheme-course-sidebar-wrap-padding-mobile);
-          margin: var(--haxtheme-course-sidebar-wrap-margin-mobile);
-          @apply --haxtheme-course-sidebar-wrap-mobile;
+          width: var(--haxtheme-course-sidebar-wrap-width);
+          margin: var(--haxtheme-course-sidebar-wrap-margin);
+          border-left: var(--haxtheme-course-sidebar-wrap-border-left);
+          border-left-width: var(
+            --haxtheme-course-sidebar-wrap-border-left-width
+          );
+          border-left-color: var(
+            --haxtheme-course-sidebar-wrap-border-left-color
+          );
+          height: var(--haxtheme-course-sidebar-wrap-height);
+          padding: var(--haxtheme-course-sidebar-wrap-padding);
+          @apply --haxtheme-course-sidebar-wrap;
         }
-      }
 
-      #video_wrap {
-        margin: var(--haxtheme-course-video-wrap-margin, 15px 15px 15px 0);
-        @apply --haxtheme-course-video-wrap;
-      }
+        @media screen and (max-width: 768px) {
+          .sidebar_wrap {
+            width: var(--haxtheme-course-sidebar-wrap-width-mobile);
+            height: var(--haxtheme-course-sidebar-wrap-height-mobile);
+            border: var(--haxtheme-course-sidebar-wrap-border-mobile);
+            padding: var(--haxtheme-course-sidebar-wrap-padding-mobile);
+            margin: var(--haxtheme-course-sidebar-wrap-margin-mobile);
+            @apply --haxtheme-course-sidebar-wrap-mobile;
+          }
+        }
 
-      #video_placehold {
-        display: var(--haxtheme-course-video-placehold-display, flex);
-        justify-content: var(
-          --haxtheme-course-video-placehold-justify-content,
-          center
-        );
-        @apply --haxtheme-course-video-placehold;
-      }
+        #video_wrap {
+          margin: var(--haxtheme-course-video-wrap-margin, 15px 15px 15px 0);
+          @apply --haxtheme-course-video-wrap;
+        }
 
-      iron-icon {
-        width: var(--haxtheme-course-iron-icon-width, 400px);
-        height: var(--haxtheme-course-iron-icon-height, 400px);
-        fill: var(--haxtheme-course-iron-icon-fill);
-        margin: var(--haxtheme-course-iron-icon-margin, 0 0 -20px 0);
-        @apply --haxtheme-course-iron-icon;
-      }
+        #video_placehold {
+          display: var(--haxtheme-course-video-placehold-display, flex);
+          justify-content: var(
+            --haxtheme-course-video-placehold-justify-content,
+            center
+          );
+          @apply --haxtheme-course-video-placehold;
+        }
 
-      @media screen and (max-width: 768px) {
         iron-icon {
-          width: var(--haxtheme-course-iron-icon-width-mobile, 250px);
-          height: var(--haxtheme-course-iron-icon-height-mobile, 250px);
-          @apply --haxtheme-course-iron-icon-mobile;
+          width: var(--haxtheme-course-iron-icon-width, 400px);
+          height: var(--haxtheme-course-iron-icon-height, 400px);
+          fill: var(--haxtheme-course-iron-icon-fill);
+          margin: var(--haxtheme-course-iron-icon-margin, 0 0 -20px 0);
+          @apply --haxtheme-course-iron-icon;
         }
-      }
 
-      site-recent-content-block {
-        --site-recent-content-block-header-color: #e2801e;
-      }
+        @media screen and (max-width: 768px) {
+          iron-icon {
+            width: var(--haxtheme-course-iron-icon-width-mobile, 250px);
+            height: var(--haxtheme-course-iron-icon-height-mobile, 250px);
+            @apply --haxtheme-course-iron-icon-mobile;
+          }
+        }
 
-      #prereqs {
-        display: flex;
-      }
-    </style>
-    <page-banner
-      image="[[activeItem.metadata.fields.image]]"
-      text="[[activeItem.title]]"
-      alt="[[activeItem.metadata.fields.imageAlt]]"
-    ></page-banner>
-    <div id="course_wrap">
-      <div class="course_container">
-        <div class="course_inner_wrap">
-          <site-breadcrumb></site-breadcrumb>
-          <template is="dom-if" if="[[activeItem.metadata.fields.video]]">
-            <div id="video_wrap">
-              <video-player
-                width="100%"
-                source="[[activeItem.metadata.fields.video]]"
-              ></video-player>
-            </div>
-          </template>
-          <template is="dom-if" if="[[!activeItem.metadata.fields.video]]">
-            <div id="video_placehold">
-              <iron-icon icon="[[activeItem.metadata.icon]]"></iron-icon>
-            </div>
-          </template>
-          <div id="course_header">
-            <div id="title">
-              <h1>[[activeItem.title]]</h1>
-            </div>
-            <div id="name">
-              <h2>[[activeItem.name]]</h2>
-            </div>
-            <div id="credit">
-              <h3>Credits: [[activeItem.metadata.fields.credits]]</h3>
-            </div>
+        site-recent-content-block {
+          --site-recent-content-block-header-color: #e2801e;
+        }
 
-            <div id="prereqs">
-              <div class="prereq_title">
-                <h3>Prerequisites:</h3>
+        #prereqs {
+          display: flex;
+        }
+      </style>
+      <page-banner
+        image="[[activeItem.metadata.fields.image]]"
+        text="[[activeItem.title]]"
+        alt="[[activeItem.metadata.fields.imageAlt]]"
+      ></page-banner>
+      <div id="course_wrap">
+        <div class="course_container">
+          <div class="course_inner_wrap">
+            <site-breadcrumb></site-breadcrumb>
+            <template is="dom-if" if="[[activeItem.metadata.fields.video]]">
+              <div id="video_wrap">
+                <video-player
+                  width="100%"
+                  source="[[activeItem.metadata.fields.video]]"
+                ></video-player>
+              </div>
+            </template>
+            <template is="dom-if" if="[[!activeItem.metadata.fields.video]]">
+              <div id="video_placehold">
+                <iron-icon icon="[[activeItem.metadata.icon]]"></iron-icon>
+              </div>
+            </template>
+            <div id="course_header">
+              <div id="title">
+                <h1>[[activeItem.title]]</h1>
+              </div>
+              <div id="name">
+                <h2>[[activeItem.name]]</h2>
+              </div>
+              <div id="credit">
+                <h3>Credits: [[activeItem.metadata.fields.credits]]</h3>
               </div>
 
-              <template
-                is="dom-repeat"
-                items="[[activeItem.metadata.fields.prereqs]]"
-                as="prereq"
-              >
-                <a href="#">
-                  [[prereq]]
-                </a>
-              </template>
+              <div id="prereqs">
+                <div class="prereq_title">
+                  <h3>Prerequisites:</h3>
+                </div>
+
+                <template
+                  is="dom-repeat"
+                  items="[[activeItem.metadata.fields.prereqs]]"
+                  as="prereq"
+                >
+                  <a href="#">
+                    [[prereq]]
+                  </a>
+                </template>
+              </div>
+            </div>
+
+            <div id="description">[[activeItem.description]]</div>
+            <div id="contentcontainer">
+              <div id="slot">
+                <slot></slot>
+              </div>
             </div>
           </div>
-
-          <div id="description">[[activeItem.description]]</div>
-          <div id="contentcontainer">
-        <div id="slot">
-          <slot></slot>
-        </div>
-      </div>
-        </div>
-        <div class="sidebar_wrap">
-          <div id="course_archive">
-            <site-recent-content-block
-              title="Related Courses"
-              conditions="[[__subjectSiteQueryCondition(activeItem)]]"
-              result="{{__items}}"
-              limit="5"
-              sort
-            >
-            </site-recent-content-block>
+          <div class="sidebar_wrap">
+            <div id="course_archive">
+              <site-recent-content-block
+                title="Related Courses"
+                conditions="[[__subjectSiteQueryCondition(activeItem)]]"
+                result="{{__items}}"
+                limit="5"
+                sort
+              >
+              </site-recent-content-block>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  `;
+    `;
   }
   static get tag() {
     return "haxtheme-course";
@@ -3586,9 +3659,9 @@ class HaxThemeCourse extends PolymerElement {
 
   constructor() {
     super();
-    import("../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-breadcrumb.js");
-    import("../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/blocks/site-recent-content-block.js");
-    import("../../build/es6/node_modules/@lrnwebcomponents/video-player/video-player.js");
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-breadcrumb.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/blocks/site-recent-content-block.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/video-player/video-player.js');
     this.__disposer = [];
     autorun(reaction => {
       this.manifest = toJS(store.routerManifest);
@@ -3899,11 +3972,11 @@ class HaxThemeBlog extends PolymerElement {
 
   constructor() {
     super();
-    import("../../build/es6/node_modules/@polymer/iron-image/iron-image.js");
-    import("../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-menu-button.js");
-    import("../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-breadcrumb.js");
-    import("../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/blocks/site-recent-content-block.js");
-    import("../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-print-button.js");
+    import('../../build/es6/node_modules/@polymer/iron-image/iron-image.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-menu-button.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-breadcrumb.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/blocks/site-recent-content-block.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-print-button.js');
     this.__disposer = [];
     autorun(reaction => {
       this.activeItem = toJS(store.activeItem);
@@ -4172,13 +4245,13 @@ class HaxThemeProfile extends PolymerElement {
   }
   constructor() {
     super();
-    import("../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-menu-button.js");
-    import("../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-breadcrumb.js");
-    import("../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/blocks/site-recent-content-block.js");
-    import("../../build/es6/node_modules/@polymer/iron-image/iron-image.js");
-    import("../../build/es6/node_modules/@polymer/paper-button/paper-button.js");
-    import("../../build/es6/node_modules/@polymer/paper-tooltip/paper-tooltip.js");
-    import("../../build/es6/node_modules/@polymer/iron-icon/iron-icon.js");
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-menu-button.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-breadcrumb.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/blocks/site-recent-content-block.js');
+    import('../../build/es6/node_modules/@polymer/iron-image/iron-image.js');
+    import('../../build/es6/node_modules/@polymer/paper-button/paper-button.js');
+    import('../../build/es6/node_modules/@polymer/paper-tooltip/paper-tooltip.js');
+    import('../../build/es6/node_modules/@polymer/iron-icon/iron-icon.js');
     this.__disposer = [];
     autorun(reaction => {
       this.manifest = toJS(store.routerManifest);
@@ -4193,7 +4266,7 @@ class HaxThemeProfile extends PolymerElement {
     for (var i in this.__disposer) {
       this.__disposer[i].dispose();
     }
-      super.disconnectedCallback();
+    super.disconnectedCallback();
   }
 
   __recentPostsConditions(activeItem) {
@@ -4212,259 +4285,260 @@ window.customElements.define(HaxThemeProfile.tag, HaxThemeProfile);
 class HaxThemeSyllabus extends PolymerElement {
   static get template() {
     return html`
-    <style>
-      :host {
-        display: block;
-      }
-      /**
+      <style>
+        :host {
+          display: block;
+        }
+        /**
        * Hide the slotted content during edit mode. This must be here to work.
        */
-      :host([edit-mode]) #slot {
-        display: none;
-      }
-      a {
-        color: var(--haxtheme-syllabus-a-color);
-        text-decoration: var(--haxtheme-syllabus-a-text-decoration);
-        @apply --haxtheme-syllabus-a;
-      }
-
-      a:active,
-      a:focus,
-      a:hover {
-        color: var(--haxtheme-syllabus-a-hover-color);
-        text-decoration: var(--haxtheme-syllabus-a-hover-text-decoration);
-        @apply --haxtheme-syllabus-a-hover;
-      }
-
-      h2 {
-        margin: var(--haxtheme-syllabus-h2-margin, 0);
-        font-weight: var(--haxtheme-syllabus-h2-font-weight);
-        font-size: var(--haxtheme-syllabus-h2-font-size);
-        @apply --haxtheme-syllabus-h2;
-      }
-
-      h3 {
-        margin: var(--haxtheme-syllabus-h3-margin, 0);
-        font-weight: var(--haxtheme-syllabus-h3-font-weight);
-        font-size: var(--haxtheme-syllabus-h3-font-size);
-        @apply --haxtheme-syllabus-h3;
-      }
-
-      #syllabus_header {
-        border-left: var(--haxtheme-syllabus-header-border-left);
-        border-left-width: var(--haxtheme-syllabus-header-border-left-width);
-        border-left-color: var(--haxtheme-syllabus-accent-color);
-        padding-left: var(--haxtheme-syllabus-header-padding-left, 15px);
-        @apply --haxtheme-syllabus-header;
-      }
-
-      #syllabus_title h1 {
-        text-transform: var(--haxtheme-syllabus-syllabus-title-h1, uppercase);
-        margin: var(--haxtheme-syllabus-syllabus-title-h1-margin, 25px 0 0);
-        font-weight: var(--haxtheme-syllabus-syllabus-title-h1-font-weight);
-        @apply --haxtheme-syllabus-syllabus-title-h1;
-      }
-
-      .policy h2 {
-        margin: var(--haxtheme-syllabus-policy-h2-margin, 5px 0 5px);
-        font-weight: var(--haxtheme-syllabus-policy-h2-font-weight, 400);
-        font-size: var(--haxtheme-syllabus-policy-h2-font-size, 24px);
-        color: var(--haxtheme-syllabus-policy-h2-color);
-        @apply --haxtheme-syllabus-policy-h2;
-      }
-
-      .policy {
-        margin: var(--haxtheme-syllabus-policy-margin, 20px 0 20px);
-        font-size: var(--haxtheme-syllabus-policy-font-size);
-        font-weight: var(--haxtheme-syllabus-policy-font-weight);
-        line-height: var(--haxtheme-syllabus-policy-line-height);
-        @apply --haxtheme-syllabus-policy;
-      }
-
-      #share_actions {
-        display: var(--haxtheme-syllabus-share-actions-display, flex);
-        justify-content: var(
-          --haxtheme-syllabus-share-actions-justify-content,
-          flex-end
-        );
-        margin: var(--haxtheme-syllabus-share-actions-margin-top, -20px);
-        @apply --haxtheme-syllabus-share-actions;
-      }
-
-      #syllabus_wrap {
-        width: var(--haxtheme-syllabus-syllabus-wrap-width, 75%);
-        margin: var(--haxtheme-syllabus-syllabus-wrap-margin, 0 auto 0 auto);
-        @apply --haxtheme-syllabus-syllabus-wrap;
-      }
-
-      @media screen and (max-width: 768px) {
-        #syllabus_wrap {
-          width: var(--haxtheme-syllabus-syllabus-wrap-width-mobile, 90%);
-          @apply --haxtheme-syllabus-syllabus-wrap-mobile;
+        :host([edit-mode]) #slot {
+          display: none;
         }
-      }
+        a {
+          color: var(--haxtheme-syllabus-a-color);
+          text-decoration: var(--haxtheme-syllabus-a-text-decoration);
+          @apply --haxtheme-syllabus-a;
+        }
 
-      page-banner {
-        --page-banner-text-transform: uppercase;
-      }
+        a:active,
+        a:focus,
+        a:hover {
+          color: var(--haxtheme-syllabus-a-hover-color);
+          text-decoration: var(--haxtheme-syllabus-a-hover-text-decoration);
+          @apply --haxtheme-syllabus-a-hover;
+        }
 
-      site-breadcrumb {
-        margin: var(--haxtheme-syllabus-site-breadcrumb-margin);
-      }
-    </style>
-    <page-banner
-      image="[[activeItem.metadata.fields.image]]"
-      text="[[activeItem.title]]"
-      alt="[[activeItem.metadata.fields.imageAlt]]"
-    ></page-banner>
-    <div id="syllabus_wrap">
-      <site-breadcrumb></site-breadcrumb>
-      <div id="syllabus_header">
-        <div id="syllabus_title">
-          <h1>[[activeItem.title]]</h1>
-        </div>
-        <div id="syllabus_subtitle">
-          <h2>[[activeItem.name]]</h2>
-        </div>
-        <div id="syllabus_sample">
-          <h3>Sample Syllabus</h3>
-        </div>
-      </div>
-      <div id="share_actions">
-        <site-print-button></site-print-button>
-      </div>
-      <div id="syllabus">
-        <div id="contentcontainer">
-          <div id="slot">
-            <slot></slot>
-          </div>
-        </div>
-      </div>
-      <div id="syllabus_policy">
-        <div class="policy">
-          <h2>Academic Integrity</h2>
-          <div>
-            Academic integrity is the pursuit of scholarly activity in an open,
-            honest and responsible manner. Academic integrity is a basic guiding
-            principle for all academic activity at The Pennsylvania State
-            University, and all members of the University community are expected
-            to act in accordance with this principle. Consistent with this
-            expectation, the University’s Code of Conduct states that all
-            students should act with personal integrity, respect other students’
-            dignity, rights and property, and help create and maintain an
-            environment in which all can succeed through the fruits of their
-            efforts.
-          </div>
-          <br />
-          <div>
-            Academic integrity includes a commitment by all members of the
-            University community not to engage in or tolerate acts of
-            falsification, misrepresentation or deception. Such acts of
-            dishonesty violate the fundamental ethical principles of the
-            University community and compromise the worth of work completed by
-            others.
-          </div>
-        </div>
-        <div class="policy">
-          <h2>Accommodating Disabilities</h2>
-          <div>
-            Penn State welcomes students with disabilities into the University’s
-            educational programs. Every Penn State campus has an office for
-            students with disabilities. The
-            <a
-              href="http://equity.psu.edu/sdr/disability-coordinator"
-              target="_blank"
-              >Student Disability Resources (SDR) website
-            </a>
-            provides contact information for every Penn State campus . For
-            further information, please visit
-            <a href="http://equity.psu.edu/sdr/" target="_blank"
-              >Student Disability Resources website</a
-            >. <br /><br />
-            In order to receive consideration for reasonable accommodations, you
-            must contact the appropriate disability services office at the
-            campus where you are officially enrolled, participate in an intake
-            interview, and provide documentation:
-            <a href="http://equity.psu.edu/sdr/guidelines" target="_blank"
-              >See documentation guidelines</a
-            >
-            . If the documentation supports your request for reasonable
-            accommodations, your campus disability services office will provide
-            you with an accommodation letter. Please share this letter with your
-            instructors and discuss the accommodations with them as early as
-            possible. You must follow this process for every semester that you
-            request accommodations.
-          </div>
+        h2 {
+          margin: var(--haxtheme-syllabus-h2-margin, 0);
+          font-weight: var(--haxtheme-syllabus-h2-font-weight);
+          font-size: var(--haxtheme-syllabus-h2-font-size);
+          @apply --haxtheme-syllabus-h2;
+        }
 
-          <div class="policy">
-            <h2>Counseling and Psychological Services</h2>
-            <div>
-              Many students at Penn State face personal challenges or have
-              psychological needs that may interfere with their academic
-              progress, social development, or emotional wellbeing. The
-              university offers a variety of confidential services to help you
-              through difficult times, including individual and group
-              counseling, crisis intervention, consultations, online chats, and
-              mental health screenings. These services are provided by staff who
-              welcome all students and embrace a philosophy respectful of
-              clients’ cultural and religious backgrounds, and sensitive to
-              differences in race, ability, gender identity and sexual
-              orientation.
-            </div>
-            <ul>
-              <li>
-                <a
-                  href="http://studentaffairs.psu.edu/counseling/"
-                  target="_blank"
-                  >Counseling and Psychological Services at University Park
-                  (CAPS)</a
-                >: 814-863-0395
-              </li>
-              <li>
-                <a
-                  href="http://senate.psu.edu/faculty/counseling-services-at-commonwealth-campuses/"
-                  target="_blank"
-                  >Counseling and Psychological Services at Commonwealth
-                  Campuses</a
-                >
-              </li>
-              <li>
-                Penn State Crisis Line (Available 24 hrs, 7 days a week):
-                877-229-6400
-              </li>
-              <li>
-                Crisis Text Line (Available 24 hrs, 7 days a week): Text LIONS
-                to 741741
-              </li>
-            </ul>
+        h3 {
+          margin: var(--haxtheme-syllabus-h3-margin, 0);
+          font-weight: var(--haxtheme-syllabus-h3-font-weight);
+          font-size: var(--haxtheme-syllabus-h3-font-size);
+          @apply --haxtheme-syllabus-h3;
+        }
+
+        #syllabus_header {
+          border-left: var(--haxtheme-syllabus-header-border-left);
+          border-left-width: var(--haxtheme-syllabus-header-border-left-width);
+          border-left-color: var(--haxtheme-syllabus-accent-color);
+          padding-left: var(--haxtheme-syllabus-header-padding-left, 15px);
+          @apply --haxtheme-syllabus-header;
+        }
+
+        #syllabus_title h1 {
+          text-transform: var(--haxtheme-syllabus-syllabus-title-h1, uppercase);
+          margin: var(--haxtheme-syllabus-syllabus-title-h1-margin, 25px 0 0);
+          font-weight: var(--haxtheme-syllabus-syllabus-title-h1-font-weight);
+          @apply --haxtheme-syllabus-syllabus-title-h1;
+        }
+
+        .policy h2 {
+          margin: var(--haxtheme-syllabus-policy-h2-margin, 5px 0 5px);
+          font-weight: var(--haxtheme-syllabus-policy-h2-font-weight, 400);
+          font-size: var(--haxtheme-syllabus-policy-h2-font-size, 24px);
+          color: var(--haxtheme-syllabus-policy-h2-color);
+          @apply --haxtheme-syllabus-policy-h2;
+        }
+
+        .policy {
+          margin: var(--haxtheme-syllabus-policy-margin, 20px 0 20px);
+          font-size: var(--haxtheme-syllabus-policy-font-size);
+          font-weight: var(--haxtheme-syllabus-policy-font-weight);
+          line-height: var(--haxtheme-syllabus-policy-line-height);
+          @apply --haxtheme-syllabus-policy;
+        }
+
+        #share_actions {
+          display: var(--haxtheme-syllabus-share-actions-display, flex);
+          justify-content: var(
+            --haxtheme-syllabus-share-actions-justify-content,
+            flex-end
+          );
+          margin: var(--haxtheme-syllabus-share-actions-margin-top, -20px);
+          @apply --haxtheme-syllabus-share-actions;
+        }
+
+        #syllabus_wrap {
+          width: var(--haxtheme-syllabus-syllabus-wrap-width, 75%);
+          margin: var(--haxtheme-syllabus-syllabus-wrap-margin, 0 auto 0 auto);
+          @apply --haxtheme-syllabus-syllabus-wrap;
+        }
+
+        @media screen and (max-width: 768px) {
+          #syllabus_wrap {
+            width: var(--haxtheme-syllabus-syllabus-wrap-width-mobile, 90%);
+            @apply --haxtheme-syllabus-syllabus-wrap-mobile;
+          }
+        }
+
+        page-banner {
+          --page-banner-text-transform: uppercase;
+        }
+
+        site-breadcrumb {
+          margin: var(--haxtheme-syllabus-site-breadcrumb-margin);
+        }
+      </style>
+      <page-banner
+        image="[[activeItem.metadata.fields.image]]"
+        text="[[activeItem.title]]"
+        alt="[[activeItem.metadata.fields.imageAlt]]"
+      ></page-banner>
+      <div id="syllabus_wrap">
+        <site-breadcrumb></site-breadcrumb>
+        <div id="syllabus_header">
+          <div id="syllabus_title">
+            <h1>[[activeItem.title]]</h1>
           </div>
-          <div class="policy">
-            <h2>Educational Equity / Report Bias</h2>
-            <div>
-              Penn State takes great pride to foster a diverse and inclusive
-              environment for students, faculty, and staff. Acts of intolerance,
-              discrimination, or harassment due to age, ancestry, color,
-              disability, gender, gender identity, national origin, race,
-              religious belief, sexual orientation, or veteran status are not
-              tolerated and can be reported through Educational Equity via the
-              <a href="http://equity.psu.edu/reportbias/" target="_blank"
-                >Report Bias website</a
-              >.
+          <div id="syllabus_subtitle">
+            <h2>[[activeItem.name]]</h2>
+          </div>
+          <div id="syllabus_sample">
+            <h3>Sample Syllabus</h3>
+          </div>
+        </div>
+        <div id="share_actions">
+          <site-print-button></site-print-button>
+        </div>
+        <div id="syllabus">
+          <div id="contentcontainer">
+            <div id="slot">
+              <slot></slot>
             </div>
           </div>
         </div>
+        <div id="syllabus_policy">
+          <div class="policy">
+            <h2>Academic Integrity</h2>
+            <div>
+              Academic integrity is the pursuit of scholarly activity in an
+              open, honest and responsible manner. Academic integrity is a basic
+              guiding principle for all academic activity at The Pennsylvania
+              State University, and all members of the University community are
+              expected to act in accordance with this principle. Consistent with
+              this expectation, the University’s Code of Conduct states that all
+              students should act with personal integrity, respect other
+              students’ dignity, rights and property, and help create and
+              maintain an environment in which all can succeed through the
+              fruits of their efforts.
+            </div>
+            <br />
+            <div>
+              Academic integrity includes a commitment by all members of the
+              University community not to engage in or tolerate acts of
+              falsification, misrepresentation or deception. Such acts of
+              dishonesty violate the fundamental ethical principles of the
+              University community and compromise the worth of work completed by
+              others.
+            </div>
+          </div>
+          <div class="policy">
+            <h2>Accommodating Disabilities</h2>
+            <div>
+              Penn State welcomes students with disabilities into the
+              University’s educational programs. Every Penn State campus has an
+              office for students with disabilities. The
+              <a
+                href="http://equity.psu.edu/sdr/disability-coordinator"
+                target="_blank"
+                >Student Disability Resources (SDR) website
+              </a>
+              provides contact information for every Penn State campus . For
+              further information, please visit
+              <a href="http://equity.psu.edu/sdr/" target="_blank"
+                >Student Disability Resources website</a
+              >. <br /><br />
+              In order to receive consideration for reasonable accommodations,
+              you must contact the appropriate disability services office at the
+              campus where you are officially enrolled, participate in an intake
+              interview, and provide documentation:
+              <a href="http://equity.psu.edu/sdr/guidelines" target="_blank"
+                >See documentation guidelines</a
+              >
+              . If the documentation supports your request for reasonable
+              accommodations, your campus disability services office will
+              provide you with an accommodation letter. Please share this letter
+              with your instructors and discuss the accommodations with them as
+              early as possible. You must follow this process for every semester
+              that you request accommodations.
+            </div>
+
+            <div class="policy">
+              <h2>Counseling and Psychological Services</h2>
+              <div>
+                Many students at Penn State face personal challenges or have
+                psychological needs that may interfere with their academic
+                progress, social development, or emotional wellbeing. The
+                university offers a variety of confidential services to help you
+                through difficult times, including individual and group
+                counseling, crisis intervention, consultations, online chats,
+                and mental health screenings. These services are provided by
+                staff who welcome all students and embrace a philosophy
+                respectful of clients’ cultural and religious backgrounds, and
+                sensitive to differences in race, ability, gender identity and
+                sexual orientation.
+              </div>
+              <ul>
+                <li>
+                  <a
+                    href="http://studentaffairs.psu.edu/counseling/"
+                    target="_blank"
+                    >Counseling and Psychological Services at University Park
+                    (CAPS)</a
+                  >: 814-863-0395
+                </li>
+                <li>
+                  <a
+                    href="http://senate.psu.edu/faculty/counseling-services-at-commonwealth-campuses/"
+                    target="_blank"
+                    >Counseling and Psychological Services at Commonwealth
+                    Campuses</a
+                  >
+                </li>
+                <li>
+                  Penn State Crisis Line (Available 24 hrs, 7 days a week):
+                  877-229-6400
+                </li>
+                <li>
+                  Crisis Text Line (Available 24 hrs, 7 days a week): Text LIONS
+                  to 741741
+                </li>
+              </ul>
+            </div>
+            <div class="policy">
+              <h2>Educational Equity / Report Bias</h2>
+              <div>
+                Penn State takes great pride to foster a diverse and inclusive
+                environment for students, faculty, and staff. Acts of
+                intolerance, discrimination, or harassment due to age, ancestry,
+                color, disability, gender, gender identity, national origin,
+                race, religious belief, sexual orientation, or veteran status
+                are not tolerated and can be reported through Educational Equity
+                via the
+                <a href="http://equity.psu.edu/reportbias/" target="_blank"
+                  >Report Bias website</a
+                >.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  `;
+    `;
   }
   static get tag() {
     return "haxtheme-syllabus";
   }
   constructor() {
     super();
-    import("../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-breadcrumb.js");
-    import("../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-print-button.js");
-    import("../../build/es6/node_modules/@polymer/iron-image/iron-image.js");
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-breadcrumb.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-print-button.js');
+    import('../../build/es6/node_modules/@polymer/iron-image/iron-image.js');
     this.__disposer = [];
     autorun(reaction => {
       this.manifest = toJS(store.routerManifest);
@@ -4486,128 +4560,131 @@ window.customElements.define(HaxThemeSyllabus.tag, HaxThemeSyllabus);
 
 class LinkPreview extends LitElement {
   static get styles() {
-    return [css`
-      :host {
-        display: block;
-        --link-preview-link-color: #000;
-        --link-preview-accent-color: #e2801e;
-        --link-preview-title-font-size: 28px;
-      }
+    return [
+      css`
+        :host {
+          display: block;
+          --link-preview-link-color: #000;
+          --link-preview-accent-color: #e2801e;
+          --link-preview-title-font-size: 28px;
+        }
 
-      a {
-        text-decoration: none;
-        color: var(--link-preview-link-color);
-      }
+        a {
+          text-decoration: none;
+          color: var(--link-preview-link-color);
+        }
 
-      h1 {
-        font-weight: 400;
-        font-size: var(--link-preview-title-font-size);
-      }
-
-      @media screen and (max-width: 768px) {
         h1 {
-          margin: 0;
-          font-size: 18px;
+          font-weight: 400;
+          font-size: var(--link-preview-title-font-size);
         }
-      }
 
-      #link_wrap {
-        display: flex;
-        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-        padding: 10px;
-        border-left: solid 6px var(--link-preview-accent-color);
-        width: 100%;
-      }
+        @media screen and (max-width: 768px) {
+          h1 {
+            margin: 0;
+            font-size: 18px;
+          }
+        }
 
-      @media screen and (max-width: 768px) {
         #link_wrap {
-          flex-direction: column;
-        }
-      }
-
-      #card_description {
-        margin-top: -10px;
-      }
-
-      @media screen and (max-width: 768px) {
-        #card_description {
-          margin-top: 0;
-        }
-      }
-
-      #card_url {
-        opacity: 0.6;
-        width: 500px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
-
-      @media screen and (max-width: 768px) {
-        #card_url {
-          font-size: 16px;
-        }
-      }
-
-      #card_image {
-        position: relative;
-        width: 10vw;
-        flex: 1 1 10vw;
-        min-width: 100px;
-        max-width: 250px;
-        margin: -10px;
-        display: flex;
-      }
-
-      @media screen and (max-width: 768px) {
-        #card_image {
-          min-width: 100%;
-          margin: 0;
-        }
-      }
-
-      #card_image iron-image {
-        height: 170px;
-        width: 225px;
-        margin-right: 15px;
-      }
-
-      @media screen and (max-width: 768px) {
-        #card_image iron-image {
+          display: flex;
+          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+          padding: 10px;
+          border-left: solid 6px var(--link-preview-accent-color);
           width: 100%;
         }
-      }
 
-      #card_info {
-        flex: 1 1 auto;
-        margin-left: 15px;
-      }
-
-      @media screen and (max-width: 768px) {
-        #card_info {
-          margin: 5px 0 0;
+        @media screen and (max-width: 768px) {
+          #link_wrap {
+            flex-direction: column;
+          }
         }
-      }
-    `];
+
+        #card_description {
+          margin-top: -10px;
+        }
+
+        @media screen and (max-width: 768px) {
+          #card_description {
+            margin-top: 0;
+          }
+        }
+
+        #card_url {
+          opacity: 0.6;
+          width: 500px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+        @media screen and (max-width: 768px) {
+          #card_url {
+            font-size: 16px;
+          }
+        }
+
+        #card_image {
+          position: relative;
+          width: 10vw;
+          flex: 1 1 10vw;
+          min-width: 100px;
+          max-width: 250px;
+          margin: -10px;
+          display: flex;
+        }
+
+        @media screen and (max-width: 768px) {
+          #card_image {
+            min-width: 100%;
+            margin: 0;
+          }
+        }
+
+        #card_image iron-image {
+          height: 170px;
+          width: 225px;
+          margin-right: 15px;
+        }
+
+        @media screen and (max-width: 768px) {
+          #card_image iron-image {
+            width: 100%;
+          }
+        }
+
+        #card_info {
+          flex: 1 1 auto;
+          margin-left: 15px;
+        }
+
+        @media screen and (max-width: 768px) {
+          #card_info {
+            margin: 5px 0 0;
+          }
+        }
+      `
+    ];
   }
   render() {
     return html$1`
-    <a href="${this.url}" target="_blank">
-      <div id="link_wrap">
-        <div id="card_image">
-          <iron-image sizing="cover" src="${this.image}"></iron-image>
-        </div>
-        <div id="card_info">
-          <div id="card_title">
-            <h1>${this.title}</h1>
+      <a href="${this.url}" target="_blank">
+        <div id="link_wrap">
+          <div id="card_image">
+            <iron-image sizing="cover" src="${this.image}"></iron-image>
           </div>
-          <div id="card_description">
-            <slot></slot>
+          <div id="card_info">
+            <div id="card_title">
+              <h1>${this.title}</h1>
+            </div>
+            <div id="card_description">
+              <slot></slot>
+            </div>
+            <div id="card_url">${this.url}</div>
           </div>
-          <div id="card_url">${this.url}</div>
         </div>
-      </div>
-    </a>`;
+      </a>
+    `;
   }
   static get tag() {
     return "link-preview";
@@ -4618,85 +4695,92 @@ class LinkPreview extends LitElement {
        * Image source
        */
       image: {
-        type: String,
+        type: String
       },
       title: {
-        type: String,
+        type: String
       },
       url: {
-        type: String,
+        type: String
       }
     };
   }
   constructor() {
     super();
-    import("../../build/es6/node_modules/@polymer/iron-image/iron-image.js");
+    import('../../build/es6/node_modules/@polymer/iron-image/iron-image.js');
   }
 }
 window.customElements.define(LinkPreview.tag, LinkPreview);
 
 class CompanyMark extends LitElement {
   static get styles() {
-    return [css`
-      :host {
-        display: block;
-        width: 20%;
-        padding: 5px;
-        margin-top: 2px;
-      }
-
-      @media screen and (max-width: 1000px) {
+    return [
+      css`
         :host {
-          width: 25%;
+          display: block;
+          width: 20%;
+          padding: 5px;
+          margin-top: 2px;
         }
-      }
 
-      @media screen and (max-width: 800px) {
-        :host {
-          width: 30%;
+        @media screen and (max-width: 1000px) {
+          :host {
+            width: 25%;
+          }
         }
-      }
 
-      @media screen and (max-width: 700px) {
-        :host {
-          width: 35%;
+        @media screen and (max-width: 800px) {
+          :host {
+            width: 30%;
+          }
         }
-      }
 
-      @media screen and (max-width: 600px) {
-        :host {
-          width: 45%;
+        @media screen and (max-width: 700px) {
+          :host {
+            width: 35%;
+          }
         }
-      }
-    `];
+
+        @media screen and (max-width: 600px) {
+          :host {
+            width: 45%;
+          }
+        }
+      `
+    ];
   }
   render() {
     return html$1`
-    <a href="http://science.psu.edu/" target="_blank" rel="noopener noreferrer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382.55 85.96">
-        <title>Penn State Eberly College of Science</title>
-        <path
-          d="M72.63,119.21C55.4,109,33.68,94.08,33.68,67.78V40c7.94-3,20.22-6.77,38.95-6.77,18.94,0,31.94,4.1,39,6.77V67.78C111.58,94.3,89,109.58,72.63,119.21Z"
-          transform="translate(-33.68 -33.25)"
-          style="fill:#fff"
-        ></path>
-        <path
-          d="M84.35,83.26c0-.59.48-1.5.48-2.32s-1.19-1.28-2.11-1.41c-2-.27-2.6-.18-2.6-.61s.26-.61.61-1.12a3.8,3.8,0,0,1,2.44-1.13,21.08,21.08,0,0,1,3-.24,16.48,16.48,0,0,1,2.92.29c1.19.2,1.38.7,1.38,1.26v.56c0,.57-.47.86-1.3,1l-.64.13c-.6.12-1.35.24-1.61,1-.57,1.63-1.56,2.92-2.3,2.88C84.49,83.6,84.35,83.5,84.35,83.26Zm1.72-26.38c-.07,0-.33-.13-.33-.38s.21-.59.64-1.15c1-1.31,2.31-2.91,2.8-2.91.24,0,.39.16.69.72a3.38,3.38,0,0,1,.32,1.42,7.32,7.32,0,0,1-1.52,4.34A12.92,12.92,0,0,0,86.07,56.88ZM57.45,60.13c.44,0,.77-.3,1.43-1,1.48-1.63,2.91-1.85,2.91-2.55a1.89,1.89,0,0,0-.41-.94c-1.57-2.47-2.25-3.8-3.19-5.59-.34-.65-.78-1.09-1.12-1.09-.55,0-1.12.63-1.46,1.18a5.15,5.15,0,0,0-.94,2.43,17.33,17.33,0,0,0,.79,4.76C56,58.8,56.77,60.13,57.45,60.13Zm17.78,5.69a3,3,0,0,0-3.14-2.51A3.86,3.86,0,0,0,68.6,65.7a3.63,3.63,0,0,0,2.54,2.21c.23.07.45.08.45.27s-.29.41-.89.41a4.38,4.38,0,0,1-3.59-1.46,13.05,13.05,0,0,1-1.8.29.79.79,0,0,1-.86-.9,2.65,2.65,0,0,1,.3-1.13c.11-.23.23-.47.32-.63a5.72,5.72,0,0,1,2.52-2.9l1-.6a5.06,5.06,0,0,1,2.94-.73h.87a3.87,3.87,0,0,1,2.78.93c1.27,1.07,2,1.66,2,2.45a3.54,3.54,0,0,1-.75,2.49,3.16,3.16,0,0,1-2.07,1.33c-.16,0-.21-.09-.21-.18s.13-.18.27-.3A3.33,3.33,0,0,0,75.23,65.82Zm8.56,27.31a16.29,16.29,0,0,1-3.91.24c-4.42,0-5.17-1.08-5.17-2C74.71,90,81.05,89,83.55,89S87,89.74,87,90.33,85.92,92.61,83.79,93.13Zm-25.5,12.94a139.9,139.9,0,0,0,14.34,9.64h0c0-4.33-.09-6.88,2.84-9.95,1.18-1.24,2.41-2.51,3.51-3.65.84-.86,1.51-1.51,1.9-1.51s.41.15.41.53a8.85,8.85,0,0,0,1,3.51,4.42,4.42,0,0,0,3.23,2.5c12.56-9.45,23.06-21.82,23.06-39.42V42.08c-3.1-1.06-15.82-5.93-36-5.93s-32.91,4.87-36,5.93V67.72A40.67,40.67,0,0,0,42,88.09c.33-3.56,2.74-5.25,2.74-8.75,0-2.44-.69-4-.69-6,0-3.7,5-11.3,7.58-14.4.08-.09.24-.31.45-.31a.54.54,0,0,1,.44.3c.26.41.38.62.66.62s.39-.16.39-.41a21.69,21.69,0,0,1-.74-5.92c0-2.94.68-3.56,2.51-5.35a4,4,0,0,1,2.33-1.31A3.08,3.08,0,0,1,60,47.85c1.13,1.15,2.7,3.19,3,3.51a.33.33,0,0,0,.29.17c.52,0,1-.16,3.22-.16,4.12,0,10.34.65,13.53,1.7a24.24,24.24,0,0,0,2.42.9c.21,0,.23-.13.23-.25s-.43-.54-.43-.82a.5.5,0,0,1,.3-.41c2.38-1.28,4.41-2.24,6.27-2.24,1.08,0,1.62.94,2.07,1.86a6.26,6.26,0,0,1,.74,2.69,8.28,8.28,0,0,1-1.73,5.14c.37.37.89.94,1.21,1.32a4.33,4.33,0,0,1,1.24,2.47,8.74,8.74,0,0,1-.3,1.51c0,.22-.25.67-.63.66s-.44-.39-.45-.72v-.26a3.86,3.86,0,0,0-3.26-3.76h-.3a3.27,3.27,0,0,0-2.55,1A2.46,2.46,0,0,0,84,64a5.08,5.08,0,0,0,.71,1.78c.24.47.85,1.61,1.18,2.19a1.19,1.19,0,0,0,1.08.69c1,0,1.92-.15,1.92-.45,0-.09,0-.16-.18-.16l-.33,0c-1.34,0-2.06-1.71-2.73-3.25a2.84,2.84,0,0,1,2.14-1A2.06,2.06,0,0,1,90,65.85a3,3,0,0,1-.29,1.28.66.66,0,0,0-.08.24c0,.18.23.22.6.3l.52.13a1.59,1.59,0,0,1,1,.93c.12.31.38,1,.44,1.21a8.4,8.4,0,0,1,.58,2.77,8.05,8.05,0,0,1-.4,2.72,16,16,0,0,0-.66,2.94,4.09,4.09,0,0,1,.22.49,5.71,5.71,0,0,1,.53,2.32V82a6,6,0,0,1-1.27,3.61c-.52.69-1.25,1.66-1.67,2.2a1.42,1.42,0,0,1-1,.57,3.42,3.42,0,0,1-.66-.12l-1-.27a2.1,2.1,0,0,1-1.52-1.6c0-.12-.18-.45-.22-.56-.21-.55-.33-.9-.67-.9s-.5.17-.76.55a4.06,4.06,0,0,1-3,2.22c-.55.14-1.67.37-2.29.51a21.51,21.51,0,0,1-3.59.65l-.63,0c-1.29-.18-2.21-.27-3.83-2.2-2.21-2.64-2-3-2.12-6.59,0-.4-.14-.9-.56-.9s-.53.76-.67,1.83c-.16,1.26-.45,2.58-1.07,2.58a4,4,0,0,1-1.39-.29l-3.87-1.29c-1.44-.47-2.82-.85-3.37-2.13-.26-.6-.75-1.71-1-2.29-.17-.41-.3-.62-.57-.62s-.47.45-.51.81S55,79.05,55,79.64a8,8,0,0,1-1.77,4.94c-.48.63-.94,1.28-1.48,2A8.41,8.41,0,0,0,50,92.37c0,.19,0,1.25,0,1.73C50.1,98.33,51.17,100.4,58.29,106.07Z"
-          transform="translate(-33.68 -33.25)"
-          style="fill:#231e20"
-        ></path>
-        <path
-          d="M91.75,68.73h0c.12.31.38,1,.44,1.21a8.4,8.4,0,0,1,.58,2.77,8.05,8.05,0,0,1-.4,2.72,16,16,0,0,0-.66,2.94c-.12-.24-2.28-4-2.45-4.28a2,2,0,0,1-.3-1c0-.38.16-.61.62-.9.28-.18.64-.38.88-.51a2.13,2.13,0,0,0,1.39-2A6.52,6.52,0,0,0,91.75,68.73Zm-9.44,6a2.58,2.58,0,0,1,.22.88,1.24,1.24,0,0,1-.45,1.06l-.58.52a2.16,2.16,0,0,0-.77.63c-.35.51-.61.82-.61,1.12a.24.24,0,0,0,.1.21,1.55,1.55,0,0,1-.61-1.25c0-.39.13-.6.13-1a3,3,0,0,0-.14-.79c-.6-2-1.61-4.4-2.23-6s-1.14-2.56-1.86-2.56c-.4,0-.75.2-1.17.2a3.2,3.2,0,0,0,2.07-1.33,3.54,3.54,0,0,0,.75-2.49,1.68,1.68,0,0,0-.45-1.06,11.89,11.89,0,0,1,2.1,3.42C80.16,69.13,81.33,72.26,82.31,74.71ZM50,94.1c0-.48,0-1.54,0-1.73a8.41,8.41,0,0,1,1.73-5.8c.54-.71,1-1.36,1.48-2A8,8,0,0,0,55,79.64c.05-.59.15-1.52.2-1.93s.13-.81.51-.81.4.21.57.62c.24.58.73,1.69,1,2.29.55,1.28,1.93,1.66,3.37,2.13l3.87,1.29a4,4,0,0,0,1.39.29c.62,0,.91-1.32,1.07-2.58.14-1.07.3-1.83.67-1.83s.55.5.56.9c.13,3.57-.09,3.95,2.12,6.59,1.62,1.93,2.54,2,3.83,2.2A1.79,1.79,0,0,1,73,86.93V85.64a4.93,4.93,0,0,1,.4-2c.15-.34.32-1,.49-1.36A2.18,2.18,0,0,0,74.07,81a7.34,7.34,0,0,0-.55-2.14c-.2-.6-.47-1.48-.72-2.2C72,74.38,71.67,73.85,69,73.5l-5.41-.76c-3-.43-5.36-.57-6.59-2.59-1.47-2.41-1.32-5.34-2.73-5.34-.67,0-1,.74-1,1.83s.43,3,.43,6.23c0,2.79-.26,3.57-1.89,5.62-.42.54-1,1.32-1.35,1.78-1.21,1.51-1.74,2.37-1.67,4.14A60.54,60.54,0,0,0,50,94.1Zm30.69,10.77c.11-1.12.6-3,.6-3.74h0c0-.38-.13-.53-.41-.53s-1.06.65-1.9,1.51c-1.1,1.14-2.33,2.41-3.51,3.65-2.93,3.07-2.8,5.62-2.84,9.95h0c3.26-2,6.24-3.85,8.45-5.36A17.34,17.34,0,0,1,80.69,104.87Z"
-          transform="translate(-33.68 -33.25)"
-          style="fill:#a7a9ac"
-        ></path>
-        <path
-          d="M134.74,88.63h-7.4v6.86h8.24v2.06h-10.7v-19h10.28v2.06h-7.82v6h7.4Zm3.84,8.92c0-.93.11-2.31.11-3.53V77.51h2.46v8.58h0a5.09,5.09,0,0,1,4.66-2.51c3.39,0,5.79,2.82,5.76,7,0,4.88-3.08,7.31-6.13,7.31a4.87,4.87,0,0,1-4.57-2.57h-.09l-.11,2.26Zm2.57-5.47a4.43,4.43,0,0,0,.11.9A3.84,3.84,0,0,0,145,95.89c2.59,0,4.15-2.12,4.15-5.25,0-2.74-1.42-5.09-4.07-5.09a4,4,0,0,0-3.78,3,4.65,4.65,0,0,0-.14,1Zm15-.91c.05,3.36,2.2,4.74,4.68,4.74a9.11,9.11,0,0,0,3.79-.7L165,97a11.2,11.2,0,0,1-4.55.84c-4.2,0-6.72-2.76-6.72-6.89s2.43-7.36,6.41-7.36c4.47,0,5.65,3.92,5.65,6.43a9.17,9.17,0,0,1-.08,1.16Zm7.28-1.78c0-1.58-.65-4-3.44-4-2.52,0-3.62,2.32-3.82,4Zm5.48-1.24c0-1.61,0-3-.12-4.26H171l.08,2.68h.12a4.08,4.08,0,0,1,3.78-3,2.62,2.62,0,0,1,.71.08V86a4.23,4.23,0,0,0-.85-.08,3.49,3.49,0,0,0-3.33,3.19,6.57,6.57,0,0,0-.12,1.16v7.28H168.9Zm9.34-10.64h2.49v20h-2.49Zm7.57,6.38,3,8.07c.31.91.65,2,.88,2.8h0c.26-.82.54-1.87.88-2.86l2.71-8H196l-3.73,9.74c-1.78,4.69-3,7.08-4.69,8.55a6.62,6.62,0,0,1-3.05,1.61l-.62-2.09a6.57,6.57,0,0,0,2.17-1.21,7.51,7.51,0,0,0,2.09-2.77,1.62,1.62,0,0,0,.2-.59,2,2,0,0,0-.17-.65L183.1,83.89Zm31.76,13a12.23,12.23,0,0,1-5,.9c-5.36,0-9.4-3.38-9.4-9.62,0-6,4-10,9.94-10a10.19,10.19,0,0,1,4.52.85l-.59,2a9,9,0,0,0-3.84-.79c-4.47,0-7.43,2.85-7.43,7.85,0,4.66,2.68,7.65,7.31,7.65a9.83,9.83,0,0,0,4-.79Zm15.05-6.32c0,5-3.5,7.25-6.81,7.25-3.69,0-6.55-2.71-6.55-7,0-4.57,3-7.25,6.78-7.25C230,83.58,232.62,86.43,232.62,90.61Zm-10.84.14c0,3,1.72,5.25,4.15,5.25s4.15-2.23,4.15-5.31c0-2.31-1.16-5.25-4.1-5.25S221.78,88.15,221.78,90.75Zm14-13.24h2.49v20h-2.49Zm6.67,0h2.48v20h-2.48Zm8,13.66c.06,3.36,2.2,4.74,4.69,4.74a9.05,9.05,0,0,0,3.78-.7l.43,1.78a11.24,11.24,0,0,1-4.55.84c-4.21,0-6.72-2.76-6.72-6.89s2.43-7.36,6.41-7.36c4.46,0,5.65,3.92,5.65,6.43a8.78,8.78,0,0,1-.09,1.16Zm7.29-1.78c0-1.58-.65-4-3.45-4-2.51,0-3.61,2.32-3.81,4ZM275,83.89c-.06,1-.12,2.09-.12,3.75v7.94c0,3.13-.62,5-1.94,6.24a7.26,7.26,0,0,1-5,1.63,8.77,8.77,0,0,1-4.55-1.13l.62-1.89a7.69,7.69,0,0,0,4,1.07c2.54,0,4.41-1.32,4.41-4.77V95.21h-.06a4.88,4.88,0,0,1-4.35,2.29c-3.39,0-5.82-2.89-5.82-6.67,0-4.63,3-7.25,6.16-7.25A4.54,4.54,0,0,1,272.65,86h.06l.11-2.06Zm-2.57,5.39a3.65,3.65,0,0,0-.14-1.13,3.59,3.59,0,0,0-3.48-2.63c-2.37,0-4.06,2-4.06,5.17,0,2.68,1.35,4.91,4,4.91a3.63,3.63,0,0,0,3.44-2.54,4.34,4.34,0,0,0,.2-1.33Zm8,1.89c.06,3.36,2.2,4.74,4.69,4.74a9.09,9.09,0,0,0,3.78-.7l.42,1.78a11.15,11.15,0,0,1-4.54.84c-4.21,0-6.72-2.76-6.72-6.89s2.43-7.36,6.41-7.36c4.46,0,5.64,3.92,5.64,6.43a9.17,9.17,0,0,1-.08,1.16Zm7.28-1.78c0-1.58-.65-4-3.44-4-2.51,0-3.62,2.32-3.81,4Zm24.49,1.22c0,5-3.5,7.25-6.81,7.25-3.7,0-6.55-2.71-6.55-7,0-4.57,3-7.25,6.78-7.25S312.16,86.43,312.16,90.61Zm-10.85.14c0,3,1.73,5.25,4.16,5.25s4.15-2.23,4.15-5.31c0-2.31-1.16-5.25-4.1-5.25S301.31,88.15,301.31,90.75Zm14.23,6.8V85.78h-1.92V83.89h1.92v-.65a6.47,6.47,0,0,1,1.59-4.78,4.76,4.76,0,0,1,3.33-1.27,5.68,5.68,0,0,1,2.11.4l-.33,1.92a3.74,3.74,0,0,0-1.59-.31c-2.11,0-2.65,1.86-2.65,4v.74h3.3v1.89H318V97.55Zm13.73-3a8.67,8.67,0,0,0,4.4,1.24c2.51,0,4-1.33,4-3.25,0-1.77-1-2.79-3.58-3.78-3.11-1.1-5-2.71-5-5.39,0-3,2.46-5.17,6.15-5.17a8.67,8.67,0,0,1,4.21.93l-.68,2a7.56,7.56,0,0,0-3.61-.9c-2.6,0-3.59,1.55-3.59,2.85,0,1.77,1.16,2.65,3.79,3.67,3.22,1.24,4.85,2.79,4.85,5.59s-2.17,5.47-6.66,5.47a9.85,9.85,0,0,1-4.86-1.21ZM353.35,97a9.15,9.15,0,0,1-3.93.79c-4.12,0-6.8-2.79-6.8-7A6.94,6.94,0,0,1,350,83.6a8.31,8.31,0,0,1,3.45.71l-.57,1.92a5.73,5.73,0,0,0-2.88-.65c-3.13,0-4.83,2.32-4.83,5.17,0,3.16,2,5.11,4.75,5.11a7,7,0,0,0,3-.68Zm5.67-17a1.46,1.46,0,0,1-1.58,1.52,1.48,1.48,0,0,1-1.5-1.52,1.52,1.52,0,0,1,1.56-1.56A1.48,1.48,0,0,1,359,80.05Zm-2.77,17.5V83.89h2.49V97.55Zm8-6.38c.05,3.36,2.2,4.74,4.68,4.74a9.14,9.14,0,0,0,3.79-.7l.42,1.78a11.2,11.2,0,0,1-4.55.84c-4.2,0-6.72-2.76-6.72-6.89s2.43-7.36,6.41-7.36c4.46,0,5.65,3.92,5.65,6.43a8.78,8.78,0,0,1-.09,1.16Zm7.28-1.78c0-1.58-.65-4-3.44-4-2.52,0-3.62,2.32-3.82,4ZM377,87.58c0-1.41,0-2.56-.12-3.69h2.21l.14,2.25h.05a5,5,0,0,1,4.52-2.56c1.89,0,4.83,1.12,4.83,5.81v8.16h-2.49V89.67c0-2.2-.81-4-3.16-4a3.51,3.51,0,0,0-3.33,2.54,3.64,3.64,0,0,0-.17,1.16v8.21H377ZM402.42,97a9.15,9.15,0,0,1-3.93.79c-4.12,0-6.8-2.79-6.8-7A6.94,6.94,0,0,1,399,83.6a8.26,8.26,0,0,1,3.44.71l-.56,1.92a5.76,5.76,0,0,0-2.88-.65c-3.14,0-4.83,2.32-4.83,5.17,0,3.16,2,5.11,4.74,5.11a7.05,7.05,0,0,0,3.05-.68Zm4.12-5.87c.06,3.36,2.2,4.74,4.69,4.74a9.09,9.09,0,0,0,3.78-.7l.42,1.78a11.15,11.15,0,0,1-4.54.84c-4.21,0-6.72-2.76-6.72-6.89s2.43-7.36,6.41-7.36c4.46,0,5.64,3.92,5.64,6.43a9.17,9.17,0,0,1-.08,1.16Zm7.28-1.78c0-1.58-.65-4-3.44-4-2.52,0-3.62,2.32-3.81,4ZM127.25,45.56H124.9V42.08h10.95c5.76,0,8.77,3,8.77,7.33,0,5.11-4,7.33-8.77,7.33h-3.62v5.72h2.35v3.48H124.9V62.46h2.35Zm8.09,7.7c2.49,0,4.11-1.43,4.11-3.85,0-2.19-1.42-3.85-4.18-3.85h-3v7.7ZM150.7,58.1c.14,2.83,2.32,4.57,5.66,4.57a13.45,13.45,0,0,0,5.52-1.13v3.68a16.25,16.25,0,0,1-6.58,1.13c-6.88,0-9.78-4.3-9.78-9.24,0-5.55,3.38-9.4,9-9.4,6.14,0,8.63,4.63,8.63,10.39Zm7.23-3.27c0-2.45-1.4-3.85-3.62-3.85s-3.44,1.43-3.64,3.85ZM282.8,58.1c.14,2.83,2.32,4.57,5.66,4.57A13.45,13.45,0,0,0,294,61.54v3.68a16.29,16.29,0,0,1-6.58,1.13c-6.88,0-9.78-4.3-9.78-9.24,0-5.55,3.37-9.4,9-9.4,6.14,0,8.62,4.63,8.62,10.39ZM290,54.83c0-2.45-1.39-3.85-3.61-3.85s-3.44,1.43-3.64,3.85ZM167.53,51.59h-2.32V48.12h6.55l.13,2.33H172a6.24,6.24,0,0,1,5.47-2.74c4.53,0,6.9,3.18,6.9,7.1v7.65h2v3.48h-8.75V62.46h1.94V55.64c0-2.49-1.38-3.84-3.64-3.84-2,0-3.62,1.14-3.62,3.84v6.82h2v3.48h-8.75V62.46h1.94Zm23.24,0h-2.32V48.12H195l.13,2.33h.07a6.27,6.27,0,0,1,5.48-2.74c4.52,0,6.9,3.18,6.9,7.1v7.65h2v3.48h-8.76V62.46h2V55.64c0-2.49-1.38-3.84-3.65-3.84-2,0-3.61,1.14-3.61,3.84v6.82h2v3.48h-8.76V62.46h2Zm76.06-7.29h4.77v3.82h4.77v3.47H271.6v7.94c0,2.39.84,3.14,2.81,3.14a13.06,13.06,0,0,0,2.13-.27v3.38a15.33,15.33,0,0,1-3.93.57c-3.51,0-5.78-1.89-5.78-5V51.59h-2.42V48.12h2.42Zm-32.15,0h4.77v3.82h4.77v3.47h-4.77v7.94c0,2.39.84,3.14,2.81,3.14a13.06,13.06,0,0,0,2.13-.27v3.38a15.33,15.33,0,0,1-3.93.57c-3.51,0-5.78-1.89-5.78-5V51.59h-2.42V48.12h2.42Zm22.65,10.29c0-2.46-1.19-3.41-3.6-3.41a8.77,8.77,0,0,0-3,.51v2.39h-3.86V49.55a14.77,14.77,0,0,1,6.76-1.84c5,0,8.16,2,8.16,7v7.74h1.84v3.48H257.9l-.14-2.43h-.07c-.35.5-1.65,2.84-5.67,2.84s-6-2.39-6-5.18c0-3.39,2.61-5.73,9.14-5.73h2.14Zm-1.39,3.78c-3.89,0-5.11.82-5.11,2.36,0,1.05.74,2.14,2.62,2.14s3.82-1.49,3.82-4.5ZM225.07,45.73a10.22,10.22,0,0,0-3-.58c-2.77,0-3.88,1.51-3.88,2.84,0,1.73,1.29,2.54,2.78,2.91l2.37.62c3.33.89,7,2.31,7,7.25,0,4.53-2.91,7.58-9.35,7.58A23.68,23.68,0,0,1,212.84,65V58.71h4.28v3.08a18,18,0,0,0,4.27.67c2.53,0,3.75-1.05,3.75-2.86,0-1.49-.84-2.57-3.89-3.39l-2-.56c-4.67-1.26-6.25-3.51-6.25-7.19s2.52-6.79,8.93-6.79a20.85,20.85,0,0,1,7.45,1.27v5.69h-4.28Z"
-          transform="translate(-33.68 -33.25)"
-          style="fill:#231e20"
-        ></path>
-      </svg>
-    </a>`;
+      <a
+        href="http://science.psu.edu/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382.55 85.96">
+          <title>Penn State Eberly College of Science</title>
+          <path
+            d="M72.63,119.21C55.4,109,33.68,94.08,33.68,67.78V40c7.94-3,20.22-6.77,38.95-6.77,18.94,0,31.94,4.1,39,6.77V67.78C111.58,94.3,89,109.58,72.63,119.21Z"
+            transform="translate(-33.68 -33.25)"
+            style="fill:#fff"
+          ></path>
+          <path
+            d="M84.35,83.26c0-.59.48-1.5.48-2.32s-1.19-1.28-2.11-1.41c-2-.27-2.6-.18-2.6-.61s.26-.61.61-1.12a3.8,3.8,0,0,1,2.44-1.13,21.08,21.08,0,0,1,3-.24,16.48,16.48,0,0,1,2.92.29c1.19.2,1.38.7,1.38,1.26v.56c0,.57-.47.86-1.3,1l-.64.13c-.6.12-1.35.24-1.61,1-.57,1.63-1.56,2.92-2.3,2.88C84.49,83.6,84.35,83.5,84.35,83.26Zm1.72-26.38c-.07,0-.33-.13-.33-.38s.21-.59.64-1.15c1-1.31,2.31-2.91,2.8-2.91.24,0,.39.16.69.72a3.38,3.38,0,0,1,.32,1.42,7.32,7.32,0,0,1-1.52,4.34A12.92,12.92,0,0,0,86.07,56.88ZM57.45,60.13c.44,0,.77-.3,1.43-1,1.48-1.63,2.91-1.85,2.91-2.55a1.89,1.89,0,0,0-.41-.94c-1.57-2.47-2.25-3.8-3.19-5.59-.34-.65-.78-1.09-1.12-1.09-.55,0-1.12.63-1.46,1.18a5.15,5.15,0,0,0-.94,2.43,17.33,17.33,0,0,0,.79,4.76C56,58.8,56.77,60.13,57.45,60.13Zm17.78,5.69a3,3,0,0,0-3.14-2.51A3.86,3.86,0,0,0,68.6,65.7a3.63,3.63,0,0,0,2.54,2.21c.23.07.45.08.45.27s-.29.41-.89.41a4.38,4.38,0,0,1-3.59-1.46,13.05,13.05,0,0,1-1.8.29.79.79,0,0,1-.86-.9,2.65,2.65,0,0,1,.3-1.13c.11-.23.23-.47.32-.63a5.72,5.72,0,0,1,2.52-2.9l1-.6a5.06,5.06,0,0,1,2.94-.73h.87a3.87,3.87,0,0,1,2.78.93c1.27,1.07,2,1.66,2,2.45a3.54,3.54,0,0,1-.75,2.49,3.16,3.16,0,0,1-2.07,1.33c-.16,0-.21-.09-.21-.18s.13-.18.27-.3A3.33,3.33,0,0,0,75.23,65.82Zm8.56,27.31a16.29,16.29,0,0,1-3.91.24c-4.42,0-5.17-1.08-5.17-2C74.71,90,81.05,89,83.55,89S87,89.74,87,90.33,85.92,92.61,83.79,93.13Zm-25.5,12.94a139.9,139.9,0,0,0,14.34,9.64h0c0-4.33-.09-6.88,2.84-9.95,1.18-1.24,2.41-2.51,3.51-3.65.84-.86,1.51-1.51,1.9-1.51s.41.15.41.53a8.85,8.85,0,0,0,1,3.51,4.42,4.42,0,0,0,3.23,2.5c12.56-9.45,23.06-21.82,23.06-39.42V42.08c-3.1-1.06-15.82-5.93-36-5.93s-32.91,4.87-36,5.93V67.72A40.67,40.67,0,0,0,42,88.09c.33-3.56,2.74-5.25,2.74-8.75,0-2.44-.69-4-.69-6,0-3.7,5-11.3,7.58-14.4.08-.09.24-.31.45-.31a.54.54,0,0,1,.44.3c.26.41.38.62.66.62s.39-.16.39-.41a21.69,21.69,0,0,1-.74-5.92c0-2.94.68-3.56,2.51-5.35a4,4,0,0,1,2.33-1.31A3.08,3.08,0,0,1,60,47.85c1.13,1.15,2.7,3.19,3,3.51a.33.33,0,0,0,.29.17c.52,0,1-.16,3.22-.16,4.12,0,10.34.65,13.53,1.7a24.24,24.24,0,0,0,2.42.9c.21,0,.23-.13.23-.25s-.43-.54-.43-.82a.5.5,0,0,1,.3-.41c2.38-1.28,4.41-2.24,6.27-2.24,1.08,0,1.62.94,2.07,1.86a6.26,6.26,0,0,1,.74,2.69,8.28,8.28,0,0,1-1.73,5.14c.37.37.89.94,1.21,1.32a4.33,4.33,0,0,1,1.24,2.47,8.74,8.74,0,0,1-.3,1.51c0,.22-.25.67-.63.66s-.44-.39-.45-.72v-.26a3.86,3.86,0,0,0-3.26-3.76h-.3a3.27,3.27,0,0,0-2.55,1A2.46,2.46,0,0,0,84,64a5.08,5.08,0,0,0,.71,1.78c.24.47.85,1.61,1.18,2.19a1.19,1.19,0,0,0,1.08.69c1,0,1.92-.15,1.92-.45,0-.09,0-.16-.18-.16l-.33,0c-1.34,0-2.06-1.71-2.73-3.25a2.84,2.84,0,0,1,2.14-1A2.06,2.06,0,0,1,90,65.85a3,3,0,0,1-.29,1.28.66.66,0,0,0-.08.24c0,.18.23.22.6.3l.52.13a1.59,1.59,0,0,1,1,.93c.12.31.38,1,.44,1.21a8.4,8.4,0,0,1,.58,2.77,8.05,8.05,0,0,1-.4,2.72,16,16,0,0,0-.66,2.94,4.09,4.09,0,0,1,.22.49,5.71,5.71,0,0,1,.53,2.32V82a6,6,0,0,1-1.27,3.61c-.52.69-1.25,1.66-1.67,2.2a1.42,1.42,0,0,1-1,.57,3.42,3.42,0,0,1-.66-.12l-1-.27a2.1,2.1,0,0,1-1.52-1.6c0-.12-.18-.45-.22-.56-.21-.55-.33-.9-.67-.9s-.5.17-.76.55a4.06,4.06,0,0,1-3,2.22c-.55.14-1.67.37-2.29.51a21.51,21.51,0,0,1-3.59.65l-.63,0c-1.29-.18-2.21-.27-3.83-2.2-2.21-2.64-2-3-2.12-6.59,0-.4-.14-.9-.56-.9s-.53.76-.67,1.83c-.16,1.26-.45,2.58-1.07,2.58a4,4,0,0,1-1.39-.29l-3.87-1.29c-1.44-.47-2.82-.85-3.37-2.13-.26-.6-.75-1.71-1-2.29-.17-.41-.3-.62-.57-.62s-.47.45-.51.81S55,79.05,55,79.64a8,8,0,0,1-1.77,4.94c-.48.63-.94,1.28-1.48,2A8.41,8.41,0,0,0,50,92.37c0,.19,0,1.25,0,1.73C50.1,98.33,51.17,100.4,58.29,106.07Z"
+            transform="translate(-33.68 -33.25)"
+            style="fill:#231e20"
+          ></path>
+          <path
+            d="M91.75,68.73h0c.12.31.38,1,.44,1.21a8.4,8.4,0,0,1,.58,2.77,8.05,8.05,0,0,1-.4,2.72,16,16,0,0,0-.66,2.94c-.12-.24-2.28-4-2.45-4.28a2,2,0,0,1-.3-1c0-.38.16-.61.62-.9.28-.18.64-.38.88-.51a2.13,2.13,0,0,0,1.39-2A6.52,6.52,0,0,0,91.75,68.73Zm-9.44,6a2.58,2.58,0,0,1,.22.88,1.24,1.24,0,0,1-.45,1.06l-.58.52a2.16,2.16,0,0,0-.77.63c-.35.51-.61.82-.61,1.12a.24.24,0,0,0,.1.21,1.55,1.55,0,0,1-.61-1.25c0-.39.13-.6.13-1a3,3,0,0,0-.14-.79c-.6-2-1.61-4.4-2.23-6s-1.14-2.56-1.86-2.56c-.4,0-.75.2-1.17.2a3.2,3.2,0,0,0,2.07-1.33,3.54,3.54,0,0,0,.75-2.49,1.68,1.68,0,0,0-.45-1.06,11.89,11.89,0,0,1,2.1,3.42C80.16,69.13,81.33,72.26,82.31,74.71ZM50,94.1c0-.48,0-1.54,0-1.73a8.41,8.41,0,0,1,1.73-5.8c.54-.71,1-1.36,1.48-2A8,8,0,0,0,55,79.64c.05-.59.15-1.52.2-1.93s.13-.81.51-.81.4.21.57.62c.24.58.73,1.69,1,2.29.55,1.28,1.93,1.66,3.37,2.13l3.87,1.29a4,4,0,0,0,1.39.29c.62,0,.91-1.32,1.07-2.58.14-1.07.3-1.83.67-1.83s.55.5.56.9c.13,3.57-.09,3.95,2.12,6.59,1.62,1.93,2.54,2,3.83,2.2A1.79,1.79,0,0,1,73,86.93V85.64a4.93,4.93,0,0,1,.4-2c.15-.34.32-1,.49-1.36A2.18,2.18,0,0,0,74.07,81a7.34,7.34,0,0,0-.55-2.14c-.2-.6-.47-1.48-.72-2.2C72,74.38,71.67,73.85,69,73.5l-5.41-.76c-3-.43-5.36-.57-6.59-2.59-1.47-2.41-1.32-5.34-2.73-5.34-.67,0-1,.74-1,1.83s.43,3,.43,6.23c0,2.79-.26,3.57-1.89,5.62-.42.54-1,1.32-1.35,1.78-1.21,1.51-1.74,2.37-1.67,4.14A60.54,60.54,0,0,0,50,94.1Zm30.69,10.77c.11-1.12.6-3,.6-3.74h0c0-.38-.13-.53-.41-.53s-1.06.65-1.9,1.51c-1.1,1.14-2.33,2.41-3.51,3.65-2.93,3.07-2.8,5.62-2.84,9.95h0c3.26-2,6.24-3.85,8.45-5.36A17.34,17.34,0,0,1,80.69,104.87Z"
+            transform="translate(-33.68 -33.25)"
+            style="fill:#a7a9ac"
+          ></path>
+          <path
+            d="M134.74,88.63h-7.4v6.86h8.24v2.06h-10.7v-19h10.28v2.06h-7.82v6h7.4Zm3.84,8.92c0-.93.11-2.31.11-3.53V77.51h2.46v8.58h0a5.09,5.09,0,0,1,4.66-2.51c3.39,0,5.79,2.82,5.76,7,0,4.88-3.08,7.31-6.13,7.31a4.87,4.87,0,0,1-4.57-2.57h-.09l-.11,2.26Zm2.57-5.47a4.43,4.43,0,0,0,.11.9A3.84,3.84,0,0,0,145,95.89c2.59,0,4.15-2.12,4.15-5.25,0-2.74-1.42-5.09-4.07-5.09a4,4,0,0,0-3.78,3,4.65,4.65,0,0,0-.14,1Zm15-.91c.05,3.36,2.2,4.74,4.68,4.74a9.11,9.11,0,0,0,3.79-.7L165,97a11.2,11.2,0,0,1-4.55.84c-4.2,0-6.72-2.76-6.72-6.89s2.43-7.36,6.41-7.36c4.47,0,5.65,3.92,5.65,6.43a9.17,9.17,0,0,1-.08,1.16Zm7.28-1.78c0-1.58-.65-4-3.44-4-2.52,0-3.62,2.32-3.82,4Zm5.48-1.24c0-1.61,0-3-.12-4.26H171l.08,2.68h.12a4.08,4.08,0,0,1,3.78-3,2.62,2.62,0,0,1,.71.08V86a4.23,4.23,0,0,0-.85-.08,3.49,3.49,0,0,0-3.33,3.19,6.57,6.57,0,0,0-.12,1.16v7.28H168.9Zm9.34-10.64h2.49v20h-2.49Zm7.57,6.38,3,8.07c.31.91.65,2,.88,2.8h0c.26-.82.54-1.87.88-2.86l2.71-8H196l-3.73,9.74c-1.78,4.69-3,7.08-4.69,8.55a6.62,6.62,0,0,1-3.05,1.61l-.62-2.09a6.57,6.57,0,0,0,2.17-1.21,7.51,7.51,0,0,0,2.09-2.77,1.62,1.62,0,0,0,.2-.59,2,2,0,0,0-.17-.65L183.1,83.89Zm31.76,13a12.23,12.23,0,0,1-5,.9c-5.36,0-9.4-3.38-9.4-9.62,0-6,4-10,9.94-10a10.19,10.19,0,0,1,4.52.85l-.59,2a9,9,0,0,0-3.84-.79c-4.47,0-7.43,2.85-7.43,7.85,0,4.66,2.68,7.65,7.31,7.65a9.83,9.83,0,0,0,4-.79Zm15.05-6.32c0,5-3.5,7.25-6.81,7.25-3.69,0-6.55-2.71-6.55-7,0-4.57,3-7.25,6.78-7.25C230,83.58,232.62,86.43,232.62,90.61Zm-10.84.14c0,3,1.72,5.25,4.15,5.25s4.15-2.23,4.15-5.31c0-2.31-1.16-5.25-4.1-5.25S221.78,88.15,221.78,90.75Zm14-13.24h2.49v20h-2.49Zm6.67,0h2.48v20h-2.48Zm8,13.66c.06,3.36,2.2,4.74,4.69,4.74a9.05,9.05,0,0,0,3.78-.7l.43,1.78a11.24,11.24,0,0,1-4.55.84c-4.21,0-6.72-2.76-6.72-6.89s2.43-7.36,6.41-7.36c4.46,0,5.65,3.92,5.65,6.43a8.78,8.78,0,0,1-.09,1.16Zm7.29-1.78c0-1.58-.65-4-3.45-4-2.51,0-3.61,2.32-3.81,4ZM275,83.89c-.06,1-.12,2.09-.12,3.75v7.94c0,3.13-.62,5-1.94,6.24a7.26,7.26,0,0,1-5,1.63,8.77,8.77,0,0,1-4.55-1.13l.62-1.89a7.69,7.69,0,0,0,4,1.07c2.54,0,4.41-1.32,4.41-4.77V95.21h-.06a4.88,4.88,0,0,1-4.35,2.29c-3.39,0-5.82-2.89-5.82-6.67,0-4.63,3-7.25,6.16-7.25A4.54,4.54,0,0,1,272.65,86h.06l.11-2.06Zm-2.57,5.39a3.65,3.65,0,0,0-.14-1.13,3.59,3.59,0,0,0-3.48-2.63c-2.37,0-4.06,2-4.06,5.17,0,2.68,1.35,4.91,4,4.91a3.63,3.63,0,0,0,3.44-2.54,4.34,4.34,0,0,0,.2-1.33Zm8,1.89c.06,3.36,2.2,4.74,4.69,4.74a9.09,9.09,0,0,0,3.78-.7l.42,1.78a11.15,11.15,0,0,1-4.54.84c-4.21,0-6.72-2.76-6.72-6.89s2.43-7.36,6.41-7.36c4.46,0,5.64,3.92,5.64,6.43a9.17,9.17,0,0,1-.08,1.16Zm7.28-1.78c0-1.58-.65-4-3.44-4-2.51,0-3.62,2.32-3.81,4Zm24.49,1.22c0,5-3.5,7.25-6.81,7.25-3.7,0-6.55-2.71-6.55-7,0-4.57,3-7.25,6.78-7.25S312.16,86.43,312.16,90.61Zm-10.85.14c0,3,1.73,5.25,4.16,5.25s4.15-2.23,4.15-5.31c0-2.31-1.16-5.25-4.1-5.25S301.31,88.15,301.31,90.75Zm14.23,6.8V85.78h-1.92V83.89h1.92v-.65a6.47,6.47,0,0,1,1.59-4.78,4.76,4.76,0,0,1,3.33-1.27,5.68,5.68,0,0,1,2.11.4l-.33,1.92a3.74,3.74,0,0,0-1.59-.31c-2.11,0-2.65,1.86-2.65,4v.74h3.3v1.89H318V97.55Zm13.73-3a8.67,8.67,0,0,0,4.4,1.24c2.51,0,4-1.33,4-3.25,0-1.77-1-2.79-3.58-3.78-3.11-1.1-5-2.71-5-5.39,0-3,2.46-5.17,6.15-5.17a8.67,8.67,0,0,1,4.21.93l-.68,2a7.56,7.56,0,0,0-3.61-.9c-2.6,0-3.59,1.55-3.59,2.85,0,1.77,1.16,2.65,3.79,3.67,3.22,1.24,4.85,2.79,4.85,5.59s-2.17,5.47-6.66,5.47a9.85,9.85,0,0,1-4.86-1.21ZM353.35,97a9.15,9.15,0,0,1-3.93.79c-4.12,0-6.8-2.79-6.8-7A6.94,6.94,0,0,1,350,83.6a8.31,8.31,0,0,1,3.45.71l-.57,1.92a5.73,5.73,0,0,0-2.88-.65c-3.13,0-4.83,2.32-4.83,5.17,0,3.16,2,5.11,4.75,5.11a7,7,0,0,0,3-.68Zm5.67-17a1.46,1.46,0,0,1-1.58,1.52,1.48,1.48,0,0,1-1.5-1.52,1.52,1.52,0,0,1,1.56-1.56A1.48,1.48,0,0,1,359,80.05Zm-2.77,17.5V83.89h2.49V97.55Zm8-6.38c.05,3.36,2.2,4.74,4.68,4.74a9.14,9.14,0,0,0,3.79-.7l.42,1.78a11.2,11.2,0,0,1-4.55.84c-4.2,0-6.72-2.76-6.72-6.89s2.43-7.36,6.41-7.36c4.46,0,5.65,3.92,5.65,6.43a8.78,8.78,0,0,1-.09,1.16Zm7.28-1.78c0-1.58-.65-4-3.44-4-2.52,0-3.62,2.32-3.82,4ZM377,87.58c0-1.41,0-2.56-.12-3.69h2.21l.14,2.25h.05a5,5,0,0,1,4.52-2.56c1.89,0,4.83,1.12,4.83,5.81v8.16h-2.49V89.67c0-2.2-.81-4-3.16-4a3.51,3.51,0,0,0-3.33,2.54,3.64,3.64,0,0,0-.17,1.16v8.21H377ZM402.42,97a9.15,9.15,0,0,1-3.93.79c-4.12,0-6.8-2.79-6.8-7A6.94,6.94,0,0,1,399,83.6a8.26,8.26,0,0,1,3.44.71l-.56,1.92a5.76,5.76,0,0,0-2.88-.65c-3.14,0-4.83,2.32-4.83,5.17,0,3.16,2,5.11,4.74,5.11a7.05,7.05,0,0,0,3.05-.68Zm4.12-5.87c.06,3.36,2.2,4.74,4.69,4.74a9.09,9.09,0,0,0,3.78-.7l.42,1.78a11.15,11.15,0,0,1-4.54.84c-4.21,0-6.72-2.76-6.72-6.89s2.43-7.36,6.41-7.36c4.46,0,5.64,3.92,5.64,6.43a9.17,9.17,0,0,1-.08,1.16Zm7.28-1.78c0-1.58-.65-4-3.44-4-2.52,0-3.62,2.32-3.81,4ZM127.25,45.56H124.9V42.08h10.95c5.76,0,8.77,3,8.77,7.33,0,5.11-4,7.33-8.77,7.33h-3.62v5.72h2.35v3.48H124.9V62.46h2.35Zm8.09,7.7c2.49,0,4.11-1.43,4.11-3.85,0-2.19-1.42-3.85-4.18-3.85h-3v7.7ZM150.7,58.1c.14,2.83,2.32,4.57,5.66,4.57a13.45,13.45,0,0,0,5.52-1.13v3.68a16.25,16.25,0,0,1-6.58,1.13c-6.88,0-9.78-4.3-9.78-9.24,0-5.55,3.38-9.4,9-9.4,6.14,0,8.63,4.63,8.63,10.39Zm7.23-3.27c0-2.45-1.4-3.85-3.62-3.85s-3.44,1.43-3.64,3.85ZM282.8,58.1c.14,2.83,2.32,4.57,5.66,4.57A13.45,13.45,0,0,0,294,61.54v3.68a16.29,16.29,0,0,1-6.58,1.13c-6.88,0-9.78-4.3-9.78-9.24,0-5.55,3.37-9.4,9-9.4,6.14,0,8.62,4.63,8.62,10.39ZM290,54.83c0-2.45-1.39-3.85-3.61-3.85s-3.44,1.43-3.64,3.85ZM167.53,51.59h-2.32V48.12h6.55l.13,2.33H172a6.24,6.24,0,0,1,5.47-2.74c4.53,0,6.9,3.18,6.9,7.1v7.65h2v3.48h-8.75V62.46h1.94V55.64c0-2.49-1.38-3.84-3.64-3.84-2,0-3.62,1.14-3.62,3.84v6.82h2v3.48h-8.75V62.46h1.94Zm23.24,0h-2.32V48.12H195l.13,2.33h.07a6.27,6.27,0,0,1,5.48-2.74c4.52,0,6.9,3.18,6.9,7.1v7.65h2v3.48h-8.76V62.46h2V55.64c0-2.49-1.38-3.84-3.65-3.84-2,0-3.61,1.14-3.61,3.84v6.82h2v3.48h-8.76V62.46h2Zm76.06-7.29h4.77v3.82h4.77v3.47H271.6v7.94c0,2.39.84,3.14,2.81,3.14a13.06,13.06,0,0,0,2.13-.27v3.38a15.33,15.33,0,0,1-3.93.57c-3.51,0-5.78-1.89-5.78-5V51.59h-2.42V48.12h2.42Zm-32.15,0h4.77v3.82h4.77v3.47h-4.77v7.94c0,2.39.84,3.14,2.81,3.14a13.06,13.06,0,0,0,2.13-.27v3.38a15.33,15.33,0,0,1-3.93.57c-3.51,0-5.78-1.89-5.78-5V51.59h-2.42V48.12h2.42Zm22.65,10.29c0-2.46-1.19-3.41-3.6-3.41a8.77,8.77,0,0,0-3,.51v2.39h-3.86V49.55a14.77,14.77,0,0,1,6.76-1.84c5,0,8.16,2,8.16,7v7.74h1.84v3.48H257.9l-.14-2.43h-.07c-.35.5-1.65,2.84-5.67,2.84s-6-2.39-6-5.18c0-3.39,2.61-5.73,9.14-5.73h2.14Zm-1.39,3.78c-3.89,0-5.11.82-5.11,2.36,0,1.05.74,2.14,2.62,2.14s3.82-1.49,3.82-4.5ZM225.07,45.73a10.22,10.22,0,0,0-3-.58c-2.77,0-3.88,1.51-3.88,2.84,0,1.73,1.29,2.54,2.78,2.91l2.37.62c3.33.89,7,2.31,7,7.25,0,4.53-2.91,7.58-9.35,7.58A23.68,23.68,0,0,1,212.84,65V58.71h4.28v3.08a18,18,0,0,0,4.27.67c2.53,0,3.75-1.05,3.75-2.86,0-1.49-.84-2.57-3.89-3.39l-2-.56c-4.67-1.26-6.25-3.51-6.25-7.19s2.52-6.79,8.93-6.79a20.85,20.85,0,0,1,7.45,1.27v5.69h-4.28Z"
+            transform="translate(-33.68 -33.25)"
+            style="fill:#231e20"
+          ></path>
+        </svg>
+      </a>
+    `;
   }
   static get tag() {
     return "company-mark";
@@ -4706,37 +4790,39 @@ window.customElements.define(CompanyMark.tag, CompanyMark);
 
 class PageSearch extends LitElement {
   static get styles() {
-    return [css`
-      :host {
-        display: block;
-      }
-      #search_wrap {
-        margin-right: 15px;
-      }
-    `];
+    return [
+      css`
+        :host {
+          display: block;
+        }
+        #search_wrap {
+          margin-right: 15px;
+        }
+      `
+    ];
   }
   render() {
     return html$1`
-    <div id="search_wrap">
-      <site-modal
-        .disabled="${this.editMode}"
-        icon="icons:search"
-        title="Search site"
-        button-label="Search"
-      >
-        <site-search></site-search>
-      </site-modal>
-    </div>
-  `;
+      <div id="search_wrap">
+        <site-modal
+          .disabled="${this.editMode}"
+          icon="icons:search"
+          title="Search site"
+          button-label="Search"
+        >
+          <site-search></site-search>
+        </site-modal>
+      </div>
+    `;
   }
   static get tag() {
     return "page-search";
   }
   constructor() {
     super();
-    import("../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-search.js");
-    import("../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/layout/site-modal.js");
-    import("../../build/es6/node_modules/@polymer/iron-icon/iron-icon.js");
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-search.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/layout/site-modal.js');
+    import('../../build/es6/node_modules/@polymer/iron-icon/iron-icon.js');
     this.__disposer = [];
     autorun(reaction => {
       this.editMode = toJS(store.editMode);
@@ -4754,26 +4840,28 @@ window.customElements.define(PageSearch.tag, PageSearch);
 
 class PageTopBar extends LitElement {
   static get styles() {
-    return [css`
-      :host {
-        display: block;
-        padding: 2px;
-      }
+    return [
+      css`
+        :host {
+          display: block;
+          padding: 2px;
+        }
 
-      #topbar-wrap {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-    `];
+        #topbar-wrap {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+      `
+    ];
   }
   render() {
     return html$1`
-    <div id="topbar-wrap">
-      <company-mark></company-mark>
-      <page-search></page-search>
-    </div>
-  `;
+      <div id="topbar-wrap">
+        <company-mark></company-mark>
+        <page-search></page-search>
+      </div>
+    `;
   }
   static get tag() {
     return "page-topbar";
@@ -4784,316 +4872,340 @@ window.customElements.define(PageTopBar.tag, PageTopBar);
 class PageFooter extends PolymerElement {
   static get template() {
     return html`
-    <style>
-      :host {
-        display: block;
-      }
+      <style>
+        :host {
+          display: block;
+        }
 
-      #social_wrap {
-        background-color: var(
-          --haxtheme-page-footer-social-wrap-background-color
-        );
-        height: var(--haxtheme-page-footer-social-wrap-height, 80px);
-        padding: var(--haxtheme-page-footer-social-wrap-padding, 25px 0 25px 0);
-        display: var(--haxtheme-page-footer-social-wrap-display, flex);
-        justify-content: var(
-          --haxtheme-page-footer-social-wrap-justify-content,
-          center
-        );
-        align-items: var(
-          --haxtheme-page-footer-social-wrap-align-items,
-          center
-        );
-        @apply --haxtheme-page-footer-social-wrap;
-      }
-
-      @media screen and (max-width: 768px) {
         #social_wrap {
-          height: var(--haxtheme-page-footer-social-wrap-height-mobile, 20px);
-          @apply --haxtheme-page-footer-social-wrap-mobile;
+          background-color: var(
+            --haxtheme-page-footer-social-wrap-background-color
+          );
+          height: var(--haxtheme-page-footer-social-wrap-height, 80px);
+          padding: var(
+            --haxtheme-page-footer-social-wrap-padding,
+            25px 0 25px 0
+          );
+          display: var(--haxtheme-page-footer-social-wrap-display, flex);
+          justify-content: var(
+            --haxtheme-page-footer-social-wrap-justify-content,
+            center
+          );
+          align-items: var(
+            --haxtheme-page-footer-social-wrap-align-items,
+            center
+          );
+          @apply --haxtheme-page-footer-social-wrap;
         }
-      }
 
-      #icons {
-        display: var(--haxtheme-page-footer-icons-display, flex);
-        @apply --haxtheme-page-footer-icons;
-      }
+        @media screen and (max-width: 768px) {
+          #social_wrap {
+            height: var(--haxtheme-page-footer-social-wrap-height-mobile, 20px);
+            @apply --haxtheme-page-footer-social-wrap-mobile;
+          }
+        }
 
-      iron-icon {
-        width: var(--haxtheme-page-footer-iron-icon-width, 40px);
-        height: var(--haxtheme-page-footer-iron-icon-height, 40px);
-        fill: var(--haxtheme-page-footer-iron-icon-fill);
-        @apply --haxtheme-page-footer-iron-icon;
-      }
+        #icons {
+          display: var(--haxtheme-page-footer-icons-display, flex);
+          @apply --haxtheme-page-footer-icons;
+        }
 
-      @media screen and (max-width: 768px) {
         iron-icon {
-          width: var(--haxtheme-page-footer-iron-icon-width-mobile, 30px);
-          height: var(--haxtheme-page-footer-iron-icon-height-mobile, 30px);
-          @apply --haxtheme-page-footer-iron-icon-mobile;
+          width: var(--haxtheme-page-footer-iron-icon-width, 40px);
+          height: var(--haxtheme-page-footer-iron-icon-height, 40px);
+          fill: var(--haxtheme-page-footer-iron-icon-fill);
+          @apply --haxtheme-page-footer-iron-icon;
         }
-      }
 
-      paper-button {
-        min-width: var(--haxtheme-page-footer-paper-button-min-width, 4em);
-        padding: var(--haxtheme-page-footer-paper-button-padding, 0);
-        margin: var(--haxtheme-page-footer-paper-button-margin, 0);
-        @apply --haxtheme-page-footer-paper-button;
-      }
+        @media screen and (max-width: 768px) {
+          iron-icon {
+            width: var(--haxtheme-page-footer-iron-icon-width-mobile, 30px);
+            height: var(--haxtheme-page-footer-iron-icon-height-mobile, 30px);
+            @apply --haxtheme-page-footer-iron-icon-mobile;
+          }
+        }
 
-      @media screen and (max-width: 768px) {
         paper-button {
-          min-width: var(
-            --haxtheme-page-footer-paper-button-min-width-mobile,
-            3em
-          );
-          @apply --haxtheme-page-footer-paper-button-mobile;
+          min-width: var(--haxtheme-page-footer-paper-button-min-width, 4em);
+          padding: var(--haxtheme-page-footer-paper-button-padding, 0);
+          margin: var(--haxtheme-page-footer-paper-button-margin, 0);
+          @apply --haxtheme-page-footer-paper-button;
         }
-      }
 
-      #info_wrap {
-        display: var(--haxtheme-page-footer-info-wrap-display, flex);
-        flex-direction: var(
-          --haxtheme-page-footer-info-wrap-flex-direction,
-          column
-        );
-        justify-content: var(
-          --haxtheme-page-footer-info-wrap-justify-content,
-          center
-        );
-        align-items: var(--haxtheme-page-footer-info-wrap-align-items, center);
-        background-color: var(
-          --haxtheme-page-footer-info-wrap-background-color
-        );
-        height: var(--haxtheme-page-footer-info-wrap-height, 200px);
-        @apply --haxtheme-page-footer-info-wrap;
-      }
+        @media screen and (max-width: 768px) {
+          paper-button {
+            min-width: var(
+              --haxtheme-page-footer-paper-button-min-width-mobile,
+              3em
+            );
+            @apply --haxtheme-page-footer-paper-button-mobile;
+          }
+        }
 
-      .address {
-        color: var(--haxtheme-page-footer-address-color);
-        font-weight: var(--haxtheme-page-footer-address-font-weight);
-        font-size: var(--haxtheme-page-footer-address-font-size);
-        line-height: var(--haxtheme-page-footer-address-line-height, 1.2);
-        text-align: var(--haxtheme-page-footer-address-text-align, center);
-        margin: var(--haxtheme-page-footer-address-margin, 25px 0 0 0);
-        @apply --haxtheme-page-footer-address;
-      }
+        #info_wrap {
+          display: var(--haxtheme-page-footer-info-wrap-display, flex);
+          flex-direction: var(
+            --haxtheme-page-footer-info-wrap-flex-direction,
+            column
+          );
+          justify-content: var(
+            --haxtheme-page-footer-info-wrap-justify-content,
+            center
+          );
+          align-items: var(
+            --haxtheme-page-footer-info-wrap-align-items,
+            center
+          );
+          background-color: var(
+            --haxtheme-page-footer-info-wrap-background-color
+          );
+          height: var(--haxtheme-page-footer-info-wrap-height, 200px);
+          @apply --haxtheme-page-footer-info-wrap;
+        }
 
-      @media screen and (max-width: 768px) {
         .address {
-          font-size: var(--haxtheme-page-footer-address-font-size-mobile, 12px);
-          line-height: var(--haxtheme-page-footer-address-line-height, 0);
-          margin: var(--haxtheme-page-footer-address-margin, 10px 0 0 0);
-          @apply --haxtheme-page-footer-address-mobile;
+          color: var(--haxtheme-page-footer-address-color);
+          font-weight: var(--haxtheme-page-footer-address-font-weight);
+          font-size: var(--haxtheme-page-footer-address-font-size);
+          line-height: var(--haxtheme-page-footer-address-line-height, 1.2);
+          text-align: var(--haxtheme-page-footer-address-text-align, center);
+          margin: var(--haxtheme-page-footer-address-margin, 25px 0 0 0);
+          @apply --haxtheme-page-footer-address;
         }
-      }
 
-      #basement {
-        font-size: var(--haxtheme-page-footer-basement-font-size);
-        font-weight: var(--haxtheme-page-footer-basement-font-weight);
-        line-height: var(--haxtheme-page-footer-basement-line-height, 1.2);
-        @apply --haxtheme-page-footer-basement;
-      }
+        @media screen and (max-width: 768px) {
+          .address {
+            font-size: var(
+              --haxtheme-page-footer-address-font-size-mobile,
+              12px
+            );
+            line-height: var(--haxtheme-page-footer-address-line-height, 0);
+            margin: var(--haxtheme-page-footer-address-margin, 10px 0 0 0);
+            @apply --haxtheme-page-footer-address-mobile;
+          }
+        }
 
-      .legal_statement {
-        display: var(--haxtheme-page-footer-legal-statement-display, flex);
-        padding: var(
-          --haxtheme-page-footer-legal-statement-padding,
-          10px 0 0 0
-        );
-        @apply --haxtheme-page-footer-legal-statement;
-      }
+        #basement {
+          font-size: var(--haxtheme-page-footer-basement-font-size);
+          font-weight: var(--haxtheme-page-footer-basement-font-weight);
+          line-height: var(--haxtheme-page-footer-basement-line-height, 1.2);
+          @apply --haxtheme-page-footer-basement;
+        }
 
-      .legal_item {
-        color: var(--haxtheme-page-footer-legal-item-color);
-        padding: var(--haxtheme-page-footer-legal-item-padding, 0 5px 25px 5px);
-        border-right: var(
-          --haxtheme-page-footer-legal-item-border-right,
-          solid
-        );
-        border-right-width: var(
-          --haxtheme-page-footer-legal-item-border-right-width,
-          2px
-        );
-        border-right-color: var(
-          --haxtheme-page-footer-legal-item-border-right-color
-        );
-        height: var(--haxtheme-page-footer-legal-item-height, 0);
-        @apply --haxtheme-page-footer-legal-item;
-      }
+        .legal_statement {
+          display: var(--haxtheme-page-footer-legal-statement-display, flex);
+          padding: var(
+            --haxtheme-page-footer-legal-statement-padding,
+            10px 0 0 0
+          );
+          @apply --haxtheme-page-footer-legal-statement;
+        }
 
-      @media screen and (max-width: 768px) {
         .legal_item {
-          border: var(--haxtheme-page-footer-legal-item-border-mobile, none);
-          margin: var(
-            --haxtheme-page-footer-legal-item-margin-mobile,
-            5px 0 25px 0
+          color: var(--haxtheme-page-footer-legal-item-color);
+          padding: var(
+            --haxtheme-page-footer-legal-item-padding,
+            0 5px 25px 5px
           );
-          padding: var(--haxtheme-page-footer-legal-item-padding-mobile, 2px);
-          font-size: var(
-            --haxtheme-page-footer-legal-item-font-size-mobile,
-            12px
+          border-right: var(
+            --haxtheme-page-footer-legal-item-border-right,
+            solid
           );
-          @apply --haxtheme-page-footer-legal-item-mobile;
+          border-right-width: var(
+            --haxtheme-page-footer-legal-item-border-right-width,
+            2px
+          );
+          border-right-color: var(
+            --haxtheme-page-footer-legal-item-border-right-color
+          );
+          height: var(--haxtheme-page-footer-legal-item-height, 0);
+          @apply --haxtheme-page-footer-legal-item;
         }
-      }
 
-      .legal_item a {
-        text-decoration: var(
-          --haxtheme-page-footer-legal-item-a-text-decoration
-        );
-        color: var(--haxtheme-page-footer-legal-item-a-color);
-        @apply --haxtheme-page-footer-legal-item-a;
-      }
+        @media screen and (max-width: 768px) {
+          .legal_item {
+            border: var(--haxtheme-page-footer-legal-item-border-mobile, none);
+            margin: var(
+              --haxtheme-page-footer-legal-item-margin-mobile,
+              5px 0 25px 0
+            );
+            padding: var(--haxtheme-page-footer-legal-item-padding-mobile, 2px);
+            font-size: var(
+              --haxtheme-page-footer-legal-item-font-size-mobile,
+              12px
+            );
+            @apply --haxtheme-page-footer-legal-item-mobile;
+          }
+        }
 
-      .legal_item a:hover {
-        color: var(--haxtheme-page-footer-legal-item-a-hover-color, #000000);
-        @apply --haxtheme-page-footer-legal-item-a-hover;
-      }
+        .legal_item a {
+          text-decoration: var(
+            --haxtheme-page-footer-legal-item-a-text-decoration
+          );
+          color: var(--haxtheme-page-footer-legal-item-a-color);
+          @apply --haxtheme-page-footer-legal-item-a;
+        }
 
-      .legal_item:last-child {
-        border: var(--haxtheme-page-footer-legal-item-last-child-border, none);
-        @apply --haxtheme-page-footer-legal-item-last-child;
-      }
+        .legal_item a:hover {
+          color: var(--haxtheme-page-footer-legal-item-a-hover-color, #000000);
+          @apply --haxtheme-page-footer-legal-item-a-hover;
+        }
 
-      #odl_mark {
-        margin: var(--haxtheme-page-footer-odl-mark-margin, 25px 0 15px 0);
-        @apply --haxtheme-page-footer-odl-mark;
-      }
+        .legal_item:last-child {
+          border: var(
+            --haxtheme-page-footer-legal-item-last-child-border,
+            none
+          );
+          @apply --haxtheme-page-footer-legal-item-last-child;
+        }
 
-      #odl_mark a {
-        display: var(--haxtheme-page-footer-odl-mark-a-display, flex);
-        background-color: var(
-          --haxtheme-page-footer-odl-mark-a-background-color
-        );
-        border: var(--haxtheme-page-footer-odl-mark-a-border, solid);
-        border-width: var(--haxtheme-page-footer-odl-mark-a-border-width, 2px);
-        border-color: var(
-          --haxtheme-page-footer-odl-mark-a-border-color,
-          #ffffff
-        );
-        border-radius: var(
-          --haxtheme-page-footer-odl-mark-a-border-radius,
-          50%
-        );
-        padding: var(--haxtheme-page-footer-odl-mark-a-padding, 8px);
-        opacity: var(--haxtheme-page-footer-odl-mark-a-opacity, 0.4);
-        @apply --haxtheme-page-footer-odl-mark-a;
-      }
-    </style>
-    <div id="footer_wrap">
-      <div id="social_wrap">
-        <div id="icons">
-          <div class="icon">
-            <a href="https://twitter.com/Eberly_ODL" target="_blank">
-              <paper-button id="twitter" aria-label="twitter" noink="">
-                <iron-icon icon="haxthemeicons:twitter" role="img"></iron-icon>
-              </paper-button>
-            </a>
+        #odl_mark {
+          margin: var(--haxtheme-page-footer-odl-mark-margin, 25px 0 15px 0);
+          @apply --haxtheme-page-footer-odl-mark;
+        }
+
+        #odl_mark a {
+          display: var(--haxtheme-page-footer-odl-mark-a-display, flex);
+          background-color: var(
+            --haxtheme-page-footer-odl-mark-a-background-color
+          );
+          border: var(--haxtheme-page-footer-odl-mark-a-border, solid);
+          border-width: var(
+            --haxtheme-page-footer-odl-mark-a-border-width,
+            2px
+          );
+          border-color: var(
+            --haxtheme-page-footer-odl-mark-a-border-color,
+            #ffffff
+          );
+          border-radius: var(
+            --haxtheme-page-footer-odl-mark-a-border-radius,
+            50%
+          );
+          padding: var(--haxtheme-page-footer-odl-mark-a-padding, 8px);
+          opacity: var(--haxtheme-page-footer-odl-mark-a-opacity, 0.4);
+          @apply --haxtheme-page-footer-odl-mark-a;
+        }
+      </style>
+      <div id="footer_wrap">
+        <div id="social_wrap">
+          <div id="icons">
+            <div class="icon">
+              <a href="https://twitter.com/Eberly_ODL" target="_blank">
+                <paper-button id="twitter" aria-label="twitter" noink="">
+                  <iron-icon
+                    icon="haxthemeicons:twitter"
+                    role="img"
+                  ></iron-icon>
+                </paper-button>
+              </a>
+            </div>
+            <div class="icon">
+              <a href="https://vimeo.com/user38447507" target="_blank">
+                <paper-button id="vimeo" aria-label="vimeo" noink="">
+                  <iron-icon icon="haxthemeicons:vimeo" role="img"></iron-icon>
+                </paper-button>
+              </a>
+            </div>
+            <div class="icon">
+              <a href="https://www.pinterest.com/ecosodl/" target="_blank">
+                <paper-button id="pinterest" aria-label="pinterest" noink="">
+                  <iron-icon
+                    icon="haxthemeicons:pinterest"
+                    role="img"
+                  ></iron-icon>
+                </paper-button>
+              </a>
+            </div>
+            <div class="icon">
+              <a href="https://www.flickr.com/photos/ecosodl" target="_blank">
+                <paper-button id="flikr" aria-label="flikr" noink="">
+                  <iron-icon icon="haxthemeicons:flikr" role="img"></iron-icon>
+                </paper-button>
+              </a>
+            </div>
+            <div class="icon">
+              <a
+                href="https://www.youtube.com/user/EberlySciOnline"
+                target="_blank"
+              >
+                <paper-button id="youtube" aria-label="youtube" noink="">
+                  <iron-icon
+                    icon="haxthemeicons:youtube"
+                    role="img"
+                  ></iron-icon>
+                </paper-button>
+              </a>
+            </div>
+            <div class="icon">
+              <a href="mailto:odl@science.psu.edu" target="_blank">
+                <paper-button id="email" aria-label="email" noink="">
+                  <iron-icon icon="haxthemeicons:email" role="img"></iron-icon>
+                </paper-button>
+              </a>
+            </div>
           </div>
-          <div class="icon">
-            <a href="https://vimeo.com/user38447507" target="_blank">
-              <paper-button id="vimeo" aria-label="vimeo" noink="">
-                <iron-icon icon="haxthemeicons:vimeo" role="img"></iron-icon>
-              </paper-button>
-            </a>
+        </div>
+        <div id="info_wrap">
+          <div class="address">
+            221 Ritenour | University Park, PA 16802 | (814) 867-1391
           </div>
-          <div class="icon">
-            <a href="https://www.pinterest.com/ecosodl/" target="_blank">
-              <paper-button id="pinterest" aria-label="pinterest" noink="">
-                <iron-icon
-                  icon="haxthemeicons:pinterest"
-                  role="img"
-                ></iron-icon>
-              </paper-button>
-            </a>
+          <div id="basement">
+            <div class="legal_statement">
+              <div class="legal_item">
+                <a
+                  href="https://www.psu.edu/web-privacy-statement"
+                  target="_blank"
+                  >Privacy</a
+                >
+              </div>
+              <div class="legal_item">
+                <a href="https://policy.psu.edu/policies" target="_blank"
+                  >Non Discrimination</a
+                >
+              </div>
+              <div class="legal_item">
+                <a href="https://policy.psu.edu/policies" target="_blank"
+                  >Equal Opportunity</a
+                >
+              </div>
+              <div class="legal_item">
+                <a
+                  href="https://www.psu.edu/accessibilitystatement"
+                  target="_blank"
+                  >Accessibility</a
+                >
+              </div>
+              <div class="legal_item">
+                <a
+                  href="https://www.psu.edu/copyright-information"
+                  target="_blank"
+                  >Copyright</a
+                >
+              </div>
+            </div>
           </div>
-          <div class="icon">
-            <a href="https://www.flickr.com/photos/ecosodl" target="_blank">
-              <paper-button id="flikr" aria-label="flikr" noink="">
-                <iron-icon icon="haxthemeicons:flikr" role="img"></iron-icon>
-              </paper-button>
-            </a>
-          </div>
-          <div class="icon">
-            <a
-              href="https://www.youtube.com/user/EberlySciOnline"
-              target="_blank"
-            >
-              <paper-button id="youtube" aria-label="youtube" noink="">
-                <iron-icon icon="haxthemeicons:youtube" role="img"></iron-icon>
-              </paper-button>
-            </a>
-          </div>
-          <div class="icon">
-            <a href="mailto:odl@science.psu.edu" target="_blank">
-              <paper-button id="email" aria-label="email" noink="">
-                <iron-icon icon="haxthemeicons:email" role="img"></iron-icon>
-              </paper-button>
+          <div id="odl_mark">
+            <a href="http://haxcms.ddev.local/_sites/odl/index.html">
+              <iron-image
+                style="width:60px; height:60px;"
+                alt="Office of Digital Learning, Eberly College of Science"
+                sizing="cover"
+                src="files/theme-images/logos/odl-logo.png"
+              ></iron-image>
             </a>
           </div>
         </div>
       </div>
-      <div id="info_wrap">
-        <div class="address">
-          221 Ritenour | University Park, PA 16802 | (814) 867-1391
-        </div>
-        <div id="basement">
-          <div class="legal_statement">
-            <div class="legal_item">
-              <a
-                href="https://www.psu.edu/web-privacy-statement"
-                target="_blank"
-                >Privacy</a
-              >
-            </div>
-            <div class="legal_item">
-              <a href="https://policy.psu.edu/policies" target="_blank"
-                >Non Discrimination</a
-              >
-            </div>
-            <div class="legal_item">
-              <a href="https://policy.psu.edu/policies" target="_blank"
-                >Equal Opportunity</a
-              >
-            </div>
-            <div class="legal_item">
-              <a
-                href="https://www.psu.edu/accessibilitystatement"
-                target="_blank"
-                >Accessibility</a
-              >
-            </div>
-            <div class="legal_item">
-              <a
-                href="https://www.psu.edu/copyright-information"
-                target="_blank"
-                >Copyright</a
-              >
-            </div>
-          </div>
-        </div>
-        <div id="odl_mark">
-          <a href="http://haxcms.ddev.local/_sites/odl/index.html">
-            <iron-image
-              style="width:60px; height:60px;"
-              alt="Office of Digital Learning, Eberly College of Science"
-              sizing="cover"
-              src="files/theme-images/logos/odl-logo.png"
-            ></iron-image>
-          </a>
-        </div>
-      </div>
-    </div>
-  `;
+    `;
   }
   static get tag() {
     return "page-footer";
   }
   constructor() {
     super();
-    import("../../build/es6/node_modules/@polymer/paper-button/paper-button.js");
-    import("../../build/es6/node_modules/@polymer/iron-icon/iron-icon.js");
+    import('../../build/es6/node_modules/@polymer/paper-button/paper-button.js');
+    import('../../build/es6/node_modules/@polymer/iron-icon/iron-icon.js');
   }
 }
 window.customElements.define(PageFooter.tag, PageFooter);
@@ -5305,12 +5417,12 @@ site-top-menu {
   }
   constructor() {
     super();
-    import("../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-top-menu.js");
-    import("../../build/es6/node_modules/@polymer/paper-card/paper-card.js");
-    import("../../build/es6/node_modules/@polymer/paper-button/paper-button.js");
-    import("../../build/es6/node_modules/@polymer/iron-icons/iron-icons.js");
-    import("../../build/es6/node_modules/@lrnwebcomponents/promo-tile/promo-tile.js");
-    import("../../build/es6/node_modules/@lrnwebcomponents/scroll-button/scroll-button.js");
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-top-menu.js');
+    import('../../build/es6/node_modules/@polymer/paper-card/paper-card.js');
+    import('../../build/es6/node_modules/@polymer/paper-button/paper-button.js');
+    import('../../build/es6/node_modules/@polymer/iron-icons/iron-icons.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/promo-tile/promo-tile.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/scroll-button/scroll-button.js');
   }
   /**
    * Store the tag name to make it easier to obtain directly.
@@ -5355,29 +5467,25 @@ site-top-menu {
         case "courses":
         case "about":
           target = location.route.name;
-        break;
+          break;
         default:
           if (location.route.path.startsWith("blog-posts/")) {
             target = "blog";
-          }
-          else if (location.route.path.startsWith("team-directory/")) {
+          } else if (location.route.path.startsWith("team-directory/")) {
             target = "profile";
-          }
-          else if (location.route.path.startsWith("courses/")) {
+          } else if (location.route.path.startsWith("courses/")) {
             target = "course";
-          }
-          else if (location.route.path.startsWith("syllabi/")) {
+          } else if (location.route.path.startsWith("syllabi/")) {
             target = "syllabus";
-          }
-          else if (location.route.path.startsWith("about/")) {
+          } else if (location.route.path.startsWith("about/")) {
             target = "about";
           }
-        break;
+          break;
       }
       if (target) {
-        wipeSlot(this.shadowRoot.querySelector('#' + target), '*');
+        wipeSlot(this.shadowRoot.querySelector("#" + target), "*");
         let frag = document.createRange().createContextualFragment(newValue);
-        dom(this.shadowRoot.querySelector('#' + target)).appendChild(frag);
+        dom(this.shadowRoot.querySelector("#" + target)).appendChild(frag);
       }
     }
   }
@@ -5412,27 +5520,25 @@ site-top-menu {
           if (location.route.path.startsWith("blog-posts/")) {
             this.selectedPage = 5;
             target = "blog";
-          }
-          else if (location.route.path.startsWith("team-directory/")) {
+          } else if (location.route.path.startsWith("team-directory/")) {
             this.selectedPage = 6;
             target = "profile";
-          }
-          else if (location.route.path.startsWith("courses/")) {
+          } else if (location.route.path.startsWith("courses/")) {
             this.selectedPage = 7;
             target = "course";
-          }
-          else if (location.route.path.startsWith("syllabi/")) {
+          } else if (location.route.path.startsWith("syllabi/")) {
             this.selectedPage = 8;
             target = "syllabus";
-          }
-          else if (location.route.path.startsWith("about/")) {
+          } else if (location.route.path.startsWith("about/")) {
             this.selectedPage = 9;
             target = "about";
           }
           break;
       }
       if (target) {
-        this.contentContainer = this.shadowRoot.querySelector('#' + target).shadowRoot.querySelector('#contentcontainer');
+        this.contentContainer = this.shadowRoot
+          .querySelector("#" + target)
+          .shadowRoot.querySelector("#contentcontainer");
       }
 
       window.scrollTo(0, 0);
