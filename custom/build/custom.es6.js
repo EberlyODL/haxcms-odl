@@ -1302,6 +1302,13 @@ class HaxThemeHome extends PolymerElement {
           </promo-tile>
         </div>
       </div>
+      <site-query
+          result="{{__newsitems}}"
+          conditions='{
+          "metadata.type": "news"
+        }'
+          limit="1"
+        ></site-query>
       <div id="page_feature">
         <site-query
           result="{{__newsitems}}"
@@ -1331,9 +1338,7 @@ class HaxThemeHome extends PolymerElement {
       <div id="page_feature">
         <site-query
           result="{{__spotlightitems}}"
-          conditions='{
-          "metadata.type": "spotlight"
-        }'
+          conditions='{ "metadata.type": "spotlight" }'
           limit="1"
         ></site-query>
         <dom-repeat items="[[__spotlightitems]]" mutable-data>

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>odl</title>
+    <link>/rss.xml</link>
+    <description></description>
+    <copyright>Copyright (C) 2019 </copyright>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Sep 2019 14:09:38 +0000</lastBuildDate>
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Joseph Houck</title>
+      <link>/team-directory/joseph</link>
+      <description>
+          <![CDATA[ <div>
+  Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut
+  lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
+  <br />
+  <br />
+</div>
+<div>
+  Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut
+  lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
+  <br />
+  <br />
+</div>
+<div>
+  Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut
+  lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
+  <br />
+  <br />
+</div>
+<div>
+  Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut
+  lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
+  <br />
+  <br />
+</div>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/team-directory/joseph</guid>
+      <pubDate>Tue, 16 Apr 2019 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Louis Leblond</title>
+      <link>/spotlight/louis</link>
+      <description>
+          <![CDATA[ This is Louis spotlight page. ]]>
+      </description>
+      <category></category>
+      <guid>/spotlight/louis</guid>
+      <pubDate>Tue, 16 Apr 2019 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Louis Leblond</title>
+      <link>/team-directory/louis</link>
+      <description>
+          <![CDATA[ <div>
+  Louis Leblond is the Director of Online Education in Physics and a Lecturer of
+  Physics in the Eberly College of Science. He is also the first Tombros Fellow
+  for Digital Learning. The Tombros Fellow of Digital Learning is a 1-year
+  position and is responsible for the following:
+  <br />
+  <br />
+</div>
+<div>
+  <li>
+    Exploring new technologies for teaching practices by conceiving of,
+    consulting on, and implementing new digital projects;
+  </li>
+  <li>
+    Considering research-based practices and potential mechanisms for assessment
+    of the impacts digital technologies on student learning;
+  </li>
+  <li>
+    Sharing digital learning technologies and ideas by engaging with faculty in
+    the college;
+  </li>
+  <li>
+    Working on public-facing projects, in resident instruction, world campus, or
+    outreach projects, with potential for demonstrable benefits to students and
+    ECoS;
+  </li>
+</div>
+<div>
+  <br />
+  Louis is working on creating an online version of PHYS 211 Mechanics and PHYS
+  212 Electrogmagnetism using a new tool called the IOLab, a multifunctional
+  measuring device for physics labs.
+  <br />
+  <br />
+</div>
+<div>
+  Dr. Leblond's other interests include:
+  <br />
+  <br />
+</div>
+<div>
+  Online education, with a focus on developing (and assessing the efficacy) of
+  new innovative learning tools in online education.
+  <br />
+  <br />
+</div>
+<div>
+  Theoretical cosmology with particular emphasis on inflation, cosmic strings,
+  dark matter and dark energy.
+  <br />
+  <br />
+</div>
+<div>
+  High energy physics: string theory, quantum gravity and physics beyond the
+  standard model with particular interests in the subjects of de Sitter
+  spacetime and time-dependent backgrounds.
+</div>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/team-directory/louis</guid>
+      <pubDate>Tue, 16 Apr 2019 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>H5P - Documentation Tool</title>
+      <link>/blog-posts/11-19-18</link>
+      <description>
+          <![CDATA[ <div>Are you searching for a creative, interactive, and engaging way to have
+    students submit details about an
+    assignment or project they’re working on? Would you like this information to
+    be exported to a nicely
+    formatted text document instantly? Look no further! H5P’s Documentation Tool
+    allows you to create a
+    project outline complete with instructions and assessment possibilities. In
+    this video, I set up a simple
+    demonstration that identifies some basic goals while also asking users to
+    supply their insight as they traverse
+    through each step. Specifically, we look over the general settings of the
+    tool and work through building an
+    example that will help users scaffold out a detailed steps-to-completion
+    outline, create a plan of attack, and
+    organize / assess individual goals and contributions. At the end, we'll
+    review the different ways we can
+    implement this newly created content into your website. Check it out!
+</div>
+<div>
+    <br> 
+    <video-player lang="en" preload="metadata"
+        source="https://youtu.be/8-PdyiAkkuI"
+        sticky-corner="top-right" youtube-id="8-PdyiAkkuI" iframed
+        source-type="youtube" is-a11y-media is-youtube media-title="H5P -
+        Documentation Tool"></video-player>
+</div> ]]>
+      </description>
+      <category>H5P,Content,Engagement</category>
+      <guid>/blog-posts/11-19-18</guid>
+      <pubDate>Mon, 19 Nov 2018 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Charles Lavera</title>
+      <link>/team-directory/chuck</link>
+      <description>
+          <![CDATA[ <div>
+  My name is Charles Lavera; I am a Multimedia Specialist / Web Developer with
+  the Office of Digital Learning (ODL) at the Eberly College of Science at Penn
+  State. Originally from the Pittsburgh area, I uphold a broad background in
+  digital-media and web-development with a focus on Drupal-installations, web
+  component architecture, interactive content (H5P), and open-source technology.
+  <br />
+  <br />
+</div>
+<div>
+  You could say that I wear many hats, but I consider my flexibility to be my
+  greatest asset as I am able to provide support in a number of areas when
+  needed. My favorite part of working with the ODL team has been the opportunity
+  to collaborate with faculty and staff to create engaging web-experiences that
+  showcase innovation and modern web-advancements. From complete websites to
+  custom course-applications, we have fun exploring the deepest recesses of our
+  creativity while we build a better future.
+  <br />
+  <br />
+</div>
+<div>
+  Outside of the office, I am known for being a loving husband, dedicated
+  musician, an avid hockey fan, and a nature enthusiast.
+</div>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/team-directory/chuck</guid>
+      <pubDate>Tue, 06 Nov 2018 15:25:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Michael Potter</title>
+      <link>/team-directory/mike</link>
+      <description>
+          <![CDATA[ <div>
+  Michael is an educational technologist who brings a decade’s worth of
+  experience building websites and applications to the edtech space. His
+  non-traditional path began at Penn State where he earned his BA in Political
+  Science. From there, Michael joined a local venture capital group where he was
+  involved with many different companies and handled everything from sales, to
+  product development, to logistics and shipping. When one such company lost
+  their only web developer, Michael was tapped to takeover the programming
+  responsibilities and the rest is history. Michael was immediately hooked with
+  web development and begin soaking up every piece of information the web could
+  offer.
+<br/>
+</div>
+<div><br/></div>
+<div>
+  Since then, Michael has gained a wealth of experience in the full stack of web
+  applications. His skillset is most notable in the area of front-end
+  development and the Drupal framework. He has a passion for writing code,
+  learning how to code, and mentoring fellow programmers. Michael has a unique
+  gift for connecting, inspiring, and empowering others.
+  <br/>
+  <br/>
+</div>
+<div>
+  Innovative, forward thinking, risk taking are some of the reasons Michael
+  wanted to work at ODL. His goal is to create technology and applications that
+  remove barriers between educators and students. Michael believes that the web
+  can enable people to change their lives for the better.
+</div>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/team-directory/mike</guid>
+      <pubDate>Tue, 06 Nov 2018 15:23:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Carly Dreibelbis</title>
+      <link>/team-directory/carly</link>
+      <description>
+          <![CDATA[ <div>
+  I have always been obsessed with visuals. When I was a kid I would go through
+  my mom’s magazines, find an image I loved, check with my mom to make sure she
+  didn’t need the article on the back, then clip it out and safely tuck it away
+  in a flat, waxed-cardboard box under my bed - only to find out years later
+  that my mom secretly snuck in my room and downsized my collection to keep it
+  under control.
+  <br />
+  <br />
+</div>
+<div>
+  These days, I apply my passion for visual arts to graphic design and
+  photography. I soak up inspiration all around me, and still tear out magazine
+  ads and tuck them away for reference. I strive to visually present the facts
+  and discipline of science with creativity, quality, technology and whenever
+  possible… a bit of humor. I am always looking for new ways to approach
+  courses, graphics, and content to successfully visually communicate concepts
+  with an audience.
+  <br />
+  <br />
+</div>
+<div>
+  If I’m not behind a computer screen, you can find me outside with a camera by
+  my side or in mad scientist mode in my kitchen - while tripping over a hungry
+  cattle dog vacuum.
+</div>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/team-directory/carly</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>BiSc 003</title>
+      <link>/syllabi/bisc003</link>
+      <description>
+          <![CDATA[ <p>this is the bisc003 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/bisc003</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>BiSc 004</title>
+      <link>/syllabi/bisc004</link>
+      <description>
+          <![CDATA[ <p>This is the bisc004 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/bisc004</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 11</title>
+      <link>/syllabi/biol11</link>
+      <description>
+          <![CDATA[ <p>this is the biol11 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol11</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Phys 211</title>
+      <link>/syllabi/phys211</link>
+      <description>
+          <![CDATA[ <p>this is the phys211 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/phys211</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>BiSc 002</title>
+      <link>/syllabi/bisc002</link>
+      <description>
+          <![CDATA[ <p>this is the bisc002 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/bisc002</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 120N</title>
+      <link>/syllabi/biol120n</link>
+      <description>
+          <![CDATA[ <p>this is the biol120n syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol120n</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 133</title>
+      <link>/syllabi/biol133</link>
+      <description>
+          <![CDATA[ <p>this the biol133 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol133</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 141</title>
+      <link>/syllabi/biol141</link>
+      <description>
+          <![CDATA[ <p>this is the biol141 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol141</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 155</title>
+      <link>/syllabi/biol155</link>
+      <description>
+          <![CDATA[ <p>this is the biol155 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol155</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 177</title>
+      <link>/syllabi/biol177</link>
+      <description>
+          <![CDATA[ <p>this is the biol177 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol177</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bmmb 551</title>
+      <link>/syllabi/bmmb551</link>
+      <description>
+          <![CDATA[ <p>this is the bmmb551 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/bmmb551</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 110</title>
+      <link>/syllabi/biol110</link>
+      <description>
+          <![CDATA[ <p>this is the biol110 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol110</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Astro 130</title>
+      <link>/syllabi/astro130</link>
+      <description>
+          <![CDATA[ <p>this is the astro130 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/astro130</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>BiSc 001</title>
+      <link>/syllabi/bisc001</link>
+      <description>
+          <![CDATA[ <p>This is the bisc001 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/bisc001</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Astro 140</title>
+      <link>/syllabi/astro140</link>
+      <description>
+          <![CDATA[ <p>this is the astro140 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/astro140</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chem 005</title>
+      <link>/syllabi/chem005</link>
+      <description>
+          <![CDATA[ <p>this is the chem005 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/chem005</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Astro 120</title>
+      <link>/syllabi/astro120</link>
+      <description>
+          <![CDATA[ <p>This is the astro120 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/astro120</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Astro 011</title>
+      <link>/syllabi/astro011</link>
+      <description>
+          <![CDATA[ <p>astro011 syllabus page</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/astro011</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

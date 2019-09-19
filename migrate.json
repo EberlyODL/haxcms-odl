@@ -1,0 +1,48 @@
+{
+  "regex": [
+    {
+      "pattern": "&lt;",
+      "replacement": "<"
+    },
+    {
+      "pattern": "&gt;",
+      "replacement": ">"
+    },
+    {
+      "pattern": "&quot;",
+      "replacement": "\""
+    },
+    {
+      "pattern": "<img ([\\s\\S][^>]*)>",
+      "replacement": "<media-image $1></media-image>"
+    },
+    {
+      "pattern": "(<media-image[^>]*)src([^>]*)",
+      "replacement": "$1source$2"
+    },
+    {
+      "pattern": "(<media-image[^>]* )style([^>]*)",
+      "replacement": "$1data-style$2"
+    },
+    {
+      "pattern": "<p>(<media-image.*?<\/media-image>)<\/p>",
+      "replacement": "$1"
+    },
+    {
+      "pattern": "<p><a.*?(<media-image.*?<\/media-image>)</a><\/p>",
+      "replacement": "$1"
+    },
+    {
+      "pattern": "\\[ciscode.*?item=(0|[1-9][0-9]*).*?display_mode=h5p.*?\\]",
+      "replacement": "<iframe width=\"100%\" height=\"auto\" src=\"https://media.ed.science.psu.edu/entity_iframe/node/$1\" frameborder=\"0\" class=\"entity_iframe entity_iframe_node\" id=\"entity_iframe_node_2653\" allowfullscreen=\"true\" webkitallowfullscreen=\"true\" mozallowfullscreen=\"true\"></iframe>"
+    },
+    {
+      "pattern": "<video-player (.*?)>.*?<\/video-player>",
+      "replacement": "<video-player $1><\/video-player>"
+    },
+    {
+      "pattern": "<media-image(.*?)width=\"(.*?)\"(.*?)></media-image>",
+      "replacement": "<media-image style=\"max-width:$2px;\"$1$3></media-image>"
+    }
+  ]
+}

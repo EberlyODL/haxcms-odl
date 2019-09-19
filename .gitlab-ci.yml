@@ -1,0 +1,29 @@
+image: tiangolo/docker-with-compose
+
+stages:
+  - build
+  - deploy
+
+build-heymp-swarm:
+  stage: build
+  tags:
+    - heymp
+  script:
+    # Cache busters
+    - sed -i -E "s/file=\"site\.json\"/file=\"site\.json\?v${CI_COMMIT_SHORT_SHA}\"/" index.html
+    - docker-compose build
+  only:
+    - master
+
+deploy-heymp-swarm:
+  stage: deploy
+  tags:
+    - heymp
+  variables:
+    HOST: "swarm.heymp.com"
+  script:
+    - pwd
+    - ls -la
+    - docker stack deploy -c docker-compose.yml --resolve-image always haxcms-odl
+  only:
+    - master

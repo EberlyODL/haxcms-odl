@@ -21,6 +21,9 @@
     else if (document.location.pathname.indexOf('/sites/') != -1) {
       document.write("<base href='" + document.location.pathname.substring(0, document.location.pathname.indexOf('/', document.location.pathname.indexOf('/sites/') + 7)) + "/' />");
     }
+    else {
+      document.write("<base href='/' />")
+    }
   </script>
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,user-scalable=yes">
   <meta name="generator" content="HAXCMS">
@@ -78,16 +81,6 @@
 </head>
 <body no-js>
   <haxcms-site-builder id="site" file="site.json"><div class="loading"><div>Site</div><div>loading</div></div></haxcms-site-builder>
-  <div id="haxcmsoutdatedfallback">
-    <haxcms-legacy-player file="site.json"></haxcms-legacy-player>
-    <div id="haxcmsoutdatedfallbacksuperold"> 
-      <iframe id="outline" style="width:18%;float:left;height:500px;padding:0;margin:0;" name="outline" id="frame1"
-        src="legacy-outline.html"></iframe>
-      <iframe id="content" style="width:80%;float:left;height:500px;padding:0;margin:0;" name="content" id="frame2" src=""></iframe>
-      <div style="float:left;padding:16px 0;font-size:32px;text-align: center;width:100%;">Please use a modern browser to
-        view our website correctly. <a href="http://outdatedbrowser.com/">Update my browser now</a></div>
-    </div>
-  </div>
   <script>document.body.removeAttribute('no-js');var cdn="";var old=false;var ancient=false;
     try { new Function('import("");'); } catch (err) {
       if (typeof Symbol == "undefined") { // IE 11, at least try to serve the components
@@ -144,6 +137,10 @@
       }
       old=true;
     }
+    // @haxcms-generator/upgrade-browser
+    if (old) {
+      window.location.href = "upgrade-browser.html";
+    }
     var link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = cdn + 'build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/base.css';
@@ -155,6 +152,7 @@
     link2.href = './theme/theme.css';
     link2.type = 'text/css';
     def.parentNode.insertBefore(link2, def);
+
   </script>
   <script>if(old)document.write('<!--');</script>
   <script type="module">

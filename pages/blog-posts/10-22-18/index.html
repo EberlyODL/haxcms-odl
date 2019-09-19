@@ -5,19 +5,21 @@
   starting to explore web accessibility, this can seem overwhelming at first
   because there are a lot of factors that need to be considered. As a result, I
   wanted to put together a small list of tips that I found to be helpful when
-  getting started.
-  <br />
-  <br />
+  getting started.<br/>
 </div>
+<div><br/></div>
 <div>
   <b>1. Keyboard Accessibility</b>
+
+
+
 
   is one of the most significant areas to consider when building for the web.
   Many users who require accommodations for things like poor vision, tremors, or
   missing appendages rely on keyboard navigation to traverse through content.
   Lets take a look at a few tips that help achieve that standard.
-  <br />
-  <br />
+  <br/>
+  <br/>
 </div>
 <div>
   Using the tab and enter keys to navigate through your project, make sure the
@@ -32,11 +34,14 @@
   keyboard-only users. Instead, consider providing a ‘skip to main content’
   link, using proper heading structure, or implementing WAI-ARIA functionality
   to assist users through the project.
-  <br />
-  <br />
+  <br/>
+  <br/>
 </div>
 <div>
   <b>2. Heading structure</b>
+
+
+
 
   in a project is essential for web accessibility. Heading elements in HTML are
   described as (h1, h2, h3, and so on). We use these elements to specify
@@ -46,8 +51,8 @@
   information for large headings and/or bold text to help discover what you’re
   looking for. Screen readers and other assistive technology also have this
   ability when the appropriate heading structures are used.
-  <br />
-  <br />
+  <br/>
+  <br/>
 </div>
 <div>
   Review your heading structure. Be sure the project is not using using CSS
@@ -57,106 +62,102 @@
   major sections below level 1 headings (h1), and so on. The more organized your
   information structure is, the faster everyone will be able to find what
   they’re searching for.
-  <br />
-  <br />
+  <br/>
+  <br/>
 </div>
 <div>
-  <b
-    >3. The Web Accessibility Initiative’s Accessible Rich Internet Applications
-    (WAI-ARIA)</b
-  >
+  <b>3. The Web Accessibility Initiative’s Accessible Rich Internet Applications
+    (WAI-ARIA)</b>
+
+
+
 
   specification is necessary for enhancing and supporting the accessibility of
   scripted and dynamic content. Specifically, ARIA can modify an existing
   element's language or add language to elements where no previous language
   existed, thus modifying the standard DOM accessibility tree. For example,
   imagine your page has a checkbox item:
-  <br />
-  <br />
+  <br/>
+  <br/>
 </div>
-<code-sample>
-  <template preserve-content="preserve-content"
-    ><li tab-index="“0”" class="“checkbox”"></li
-  ></template>
+<code-sample>  <template preserve-content="preserve-content">
+<li tab-index="“0”" class="“checkbox”"></li>
+
+</template>
 </code-sample>
 <div>
-  <br />
+  <br/>
   While this appears fine for sighted users (class="checkbox" handles appearance
   correctly), a screen reader would miss that the element is meant to be a
   checkbox and a user with poor vision could end up missing the element all
   together. If we use ARIA attributes, we can call attention to the element and
   let the screen reader know how to interpret it. For example, let’s modify our
   checkbox example.
-  <br />
-  <br />
+  <br/>
+  <br/>
 </div>
 <code-sample>
-  <template preserve-content="preserve-content"
-    ><li
-      tabindex="0"
-      class="checkbox"
-      role="checkbox"
-      checked=""
-      aria-checked="true"
-    ></li
-  ></template>
+  <template preserve-content="preserve-content"><li tabindex="0" class="checkbox" role="checkbox" checked="" aria-checked="true"></li></template>
 </code-sample>
 <div>
-  <br />
+  <br/>
   Here you can see we've added the role ‘checkbox’ and aria-checked attributes
   to identify this element as a checkbox and to specify that it is checked by
   default. At this point, the element is now added to the DOM accessibility tree
   and a screen reader will correctly identify it as a checkbox. WAI-ARIA offers
   a number of accessibility specifications (too many to cover in this post). If
   you’re looking for more information, I would encourage you to visit:
-  <a style="text-decoration: none;" href="https://www.w3.org" target="_blank"
-    >w3.org</a
-  >
+  <a style="text-decoration: none;" href="https://www.w3.org" target="_blank">w3.org</a>
+
+
+
 </div>
 <div>
-  <br />
+  <br/>
   <b>4. Add ALT text to all images.</b>
+
+
+
   Is it as simple as it sounds? Yes, but oddly remains one of the most
   overlooked accessibility guidelines in place. If the user cannot view an image
   (slow connection, error, or if the user requires a screen reader), the alt
   attribute will supply alternative information for the image. Let’s pretend
   we’re inserting a smiley face icon and use the alt attribute:
-  <br />
-  <br />
+  <br/>
+  <br/>
 </div>
 <code-sample>
-  <template preserve-content="preserve-content"
-    ><img src="smiley.png” alt=" smiley="" face”=""
-  /></template>
+  <template preserve-content="preserve-content"><img src="smiley.png” alt=" smiley="" face”=""></template>
 </code-sample>
 <div>
-  <br />
+  <br/>
   Now users who encounter errors and/or rely on screen readers will be able to
   see what that the image is portraying a 'smiley face', even if it wasn’t
   readily available to view.
-  <br />
+  <br/>
 </div>
 <div>
-  <br />
-  <b>5. Coordinate your colors.</b> Color contrast is extremely important on the
+  <br/>
+  <b>5. Coordinate your colors.</b>
+
+
+ Color contrast is extremely important on the
   web. Low vision and/or color blind users often find themselves unable to see
   the content presented to them because selected colors contrast poorly. In some
   cases, designs / color choices can be so subtle that they negatively impact
   screen readers. Thankfully, this issue can be mitigated by implementing the
   regular use of a contrast test. I have been using a plugin for Google Chrome
   called,
-  <a
-    style="text-decoration: none;"
-    href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en-US"
-    target="_blank"
-    >‘Wave’ - Web Accessibility Evaluation Tool</a
-  >. When used, WAVE will evaluate your web page for a number of accessibility
+  <a style="text-decoration: none;" href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en-US" target="_blank">‘Wave’ - Web Accessibility Evaluation Tool</a>
+
+
+. When used, WAVE will evaluate your web page for a number of accessibility
   options, including contrast. If there are contrast errors present, it will
   highlight them and provide recommendations for correct contrast.
-  <br />
+  <br/>
 </div>
 <div>
-  <br />
+  <br/>
   Accessibility is paramount to ensuring equal and fair access to content on the
   web. While it can be overwhelming to think about all at once, it’s necessary
   to be thorough in our implementation efforts. While the list above is far from
@@ -171,12 +172,10 @@
   manageable chunks, rather than trying to review the whole project at once.
   Finally, I would advocate reaching out to / joining accessibility groups. For
   example, the
-  <a
-    style="text-decoration: none;"
-    href="https://sites.psu.edu/accessibilityusers/"
-    target="_blank"
-    >Accessibility Users Group at Penn State</a
-  >
+  <a style="text-decoration: none;" href="https://sites.psu.edu/accessibilityusers/" target="_blank">Accessibility Users Group at Penn State</a>
+
+
+
   offers monthly meetings, a wealth of great information on accessibility
   standards, and the opportunity to network with other colleagues exploring
   accessibility.

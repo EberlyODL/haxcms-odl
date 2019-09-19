@@ -17,7 +17,7 @@ module.exports = function() {
       autoExternal({
         builtins: false,
         dependencies: true,
-        packagePath: path.resolve('../../../package.json'),
+        packagePath: path.resolve('/haxcms/package.json'),
         peerDependencies: false,
       }),
       rewriteImports(`../../build/es6/node_modules/`),
