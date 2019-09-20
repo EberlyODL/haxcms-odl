@@ -6,6 +6,7 @@ import "./news-feed.js";
 import "./videos-feed.js";
 import "./testimonials-feed.js";
 import "./page-feature.js";
+import "./content-listing.js";
 class HaxThemeHome extends PolymerElement {
   static get template() {
     return html`
@@ -93,6 +94,7 @@ class HaxThemeHome extends PolymerElement {
           }
         }
       </style>
+      <content-listing></content-listing>
       <homepage-banner
         image="files/theme-images/page-banners/odl_homepage_banner.jpg"
         alt="students receiving instruction in classroom"
