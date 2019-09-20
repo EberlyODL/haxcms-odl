@@ -160,7 +160,7 @@ class NewsCard extends LitElement {
         <div
           id="news_image"
           style="background-image:url(${this.image})"
-          alt="${this.alts}"
+          alt="${this.alt}"
         ></div>
         <div id="content_wrap">
           <div id="header_info">

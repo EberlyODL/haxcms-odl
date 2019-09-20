@@ -93,8 +93,13 @@ class HaxThemeHome extends PolymerElement {
             width: 94%;
           }
         }
+
+        #courses {
+          background-color: var(--theme-color-1);
+        }
+
+        
       </style>
-      <content-listing></content-listing>
       <homepage-banner
         image="files/theme-images/page-banners/odl_homepage_banner.jpg"
         alt="students receiving instruction in classroom"
@@ -159,12 +164,12 @@ class HaxThemeHome extends PolymerElement {
         </div>
       </div>
       <site-query
-          result="{{__newsitems}}"
-          conditions='{
+        result="{{__newsitems}}"
+        conditions='{
           "metadata.type": "news"
         }'
-          limit="1"
-        ></site-query>
+        limit="1"
+      ></site-query>
       <div id="page_feature">
         <site-query
           result="{{__newsitems}}"
@@ -214,6 +219,13 @@ class HaxThemeHome extends PolymerElement {
       </div>
       <div id="videos_feed">
         <videos-feed></videos-feed>
+      </div>
+      <div id="courses">
+        <content-listing
+          title="Courses"
+          image="https://picsum.photos/300/300"
+          alt="My alt text"
+        ></content-listing>
       </div>
     `;
   }
