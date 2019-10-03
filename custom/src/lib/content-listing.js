@@ -1,8 +1,8 @@
 import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
 import "@lrnwebcomponents/haxcms-elements/lib/ui-components/query/site-query.js";
 import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js";
+import { varExists, varGet } from "@lrnwebcomponents/hax-body/lib/haxutils.js";
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
-
 class ContentListing extends PolymerElement {
   static get template() {
     return html`
@@ -11,13 +11,42 @@ class ContentListing extends PolymerElement {
           display: block;
         }
 
-        #container {
-          background-color: #363533;
+        a {
+          text-decoration: var(--haxtheme-page-feature-a-text-decoration);
+        }
+
+        h1 {
+          font-size: var(--haxtheme-page-feature-h1-font-size);
+          margin: 0;
+          line-height: 1;
+          font-weight: var(--haxtheme-page-feature-h1-font-weight);
+        }
+
+        @media screen and (max-width: 768px) {
+          h1 {
+            font-size: 28px;
+          }
+        }
+
+        h2 {
+          font-size: 32px;
+          margin: 0;
+          font-weight: var(--haxtheme-page-feature-h2-font-weight);
+        }
+
+        @media screen and (max-width: 768px) {
+          h2 {
+            font-size: 24px;
+          }
+        }
+
+        #feature_wrap {
+          background-color: var(--haxtheme-page-feature-wrap-background-color);
           padding: 40px 0 55px 0;
         }
 
         @media screen and (max-width: 1012px) {
-          #container {
+          #feature_wrap {
             flex-direction: column;
             height: auto;
             padding: 0;
@@ -33,7 +62,9 @@ class ContentListing extends PolymerElement {
           width: 94%;
           border-top: dashed;
           border-top-width: 4px;
-          border-top-color: #e2801e;
+          border-top-color: var(
+            --haxtheme-page-feature-border-border-top-color
+          );
           margin: 0 auto 0 auto;
         }
 
@@ -47,7 +78,7 @@ class ContentListing extends PolymerElement {
           }
         }
 
-        #image {
+        #feature_image {
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
@@ -56,74 +87,119 @@ class ContentListing extends PolymerElement {
         }
 
         @media screen and (max-width: 1012px) {
-          #image {
+          #feature_image {
             height: 300px;
             margin: 15px 0 0 0;
             width: 100%;
           }
         }
 
-        #image {
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;
-          width: 100%;
-          height: 300px;
+        #feature_description_wrap {
+          background-color: var(
+            --haxtheme-page-feature-feature-description-wrap-background-color
+          );
+          height: auto;
+          width: 780px;
+          z-index: 1;
+          margin: 0 25px 0 -30px;
+          box-shadow: 1px 2px 7px
+            var(
+              --haxtheme-page-feature-feature-description-wrap-box-shadow-color
+            );
         }
 
+        @media screen and (max-width: 1124px) {
+          #feature_description_wrap {
+            width: 100%;
+            z-index: 0;
+            box-shadow: none;
+            margin: 0;
+          }
+        }
+
+        #title_wrap {
+          display: flex;
+          flex-direction: column;
+          border-left: var(--haxtheme-page-feature-title-wrap-border-left);
+          border-left-width: var(
+            --haxtheme-page-feature-title-wrap-border-left-width
+          );
+          border-left-color: var(
+            --haxtheme-page-feature-title-wrap-border-left-color
+          );
+          padding: 0 0 0 15px;
+          margin: 20px 0 0 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+          #title_wrap {
+            margin: 20px 0 0 0;
+          }
+        }
+
+        #title {
+          margin: 0 0 10px 0;
+        }
+
+        #description {
+          font-size: var(--haxtheme-page-feature-description-font-size);
+          font-weight: var(--haxtheme-page-feature-description-font-weight);
+          line-height: var(--haxtheme-page-feature-description-line-height);
+          height: auto;
+        }
+
+        @media screen and (max-width: 768px) {
+          #description {
+            padding: 25px 0 0 0;
+            margin: 0 0 25px 0;
+          }
+        }
+
+        #results {
+          border: solid 2px rgb(220, 220, 220);
+          margin: 10px;
+          height: 200px;
+        }
+
+        simple-picker {
+          width: 45%;
+        }
       </style>
-
-      <div id="container">
+      <div id="feature_wrap">
         <div id="border">
-        <div
-          id="image"
-          style="background-image:url([[image]])"
-          alt="[[alt]]"
-        ></div>
-
-
-        <div id="menu-header">
-
-
-          <div id="title">
-            <h2>[[title]]</h2>
-          </div>
-          <div id="menu">
-            <site-query
-              result="{{__courseitems}}"
-              conditions='{
-              "metadata.type": "course"
-            }'
-            ></site-query>
-            <dropdown-select
-              id=""
-              value=""
-              label=""
-              placeholder="Subject"
-            >
-              <dom-repeat
-                items="[[__courseItemsDuped(__courseitems)]]"
-                mutable-data
+          <div
+            id="feature_image"
+            style$="background-image:url([[image]])"
+            alt="[[alt]]"
+          ></div>
+          <div id="feature_description_wrap">
+            <div id="title_wrap">
+              <div id="title">
+                <h1>[[title]]</h1>
+              </div>
+              <site-query
+                result="{{__courseitems}}"
+                conditions="[[condition]]"
+              ></site-query>
+              <simple-picker
+                allow-null
+                id="courseselect"
+                label="Select a Subject"
+                value="{{__selectedCourse}}"
+                position=""
+                options="[[__courselist(__courseitems)]]"
               >
-                <template>
-                  <paper-item value="course">[[item]]</paper-item>
-                </template>
-              </dom-repeat>
-            </dropdown-select>
+              </simple-picker>
+            </div>
+
+            <div id="description">
+
+              
+              <div id="results">
+                [[__selectedCourse]]
+              </div>
+            </div>
           </div>
-
-
-
-        </div>
-
-
-
-        <div id="results-container">
-          Results here!
-        </div>
-
-
-
         </div>
       </div>
     `;
@@ -131,33 +207,39 @@ class ContentListing extends PolymerElement {
   static get tag() {
     return "content-listing";
   }
-
   static get properties() {
     return {
       /**
-       * Course Items
-       */
-      items: {
-        type: Array
-      },
-      /**
-       * Image
+       * Image source
        */
       image: {
         type: String
       },
       /**
-       * Alt Text for Image
+       * Alt text for image
        */
       alt: {
         type: String
       },
       /**
-       * Title
+       * Title for feature
        */
       title: {
         type: String
-      }
+      },
+      /**
+       * Condition
+       */
+      condition: {
+        type: Object
+      },
+      /**
+       * Location
+       */
+      location: {
+        type: String
+      },
+
     };
   }
 
@@ -175,13 +257,40 @@ class ContentListing extends PolymerElement {
     }
     super.disconnectedCallback();
   }
-  __courseItemsDuped(items) {
-    const subjects = items.map(item => item.metadata.fields.subject);
-    const filtered = subjects.filter((item, index) => {
-      return subjects.indexOf(item) === index;
+
+  __filteredCourselist(items) {
+    let filterIndex = [];
+    const filtered = items.filter(item => {
+      if (filterIndex.includes(varGet(item, this.location, false))) {
+        return false;
+      } else {
+        filterIndex.push(varGet(item, this.location, false));
+        return true;
+      }
     });
     return filtered;
   }
+  __courselist(items) {
+    const filtered = this.__filteredCourselist(items);
+    const courses = filtered.map(item => {
+      return {
+        value: varGet(item, this.location, false),
+        alt: varGet(item, this.location, false)
+      };
+    });
+    return [courses];
+  }
+  __courseItemsDuped(items) {
+    const filtered = this.__filteredCourselist(items);
+    const subjects = filtered.map(item => varGet(item, this.location, false));
+    return subjects;
+  }
+  
+
 }
+
+
+
+
 window.customElements.define(ContentListing.tag, ContentListing);
 export { ContentListing };

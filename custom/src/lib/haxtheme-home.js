@@ -94,11 +94,7 @@ class HaxThemeHome extends PolymerElement {
           }
         }
 
-        #courses {
-          background-color: var(--theme-color-1);
-        }
 
-        
       </style>
       <homepage-banner
         image="files/theme-images/page-banners/odl_homepage_banner.jpg"
@@ -225,6 +221,8 @@ class HaxThemeHome extends PolymerElement {
           title="Courses"
           image="https://picsum.photos/300/300"
           alt="My alt text"
+          condition='{"metadata.type": "course"}'
+          location="metadata.fields.subject"
         ></content-listing>
       </div>
     `;
