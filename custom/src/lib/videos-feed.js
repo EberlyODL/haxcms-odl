@@ -62,6 +62,7 @@ class VideosFeed extends LitElement {
 
         #card_wrap {
           display: flex;
+          flex: 1 1 auto;
           flex-direction: column;
           justify-content: space-evenly;
           border-right: solid 2px #dcdcdc;
