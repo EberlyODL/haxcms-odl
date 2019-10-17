@@ -86,6 +86,10 @@ class HaxThemeSyllabus extends PolymerElement {
         }
 
         #syllabus_wrap {
+          background: url(files/theme-images/syllabus/syllabus-watermark2.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 100%;
           width: var(--haxtheme-syllabus-syllabus-wrap-width, 75%);
           margin: var(--haxtheme-syllabus-syllabus-wrap-margin, 0 auto 0 auto);
           @apply --haxtheme-syllabus-syllabus-wrap;
@@ -118,7 +122,7 @@ class HaxThemeSyllabus extends PolymerElement {
             <h1>[[activeItem.title]]</h1>
           </div>
           <div id="syllabus_subtitle">
-            <h2>[[__course.name]]</h2>
+            <h2>[[__course.metadata.fields.name]]</h2>
           </div>
           <div id="syllabus_sample">
             <h3>Sample Syllabus</h3>

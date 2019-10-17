@@ -76,7 +76,7 @@ class HaxThemeCourses extends PolymerElement {
                   alt="[[item.metadata.fields.imageAlt]]"
                   number="[[item.title]]"
                   icon="[[item.metadata.icon]]"
-                  name="[[item.name]]"
+                  name="[[item.metadata.fields.name]]"
                   url="[[item.location]]"
                 >
                 </course-card>
