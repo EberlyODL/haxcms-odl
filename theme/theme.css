@@ -1,3 +1,4 @@
+
 :root {
     /* HAXCMS Base Styles*/
     --haxcms-base-styles-a-color: var(--odl-haxtheme-a-color);
@@ -5,6 +6,7 @@
     --haxcms-base-styles-a-font-weight: var(--odl-haxtheme-font-weight);
     --haxcms-base-styles-a-font-weight-active: var(--odl-haxtheme-font-weight);
     --haxcms-base-styles-body-line-height: var(--odl-haxtheme-line-height);
+    --haxcms-base-styles-body-font-size: var(--odl-haxtheme-font-size);
     /* Theme Colors */
     --odl-haxtheme-accent-color-1: #363533;
     --odl-haxtheme-accent-color-2: #e2801e;

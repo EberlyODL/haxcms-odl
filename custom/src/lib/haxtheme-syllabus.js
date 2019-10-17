@@ -118,7 +118,7 @@ class HaxThemeSyllabus extends PolymerElement {
             <h1>[[activeItem.title]]</h1>
           </div>
           <div id="syllabus_subtitle">
-            <h2>[[activeItem.name]]</h2>
+            <h2>[[__course.name]]</h2>
           </div>
           <div id="syllabus_sample">
             <h3>Sample Syllabus</h3>
@@ -255,6 +255,11 @@ class HaxThemeSyllabus extends PolymerElement {
   static get tag() {
     return "haxtheme-syllabus";
   }
+  static get properties() {
+    return {
+      __course: { type: Object, value: {}, observer: '__courseChanged'}
+    }
+  }
   constructor() {
     super();
     import("@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-breadcrumb.js");
@@ -267,6 +272,11 @@ class HaxThemeSyllabus extends PolymerElement {
     });
     autorun(reaction => {
       this.activeItem = toJS(store.activeItem);
+      if (store.activeItem) {
+        // get the course
+        const manifest = toJS(store.manifest)
+        this.__course = manifest.items.find(item => item.id === this.activeItem.metadata.fields.course)
+      }
       this.__disposer.push(reaction);
     });
   }

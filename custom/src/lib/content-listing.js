@@ -49,7 +49,7 @@ class ContentListing extends PolymerElement {
           #feature_wrap {
             flex-direction: column;
             height: auto;
-            padding: 0;
+            padding: 0 15px;
             background-color: transparent;
           }
         }
@@ -157,7 +157,6 @@ class ContentListing extends PolymerElement {
 
         #results {
           border: solid 2px rgb(220, 220, 220);
-          margin: 10px;
           height: 200px;
         }
 

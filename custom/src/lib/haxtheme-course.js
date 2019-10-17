@@ -14,6 +14,10 @@ class HaxThemeCourse extends PolymerElement {
           --site-recent-content-block-item-link: {
             text-transform: uppercase;
           }
+          --paper-button: {
+            border-radius: none;
+            text-decoration: none;
+          }
         }
         /**
        * Hide the slotted content during edit mode. This must be here to work.
@@ -21,6 +25,7 @@ class HaxThemeCourse extends PolymerElement {
         :host([edit-mode]) #slot {
           display: none;
         }
+    
         h1 {
           font-size: var(--haxtheme-course-h1-font-size);
           font-weight: var(--haxtheme-course-h1-font-weight);
@@ -202,6 +207,17 @@ class HaxThemeCourse extends PolymerElement {
         #prereqs {
           display: flex;
         }
+
+        #syllabi a {
+          text-decoration: none;
+        }
+
+        paper-button {
+          text-transform: none;
+          background-color: #e2801e;
+          color: #fff;
+          margin: 10px 0;
+        }
       </style>
       <page-banner
         image="[[activeItem.metadata.fields.image]]"
@@ -230,17 +246,15 @@ class HaxThemeCourse extends PolymerElement {
                 <h1>[[activeItem.title]]</h1>
               </div>
               <div id="name">
-                <h2>[[activeItem.name]]</h2>
+                <h2>[[activeItem.metadata.fields.name]]</h2>
               </div>
               <div id="credit">
                 <h3>Credits: [[activeItem.metadata.fields.credits]]</h3>
               </div>
-
-              <div id="prereqs">
+              <!-- <div id="prereqs">
                 <div class="prereq_title">
                   <h3>Prerequisites:</h3>
                 </div>
-
                 <template
                   is="dom-repeat"
                   items="[[activeItem.metadata.fields.prereqs]]"
@@ -250,10 +264,15 @@ class HaxThemeCourse extends PolymerElement {
                     [[prereq]]
                   </a>
                 </template>
+              </div> -->
+              <div id="syllabi">
+                <a href="[[activeItem.metadata.syllabus]]">
+                  <paper-button noink>Sample Syllabus</paper-button>
+                </a>
               </div>
             </div>
 
-            <div id="description">[[activeItem.description]]</div>
+            <div id="description">[[activeItem.metadata.fields.description]]</div>
             <div id="contentcontainer">
               <div id="slot">
                 <slot></slot>

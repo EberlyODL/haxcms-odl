@@ -567,7 +567,7 @@
             "order": 1,
             "parent": "courses",
             "title": "Astro 001",
-            "description": "This course provides a broad introduction to Astronomy including the historical development of the subject, basic physics of gravity, light, and atoms; telescopes; planets, moons, and other objects in our solar system; exosolar planets; the Sun and other stars; the evolution of stars; the Milky Way galaxy and other galaxies; distant quasars and other active galaxies; the expanding universe; cosmology based on the Big Bang theory; and life in the universe. The goal of this course is to cover most of the areas of modern astronomy at a level which requires only basic mathematics. The online version also includes a game version, where students have a chance to explore Mars in a virtual space, testing and applying concepts as they move around.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/astro001.png",
@@ -575,14 +575,23 @@
                     "subject": "Astronomy",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "This course provides a broad introduction to Astronomy including the historical development of the subject, basic physics of gravity, light, and atoms; telescopes; planets, moons, and other objects in our solar system; exosolar planets; the Sun and other stars; the evolution of stars; the Milky Way galaxy and other galaxies; distant quasars and other active galaxies; the expanding universe; cosmology based on the Big Bang theory; and life in the universe. The goal of this course is to cover most of the areas of modern astronomy at a level which requires only basic mathematics. The online version also includes a game version, where students have a chance to explore Mars in a virtual space, testing and applying concepts as they move around."
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571256424,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/astro001\/index.html",
-                "icon": "courseicons:astro001"
+                "syllabus": "syllabi\/astro001",
+                "icon": "courseicons:astro001",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -606,7 +615,7 @@
                 "updated": 1568911995,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/astro011\/index.html",
+                "syllabus": "syllabi\/astro011",
                 "icon": "courseicons:astro011",
                 "readtime": 1,
                 "contentDetails": {
@@ -641,7 +650,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/astro120\/index.html",
+                "syllabus": "syllabi\/astro120",
                 "icon": "courseicons:astro120"
             }
         },
@@ -666,7 +675,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/astro130\/index.html",
+                "syllabus": "syllabi\/astro130",
                 "icon": "courseicons:astro130"
             }
         },
@@ -677,7 +686,7 @@
             "order": 5,
             "parent": "courses",
             "title": "Astro 140",
-            "description": "Advances in modern physics and astrophysics have dramatically changed and enriched the understanding of our cosmic surroundings, but have not yet produced unambiguous evidence concerning the extraterrestrial life. To date, significant progress has been made on certain aspects of the problem, and many recent scientific observations hint in favor of the existence of non-terrestrial life. During this course, we will explore such evidence and observations. ASTRO 140 is for students who are interested in enriching and broadening their understanding of modern science. The course is highly interdisciplinary, and would be a logical choice for students who completed and enjoyed ASTRO 001, ASTRO 005 or ASTRO 010.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/astro140.png",
@@ -685,13 +694,15 @@
                     "subject": "Astronomy",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "Advances in modern physics and astrophysics have dramatically changed and enriched the understanding of our cosmic surroundings, but have not yet produced unambiguous evidence concerning the extraterrestrial life. To date, significant progress has been made on certain aspects of the problem, and many recent scientific observations hint in favor of the existence of non-terrestrial life. During this course, we will explore such evidence and observations. ASTRO 140 is for students who are interested in enriching and broadening their understanding of modern science. The course is highly interdisciplinary, and would be a logical choice for students who completed and enjoyed ASTRO 001, ASTRO 005 or ASTRO 010.",
+                    "name": "Life in the Universe"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571255831,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/astro140\/index.html",
+                "syllabus": "syllabi\/astro140",
                 "icon": "courseicons:astro140"
             }
         },
@@ -716,7 +727,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/bisc001\/index.html",
+                "syllabus": "syllabi\/bisc001",
                 "icon": "courseicons:bisc001"
             }
         },
@@ -741,7 +752,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/bisc002\/index.html",
+                "syllabus": "syllabi\/bisc002",
                 "icon": "courseicons:bisc002"
             }
         },
@@ -766,7 +777,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/bisc003\/index.html",
+                "syllabus": "syllabi\/bisc003",
                 "icon": "courseicons:bisc003"
             }
         },
@@ -791,7 +802,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/bisc004\/index.html",
+                "syllabus": "syllabi\/bisc004",
                 "icon": "courseicons:bisc004"
             }
         },
@@ -816,7 +827,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/biol11\/index.html",
+                "syllabus": "syllabi\/biol11",
                 "icon": "courseicons:biol11"
             }
         },
@@ -841,7 +852,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/biol110\/index.html",
+                "syllabus": "syllabi\/biol110",
                 "icon": "courseicons:biol110"
             }
         },
@@ -866,7 +877,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/biol120n\/index.html",
+                "syllabus": "syllabi\/biol120n",
                 "icon": "courseicons:biol120n"
             }
         },
@@ -891,7 +902,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/biol133\/index.html",
+                "syllabus": "syllabi\/biol133",
                 "icon": "courseicons:biol133"
             }
         },
@@ -916,7 +927,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/biol141\/index.html",
+                "syllabus": "syllabi\/biol141",
                 "icon": "courseicons:biol141"
             }
         },
@@ -941,7 +952,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/biol155\/index.html",
+                "syllabus": "syllabi\/biol155",
                 "icon": "courseicons:biol155"
             }
         },
@@ -966,7 +977,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/biol177\/index.html",
+                "syllabus": "syllabi\/biol177",
                 "icon": "courseicons:biol177"
             }
         },
@@ -991,7 +1002,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/bmmb551\/index.html",
+                "syllabus": "syllabi\/bmmb551",
                 "icon": "courseicons:bmmb551"
             }
         },
@@ -1016,7 +1027,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/bmmb852\/index.html",
+                "syllabus": "syllabi\/bmmb852",
                 "icon": "courseicons:bmmb852"
             }
         },
@@ -1041,7 +1052,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/chem005\/index.html",
+                "syllabus": "syllabi\/chem005",
                 "icon": "courseicons:chem005"
             }
         },
@@ -1066,7 +1077,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/chem101\/index.html",
+                "syllabus": "syllabi\/chem101",
                 "icon": "courseicons:chem101"
             }
         },
@@ -1098,7 +1109,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/chem110\/index.html",
+                "syllabus": "syllabi\/chem110",
                 "icon": "courseicons:chem101"
             }
         },
@@ -1123,7 +1134,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/chem111\/index.html",
+                "syllabus": "syllabi\/chem111",
                 "icon": "courseicons:chem101"
             }
         },
@@ -1148,7 +1159,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/chem202\/index.html",
+                "syllabus": "syllabi\/chem202",
                 "icon": "courseicons:chem101"
             }
         },
@@ -1173,7 +1184,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/chem810\/index.html",
+                "syllabus": "syllabi\/chem810",
                 "icon": "courseicons:chem101"
             }
         },
@@ -1198,7 +1209,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/chem811\/index.html",
+                "syllabus": "syllabi\/chem811",
                 "icon": "courseicons:chem101"
             }
         },
@@ -1223,7 +1234,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/chem812\/index.html",
+                "syllabus": "syllabi\/chem812",
                 "icon": "courseicons:chem101"
             }
         },
@@ -1248,7 +1259,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/frnsc100\/index.html",
+                "syllabus": "syllabi\/frnsc100",
                 "icon": "courseicons:frnsc100"
             }
         },
@@ -1273,7 +1284,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/frnsc200\/index.html",
+                "syllabus": "syllabi\/frnsc200",
                 "icon": "courseicons:frnsc200"
             }
         },
@@ -1298,7 +1309,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/frnsc210\/index.html",
+                "syllabus": "syllabi\/frnsc210",
                 "icon": "courseicons:frnsc210"
             }
         },
@@ -1323,7 +1334,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/math004\/index.html",
+                "syllabus": "syllabi\/math004",
                 "icon": "courseicons:math022"
             }
         },
@@ -1348,7 +1359,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/math017\/index.html",
+                "syllabus": "syllabi\/math017",
                 "icon": "courseicons:math110"
             }
         },
@@ -1373,7 +1384,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/math021\/index.html",
+                "syllabus": "syllabi\/math021",
                 "icon": "courseicons:math021"
             }
         },
@@ -1398,7 +1409,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/math022\/index.html",
+                "syllabus": "syllabi\/math022",
                 "icon": "courseicons:math022"
             }
         },
@@ -1423,7 +1434,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/math026\/index.html",
+                "syllabus": "syllabi\/math026",
                 "icon": "courseicons:math140"
             }
         },
@@ -1448,7 +1459,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/math034\/index.html",
+                "syllabus": "syllabi\/math034",
                 "icon": "courseicons:math034"
             }
         },
@@ -1473,7 +1484,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/math036\/index.html",
+                "syllabus": "syllabi\/math036",
                 "icon": "courseicons:math036"
             }
         },
@@ -1498,7 +1509,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/math110\/index.html",
+                "syllabus": "syllabi\/math110",
                 "icon": "courseicons:math110"
             }
         },
@@ -1523,7 +1534,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/math140\/index.html",
+                "syllabus": "syllabi\/math140",
                 "icon": "courseicons:math140"
             }
         },
@@ -1548,7 +1559,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/math141\/index.html",
+                "syllabus": "syllabi\/math141",
                 "icon": "courseicons:math110"
             }
         },
@@ -1573,7 +1584,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/math220\/index.html",
+                "syllabus": "syllabi\/math220",
                 "icon": "courseicons:math220"
             }
         },
@@ -1598,7 +1609,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/math250\/index.html",
+                "syllabus": "syllabi\/math250",
                 "icon": "courseicons:math140"
             }
         },
@@ -1623,7 +1634,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/math436\/index.html",
+                "syllabus": "syllabi\/math436",
                 "icon": "courseicons:math436"
             }
         },
@@ -1648,7 +1659,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/micrb106\/index.html",
+                "syllabus": "syllabi\/micrb106",
                 "icon": "courseicons:frnsc100"
             }
         },
@@ -1673,7 +1684,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/micrb107\/index.html",
+                "syllabus": "syllabi\/micrb107",
                 "icon": "courseicons:frnsc100"
             }
         },
@@ -1698,7 +1709,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/phys010\/index.html",
+                "syllabus": "syllabi\/phys010",
                 "icon": "courseicons:phys010"
             }
         },
@@ -1723,7 +1734,7 @@
                 "updated": 1541517755,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "pages\/syllabi\/phys211\/index.html",
+                "syllabus": "syllabi\/phys211",
                 "icon": "courseicons:phys010"
             }
         },
@@ -1835,19 +1846,31 @@
             "order": 5,
             "parent": "syllabi",
             "title": "Astro 140",
-            "description": "",
+            "description": "Course ContentThe possible existence of life beyond Earth is one of the most fundamental questions relating the human race to the physical Universe around us. While considerations of extraterrestria",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/astro140.png",
                     "imageAlt": "Two green leaf trees beside mountain with a night time sky. Photo by: Kayla Gibson - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "course": "astro140"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571317368,
                 "type": "syllabi",
                 "template": "syllabi",
-                "icon": "courseicons:astro140"
+                "icon": "courseicons:astro140",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 1,
+                    "paragraphs": 4,
+                    "schema": [],
+                    "tags": {
+                        "h2": 1,
+                        "p": 4
+                    },
+                    "elements": 5
+                }
             }
         },
         {
