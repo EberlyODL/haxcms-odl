@@ -11,7 +11,6 @@ import '../../build/es6/node_modules/@polymer/polymer/lib/elements/dom-repeat.js
 import { LitElement, css, html as html$1 } from '../../build/es6/node_modules/lit-element/lit-element.js';
 import '../../build/es6/node_modules/@polymer/iron-icon/iron-icon.js';
 import '../../build/es6/node_modules/@polymer/iron-iconset-svg/iron-iconset-svg.js';
-import '../../build/es6/node_modules/@polymer/iron-list/iron-list.js';
 import '../../build/es6/node_modules/@polymer/polymer/lib/elements/dom-if.js';
 
 class HomePageBanner extends PolymerElement {
@@ -1792,6 +1791,11 @@ class HaxThemeAbout extends PolymerElement {
         :host([edit-mode]) #slot {
           display: none;
         }
+
+        h1 {
+          font-size: 36px;
+          font-weight: 400;
+        }
         #content-wrap {
           width: 80%;
           margin: 0 auto 0 auto;
@@ -1801,6 +1805,13 @@ class HaxThemeAbout extends PolymerElement {
           font-size: 18px;
           font-weight: 300;
           line-height: 1.4;
+        }
+
+        #about_header {
+          border-left: solid;
+          border-left-width: 4px;
+          border-left-color:  #e2801e;
+          padding-left: 15px;
         }
       </style>
       <page-banner
@@ -3640,7 +3651,7 @@ class HaxThemeCourses extends PolymerElement {
       <div id="course_wrap">
         <div id="course_list">
           <div id="course">
-            <iron-list items="[[__items]]" mutable-data>
+          <dom-repeat items="[[__items]]" mutable-data>
               <template>
                 <course-card
                   image="[[item.metadata.fields.image]]"
@@ -3652,7 +3663,8 @@ class HaxThemeCourses extends PolymerElement {
                 >
                 </course-card>
               </template>
-            </iron-list>
+          </dom-repeat>
+
           </div>
         </div>
       </div>
@@ -4135,7 +4147,6 @@ class HaxThemeBlog extends PolymerElement {
         border-left-width: var(--haxtheme-blog-publish-credentials-border-left-width);
         border-left-color: var(--haxtheme-blog-accent-color);
         padding-left: var(--haxtheme-blog-publish-credentials-padding-left, 15px);
-        padding-left: 15px;
         @apply --haxtheme-blog-publish-credentials;
       }
 
@@ -4476,12 +4487,6 @@ class HaxThemeProfile extends PolymerElement {
           }
         }
         
-      #prev_next_btns {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 25px;
-      }
-
       @media screen and (max-width: 768px) {
         site-breadcrumb {
           margin: 0 0 30px;
@@ -4492,6 +4497,12 @@ class HaxThemeProfile extends PolymerElement {
         --site-recent-content-block-header-color: #e2801e;
         --site-recent-content-block-active-color: var(--theme-color-2);
       }
+
+      #contentcontainer {
+        margin-bottom: 25px;
+      }
+
+    
     </style>
     
     <div id="profile_wrap">
@@ -4540,15 +4551,6 @@ class HaxThemeProfile extends PolymerElement {
                 <slot></slot>
               </div>
             </div>
- 
-           <div id="prev_next_btns">
-            <site-menu-button type="prev" position="top" label="Previous">
-              <div slot="suffix">Prev</div>
-            </site-menu-button>
-            <site-menu-button type="next" position="top" label="Next">
-              <div slot="prefix">Next</div>
-            </site-menu-button>
-           </div>
         </div>
         <div class="sidebar_wrap">
           <div id="news_archive">

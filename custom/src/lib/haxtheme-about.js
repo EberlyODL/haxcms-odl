@@ -15,6 +15,11 @@ class HaxThemeAbout extends PolymerElement {
         :host([edit-mode]) #slot {
           display: none;
         }
+
+        h1 {
+          font-size: 36px;
+          font-weight: 400;
+        }
         #content-wrap {
           width: 80%;
           margin: 0 auto 0 auto;
@@ -24,6 +29,13 @@ class HaxThemeAbout extends PolymerElement {
           font-size: 18px;
           font-weight: 300;
           line-height: 1.4;
+        }
+
+        #about_header {
+          border-left: solid;
+          border-left-width: 4px;
+          border-left-color:  #e2801e;
+          padding-left: 15px;
         }
       </style>
       <page-banner

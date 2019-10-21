@@ -2,7 +2,6 @@ import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
 import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js";
 import "@lrnwebcomponents/haxcms-elements/lib/ui-components/query/site-query.js";
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
-import "@polymer/iron-list/iron-list.js";
 import "./page-banner.js";
 import "./course-card.js";
 import "./course-icons.js";
@@ -69,7 +68,7 @@ class HaxThemeCourses extends PolymerElement {
       <div id="course_wrap">
         <div id="course_list">
           <div id="course">
-            <iron-list items="[[__items]]" mutable-data>
+          <dom-repeat items="[[__items]]" mutable-data>
               <template>
                 <course-card
                   image="[[item.metadata.fields.image]]"
@@ -81,7 +80,8 @@ class HaxThemeCourses extends PolymerElement {
                 >
                 </course-card>
               </template>
-            </iron-list>
+          </dom-repeat>
+
           </div>
         </div>
       </div>

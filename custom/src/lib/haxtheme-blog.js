@@ -121,7 +121,6 @@ class HaxThemeBlog extends PolymerElement {
         border-left-width: var(--haxtheme-blog-publish-credentials-border-left-width);
         border-left-color: var(--haxtheme-blog-accent-color);
         padding-left: var(--haxtheme-blog-publish-credentials-padding-left, 15px);
-        padding-left: 15px;
         @apply --haxtheme-blog-publish-credentials;
       }
 

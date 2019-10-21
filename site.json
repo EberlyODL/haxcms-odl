@@ -327,10 +327,18 @@
             "order": 3,
             "parent": null,
             "title": "Team",
-            "description": "Team page",
+            "description": "",
             "metadata": {
                 "created": 1541517724,
-                "updated": 1547056755
+                "updated": 1571679426,
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1099,11 +1107,19 @@
                     "name": "Biology of Sex"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571679920,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/biol177",
-                "icon": "courseicons:biol177"
+                "icon": "courseicons:biol177",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1330,7 +1346,7 @@
             "order": 23,
             "parent": "courses",
             "title": "Chem 202",
-            "description": "This course provides an introduction to organic chemistry, with emphasis on the properties of organic compounds of biochemical importance and fundamental principles. Some of the principles are illustrated with a variety of examples from nature and everyday life. The course covers the following topics: alkanes; alkenes, including polymers; alkynes; benzene and aromaticity; alcohols and phenols; ethers; aldehydes; ketones; carboxylic acids and their acyl derivatives; amines; alkyl halides; nomenclature; stereochemistry, including conformational analysis and chirality. Chemical reactions of the functional groups will be discussed along with the mechanistic details, including stereospecificity, of some of these processes. Biological molecules such as carbohydrates, lipids, steroids, peptides\/proteins and nucleic acids, along with their importance in living systems, will be surveyed.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/chem202.png",
@@ -1338,14 +1354,24 @@
                     "subject": "Chemistry",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "This course provides an introduction to organic chemistry, with emphasis on the properties of organic compounds of biochemical importance and fundamental principles. Some of the principles are illustrated with a variety of examples from nature and everyday life. The course covers the following topics: alkanes; alkenes, including polymers; alkynes; benzene and aromaticity; alcohols and phenols; ethers; aldehydes; ketones; carboxylic acids and their acyl derivatives; amines; alkyl halides; nomenclature; stereochemistry, including conformational analysis and chirality. Chemical reactions of the functional groups will be discussed along with the mechanistic details, including stereospecificity, of some of these processes. Biological molecules such as carbohydrates, lipids, steroids, peptides\/proteins and nucleic acids, along with their importance in living systems, will be surveyed.",
+                    "name": "Fundamentals of Organic Chemistry"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571679970,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/chem202",
-                "icon": "courseicons:chem101"
+                "icon": "courseicons:chem101",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1355,7 +1381,7 @@
             "order": 24,
             "parent": "courses",
             "title": "Chem 810",
-            "description": "The course specifically caters to the needs of the analytical chemical industry and individuals newly hired into entry-level sample management\/preparation and quality assurance\/quality control positions within companies using liquid chromatographic techniques. The course material is designed to increase student understanding of both the liquid chromatography instrument used in the laboratory and the principles underlying the measurements.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/chem810.png",
@@ -1363,7 +1389,9 @@
                     "subject": "Chemistry",
                     "program": "Graduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "The course specifically caters to the needs of the analytical chemical industry and individuals newly hired into entry-level sample management\/preparation and quality assurance\/quality control positions within companies using liquid chromatographic techniques. The course material is designed to increase student understanding of both the liquid chromatography instrument used in the laboratory and the principles underlying the measurements.",
+                    "name": "Liquid Chromatography"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -1380,7 +1408,7 @@
             "order": 25,
             "parent": "courses",
             "title": "Chem 811",
-            "description": "The course specifically caters to the needs of the analytical chemical industry and individuals hired into, or transitioning into, technician level positions within companies using liquid chromatographic techniques. The course material is designed to increase student understanding of both the liquid chromatography instrument used in the laboratory and the principles underlying the measurements.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/chem810.png",
@@ -1388,14 +1416,24 @@
                     "subject": "Chemistry",
                     "program": "Graduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "The course specifically caters to the needs of the analytical chemical industry and individuals hired into, or transitioning into, technician level positions within companies using liquid chromatographic techniques. The course material is designed to increase student understanding of both the liquid chromatography instrument used in the laboratory and the principles underlying the measurements.",
+                    "name": "Liquid Chromatography II"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680270,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/chem811",
-                "icon": "courseicons:chem101"
+                "icon": "courseicons:chem101",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1405,7 +1443,7 @@
             "order": 26,
             "parent": "courses",
             "title": "Chem 812",
-            "description": "The course specifically caters to the needs of the analytical chemical industry and individuals hired into, or transitioning into, development-level, or senior-level, chemist positions within companies using liquid chromatographic techniques. The course material is designed to increase student understanding of both the liquid chromatography instrument used in the laboratory and the principles underlying the measurements.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/chem810.png",
@@ -1413,14 +1451,24 @@
                     "subject": "Chemistry",
                     "program": "Graduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "The course specifically caters to the needs of the analytical chemical industry and individuals hired into, or transitioning into, development-level, or senior-level, chemist positions within companies using liquid chromatographic techniques. The course material is designed to increase student understanding of both the liquid chromatography instrument used in the laboratory and the principles underlying the measurements.",
+                    "name": "Liquid Chromatography III"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680288,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/chem812",
-                "icon": "courseicons:chem101"
+                "icon": "courseicons:chem101",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1430,7 +1478,7 @@
             "order": 27,
             "parent": "courses",
             "title": "Frnsc 100",
-            "description": "Forensic science is the study and application of science to the processes of law and involves the collection, examination, evaluation and interpretation of evidence. This course introduces the field of forensic science through an exploration of its applications to criminal investigation. This field encompasses many scientific areas which, if used properly, can make invaluable contributions to the resolution of social and legal disputes. The course will review the basic applications of selected forensic science disciplines and will explore the underlying scientific principals and methods used within each. Using examples taken from adjudicated cases, the capabilities and limitations of the forensic sciences will be illustrated. No background in natural sciences is presumed.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/frnsc100.jpeg",
@@ -1438,14 +1486,24 @@
                     "subject": "Forensic Science",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "Forensic science is the study and application of science to the processes of law and involves the collection, examination, evaluation and interpretation of evidence. This course introduces the field of forensic science through an exploration of its applications to criminal investigation. This field encompasses many scientific areas which, if used properly, can make invaluable contributions to the resolution of social and legal disputes. The course will review the basic applications of selected forensic science disciplines and will explore the underlying scientific principals and methods used within each. Using examples taken from adjudicated cases, the capabilities and limitations of the forensic sciences will be illustrated. No background in natural sciences is presumed.",
+                    "name": "Introduction to Forensic Science"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680317,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/frnsc100",
-                "icon": "courseicons:frnsc100"
+                "icon": "courseicons:frnsc100",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1455,7 +1513,7 @@
             "order": 28,
             "parent": "courses",
             "title": "Frnsc 200",
-            "description": "Introduction to Crime Scene Investigation is a course that will engage you simply by its nature. It is a course that will introduce you to the philosophies, principles, and professional practices of Crime Scene Investigation. You will be expected to apply knowledge from multiple fields of study including, but not limited to Chemistry, Biology, Sociology, Psychology, Statistics, Philosophy, and Criminology. What you do not already know will be taught to ensure your success; however, you need to be prepared to think critically and scientifically throughout the rigorous curriculum. You will need to think like a scientist, conduct yourself like a professional, and investigate scenes to fully apply your forensic skills. This is a rigorous course that requires a dedicated amount of your time; by the nature of its content, FRNSC 200 is a course that requires your active participation and full academic commitment.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/frnsc200.png",
@@ -1463,14 +1521,24 @@
                     "subject": "Forensic Science",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "Introduction to Crime Scene Investigation is a course that will engage you simply by its nature. It is a course that will introduce you to the philosophies, principles, and professional practices of Crime Scene Investigation. You will be expected to apply knowledge from multiple fields of study including, but not limited to Chemistry, Biology, Sociology, Psychology, Statistics, Philosophy, and Criminology. What you do not already know will be taught to ensure your success; however, you need to be prepared to think critically and scientifically throughout the rigorous curriculum. You will need to think like a scientist, conduct yourself like a professional, and investigate scenes to fully apply your forensic skills. This is a rigorous course that requires a dedicated amount of your time; by the nature of its content, FRNSC 200 is a course that requires your active participation and full academic commitment.",
+                    "name": "Introduction to Crime Scene Investigation"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680341,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/frnsc200",
-                "icon": "courseicons:frnsc200"
+                "icon": "courseicons:frnsc200",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1480,7 +1548,7 @@
             "order": 29,
             "parent": "courses",
             "title": "Frnsc 210",
-            "description": "Forensic science encompasses many scientific areas which, if used properly, can make invaluable contributions to the resolution of social and legal disputes. In this course, students will learn the essential practices of forensic science and criminalistics and review practices of forensic science including documentation, microscopy, communication of results, and integration of concepts from other sciences, mathematics, and statistics. The necessity of an objective, rigorous, scientific approach in a forensic investigation will be stressed. This course will prepare students to understand the foundation of forensic science practice including the basic knowledge required to understand the nature and origin of physical evidence, preservation of the physical evidence record, forensic microscopy, and communication of results. It is important to note that this course uses an intensive, problem-solving style and through practical exercises, students will be introduced to documentation techniques, basic and forensic microscopy, the verbal and written communication of forensic findings. The primary aims of the course are to introduce students to scientific philosophy, integrity, forensic science, criminalistics, basic practices of forensic science\/criminalistics, and the role of the criminalist as they relate to a forensic investigation as well as prepare students for advanced 400-level courses in forensic science and criminalistics.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/frnsc210.png",
@@ -1488,14 +1556,24 @@
                     "subject": "Forensic Science",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "Forensic science encompasses many scientific areas which, if used properly, can make invaluable contributions to the resolution of social and legal disputes. In this course, students will learn the essential practices of forensic science and criminalistics and review practices of forensic science including documentation, microscopy, communication of results, and integration of concepts from other sciences, mathematics, and statistics. The necessity of an objective, rigorous, scientific approach in a forensic investigation will be stressed. This course will prepare students to understand the foundation of forensic science practice including the basic knowledge required to understand the nature and origin of physical evidence, preservation of the physical evidence record, forensic microscopy, and communication of results. It is important to note that this course uses an intensive, problem-solving style and through practical exercises, students will be introduced to documentation techniques, basic and forensic microscopy, the verbal and written communication of forensic findings. The primary aims of the course are to introduce students to scientific philosophy, integrity, forensic science, criminalistics, basic practices of forensic science\/criminalistics, and the role of the criminalist as they relate to a forensic investigation as well as prepare students for advanced 400-level courses in forensic science and criminalistics.",
+                    "name": "Essential Practices of Forensic Science"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680354,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/frnsc210",
-                "icon": "courseicons:frnsc210"
+                "icon": "courseicons:frnsc210",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1505,7 +1583,7 @@
             "order": 30,
             "parent": "courses",
             "title": "Math 004",
-            "description": "This course explores algebraic expressions; linear, absolute value equations and inequalities; lines; systems of linear equations; integral exponents; polynomials; factoring.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math004.png",
@@ -1513,14 +1591,24 @@
                     "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "This course explores algebraic expressions; linear, absolute value equations and inequalities; lines; systems of linear equations; integral exponents; polynomials; factoring.",
+                    "name": "Intermediate Algebra"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680370,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/math004",
-                "icon": "courseicons:math022"
+                "icon": "courseicons:math022",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1530,7 +1618,7 @@
             "order": 31,
             "parent": "courses",
             "title": "Math 017",
-            "description": "This course will introduce logic, sets, and probability. Specifically, students learn the elementary mathematics of logic and sets. Logic is the symbolic, algebraic way of representing and analyzing statements and sentences. While students will get just a brief introduction to logic, the mathematics used in logic are found at the heart of computer programming and in designing electrical circuits. Problems of counting various kinds of sets lead to the study of combinatorics, the art of advanced counting. For example, if a room has twenty chairs and twelve people, in how many ways can these people occupy the chairs? And are you accounting for differences in who sits in particular chairs, or does it only matter whether a chair has a body in it? These kinds of counting problems are the basis for probability. In order to calculate the chance of a particular event occurring you must be able to count all the possible outcomes.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math017.png",
@@ -1538,14 +1626,24 @@
                     "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "This course will introduce logic, sets, and probability. Specifically, students learn the elementary mathematics of logic and sets. Logic is the symbolic, algebraic way of representing and analyzing statements and sentences. While students will get just a brief introduction to logic, the mathematics used in logic are found at the heart of computer programming and in designing electrical circuits. Problems of counting various kinds of sets lead to the study of combinatorics, the art of advanced counting. For example, if a room has twenty chairs and twelve people, in how many ways can these people occupy the chairs? And are you accounting for differences in who sits in particular chairs, or does it only matter whether a chair has a body in it? These kinds of counting problems are the basis for probability. In order to calculate the chance of a particular event occurring you must be able to count all the possible outcomes.",
+                    "name": "Finite Mathematics"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680382,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/math017",
-                "icon": "courseicons:math110"
+                "icon": "courseicons:math110",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1555,7 +1653,7 @@
             "order": 32,
             "parent": "courses",
             "title": "Math 021",
-            "description": "This course covers quadratic equations; equations in quadratic form; word problems, graphing; algebraic fractions; negative and rational exponents; radicals. Both algebraic skills and conceptual understanding will be expected and assessed. Algebraic skills will be primarily developed through work on ALEKS. ALEKS is a web-based tutorial system which provides students with ongoing skills based assessments and tracks progress. Conceptual skills will be incorporated into quizzes and home work assignments. Such assignments will be due approximately every other week. If necessary, students will be expected to attend online lectures.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math021.png",
@@ -1563,14 +1661,24 @@
                     "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "This course covers quadratic equations; equations in quadratic form; word problems, graphing; algebraic fractions; negative and rational exponents; radicals. Both algebraic skills and conceptual understanding will be expected and assessed. Algebraic skills will be primarily developed through work on ALEKS. ALEKS is a web-based tutorial system which provides students with ongoing skills based assessments and tracks progress. Conceptual skills will be incorporated into quizzes and home work assignments. Such assignments will be due approximately every other week. If necessary, students will be expected to attend online lectures.",
+                    "name": "College Algebra I"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680391,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/math021",
-                "icon": "courseicons:math021"
+                "icon": "courseicons:math021",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1580,7 +1688,7 @@
             "order": 33,
             "parent": "courses",
             "title": "Math 022",
-            "description": "This course presents an extensive review of intermediate algebra topics. The review will include: solving linear equations and inequalities, fundamental concepts associated with quadratic equations, solving equations and inequalities with absolute values and other miscellaneous equations involving rational expressions and radical expressions. An introduction to complex number arithmetic is also included. Additionally, it covers general concepts associated with relations and functions. Topics such as the algebra of functions, function composition and range and domain are studied. The graphical representation of linear and quadratic functions are also presented. The algebraic and graphical representation of circles will also be studied as it pertains to terminology associated with relations in general. Basic graphical transformations are introduced. Polynomial and rational functions are studied in detail. In particular, ideas associated with zeros of polynomials, end-behavior, and graph sketching are discussed. Students will learn about synthetic division, the remainder theorem, the conjugate root theorem, horizontal and slant (oblique) asymptotes, and vertical asymptotes. Finally, exponential and logarithmic functions are studied in detail. Specific skills entail working with the rules of exponents and logarithms and solving exponential and logarithmic equations. Concepts associated with one-to-one functions and the existence of inverses are also studied. Sketching and recognizing the graphical representation of exponential and log functions is included.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math022.png",
@@ -1588,14 +1696,24 @@
                     "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "This course presents an extensive review of intermediate algebra topics. The review will include: solving linear equations and inequalities, fundamental concepts associated with quadratic equations, solving equations and inequalities with absolute values and other miscellaneous equations involving rational expressions and radical expressions. An introduction to complex number arithmetic is also included. Additionally, it covers general concepts associated with relations and functions. Topics such as the algebra of functions, function composition and range and domain are studied. The graphical representation of linear and quadratic functions are also presented. The algebraic and graphical representation of circles will also be studied as it pertains to terminology associated with relations in general. Basic graphical transformations are introduced. Polynomial and rational functions are studied in detail. In particular, ideas associated with zeros of polynomials, end-behavior, and graph sketching are discussed. Students will learn about synthetic division, the remainder theorem, the conjugate root theorem, horizontal and slant (oblique) asymptotes, and vertical asymptotes. Finally, exponential and logarithmic functions are studied in detail. Specific skills entail working with the rules of exponents and logarithms and solving exponential and logarithmic equations. Concepts associated with one-to-one functions and the existence of inverses are also studied. Sketching and recognizing the graphical representation of exponential and log functions is included.",
+                    "name": "College Algebra II and Analytic Geometry"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680400,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/math022",
-                "icon": "courseicons:math022"
+                "icon": "courseicons:math022",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1605,7 +1723,7 @@
             "order": 34,
             "parent": "courses",
             "title": "Math 026",
-            "description": "Trigonometry is a field of mathematics in which the geometric properties of the angles and edges of triangles are used to measure lengths. Real-world problems involving trigonometry are common in engineering, physics, construction and design. This course is well suited for students who need sufficient mastery of trigonometry for use in fieldwork as well as those continuing on to engineering, kinesiology, surveying and physical sciences. Intermediate algebra skills are assumed. MATH 026 provides the trigonometry skills and concepts essential to success in calculus courses. Topics include right-triangle relationships, unit circle, sine, cosine, and tangent functions and their applications, inverse trigonometric functions, identities, and trigonometric form of complex numbers.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math026.png",
@@ -1613,14 +1731,24 @@
                     "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "Trigonometry is a field of mathematics in which the geometric properties of the angles and edges of triangles are used to measure lengths. Real-world problems involving trigonometry are common in engineering, physics, construction and design. This course is well suited for students who need sufficient mastery of trigonometry for use in fieldwork as well as those continuing on to engineering, kinesiology, surveying and physical sciences. Intermediate algebra skills are assumed. MATH 026 provides the trigonometry skills and concepts essential to success in calculus courses. Topics include right-triangle relationships, unit circle, sine, cosine, and tangent functions and their applications, inverse trigonometric functions, identities, and trigonometric form of complex numbers.",
+                    "name": "Plane Trigonometry"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680414,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/math026",
-                "icon": "courseicons:math140"
+                "icon": "courseicons:math140",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1630,7 +1758,7 @@
             "order": 35,
             "parent": "courses",
             "title": "Math 034",
-            "description": "This course introduces students to the time value of money, including, working with loans and associated interest calculations. It also covers the theme of Common Investment. Students will work with basic investments such as annuities, stocks and bonds, learn about sales and income taxes, and be introduced to retirement planning. Finally, students will learn about business applications and personal financial planning, where they will work with inflation and depreciation, consider consumer implications associated with credit cards, mortgages and leasing, and learn about profit margin and cost-revenue analysis associated with business. The student will be expected to obtain both a conceptual understanding for the financial objectives and the ability to calculate and manipulate formulas and equations associated with the financial objectives.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math034.png",
@@ -1638,14 +1766,24 @@
                     "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "This course introduces students to the time value of money, including, working with loans and associated interest calculations. It also covers the theme of Common Investment. Students will work with basic investments such as annuities, stocks and bonds, learn about sales and income taxes, and be introduced to retirement planning. Finally, students will learn about business applications and personal financial planning, where they will work with inflation and depreciation, consider consumer implications associated with credit cards, mortgages and leasing, and learn about profit margin and cost-revenue analysis associated with business. The student will be expected to obtain both a conceptual understanding for the financial objectives and the ability to calculate and manipulate formulas and equations associated with the financial objectives.",
+                    "name": "The Mathematics of Money"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680432,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/math034",
-                "icon": "courseicons:math034"
+                "icon": "courseicons:math034",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1655,7 +1793,7 @@
             "order": 36,
             "parent": "courses",
             "title": "Math 036",
-            "description": "This course covers examples of mathematical applications in many areas including voting theory, fair division, apportionment, and Euler and Hamilton circuits. In this course, we hope to demonstrate to the students that mathematics is very useful in contemporary problems in our society - from voting theory issues to apportionment of the seats in the U.S. House of Representatives to optimizing the route taken by a delivery person and a variety of other issues. We focus on historical issues related to such contemporary problems and also discuss the merits of various problem-solving techniques throughout the course.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math036.png",
@@ -1663,14 +1801,24 @@
                     "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "This course covers examples of mathematical applications in many areas including voting theory, fair division, apportionment, and Euler and Hamilton circuits. In this course, we hope to demonstrate to the students that mathematics is very useful in contemporary problems in our society - from voting theory issues to apportionment of the seats in the U.S. House of Representatives to optimizing the route taken by a delivery person and a variety of other issues. We focus on historical issues related to such contemporary problems and also discuss the merits of various problem-solving techniques throughout the course.",
+                    "name": "Insights into Mathematics"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680445,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/math036",
-                "icon": "courseicons:math036"
+                "icon": "courseicons:math036",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1680,7 +1828,7 @@
             "order": 37,
             "parent": "courses",
             "title": "Math 110",
-            "description": "MATH 110 is an entry-level course in mathematics that introduces the skills associated with the application of calculus techniques to business and social science applications. We will review and deepen our understanding of polynomial and exponential functions as well as introduce the concepts of derivatives and integration. Most topics will be explored analytically and graphically as they are applied to real life examples and problems. Students are expected to study the concepts and examples and be able to extend the skills and techniques to the solution of similar problems.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math110.png",
@@ -1688,14 +1836,24 @@
                     "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "MATH 110 is an entry-level course in mathematics that introduces the skills associated with the application of calculus techniques to business and social science applications. We will review and deepen our understanding of polynomial and exponential functions as well as introduce the concepts of derivatives and integration. Most topics will be explored analytically and graphically as they are applied to real life examples and problems. Students are expected to study the concepts and examples and be able to extend the skills and techniques to the solution of similar problems.",
+                    "name": "Techniques of Calculus I"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680459,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/math110",
-                "icon": "courseicons:math110"
+                "icon": "courseicons:math110",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1705,7 +1863,7 @@
             "order": 38,
             "parent": "courses",
             "title": "Math 140",
-            "description": "Calculus is an important building block in the education of any professional who uses quantitative analysis. This course introduces and develops the mathematical skills required for analyzing change and creating mathematical models that replicate real-life phenomena. The goals of our calculus courses include to develop the students' knowledge of calculus techniques and to use the calculus environment to develop critical thinking and problem solving skills. The concept of limit is central to calculus; MATH 140 begins with a study of this concept. Differential calculus topics include derivatives and their applications to rates of change, related rates, linearization, optimization, and graphing techniques. The Fundamental Theorem of Calculus, relating differential and integral calculus begins the study of Integral Calculus. Antidifferentiation and the technique of substitution is used in integration applications of finding areas of plane figures and volumes of solids of revolution. Trigonometric functions are included in every topic.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math140.png",
@@ -1713,14 +1871,24 @@
                     "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "Calculus is an important building block in the education of any professional who uses quantitative analysis. This course introduces and develops the mathematical skills required for analyzing change and creating mathematical models that replicate real-life phenomena. The goals of our calculus courses include to develop the students' knowledge of calculus techniques and to use the calculus environment to develop critical thinking and problem solving skills. The concept of limit is central to calculus; MATH 140 begins with a study of this concept. Differential calculus topics include derivatives and their applications to rates of change, related rates, linearization, optimization, and graphing techniques. The Fundamental Theorem of Calculus, relating differential and integral calculus begins the study of Integral Calculus. Antidifferentiation and the technique of substitution is used in integration applications of finding areas of plane figures and volumes of solids of revolution. Trigonometric functions are included in every topic.",
+                    "name": "Calculus With Analytic Geometry I"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680470,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/math140",
-                "icon": "courseicons:math140"
+                "icon": "courseicons:math140",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1730,7 +1898,7 @@
             "order": 39,
             "parent": "courses",
             "title": "Math 141",
-            "description": "Calculus is an important building block in the education of any professional who uses quantitative analysis. This course further introduces and develops the mathematical skills required for analyzing growth and change and creating mathematical models that replicate reallife phenomena. The goals of our calculus courses include to develop the students' knowledge of calculus techniques and to use the calculus environment to develop critical thinking and problem solving skills. This course covers the following topics: logarithms, exponentials, and inverse trigonometric functions; applications of the definite integral and techniques of integration; sequences and series; power series and Taylor polynomials; parametric equations and polar functions.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math141.png",
@@ -1738,14 +1906,24 @@
                     "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "Calculus is an important building block in the education of any professional who uses quantitative analysis. This course further introduces and develops the mathematical skills required for analyzing growth and change and creating mathematical models that replicate reallife phenomena. The goals of our calculus courses include to develop the students' knowledge of calculus techniques and to use the calculus environment to develop critical thinking and problem solving skills. This course covers the following topics: logarithms, exponentials, and inverse trigonometric functions; applications of the definite integral and techniques of integration; sequences and series; power series and Taylor polynomials; parametric equations and polar functions.",
+                    "name": "Calculus with Analytic Geometry II"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680487,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/math141",
-                "icon": "courseicons:math110"
+                "icon": "courseicons:math110",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1755,7 +1933,7 @@
             "order": 40,
             "parent": "courses",
             "title": "Math 220",
-            "description": "Systems of linear equations appear everywhere in mathematics and its applications. MATH 220 will give students the basic tools necessary to analyze and understand such systems. The initial portion of the course teaches the fundamentals of solving linear systems. This requires the language and notation of matrices and fundamental techniques for working with matrices such as row and column operations, echelon form, and invertibility. The determinant of a matrix is also introduced; it gives a test for invertibility. In the second part of the course the key ideas of eigenvector and eigenvalue are developed. These allow one to analyze a complicated matrix problem into simpler components and appear in many disguises in physical problems. The course also introduces the concept of a vector space, a crucial element in future linear algebra courses. This course is completed by a wide variety of students across the university, including students majoring in engineering programs, the sciences, and mathematics. (In case of many of these students, MATH 220 is a required course in their degree program.)",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math220.jpeg",
@@ -1763,14 +1941,24 @@
                     "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "Systems of linear equations appear everywhere in mathematics and its applications. MATH 220 will give students the basic tools necessary to analyze and understand such systems. The initial portion of the course teaches the fundamentals of solving linear systems. This requires the language and notation of matrices and fundamental techniques for working with matrices such as row and column operations, echelon form, and invertibility. The determinant of a matrix is also introduced; it gives a test for invertibility. In the second part of the course the key ideas of eigenvector and eigenvalue are developed. These allow one to analyze a complicated matrix problem into simpler components and appear in many disguises in physical problems. The course also introduces the concept of a vector space, a crucial element in future linear algebra courses. This course is completed by a wide variety of students across the university, including students majoring in engineering programs, the sciences, and mathematics. (In case of many of these students, MATH 220 is a required course in their degree program).",
+                    "name": "Matrices"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680502,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/math220",
-                "icon": "courseicons:math220"
+                "icon": "courseicons:math220",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1780,7 +1968,7 @@
             "order": 41,
             "parent": "courses",
             "title": "Math 250",
-            "description": "In this course, students will learn how derivatives commonly appear in equations used to describe the world. Equations involving derivatives are called differential equations. Differential equations play an important role in modeling the real world. Newton's laws, Maxwell's laws of electromagnetism, Einstein's equations of general relativity, Euler and Bernoulli's beam equation, the Black-Scholes equation from finance, Perelson's viral-dynamics equations in biology, and the million-dollar NavierStokes equations are all differential equations used daily in their respective disciplines. Today, differential equations are one of the fundamental mathematical tools for the study of systems that change over time, and are used in most areas of science, engineering, and mathematics. MATH 250 is an introductory course on ordinary differential equations. Ordinary differential equations are equations that involve derivative of a function with respect to only one variable. The goal of this course is to teach the students some of the elementary techniques in dealing with several fundamental types of equations. Some topics include linear equations involving only first and second derivatives, Laplace transforms, systems of linear equations involving only first derivatives, and phase-plane analysis.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math250.png",
@@ -1788,14 +1976,24 @@
                     "subject": "Math",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "In this course, students will learn how derivatives commonly appear in equations used to describe the world. Equations involving derivatives are called differential equations. Differential equations play an important role in modeling the real world. Newton's laws, Maxwell's laws of electromagnetism, Einstein's equations of general relativity, Euler and Bernoulli's beam equation, the Black-Scholes equation from finance, Perelson's viral-dynamics equations in biology, and the million-dollar NavierStokes equations are all differential equations used daily in their respective disciplines. Today, differential equations are one of the fundamental mathematical tools for the study of systems that change over time, and are used in most areas of science, engineering, and mathematics. MATH 250 is an introductory course on ordinary differential equations. Ordinary differential equations are equations that involve derivative of a function with respect to only one variable. The goal of this course is to teach the students some of the elementary techniques in dealing with several fundamental types of equations. Some topics include linear equations involving only first and second derivatives, Laplace transforms, systems of linear equations involving only first derivatives, and phase-plane analysis.",
+                    "name": "Ordinary Differential Equations"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680515,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/math250",
-                "icon": "courseicons:math140"
+                "icon": "courseicons:math140",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1805,7 +2003,7 @@
             "order": 42,
             "parent": "courses",
             "title": "Math 436",
-            "description": "This is course about vector spaces and linear transformations. It is not a course about vectors, in the sense of lists of numbers, and matrices (for this see Math 220), although we will of course make use of these concepts as needed. This course has a theoretical bent: we want to understand vector spaces and linear transformations, rather than use them to solve specific problems. For a more applied, engineering-oriented approach, try Math 441. This is a mathematics class, and you will be expected to read and do proofs. Students come to this class with a range of backgrounds. This is a second course in linear algebra, and emphasizes proofs and an abstract point of view (understanding vector spaces and linear transformations, not manipulating lists and matrices of numbers). We build up to and use structure theorems for linear operators.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math436.png",
@@ -1813,14 +2011,24 @@
                     "subject": "Math",
                     "program": "Graduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "This is course about vector spaces and linear transformations. It is not a course about vectors, in the sense of lists of numbers, and matrices (for this see Math 220), although we will of course make use of these concepts as needed. This course has a theoretical bent: we want to understand vector spaces and linear transformations, rather than use them to solve specific problems. For a more applied, engineering-oriented approach, try Math 441. This is a mathematics class, and you will be expected to read and do proofs. Students come to this class with a range of backgrounds. This is a second course in linear algebra, and emphasizes proofs and an abstract point of view (understanding vector spaces and linear transformations, not manipulating lists and matrices of numbers). We build up to and use structure theorems for linear operators.",
+                    "name": "Linear Algebra"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680535,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/math436",
-                "icon": "courseicons:math436"
+                "icon": "courseicons:math436",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1830,7 +2038,7 @@
             "order": 43,
             "parent": "courses",
             "title": "Micrb 106",
-            "description": "This course focuses on the importance of microorganisms in health, disease, agriculture, and industry. Specifically, Microbiology 106 looks at the unique nature of microorganisms and their importance to life on earth. Microbes were the first form of life to evolve, and even though different in structure from other forms of living things, many similarities can be found in terms of genetics, metabolism, and the roles they play in nature. Bacteria, viruses, and other forms of microscopic life will be examined in some detail, as will their biological activities both beneficial and harmful.Most people think of microbes in their negative roles: disease, food spoilage, and bio-deterioration. Indeed, we spend a lot of time and resources controlling microbes in our environment and treating diseases they cause. But microbes are found naturally on and within the human body with beneficial effect. They are also important in the production of food, vitamins, drugs, and other useful products. They are used extensively in biotechnology. They have important ecological roles and are essential to the continued existence of life on earth.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/micrb106.png",
@@ -1838,14 +2046,24 @@
                     "subject": "Microbiology",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "This course focuses on the importance of microorganisms in health, disease, agriculture, and industry. Specifically, Microbiology 106 looks at the unique nature of microorganisms and their importance to life on earth. Microbes were the first form of life to evolve, and even though different in structure from other forms of living things, many similarities can be found in terms of genetics, metabolism, and the roles they play in nature. Bacteria, viruses, and other forms of microscopic life will be examined in some detail, as will their biological activities both beneficial and harmful.Most people think of microbes in their negative roles: disease, food spoilage, and bio-deterioration. Indeed, we spend a lot of time and resources controlling microbes in our environment and treating diseases they cause. But microbes are found naturally on and within the human body with beneficial effect. They are also important in the production of food, vitamins, drugs, and other useful products. They are used extensively in biotechnology. They have important ecological roles and are essential to the continued existence of life on earth.",
+                    "name": "Elementary Microbiology"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680550,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/micrb106",
-                "icon": "courseicons:frnsc100"
+                "icon": "courseicons:frnsc100",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1855,7 +2073,7 @@
             "order": 44,
             "parent": "courses",
             "title": "Micrb 107",
-            "description": "This course explores selected techniques used to observe, identify and count bacteria, as well as the effects of chemical and physical agents on microorganisms. The course demonstrates the use and importance of microbes in everyday life. Instruction begins with the proper handling and visualization of microorganisms. Almost by definition, the vast majority of microorganisms are too small to be seen with the naked eye. Therefore, students must learn the correct use of the light microscope. Instruction in the proper care and maintenance of the microscope is provided. Students prepare and stain specimens using a number of methods designed to characterize microorganisms. The importance of working safely in a laboratory setting is emphasized throughout the course.Many skills are developed in this laboratory course. Aseptic (without contamination) technique is taught and is used to transfer organisms properly from one culture medium to another. A variety of media are used and the reasons for their use are explained. Students also learn how to calculate the number of bacteria in specimens such as water, soil or food. The course demonstrates ways to control microbial growth by means of temperature, osmotic pressure, pH, exposure to ultraviolet light and disinfectants.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/micrb107.png",
@@ -1863,14 +2081,24 @@
                     "subject": "Microbiology",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "This course explores selected techniques used to observe, identify and count bacteria, as well as the effects of chemical and physical agents on microorganisms. The course demonstrates the use and importance of microbes in everyday life. Instruction begins with the proper handling and visualization of microorganisms. Almost by definition, the vast majority of microorganisms are too small to be seen with the naked eye. Therefore, students must learn the correct use of the light microscope. Instruction in the proper care and maintenance of the microscope is provided. Students prepare and stain specimens using a number of methods designed to characterize microorganisms. The importance of working safely in a laboratory setting is emphasized throughout the course.Many skills are developed in this laboratory course. Aseptic (without contamination) technique is taught and is used to transfer organisms properly from one culture medium to another. A variety of media are used and the reasons for their use are explained. Students also learn how to calculate the number of bacteria in specimens such as water, soil or food. The course demonstrates ways to control microbial growth by means of temperature, osmotic pressure, pH, exposure to ultraviolet light and disinfectants.",
+                    "name": "Elementary Microbiology Laboratory"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680559,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/micrb107",
-                "icon": "courseicons:frnsc100"
+                "icon": "courseicons:frnsc100",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1880,7 +2108,7 @@
             "order": 45,
             "parent": "courses",
             "title": "Phys 010",
-            "description": "This course is an introduction for non-science majors to select topics in the modern physics of quantum mechanics and relativity with the goal of understanding recent technological advances, scientific breakthroughs and social events related to science as they appear in the news. These range from the discovery of the Higgs boson and dark energy to developments in lasers or superconductors. Social events in the news where science played a large role such as the Roswell \u201cUFO\u201d event in 1947 or the Fukushima nuclear crisis in 2011 will also be discussed. Students will learn about the scientific method and scientific reporting; the conceptual aspects of the structure of matter from atoms to quarks, waves, energy and light; quantum mechanics and its applications to high tech such as computers and lasers; relativity E=mc2, nuclear forces, gravity and the Big-Bang theory. Particular emphasis will be put on learning the scientific standards for a hypothesis to be truly established as a working theory and how the simple laws of physics apply broadly to many different systems. This class will emphasize conceptual aspects and there is no mathematics prerequisite. This course is for non-science majors.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/phys010.png",
@@ -1888,14 +2116,24 @@
                     "subject": "Physics",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "This course is an introduction for non-science majors to select topics in the modern physics of quantum mechanics and relativity with the goal of understanding recent technological advances, scientific breakthroughs and social events related to science as they appear in the news. These range from the discovery of the Higgs boson and dark energy to developments in lasers or superconductors. Social events in the news where science played a large role such as the Roswell \u201cUFO\u201d event in 1947 or the Fukushima nuclear crisis in 2011 will also be discussed. Students will learn about the scientific method and scientific reporting; the conceptual aspects of the structure of matter from atoms to quarks, waves, energy and light; quantum mechanics and its applications to high tech such as computers and lasers; relativity E=mc2, nuclear forces, gravity and the Big-Bang theory. Particular emphasis will be put on learning the scientific standards for a hypothesis to be truly established as a working theory and how the simple laws of physics apply broadly to many different systems. This class will emphasize conceptual aspects and there is no mathematics prerequisite. This course is for non-science majors.",
+                    "name": "Physics Behind the Headlines"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680574,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/phys010",
-                "icon": "courseicons:phys010"
+                "icon": "courseicons:phys010",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {
@@ -1905,7 +2143,7 @@
             "order": 46,
             "parent": "courses",
             "title": "Phys 211",
-            "description": "This course provides a calculus-based introduction to classical mechanics, including such topics as: measurement, dimensional analysis, motion in one-dimension, vectors, motion in 2 and 3 dimensions, relative and circular motion, force and dynamics, Newton's Laws, friction, kinetic energy, work, potential energy, energy conservation, systems of particles, center of mass and momentum, elastic and inelastic collisions, rotation (moments of inertia), rolling motion, torque, angular momentum, static equilibrium, gravitational force and Kepler's laws, gravitational potential energy, oscillations, waves (transverse and longitudinal, superposition of waves). PHYS 211 is designed to provide students with a working knowledge of the elementary physics principles mentioned above, as well as their applications, and to enhance their conceptual understanding of physical laws.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/phys211.png",
@@ -1913,14 +2151,24 @@
                     "subject": "Physics",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "video": ""
+                    "video": "",
+                    "description": "This course provides a calculus-based introduction to classical mechanics, including such topics as: measurement, dimensional analysis, motion in one-dimension, vectors, motion in 2 and 3 dimensions, relative and circular motion, force and dynamics, Newton's Laws, friction, kinetic energy, work, potential energy, energy conservation, systems of particles, center of mass and momentum, elastic and inelastic collisions, rotation (moments of inertia), rolling motion, torque, angular momentum, static equilibrium, gravitational force and Kepler's laws, gravitational potential energy, oscillations, waves (transverse and longitudinal, superposition of waves). PHYS 211 is designed to provide students with a working knowledge of the elementary physics principles mentioned above, as well as their applications, and to enhance their conceptual understanding of physical laws.",
+                    "name": "General Physics: Mechanics"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1571680586,
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/phys211",
-                "icon": "courseicons:phys010"
+                "icon": "courseicons:phys010",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
             }
         },
         {

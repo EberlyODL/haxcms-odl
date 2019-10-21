@@ -161,12 +161,6 @@ class HaxThemeProfile extends PolymerElement {
           }
         }
         
-      #prev_next_btns {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 25px;
-      }
-
       @media screen and (max-width: 768px) {
         site-breadcrumb {
           margin: 0 0 30px;
@@ -177,6 +171,12 @@ class HaxThemeProfile extends PolymerElement {
         --site-recent-content-block-header-color: #e2801e;
         --site-recent-content-block-active-color: var(--theme-color-2);
       }
+
+      #contentcontainer {
+        margin-bottom: 25px;
+      }
+
+    
     </style>
     
     <div id="profile_wrap">
@@ -225,15 +225,6 @@ class HaxThemeProfile extends PolymerElement {
                 <slot></slot>
               </div>
             </div>
- 
-           <div id="prev_next_btns">
-            <site-menu-button type="prev" position="top" label="Previous">
-              <div slot="suffix">Prev</div>
-            </site-menu-button>
-            <site-menu-button type="next" position="top" label="Next">
-              <div slot="prefix">Next</div>
-            </site-menu-button>
-           </div>
         </div>
         <div class="sidebar_wrap">
           <div id="news_archive">
