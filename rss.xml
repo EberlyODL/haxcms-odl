@@ -9,6 +9,16 @@
     <lastBuildDate>Tue, 03 Sep 2019 14:09:38 +0000</lastBuildDate>
     <atom:link href="/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Louis Leblond</title>
+      <link>/spotlight/louis</link>
+      <description>
+          <![CDATA[ This is Louis spotlight page. ]]>
+      </description>
+      <category></category>
+      <guid>/spotlight/louis</guid>
+      <pubDate>Tue, 16 Apr 2019 04:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Joseph Houck</title>
       <link>/team-directory/joseph</link>
       <description>
@@ -40,16 +50,6 @@
       </description>
       <category></category>
       <guid>/team-directory/joseph</guid>
-      <pubDate>Tue, 16 Apr 2019 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Louis Leblond</title>
-      <link>/spotlight/louis</link>
-      <description>
-          <![CDATA[ This is Louis spotlight page. ]]>
-      </description>
-      <category></category>
-      <guid>/spotlight/louis</guid>
       <pubDate>Tue, 16 Apr 2019 04:00:00 +0000</pubDate>
     </item>
     <item>
@@ -264,26 +264,6 @@
       <pubDate>Tue, 06 Nov 2018 15:22:36 +0000</pubDate>
     </item>
     <item>
-      <title>BiSc 003</title>
-      <link>/syllabi/bisc003</link>
-      <description>
-          <![CDATA[ <p>this is the bisc003 syllabus.</p> ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/bisc003</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>BiSc 004</title>
-      <link>/syllabi/bisc004</link>
-      <description>
-          <![CDATA[ <p>This is the bisc004 syllabus.</p> ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/bisc004</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
       <title>Biol 11</title>
       <link>/syllabi/biol11</link>
       <description>
@@ -294,33 +274,63 @@
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
-      <title>Phys 211</title>
-      <link>/syllabi/phys211</link>
+      <title>Biol 110</title>
+      <link>/syllabi/biol110</link>
       <description>
-          <![CDATA[ <p>this is the phys211 syllabus.</p> ]]>
+          <![CDATA[ <p>this is the biol110 syllabus.</p> ]]>
       </description>
       <category></category>
-      <guid>/syllabi/phys211</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>BiSc 002</title>
-      <link>/syllabi/bisc002</link>
-      <description>
-          <![CDATA[ <p>this is the bisc002 syllabus.</p> ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/bisc002</guid>
+      <guid>/syllabi/biol110</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
       <title>Biol 120N</title>
       <link>/syllabi/biol120n</link>
       <description>
-          <![CDATA[ <p>this is the biol120n syllabus.</p> ]]>
+          <![CDATA[ <p></p> ]]>
       </description>
       <category></category>
       <guid>/syllabi/biol120n</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Phys 212</title>
+      <link>/syllabi/phys212</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/phys212</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>BiSc 003</title>
+      <link>/syllabi/bisc003</link>
+      <description>
+          <![CDATA[ <p>this is the bisc003 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/bisc003</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 125N</title>
+      <link>/syllabi/biol125n</link>
+      <description>
+          <![CDATA[ <p></p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol125n</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 127</title>
+      <link>/syllabi/biol127</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol127</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
@@ -374,33 +384,13 @@
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
-      <title>Biol 110</title>
-      <link>/syllabi/biol110</link>
+      <title>BiSc 004</title>
+      <link>/syllabi/bisc004</link>
       <description>
-          <![CDATA[ <p>this is the biol110 syllabus.</p> ]]>
+          <![CDATA[ <p>This is the bisc004 syllabus.</p> ]]>
       </description>
       <category></category>
-      <guid>/syllabi/biol110</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Astro 130</title>
-      <link>/syllabi/astro130</link>
-      <description>
-          <![CDATA[ <p>this is the astro130 syllabus.</p> ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/astro130</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>BiSc 001</title>
-      <link>/syllabi/bisc001</link>
-      <description>
-          <![CDATA[ <p>This is the bisc001 syllabus.</p> ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/bisc001</guid>
+      <guid>/syllabi/bisc004</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
@@ -420,6 +410,26 @@
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
+      <title>BiSc 002</title>
+      <link>/syllabi/bisc002</link>
+      <description>
+          <![CDATA[ <p>this is the bisc002 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/bisc002</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>BiSc 001</title>
+      <link>/syllabi/bisc001</link>
+      <description>
+          <![CDATA[ <p>This is the bisc001 syllabus.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/bisc001</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
       <title>Chem 005</title>
       <link>/syllabi/chem005</link>
       <description>
@@ -430,23 +440,13 @@
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
-      <title>Astro 120</title>
-      <link>/syllabi/astro120</link>
+      <title>Astro 130</title>
+      <link>/syllabi/astro130</link>
       <description>
-          <![CDATA[ <p>This is the astro120 syllabus.</p> ]]>
+          <![CDATA[ <p>this is the astro130 syllabus.</p> ]]>
       </description>
       <category></category>
-      <guid>/syllabi/astro120</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Astro 011</title>
-      <link>/syllabi/astro011</link>
-      <description>
-          <![CDATA[ <p>astro011 syllabus page</p> ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/astro011</guid>
+      <guid>/syllabi/astro130</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
   </channel>

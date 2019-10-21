@@ -9,6 +9,18 @@
   </author>
   <id>/feed</id>
   <entry>
+    <title>Louis Leblond</title>
+    <id>/spotlight/louis</id>
+    <updated>2019-04-16T04:00:00+00:00</updated>
+    <published>2019-04-16T04:00:00+00:00</published>
+    <summary>Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit.</summary>
+    <link href="/spotlight/louis"/>
+    
+    <content type="html">
+      <![CDATA[ This is Louis spotlight page. ]]>
+    </content>
+  </entry>
+  <entry>
     <title>Joseph Houck</title>
     <id>/team-directory/joseph</id>
     <updated>2019-04-16T04:00:00+00:00</updated>
@@ -42,18 +54,6 @@
   <br />
 </div>
  ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Louis Leblond</title>
-    <id>/spotlight/louis</id>
-    <updated>2019-04-16T04:00:00+00:00</updated>
-    <published>2019-04-16T04:00:00+00:00</published>
-    <summary>Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit.</summary>
-    <link href="/spotlight/louis"/>
-    
-    <content type="html">
-      <![CDATA[ This is Louis spotlight page. ]]>
     </content>
   </entry>
   <entry>
@@ -278,30 +278,6 @@
     </content>
   </entry>
   <entry>
-    <title>BiSc 003</title>
-    <id>/syllabi/bisc003</id>
-    <updated>2018-11-06T15:22:35+00:00</updated>
-    <published>2018-11-06T15:22:35+00:00</published>
-    <summary></summary>
-    <link href="/syllabi/bisc003"/>
-    
-    <content type="html">
-      <![CDATA[ <p>this is the bisc003 syllabus.</p> ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>BiSc 004</title>
-    <id>/syllabi/bisc004</id>
-    <updated>2018-11-06T15:22:35+00:00</updated>
-    <published>2018-11-06T15:22:35+00:00</published>
-    <summary></summary>
-    <link href="/syllabi/bisc004"/>
-    
-    <content type="html">
-      <![CDATA[ <p>This is the bisc004 syllabus.</p> ]]>
-    </content>
-  </entry>
-  <entry>
     <title>Biol 11</title>
     <id>/syllabi/biol11</id>
     <updated>2018-11-06T15:22:35+00:00</updated>
@@ -314,39 +290,75 @@
     </content>
   </entry>
   <entry>
-    <title>Phys 211</title>
-    <id>/syllabi/phys211</id>
+    <title>Biol 110</title>
+    <id>/syllabi/biol110</id>
     <updated>2018-11-06T15:22:35+00:00</updated>
     <published>2018-11-06T15:22:35+00:00</published>
     <summary></summary>
-    <link href="/syllabi/phys211"/>
+    <link href="/syllabi/biol110"/>
     
     <content type="html">
-      <![CDATA[ <p>this is the phys211 syllabus.</p> ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>BiSc 002</title>
-    <id>/syllabi/bisc002</id>
-    <updated>2018-11-06T15:22:35+00:00</updated>
-    <published>2018-11-06T15:22:35+00:00</published>
-    <summary></summary>
-    <link href="/syllabi/bisc002"/>
-    
-    <content type="html">
-      <![CDATA[ <p>this is the bisc002 syllabus.</p> ]]>
+      <![CDATA[ <p>this is the biol110 syllabus.</p> ]]>
     </content>
   </entry>
   <entry>
     <title>Biol 120N</title>
     <id>/syllabi/biol120n</id>
-    <updated>2018-11-06T15:22:35+00:00</updated>
+    <updated>2019-10-21T23:09:12+00:00</updated>
     <published>2018-11-06T15:22:35+00:00</published>
     <summary></summary>
     <link href="/syllabi/biol120n"/>
     
     <content type="html">
-      <![CDATA[ <p>this is the biol120n syllabus.</p> ]]>
+      <![CDATA[ <p></p> ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Phys 212</title>
+    <id>/syllabi/phys212</id>
+    <updated>2018-11-06T15:22:35+00:00</updated>
+    <published>2018-11-06T15:22:35+00:00</published>
+    <summary></summary>
+    <link href="/syllabi/phys212"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>BiSc 003</title>
+    <id>/syllabi/bisc003</id>
+    <updated>2018-11-06T15:22:35+00:00</updated>
+    <published>2018-11-06T15:22:35+00:00</published>
+    <summary></summary>
+    <link href="/syllabi/bisc003"/>
+    
+    <content type="html">
+      <![CDATA[ <p>this is the bisc003 syllabus.</p> ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Biol 125N</title>
+    <id>/syllabi/biol125n</id>
+    <updated>2019-10-21T20:21:29+00:00</updated>
+    <published>2018-11-06T15:22:35+00:00</published>
+    <summary></summary>
+    <link href="/syllabi/biol125n"/>
+    
+    <content type="html">
+      <![CDATA[ <p></p> ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Biol 127</title>
+    <id>/syllabi/biol127</id>
+    <updated>2019-10-21T20:21:29+00:00</updated>
+    <published>2018-11-06T15:22:35+00:00</published>
+    <summary></summary>
+    <link href="/syllabi/biol127"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
     </content>
   </entry>
   <entry>
@@ -410,39 +422,15 @@
     </content>
   </entry>
   <entry>
-    <title>Biol 110</title>
-    <id>/syllabi/biol110</id>
+    <title>BiSc 004</title>
+    <id>/syllabi/bisc004</id>
     <updated>2018-11-06T15:22:35+00:00</updated>
     <published>2018-11-06T15:22:35+00:00</published>
     <summary></summary>
-    <link href="/syllabi/biol110"/>
+    <link href="/syllabi/bisc004"/>
     
     <content type="html">
-      <![CDATA[ <p>this is the biol110 syllabus.</p> ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Astro 130</title>
-    <id>/syllabi/astro130</id>
-    <updated>2018-11-06T15:22:35+00:00</updated>
-    <published>2018-11-06T15:22:35+00:00</published>
-    <summary></summary>
-    <link href="/syllabi/astro130"/>
-    
-    <content type="html">
-      <![CDATA[ <p>this is the astro130 syllabus.</p> ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>BiSc 001</title>
-    <id>/syllabi/bisc001</id>
-    <updated>2018-11-06T15:22:35+00:00</updated>
-    <published>2018-11-06T15:22:35+00:00</published>
-    <summary></summary>
-    <link href="/syllabi/bisc001"/>
-    
-    <content type="html">
-      <![CDATA[ <p>This is the bisc001 syllabus.</p> ]]>
+      <![CDATA[ <p>This is the bisc004 syllabus.</p> ]]>
     </content>
   </entry>
   <entry>
@@ -464,6 +452,30 @@
     </content>
   </entry>
   <entry>
+    <title>BiSc 002</title>
+    <id>/syllabi/bisc002</id>
+    <updated>2018-11-06T15:22:35+00:00</updated>
+    <published>2018-11-06T15:22:35+00:00</published>
+    <summary></summary>
+    <link href="/syllabi/bisc002"/>
+    
+    <content type="html">
+      <![CDATA[ <p>this is the bisc002 syllabus.</p> ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>BiSc 001</title>
+    <id>/syllabi/bisc001</id>
+    <updated>2018-11-06T15:22:35+00:00</updated>
+    <published>2018-11-06T15:22:35+00:00</published>
+    <summary></summary>
+    <link href="/syllabi/bisc001"/>
+    
+    <content type="html">
+      <![CDATA[ <p>This is the bisc001 syllabus.</p> ]]>
+    </content>
+  </entry>
+  <entry>
     <title>Chem 005</title>
     <id>/syllabi/chem005</id>
     <updated>2018-11-06T15:22:35+00:00</updated>
@@ -476,27 +488,15 @@
     </content>
   </entry>
   <entry>
-    <title>Astro 120</title>
-    <id>/syllabi/astro120</id>
+    <title>Astro 130</title>
+    <id>/syllabi/astro130</id>
     <updated>2018-11-06T15:22:35+00:00</updated>
     <published>2018-11-06T15:22:35+00:00</published>
     <summary></summary>
-    <link href="/syllabi/astro120"/>
+    <link href="/syllabi/astro130"/>
     
     <content type="html">
-      <![CDATA[ <p>This is the astro120 syllabus.</p> ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Astro 011</title>
-    <id>/syllabi/astro011</id>
-    <updated>2018-11-06T15:22:35+00:00</updated>
-    <published>2018-11-06T15:22:35+00:00</published>
-    <summary></summary>
-    <link href="/syllabi/astro011"/>
-    
-    <content type="html">
-      <![CDATA[ <p>astro011 syllabus page</p> ]]>
+      <![CDATA[ <p>this is the astro130 syllabus.</p> ]]>
     </content>
   </entry>
 </feed>
