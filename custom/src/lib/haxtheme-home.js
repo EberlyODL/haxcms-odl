@@ -219,8 +219,8 @@ class HaxThemeHome extends PolymerElement {
       <div id="courses">
         <content-listing
           title="Courses"
-          image="https://picsum.photos/300/300"
-          alt="My alt text"
+          image="files/feature-images/course-select.jpg"
+          alt="Student with a question raising hand in class surrounded by other students."
           condition='{"metadata.type": "course"}'
           location="metadata.fields.subject"
         ></content-listing>

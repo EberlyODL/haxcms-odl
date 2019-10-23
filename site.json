@@ -929,7 +929,7 @@
                     "credits": "3",
                     "video": "",
                     "description": "This course is a study of the evolution of the major groups of organisms including the fundamental concepts of biology. The goal of this course is to introduce you to fundamental concepts that are common to all organisms and to explore the biological diversity of life on Earth. Biology 110 is intended for students who need a majors-level introductory biology course and is not the best option for students who are looking for a general education course in science.",
-                    "name": "Biology: Basic Concepts and Biodiversity"
+                    "name": "Basic Concepts and Biodiversity"
                 },
                 "created": 1541517755,
                 "updated": 1571325869,
@@ -992,8 +992,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/biol125n.png",
-                    "imageAlt": "",
+                    "image": "files\/course-banners\/biol125n.jpg",
+                    "imageAlt": "On top of the world, Manhattan, New York City - from space.  Photo by: NASA - Unsplash.com",
                     "subject": "Biology",
                     "program": "Undergraduate",
                     "credits": "3",
@@ -1021,14 +1021,14 @@
             "id": "biol127",
             "indent": 0,
             "location": "pages\/courses\/biol127\/index.html",
-            "order": 13,
+            "order": 14,
             "parent": "courses",
             "title": "Biol 127",
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/biol127.png",
-                    "imageAlt": "",
+                    "image": "files\/course-banners\/biol127.jpg",
+                    "imageAlt": "Worker bee and a sunflower.  Photo by: Dixit Motiwala - Unsplash.com",
                     "subject": "Biology",
                     "program": "Undergraduate",
                     "credits": "3",
@@ -1056,7 +1056,7 @@
             "id": "biol133",
             "indent": 0,
             "location": "pages\/courses\/biol133\/index.html",
-            "order": 13,
+            "order": 15,
             "parent": "courses",
             "title": "Biol 133",
             "description": "",
@@ -1091,7 +1091,7 @@
             "id": "biol141",
             "indent": 0,
             "location": "pages\/courses\/biol141\/index.html",
-            "order": 14,
+            "order": 16,
             "parent": "courses",
             "title": "Biol 141",
             "description": "",
@@ -1126,7 +1126,7 @@
             "id": "biol155",
             "indent": 0,
             "location": "pages\/courses\/biol155\/index.html",
-            "order": 15,
+            "order": 17,
             "parent": "courses",
             "title": "Biol 155",
             "description": "",
@@ -1161,7 +1161,7 @@
             "id": "biol177",
             "indent": 0,
             "location": "pages\/courses\/biol177\/index.html",
-            "order": 16,
+            "order": 18,
             "parent": "courses",
             "title": "Biol 177",
             "description": "",
@@ -1196,7 +1196,7 @@
             "id": "bmmb551",
             "indent": 0,
             "location": "pages\/courses\/bmmb551\/index.html",
-            "order": 17,
+            "order": 19,
             "parent": "courses",
             "title": "Bmmb 551",
             "description": "",
@@ -1231,7 +1231,7 @@
             "id": "bmmb852",
             "indent": 0,
             "location": "pages\/courses\/bmmb852\/index.html",
-            "order": 18,
+            "order": 20,
             "parent": "courses",
             "title": "Bmmb 852",
             "description": "",
@@ -1266,7 +1266,7 @@
             "id": "chem005",
             "indent": 0,
             "location": "pages\/courses\/chem005\/index.html",
-            "order": 19,
+            "order": 21,
             "parent": "courses",
             "title": "Chem 005",
             "description": "",
@@ -1301,7 +1301,7 @@
             "id": "chem101",
             "indent": 0,
             "location": "pages\/courses\/chem101\/index.html",
-            "order": 20,
+            "order": 22,
             "parent": "courses",
             "title": "Chem 101",
             "description": "",
@@ -1336,7 +1336,7 @@
             "id": "chem110",
             "indent": 0,
             "location": "pages\/courses\/chem110\/index.html",
-            "order": 21,
+            "order": 23,
             "parent": "courses",
             "title": "Chem 110",
             "description": "",
@@ -1378,7 +1378,7 @@
             "id": "chem111",
             "indent": 0,
             "location": "pages\/courses\/chem111\/index.html",
-            "order": 22,
+            "order": 24,
             "parent": "courses",
             "title": "Chem 111",
             "description": "",
@@ -1410,10 +1410,45 @@
             }
         },
         {
+            "id": "chem130",
+            "indent": 0,
+            "location": "pages\/courses\/chem130\/index.html",
+            "order": 25,
+            "parent": "courses",
+            "title": "Chem 130",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/chem130.jpg",
+                    "imageAlt": "Work up of a reaction sketched on fume hood sash glass.  Photo by: Chromatograph - Unsplash.com",
+                    "subject": "Chemistry",
+                    "program": "Undergraduate",
+                    "credits": "3",
+                    "video": "",
+                    "description": "This course is a one-semester college level introductory chemistry course covering the fundamental principles of general, organic, and biochemistry. Three credits, fulfills the General Education (GN) requirements. Course topics include dimensional analysis, atomic structure and periodicity, chemical bonding, molecular structure, states of matter and intermolecular forces, basic gas laws, solutions and solubility, acids, bases and equilibrium, reaction stoichiometry and thermodynamics. In addition, fundamentals of organic nomenclature, properties of main organic functional groups, and structure and function of biological macromolecules will be discussed. The course will emphasize chemistry in environmental and health-related contexts.",
+                    "name": "Introduction to General, Organic, and Biochemistry"
+                },
+                "created": 1541517755,
+                "updated": 1571336209,
+                "type": "course",
+                "template": "courses",
+                "syllabus": "syllabi\/chem130",
+                "icon": "courseicons:chem101",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
+            }
+        },
+        {
             "id": "chem202",
             "indent": 0,
             "location": "pages\/courses\/chem202\/index.html",
-            "order": 23,
+            "order": 26,
             "parent": "courses",
             "title": "Chem 202",
             "description": "",
@@ -1448,7 +1483,7 @@
             "id": "chem810",
             "indent": 0,
             "location": "pages\/courses\/chem810\/index.html",
-            "order": 24,
+            "order": 27,
             "parent": "courses",
             "title": "Chem 810",
             "description": "",
@@ -1475,7 +1510,7 @@
             "id": "chem811",
             "indent": 0,
             "location": "pages\/courses\/chem811\/index.html",
-            "order": 25,
+            "order": 28,
             "parent": "courses",
             "title": "Chem 811",
             "description": "",
@@ -1510,7 +1545,7 @@
             "id": "chem812",
             "indent": 0,
             "location": "pages\/courses\/chem812\/index.html",
-            "order": 26,
+            "order": 29,
             "parent": "courses",
             "title": "Chem 812",
             "description": "",
@@ -1545,7 +1580,7 @@
             "id": "frnsc100",
             "indent": 0,
             "location": "pages\/courses\/frnsc100\/index.html",
-            "order": 27,
+            "order": 30,
             "parent": "courses",
             "title": "Frnsc 100",
             "description": "",
@@ -1580,7 +1615,7 @@
             "id": "frnsc200",
             "indent": 0,
             "location": "pages\/courses\/frnsc200\/index.html",
-            "order": 28,
+            "order": 31,
             "parent": "courses",
             "title": "Frnsc 200",
             "description": "",
@@ -1615,7 +1650,7 @@
             "id": "frnsc210",
             "indent": 0,
             "location": "pages\/courses\/frnsc210\/index.html",
-            "order": 29,
+            "order": 32,
             "parent": "courses",
             "title": "Frnsc 210",
             "description": "",
@@ -1650,7 +1685,7 @@
             "id": "math004",
             "indent": 0,
             "location": "pages\/courses\/math004\/index.html",
-            "order": 30,
+            "order": 33,
             "parent": "courses",
             "title": "Math 004",
             "description": "",
@@ -1685,7 +1720,7 @@
             "id": "math017",
             "indent": 0,
             "location": "pages\/courses\/math017\/index.html",
-            "order": 31,
+            "order": 34,
             "parent": "courses",
             "title": "Math 017",
             "description": "",
@@ -1720,7 +1755,7 @@
             "id": "math021",
             "indent": 0,
             "location": "pages\/courses\/math021\/index.html",
-            "order": 32,
+            "order": 35,
             "parent": "courses",
             "title": "Math 021",
             "description": "",
@@ -1755,7 +1790,7 @@
             "id": "math022",
             "indent": 0,
             "location": "pages\/courses\/math022\/index.html",
-            "order": 33,
+            "order": 36,
             "parent": "courses",
             "title": "Math 022",
             "description": "",
@@ -1790,7 +1825,7 @@
             "id": "math026",
             "indent": 0,
             "location": "pages\/courses\/math026\/index.html",
-            "order": 34,
+            "order": 37,
             "parent": "courses",
             "title": "Math 026",
             "description": "",
@@ -1825,7 +1860,7 @@
             "id": "math034",
             "indent": 0,
             "location": "pages\/courses\/math034\/index.html",
-            "order": 35,
+            "order": 38,
             "parent": "courses",
             "title": "Math 034",
             "description": "",
@@ -1860,7 +1895,7 @@
             "id": "math036",
             "indent": 0,
             "location": "pages\/courses\/math036\/index.html",
-            "order": 36,
+            "order": 39,
             "parent": "courses",
             "title": "Math 036",
             "description": "",
@@ -1895,7 +1930,7 @@
             "id": "math110",
             "indent": 0,
             "location": "pages\/courses\/math110\/index.html",
-            "order": 37,
+            "order": 40,
             "parent": "courses",
             "title": "Math 110",
             "description": "",
@@ -1930,7 +1965,7 @@
             "id": "math140",
             "indent": 0,
             "location": "pages\/courses\/math140\/index.html",
-            "order": 38,
+            "order": 41,
             "parent": "courses",
             "title": "Math 140",
             "description": "",
@@ -1965,7 +2000,7 @@
             "id": "math141",
             "indent": 0,
             "location": "pages\/courses\/math141\/index.html",
-            "order": 39,
+            "order": 42,
             "parent": "courses",
             "title": "Math 141",
             "description": "",
@@ -2000,7 +2035,7 @@
             "id": "math220",
             "indent": 0,
             "location": "pages\/courses\/math220\/index.html",
-            "order": 40,
+            "order": 43,
             "parent": "courses",
             "title": "Math 220",
             "description": "",
@@ -2035,7 +2070,7 @@
             "id": "math250",
             "indent": 0,
             "location": "pages\/courses\/math250\/index.html",
-            "order": 41,
+            "order": 44,
             "parent": "courses",
             "title": "Math 250",
             "description": "",
@@ -2070,7 +2105,7 @@
             "id": "math436",
             "indent": 0,
             "location": "pages\/courses\/math436\/index.html",
-            "order": 42,
+            "order": 45,
             "parent": "courses",
             "title": "Math 436",
             "description": "",
@@ -2105,7 +2140,7 @@
             "id": "micrb106",
             "indent": 0,
             "location": "pages\/courses\/micrb106\/index.html",
-            "order": 43,
+            "order": 46,
             "parent": "courses",
             "title": "Micrb 106",
             "description": "",
@@ -2140,7 +2175,7 @@
             "id": "micrb107",
             "indent": 0,
             "location": "pages\/courses\/micrb107\/index.html",
-            "order": 44,
+            "order": 47,
             "parent": "courses",
             "title": "Micrb 107",
             "description": "",
@@ -2175,7 +2210,7 @@
             "id": "phys010",
             "indent": 0,
             "location": "pages\/courses\/phys010\/index.html",
-            "order": 45,
+            "order": 48,
             "parent": "courses",
             "title": "Phys 010",
             "description": "",
@@ -2210,7 +2245,7 @@
             "id": "phys211",
             "indent": 0,
             "location": "pages\/courses\/phys211\/index.html",
-            "order": 46,
+            "order": 49,
             "parent": "courses",
             "title": "Phys 211",
             "description": "",
@@ -2245,14 +2280,14 @@
             "id": "phys212",
             "indent": 0,
             "location": "pages\/courses\/phys212\/index.html",
-            "order": 46,
+            "order": 50,
             "parent": "courses",
             "title": "Phys 212",
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/phys212.png",
-                    "imageAlt": "",
+                    "image": "files\/course-banners\/phys212.jpg",
+                    "imageAlt": "Lightning In The Fields.  Photo by: NOAA - Unsplash.com",
                     "subject": "Physics",
                     "program": "Undergraduate",
                     "credits": "3",
@@ -2302,7 +2337,8 @@
                     "image": "files\/course-banners\/astro001.png",
                     "imageAlt": "Silhouette of man looking up into large moon. Photo by: Greg Rakozy - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Astronomical Universe"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2324,7 +2360,8 @@
                     "image": "files\/course-banners\/astro011.png",
                     "imageAlt": "Observatory with sky and stars. Photo by: Alex Franzelin - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Elementary Astronomy Laboratory"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2346,7 +2383,8 @@
                     "image": "files\/course-banners\/astro120.png",
                     "imageAlt": "Colorful image of space, nebula, universe. Photo by: NASA - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "The Big Bang Universe"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2368,7 +2406,8 @@
                     "image": "files\/course-banners\/astro130.png",
                     "imageAlt": "A photo of a Black hole. Photo by: Event Horizon Telescope - https:\/\/www.eso.org\/public\/images\/eso1907a\/ (image link) The highest-quality image (7416x4320 pixels, TIF, 16-bit, 180 Mb), ESO Article, ESO TIF, CC BY 4.0, https:\/\/commons.wikimedia.org\/w\/index.php?curid=77925953",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Black Holes in the Universe"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2391,7 +2430,7 @@
                     "imageAlt": "Two green leaf trees beside mountain with a night time sky. Photo by: Kayla Gibson - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "course": "astro140"
+                    "name": "Life in the Universe"
                 },
                 "created": 1541517755,
                 "updated": 1571317368,
@@ -2424,7 +2463,8 @@
                     "image": "files\/course-banners\/bisc001.png",
                     "imageAlt": "Cellular Structure.  Photo by: Dante Metaphor - Reddit - https:\/\/www.reddit.com\/r\/wallpapers\/comments\/95ogkv",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Structure and Function of Organisms"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2446,7 +2486,8 @@
                     "image": "files\/course-banners\/bisc002.png",
                     "imageAlt": "Pink and purple plasma ball. Photo: Hal Gatewood - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Genetics, Ecology, and Evolution"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2468,7 +2509,8 @@
                     "image": "files\/course-banners\/bisc003.png",
                     "imageAlt": "Plants in beakers. Photo by: chuttersnap - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits:": "3"
+                    "credits:": "3",
+                    "name": "Environmental Science"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2490,7 +2532,8 @@
                     "image": "files\/course-banners\/bisc004.png",
                     "imageAlt": "Human anatomy figure below white wooden ceiling. Photo by: Nhia Moua - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Human Body: Form & Function"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2512,7 +2555,8 @@
                     "image": "files\/course-banners\/biol11.png",
                     "imageAlt": "Bird in flight. Photo by: W R - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Introductory Biology I"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2534,7 +2578,8 @@
                     "image": "files\/course-banners\/biol110.png",
                     "imageAlt": "This course is a study of the evolution of the major groups of organisms including the fundamental concepts of biology. The goal of this course is to introduce you to fundamental concepts that are common to all organisms and to explore the biological diversity of life on Earth. Biology 110 is intended for students who need a majors-level introductory biology course and is not the best option for students who are looking for a general education course in science.",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Basic Concepts and Biodiversity"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2556,7 +2601,8 @@
                     "image": "files\/course-banners\/biol120n.png",
                     "imageAlt": "People sitting on mountain side.  Photo by: Muhammed Fayiz - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Plants, Places, and People"
                 },
                 "created": 1541517755,
                 "updated": 1571699352,
@@ -2577,16 +2623,17 @@
             "id": "biol125nsyllabi",
             "indent": 0,
             "location": "pages\/syllabi\/biol125n\/index.html",
-            "order": 12,
+            "order": 13,
             "parent": "syllabi",
             "title": "Biol 125N",
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/biol125n.png",
-                    "imageAlt": "",
+                    "image": "files\/course-banners\/biol125n.jpg",
+                    "imageAlt": "On top of the world, Manhattan, New York City - from space.  Photo by: NASA - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Society and Disease Management"
                 },
                 "created": 1541517755,
                 "updated": 1571689289,
@@ -2607,16 +2654,17 @@
             "id": "biol127syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/biol127\/index.html",
-            "order": 12,
+            "order": 14,
             "parent": "syllabi",
             "title": "Biol 127",
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/biol127.png",
-                    "imageAlt": "",
+                    "image": "files\/course-banners\/biol127.jpg",
+                    "imageAlt": "Worker bee and a sunflower.  Photo by: Dixit Motiwala - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Introductory Plant Biology"
                 },
                 "created": 1541517755,
                 "updated": 1571689289,
@@ -2637,7 +2685,7 @@
             "id": "biol133syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/biol133\/index.html",
-            "order": 13,
+            "order": 15,
             "parent": "syllabi",
             "title": "Biol 133",
             "description": "",
@@ -2646,7 +2694,8 @@
                     "image": "files\/course-banners\/biol133.png",
                     "imageAlt": "Silhouette photo of group people standing on grass.  Photo by: Johannes Plenio - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Genetics and Evolution of the Human Species"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2659,7 +2708,7 @@
             "id": "biol141syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/biol141\/index.html",
-            "order": 14,
+            "order": 16,
             "parent": "syllabi",
             "title": "Biol 141",
             "description": "",
@@ -2668,7 +2717,8 @@
                     "image": "files\/course-banners\/biol141.png",
                     "imageAlt": "Transparent skull model. Photo by: Jesse Orrico - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Introduction to Physiology"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2681,7 +2731,7 @@
             "id": "biol155syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/biol155\/index.html",
-            "order": 15,
+            "order": 17,
             "parent": "syllabi",
             "title": "Biol 155",
             "description": "",
@@ -2690,7 +2740,8 @@
                     "image": "files\/course-banners\/biol155.png",
                     "imageAlt": "A pile of wooden clocks of various sizes.  Photo by: Jon Tyson - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "An Introduction to the Biology of Aging"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2703,7 +2754,7 @@
             "id": "biol177syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/biol177\/index.html",
-            "order": 16,
+            "order": 18,
             "parent": "syllabi",
             "title": "Biol 177",
             "description": "",
@@ -2712,7 +2763,8 @@
                     "image": "files\/course-banners\/biol177.png",
                     "imageAlt": "Two people under a pink and white comforter.  Photo by: Hop Design - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Biology of Sex"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2725,7 +2777,7 @@
             "id": "bmmb551syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/bmmb551\/index.html",
-            "order": 17,
+            "order": 19,
             "parent": "syllabi",
             "title": "Bmmb 551",
             "description": "",
@@ -2734,7 +2786,8 @@
                     "image": "files\/course-banners\/bmmb551.png",
                     "imageAlt": "DNA strands on a blue background.  Photo by: Gerd Altmann - Pixabay",
                     "program": "Graduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Genomics"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2747,7 +2800,7 @@
             "id": "bmmb852syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/bmmb852\/index.html",
-            "order": 18,
+            "order": 20,
             "parent": "syllabi",
             "title": "Bmmb 852",
             "description": "",
@@ -2756,7 +2809,8 @@
                     "image": "files\/course-banners\/bmmb852.png",
                     "imageAlt": "Doctor on a computer looking at data.  Photo by: Campaign Creators - Unsplash.com",
                     "program": "Graduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Applied Bioinformatics"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2769,7 +2823,7 @@
             "id": "chem005syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/chem005\/index.html",
-            "order": 19,
+            "order": 21,
             "parent": "syllabi",
             "title": "Chem 005",
             "description": "",
@@ -2778,7 +2832,8 @@
                     "image": "files\/course-banners\/chem005.png",
                     "imageAlt": "Kitchen utensils on display.  Photo by: Caroline Attwood - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Kitchen Chemistry"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2791,7 +2846,7 @@
             "id": "chem101syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/chem101\/index.html",
-            "order": 20,
+            "order": 22,
             "parent": "syllabi",
             "title": "Chem 101",
             "description": "",
@@ -2800,7 +2855,8 @@
                     "image": "files\/course-banners\/chem101.png",
                     "imageAlt": "Three clear beakers placed on tabletop.  Photo by: Hans Reniers - Unsplash.co",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Introductory Chemistry"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2813,7 +2869,7 @@
             "id": "chem110syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/chem110\/index.html",
-            "order": 21,
+            "order": 23,
             "parent": "syllabi",
             "title": "Chem 110",
             "description": "",
@@ -2822,7 +2878,8 @@
                     "image": "files\/course-banners\/chem110.png",
                     "imageAlt": "Periodic Table 2 by Princess Rashid",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Chemical Principles"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2835,7 +2892,7 @@
             "id": "chem111syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/chem111\/index.html",
-            "order": 22,
+            "order": 24,
             "parent": "syllabi",
             "title": "Chem 111",
             "description": "",
@@ -2844,7 +2901,31 @@
                     "image": "files\/course-banners\/chem111.png",
                     "imageAlt": "Person holding laboratory flasks.  Photo by: Alex Kondratiev - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Experimental Chemistry"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:chem111"
+            }
+        },
+        {
+            "id": "chem130syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/chem130\/index.html",
+            "order": 25,
+            "parent": "syllabi",
+            "title": "Chem 130",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/chem130.jpg",
+                    "imageAlt": "Work up of a reaction sketched on fume hood sash glass.  Photo by: Chromatograph - Unsplash.com",
+                    "program": "Undergraduate",
+                    "credits": "3",
+                    "name": "Introduction to General, Organic, and Biochemistry"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2857,7 +2938,7 @@
             "id": "chem202syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/chem202\/index.html",
-            "order": 23,
+            "order": 26,
             "parent": "syllabi",
             "title": "Chem 202",
             "description": "",
@@ -2866,7 +2947,8 @@
                     "image": "files\/course-banners\/chem202.png",
                     "imageAlt": "A table with various text tubes in a holding rack.  Photo by: bdyczewski - Pixabay.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Fundamentals of Organic Chemistry"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2879,7 +2961,7 @@
             "id": "chem810syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/chem810\/index.html",
-            "order": 24,
+            "order": 27,
             "parent": "syllabi",
             "title": "Chem 810",
             "description": "",
@@ -2888,7 +2970,8 @@
                     "image": "files\/course-banners\/chem810.png",
                     "imageAlt": "Liquid Chromatography tools in a lab setting.  Photo: Restek Corporation",
                     "program": "Graduate",
-                    "credits": "1"
+                    "credits": "1",
+                    "name": "Liquid Chromatography"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2901,7 +2984,7 @@
             "id": "chem811syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/chem811\/index.html",
-            "order": 25,
+            "order": 28,
             "parent": "syllabi",
             "title": "Chem 811",
             "description": "",
@@ -2910,7 +2993,8 @@
                     "image": "files\/course-banners\/chem810.png",
                     "imageAlt": "Liquid Chromatography tools in a lab setting.  Photo: Restek Corporation",
                     "program": "Graduate",
-                    "credits": "1"
+                    "credits": "1",
+                    "name": "Liquid Chromatography II"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2923,7 +3007,7 @@
             "id": "chem812syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/chem812\/index.html",
-            "order": 26,
+            "order": 29,
             "parent": "syllabi",
             "title": "Chem 812",
             "description": "",
@@ -2932,7 +3016,8 @@
                     "image": "files\/course-banners\/chem810.png",
                     "imageAlt": "Liquid Chromatography tools in a lab setting.  Photo: Restek Corporation",
                     "program": "Graduate",
-                    "credits": "1"
+                    "credits": "1",
+                    "name": "Liquid Chromatography III"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2945,7 +3030,7 @@
             "id": "frnsc100syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/frnsc100\/index.html",
-            "order": 27,
+            "order": 30,
             "parent": "syllabi",
             "title": "Frnsc 100",
             "description": "",
@@ -2954,7 +3039,8 @@
                     "image": "files\/course-banners\/frnsc100.png",
                     "imageAlt": "A finger print. Photo by: Stux - Pixabay.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Introduction to Forensic Science"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2967,7 +3053,7 @@
             "id": "frnsc200syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/frnsc200\/index.html",
-            "order": 28,
+            "order": 31,
             "parent": "syllabi",
             "title": "Frnsc 200",
             "description": "",
@@ -2976,7 +3062,8 @@
                     "image": "files\/course-banners\/frnsc200.png",
                     "imageAlt": "Police crime scene. Photo by: Alexas Fotos - Pixabay.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Introduction to Crime Scene Investigation"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2989,7 +3076,7 @@
             "id": "frnsc210syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/frnsc210\/index.html",
-            "order": 29,
+            "order": 32,
             "parent": "syllabi",
             "title": "Frnsc 210",
             "description": "",
@@ -2998,7 +3085,8 @@
                     "image": "files\/course-banners\/frnsc210.png",
                     "imageAlt": "Photo of a face focused on the eye faded into dark background. Photo by: Geralt - Pixabay.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Essential Practices of Forensic Science"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3011,7 +3099,7 @@
             "id": "math004syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/math004\/index.html",
-            "order": 30,
+            "order": 33,
             "parent": "syllabi",
             "title": "Math 004",
             "description": "",
@@ -3020,7 +3108,8 @@
                     "image": "files\/course-banners\/math004.png",
                     "imageAlt": "Pen, ruler, and calculator resting on graph paper. Photo by: Robert-Owen-Wahl - Pixabay.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Intermediate Algebra"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3033,7 +3122,7 @@
             "id": "math017syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/math017\/index.html",
-            "order": 31,
+            "order": 34,
             "parent": "syllabi",
             "title": "Math 017",
             "description": "",
@@ -3042,7 +3131,8 @@
                     "image": "files\/course-banners\/math017.png",
                     "imageAlt": "Dice laying on a table in order from 1 to 6. Photo by: Mar_D - Pixabay.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Finite Mathematics"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3055,7 +3145,7 @@
             "id": "math021syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/math021\/index.html",
-            "order": 32,
+            "order": 35,
             "parent": "syllabi",
             "title": "Math 021",
             "description": "",
@@ -3064,7 +3154,8 @@
                     "image": "files\/course-banners\/math021.png",
                     "imageAlt": "System of Equations. Photo by: Antoine Dautry - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "College Algebra I"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3077,7 +3168,7 @@
             "id": "math022syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/math022\/index.html",
-            "order": 33,
+            "order": 36,
             "parent": "syllabi",
             "title": "Math 022",
             "description": "",
@@ -3086,7 +3177,8 @@
                     "image": "files\/course-banners\/math022.png",
                     "imageAlt": "Calculator laying on math work-book. Photo by: Free-Photos - Pixabay.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "College Algebra II and Analytic Geometry"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3099,7 +3191,7 @@
             "id": "math026syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/math026\/index.html",
-            "order": 34,
+            "order": 37,
             "parent": "syllabi",
             "title": "Math 026",
             "description": "",
@@ -3108,7 +3200,8 @@
                     "image": "files\/course-banners\/math026.png",
                     "imageAlt": "A staircase in triangular patterns. Photo by:  Viswanath V Pai - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Plane Trigonometry"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3121,7 +3214,7 @@
             "id": "math034syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/math034\/index.html",
-            "order": 35,
+            "order": 38,
             "parent": "syllabi",
             "title": "Math 034",
             "description": "",
@@ -3130,7 +3223,8 @@
                     "image": "files\/course-banners\/math034.png",
                     "imageAlt": "New York Times paper with investment quotes. Photo by: Markus Spiske - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "The Mathematics of Money"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3143,7 +3237,7 @@
             "id": "math036syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/math036\/index.html",
-            "order": 36,
+            "order": 39,
             "parent": "syllabi",
             "title": "Math 036",
             "description": "this is the math036 syllabus.",
@@ -3152,7 +3246,8 @@
                     "image": "files\/course-banners\/math036.png",
                     "imageAlt": "Light bulbs hanging from the ceiling. Photo by: Sara Kurfe\u00df - Unsplash.com",
                     "program": "Undergraduate",
-                    "credit": "3"
+                    "credit": "3",
+                    "name": "Insights into Mathematics"
                 },
                 "created": 1541517755,
                 "updated": 1571699210,
@@ -3175,7 +3270,7 @@
             "id": "math110syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/math110\/index.html",
-            "order": 37,
+            "order": 40,
             "parent": "syllabi",
             "title": "Math 110",
             "description": "",
@@ -3184,7 +3279,31 @@
                     "image": "files\/course-banners\/math110.png",
                     "imageAlt": "Math study book. Photo by: Joshua_seajw92 - Pixabay.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Techniques of Calculus I"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "syllabi",
+                "template": "syllabi",
+                "icon": "courseicons:math110"
+            }
+        },
+        {
+            "id": "math140syllabi",
+            "indent": 0,
+            "location": "pages\/syllabi\/math140\/index.html",
+            "order": 41,
+            "parent": "syllabi",
+            "title": "Math 140",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/math140.png",
+                    "imageAlt": "",
+                    "program": "Undergraduate",
+                    "credits": "3",
+                    "name": "Calculus With Analytic Geometry I"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3197,7 +3316,7 @@
             "id": "math141syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/math141\/index.html",
-            "order": 39,
+            "order": 42,
             "parent": "syllabi",
             "title": "Math 141",
             "description": "",
@@ -3206,7 +3325,8 @@
                     "image": "files\/course-banners\/math141.png",
                     "imageAlt": "View looking down a spiral staircase. Photo by: Maxime Lebrun - Unsplash.com ",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Calculus with Analytic Geometry II"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3219,7 +3339,7 @@
             "id": "math220syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/math220\/index.html",
-            "order": 40,
+            "order": 43,
             "parent": "syllabi",
             "title": "Math 220",
             "description": "",
@@ -3228,7 +3348,8 @@
                     "image": "files\/course-banners\/math220.png",
                     "imageAlt": "Equations written on a chalkboard. Photo by: Athree23 - Pixabay.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Matrices"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3241,7 +3362,7 @@
             "id": "math250syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/math250\/index.html",
-            "order": 41,
+            "order": 44,
             "parent": "syllabi",
             "title": "Math 250",
             "description": "",
@@ -3250,7 +3371,8 @@
                     "image": "files\/course-banners\/math250.png",
                     "imageAlt": "Equations written on a white board. Photo by: Lucas Rosas - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Ordinary Differential Equations"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3263,7 +3385,7 @@
             "id": "math436syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/math436\/index.html",
-            "order": 42,
+            "order": 45,
             "parent": "syllabi",
             "title": "Math 436",
             "description": "",
@@ -3272,7 +3394,8 @@
                     "image": "files\/course-banners\/math436.png",
                     "imageAlt": "Looking up at a glass building. Photo by: Joel Filipe - Unsplash.com",
                     "program": "Graduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Linear Algebra"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3285,7 +3408,7 @@
             "id": "micrb106syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/micrb106\/index.html",
-            "order": 43,
+            "order": 46,
             "parent": "syllabi",
             "title": "Micrb 106",
             "description": "",
@@ -3294,7 +3417,8 @@
                     "image": "files\/course-banners\/micrb106.png",
                     "imageAlt": "Person holding a petri dish. Photo by: Drew Hays - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Elementary Microbiology"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3307,7 +3431,7 @@
             "id": "micrb107syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/micrb107\/index.html",
-            "order": 44,
+            "order": 47,
             "parent": "syllabi",
             "title": "Micrb 107",
             "description": "",
@@ -3316,7 +3440,8 @@
                     "image": "files\/course-banners\/micrb107.png",
                     "imageAlt": "Refilling liquid in test tubes. Photo by: Louis Reed - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Elementary Microbiology Laboratory"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3329,7 +3454,7 @@
             "id": "phys010syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/phys010\/index.html",
-            "order": 45,
+            "order": 48,
             "parent": "syllabi",
             "title": "Phys 010",
             "description": "",
@@ -3338,7 +3463,8 @@
                     "image": "files\/course-banners\/phys010.png",
                     "imageAlt": "Abstract Rocket Launch",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "Physics Behind the Headlines"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3351,7 +3477,7 @@
             "id": "phys211syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/phys211\/index.html",
-            "order": 46,
+            "order": 49,
             "parent": "syllabi",
             "title": "Phys 211",
             "description": "",
@@ -3360,7 +3486,8 @@
                     "image": "files\/course-banners\/phys211.png",
                     "imageAlt": "Farris Wheel in motion at night by Engin Akyurt",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "General Physics: Mechanics"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3373,16 +3500,17 @@
             "id": "phys212syllabi",
             "indent": 0,
             "location": "pages\/syllabi\/phys212\/index.html",
-            "order": 46,
+            "order": 50,
             "parent": "syllabi",
             "title": "Phys 212",
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/phys211.png",
-                    "imageAlt": "",
+                    "image": "files\/course-banners\/phys212.jpg",
+                    "imageAlt": "Lightning In The Fields.  Photo by: NOAA - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3"
+                    "credits": "3",
+                    "name": "General Physics: Electricity & Magnetism"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,

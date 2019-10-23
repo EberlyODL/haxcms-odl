@@ -26,6 +26,12 @@ class InfoBox extends PolymerElement {
           @apply --haxtheme-info-box-box-wrap;
         }
 
+        @media screen and (min-width: 1550px) {
+          #box_wrap {
+           margin-top: 150px;
+          }
+        }
+
         #inner_wrap {
           border-left: var(--haxtheme-info-box-inner-wrap-border-left);
           border-left-width: var(

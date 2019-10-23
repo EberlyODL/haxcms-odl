@@ -3,13 +3,14 @@ import "@lrnwebcomponents/haxcms-elements/lib/ui-components/query/site-query.js"
 import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js";
 import { varExists, varGet } from "@lrnwebcomponents/hax-body/lib/haxutils.js";
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
+import "@lrnwebcomponents/simple-picker/simple-picker.js"
 class ContentListing extends PolymerElement {
   static get template() {
     return html`
       <style>
         :host {
           display: block;
-        }
+          }
 
         a {
           text-decoration: var(--haxtheme-page-feature-a-text-decoration);
@@ -158,11 +159,30 @@ class ContentListing extends PolymerElement {
         #results {
           border: solid 2px rgb(220, 220, 220);
           height: 200px;
+          margin: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+          #results {
+            margin: 0;
+          }
         }
 
         simple-picker {
-          width: 45%;
+          width: 75%;
+          --simple-picker-row: {
+            display: block;
+          }
         }
+      /* 
+        :host .row {
+          display: flex; 
+          align-items: stretch;
+          justify-content: space-between;
+          @apply --simple-picker-row;
+        } 
+      */
+      
       </style>
       <div id="feature_wrap">
         <div id="border">

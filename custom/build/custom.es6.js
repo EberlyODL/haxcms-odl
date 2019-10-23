@@ -9,6 +9,7 @@ import '../../build/es6/node_modules/@polymer/iron-pages/iron-pages.js';
 import '../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/query/site-query.js';
 import '../../build/es6/node_modules/@polymer/polymer/lib/elements/dom-repeat.js';
 import { LitElement, css, html as html$1 } from '../../build/es6/node_modules/lit-element/lit-element.js';
+import '../../build/es6/node_modules/@lrnwebcomponents/simple-picker/simple-picker.js';
 import '../../build/es6/node_modules/@polymer/iron-icon/iron-icon.js';
 import '../../build/es6/node_modules/@polymer/iron-iconset-svg/iron-iconset-svg.js';
 import '../../build/es6/node_modules/@polymer/polymer/lib/elements/dom-if.js';
@@ -258,6 +259,12 @@ class InfoBox extends PolymerElement {
           );
           align-items: var(--haxtheme-info-box-box-wrap-align-items, center);
           @apply --haxtheme-info-box-box-wrap;
+        }
+
+        @media screen and (min-width: 1550px) {
+          #box_wrap {
+           margin-top: 150px;
+          }
         }
 
         #inner_wrap {
@@ -1028,7 +1035,7 @@ class PageFeature extends PolymerElement {
         #sub_info {
           font-size: var(--haxtheme-page-feature-sub-info-font-size, 20px);
           font-weight: var(--haxtheme-page-feature-sub-info-font-weight);
-          margin: var(--haxtheme-page-feature-sub-info-margin, -12px 0 0 0);
+          margin: var(--haxtheme-page-feature-sub-info-margin, -8px 0 0 0);
           @apply --haxtheme-page-feature-sub-info;
         }
 
@@ -1158,7 +1165,7 @@ class ContentListing extends PolymerElement {
       <style>
         :host {
           display: block;
-        }
+          }
 
         a {
           text-decoration: var(--haxtheme-page-feature-a-text-decoration);
@@ -1307,11 +1314,30 @@ class ContentListing extends PolymerElement {
         #results {
           border: solid 2px rgb(220, 220, 220);
           height: 200px;
+          margin: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+          #results {
+            margin: 0;
+          }
         }
 
         simple-picker {
-          width: 45%;
+          width: 75%;
+          --simple-picker-row: {
+            display: block;
+          }
         }
+      /* 
+        :host .row {
+          display: flex; 
+          align-items: stretch;
+          justify-content: space-between;
+          @apply --simple-picker-row;
+        } 
+      */
+      
       </style>
       <div id="feature_wrap">
         <div id="border">
@@ -1654,8 +1680,8 @@ class HaxThemeHome extends PolymerElement {
       <div id="courses">
         <content-listing
           title="Courses"
-          image="https://picsum.photos/300/300"
-          alt="My alt text"
+          image="files/feature-images/course-select.jpg"
+          alt="Student with a question raising hand in class surrounded by other students."
           condition='{"metadata.type": "course"}'
           location="metadata.fields.subject"
         ></content-listing>
@@ -2598,6 +2624,10 @@ class TeamCard extends PolymerElement {
             --haxtheme-team-card-name-border-bottom-color
           );
           @apply --haxtheme-team-card-name;
+        }
+
+        #position {
+          text-align: center;
         }
       </style>
       <div id="card_wrap">
@@ -4729,7 +4759,7 @@ class HaxThemeSyllabus extends PolymerElement {
             <h1>[[activeItem.title]]</h1>
           </div>
           <div id="syllabus_subtitle">
-            <h2>[[__course.metadata.fields.name]]</h2>
+            <h2>[[activeItem.metadata.fields.name]]</h2>
           </div>
           <div id="syllabus_sample">
             <h3>Sample Syllabus</h3>
@@ -4866,11 +4896,7 @@ class HaxThemeSyllabus extends PolymerElement {
   static get tag() {
     return "haxtheme-syllabus";
   }
-  static get properties() {
-    return {
-      __course: { type: Object, value: {}, observer: '__courseChanged'}
-    }
-  }
+
   constructor() {
     super();
     import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-breadcrumb.js');
@@ -4883,11 +4909,6 @@ class HaxThemeSyllabus extends PolymerElement {
     });
     autorun(reaction => {
       this.activeItem = toJS(store.activeItem);
-      if (store.activeItem) {
-        // get the course
-        const manifest = toJS(store.manifest);
-        this.__course = manifest.items.find(item => item.id === this.activeItem.metadata.fields.course);
-      }
       this.__disposer.push(reaction);
     });
   }

@@ -251,7 +251,7 @@ class PageFeature extends PolymerElement {
         #sub_info {
           font-size: var(--haxtheme-page-feature-sub-info-font-size, 20px);
           font-weight: var(--haxtheme-page-feature-sub-info-font-weight);
-          margin: var(--haxtheme-page-feature-sub-info-margin, -12px 0 0 0);
+          margin: var(--haxtheme-page-feature-sub-info-margin, -8px 0 0 0);
           @apply --haxtheme-page-feature-sub-info;
         }
 

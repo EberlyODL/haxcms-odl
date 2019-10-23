@@ -99,6 +99,10 @@ class TeamCard extends PolymerElement {
           );
           @apply --haxtheme-team-card-name;
         }
+
+        #position {
+          text-align: center;
+        }
       </style>
       <div id="card_wrap">
         <div
