@@ -5030,6 +5030,85 @@ class HaxThemeSyllabus extends PolymerElement {
 }
 window.customElements.define(HaxThemeSyllabus.tag, HaxThemeSyllabus);
 
+class HaxThemeContact extends PolymerElement {
+  static get template() {
+    return html`
+      <style>
+        :host {
+          display: block;
+        }
+        /**
+       * Hide the slotted content during edit mode. This must be here to work.
+       */
+        :host([edit-mode]) #slot {
+          display: none;
+        }
+
+        h1 {
+          font-size: 36px;
+          font-weight: 400;
+        }
+        #content-wrap {
+          width: 80%;
+          margin: 0 auto 0 auto;
+        }
+
+        #contentcontainer {
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 1.4;
+        }
+
+        #about_header {
+          border-left: solid;
+          border-left-width: 4px;
+          border-left-color:  #e2801e;
+          padding-left: 15px;
+        }
+      </style>
+      <page-banner
+        image="files/theme-images/page-banners/news_banner.jpg"
+        text="Contact"
+        alt="Gateway to the Sciences"
+      ></page-banner>
+      <div id="content-wrap">
+        <div id="about_header">
+          <div id="title">
+            <h1>Contact</h1>
+          </div>
+        </div>
+        <!-- <div id="contentcontainer">
+          <div id="slot">
+            <slot></slot>
+          </div>
+        </div> -->
+      </div>
+    `;
+  }
+  static get tag() {
+    return "haxtheme-contact";
+  }
+  connectedCallback() {
+    super.connectedCallback();
+    this.__disposer = [];
+    autorun(reaction => {
+      this.manifest = toJS(store.routerManifest);
+      this.__disposer.push(reaction);
+    });
+    autorun(reaction => {
+      this.activeItem = toJS(store.activeItem);
+      this.__disposer.push(reaction);
+    });
+  }
+  disconnectedCallback() {
+    for (var i in this.__disposer) {
+      this.__disposer[i].dispose();
+    }
+    super.disconnectedCallback();
+  }
+}
+window.customElements.define(HaxThemeContact.tag, HaxThemeContact);
+
 class LinkPreview extends LitElement {
   static get styles() {
     return [
@@ -5821,6 +5900,7 @@ site-top-menu {
     <haxtheme-team id="team" edit-mode$="[[editMode]]"></haxtheme-team>
     <haxtheme-courses id="courses" edit-mode$="[[editMode]]"></haxtheme-courses>
     <haxtheme-about id="about" edit-mode$="[[editMode]]"></haxtheme-about>
+    <haxtheme-contact id="contact" edit-mode$="[[editMode]]"></haxtheme-contact>
     <haxtheme-blog id="blog" edit-mode$="[[editMode]]"></haxtheme-blog>
     <haxtheme-profile id="profile" edit-mode$="[[editMode]]"></haxtheme-profile>
     <haxtheme-course id="course" edit-mode$="[[editMode]]"></haxtheme-course>
@@ -5938,6 +6018,7 @@ site-top-menu {
         case "team":
         case "courses":
         case "about":
+    
           target = location.route.name;
           break;
         default:
@@ -5988,21 +6069,25 @@ site-top-menu {
           this.selectedPage = 4;
           target = location.route.name;
           break;
+        case "contact":
+          this.selectedPage = 5;
+          target = location.route.name;
+          break;
         default:
           if (location.route.path.startsWith("blog-posts/")) {
-            this.selectedPage = 5;
+            this.selectedPage = 6;
             target = "blog";
           } else if (location.route.path.startsWith("team-directory/")) {
-            this.selectedPage = 6;
+            this.selectedPage = 7;
             target = "profile";
           } else if (location.route.path.startsWith("courses/")) {
-            this.selectedPage = 7;
+            this.selectedPage = 8;
             target = "course";
           } else if (location.route.path.startsWith("syllabi/")) {
-            this.selectedPage = 8;
+            this.selectedPage = 9;
             target = "syllabus";
           } else if (location.route.path.startsWith("about/")) {
-            this.selectedPage = 9;
+            this.selectedPage = 10;
             target = "about";
           }
           break;

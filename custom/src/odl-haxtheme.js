@@ -19,6 +19,7 @@ import "./lib/haxtheme-course.js";
 import "./lib/haxtheme-blog.js";
 import "./lib/haxtheme-profile.js";
 import "./lib/haxtheme-syllabus.js";
+import "./lib/haxtheme-contact";
 import "./lib/link-preview.js";
 import "./lib/page-topbar.js";
 import "./lib/page-footer.js";
@@ -157,6 +158,7 @@ site-top-menu {
     <haxtheme-team id="team" edit-mode$="[[editMode]]"></haxtheme-team>
     <haxtheme-courses id="courses" edit-mode$="[[editMode]]"></haxtheme-courses>
     <haxtheme-about id="about" edit-mode$="[[editMode]]"></haxtheme-about>
+    <haxtheme-contact id="contact" edit-mode$="[[editMode]]"></haxtheme-contact>
     <haxtheme-blog id="blog" edit-mode$="[[editMode]]"></haxtheme-blog>
     <haxtheme-profile id="profile" edit-mode$="[[editMode]]"></haxtheme-profile>
     <haxtheme-course id="course" edit-mode$="[[editMode]]"></haxtheme-course>
@@ -274,6 +276,7 @@ site-top-menu {
         case "team":
         case "courses":
         case "about":
+    
           target = location.route.name;
           break;
         default:
@@ -324,21 +327,25 @@ site-top-menu {
           this.selectedPage = 4;
           target = location.route.name;
           break;
+        case "contact":
+          this.selectedPage = 5;
+          target = location.route.name;
+          break;
         default:
           if (location.route.path.startsWith("blog-posts/")) {
-            this.selectedPage = 5;
+            this.selectedPage = 6;
             target = "blog";
           } else if (location.route.path.startsWith("team-directory/")) {
-            this.selectedPage = 6;
+            this.selectedPage = 7;
             target = "profile";
           } else if (location.route.path.startsWith("courses/")) {
-            this.selectedPage = 7;
+            this.selectedPage = 8;
             target = "course";
           } else if (location.route.path.startsWith("syllabi/")) {
-            this.selectedPage = 8;
+            this.selectedPage = 9;
             target = "syllabus";
           } else if (location.route.path.startsWith("about/")) {
-            this.selectedPage = 9;
+            this.selectedPage = 10;
             target = "about";
           }
           break;
