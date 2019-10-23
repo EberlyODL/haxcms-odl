@@ -5810,7 +5810,7 @@ site-top-menu {
   conditions='{
     "parent": null,
     "location": {
-      "value": "syllabi",
+      "value": ["syllabi", "spotlight"],
       "operator": "!="
     }
   }'>
