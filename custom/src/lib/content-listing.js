@@ -4,6 +4,7 @@ import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-st
 import { varExists, varGet } from "@lrnwebcomponents/hax-body/lib/haxutils.js";
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
 import "@lrnwebcomponents/simple-picker/simple-picker.js"
+import "./course-tile.js";
 class ContentListing extends PolymerElement {
   static get template() {
     return html`
@@ -157,8 +158,10 @@ class ContentListing extends PolymerElement {
         }
 
         #results {
-          border: solid 2px rgb(220, 220, 220);
-          height: 200px;
+          display: flex;
+          flex-wrap: wrap;
+          border: solid 2px #dcdcdc;
+          height: auto;
           margin: 20px;
         }
 
@@ -169,20 +172,22 @@ class ContentListing extends PolymerElement {
         }
 
         simple-picker {
-          width: 75%;
+          width: 55%;
           --simple-picker-row: {
             display: block;
           }
         }
-      /* 
-        :host .row {
-          display: flex; 
-          align-items: stretch;
-          justify-content: space-between;
-          @apply --simple-picker-row;
-        } 
-      */
-      
+
+        @media screen and (max-width: 768px) {
+          simple-picker {
+            width: 100%;
+          }
+        }
+
+        course-tile {
+          margin: 1px;
+          flex-grow: 1;
+        }
       </style>
       <div id="feature_wrap">
         <div id="border">
@@ -215,7 +220,15 @@ class ContentListing extends PolymerElement {
 
               
               <div id="results">
-                [[__selectedCourse]]
+              <dom-repeat items="[[__selectedCourses(__selectedCourse, __courseitems)]]">
+                <template>
+                  <course-tile
+                    name="[[item.title]]"
+                    image="[[item.metadata.fields.image]]"
+                    url="[[item.location]]"
+                  ></course-tile>
+                </template>
+              </dom-repeat>
               </div>
             </div>
           </div>
@@ -258,7 +271,6 @@ class ContentListing extends PolymerElement {
       location: {
         type: String
       },
-
     };
   }
 
@@ -303,6 +315,19 @@ class ContentListing extends PolymerElement {
     const filtered = this.__filteredCourselist(items);
     const subjects = filtered.map(item => varGet(item, this.location, false));
     return subjects;
+  }
+
+  __selectedCourses(selected, courses) {
+    const filtered = courses.filter(course => {
+      if (course.metadata.fields.subject === selected) {
+        return true;
+      }
+      else {
+        return false;
+      }
+    });
+      
+      return filtered;  
   }
   
 
