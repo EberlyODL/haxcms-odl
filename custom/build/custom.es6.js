@@ -5030,6 +5030,106 @@ class HaxThemeSyllabus extends PolymerElement {
 }
 window.customElements.define(HaxThemeSyllabus.tag, HaxThemeSyllabus);
 
+class ContactForm extends PolymerElement {
+  static get template() {
+    return html`
+      <style>
+        :host {
+          display: block;
+        }
+
+        #contact-form input[type="text"],
+        #contact-form input[type="email"],
+        #contact-form textarea {
+            width: 100%;
+            box-shadow: inset 0 1px 2px #ddd, 0 1px 0 #fff;
+            border: 1px solid #ccc;
+            background: #fff;
+            margin: 0 0 5px;
+            padding: 10px;
+          }
+          #contact-form button[type="submit"] {
+            cursor: pointer;
+            width: 100%;
+            border: none;
+            background: #e2801e;
+            color: #fff;
+            margin: 0 0 5px;
+            padding: 10px;
+            height: 50px;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+      </style>
+      <!-- action property needs a destination url -->
+      <form id="contact-form" action="/" method="post">
+        <div>
+          <label>
+            <span>Name:</span>
+            <input
+              placeholder="Full name"
+              type="text"
+              tabindex="1"
+              required
+              autofocus
+            />
+          </label>
+        </div>
+        <div>
+          <label>
+            <span>Email:</span>
+            <input
+              placeholder="name@example.com"
+              type="email"
+              tabindex="2"
+              required
+            />
+          </label>
+        </div>
+        <div>
+          <label>
+            <span>Message:</span>
+            <textarea
+              placeholder="Comments"
+              tabindex="3"
+              required
+              rows="5" 
+              cols="40"
+            ></textarea>
+          </label>
+        </div>
+          <button name="submit" type="submit" id="contact-submit">
+            Submit
+          </button>
+        </div>
+      </form>
+    `;
+  }
+  static get tag() {
+    return "contact-form";
+  }
+  connectedCallback() {
+    super.connectedCallback();
+    this.__disposer = [];
+    autorun(reaction => {
+      this.manifest = toJS(store.routerManifest);
+      this.__disposer.push(reaction);
+    });
+    autorun(reaction => {
+      this.activeItem = toJS(store.activeItem);
+      this.__disposer.push(reaction);
+    });
+  }
+  disconnectedCallback() {
+    for (var i in this.__disposer) {
+      this.__disposer[i].dispose();
+    }
+    super.disconnectedCallback();
+  }
+}
+
+window.customElements.define(ContactForm.tag, ContactForm);
+
 class HaxThemeContact extends PolymerElement {
   static get template() {
     return html`
@@ -5062,8 +5162,18 @@ class HaxThemeContact extends PolymerElement {
         #about_header {
           border-left: solid;
           border-left-width: 4px;
-          border-left-color:  #e2801e;
+          border-left-color: #e2801e;
           padding-left: 15px;
+        }
+
+        #contact-info {
+          display: flex;
+          justify-content: space-between;
+          margin: 0 0 25px 0;
+        }
+
+        contact-form {
+          width: 50%;
         }
       </style>
       <page-banner
@@ -5077,11 +5187,17 @@ class HaxThemeContact extends PolymerElement {
             <h1>Contact</h1>
           </div>
         </div>
-        <!-- <div id="contentcontainer">
-          <div id="slot">
-            <slot></slot>
-          </div>
-        </div> -->
+        <div id="contact-info">
+          <contact-form></contact-form>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.2838768296356!2d-77.86327558409836!3d40.799755272459215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89cea62073a7b393%3A0x704b7ea310a54bc1!2sRitenour%2C%20State%20College%2C%20PA%2016801!5e0!3m2!1sen!2sus!4v1571944254759!5m2!1sen!2sus"
+            width="500"
+            height="auto"
+            frameborder="0"
+            style="border:0;"
+            allowfullscreen=""
+          ></iframe>
+        </div>
       </div>
     `;
   }
@@ -6018,7 +6134,6 @@ site-top-menu {
         case "team":
         case "courses":
         case "about":
-    
           target = location.route.name;
           break;
         default:

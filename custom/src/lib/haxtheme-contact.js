@@ -2,6 +2,7 @@ import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
 import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js";
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
 import "./page-banner.js";
+import "./contact-form.js";
 class HaxThemeContact extends PolymerElement {
   static get template() {
     return html`
@@ -34,8 +35,18 @@ class HaxThemeContact extends PolymerElement {
         #about_header {
           border-left: solid;
           border-left-width: 4px;
-          border-left-color:  #e2801e;
+          border-left-color: #e2801e;
           padding-left: 15px;
+        }
+
+        #contact-info {
+          display: flex;
+          justify-content: space-between;
+          margin: 0 0 25px 0;
+        }
+
+        contact-form {
+          width: 50%;
         }
       </style>
       <page-banner
@@ -49,11 +60,17 @@ class HaxThemeContact extends PolymerElement {
             <h1>Contact</h1>
           </div>
         </div>
-        <!-- <div id="contentcontainer">
-          <div id="slot">
-            <slot></slot>
-          </div>
-        </div> -->
+        <div id="contact-info">
+          <contact-form></contact-form>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.2838768296356!2d-77.86327558409836!3d40.799755272459215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89cea62073a7b393%3A0x704b7ea310a54bc1!2sRitenour%2C%20State%20College%2C%20PA%2016801!5e0!3m2!1sen!2sus!4v1571944254759!5m2!1sen!2sus"
+            width="500"
+            height="auto"
+            frameborder="0"
+            style="border:0;"
+            allowfullscreen=""
+          ></iframe>
+        </div>
       </div>
     `;
   }

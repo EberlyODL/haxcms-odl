@@ -276,7 +276,6 @@ site-top-menu {
         case "team":
         case "courses":
         case "about":
-    
           target = location.route.name;
           break;
         default:
