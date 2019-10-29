@@ -2,6 +2,7 @@ import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
 import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js";
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
 import "./page-banner.js";
+import "./worksheet-download";
 
 class HaxThemeSyllabus extends PolymerElement {
   static get template() {
@@ -44,6 +45,13 @@ class HaxThemeSyllabus extends PolymerElement {
           @apply --haxtheme-syllabus-h3;
         }
 
+        #contentcontainer {
+        font-size: var(--haxtheme-syllabus-contentcontainer-font-size);
+        font-weight: var(--haxtheme-syllabus-contentcontainer-font-weight);
+        line-height: var(--haxtheme-syllabus-contentcontainer-line-height);
+        @apply --haxtheme-syllabus-contentcontainer;
+      }
+      
         #syllabus_header {
           border-left: var(--haxtheme-syllabus-header-border-left);
           border-left-width: var(--haxtheme-syllabus-header-border-left-width);
@@ -108,6 +116,10 @@ class HaxThemeSyllabus extends PolymerElement {
 
         site-breadcrumb {
           margin: var(--haxtheme-syllabus-site-breadcrumb-margin);
+        }
+
+        worksheet-download {
+          margin: 0 0 25px 0;
         }
       </style>
       <page-banner
@@ -253,6 +265,7 @@ class HaxThemeSyllabus extends PolymerElement {
             </div>
           </div>
         </div>
+        <worksheet-download title="Download Sample" link="[[activeItem.metadata.fields.pdf]]"></worksheet-download>
       </div>
     `;
   }

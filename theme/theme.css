@@ -121,6 +121,9 @@
     --haxtheme-syllabus-syllabus-title-h1-font-weight: var(--odl-haxtheme-h1-font-weight);
     --haxtheme-syllabus-h2-font-weight: var(--odl-haxtheme-h2-font-weight);
     --haxtheme-syllabus-h2-font-size: var(--odl-haxtheme-h2-font-size);
+    --haxtheme-syllabus-contentcontainer-font-size: var(--odl-haxtheme-font-size);
+    --haxtheme-syllabus-contentcontainer-font-weight: var(--odl-haxtheme-font-weight);
+    --haxtheme-syllabus-contentcontainer-line-height: var(--odl-haxtheme-line-height);
     --haxtheme-syllabus-policy-h2-color: var(--odl-haxtheme-accent-color-1);
     --haxtheme-syllabus-policy-font-weight: var(--odl-haxtheme-font-weight);
     --haxtheme-syllabus-policy-font-size: var(--odl-haxtheme-font-size);

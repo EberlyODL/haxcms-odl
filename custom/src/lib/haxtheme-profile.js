@@ -229,7 +229,7 @@ class HaxThemeProfile extends PolymerElement {
         <div class="sidebar_wrap">
           <div id="news_archive">
             <site-recent-content-block
-              title="My Posts"
+              title="My Blog Posts"
               conditions="[[__recentPostsConditions(activeItem)]]"
               result="{{__items}}" 
               limit="5"

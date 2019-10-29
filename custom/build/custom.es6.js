@@ -13,6 +13,8 @@ import '../../build/es6/node_modules/@lrnwebcomponents/simple-picker/simple-pick
 import '../../build/es6/node_modules/@polymer/iron-icon/iron-icon.js';
 import '../../build/es6/node_modules/@polymer/iron-iconset-svg/iron-iconset-svg.js';
 import '../../build/es6/node_modules/@polymer/polymer/lib/elements/dom-if.js';
+import { HAXWiring } from '../../build/es6/node_modules/@lrnwebcomponents/hax-body-behaviors/lib/HAXWiring.js';
+import '../../build/es6/node_modules/@polymer/paper-button/paper-button.js';
 
 class HomePageBanner extends PolymerElement {
   static get template() {
@@ -4694,7 +4696,7 @@ class HaxThemeProfile extends PolymerElement {
         <div class="sidebar_wrap">
           <div id="news_archive">
             <site-recent-content-block
-              title="My Posts"
+              title="My Blog Posts"
               conditions="[[__recentPostsConditions(activeItem)]]"
               result="{{__items}}" 
               limit="5"
@@ -4749,6 +4751,124 @@ class HaxThemeProfile extends PolymerElement {
 }
 window.customElements.define(HaxThemeProfile.tag, HaxThemeProfile);
 
+class WorksheetDownload extends LitElement {
+  static get properties() {
+    return {
+      title: { type: String },
+      link: { type: String }
+    };
+  }
+
+  static get haxProperties() {
+    return {
+      canScale: false,
+      canPosition: true,
+      canEditSource: false,
+      gizmo: {
+        title: "Worksheet-Download",
+        description: "A button for displaying files available for download.",
+        icon: "icons:file-download",
+        color: "blue",
+        meta: {
+          author: "LRNWebComponents"
+        }
+      },
+      settings: {
+        quick: [
+          {
+            property: "title",
+            title: "Title",
+            description: "The title of the download.",
+            inputMethod: "textfield",
+            icon: "editor:title"
+          },
+          {
+            property: "link",
+            title: "Link",
+            description: "The link for the download.",
+            inputMethod: "textfield",
+            icon: "editor:insert-link"
+          }
+        ],
+        configure: [
+          {
+            property: "title",
+            title: "Title",
+            description: "The title of the download.",
+            inputMethod: "textfield",
+            icon: "editor:title"
+          },
+          {
+            property: "link",
+            title: "Link",
+            description: "The link for the download.",
+            inputMethod: "textfield",
+            icon: "editor:insert-link"
+          }
+        ],
+        advanced: []
+      }
+    };
+  }
+
+  connectedCallback() {
+    super.connectedCallback();
+    this.HAXWiring = new HAXWiring();
+    this.HAXWiring.setup(
+      WorksheetDownload.haxProperties,
+      WorksheetDownload.tag,
+      this
+    );
+  }
+
+  constructor() {
+    super();
+    this.title = "";
+    this.link = "";
+  }
+  render() {
+    return html$1`
+      <style>
+        :host {
+          display: block;
+        }
+
+        a {
+          text-decoration: none;
+          color: #0c7cd5;
+        }
+
+        paper-button {
+          --paper-button-ink-color: #dcdcdc;
+          text-transform: none;
+          border: solid 2px #dcdcdc;
+          display: flex;
+          width: 100%;
+          margin: 0 auto 0;
+        }
+
+        paper-button:hover {
+          background-color: #0c7cd5;
+          color: #fff;
+        }
+
+        iron-icon {
+          margin-right: 5px;
+        }
+      </style>
+      <div id="button_wrap">
+        <a href="${this.link}" target="_blank">
+          <paper-button>
+            <iron-icon icon="file-download"></iron-icon>
+            ${this.title}
+          </paper-button>
+        </a>
+      </div>
+    `;
+  }
+}
+customElements.define("worksheet-download", WorksheetDownload);
+
 class HaxThemeSyllabus extends PolymerElement {
   static get template() {
     return html`
@@ -4790,6 +4910,13 @@ class HaxThemeSyllabus extends PolymerElement {
           @apply --haxtheme-syllabus-h3;
         }
 
+        #contentcontainer {
+        font-size: var(--haxtheme-syllabus-contentcontainer-font-size);
+        font-weight: var(--haxtheme-syllabus-contentcontainer-font-weight);
+        line-height: var(--haxtheme-syllabus-contentcontainer-line-height);
+        @apply --haxtheme-syllabus-contentcontainer;
+      }
+      
         #syllabus_header {
           border-left: var(--haxtheme-syllabus-header-border-left);
           border-left-width: var(--haxtheme-syllabus-header-border-left-width);
@@ -4854,6 +4981,10 @@ class HaxThemeSyllabus extends PolymerElement {
 
         site-breadcrumb {
           margin: var(--haxtheme-syllabus-site-breadcrumb-margin);
+        }
+
+        worksheet-download {
+          margin: 0 0 25px 0;
         }
       </style>
       <page-banner
@@ -4999,6 +5130,7 @@ class HaxThemeSyllabus extends PolymerElement {
             </div>
           </div>
         </div>
+        <worksheet-download title="Download Sample" link="[[activeItem.metadata.fields.pdf]]"></worksheet-download>
       </div>
     `;
   }
@@ -5172,8 +5304,20 @@ class HaxThemeContact extends PolymerElement {
           margin: 0 0 25px 0;
         }
 
+        @media screen and (max-width: 1324px) {
+          #contact-info {
+            flex-direction: column;
+          }
+        }
+
         contact-form {
           width: 50%;
+        }
+
+        @media screen and (max-width: 1324px) {
+          contact-form {
+            width: 100%;
+          }
         }
       </style>
       <page-banner

@@ -45,8 +45,20 @@ class HaxThemeContact extends PolymerElement {
           margin: 0 0 25px 0;
         }
 
+        @media screen and (max-width: 1324px) {
+          #contact-info {
+            flex-direction: column;
+          }
+        }
+
         contact-form {
           width: 50%;
+        }
+
+        @media screen and (max-width: 1324px) {
+          contact-form {
+            width: 100%;
+          }
         }
       </style>
       <page-banner

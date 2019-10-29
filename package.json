@@ -10,7 +10,7 @@
   "author": {
     "name": "btopro"
   },
-:waveuu  "license": "Apache-2.0",
+"license": "Apache-2.0",
   "flat": true,
   "dependencies": {
     "@lrnwebcomponents/a11y-gif-player": "^2.0.1",
