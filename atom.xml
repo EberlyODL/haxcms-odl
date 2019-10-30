@@ -278,18 +278,6 @@
     </content>
   </entry>
   <entry>
-    <title>Biol 11</title>
-    <id>/syllabi/biol11</id>
-    <updated>2018-11-06T15:22:35+00:00</updated>
-    <published>2018-11-06T15:22:35+00:00</published>
-    <summary></summary>
-    <link href="/syllabi/biol11"/>
-    
-    <content type="html">
-      <![CDATA[ <p>this is the biol11 syllabus.</p> ]]>
-    </content>
-  </entry>
-  <entry>
     <title>Biol 110</title>
     <id>/syllabi/biol110</id>
     <updated>2018-11-06T15:22:35+00:00</updated>
@@ -314,6 +302,18 @@
     </content>
   </entry>
   <entry>
+    <title>Biol 125N</title>
+    <id>/syllabi/biol125n</id>
+    <updated>2019-10-21T20:21:29+00:00</updated>
+    <published>2018-11-06T15:22:35+00:00</published>
+    <summary></summary>
+    <link href="/syllabi/biol125n"/>
+    
+    <content type="html">
+      <![CDATA[ <p></p> ]]>
+    </content>
+  </entry>
+  <entry>
     <title>Phys 212</title>
     <id>/syllabi/phys212</id>
     <updated>2018-11-06T15:22:35+00:00</updated>
@@ -326,27 +326,15 @@
     </content>
   </entry>
   <entry>
-    <title>BiSc 003</title>
-    <id>/syllabi/bisc003</id>
+    <title>BiSc 004</title>
+    <id>/syllabi/bisc004</id>
     <updated>2018-11-06T15:22:35+00:00</updated>
     <published>2018-11-06T15:22:35+00:00</published>
     <summary></summary>
-    <link href="/syllabi/bisc003"/>
+    <link href="/syllabi/bisc004"/>
     
     <content type="html">
-      <![CDATA[ <p>this is the bisc003 syllabus.</p> ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Biol 125N</title>
-    <id>/syllabi/biol125n</id>
-    <updated>2019-10-21T20:21:29+00:00</updated>
-    <published>2018-11-06T15:22:35+00:00</published>
-    <summary></summary>
-    <link href="/syllabi/biol125n"/>
-    
-    <content type="html">
-      <![CDATA[ <p></p> ]]>
+      <![CDATA[ <p>This is the bisc004 syllabus.</p> ]]>
     </content>
   </entry>
   <entry>
@@ -422,15 +410,75 @@
     </content>
   </entry>
   <entry>
-    <title>BiSc 004</title>
-    <id>/syllabi/bisc004</id>
+    <title>Bmmb 852</title>
+    <id>/syllabi/bmmb852</id>
     <updated>2018-11-06T15:22:35+00:00</updated>
     <published>2018-11-06T15:22:35+00:00</published>
     <summary></summary>
-    <link href="/syllabi/bisc004"/>
+    <link href="/syllabi/bmmb852"/>
     
     <content type="html">
-      <![CDATA[ <p>This is the bisc004 syllabus.</p> ]]>
+      <![CDATA[ <p>this is the bmmb852 syllabus.</p> ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Biol 11</title>
+    <id>/syllabi/biol11</id>
+    <updated>2018-11-06T15:22:35+00:00</updated>
+    <published>2018-11-06T15:22:35+00:00</published>
+    <summary></summary>
+    <link href="/syllabi/biol11"/>
+    
+    <content type="html">
+      <![CDATA[ <p>this is the biol11 syllabus.</p> ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>BiSc 001</title>
+    <id>/syllabi/bisc001</id>
+    <updated>2018-11-06T15:22:35+00:00</updated>
+    <published>2018-11-06T15:22:35+00:00</published>
+    <summary></summary>
+    <link href="/syllabi/bisc001"/>
+    
+    <content type="html">
+      <![CDATA[ <p>This is the bisc001 syllabus.</p> ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>BiSc 003</title>
+    <id>/syllabi/bisc003</id>
+    <updated>2018-11-06T15:22:35+00:00</updated>
+    <published>2018-11-06T15:22:35+00:00</published>
+    <summary></summary>
+    <link href="/syllabi/bisc003"/>
+    
+    <content type="html">
+      <![CDATA[ <p>this is the bisc003 syllabus.</p> ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>BiSc 002</title>
+    <id>/syllabi/bisc002</id>
+    <updated>2018-11-06T15:22:35+00:00</updated>
+    <published>2018-11-06T15:22:35+00:00</published>
+    <summary></summary>
+    <link href="/syllabi/bisc002"/>
+    
+    <content type="html">
+      <![CDATA[ <p>this is the bisc002 syllabus.</p> ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Chem 101</title>
+    <id>/syllabi/chem101</id>
+    <updated>2018-11-06T15:22:35+00:00</updated>
+    <published>2018-11-06T15:22:35+00:00</published>
+    <summary></summary>
+    <link href="/syllabi/chem101"/>
+    
+    <content type="html">
+      <![CDATA[ <p>this is the chem101 syllabus.</p> ]]>
     </content>
   </entry>
   <entry>
@@ -449,54 +497,6 @@
 <p>The results from studies on Earth, the Solar System, and exoplanets across the Galaxy together indicate that the conditions for life are widespread in the Universe; extraterrestrial life has not been found yet, but does not seem implausible. Interstellar space travel between habitable planets, by humans or other beings, is exceedingly difficult but not physically impossible.   The course is thus rooted in modern science, but is connected to the long-standing philosophical question: Are we alone in the Universe? Today, this question is often embedded in science fiction (such as movies about aliens) and discussion about whether aliens have visited Earth.  Today, astronomical studies are leading the way in answering part of the question:  Earth-like planets seems to be extremely common.  But there is no evidence yet for life outside of Earth.</p>
 </p>
  ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>BiSc 002</title>
-    <id>/syllabi/bisc002</id>
-    <updated>2018-11-06T15:22:35+00:00</updated>
-    <published>2018-11-06T15:22:35+00:00</published>
-    <summary></summary>
-    <link href="/syllabi/bisc002"/>
-    
-    <content type="html">
-      <![CDATA[ <p>this is the bisc002 syllabus.</p> ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>BiSc 001</title>
-    <id>/syllabi/bisc001</id>
-    <updated>2018-11-06T15:22:35+00:00</updated>
-    <published>2018-11-06T15:22:35+00:00</published>
-    <summary></summary>
-    <link href="/syllabi/bisc001"/>
-    
-    <content type="html">
-      <![CDATA[ <p>This is the bisc001 syllabus.</p> ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Chem 005</title>
-    <id>/syllabi/chem005</id>
-    <updated>2018-11-06T15:22:35+00:00</updated>
-    <published>2018-11-06T15:22:35+00:00</published>
-    <summary></summary>
-    <link href="/syllabi/chem005"/>
-    
-    <content type="html">
-      <![CDATA[ <p>this is the chem005 syllabus.</p> ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Astro 130</title>
-    <id>/syllabi/astro130</id>
-    <updated>2018-11-06T15:22:35+00:00</updated>
-    <published>2018-11-06T15:22:35+00:00</published>
-    <summary></summary>
-    <link href="/syllabi/astro130"/>
-    
-    <content type="html">
-      <![CDATA[ <p>this is the astro130 syllabus.</p> ]]>
     </content>
   </entry>
 </feed>

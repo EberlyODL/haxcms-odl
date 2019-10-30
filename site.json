@@ -2339,7 +2339,7 @@
                     "program": "Undergraduate",
                     "credits": "3",
                     "name": "Astronomical Universe",
-                    "pdf": "files/syllabi/astro001/astro001-syllabus.pdf"
+                    "pdf": "files\/syllabi\/astro001\/astro001-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2378,20 +2378,34 @@
             "order": 3,
             "parent": "syllabi",
             "title": "Astro 120",
-            "description": "",
+            "description": "Description  Like Astro 001, this course has a central narrative, a story that we will  follow as we cover different topics of cosmological interest. Our story has no  relation to any you might ha",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/astro120.png",
                     "imageAlt": "Colorful image of space, nebula, universe. Photo by: NASA - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "The Big Bang Universe"
+                    "name": "The Big Bang Universe",
+                    "pdf": "files\/syllabi\/astro120\/astro120-syllabus.pdf"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1572441609,
                 "type": "syllabi",
                 "template": "syllabi",
-                "icon": "courseicons:astro120"
+                "icon": "courseicons:astro120",
+                "readtime": 5,
+                "contentDetails": {
+                    "headings": 5,
+                    "paragraphs": 13,
+                    "schema": [],
+                    "tags": {
+                        "h2": 5,
+                        "p": 13,
+                        "ol": 1,
+                        "ul": 1
+                    },
+                    "elements": 20
+                }
             }
         },
         {
@@ -2408,7 +2422,8 @@
                     "imageAlt": "A photo of a Black hole. Photo by: Event Horizon Telescope - https:\/\/www.eso.org\/public\/images\/eso1907a\/ (image link) The highest-quality image (7416x4320 pixels, TIF, 16-bit, 180 Mb), ESO Article, ESO TIF, CC BY 4.0, https:\/\/commons.wikimedia.org\/w\/index.php?curid=77925953",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Black Holes in the Universe"
+                    "name": "Black Holes in the Universe",
+                    "pdf": "files\/syllabi\/astro130\/astro130-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2431,7 +2446,8 @@
                     "imageAlt": "Two green leaf trees beside mountain with a night time sky. Photo by: Kayla Gibson - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Life in the Universe"
+                    "name": "Life in the Universe",
+                    "pdf": "files\/syllabi\/astro140\/astro140-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1571317368,
