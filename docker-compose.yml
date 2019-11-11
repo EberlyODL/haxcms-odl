@@ -15,7 +15,7 @@ services:
       - "traefik.enable=true"
       - "traefik.port=80"
       - "traefik.frontend.rule=Host:odl.${HOST:-docker.localhost}"
-    config:
+    configs:
       - users_config
     deploy:
       labels:
@@ -33,6 +33,6 @@ networks:
   traefik-public:
     external: true
 
-config:
+configs:
   users_config:
     external: true
