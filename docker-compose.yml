@@ -15,7 +15,6 @@ services:
       - "traefik.enable=true"
       - "traefik.port=80"
       - "traefik.frontend.rule=Host:odl.${HOST:-docker.localhost}"
-      - "traefik.http.middlewares.test-auth.basicauth.users=admin:$apr1$4rC07fVB$dAtnOA1aiEY2SpEXhxKuA0"
     deploy:
       labels:
         - "traefik.enable=true"
