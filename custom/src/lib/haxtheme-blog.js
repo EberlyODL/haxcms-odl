@@ -227,9 +227,9 @@ class HaxThemeBlog extends PolymerElement {
               </div>
             </div>
           </div>
-          <div id="share_actions">
+          <!-- <div id="share_actions">
             <site-print-button></site-print-button>
-          </div>
+          </div> -->
           <div id="contentcontainer">
               <div id="slot">
                 <slot></slot>

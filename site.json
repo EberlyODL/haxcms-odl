@@ -2505,7 +2505,8 @@
                     "imageAlt": "Pink and purple plasma ball. Photo: Hal Gatewood - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Genetics, Ecology, and Evolution"
+                    "name": "Genetics, Ecology, and Evolution",
+                    "pdf": "files\/syllabi\/bisc002\/bisc002-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2528,7 +2529,8 @@
                     "imageAlt": "Plants in beakers. Photo by: chuttersnap - Unsplash.com",
                     "program": "Undergraduate",
                     "credits:": "3",
-                    "name": "Environmental Science"
+                    "name": "Environmental Science",
+                    "pdf": "files\/syllabi\/bisc003\/bisc003-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2551,7 +2553,8 @@
                     "imageAlt": "Human anatomy figure below white wooden ceiling. Photo by: Nhia Moua - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Human Body: Form & Function"
+                    "name": "Human Body: Form & Function",
+                    "pdf": "files\/syllabi\/bisc004\/bisc004-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2574,7 +2577,8 @@
                     "imageAlt": "Bird in flight. Photo by: W R - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Introductory Biology I"
+                    "name": "Introductory Biology I",
+                    "pdf": "files\/syllabi\/biol11\/biol11-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2597,7 +2601,8 @@
                     "imageAlt": "This course is a study of the evolution of the major groups of organisms including the fundamental concepts of biology. The goal of this course is to introduce you to fundamental concepts that are common to all organisms and to explore the biological diversity of life on Earth. Biology 110 is intended for students who need a majors-level introductory biology course and is not the best option for students who are looking for a general education course in science.",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Basic Concepts and Biodiversity"
+                    "name": "Basic Concepts and Biodiversity",
+                    "pdf": "files\/syllabi\/biol110\/biol110-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2613,27 +2618,34 @@
             "order": 12,
             "parent": "syllabi",
             "title": "Biol 120N",
-            "description": "",
+            "description": "Description  This course is designed to introduce you to the discipline of plant biology  and increase your awareness and appreciation of the impact of plants on your  daily lives. The first part ",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/biol120n.png",
                     "imageAlt": "People sitting on mountain side.  Photo by: Muhammed Fayiz - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Plants, Places, and People"
+                    "name": "Plants, Places, and People",
+                    "pdf": "files\/syllabi\/biol120n\/biol120n-syllabus.pdf"
+
                 },
                 "created": 1541517755,
-                "updated": 1571699352,
+                "updated": 1573663687,
                 "type": "syllabi",
                 "template": "syllabi",
                 "icon": "courseicons:biol120n",
-                "readtime": 1,
+                "readtime": 2,
                 "contentDetails": {
-                    "headings": 0,
-                    "paragraphs": 0,
+                    "headings": 6,
+                    "paragraphs": 4,
                     "schema": [],
-                    "tags": [],
-                    "elements": 0
+                    "tags": {
+                        "h2": 6,
+                        "p": 4,
+                        "table": 2,
+                        "ol": 1
+                    },
+                    "elements": 13
                 }
             }
         },
@@ -2651,7 +2663,8 @@
                     "imageAlt": "On top of the world, Manhattan, New York City - from space.  Photo by: NASA - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Society and Disease Management"
+                    "name": "Society and Disease Management",
+                    "pdf": "files\/syllabi\/biol125n\/biol125n-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1571689289,
