@@ -29,7 +29,7 @@ services:
       - traefik-public
     environment:
       - PRISMA_DB_PROVIDER=postgresql
-      - PRISMA_DB_URL=postgresql://prisma:prisma@hax-forms-service-postgres/
+      - PRISMA_DB_URL=postgresql://prisma:prisma@postgres/
     deploy:
       labels:
         - "traefik.enable=true"
@@ -41,9 +41,9 @@ services:
       update_config:
         order: start-first
     depends_on: 
-      - hax-forms-service-postgres
+      - postgres
 
-  hax-forms-service-postgres:
+  postgres:
     image: postgres:10.3
     restart: always
     environment:
@@ -58,6 +58,7 @@ services:
         - "traefik.enable=true"
         - "traefik.docker.network=traefik-public"
         - "traefik.tags=traefik-public"
+        - "traefik.port=5432"
       replicas: 1
       update_config:
         order: start-first
