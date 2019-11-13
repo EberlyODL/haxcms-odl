@@ -24,7 +24,7 @@ services:
         order: start-first
 
   hax-forms-service:
-    image: heymp/hax-forms-service:v0.1.2
+    image: heymp/hax-forms-service:0.1.2
     networks:
       - traefik-public
     environment:
