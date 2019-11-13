@@ -49,6 +49,8 @@ services:
       POSTGRES_PASSWORD: prisma
     volumes:
       - hax-forms-service:/var/lib/postgresql/data
+    networks:
+      - traefik-public
     deploy:
       labels:
         - "traefik.enable=true"
