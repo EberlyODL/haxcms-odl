@@ -28,13 +28,14 @@ services:
     networks:
       - traefik-public
     environment:
+      - CORS_ORIGIN=*.${HOST:-docker.localhost}
       - PRISMA_DB_PROVIDER=postgresql
       - PRISMA_DB_URL=postgresql://prisma:prisma@hax-forms-postgres/
     deploy:
       labels:
         - "traefik.enable=true"
         - "traefik.port=4000"
-        - "traefik.frontend.rule=Host:odl.${HOST:-docker.localhost}; Path:/service/hax-forms-service/graphql; ReplacePath: /service/hax-forms-service"
+        - "traefik.frontend.rule=Host:hax-forms-service.odl.${HOST:-docker.localhost}"
         - "traefik.docker.network=traefik-public"
         - "traefik.tags=traefik-public"
       replicas: 1
