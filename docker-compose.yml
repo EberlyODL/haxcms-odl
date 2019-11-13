@@ -22,28 +22,28 @@ services:
       replicas: 1
       update_config:
         order: start-first
-  
+
   hax-forms-service:
     image: heymp/hax-forms-service:v0.1.0
     networks:
       - traefik-public
     environment:
       - PRISMA_DB_PROVIDER=postgresql
-      - PRISMA_DB_URL=postgresql://prisma:prisma@postgres/
+      - PRISMA_DB_URL=postgresql://prisma:prisma@hax-forms-postgres/
     deploy:
       labels:
         - "traefik.enable=true"
         - "traefik.port=4000"
-        - "traefik.frontend.rule=Host:odl.${HOST:-docker.localhost}; Path:/service/hax-forms-service"
+        - "traefik.frontend.rule=Host:odl.${HOST:-docker.localhost}; Path:^/service/hax-forms-service(.*)"
         - "traefik.docker.network=traefik-public"
         - "traefik.tags=traefik-public"
       replicas: 1
       update_config:
         order: start-first
     depends_on: 
-      - postgres
+      - hax-forms-postgres
 
-  postgres:
+  hax-forms-postgres:
     image: postgres:10.3
     restart: always
     environment:
