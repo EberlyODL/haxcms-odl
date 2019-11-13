@@ -5251,7 +5251,8 @@ class HaxForm extends LitElement {
 
     if (this.endpoint) {
       const values = this.constructor.collectFormValues(form);
-      const id = this.formId;
+      // get the form id from hax-form or the child form
+      const id = this.formId || form.id;
 
       this.loading = true;
 
