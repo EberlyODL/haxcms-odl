@@ -42,6 +42,8 @@ services:
       replicas: 1
       update_config:
         order: start-first
+    depends_on: 
+      - hax-forms-service-postgres
 
   hax-forms-service-postgres:
     image: postgres:10.3
