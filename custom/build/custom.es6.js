@@ -5162,79 +5162,270 @@ class HaxThemeSyllabus extends PolymerElement {
 }
 window.customElements.define(HaxThemeSyllabus.tag, HaxThemeSyllabus);
 
-class ContactForm extends PolymerElement {
-  static get template() {
-    return html`
-      <style>
-        :host {
-          display: block;
-        }
+class HaxForm extends LitElement {
+  static get properties() {
+    return {
+      endpoint: { type: String },
+      loading: { type: Boolean, reflect: true },
+      formId: { type: String },
+    };
+  }
 
-        #contact-form input[type="text"],
-        #contact-form input[type="email"],
-        #contact-form textarea {
-            width: 100%;
-            box-shadow: inset 0 1px 2px #ddd, 0 1px 0 #fff;
-            border: 1px solid #ccc;
-            background: #fff;
-            margin: 0 0 5px;
-            padding: 10px;
+  static get styles() {
+    return css`
+      :host {
+        display: block;
+      }
+    `;
+  }
+
+  constructor() {
+    super();
+    this.endpoint = null;
+    this.loading = false;
+    this._form = null;
+    this.formId = null;
+  }
+
+  /**
+   * When the element first sets up add
+   * an event listener to monitor any slot changes.
+   * We do this to gather the children of the component.
+   */
+  firstUpdated() {
+    this.shadowRoot
+      .querySelector('slot')
+      .addEventListener('slotchange', this.slotChangedHandler.bind(this));
+  }
+
+  disconnectedCallback() {
+    this.shadowRoot
+      .querySelector('slot')
+      .removeEventListener('slotchange', this.slotChangedHandler.bind(this));
+    super.disconnectedCallback();
+  }
+
+  updated(changedProperties) {
+    changedProperties.forEach((oldValue, propName) => {
+      if (propName == 'loading') {
+        this.dispatchEvent(
+          new CustomEvent("loading-changed", {
+            detail: {
+              value: this[propName],
+            }
+          })
+        );
+      }
+    });
+  }
+
+  /**
+   * When new children are added look for a form element and
+   * compture all submission events from that form.
+   * @param {event} e 
+   */
+  slotChangedHandler(e) {
+    // get all children
+    const nodes = e.target.assignedNodes({ flatten: true });
+    const form = [...nodes].find(i => i.nodeName === 'FORM');
+    // if there is a form
+    if (form) {
+      this._form = form;
+      form.addEventListener('submit', _e => {
+        _e.preventDefault();
+        this.submitForm();
+      });
+    }
+  }
+
+  /**
+   * Collects all of the form values and submits
+   * them to the endpoint
+   */
+  submitForm() {
+    const form = this._form;
+
+    if (!form) {
+      console.error(`No form found.`);
+    }
+
+    if (this.endpoint) {
+      const values = this.constructor.collectFormValues(form);
+      // get the form id from hax-form or the child form
+      const id = this.formId || form.id;
+
+      this.loading = true;
+
+      fetch(this.endpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          id,
+          values,
+        }),
+      })
+        .then(res => {
+          if (res.ok) {
+            this.dispatchEvent(new CustomEvent('subission-successful'));
           }
-          #contact-form button[type="submit"] {
-            cursor: pointer;
-            width: 100%;
-            border: none;
-            background: #e2801e;
-            color: #fff;
-            margin: 0 0 5px;
-            padding: 10px;
-            height: 50px;
-            font-size: 18px;
-            text-transform: uppercase;
-        }
-      </style>
-      <!-- action property needs a destination url -->
-      <form id="contact-form" action="/" method="post">
-        <div>
-          <label>
-            <span>Name:</span>
-            <input
-              placeholder="Full name"
-              type="text"
-              tabindex="1"
-              required
-              autofocus
-            />
-          </label>
-        </div>
-        <div>
-          <label>
-            <span>Email:</span>
-            <input
-              placeholder="name@example.com"
-              type="email"
-              tabindex="2"
-              required
-            />
-          </label>
-        </div>
-        <div>
-          <label>
-            <span>Message:</span>
-            <textarea
-              placeholder="Comments"
-              tabindex="3"
-              required
-              rows="5" 
-              cols="40"
-            ></textarea>
-          </label>
-        </div>
-          <button name="submit" type="submit" id="contact-submit">
-            Submit
-          </button>
-        </div>
-      </form>
+          else {
+            this.dispatchEvent(new CustomEvent('subission-error'));
+          }
+          return res
+        })
+        .finally(() => {
+          this.loading = false;
+        });
+    } else {
+      console.error(`Endpoint not defined`);
+    }
+  }
+
+  /**
+   * Collect all values of a form
+   * @param {DOM Node} form 
+   * @return {object}
+   *  - value
+   *  - name
+   */
+  static collectFormValues(form) {
+    const formItems = form.querySelectorAll('[name]');
+    const values = [...formItems].map(i => ({ name: i.name, value: i.value }));
+    return values;
+  }
+
+  render() {
+    return html$1`
+      <div id="slot">
+        <slot></slot>
+      </div>
+    `;
+  }
+}
+
+customElements.define('hax-form', HaxForm);
+
+class ContactForm extends LitElement {
+  static get properties() {
+    return {
+      loading: { type: Boolean },
+      submitted: { type: Boolean, reflect: true }
+    };
+  }
+  constructor() {
+    super();
+    this.loading = false;
+    this.submitted = false;
+  }
+  static get styles() {
+    return css`
+      :host {
+        display: block;
+      }
+
+      #contact-form input[type="text"],
+      #contact-form input[type="email"],
+      #contact-form textarea {
+        width: 100%;
+        box-shadow: inset 0 1px 2px #ddd, 0 1px 0 #fff;
+        border: 1px solid #ccc;
+        background: #fff;
+        margin: 0 0 5px;
+        padding: 10px;
+      }
+      #contact-form button[type="submit"] {
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        background: #e2801e;
+        color: #fff;
+        margin: 0 0 5px;
+        padding: 10px;
+        height: 50px;
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+      #contact-form button[disabled] {
+        opacity: 0.3;
+      }
+      :host[submitted] #contact-form button[disabled] {
+        opacity: 1;
+        background: transparent;
+        color: black;
+      }
+    `;
+  }
+  submissionButton() {
+    if (this.submitted) {
+      return html$1`
+        <button type="submit" id="contact-submit" disabled>
+          Submitted!
+        </button>`
+    }
+    else if (this.loading) {
+      return html$1`
+        <button type="submit" id="contact-submit" disabled>
+          Submitting...
+        </button>
+      `
+    }
+    else {
+      return html$1`
+        <button type="submit" id="contact-submit">
+          Submit
+        </button>
+      `
+    }
+  }
+  render() {
+    return html$1`
+      <hax-form endpoint="http://hax-forms-service.odl.courses.science.psu.edu" @loading-changed="${e =>
+        (this.loading = e.detail.value)}" @subission-successful=${() => this.submitted = true}>
+        <form id="contact-form">
+          <div>
+            <label>
+              <span>Name:</span>
+              <input
+                placeholder="Full name"
+                type="text"
+                tabindex="1"
+                required
+                autofocus
+                name="name"
+              />
+            </label>
+          </div>
+          <div>
+            <label>
+              <span>Email:</span>
+              <input
+                placeholder="name@example.com"
+                type="email"
+                tabindex="2"
+                required
+                name="email"
+              />
+            </label>
+          </div>
+          <div>
+            <label>
+              <span>Message:</span>
+              <textarea
+                placeholder="Comments"
+                tabindex="3"
+                required
+                rows="5" 
+                cols="40"
+                name="comments"
+              ></textarea>
+            </label>
+          </div>
+            ${this.submissionButton()}
+          </div>
+        </form>
+      </hax-form>
     `;
   }
   static get tag() {
