@@ -4394,9 +4394,9 @@ class HaxThemeBlog extends PolymerElement {
               </div>
             </div>
           </div>
-          <div id="share_actions">
+          <!-- <div id="share_actions">
             <site-print-button></site-print-button>
-          </div>
+          </div> -->
           <div id="contentcontainer">
               <div id="slot">
                 <slot></slot>
@@ -5005,9 +5005,9 @@ class HaxThemeSyllabus extends PolymerElement {
             <h3>Sample Syllabus</h3>
           </div>
         </div>
-        <div id="share_actions">
+        <!-- <div id="share_actions">
           <site-print-button></site-print-button>
-        </div>
+        </div> -->
         <div id="syllabus">
           <div id="contentcontainer">
             <div id="slot">
@@ -6279,6 +6279,8 @@ class OdlHaxtheme extends HAXCMSTheme(SimpleColors) {
   display: none;
 }
 
+/* Scroll Button Styles */
+
 scroll-button {
     position: fixed;
     right: 0;
@@ -6292,6 +6294,8 @@ scroll-button {
     background-color: var(--theme-color-2);
   }
 }
+
+/* Menu Styles */
 
 site-top-menu {
     width: 100%;
@@ -6331,6 +6335,33 @@ site-top-menu {
   };
 }
 
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+th, td {
+  border-bottom: solid 1px #dddddd;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ddd;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {
+  background-color: #ddd;
+  
+}
 
 
 </style>

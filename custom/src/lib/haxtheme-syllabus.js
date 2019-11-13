@@ -140,9 +140,9 @@ class HaxThemeSyllabus extends PolymerElement {
             <h3>Sample Syllabus</h3>
           </div>
         </div>
-        <div id="share_actions">
+        <!-- <div id="share_actions">
           <site-print-button></site-print-button>
-        </div>
+        </div> -->
         <div id="syllabus">
           <div id="contentcontainer">
             <div id="slot">
