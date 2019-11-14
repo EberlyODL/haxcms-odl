@@ -2627,7 +2627,6 @@
                     "credits": "3",
                     "name": "Plants, Places, and People",
                     "pdf": "files\/syllabi\/biol120n\/biol120n-syllabus.pdf"
-
                 },
                 "created": 1541517755,
                 "updated": 1573663687,
@@ -2751,7 +2750,8 @@
                     "imageAlt": "Transparent skull model. Photo by: Jesse Orrico - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Introduction to Physiology"
+                    "name": "Introduction to Physiology",
+                    "pdf": "files\/syllabi\/biol141\/biol141-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2774,7 +2774,8 @@
                     "imageAlt": "A pile of wooden clocks of various sizes.  Photo by: Jon Tyson - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "An Introduction to the Biology of Aging"
+                    "name": "An Introduction to the Biology of Aging",
+                    "pdf": "files\/syllabi\/biol155\/biol155-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2797,7 +2798,8 @@
                     "imageAlt": "Two people under a pink and white comforter.  Photo by: Hop Design - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Biology of Sex"
+                    "name": "Biology of Sex",
+                    "pdf": "files\/syllabi\/biol177\/biol177-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2820,7 +2822,8 @@
                     "imageAlt": "DNA strands on a blue background.  Photo by: Gerd Altmann - Pixabay",
                     "program": "Graduate",
                     "credits": "3",
-                    "name": "Genomics"
+                    "name": "Genomics",
+                    "pdf": "files\/syllabi\/bmmb551\/bmmb551-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2843,7 +2846,8 @@
                     "imageAlt": "Doctor on a computer looking at data.  Photo by: Campaign Creators - Unsplash.com",
                     "program": "Graduate",
                     "credits": "3",
-                    "name": "Applied Bioinformatics"
+                    "name": "Applied Bioinformatics",
+                    "pdf": "files\/syllabi\/bmmb852\/bmmb852-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2859,20 +2863,34 @@
             "order": 21,
             "parent": "syllabi",
             "title": "Chem 005",
-            "description": "",
+            "description": "Description  CHEM 005 incorporates reading, problem-solving, and \u2018edible\u2019 home experiments  to develop an understanding of chemical concepts and scientific inquiry within  the context of food ",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/chem005.png",
                     "imageAlt": "Kitchen utensils on display.  Photo by: Caroline Attwood - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Kitchen Chemistry"
+                    "name": "Kitchen Chemistry",
+                    "pdf": "files\/syllabi\/chem005\/chem005-syllabus.pdf"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1573757597,
                 "type": "syllabi",
                 "template": "syllabi",
-                "icon": "courseicons:chem005"
+                "icon": "courseicons:chem005",
+                "readtime": 6,
+                "contentDetails": {
+                    "headings": 16,
+                    "paragraphs": 15,
+                    "schema": [],
+                    "tags": {
+                        "h2": 16,
+                        "p": 15,
+                        "ul": 3,
+                        "table": 3
+                    },
+                    "elements": 37
+                }
             }
         },
         {
@@ -2889,7 +2907,8 @@
                     "imageAlt": "Three clear beakers placed on tabletop.  Photo by: Hans Reniers - Unsplash.co",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Introductory Chemistry"
+                    "name": "Introductory Chemistry",
+                    "pdf": "files\/syllabi\/chem101\/chem101-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2905,7 +2924,7 @@
             "order": 23,
             "parent": "syllabi",
             "title": "Chem 110",
-            "description": "",
+            "description": "Description  The purpose of this course is to provide you with an introduction to atomic  and molecular structure as well as molecular properties. We will also discuss  general principles of react",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/chem110.png",
@@ -2915,10 +2934,22 @@
                     "name": "Chemical Principles"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1573759714,
                 "type": "syllabi",
                 "template": "syllabi",
-                "icon": "courseicons:chem101"
+                "icon": "courseicons:chem101",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 3,
+                    "paragraphs": 2,
+                    "schema": [],
+                    "tags": {
+                        "h2": 3,
+                        "p": 2,
+                        "ul": 2
+                    },
+                    "elements": 7
+                }
             }
         },
         {
