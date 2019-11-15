@@ -3126,20 +3126,33 @@
             "order": 30,
             "parent": "syllabi",
             "title": "Frnsc 100",
-            "description": "",
+            "description": "Description  Forensic science is the application of scientific principles and practices to  matters of the law.  This course introduces students to the field of forensic science and  criminalis",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/frnsc100.png",
+                    "image": "files\/course-banners\/frnsc100.jpeg",
                     "imageAlt": "A finger print. Photo by: Stux - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Introduction to Forensic Science"
+                    "name": "Introduction to Forensic Science",
+                    "pdf": "files\/syllabi\/frnsc100\/frnsc100-syllabus.pdf"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1573844310,
                 "type": "syllabi",
                 "template": "syllabi",
-                "icon": "courseicons:frnsc100"
+                "icon": "courseicons:frnsc100",
+                "readtime": 2,
+                "contentDetails": {
+                    "headings": 3,
+                    "paragraphs": 5,
+                    "schema": [],
+                    "tags": {
+                        "h2": 3,
+                        "p": 5,
+                        "ul": 2
+                    },
+                    "elements": 10
+                }
             }
         },
         {
@@ -3156,7 +3169,8 @@
                     "imageAlt": "Police crime scene. Photo by: Alexas Fotos - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Introduction to Crime Scene Investigation"
+                    "name": "Introduction to Crime Scene Investigation",
+                    "pdf": "files\/syllabi\/frnsc200\/frnsc200-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
