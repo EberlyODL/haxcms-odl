@@ -2931,7 +2931,8 @@
                     "imageAlt": "Periodic Table 2 by Princess Rashid",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Chemical Principles"
+                    "name": "Chemical Principles",
+                    "pdf": "files\/syllabi\/chem110\/chem110-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1573759714,
@@ -2959,20 +2960,33 @@
             "order": 24,
             "parent": "syllabi",
             "title": "Chem 111",
-            "description": "",
+            "description": "Description  CHEM 111 is an introductory chemistry laboratory experience that gives  students the opportunity to put into practice the essential principles  utilized in a professional chemistry la",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/chem111.png",
                     "imageAlt": "Person holding laboratory flasks.  Photo by: Alex Kondratiev - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Experimental Chemistry"
+                    "name": "Experimental Chemistry",
+                    "pdf": "files\/syllabi\/chem111\/chem111-syllabus.pdf"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1573834208,
                 "type": "syllabi",
                 "template": "syllabi",
-                "icon": "courseicons:chem111"
+                "icon": "courseicons:chem111",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 3,
+                    "paragraphs": 2,
+                    "schema": [],
+                    "tags": {
+                        "h2": 3,
+                        "p": 2,
+                        "ul": 2
+                    },
+                    "elements": 7
+                }
             }
         },
         {
@@ -2982,20 +2996,33 @@
             "order": 25,
             "parent": "syllabi",
             "title": "Chem 130",
-            "description": "",
+            "description": "Description  This course is a one-semester college level introductory chemistry course  covering the fundamental principles of general, organic, and biochemistry.  Three credits, fulfills the Gene",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/chem130.jpg",
                     "imageAlt": "Work up of a reaction sketched on fume hood sash glass.  Photo by: Chromatograph - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Introduction to General, Organic, and Biochemistry"
+                    "name": "Introduction to General, Organic, and Biochemistry",
+                    "pdf": "files\/syllabi\/chem130\/chem130-syllabus.pdf"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1573836733,
                 "type": "syllabi",
                 "template": "syllabi",
-                "icon": "courseicons:chem111"
+                "icon": "courseicons:chem111",
+                "readtime": 3,
+                "contentDetails": {
+                    "headings": 3,
+                    "paragraphs": 3,
+                    "schema": [],
+                    "tags": {
+                        "h2": 3,
+                        "p": 3,
+                        "ol": 2
+                    },
+                    "elements": 8
+                }
             }
         },
         {
@@ -3012,7 +3039,8 @@
                     "imageAlt": "A table with various text tubes in a holding rack.  Photo by: bdyczewski - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Fundamentals of Organic Chemistry"
+                    "name": "Fundamentals of Organic Chemistry",
+                    "pdf": "files\/syllabi\/chem202\/chem202-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3035,7 +3063,8 @@
                     "imageAlt": "Liquid Chromatography tools in a lab setting.  Photo: Restek Corporation",
                     "program": "Graduate",
                     "credits": "1",
-                    "name": "Liquid Chromatography"
+                    "name": "Liquid Chromatography",
+                    "pdf": "files\/syllabi\/chem810\/chem810-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
