@@ -3193,7 +3193,8 @@
                     "imageAlt": "Photo of a face focused on the eye faded into dark background. Photo by: Geralt - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Essential Practices of Forensic Science"
+                    "name": "Essential Practices of Forensic Science",
+                    "pdf": "files\/syllabi\/frnsc210\/frnsc210-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3209,20 +3210,33 @@
             "order": 33,
             "parent": "syllabi",
             "title": "Math 004",
-            "description": "",
+            "description": "Description  MATH 004 Intermediate Algebra (3 semester hours) Algebraic expressions;  linear, absolute value Equations and inequalities; lines; systems of linear  equations; integral exponents; po",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math004.png",
                     "imageAlt": "Pen, ruler, and calculator resting on graph paper. Photo by: Robert-Owen-Wahl - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Intermediate Algebra"
+                    "name": "Intermediate Algebra",
+                    "pdf": "files\/syllabi\/math004\/math004-syllabus.pdf"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1574090540,
                 "type": "syllabi",
                 "template": "syllabi",
-                "icon": "courseicons:math004"
+                "icon": "courseicons:math004",
+                "readtime": 2,
+                "contentDetails": {
+                    "headings": 4,
+                    "paragraphs": 2,
+                    "schema": [],
+                    "tags": {
+                        "h2": 4,
+                        "p": 2,
+                        "ul": 2
+                    },
+                    "elements": 8
+                }
             }
         },
         {
