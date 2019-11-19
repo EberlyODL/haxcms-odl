@@ -3269,20 +3269,33 @@
             "order": 35,
             "parent": "syllabi",
             "title": "Math 021",
-            "description": "",
+            "description": "Description  An extensive look into Quadratic equations; equations in quadratic form; word  problems, graphing; algebraic fractions; negative and rational exponents, and  radicals.Prerequisite",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math021.png",
                     "imageAlt": "System of Equations. Photo by: Antoine Dautry - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "College Algebra I"
+                    "name": "College Algebra I",
+                    "pdf": "files\/syllabi\/math021\/math021-syllabus.pdf"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1574180370,
                 "type": "syllabi",
                 "template": "syllabi",
-                "icon": "courseicons:math021"
+                "icon": "courseicons:math021",
+                "readtime": 6,
+                "contentDetails": {
+                    "headings": 4,
+                    "paragraphs": 8,
+                    "schema": [],
+                    "tags": {
+                        "h2": 4,
+                        "p": 8,
+                        "ul": 5
+                    },
+                    "elements": 17
+                }
             }
         },
         {
@@ -3292,20 +3305,34 @@
             "order": 36,
             "parent": "syllabi",
             "title": "Math 022",
-            "description": "",
+            "description": "Description  College Algebra II represents a significant opportunity for students to  discover the beauty and practical power of mathematics. Concepts and skills  are taught while at the same time",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math022.png",
                     "imageAlt": "Calculator laying on math work-book. Photo by: Free-Photos - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "College Algebra II and Analytic Geometry"
+                    "name": "College Algebra II and Analytic Geometry",
+                    "pdf": "files\/syllabi\/math022\/math022-syllabus.pdf"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1574190190,
                 "type": "syllabi",
                 "template": "syllabi",
-                "icon": "courseicons:math022"
+                "icon": "courseicons:math022",
+                "readtime": 6,
+                "contentDetails": {
+                    "headings": 12,
+                    "paragraphs": 11,
+                    "schema": [],
+                    "tags": {
+                        "h2": 12,
+                        "p": 11,
+                        "ul": 2,
+                        "table": 3
+                    },
+                    "elements": 28
+                }
             }
         },
         {
@@ -3345,7 +3372,8 @@
                     "imageAlt": "New York Times paper with investment quotes. Photo by: Markus Spiske - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "The Mathematics of Money"
+                    "name": "The Mathematics of Money",
+                    "pdf": "files\/syllabi\/math034\/math034-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
