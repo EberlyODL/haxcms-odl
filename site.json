@@ -3389,29 +3389,34 @@
             "order": 39,
             "parent": "syllabi",
             "title": "Math 036",
-            "description": "this is the math036 syllabus.",
+            "description": "Description  This course will provide students the mathematical background and quantitative  skills in various mathematical applications in such areas which are related to  voting, fair divisions ",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math036.png",
                     "imageAlt": "Light bulbs hanging from the ceiling. Photo by: Sara Kurfe\u00df - Unsplash.com",
                     "program": "Undergraduate",
                     "credit": "3",
-                    "name": "Insights into Mathematics"
+                    "name": "Insights into Mathematics",
+                    "pdf": "files\/syllabi\/math036\/math036-syllabus.pdf"
                 },
                 "created": 1541517755,
-                "updated": 1571699210,
+                "updated": 1574198126,
                 "type": "syllabi",
                 "template": "syllabi",
                 "icon": "courseicons:math036",
-                "readtime": 1,
+                "readtime": 10,
                 "contentDetails": {
-                    "headings": 0,
-                    "paragraphs": 1,
+                    "headings": 15,
+                    "paragraphs": 6,
                     "schema": [],
                     "tags": {
-                        "p": 1
+                        "h2": 9,
+                        "p": 6,
+                        "h3": 6,
+                        "ul": 38,
+                        "table": 3
                     },
-                    "elements": 1
+                    "elements": 62
                 }
             }
         },
