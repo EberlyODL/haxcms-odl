@@ -3427,20 +3427,34 @@
             "order": 40,
             "parent": "syllabi",
             "title": "Math 110",
-            "description": "",
+            "description": "Description  MATH 110 is an entry-level course in mathematics that introduces the skills  associated with the application of calculus techniques to business and social  science applications. We wi",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math110.png",
                     "imageAlt": "Math study book. Photo by: Joshua_seajw92 - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Techniques of Calculus I"
+                    "name": "Techniques of Calculus I",
+                    "pdf": "files\/syllabi\/math110\/math110-syllabus.pdf"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1574261584,
                 "type": "syllabi",
                 "template": "syllabi",
-                "icon": "courseicons:math110"
+                "icon": "courseicons:math110",
+                "readtime": 6,
+                "contentDetails": {
+                    "headings": 12,
+                    "paragraphs": 11,
+                    "schema": [],
+                    "tags": {
+                        "h2": 12,
+                        "p": 11,
+                        "ul": 2,
+                        "table": 2
+                    },
+                    "elements": 27
+                }
             }
         },
         {
@@ -3457,7 +3471,8 @@
                     "imageAlt": "",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Calculus With Analytic Geometry I"
+                    "name": "Calculus With Analytic Geometry I",
+                    "pdf": "files\/syllabi\/math140\/math140-syllabi.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3473,20 +3488,34 @@
             "order": 42,
             "parent": "syllabi",
             "title": "Math 141",
-            "description": "",
+            "description": "Description  Calculus is an important building block in the education of any professional  who uses quantitative analysis. This course further introduces and develops  the mathematical skills requ",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math141.png",
                     "imageAlt": "View looking down a spiral staircase. Photo by: Maxime Lebrun - Unsplash.com ",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Calculus with Analytic Geometry II"
+                    "name": "Calculus with Analytic Geometry II",
+                    "pdf": "files\/syllabi\/math141\/math141-syllabus.pdf"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1574264329,
                 "type": "syllabi",
                 "template": "syllabi",
-                "icon": "courseicons:math141"
+                "icon": "courseicons:math141",
+                "readtime": 4,
+                "contentDetails": {
+                    "headings": 9,
+                    "paragraphs": 7,
+                    "schema": [],
+                    "tags": {
+                        "h2": 9,
+                        "p": 7,
+                        "ul": 2,
+                        "table": 1
+                    },
+                    "elements": 19
+                }
             }
         },
         {
@@ -3499,7 +3528,7 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/math220.png",
+                    "image": "files\/course-banners\/math220.jpeg",
                     "imageAlt": "Equations written on a chalkboard. Photo by: Athree23 - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3",
@@ -3542,20 +3571,32 @@
             "order": 45,
             "parent": "syllabi",
             "title": "Math 436",
-            "description": "",
+            "description": "Description  This is a course in abstract linear algebra, focusing on finite-dimensional  vector spaces over the real and complex numbers and linear operators which act  on them. Topics include ei",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/math436.png",
                     "imageAlt": "Looking up at a glass building. Photo by: Joel Filipe - Unsplash.com",
                     "program": "Graduate",
                     "credits": "3",
-                    "name": "Linear Algebra"
+                    "name": "Linear Algebra",
+                    "pdf": "files\/syllabi\/math436\/math436-syllabus.pdf"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1574352243,
                 "type": "syllabi",
                 "template": "syllabi",
-                "icon": "courseicons:math436"
+                "icon": "courseicons:math436",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 3,
+                    "paragraphs": 3,
+                    "schema": [],
+                    "tags": {
+                        "h2": 3,
+                        "p": 3
+                    },
+                    "elements": 6
+                }
             }
         },
         {
@@ -3572,7 +3613,8 @@
                     "imageAlt": "Person holding a petri dish. Photo by: Drew Hays - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Elementary Microbiology"
+                    "name": "Elementary Microbiology",
+                    "pdf": "files\/syllabi\/micrb106\/micrb106-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3595,7 +3637,8 @@
                     "imageAlt": "Refilling liquid in test tubes. Photo by: Louis Reed - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Elementary Microbiology Laboratory"
+                    "name": "Elementary Microbiology Laboratory",
+                    "pdf": "files\/syllabi\/micrb107\/micrb107-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3618,7 +3661,8 @@
                     "imageAlt": "Abstract Rocket Launch",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Physics Behind the Headlines"
+                    "name": "Physics Behind the Headlines",
+                    "pdf": "files\/syllabi\/phys010\/phys010-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3634,20 +3678,34 @@
             "order": 49,
             "parent": "syllabi",
             "title": "Phys 211",
-            "description": "",
+            "description": "Description  Calculus-based study of the basic concepts of mechanics: motion, force,  Newton's laws, energy, collisions, and rotation. A full list of course  objectives can be found in Canvas. ",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/phys211.png",
                     "imageAlt": "Farris Wheel in motion at night by Engin Akyurt",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "General Physics: Mechanics"
+                    "name": "General Physics: Mechanics",
+                    "pdf": "files\/syllabi\/phys211\/phys211-syllabus.pdf"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
+                "updated": 1574443536,
                 "type": "syllabi",
                 "template": "syllabi",
-                "icon": "courseicons:phys211"
+                "icon": "courseicons:phys211",
+                "readtime": 5,
+                "contentDetails": {
+                    "headings": 7,
+                    "paragraphs": 13,
+                    "schema": [],
+                    "tags": {
+                        "h2": 7,
+                        "p": 13,
+                        "ul": 6,
+                        "table": 1
+                    },
+                    "elements": 27
+                }
             }
         },
         {
