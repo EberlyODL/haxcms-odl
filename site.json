@@ -627,7 +627,7 @@
                     "imageAlt": "Observatory with sky and stars. Photo by: Alex Franzelin - Unsplash.com",
                     "subject": "Astronomy",
                     "program": "Undergraduate",
-                    "credits": "3",
+                    "credits": "1",
                     "video": "",
                     "description": "This course focuses on experiments and explorations to illustrate major astronomical principles and techniques. Travel through a telescope to form observations of planets, stars and nebulae. Discover the universe through engaging discussions and weekly labs. Weekly labs include discussion of the search for extraterrestrial intelligence, an activity to illustrate the phases of the moon, analysis of the colorful spectra of different chemical elements, and exploration of the deepest image of space ever obtained. In addition, students will complete a semester nighttime observation project that typically involves learning some constellations, tracing phases of the moon, and sketching images seen through our well-equipped rooftop student observatory.",
                     "name": "Elementary Astronomy Laboratory"
@@ -2371,8 +2371,9 @@
                     "image": "files\/course-banners\/astro011.png",
                     "imageAlt": "Observatory with sky and stars. Photo by: Alex Franzelin - Unsplash.com",
                     "program": "Undergraduate",
-                    "credits": "3",
-                    "name": "Elementary Astronomy Laboratory"
+                    "credits": "1",
+                    "name": "Elementary Astronomy Laboratory",
+                    "pdf": "files\/syllabi\/astro011\/astro011-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -2396,7 +2397,7 @@
                     "program": "Undergraduate",
                     "credits": "3",
                     "name": "The Big Bang Universe",
-                    "pdf": "files\/syllabi\/astro120\/astro120-syllabus.pdf"
+                    "pdf": "files\/syllabi\/astro120\/astro120-syllabi.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1572441609,
@@ -2433,7 +2434,7 @@
                     "program": "Undergraduate",
                     "credits": "3",
                     "name": "Black Holes in the Universe",
-                    "pdf": "files\/syllabi\/astro130\/astro130-syllabus.pdf"
+                    "pdf": "files\/syllabi\/astro130\/astro130-syllabi.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
