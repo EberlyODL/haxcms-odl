@@ -1673,7 +1673,7 @@ class HaxThemeHome extends PolymerElement {
         alt="students receiving instruction in classroom"
         text="A creative studio for your classroom"
       ></homepage-banner>
-      <info-box id="about" title="What We Do" url="https://www.google.com">
+      <info-box id="about" title="What We Do" url="about">
         <span slot="action_text">
           The Office of Digital Learning (ODL) helps faculty and students make
           the most of digital learning technology. We collaboratively design and
