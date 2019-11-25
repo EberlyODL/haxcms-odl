@@ -148,7 +148,7 @@
             "order": 1,
             "parent": "news",
             "title": "H5P - Documentation Tool",
-            "description": "Are you searching for a creative, interactive, and engaging way to have students submit details about an assignment or project they\u2019re working on?  Would you like this information to be exported to a nicely formatted text document instantly?  Look no further",
+            "description": "Are you searching for a creative, interactive, and engaging way to have    students submit details about an    assignment or project they\u2019re working on? Would you like this information to    be e",
             "metadata": {
                 "fields": {
                     "image": "files\/blog-images\/11-19-18.jpg",
@@ -156,7 +156,7 @@
                     "authorId": "chuck"
                 },
                 "created": 1542603600,
-                "updated": 1541517757,
+                "updated": 1574693494,
                 "type": "news",
                 "template": "news",
                 "author": "Charles Lavera",
@@ -166,7 +166,17 @@
                     "H5P",
                     "Content",
                     "Engagement"
-                ]
+                ],
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": {
+                        "div": 2
+                    },
+                    "elements": 2
+                }
             }
         },
         {
@@ -3722,7 +3732,8 @@
                     "imageAlt": "Lightning In The Fields.  Photo by: NOAA - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "General Physics: Electricity & Magnetism"
+                    "name": "General Physics: Electricity & Magnetism",
+                    "pdf": "files\/syllabi\/phys212\/phys212-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,

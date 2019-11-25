@@ -128,9 +128,9 @@
   <entry>
     <title>H5P - Documentation Tool</title>
     <id>/blog-posts/11-19-18</id>
-    <updated>2018-11-06T15:22:37+00:00</updated>
+    <updated>2019-11-25T14:51:34+00:00</updated>
     <published>2018-11-19T05:00:00+00:00</published>
-    <summary>Are you searching for a creative, interactive, and engaging way to have students submit details about an assignment or project they’re working on?  Would you like this information to be exported to a nicely formatted text document instantly?  Look no further</summary>
+    <summary>Are you searching for a creative, interactive, and engaging way to have    students submit details about an    assignment or project they’re working on? Would you like this information to    be e</summary>
     <link href="/blog-posts/11-19-18"/>
     <category term="H5P" label="H5P" /><category term="Content" label="Content" /><category term="Engagement" label="Engagement" />
     <content type="html">
@@ -153,13 +153,11 @@
     implement this newly created content into your website. Check it out!
 </div>
 <div>
-    <br> 
-    <video-player lang="en" preload="metadata"
-        source="https://youtu.be/8-PdyiAkkuI"
-        sticky-corner="top-right" youtube-id="8-PdyiAkkuI" iframed
-        source-type="youtube" is-a11y-media is-youtube media-title="H5P -
-        Documentation Tool"></video-player>
-</div> ]]>
+    <br/> 
+    <video-player lang="en" preload="metadata" source="https://youtu.be/8-PdyiAkkuI" sticky-corner="top-right" youtube-id="8-PdyiAkkuI" iframed="" source-type="youtube" is-a11y-media="" is-youtube="" media-title="H5P -
+        Documentation Tool" accent-color="grey" resource="#149cc203-4b4b-4be5-345d" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " sources="[]" tracks="[]" schema-resource-id="#149cc203-4b4b-4be5-345d"></video-player>
+</div>
+ ]]>
     </content>
   </entry>
   <entry>
@@ -949,7 +947,116 @@
     <link href="/syllabi/phys212"/>
     
     <content type="html">
-      <![CDATA[  ]]>
+      <![CDATA[ <h2>Description</h2>
+<p>
+  Calculus-based introduction to classical electricity and magnetism, including
+  such topics as, electric charge and electric fields, Gauss's law, electric
+  potential, capacitance, current, resistance, and circuits, magnetic fields,
+  and fields due to currents, induction and inductance, magnetism of matter,
+  Maxwell's equations, and electromagnetic oscillations
+</p>
+<h2>Prerequisite</h2>
+<p>Math 140, Phys 211 Concurrent: MATH 141</p>
+<h2>Textbook</h2>
+<p>
+  Physics for Scientists and Engineers: A Strategic Approach by Knight, 4th
+  edition. This course will cover (in parts) chapters 22-32 and Chap 16 from the
+  Phys 211 book.
+</p>
+<h2>Course Topics</h2>
+<table>
+  <th>Unit</th>
+  <th>Topic(s)</th>
+  <tr>
+    <td>1</td>
+    <td>Electric Force and Field</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Electric Potential & Current</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>DC Circuits</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Magnetism</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Electromagnetic Induction</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>AC Circuits</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Electromagnetic Waves</td>
+  </tr>
+</table>
+
+<h2>Course Schedule</h2>
+<p>
+  This is a 4 credit course that is fairly intensive with course work due almost
+  every day. A standard week contains three phases: exploratory phase, problem
+  solving phase and revision phase. The exploratory phase of a giving week
+  overlaps with the revision phase of the previous week. The final assignment
+  for a week are due on Tuesday of the next week allowing time to review and
+  discuss.
+</p>
+<table>
+  <th>Days</th>
+  <th>Wednesday</th>
+  <th>Thursday</th>
+  <th>Friday</th>
+  <th>Saturday</th>
+  <th>Sunday</th>
+  <th>Monday</th>
+  <th>Tuesday</th>
+  <tr>
+    <td></td>
+    <td colspan="2">Exploratory Phase</td>
+    <td colspan="2">Problem Solving Phase</td>
+    <td colspan="3">Revision Phase / Exploratory Phase (Next Week)</td>
+  </tr>
+  <tr>
+    <td>Graded Assignments due</td>
+    <td>Discussion Board - 1st Post</td>
+    <td>Reading Quiz</td>
+    <td></td>
+    <td>Tutorial / Lab - 1st Draft</td>
+    <td>Discussion Boards - Replies</td>
+    <td>Peer Reviews</td>
+    <td>Tutorial / Lab - Final Version</td>
+  </tr>
+  <tr>
+    <td>Live Sessions</td>
+    <td></td>
+    <td>Office Hours</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td colspan="2">Learning Sessions</td>
+  </tr>
+</table>
+
+<p>
+  Not every week will contain all different types of assignments. For an exam
+  week, the exam is on Thursday (on the material of the previous weeks).
+</p>
+<p>
+  Most of the material is posted ahead and it is entirely possible for you to
+  adjust this schedule to fit better with your own work/study schedule.
+</p>
+<h2>Reading Quiz</h2>
+<p>
+  We will be using an online computer grading system called MasteringPhysics
+  (https://www.pearsonmylabandmastering.com/) to do reading quiz . Access to
+  MasteringPhysics is provided in the PSU custom book in the bookstore.
+</p>
+ ]]>
     </content>
   </entry>
   <entry>
