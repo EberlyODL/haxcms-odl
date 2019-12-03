@@ -3581,7 +3581,8 @@
                     "imageAlt": "Equations written on a chalkboard. Photo by: Athree23 - Pixabay.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Matrices"
+                    "name": "Matrices",
+                    "pdf": "files\/syllabi\/math220\/math220-syllabus.pdf"  
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3604,7 +3605,8 @@
                     "imageAlt": "Equations written on a white board. Photo by: Lucas Rosas - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Ordinary Differential Equations"
+                    "name": "Ordinary Differential Equations",
+                    "pdf": "files\/syllabi\/math250\/math250-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
