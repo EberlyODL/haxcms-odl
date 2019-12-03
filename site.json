@@ -10,7 +10,13 @@
         "theme": {
             "element": "odl-haxtheme",
             "path": "@lrnwebcomponents\/haxcms-elements\/lib\/core\/themes\/haxcms-basic-theme.js",
-            "name": "Eberly ODL"
+            "name": "Eberly ODL",
+            "variables": {
+                "image": "",
+                "hexCode": "",
+                "cssVariable": "--simple-colors-default-theme--7",
+                "icon": ""
+            }
         },
         "icon": "icons:add-circle-outline",
         "domain": "https:\/\/odl.surge.sh",
@@ -29,8 +35,28 @@
         "site": {
             "name": "haxcms-odl",
             "created": 1565898366,
-            "updated": 1567519778,
-            "git": {}
+            "updated": 1575387668,
+            "git": {
+                "autoPush": false,
+                "branch": "",
+                "staticBranch": "",
+                "vendor": "",
+                "publicRepoUrl": "",
+                "url": ""
+            },
+            "version": "0.12.3",
+            "domain": "",
+            "logo": "files\/Artboard 1@4x.png",
+            "static": {
+                "cdn": "",
+                "offline": false
+            },
+            "settings": {
+                "pathauto": false,
+                "publishPagesOn": false,
+                "sw": false,
+                "forceUpgrade": false
+            }
         },
         "core": {
             "defaultSettings": {
@@ -40,17 +66,18 @@
         "author": {
             "name": "ODL",
             "image": "",
-            "socialLink": ""
+            "socialLink": "",
+            "email": ""
         },
         "node": {
-            "fields": {
-                "configure": [
+            "fields": [
+                [
                     {
                         "inputMethod": "array",
                         "property": "images",
                         "title": "Other sources",
                         "description": "List of images",
-                        "required": false,
+                        "required": "",
                         "icon": "image:collections"
                     },
                     {
@@ -58,7 +85,7 @@
                         "property": "subtitle",
                         "title": "Subtitle",
                         "description": "An additional subtitle",
-                        "required": false,
+                        "required": "",
                         "icon": "editor:text-fields"
                     },
                     {
@@ -66,12 +93,12 @@
                         "property": "tags",
                         "title": "Tags",
                         "description": "Tags for the page",
-                        "required": false,
+                        "required": "",
                         "icon": "image:collections"
                     }
                 ],
-                "advanced": []
-            },
+                []
+            ],
             "dynamicElementLoader": {
                 "a11y-gif-player": "@lrnwebcomponents\/a11y-gif-player\/a11y-gif-player.js",
                 "code-sample": "@lrnwebcomponents\/code-sample\/code-sample.js",
@@ -125,7 +152,17 @@
             "description": "",
             "metadata": {
                 "created": 1541517715,
-                "updated": 1547477518
+                "updated": 1547477518,
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/sites\/haxcms-odl\/files\/Artboard 1@4x.png",
+                        "fullUrl": "\/sites\/haxcms-odl\/files\/Artboard 1@4x.png",
+                        "url": "files\/Artboard 1@4x.png",
+                        "type": "image\/png",
+                        "name": "Artboard 1@4x.png",
+                        "size": 15470
+                    }
+                ]
             }
         },
         {
@@ -2055,7 +2092,7 @@
                     "imageAlt": "Equations written on a chalkboard. Photo by: Athree23 - Pixabay.com",
                     "subject": "Math",
                     "program": "Undergraduate",
-                    "credits": "3",
+                    "credits": "2",
                     "video": "",
                     "description": "Systems of linear equations appear everywhere in mathematics and its applications. MATH 220 will give students the basic tools necessary to analyze and understand such systems. The initial portion of the course teaches the fundamentals of solving linear systems. This requires the language and notation of matrices and fundamental techniques for working with matrices such as row and column operations, echelon form, and invertibility. The determinant of a matrix is also introduced; it gives a test for invertibility. In the second part of the course the key ideas of eigenvector and eigenvalue are developed. These allow one to analyze a complicated matrix problem into simpler components and appear in many disguises in physical problems. The course also introduces the concept of a vector space, a crucial element in future linear algebra courses. This course is completed by a wide variety of students across the university, including students majoring in engineering programs, the sciences, and mathematics. (In case of many of these students, MATH 220 is a required course in their degree program).",
                     "name": "Matrices"
@@ -3360,7 +3397,8 @@
                     "imageAlt": "A staircase in triangular patterns. Photo by:  Viswanath V Pai - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
-                    "name": "Plane Trigonometry"
+                    "name": "Plane Trigonometry",
+                    "pdf": "files\/syllabi\/math026\/math026-syllabi.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,

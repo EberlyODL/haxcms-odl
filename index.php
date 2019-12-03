@@ -1,7 +1,13 @@
+<?php
+  include_once __DIR__ . '/../../system/lib/bootstrapHAX.php';
+  include_once $HAXCMS->configDirectory . '/config.php';
+  $site = $HAXCMS->loadSite(basename(__DIR__));
+  $page = $site->loadNodeByLocation();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <?php print $site->getSiteMetadata($page); ?>
   <link rel="preload" href="./build/es6/dist/build.js" as="script" crossorigin="anonymous">
   <link rel="preload" href="./custom/build/custom.es6.js" as="script" crossorigin="anonymous">
   <link rel="preload" href="./build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-builder.js"
@@ -9,39 +15,8 @@
   <link rel="preload" href="./build/es6/dist/my-custom-elements.js" as="script" crossorigin="anonymous">
   <link rel="preload" href="./build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/base.css" as="style">
   <link rel="preload" href="./theme/theme.css" as="style">
-  <link rel="preconnect" crossorigin href="https://fonts.googleapis.com">
-  <link rel="preconnect" crossorigin href="https://cdnjs.cloudflare.com">
-  <link rel="preconnect" crossorigin href="https://i.creativecommons.org">
-  <link rel="preconnect" crossorigin href="https://licensebuttons.net">
-  <script type="text/javascript">
-    // attempt to correctly set the base without knowing where we're installed fully...
-    if (document.location.pathname.indexOf('/_sites/') != -1) {
-      document.write("<base href='" + document.location.pathname.substring(0, document.location.pathname.indexOf('/', document.location.pathname.indexOf('/_sites/') + 8)) + "/' />");
-    }
-    else if (document.location.pathname.indexOf('/sites/') != -1) {
-      document.write("<base href='" + document.location.pathname.substring(0, document.location.pathname.indexOf('/', document.location.pathname.indexOf('/sites/') + 7)) + "/' />");
-    }
-  </script>
-  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,user-scalable=yes">
-  <meta name="generator" content="HAXcms">
-  <meta name="description" content="A HAXCMS site">
-  <meta name="theme-color" content="#3f51b5">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name=”robots” content=”index, follow”>
-  <meta name="application-name" content="My site">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="My App">
-  <meta name="msapplication-TileImage" content="assets/icon-144x144.png">
-  <meta name="msapplication-TileColor" content="#3f51b5">
-  <meta name="msapplication-tap-highlight" content="no">
-  <link rel="icon" href="assets/favicon.ico">
-  <link rel="apple-touch-icon" href="assets/icon-48x48.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="96x96" href="assets/icon-96x96.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="assets/icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="192x192" href="assets/icon-192x192.png">
-  <title>My site</title>
+  <?php print $site->getBaseTag(); ?>
+  <?php print $site->getServiceWorkerScript(null, FALSE, $site->getServiceWorkerStatus()); ?>
   <style>
     body {
       margin: 0;
@@ -77,8 +52,14 @@
     }
   </style>
 </head>
-<body no-js vocab="http://schema.org/" prefix="oer:http://oerschema.org cc:http://creativecommons.org/ns dc:http://purl.org/dc/terms/">
-  <haxcms-site-builder id="site" file="site.json"><div class="loading"><div>Site</div><div>loading</div></div></haxcms-site-builder>
+<body no-js <?php print $site->getSitePageAttributes();?>>
+  <haxcms-site-builder id="site" file="site.json">
+    <div class="loading">
+      <div><?php print $site->name; ?></div>
+      <div>loading</div>
+    </div>
+    <?php print $site->getPageContent($page); ?>
+  </haxcms-site-builder>
   <div id="haxcmsoutdatedfallback">
     <haxcms-legacy-player file="site.json"></haxcms-legacy-player>
     <div id="haxcmsoutdatedfallbacksuperold"> 
@@ -89,7 +70,7 @@
         view our website correctly. <a href="http://outdatedbrowser.com/">Update my browser now</a></div>
     </div>
   </div>
-  <script>document.body.removeAttribute('no-js');var cdn="";var forceUpgrade=false;var old=false;var ancient=false;
+  <script>document.body.removeAttribute('no-js');var cdn="";var forceUpgrade=<?php print $site->getForceUpgrade();?>;var old=false;var ancient=false;
     if (typeof Symbol == "undefined") { // IE 11, at least try to serve a watered down site
       ancient = true;
     }
