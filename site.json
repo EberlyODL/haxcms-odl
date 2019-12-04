@@ -572,7 +572,7 @@
             "id": "spotlight",
             "indent": 0,
             "location": "pages\/spotlight\/index.html",
-            "order": 1,
+            "order": 7,
             "parent": null,
             "title": "Spotlight",
             "description": "Faculty spotlight pages",
@@ -606,7 +606,7 @@
             "id": "courses",
             "indent": 0,
             "location": "pages\/courses\/index.html",
-            "order": 4,
+            "order": 5,
             "parent": null,
             "title": "Courses",
             "description": "",
@@ -3781,6 +3781,99 @@
                 "type": "syllabi",
                 "template": "syllabi",
                 "icon": "courseicons:phys211"
+            }
+        },
+        {
+            "id": "services",
+            "indent": 0,
+            "location": "pages\/services\/index.html",
+            "order": 8,
+            "parent": null,
+            "title": "Services",
+            "description": "",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755
+            }
+        },
+        {
+            "id": "ngdle",
+            "indent": 1,
+            "location": "pages\/services\/ngdle\/index.html",
+            "order": 1,
+            "parent": "services",
+            "title": "NGDLE",
+            "description": "Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit.",
+            "metadata": {
+                "fields": {
+                    "name": "NGDLE",
+                    "image": "",
+                    "label": "Build"
+                },
+                "created": 1555387200,
+                "updated": 1555387200,
+                "type": "services",
+                "template": "services"
+            }
+        },
+        {
+            "id": "pedagogy",
+            "indent": 1,
+            "location": "pages\/services\/pedagogy\/index.html",
+            "order": 2,
+            "parent": "services",
+            "title": "Pedagogy",
+            "description": "Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit.",
+            "metadata": {
+                "fields": {
+                    "name": "Pedagogy",
+                    "image": "",
+                    "label": "Learn"
+                },
+                "created": 1555387200,
+                "updated": 1555387200,
+                "type": "services",
+                "template": "services"
+            }
+        },
+        {
+            "id": "lab",
+            "indent": 1,
+            "location": "pages\/services\/lab\/index.html",
+            "order": 2,
+            "parent": "services",
+            "title": "Lab",
+            "description": "Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit.",
+            "metadata": {
+                "fields": {
+                    "name": "Lab",
+                    "image": "",
+                    "label": "Explore"
+                },
+                "created": 1555387200,
+                "updated": 1555387200,
+                "type": "services",
+                "template": "services"
+            }
+        },
+        {
+            "id": "obs",
+            "indent": 1,
+            "location": "pages\/services\/obs\/index.html",
+            "order": 2,
+            "parent": "services",
+            "title": "One Button studio",
+            "description": "Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit.",
+            "metadata": {
+                "fields": {
+                    "name": "One Button Studio",
+                    "image": "",
+                    "label": "Film"
+                },
+                "created": 1555387200,
+                "updated": 1555387200,
+                "type": "services",
+                "template": "services"
             }
         }
     ]

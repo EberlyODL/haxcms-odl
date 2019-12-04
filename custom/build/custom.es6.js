@@ -1683,53 +1683,29 @@ class HaxThemeHome extends PolymerElement {
       <div id="promo_tile_header"></div>
       <div id="promo_tile_wrap">
         <div class="promo_tile">
+        <site-query
+          result="{{__serviceitems}}"
+          conditions='{
+          "metadata.type": "services"
+        }'
+          limit="4"
+        ></site-query>
+        <dom-repeat items="[[__serviceitems]]" mutable-data>
+          <template>
           <promo-tile
-            title="ELMS:LN"
-            label="Create"
+            title="[[item.metadata.fields.name]]"
+            label="[[item.metadata.fields.label]]"
             image="files/theme-images/promo-tiles/elmsln-tile.jpg"
             alt="ELMS:LN"
-            url="https://www.elmsln.org/"
+            url="[[item.location]]"
           >
             Create your course using the ELMS:LN platform and gain access to a
             network of innovative technologies instantly.
           </promo-tile>
+       </template>
+        </dom-repeat>
         </div>
-        <div class="promo_tile">
-          <promo-tile
-            title="Virtual Reality"
-            label="Explore"
-            image="files/theme-images/promo-tiles/vr-tile.jpg"
-            alt="A student using VR goggles"
-            url="https://www.google.com"
-          >
-            Enter another dimension and add exciting virtual interactions to
-            your online classroom.
-          </promo-tile>
-        </div>
-        <div class="promo_tile">
-          <promo-tile
-            title="HAX"
-            label="Build"
-            image="files/theme-images/promo-tiles/hax-tile.jpg"
-            alt="user enjoying the HAX authoring experience"
-            url="https://haxtheweb.org"
-          >
-            Quickly create and edit accessible, high quality content using this
-            next generation authoring experience.
-          </promo-tile>
-        </div>
-        <div class="promo_tile">
-          <promo-tile
-            title="One Button Studio"
-            label="Film"
-            image="files/theme-images/promo-tiles/obs-tile.jpg"
-            alt="camera filming video"
-            url="https://www.google.com"
-          >
-            Film engaging video content for your class with ease using our one
-            button studio and light board.
-          </promo-tile>
-        </div>
+        
       </div>
       <site-query
         result="{{__newsitems}}"
@@ -1802,10 +1778,12 @@ class HaxThemeHome extends PolymerElement {
   static get tag() {
     return "haxtheme-home";
   }
+  
   constructor() {
     super();
     import('../../build/es6/node_modules/@polymer/paper-button/paper-button.js');
   }
+  
 }
 window.customElements.define(HaxThemeHome.tag, HaxThemeHome);
 
@@ -1993,6 +1971,56 @@ class HaxThemeAbout extends PolymerElement {
   }
 }
 window.customElements.define(HaxThemeAbout.tag, HaxThemeAbout);
+
+class HaxThemeServices extends PolymerElement {
+  static get template() {
+    return html`
+      <style>
+        :host {
+          display: block;
+        }
+        /**
+       * Hide the slotted content during edit mode. This must be here to work.
+       */
+        :host([edit-mode]) #slot {
+          display: none;
+        }
+
+       
+      </style>
+      <page-banner
+        image="files/theme-images/page-banners/news_banner.jpg"
+        text="[[activeItem.metadata.fields.name]]"
+        alt="Services"
+      ></page-banner>
+      <div id="content-wrap">
+       <div>Services template is working!</div>
+      </div>
+    `;
+  }
+  static get tag() {
+    return "haxtheme-services";
+  }
+  connectedCallback() {
+    super.connectedCallback();
+    this.__disposer = [];
+    autorun(reaction => {
+      this.manifest = toJS(store.routerManifest);
+      this.__disposer.push(reaction);
+    });
+    autorun(reaction => {
+      this.activeItem = toJS(store.activeItem);
+      this.__disposer.push(reaction);
+    });
+  }
+  disconnectedCallback() {
+    for (var i in this.__disposer) {
+      this.__disposer[i].dispose();
+    }
+    super.disconnectedCallback();
+  }
+}
+window.customElements.define(HaxThemeServices.tag, HaxThemeServices);
 
 class NewsCard extends LitElement {
   static get styles() {
@@ -6372,7 +6400,7 @@ tr:hover {
   conditions='{
     "parent": null,
     "location": {
-      "value": ["syllabi", "spotlight"],
+      "value": ["syllabi", "spotlight", "services"],
       "operator": "!="
     }
   }'>
@@ -6388,6 +6416,7 @@ tr:hover {
     <haxtheme-profile id="profile" edit-mode$="[[editMode]]"></haxtheme-profile>
     <haxtheme-course id="course" edit-mode$="[[editMode]]"></haxtheme-course>
     <haxtheme-syllabus id="syllabus" edit-mode$="[[editMode]]"></haxtheme-syllabus>
+    <haxtheme-services id="services" edit-mode$="[[editMode]]"></haxtheme-services>
 </iron-pages>
 <scroll-button></scroll-button>
 <page-footer></page-footer>`;
@@ -6568,8 +6597,11 @@ tr:hover {
           } else if (location.route.path.startsWith("syllabi/")) {
             this.selectedPage = 9;
             target = "syllabus";
-          } else if (location.route.path.startsWith("about/")) {
+          } else if (location.route.path.startsWith("services/")) {
             this.selectedPage = 10;
+            target = "services";
+          } else if (location.route.path.startsWith("about/")) {
+            this.selectedPage = 11;
             target = "about";
           }
           break;

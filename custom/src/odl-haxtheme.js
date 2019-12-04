@@ -12,6 +12,7 @@ import { wipeSlot } from "@lrnwebcomponents/hax-body/lib/haxutils.js";
 import "@polymer/iron-pages/iron-pages.js";
 import "./lib/haxtheme-home.js";
 import "./lib/haxtheme-about.js";
+import "./lib/haxtheme-services";
 import "./lib/haxtheme-news.js";
 import "./lib/haxtheme-team.js";
 import "./lib/haxtheme-courses.js";
@@ -179,7 +180,7 @@ tr:hover {
   conditions='{
     "parent": null,
     "location": {
-      "value": ["syllabi", "spotlight"],
+      "value": ["syllabi", "spotlight", "services"],
       "operator": "!="
     }
   }'>
@@ -195,6 +196,7 @@ tr:hover {
     <haxtheme-profile id="profile" edit-mode$="[[editMode]]"></haxtheme-profile>
     <haxtheme-course id="course" edit-mode$="[[editMode]]"></haxtheme-course>
     <haxtheme-syllabus id="syllabus" edit-mode$="[[editMode]]"></haxtheme-syllabus>
+    <haxtheme-services id="services" edit-mode$="[[editMode]]"></haxtheme-services>
 </iron-pages>
 <scroll-button></scroll-button>
 <page-footer></page-footer>`;
@@ -375,8 +377,11 @@ tr:hover {
           } else if (location.route.path.startsWith("syllabi/")) {
             this.selectedPage = 9;
             target = "syllabus";
-          } else if (location.route.path.startsWith("about/")) {
+          } else if (location.route.path.startsWith("services/")) {
             this.selectedPage = 10;
+            target = "services";
+          } else if (location.route.path.startsWith("about/")) {
+            this.selectedPage = 11;
             target = "about";
           }
           break;
