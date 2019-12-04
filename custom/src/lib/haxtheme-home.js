@@ -34,14 +34,18 @@ class HaxThemeHome extends PolymerElement {
           }
         }
 
+
+
+
+
         promo-tile {
           --button-hover-color: none;
         }
 
-        #promo_tile_header {
+        /* #promo_tile_header {
           display: flex;
           justify-content: center;
-        }
+        } */
 
         #promo_tile_wrap {
           display: flex;
@@ -79,6 +83,12 @@ class HaxThemeHome extends PolymerElement {
           }
         }
 
+
+
+
+
+
+
         @media screen and (max-width: 1124px) {
           page-feature {
             width: 100%;
@@ -108,7 +118,6 @@ class HaxThemeHome extends PolymerElement {
           build tools for any pedagogy; dream it and we will build it.
         </span>
       </info-box>
-      <div id="promo_tile_header"></div>
       <div id="promo_tile_wrap">
         <div class="promo_tile">
         <site-query
@@ -123,17 +132,15 @@ class HaxThemeHome extends PolymerElement {
           <promo-tile
             title="[[item.metadata.fields.name]]"
             label="[[item.metadata.fields.label]]"
-            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
-            alt="ELMS:LN"
+            image="[[item.metadata.fields.image]]"
+            alt="[[item.metadata.fields.tileAlt]]"
             url="[[item.location]]"
           >
-            Create your course using the ELMS:LN platform and gain access to a
-            network of innovative technologies instantly.
+          [[item.metadata.fields.short]]
           </promo-tile>
        </template>
         </dom-repeat>
         </div>
-        
       </div>
       <site-query
         result="{{__newsitems}}"

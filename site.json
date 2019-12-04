@@ -3807,8 +3807,10 @@
             "metadata": {
                 "fields": {
                     "name": "NGDLE",
-                    "image": "",
-                    "label": "Build"
+                    "image": "files/theme-images/promo-tiles/elmsln-tile.jpg",
+                    "tileAlt": "NGDLE is short for Next Generation Learning Environment.",
+                    "label": "Discover",
+                    "short": "Create your course using our revolutionary NGDLE platform & gain access to a network of innovative technologies instantly."
                 },
                 "created": 1555387200,
                 "updated": 1555387200,
@@ -3827,8 +3829,10 @@
             "metadata": {
                 "fields": {
                     "name": "Pedagogy",
-                    "image": "",
-                    "label": "Learn"
+                    "image": "files/theme-images/promo-tiles/hax-tile.jpg",
+                    "tileAlt": "Pedagogy is the study of how knowledge and skills are imparted in an educational context, and it considers the interactions that take place during learning.",
+                    "label": "Learn",
+                    "short": "Pedagogy refers to the theory & practice of learning, & how this process influences the development of learners."
                 },
                 "created": 1555387200,
                 "updated": 1555387200,
@@ -3847,8 +3851,10 @@
             "metadata": {
                 "fields": {
                     "name": "Lab",
-                    "image": "",
-                    "label": "Explore"
+                    "image": "files/theme-images/promo-tiles/vr-tile.jpg",
+                    "tileAlt": "A student using virtual reality; check out some of the new technologies we're exploring.",
+                    "label": "Explore",
+                    "short": "Our team is working constantly to identify & share the industry's best educational resources; check out what we've been up to."
                 },
                 "created": 1555387200,
                 "updated": 1555387200,
@@ -3862,13 +3868,15 @@
             "location": "pages\/services\/obs\/index.html",
             "order": 2,
             "parent": "services",
-            "title": "One Button studio",
+            "title": "Studio",
             "description": "Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit.",
             "metadata": {
                 "fields": {
-                    "name": "One Button Studio",
-                    "image": "",
-                    "label": "Film"
+                    "name": "Studio",
+                    "image": "files/theme-images/promo-tiles/obs-tile.jpg",
+                    "tileAlt": "Use the One Button Studio to record professional lectures and presentations.",
+                    "label": "Film",
+                    "short": "Work with experts to record presentations, lectures, ideas and more in our One Button Studio."
                 },
                 "created": 1555387200,
                 "updated": 1555387200,
