@@ -34,22 +34,28 @@ class HaxThemeHome extends PolymerElement {
           }
         }
 
-
-
-
-
         promo-tile {
           --button-hover-color: none;
         }
 
-        /* #promo_tile_header {
-          display: flex;
-          justify-content: center;
-        } */
+        .promo_tile {
+          display: grid;
+          grid-template-columns: repeat(5, auto);
+        }
+
+        @media screen and (max-width: 1330px) {
+          .promo_tile {
+            grid-template-columns: repeat(2, auto);
+          }
+        }
+
+        @media screen and (max-width: 768px) {
+          .promo_tile {
+            grid-template-columns: repeat(1, auto);
+          }
+        }
 
         #promo_tile_wrap {
-          display: flex;
-          flex-wrap: wrap;
           border-top: solid;
           border-top-width: 20px;
           border-top-color: var(--theme-color-1);
@@ -67,28 +73,6 @@ class HaxThemeHome extends PolymerElement {
           }
         }
 
-        #promo_tile_wrap > * {
-          width: 100%;
-        }
-
-        @media screen and (min-width: 600px) {
-          #promo_tile_wrap > * {
-            width: 50%;
-          }
-        }
-
-        @media screen and (min-width: 1124px) {
-          #promo_tile_wrap > * {
-            width: 25%;
-          }
-        }
-
-
-
-
-
-
-
         @media screen and (max-width: 1124px) {
           page-feature {
             width: 100%;
@@ -103,8 +87,6 @@ class HaxThemeHome extends PolymerElement {
             width: 94%;
           }
         }
-
-
       </style>
       <homepage-banner
         image="files/theme-images/page-banners/odl_homepage_banner.jpg"
@@ -118,15 +100,15 @@ class HaxThemeHome extends PolymerElement {
           build tools for any pedagogy; dream it and we will build it.
         </span>
       </info-box>
-      <div id="promo_tile_wrap">
-        <div class="promo_tile">
-        <site-query
+      <site-query
           result="{{__serviceitems}}"
           conditions='{
           "metadata.type": "services"
         }'
           limit="4"
         ></site-query>
+      <div id="promo_tile_wrap">
+        <div class="promo_tile">
         <dom-repeat items="[[__serviceitems]]" mutable-data>
           <template>
           <promo-tile

@@ -1606,22 +1606,28 @@ class HaxThemeHome extends PolymerElement {
           }
         }
 
-
-
-
-
         promo-tile {
           --button-hover-color: none;
         }
 
-        /* #promo_tile_header {
-          display: flex;
-          justify-content: center;
-        } */
+        .promo_tile {
+          display: grid;
+          grid-template-columns: repeat(5, auto);
+        }
+
+        @media screen and (max-width: 1330px) {
+          .promo_tile {
+            grid-template-columns: repeat(2, auto);
+          }
+        }
+
+        @media screen and (max-width: 768px) {
+          .promo_tile {
+            grid-template-columns: repeat(1, auto);
+          }
+        }
 
         #promo_tile_wrap {
-          display: flex;
-          flex-wrap: wrap;
           border-top: solid;
           border-top-width: 20px;
           border-top-color: var(--theme-color-1);
@@ -1639,28 +1645,6 @@ class HaxThemeHome extends PolymerElement {
           }
         }
 
-        #promo_tile_wrap > * {
-          width: 100%;
-        }
-
-        @media screen and (min-width: 600px) {
-          #promo_tile_wrap > * {
-            width: 50%;
-          }
-        }
-
-        @media screen and (min-width: 1124px) {
-          #promo_tile_wrap > * {
-            width: 25%;
-          }
-        }
-
-
-
-
-
-
-
         @media screen and (max-width: 1124px) {
           page-feature {
             width: 100%;
@@ -1675,8 +1659,6 @@ class HaxThemeHome extends PolymerElement {
             width: 94%;
           }
         }
-
-
       </style>
       <homepage-banner
         image="files/theme-images/page-banners/odl_homepage_banner.jpg"
@@ -1690,15 +1672,15 @@ class HaxThemeHome extends PolymerElement {
           build tools for any pedagogy; dream it and we will build it.
         </span>
       </info-box>
-      <div id="promo_tile_wrap">
-        <div class="promo_tile">
-        <site-query
+      <site-query
           result="{{__serviceitems}}"
           conditions='{
           "metadata.type": "services"
         }'
           limit="4"
         ></site-query>
+      <div id="promo_tile_wrap">
+        <div class="promo_tile">
         <dom-repeat items="[[__serviceitems]]" mutable-data>
           <template>
           <promo-tile
@@ -1979,7 +1961,7 @@ class HaxThemeAbout extends PolymerElement {
 }
 window.customElements.define(HaxThemeAbout.tag, HaxThemeAbout);
 
-class HaxThemeServices extends PolymerElement {
+class ServiceIcon extends PolymerElement {
   static get template() {
     return html`
       <style>
@@ -1993,1075 +1975,53 @@ class HaxThemeServices extends PolymerElement {
           display: none;
         }
 
-       
-      </style>
-      <page-banner
-        image="files/theme-images/page-banners/news_banner.jpg"
-        text="[[activeItem.metadata.fields.name]]"
-        alt="Services"
-      ></page-banner>
-      <div id="content-wrap">
-       <div>Services template is working!</div>
-      </div>
-    `;
-  }
-  static get tag() {
-    return "haxtheme-services";
-  }
-  connectedCallback() {
-    super.connectedCallback();
-    this.__disposer = [];
-    autorun(reaction => {
-      this.manifest = toJS(store.routerManifest);
-      this.__disposer.push(reaction);
-    });
-    autorun(reaction => {
-      this.activeItem = toJS(store.activeItem);
-      this.__disposer.push(reaction);
-    });
-  }
-  disconnectedCallback() {
-    for (var i in this.__disposer) {
-      this.__disposer[i].dispose();
-    }
-    super.disconnectedCallback();
-  }
-}
-window.customElements.define(HaxThemeServices.tag, HaxThemeServices);
-
-class NewsCard extends LitElement {
-  static get styles() {
-    return [
-      css`
-        :host {
-          display: block;
-          --theme-color-1: #363533;
-          --theme-color-2: #e2801e;
-          --theme-color-4: #fff;
-        }
-
-        a {
-          color: var(--theme-color-1);
-          text-decoration: none;
-        }
-
-        h1 {
-          font-size: 28px;
-          font-weight: 400;
-          line-height: 1.2;
-          margin: 0;
-        }
-
-        @media screen and (max-width: 1124px) {
-          h1 {
-            font-size: 24px;
-          }
-        }
-
-        h1:hover {
-          color: var(--theme-color-2);
-        }
-
-        h2 {
-          color: var(--theme-color-1);
-          font-size: 18px;
-          font-weight: 400;
-          margin: 0;
-        }
-
-        #news_wrap {
-          display: flex;
-          background-color: var(--theme-color-4);
-          margin: 15px;
-          padding: 0 0 10px 0;
-          border-bottom: solid 2px #dcdcdc;
-        }
-
-        @media screen and (max-width: 1124px) {
-          #news_wrap {
-            flex-direction: column;
-          }
-        }
-
-        #content_wrap {
-          width: 75%;
-        }
-
-        @media screen and (max-width: 1124px) {
-          #content_wrap {
-            width: 100%;
-          }
-        }
-
-        #news_image {
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;
-          width: 175px;
-          height: 250px;
-          margin: 0 15px 0 0;
-        }
-
-        @media screen and (max-width: 1124px) {
-          #news_image {
-            width: 100%;
-            height: 235px;
-          }
-        }
-
-        #header_info {
-          border-left: solid 4px var(--theme-color-2);
-          padding: 0 0 0 15px;
-        }
-
-        @media screen and (max-width: 1124px) {
-          #header_info {
-            margin: 15px 0 0 0;
-          }
-        }
-
-        #author_info {
-          display: flex;
-          align-items: center;
-          margin: 5px 0 5px;
-        }
-
-        #author_image {
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: right center;
-          width: 50px;
-          height: 50px;
-          border-radius: 50%;
-          margin: 0 5px 0 0;
-        }
-
-        #author a {
-          color: var(--theme-color-1);
-          text-decoration: none;
-        }
-
-        #author a:hover {
-          color: var(--theme-color-2);
-        }
-
-        #description {
-          margin-top: 10px;
-          font-size: 18px;
-          font-weight: 300;
-          line-height: 1.2;
-        }
-
-        @media screen and (max-width: 1124px) {
-          #description {
-            margin-top: 10px;
-          }
-        }
-
-        #action_button {
-          display: flex;
-          justify-content: flex-end;
-          margin: 20px 0 0 0;
-        }
-
-        @media screen and (max-width: 768px) {
-          #action_button {
-            justify-content: center;
-            margin: 15px 0 0 0;
-          }
-        }
-
-        paper-button#action {
-          color: var(--theme-color-2);
-          padding: 0;
-        }
-
-        paper-button#action:hover,
-        paper-button#action:focus {
-          color: var(--theme-color-1);
-        }
-      `
-    ];
-  }
-  render() {
-    return html$1`
-      <div id="news_wrap">
-        <div
-          id="news_image"
-          style="background-image:url(${this.image})"
-          alt="${this.alt}"
-        ></div>
-        <div id="content_wrap">
-          <div id="header_info">
-            <div id="title">
-              <a href="${this.url}">
-                <h1>${this.title}</h1>
-              </a>
-            </div>
-            <div id="date">
-              <h2>${this.date}</h2>
-            </div>
-            <div id="author_info">
-              <div
-                id="author_image"
-                style="background-image:url(${this.authorimage})"
-              ></div>
-              <div id="author">By: ${this.author}</div>
-            </div>
-          </div>
-          <div id="description">
-            <span>${this.description}</span>
-          </div>
-          <div id="action_button">
-            <a href="${this.url}">
-              <paper-button noink id="action">
-                <div class="title">Read More</div>
-                <iron-icon icon="chevron-right"></iron-icon>
-              </paper-button>
-            </a>
-          </div>
-        </div>
-      </div>
-    `;
-  }
-  static get tag() {
-    return "news-card";
-  }
-  static get properties() {
-    return {
-      /**
-       * Image
-       */
-      image: {
-        type: String
-      },
-      /**
-       * Image Alt Text
-       */
-      alt: {
-        type: String
-      },
-      /**
-       * Title
-       */
-      title: {
-        type: String
-      },
-      /**
-       * Date
-       */
-      date: {
-        type: String
-      },
-      /**
-       * Author Image
-       */
-      authorimage: {
-        type: String
-      },
-      /**
-       * Author
-       */
-      author: {
-        type: String
-      },
-      /**
-       * Author Page
-       */
-      authorpage: {
-        type: String
-      },
-      /**
-       * Article Description
-       */
-      description: {
-        type: String
-      },
-      /**
-       * Destination Url
-       */
-      url: {
-        type: String
-      }
-    };
-  }
-  constructor() {
-    super();
-    import('../../build/es6/node_modules/@polymer/paper-button/paper-button.js');
-  }
-}
-window.customElements.define(NewsCard.tag, NewsCard);
-
-class HaxThemeNews extends PolymerElement {
-  static get template() {
-    return html`
-      <style>
-        :host {
-          display: block;
-        }
-        /**
-       * Hide the slotted content during edit mode. This must be here to work.
-       */
-        :host([edit-mode]) #slot {
-          display: none;
-        }
-        .news_container {
-          display: var(--haxtheme-news-news-container-display, flex);
-          width: var(--haxtheme-news-news-container-width, 80%);
-          margin: var(--haxtheme-news-news-container-margin, 0 auto 0 auto);
-          @apply --haxtheme-news-news-container;
-        }
-
-        @media screen and (max-width: 768px) {
-          .news_container {
-            flex-direction: var(
-              --haxtheme-news-news-container-flex-direction-mobile,
-              column
-            );
-            width: var(--haxtheme-news-news-container-width-mobile, 98%);
-            @apply --haxtheme-news-news-container-mobile;
-          }
-        }
-
-        .news_page_feed {
-          width: var(--haxtheme-news-news-page-feed-width, 75%);
-          margin: var(--haxtheme-news-news-page-feed-margin, 20px 0 0 0);
-          @apply --haxtheme-news-news-page-feed;
-        }
-
-        @media screen and (max-width: 768px) {
-          .news_page_feed {
-            width: var(--haxtheme-news-news-page-feed-width-mobile, 100%);
-            margin: var(
-              --haxtheme-news-news-page-feed-margin-mobile,
-              10px 0 0 0
-            );
-            @apply --haxtheme-news-news-page-feed-mobile;
-          }
-        }
-
-        .sidebar_wrap {
-          width: var(--haxtheme-news-sidebar-wrap-width);
-          height: var(--haxtheme-news-sidebar-wrap-height);
-          margin: var(--haxtheme-news-sidebar-wrap-margin);
-          border-left: var(--haxtheme-news-sidebar-wrap-border-left);
-          border-left-width: var(
-            --haxtheme-news-sidebar-wrap-border-left-width
-          );
-          border-left-color: var(
-            --haxtheme-news-sidebar-wrap-border-left-color
-          );
-          padding: var(--haxtheme-news-sidebar-wrap-padding);
-          @apply --haxtheme-news-sidebar-wrap;
-        }
-
-        @media screen and (max-width: 768px) {
-          .sidebar_wrap {
-            width: var(--haxtheme-news-sidebar-wrap-width-mobile);
-            height: var(--haxtheme-news-sidebar-wrap-height-mobile);
-            border: var(--haxtheme-news-sidebar-wrap-border-left-mobile);
-            padding: var(--haxtheme-news-sidebar-wrap-padding-mobile);
-            margin: var(--haxtheme-news-sidebar-wrap-margin-mobile);
-            @apply --haxtheme-news-sidebar-wrap-mobile;
-          }
-        }
-
-        @media screen and (max-width: 768px) {
-          #twitter_feed {
-            width: var(--haxtheme-news-twitter-feed-width-mobile, 90%);
-            margin: var(--haxtheme-news-twitter-margin-mobile, 0 auto 0 auto);
-            @apply --haxtheme-news-twitter-feed-mobile;
-          }
-        }
-
-        #news_archive {
-          margin: var(--haxtheme-news-news-archive-margin, 0 0 25px 0);
-          @apply --haxtheme-news-news-archive;
-        }
-
-        @media screen and (max-width: 768px) {
-          #news_archive {
-            width: var(--haxtheme-news-news-archive-width-mobile, 90%);
-            margin: var(
-              --haxtheme-news-news-archive-margin-mobile,
-              0 auto 0 auto
-            );
-            @apply --haxtheme-news-news-archive-mobile;
-          }
-        }
-
-        site-recent-content-block {
-          --site-recent-content-block-header-color: #e2801e;
-        }
-
-        #share_actions {
-          display: var(--haxtheme-news-share-actions-display, flex);
-          justify-content: var(
-            --haxtheme-news-share-actions-justify-content,
-            space-around
-          );
-          padding: var(--haxtheme-news-share-actions-padding, 10px);
-          margin: var(--haxtheme-news-share-actions-margin, 10px 0 0 0);
-          @apply --haxtheme-news-share-actions;
-        }
-
-        @media screen and (max-width: 768px) {
-          #share_actions {
-            width: var(--haxtheme-news-share-actions-width-mobile, 85%);
-            margin: var(
-              --haxtheme-news-share-actions-margin-mobile,
-              15px auto 15px auto
-            );
-            @apply --haxtheme-news-share-actions-mobile;
-          }
-        }
-      </style>
-      <page-banner
-        image="files/theme-images/page-banners/news_banner.jpg"
-        text="News"
-        alt="Gateway to the Sciences"
-      ></page-banner>
-      <div id="news_wrap">
-        <div class="news_container">
-          <div class="news_page_feed">
-            <site-query
-              result="{{__items}}"
-              conditions='{"metadata.type": "news"}'
-              limit="5"
-              sort
-            ></site-query>
-            <dom-repeat items="[[__items]]" mutable-data>
-              <template>
-                <news-card
-                  image="[[item.metadata.fields.image]]"
-                  alt="[[item.metadata.fields.imageAlt]]"
-                  title="[[item.title]]"
-                  date="[[_formatDate(item.metadata.created)]]"
-                  authorimage="[[item.metadata.authorImage]]"
-                  author="[[item.metadata.author]]"
-                  description="[[_trimDescription(item.description)]]"
-                  url="[[item.location]]"
-                >
-                </news-card>
-              </template>
-            </dom-repeat>
-          </div>
-          <div class="sidebar_wrap">
-            <div id="twitter_feed">
-              <a
-                class="twitter-timeline"
-                data-height="600"
-                href="https://twitter.com/Eberly_ODL?ref_src=twsrc%5Etfw"
-                >Tweets by Eberly_ODL</a
-              >
-              <script
-                async=""
-                src="https://platform.twitter.com/widgets.js"
-                charset="utf-8"
-              ></script>
-            </div>
-            <div id="news_archive">
-              <site-recent-content-block
-                title="News Archive"
-                conditions='{"metadata.type": "news"}'
-                result="{{__items}}"
-                limit="5"
-                start-index="5"
-                sort
-              >
-              </site-recent-content-block>
-            </div>
-            <div id="share_actions">
-              <site-rss-button type="rss"></site-rss-button>
-              <site-rss-button type="atom"></site-rss-button>
-            </div>
-          </div>
-        </div>
-      </div>
-    `;
-  }
-  static get tag() {
-    return "haxtheme-news";
-  }
-  _formatDate(unixTimecode) {
-    const date = new Date(unixTimecode * 1000);
-    const dateFormatted = date.toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "long",
-      day: "numeric"
-    });
-    return dateFormatted;
-  }
-
-  _trimDescription(description) {
-    const trim = description.substring(0, 250) + "...";
-    return trim;
-  }
-
-  constructor() {
-    super();
-    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/blocks/site-recent-content-block.js');
-    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-rss-button.js');
-    this.__disposer = autorun(() => {
-      this.manifest = toJS(store.routerManifest);
-    });
-  }
-  disconnectedCallback() {
-    this.__disposer();
-    super.disconnectedCallback();
-  }
-}
-window.customElements.define(HaxThemeNews.tag, HaxThemeNews);
-
-var $_documentContainer = document.createElement("div");
-$_documentContainer.setAttribute("style", "display: none;");
-
-$_documentContainer.innerHTML = `<iron-iconset-svg name="haxthemeicons" size="24">
-    <svg>
-        <defs>
-          <g id="scroll">
-            <path d="M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12
-              5.373-12 12zm18-1h-4v7h-4v-7h-4l6-6 6 6z"></path>
-          </g>
-        </defs>
-        <defs>
-          <g id="twitter">
-            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5
-              5h14c2.762 0
-              5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209
-              4.617-3.234 9.765-9.33
-              9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278
-              4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069
-              1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394
-              1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038
-              3.293 6.766
-              3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395
-              1.037.748-.147
-              1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08
-              1.297-.256
-              1.885-.517-.439.656-.996 1.234-1.639 1.697z"></path>
-          </g>
-        </defs>
-        <defs>
-          <g id="vimeo">
-            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5
-            5
-            5h14c2.762 0
-            5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.248 10.732c-1.627
-            3.478-5.558
-            8.213-8.042 8.213-2.448
-            0-2.802-5.221-4.139-8.696-.657-1.709-1.082-1.317-2.315-.454l-.752-.97c1.798-1.581
-            3.599-3.418 4.705-3.52 1.245-.12 2.012.731 2.299 2.554.379
-            2.396.908 6.114
-            1.832 6.114.719 0 2.495-2.95
-            2.585-4.004.161-1.544-1.136-1.591-2.261-1.109
-            1.781-5.836 9.194-4.761 6.088 1.872z"></path>
-          </g>
-        </defs>
-        <defs>
-          <g id="pinterest">
-            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239
-            5
-            5 5h14c2.762 0
-            5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-7 20c-.825
-            0-1.62-.125-2.369-.357.326-.531.813-1.402.994-2.098l.499-1.901c.261.498
-            1.023.918 1.833.918 2.414 0 4.152-2.219 4.152-4.976
-            0-2.643-2.157-4.62-4.933-4.62-3.452 0-5.286 2.317-5.286
-            4.841 0 1.174.625
-            2.634 1.624
-            3.1.151.07.232.039.268-.107l.222-.907c.019-.081.01-.15-.056-.23-.331-.4-.595-1.138-.595-1.825
-            0-1.765 1.336-3.472 3.612-3.472 1.965 0 3.341 1.339 3.341
-            3.255 0
-            2.164-1.093 3.663-2.515 3.663-.786
-            0-1.374-.649-1.185-1.446.226-.951.663-1.977.663-2.664
-            0-.614-.33-1.127-1.012-1.127-.803 0-1.448.831-1.448 1.943
-            0
-            .709.239
-            1.188.239 1.188s-.793 3.353-.938 3.977c-.161.691-.098
-            1.662-.028
-            2.294-2.974-1.165-5.082-4.06-5.082-7.449 0-4.418 3.582-8
-            8-8s8 3.582 8
-            8-3.582 8-8 8z"></path>
-          </g>
-        </defs>
-        <defs>
-          <g id="flikr">
-            <path d="M18.666 12.333c0 1.838-1.494 3.333-3.332
-            3.333s-3.334-1.495-3.334-3.333 1.496-3.333 3.334-3.333
-            3.332 1.496 3.332
-            3.333zm5.334-7.333v14c0 2.761-2.238 5-5 5h-14c-2.761
-            0-5-2.239-5-5v-14c0-2.761 2.239-5 5-5h14c2.762 0 5 2.239
-            5
-            5zm-4
-            7.333c0-2.578-2.09-4.667-4.666-4.667-1.309
-            0-2.488.539-3.336
-            1.405-.846-.866-2.024-1.405-3.332-1.405-2.576.001-4.666
-            2.09-4.666
-            4.667s2.09 4.667 4.666 4.667c1.308 0 2.486-.539
-            3.332-1.405.848.866 2.027
-            1.405 3.336 1.405 2.576 0 4.666-2.089 4.666-4.667z"></path>
-          </g>
-        </defs>
-        <defs>
-          <g id="youtube">
-            <path d="M9.279
-            13.52h-.939v5.027h-.908v-5.027h-.94v-.854h2.788v.854zm5.395
-            1.721v2.406c0
-            .537-.2.954-.736.954-.296
-            0-.541-.108-.767-.388v.333h-.813v-5.88h.813v1.893c.183-.222.429-.405.718-.405.59
-            0 .785.499.785
-            1.087zm-.83.049c0-.146-.027-.257-.086-.333-.098-.129-.279-.143-.42-.071l-.167.132v2.703l.19.153c.132.066.324.071.413-.045.046-.061.069-.161.069-.299v-2.24zm-2.347-5.859c.229
-            0
-            .354-.183.354-.431v-2.119c0-.255-.111-.434-.371-.434-.237
-            0-.353.185-.353.434v2.119c.001.24.137.431.37.431zm-.733
-            8.07c-.099.123-.317.325-.475.325-.172
-            0-.215-.118-.215-.292v-3.325h-.805v3.626c0 .88.597.885
-            1.031.636.16-.092.315-.227.464-.403v.479h.807v-4.338h-.807v3.292zm13.236-12.501v14c0
-            2.761-2.238 5-5 5h-14c-2.761 0-5-2.239-5-5v-14c0-2.761
-            2.239-5 5-5h14c2.762
-            0 5 2.239 5 5zm-10.566 4.427c0 .45.137.813.592.813.256
-            0
-            .611-.133.979-.569v.503h.847v-4.554h-.847v3.457c-.104.129-.333.341-.498.341-.182
-            0-.226-.124-.226-.307v-3.491h-.847v3.807zm-3.177-2.621v2.233c0
-            .803.419 1.22
-            1.24 1.22.682 0 1.218-.456
-            1.218-1.22v-2.233c0-.713-.531-1.224-1.218-1.224-.745
-            0-1.24.493-1.24
-            1.224zm-3.155-2.806l1.135
-            3.67v2.504h.953v-2.504l1.11-3.67h-.969l-.611
-            2.468-.658-2.468h-.96zm11.564
-            11.667c-.014-2.978-.232-4.116-2.111-4.245-1.734-.118-7.377-.118-9.109
-            0-1.876.128-2.098 1.262-2.111 4.245.014 2.978.233
-            4.117
-            2.111 4.245
-            1.732.118 7.375.118 9.109 0 1.877-.129 2.097-1.262
-            2.111-4.245zm-1.011-.292v1.104h-1.542v.818c0
-            .325.027.607.352.607.34 0
-            .36-.229.36-.607v-.301h.83v.326c0 .836-.358
-            1.342-1.208
-            1.342-.771
-            0-1.164-.561-1.164-1.342v-1.947c0-.753.497-1.275
-            1.225-1.275.773-.001
-            1.147.491 1.147
-            1.275zm-.83-.008c0-.293-.062-.508-.353-.508-.299
-            0-.359.21-.359.508v.439h.712v-.439z"></path>
-          </g>
-        </defs>
-        <defs>
-          <g id="email">
-            <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623
-            5.712v-9.458l4.623
-            3.746zm-4.141-5.929h19.035l-9.517
-            7.713-9.518-7.713zm5.694 7.188l3.824 3.099
-            3.83-3.104 5.612
-            6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"></path>
-          </g>
-        </defs>
-        <defs>
-          <g id="phone">
-          <path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/>
-        </g>
-      </defs>
-      <defs>
-        <g id="twitter2">
-        <path
-        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
-      </defs>
-      </svg>
-    </iron-iconset-svg>`;
-
-document.head.appendChild($_documentContainer);
-
-class TeamCard extends PolymerElement {
-  static get template() {
-    return html`
-      <style>
-        :host {
-          display: block;
-        }
-
-        #card_wrap {
-          margin: var(--haxtheme-team-card-card-wrap-margin, 10px);
-          @apply --haxtheme-team-card-card-wrap;
-        }
-
-        .image {
-          background-position: var(
-            --haxtheme-team-card-image-background-position,
-            top center
-          );
-          background-repeat: var(
-            --haxtheme-team-card-image-background-repeat,
-            no-repeat
-          );
-          background-size: var(
-            --haxtheme-team-card-image-background-size,
-            cover
-          );
-          width: var(--haxtheme-team-card-image-width, 100%);
-          height: var(--haxtheme-team-card-image-height, 100%);
-          border: var(--haxtheme-team-card-image-border, solid);
-          border-width: var(--haxtheme-team-card-image-border-width, 8px);
-          border-color: var(--haxtheme-team-card-image-border-color);
-          @apply --haxtheme-team-card-image;
-        }
-
-        #card_image {
-          width: var(--haxtheme-team-card-card-image-width, 280px);
-          height: var(--haxtheme-team-card-card-image-height, 280px);
-          border-radius: var(--haxtheme-team-card-image-border-radius, 50%);
-          @apply --haxtheme-team-card-card-image;
-        }
-
-        #info_container {
-          display: var(--haxtheme-team-card-info-container-display, flex);
-          align-items: var(
-            --haxtheme-team-card-info-container-align-items,
-            center
-          );
-          justify-content: var(
-            --haxtheme-team-card-info-container-justify-content,
-            center
-          );
-          width: var(--haxtheme-team-card-info-container-width, 280px);
-          height: var(--haxtheme-team-card-info-container-height, 280px);
-          background: var(
-            --haxtheme-team-card-info-container-background,
-            rgba(0, 0, 0, 0.8)
-          );
-          border-radius: var(
-            --haxtheme-team-card-info-container-border-radius,
-            50%
-          );
-          color: var(--haxtheme-team-card-info-container-color);
-          opacity: var(--haxtheme-team-card-info-container-opacity, 0);
-          @apply --haxtheme-team-card-info-container;
-        }
-
-        #info_container:hover {
-          opacity: var(--haxtheme-team-card-info-container-hover-opacity, 0.9);
-          transition: var(
-            --haxtheme-team-card-info-container-hover-transition,
-            all 0.3s ease-in-out
-          );
-          @apply --haxtheme-team-card-info-container-hover;
-        }
-
-        .info {
-          display: var(--haxtheme-team-card-info-display, flex);
-          flex-direction: var(--haxtheme-team-card-info-flex-direction, column);
-          align-items: var(--haxtheme-team-card-info-align-items, center);
-          @apply --haxtheme-team-card-info;
-        }
-
-        #name {
-          font-size: var(--haxtheme-team-card-name-font-size, 20px);
-          text-transform: var(
-            --haxtheme-team-card-name-text-transform,
-            uppercase
-          );
-          margin: var(--haxtheme-team-card-name-margin, 0 0 7px 0);
-          border-bottom: var(--haxtheme-team-card-name-border-bottom, solid);
-          border-bottom-width: var(
-            --haxtheme-team-card-name-border-bottom-width,
-            1px
-          );
-          border-bottom-color: var(
-            --haxtheme-team-card-name-border-bottom-color
-          );
-          @apply --haxtheme-team-card-name;
-        }
-
-        #position {
-          text-align: center;
-        }
-      </style>
-      <div id="card_wrap">
-        <div
-          id="card_image"
-          class="image"
-          style$="background-image:url([[image]])"
-        >
-          <div id="info_container">
-            <div class="info">
-              <div id="name">[[name]]</div>
-              <div id="position">[[position]]</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    `;
-  }
-  static get tag() {
-    return "team-card";
-  }
-  static get properties() {
-    return {
-      /**
-       * image
-       */
-      image: {
-        type: String
-      },
-      /**
-       * name
-       */
-      name: {
-        type: String
-      },
-      /**
-       * position
-       */
-      position: {
-        type: String
-      }
-    };
-  }
-  constructor() {
-    super();
-    import('../../build/es6/node_modules/@polymer/iron-image/iron-image.js');
-  }
-}
-window.customElements.define(TeamCard.tag, TeamCard);
-
-class HaxThemeTeam extends PolymerElement {
-  static get tag() {
-    return "haxtheme-team";
-  }
-  static get template() {
-    return html`
-      <style>
-        :host {
-          display: block;
-        }
-        /**
-       * Hide the slotted content during edit mode. This must be here to work.
-       */
-        :host([edit-mode]) #slot {
-          display: none;
-        }
-        a {
-          text-decoration: var(--haxtheme-team-a-text-decoration);
-          @apply --haxtheme-team-a;
-        }
-
-        #team_card {
-          display: var(--haxtheme-team-team-card-display, grid);
-          grid-template-columns: var(
-            --haxtheme-team-team-card-grid-template-columns,
-            repeat(2, auto [col-start])
-          );
-          justify-content: var(
-            --haxtheme-team-team-card-justify-content,
-            center
-          );
-          margin: var(--haxtheme-team-team-card-margin, 25px 0 0 0);
-          padding: var(--haxtheme-team-team-card-padding, 0 0 25px 0);
-          @apply --haxtheme-team-card;
-        }
-
-        @media screen and (max-width: 768px) {
-          #team_card {
-            grid-template-columns: var(
-              --haxtheme-team-team-card-grid-template-columns-mobile,
-              repeat(1, auto [col-start])
-            );
-            @apply --haxtheme-team-card-mobile;
-          }
-        }
-      </style>
-      <site-query
-        result="{{__items}}"
-        conditions='{"metadata.type": "team"}'
-        sort
-      >
-      </site-query>
-      <page-banner
-        image="files/theme-images/page-banners/team_banner.jpg"
-        text="Team"
-        alt="Office of Digital Learning Team"
-      >
-      </page-banner>
-      <div id="team_card">
-        <dom-repeat items="[[__items]]" mutable-data>
-          <template>
-            <a href="[[item.location]]">
-              <team-card
-                name="[[item.metadata.fields.name]]"
-                image="[[item.metadata.fields.image]]"
-                item="[[item]]"
-                position="[[item.metadata.fields.jobTitle]]"
-              >
-              </team-card>
-            </a>
-          </template>
-        </dom-repeat>
-      </div>
-      <div id="contentcontainer">
-        <div id="slot">
-          <slot></slot>
-        </div>
-      </div>
-    `;
-  }
-}
-window.customElements.define(HaxThemeTeam.tag, HaxThemeTeam);
-
-class CourseCard extends PolymerElement {
-  static get template() {
-    return html`
-      <style>
-        :host {
-          display: block;
-        }
-        a {
-          text-decoration: var(--haxtheme-course-card-a-text-decoration);
-          color: var(--haxtheme-course-card-a-color);
-          display: var(--haxtheme-course-card-a-display, block);
-          width: var(--haxtheme-course-card-a-width, 100%);
-          @apply --haxtheme-course-card-a;
-        }
-        #card_wrap {
-          display: var(--haxtheme-course-card-card-wrap-display, flex);
-          flex-direction: var(
-            --haxtheme-course-card-card-wrap-flex-direction,
-            column
-          );
-          align-items: var(
-            --haxtheme-course-card-card-wrap-align-items,
-            center
-          );
-          @apply --haxtheme-course-card-card-wrap;
-        }
-        #course_number {
-          font-size: var(--haxtheme-course-card-course-number-font-size, 28px);
-          text-transform: var(
-            --haxtheme-course-card-course-number-text-transform
-          );
-          line-height: 1.4;
-          @apply --haxtheme-course-card-course-number;
-        }
-        #course_name {
-          font-size: var(--haxtheme-course-card-course-name-font-size);
-          text-align: var(
-            --haxtheme-course-card-course-name-text-align,
-            center
-          );
-          width: var(--haxtheme-course-card-course-name-width, 90%);
-          margin: var(--haxtheme-course-card-course-name-margin, 0 0 15px 0);
-          line-height: 1.2;
-          @apply --haxtheme-course-card-course-name;
-        }
-        #course_icon {
-          background-color: var(
-            --haxtheme-course-card-course-icon-background-color
-          );
-          border-radius: var(
-            --haxtheme-course-card-course-icon-border-radius,
-            50%
-          );
-          position: var(--haxtheme-course-card-course-icon-position, relative);
-          bottom: var(--haxtheme-course-card-course-icon-position-bottom, 50px);
-          border: var(--haxtheme-course-card-course-icon-border, solid);
-          border-color: var(--haxtheme-course-card-course-icon-border-color);
-          border-width: var(
-            --haxtheme-course-card-course-icon-border-width,
-            5px
-          );
-          margin: var(--haxtheme-course-card-course-icon-margin, 0 0 -40px 0);
-          @apply --haxtheme-course-card-course-icon;
-        }
         iron-icon {
-          width: var(--haxtheme-course-card-iron-icon-width, 70px);
-          height: var(--haxtheme-course-card-iron-icon-height, 70px);
-          fill: var(--haxtheme-course-card-iron-icon-color);
-          @apply --haxtheme-course-card-course-iron-icon;
-        }
-
-        #course_image {
-          background-repeat: var(
-            --haxtheme-course-card-course-image-background-repeat,
-            no-repeat
-          );
-          background-size: var(
-            --haxtheme-course-card-course-image-background-size,
-            cover
-          );
-          background-position: var(
-            --haxtheme-course-card-course-image-background-position,
-            right center
-          );
-          width: var(--haxtheme-course-card-course-image-width, 100%);
-          height: var(--haxtheme-course-card-course-image-height, 150px);
-          @apply --haxtheme-course-card-course-image;
+          width: 70px;
+          height: 70px;
+          fill: #fff;
         }
       </style>
-      <a href$="[[url]]">
-        <div id="card_wrap">
-          <div
-            id="course_image"
-            style$="background-image:url([[image]])"
-            alt="[[alt]]"
-          ></div>
-          <div id="course_icon">
-            <iron-icon icon="[[icon]]"></iron-icon>
-          </div>
-          <div id="course_number">[[number]]</div>
-          <div id="course_name">[[name]]</div>
+      <div id="icon-wrap">
+        <div id="icon">
+          <iron-icon icon="[[icon]]"></iron-icon>
         </div>
-      </a>
+        <div id="title">[[title]]</div>
+        <div id="info">[[info]]</div>
+      </div>
     `;
   }
   static get tag() {
-    return "course-card";
+    return "service-icon";
   }
   static get properties() {
     return {
       /**
-       * Course Image
-       */
-      image: {
-        type: String
-      },
-      /**
-       * Image Alt Text
-       */
-      alt: {
-        type: String
-      },
-      /**
-       * Course Number
-       */
-      number: {
-        type: String
-      },
-      /**
-       * Course Icon
+       * Icon source
        */
       icon: {
         type: String
       },
       /**
-       * Course Name
+       * Title over icon
        */
-      name: {
+      title: {
         type: String
       },
       /**
-       * Course URL
+       * info text for icon
        */
-      url: {
+      info: {
         type: String
       }
     };
   }
 }
-window.customElements.define(CourseCard.tag, CourseCard);
+window.customElements.define(ServiceIcon.tag, ServiceIcon);
 
-var $_documentContainer$1 = document.createElement("div");
-$_documentContainer$1.setAttribute("style", "display: none;");
+var $_documentContainer = document.createElement("div");
+$_documentContainer.setAttribute("style", "display: none;");
 
-$_documentContainer$1.innerHTML = `<iron-iconset-svg name="courseicons" size="100">
+$_documentContainer.innerHTML = `<iron-iconset-svg name="courseicons" size="100">
   <svg>
     <defs>
 		<g id="astro001">
@@ -3763,7 +2723,1132 @@ $_documentContainer$1.innerHTML = `<iron-iconset-svg name="courseicons" size="10
 	</svg>
 </iron-iconset-svg>`;
 
+document.head.appendChild($_documentContainer);
+
+class HaxThemeServices extends PolymerElement {
+  static get template() {
+    return html`
+      <style>
+        :host {
+          display: block;
+        }
+        /**
+       * Hide the slotted content during edit mode. This must be here to work.
+       */
+        :host([edit-mode]) #slot {
+          display: none;
+        }
+
+        h1 {
+          font-size: 36px;
+          font-weight: 400;
+        }
+
+        #content-wrap {
+          width: 80%;
+          margin: 0 auto 0 auto;
+        }
+
+        #header {
+          border-left: solid;
+          border-left-width: 4px;
+          border-left-color: #e2801e;
+          padding-left: 15px;
+          margin: 0 0 25px 0;
+        }
+
+        .description {
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 1.4;
+        }
+
+        /* #icon-banner {
+          background-color: #363533;
+          height: 400px;
+          border-bottom: 5px solid #fff;
+        } */
+      </style>
+      <page-banner
+        image="[[activeItem.metadata.fields.bannerImg]]"
+        text="[[activeItem.title]]"
+        alt="[[activeItem.metadata.fields.bannerAlt]]"
+      ></page-banner>
+      <div id="content-wrap">
+        <div id="header">
+          <h1>[[activeItem.metadata.fields.longName]]</h1>
+          <div class="description">[[activeItem.description]]</div>
+        </div>
+        <div id="icon-banner">
+          <site-query
+            result="{{__serviceinfo}}"
+            conditions='{"metadata.type": "services"}'
+          ></site-query>
+          <dom-repeat items="[[__serviceinfo]]" mutable-data>
+          <template>
+          <service-icon
+            icon="[[activeItem.metadata.fields.icon]]"
+            title="[[activeItem.metadata.fields.iconTitle]]"
+            info="[[activeItem.metadata.fields.iconDescription]]"
+          ></service-icon>
+          </template>
+        </dom-repeat>
+        </div>
+      </div>
+    `;
+  }
+  static get tag() {
+    return "haxtheme-services";
+  }
+  connectedCallback() {
+    super.connectedCallback();
+    this.__disposer = [];
+    autorun(reaction => {
+      this.manifest = toJS(store.routerManifest);
+      this.__disposer.push(reaction);
+    });
+    autorun(reaction => {
+      this.activeItem = toJS(store.activeItem);
+      this.__disposer.push(reaction);
+    });
+  }
+  disconnectedCallback() {
+    for (var i in this.__disposer) {
+      this.__disposer[i].dispose();
+    }
+    super.disconnectedCallback();
+  }
+}
+window.customElements.define(HaxThemeServices.tag, HaxThemeServices);
+
+class NewsCard extends LitElement {
+  static get styles() {
+    return [
+      css`
+        :host {
+          display: block;
+          --theme-color-1: #363533;
+          --theme-color-2: #e2801e;
+          --theme-color-4: #fff;
+        }
+
+        a {
+          color: var(--theme-color-1);
+          text-decoration: none;
+        }
+
+        h1 {
+          font-size: 28px;
+          font-weight: 400;
+          line-height: 1.2;
+          margin: 0;
+        }
+
+        @media screen and (max-width: 1124px) {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        h1:hover {
+          color: var(--theme-color-2);
+        }
+
+        h2 {
+          color: var(--theme-color-1);
+          font-size: 18px;
+          font-weight: 400;
+          margin: 0;
+        }
+
+        #news_wrap {
+          display: flex;
+          background-color: var(--theme-color-4);
+          margin: 15px;
+          padding: 0 0 10px 0;
+          border-bottom: solid 2px #dcdcdc;
+        }
+
+        @media screen and (max-width: 1124px) {
+          #news_wrap {
+            flex-direction: column;
+          }
+        }
+
+        #content_wrap {
+          width: 75%;
+        }
+
+        @media screen and (max-width: 1124px) {
+          #content_wrap {
+            width: 100%;
+          }
+        }
+
+        #news_image {
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          width: 175px;
+          height: 250px;
+          margin: 0 15px 0 0;
+        }
+
+        @media screen and (max-width: 1124px) {
+          #news_image {
+            width: 100%;
+            height: 235px;
+          }
+        }
+
+        #header_info {
+          border-left: solid 4px var(--theme-color-2);
+          padding: 0 0 0 15px;
+        }
+
+        @media screen and (max-width: 1124px) {
+          #header_info {
+            margin: 15px 0 0 0;
+          }
+        }
+
+        #author_info {
+          display: flex;
+          align-items: center;
+          margin: 5px 0 5px;
+        }
+
+        #author_image {
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: right center;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          margin: 0 5px 0 0;
+        }
+
+        #author a {
+          color: var(--theme-color-1);
+          text-decoration: none;
+        }
+
+        #author a:hover {
+          color: var(--theme-color-2);
+        }
+
+        #description {
+          margin-top: 10px;
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 1.2;
+        }
+
+        @media screen and (max-width: 1124px) {
+          #description {
+            margin-top: 10px;
+          }
+        }
+
+        #action_button {
+          display: flex;
+          justify-content: flex-end;
+          margin: 20px 0 0 0;
+        }
+
+        @media screen and (max-width: 768px) {
+          #action_button {
+            justify-content: center;
+            margin: 15px 0 0 0;
+          }
+        }
+
+        paper-button#action {
+          color: var(--theme-color-2);
+          padding: 0;
+        }
+
+        paper-button#action:hover,
+        paper-button#action:focus {
+          color: var(--theme-color-1);
+        }
+      `
+    ];
+  }
+  render() {
+    return html$1`
+      <div id="news_wrap">
+        <div
+          id="news_image"
+          style="background-image:url(${this.image})"
+          alt="${this.alt}"
+        ></div>
+        <div id="content_wrap">
+          <div id="header_info">
+            <div id="title">
+              <a href="${this.url}">
+                <h1>${this.title}</h1>
+              </a>
+            </div>
+            <div id="date">
+              <h2>${this.date}</h2>
+            </div>
+            <div id="author_info">
+              <div
+                id="author_image"
+                style="background-image:url(${this.authorimage})"
+              ></div>
+              <div id="author">By: ${this.author}</div>
+            </div>
+          </div>
+          <div id="description">
+            <span>${this.description}</span>
+          </div>
+          <div id="action_button">
+            <a href="${this.url}">
+              <paper-button noink id="action">
+                <div class="title">Read More</div>
+                <iron-icon icon="chevron-right"></iron-icon>
+              </paper-button>
+            </a>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+  static get tag() {
+    return "news-card";
+  }
+  static get properties() {
+    return {
+      /**
+       * Image
+       */
+      image: {
+        type: String
+      },
+      /**
+       * Image Alt Text
+       */
+      alt: {
+        type: String
+      },
+      /**
+       * Title
+       */
+      title: {
+        type: String
+      },
+      /**
+       * Date
+       */
+      date: {
+        type: String
+      },
+      /**
+       * Author Image
+       */
+      authorimage: {
+        type: String
+      },
+      /**
+       * Author
+       */
+      author: {
+        type: String
+      },
+      /**
+       * Author Page
+       */
+      authorpage: {
+        type: String
+      },
+      /**
+       * Article Description
+       */
+      description: {
+        type: String
+      },
+      /**
+       * Destination Url
+       */
+      url: {
+        type: String
+      }
+    };
+  }
+  constructor() {
+    super();
+    import('../../build/es6/node_modules/@polymer/paper-button/paper-button.js');
+  }
+}
+window.customElements.define(NewsCard.tag, NewsCard);
+
+class HaxThemeNews extends PolymerElement {
+  static get template() {
+    return html`
+      <style>
+        :host {
+          display: block;
+        }
+        /**
+       * Hide the slotted content during edit mode. This must be here to work.
+       */
+        :host([edit-mode]) #slot {
+          display: none;
+        }
+        .news_container {
+          display: var(--haxtheme-news-news-container-display, flex);
+          width: var(--haxtheme-news-news-container-width, 80%);
+          margin: var(--haxtheme-news-news-container-margin, 0 auto 0 auto);
+          @apply --haxtheme-news-news-container;
+        }
+
+        @media screen and (max-width: 768px) {
+          .news_container {
+            flex-direction: var(
+              --haxtheme-news-news-container-flex-direction-mobile,
+              column
+            );
+            width: var(--haxtheme-news-news-container-width-mobile, 98%);
+            @apply --haxtheme-news-news-container-mobile;
+          }
+        }
+
+        .news_page_feed {
+          width: var(--haxtheme-news-news-page-feed-width, 75%);
+          margin: var(--haxtheme-news-news-page-feed-margin, 20px 0 0 0);
+          @apply --haxtheme-news-news-page-feed;
+        }
+
+        @media screen and (max-width: 768px) {
+          .news_page_feed {
+            width: var(--haxtheme-news-news-page-feed-width-mobile, 100%);
+            margin: var(
+              --haxtheme-news-news-page-feed-margin-mobile,
+              10px 0 0 0
+            );
+            @apply --haxtheme-news-news-page-feed-mobile;
+          }
+        }
+
+        .sidebar_wrap {
+          width: var(--haxtheme-news-sidebar-wrap-width);
+          height: var(--haxtheme-news-sidebar-wrap-height);
+          margin: var(--haxtheme-news-sidebar-wrap-margin);
+          border-left: var(--haxtheme-news-sidebar-wrap-border-left);
+          border-left-width: var(
+            --haxtheme-news-sidebar-wrap-border-left-width
+          );
+          border-left-color: var(
+            --haxtheme-news-sidebar-wrap-border-left-color
+          );
+          padding: var(--haxtheme-news-sidebar-wrap-padding);
+          @apply --haxtheme-news-sidebar-wrap;
+        }
+
+        @media screen and (max-width: 768px) {
+          .sidebar_wrap {
+            width: var(--haxtheme-news-sidebar-wrap-width-mobile);
+            height: var(--haxtheme-news-sidebar-wrap-height-mobile);
+            border: var(--haxtheme-news-sidebar-wrap-border-left-mobile);
+            padding: var(--haxtheme-news-sidebar-wrap-padding-mobile);
+            margin: var(--haxtheme-news-sidebar-wrap-margin-mobile);
+            @apply --haxtheme-news-sidebar-wrap-mobile;
+          }
+        }
+
+        @media screen and (max-width: 768px) {
+          #twitter_feed {
+            width: var(--haxtheme-news-twitter-feed-width-mobile, 90%);
+            margin: var(--haxtheme-news-twitter-margin-mobile, 0 auto 0 auto);
+            @apply --haxtheme-news-twitter-feed-mobile;
+          }
+        }
+
+        #news_archive {
+          margin: var(--haxtheme-news-news-archive-margin, 0 0 25px 0);
+          @apply --haxtheme-news-news-archive;
+        }
+
+        @media screen and (max-width: 768px) {
+          #news_archive {
+            width: var(--haxtheme-news-news-archive-width-mobile, 90%);
+            margin: var(
+              --haxtheme-news-news-archive-margin-mobile,
+              0 auto 0 auto
+            );
+            @apply --haxtheme-news-news-archive-mobile;
+          }
+        }
+
+        site-recent-content-block {
+          --site-recent-content-block-header-color: #e2801e;
+        }
+
+        #share_actions {
+          display: var(--haxtheme-news-share-actions-display, flex);
+          justify-content: var(
+            --haxtheme-news-share-actions-justify-content,
+            space-around
+          );
+          padding: var(--haxtheme-news-share-actions-padding, 10px);
+          margin: var(--haxtheme-news-share-actions-margin, 10px 0 0 0);
+          @apply --haxtheme-news-share-actions;
+        }
+
+        @media screen and (max-width: 768px) {
+          #share_actions {
+            width: var(--haxtheme-news-share-actions-width-mobile, 85%);
+            margin: var(
+              --haxtheme-news-share-actions-margin-mobile,
+              15px auto 15px auto
+            );
+            @apply --haxtheme-news-share-actions-mobile;
+          }
+        }
+      </style>
+      <page-banner
+        image="files/theme-images/page-banners/news_banner.jpg"
+        text="News"
+        alt="Gateway to the Sciences"
+      ></page-banner>
+      <div id="news_wrap">
+        <div class="news_container">
+          <div class="news_page_feed">
+            <site-query
+              result="{{__items}}"
+              conditions='{"metadata.type": "news"}'
+              limit="5"
+              sort
+            ></site-query>
+            <dom-repeat items="[[__items]]" mutable-data>
+              <template>
+                <news-card
+                  image="[[item.metadata.fields.image]]"
+                  alt="[[item.metadata.fields.imageAlt]]"
+                  title="[[item.title]]"
+                  date="[[_formatDate(item.metadata.created)]]"
+                  authorimage="[[item.metadata.authorImage]]"
+                  author="[[item.metadata.author]]"
+                  description="[[_trimDescription(item.description)]]"
+                  url="[[item.location]]"
+                >
+                </news-card>
+              </template>
+            </dom-repeat>
+          </div>
+          <div class="sidebar_wrap">
+            <div id="twitter_feed">
+              <a
+                class="twitter-timeline"
+                data-height="600"
+                href="https://twitter.com/Eberly_ODL?ref_src=twsrc%5Etfw"
+                >Tweets by Eberly_ODL</a
+              >
+              <script
+                async=""
+                src="https://platform.twitter.com/widgets.js"
+                charset="utf-8"
+              ></script>
+            </div>
+            <div id="news_archive">
+              <site-recent-content-block
+                title="News Archive"
+                conditions='{"metadata.type": "news"}'
+                result="{{__items}}"
+                limit="5"
+                start-index="5"
+                sort
+              >
+              </site-recent-content-block>
+            </div>
+            <div id="share_actions">
+              <site-rss-button type="rss"></site-rss-button>
+              <site-rss-button type="atom"></site-rss-button>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+  static get tag() {
+    return "haxtheme-news";
+  }
+  _formatDate(unixTimecode) {
+    const date = new Date(unixTimecode * 1000);
+    const dateFormatted = date.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric"
+    });
+    return dateFormatted;
+  }
+
+  _trimDescription(description) {
+    const trim = description.substring(0, 250) + "...";
+    return trim;
+  }
+
+  constructor() {
+    super();
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/blocks/site-recent-content-block.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-rss-button.js');
+    this.__disposer = autorun(() => {
+      this.manifest = toJS(store.routerManifest);
+    });
+  }
+  disconnectedCallback() {
+    this.__disposer();
+    super.disconnectedCallback();
+  }
+}
+window.customElements.define(HaxThemeNews.tag, HaxThemeNews);
+
+var $_documentContainer$1 = document.createElement("div");
+$_documentContainer$1.setAttribute("style", "display: none;");
+
+$_documentContainer$1.innerHTML = `<iron-iconset-svg name="haxthemeicons" size="24">
+    <svg>
+        <defs>
+          <g id="scroll">
+            <path d="M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12
+              5.373-12 12zm18-1h-4v7h-4v-7h-4l6-6 6 6z"></path>
+          </g>
+        </defs>
+        <defs>
+          <g id="twitter">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5
+              5h14c2.762 0
+              5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209
+              4.617-3.234 9.765-9.33
+              9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278
+              4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069
+              1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394
+              1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038
+              3.293 6.766
+              3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395
+              1.037.748-.147
+              1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08
+              1.297-.256
+              1.885-.517-.439.656-.996 1.234-1.639 1.697z"></path>
+          </g>
+        </defs>
+        <defs>
+          <g id="vimeo">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5
+            5
+            5h14c2.762 0
+            5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.248 10.732c-1.627
+            3.478-5.558
+            8.213-8.042 8.213-2.448
+            0-2.802-5.221-4.139-8.696-.657-1.709-1.082-1.317-2.315-.454l-.752-.97c1.798-1.581
+            3.599-3.418 4.705-3.52 1.245-.12 2.012.731 2.299 2.554.379
+            2.396.908 6.114
+            1.832 6.114.719 0 2.495-2.95
+            2.585-4.004.161-1.544-1.136-1.591-2.261-1.109
+            1.781-5.836 9.194-4.761 6.088 1.872z"></path>
+          </g>
+        </defs>
+        <defs>
+          <g id="pinterest">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239
+            5
+            5 5h14c2.762 0
+            5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-7 20c-.825
+            0-1.62-.125-2.369-.357.326-.531.813-1.402.994-2.098l.499-1.901c.261.498
+            1.023.918 1.833.918 2.414 0 4.152-2.219 4.152-4.976
+            0-2.643-2.157-4.62-4.933-4.62-3.452 0-5.286 2.317-5.286
+            4.841 0 1.174.625
+            2.634 1.624
+            3.1.151.07.232.039.268-.107l.222-.907c.019-.081.01-.15-.056-.23-.331-.4-.595-1.138-.595-1.825
+            0-1.765 1.336-3.472 3.612-3.472 1.965 0 3.341 1.339 3.341
+            3.255 0
+            2.164-1.093 3.663-2.515 3.663-.786
+            0-1.374-.649-1.185-1.446.226-.951.663-1.977.663-2.664
+            0-.614-.33-1.127-1.012-1.127-.803 0-1.448.831-1.448 1.943
+            0
+            .709.239
+            1.188.239 1.188s-.793 3.353-.938 3.977c-.161.691-.098
+            1.662-.028
+            2.294-2.974-1.165-5.082-4.06-5.082-7.449 0-4.418 3.582-8
+            8-8s8 3.582 8
+            8-3.582 8-8 8z"></path>
+          </g>
+        </defs>
+        <defs>
+          <g id="flikr">
+            <path d="M18.666 12.333c0 1.838-1.494 3.333-3.332
+            3.333s-3.334-1.495-3.334-3.333 1.496-3.333 3.334-3.333
+            3.332 1.496 3.332
+            3.333zm5.334-7.333v14c0 2.761-2.238 5-5 5h-14c-2.761
+            0-5-2.239-5-5v-14c0-2.761 2.239-5 5-5h14c2.762 0 5 2.239
+            5
+            5zm-4
+            7.333c0-2.578-2.09-4.667-4.666-4.667-1.309
+            0-2.488.539-3.336
+            1.405-.846-.866-2.024-1.405-3.332-1.405-2.576.001-4.666
+            2.09-4.666
+            4.667s2.09 4.667 4.666 4.667c1.308 0 2.486-.539
+            3.332-1.405.848.866 2.027
+            1.405 3.336 1.405 2.576 0 4.666-2.089 4.666-4.667z"></path>
+          </g>
+        </defs>
+        <defs>
+          <g id="youtube">
+            <path d="M9.279
+            13.52h-.939v5.027h-.908v-5.027h-.94v-.854h2.788v.854zm5.395
+            1.721v2.406c0
+            .537-.2.954-.736.954-.296
+            0-.541-.108-.767-.388v.333h-.813v-5.88h.813v1.893c.183-.222.429-.405.718-.405.59
+            0 .785.499.785
+            1.087zm-.83.049c0-.146-.027-.257-.086-.333-.098-.129-.279-.143-.42-.071l-.167.132v2.703l.19.153c.132.066.324.071.413-.045.046-.061.069-.161.069-.299v-2.24zm-2.347-5.859c.229
+            0
+            .354-.183.354-.431v-2.119c0-.255-.111-.434-.371-.434-.237
+            0-.353.185-.353.434v2.119c.001.24.137.431.37.431zm-.733
+            8.07c-.099.123-.317.325-.475.325-.172
+            0-.215-.118-.215-.292v-3.325h-.805v3.626c0 .88.597.885
+            1.031.636.16-.092.315-.227.464-.403v.479h.807v-4.338h-.807v3.292zm13.236-12.501v14c0
+            2.761-2.238 5-5 5h-14c-2.761 0-5-2.239-5-5v-14c0-2.761
+            2.239-5 5-5h14c2.762
+            0 5 2.239 5 5zm-10.566 4.427c0 .45.137.813.592.813.256
+            0
+            .611-.133.979-.569v.503h.847v-4.554h-.847v3.457c-.104.129-.333.341-.498.341-.182
+            0-.226-.124-.226-.307v-3.491h-.847v3.807zm-3.177-2.621v2.233c0
+            .803.419 1.22
+            1.24 1.22.682 0 1.218-.456
+            1.218-1.22v-2.233c0-.713-.531-1.224-1.218-1.224-.745
+            0-1.24.493-1.24
+            1.224zm-3.155-2.806l1.135
+            3.67v2.504h.953v-2.504l1.11-3.67h-.969l-.611
+            2.468-.658-2.468h-.96zm11.564
+            11.667c-.014-2.978-.232-4.116-2.111-4.245-1.734-.118-7.377-.118-9.109
+            0-1.876.128-2.098 1.262-2.111 4.245.014 2.978.233
+            4.117
+            2.111 4.245
+            1.732.118 7.375.118 9.109 0 1.877-.129 2.097-1.262
+            2.111-4.245zm-1.011-.292v1.104h-1.542v.818c0
+            .325.027.607.352.607.34 0
+            .36-.229.36-.607v-.301h.83v.326c0 .836-.358
+            1.342-1.208
+            1.342-.771
+            0-1.164-.561-1.164-1.342v-1.947c0-.753.497-1.275
+            1.225-1.275.773-.001
+            1.147.491 1.147
+            1.275zm-.83-.008c0-.293-.062-.508-.353-.508-.299
+            0-.359.21-.359.508v.439h.712v-.439z"></path>
+          </g>
+        </defs>
+        <defs>
+          <g id="email">
+            <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623
+            5.712v-9.458l4.623
+            3.746zm-4.141-5.929h19.035l-9.517
+            7.713-9.518-7.713zm5.694 7.188l3.824 3.099
+            3.83-3.104 5.612
+            6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"></path>
+          </g>
+        </defs>
+        <defs>
+          <g id="phone">
+          <path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/>
+        </g>
+      </defs>
+      <defs>
+        <g id="twitter2">
+        <path
+        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+      </defs>
+      </svg>
+    </iron-iconset-svg>`;
+
 document.head.appendChild($_documentContainer$1);
+
+class TeamCard extends PolymerElement {
+  static get template() {
+    return html`
+      <style>
+        :host {
+          display: block;
+        }
+
+        #card_wrap {
+          margin: var(--haxtheme-team-card-card-wrap-margin, 10px);
+          @apply --haxtheme-team-card-card-wrap;
+        }
+
+        .image {
+          background-position: var(
+            --haxtheme-team-card-image-background-position,
+            top center
+          );
+          background-repeat: var(
+            --haxtheme-team-card-image-background-repeat,
+            no-repeat
+          );
+          background-size: var(
+            --haxtheme-team-card-image-background-size,
+            cover
+          );
+          width: var(--haxtheme-team-card-image-width, 100%);
+          height: var(--haxtheme-team-card-image-height, 100%);
+          border: var(--haxtheme-team-card-image-border, solid);
+          border-width: var(--haxtheme-team-card-image-border-width, 8px);
+          border-color: var(--haxtheme-team-card-image-border-color);
+          @apply --haxtheme-team-card-image;
+        }
+
+        #card_image {
+          width: var(--haxtheme-team-card-card-image-width, 280px);
+          height: var(--haxtheme-team-card-card-image-height, 280px);
+          border-radius: var(--haxtheme-team-card-image-border-radius, 50%);
+          @apply --haxtheme-team-card-card-image;
+        }
+
+        #info_container {
+          display: var(--haxtheme-team-card-info-container-display, flex);
+          align-items: var(
+            --haxtheme-team-card-info-container-align-items,
+            center
+          );
+          justify-content: var(
+            --haxtheme-team-card-info-container-justify-content,
+            center
+          );
+          width: var(--haxtheme-team-card-info-container-width, 280px);
+          height: var(--haxtheme-team-card-info-container-height, 280px);
+          background: var(
+            --haxtheme-team-card-info-container-background,
+            rgba(0, 0, 0, 0.8)
+          );
+          border-radius: var(
+            --haxtheme-team-card-info-container-border-radius,
+            50%
+          );
+          color: var(--haxtheme-team-card-info-container-color);
+          opacity: var(--haxtheme-team-card-info-container-opacity, 0);
+          @apply --haxtheme-team-card-info-container;
+        }
+
+        #info_container:hover {
+          opacity: var(--haxtheme-team-card-info-container-hover-opacity, 0.9);
+          transition: var(
+            --haxtheme-team-card-info-container-hover-transition,
+            all 0.3s ease-in-out
+          );
+          @apply --haxtheme-team-card-info-container-hover;
+        }
+
+        .info {
+          display: var(--haxtheme-team-card-info-display, flex);
+          flex-direction: var(--haxtheme-team-card-info-flex-direction, column);
+          align-items: var(--haxtheme-team-card-info-align-items, center);
+          @apply --haxtheme-team-card-info;
+        }
+
+        #name {
+          font-size: var(--haxtheme-team-card-name-font-size, 20px);
+          text-transform: var(
+            --haxtheme-team-card-name-text-transform,
+            uppercase
+          );
+          margin: var(--haxtheme-team-card-name-margin, 0 0 7px 0);
+          border-bottom: var(--haxtheme-team-card-name-border-bottom, solid);
+          border-bottom-width: var(
+            --haxtheme-team-card-name-border-bottom-width,
+            1px
+          );
+          border-bottom-color: var(
+            --haxtheme-team-card-name-border-bottom-color
+          );
+          @apply --haxtheme-team-card-name;
+        }
+
+        #position {
+          text-align: center;
+        }
+      </style>
+      <div id="card_wrap">
+        <div
+          id="card_image"
+          class="image"
+          style$="background-image:url([[image]])"
+        >
+          <div id="info_container">
+            <div class="info">
+              <div id="name">[[name]]</div>
+              <div id="position">[[position]]</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+  static get tag() {
+    return "team-card";
+  }
+  static get properties() {
+    return {
+      /**
+       * image
+       */
+      image: {
+        type: String
+      },
+      /**
+       * name
+       */
+      name: {
+        type: String
+      },
+      /**
+       * position
+       */
+      position: {
+        type: String
+      }
+    };
+  }
+  constructor() {
+    super();
+    import('../../build/es6/node_modules/@polymer/iron-image/iron-image.js');
+  }
+}
+window.customElements.define(TeamCard.tag, TeamCard);
+
+class HaxThemeTeam extends PolymerElement {
+  static get tag() {
+    return "haxtheme-team";
+  }
+  static get template() {
+    return html`
+      <style>
+        :host {
+          display: block;
+        }
+        /**
+       * Hide the slotted content during edit mode. This must be here to work.
+       */
+        :host([edit-mode]) #slot {
+          display: none;
+        }
+        a {
+          text-decoration: var(--haxtheme-team-a-text-decoration);
+          @apply --haxtheme-team-a;
+        }
+
+        #team_card {
+          display: var(--haxtheme-team-team-card-display, grid);
+          grid-template-columns: var(
+            --haxtheme-team-team-card-grid-template-columns,
+            repeat(2, auto [col-start])
+          );
+          justify-content: var(
+            --haxtheme-team-team-card-justify-content,
+            center
+          );
+          margin: var(--haxtheme-team-team-card-margin, 25px 0 0 0);
+          padding: var(--haxtheme-team-team-card-padding, 0 0 25px 0);
+          @apply --haxtheme-team-card;
+        }
+
+        @media screen and (max-width: 768px) {
+          #team_card {
+            grid-template-columns: var(
+              --haxtheme-team-team-card-grid-template-columns-mobile,
+              repeat(1, auto [col-start])
+            );
+            @apply --haxtheme-team-card-mobile;
+          }
+        }
+      </style>
+      <site-query
+        result="{{__items}}"
+        conditions='{"metadata.type": "team"}'
+        sort
+      >
+      </site-query>
+      <page-banner
+        image="files/theme-images/page-banners/team_banner.jpg"
+        text="Team"
+        alt="Office of Digital Learning Team"
+      >
+      </page-banner>
+      <div id="team_card">
+        <dom-repeat items="[[__items]]" mutable-data>
+          <template>
+            <a href="[[item.location]]">
+              <team-card
+                name="[[item.metadata.fields.name]]"
+                image="[[item.metadata.fields.image]]"
+                item="[[item]]"
+                position="[[item.metadata.fields.jobTitle]]"
+              >
+              </team-card>
+            </a>
+          </template>
+        </dom-repeat>
+      </div>
+      <div id="contentcontainer">
+        <div id="slot">
+          <slot></slot>
+        </div>
+      </div>
+    `;
+  }
+}
+window.customElements.define(HaxThemeTeam.tag, HaxThemeTeam);
+
+class CourseCard extends PolymerElement {
+  static get template() {
+    return html`
+      <style>
+        :host {
+          display: block;
+        }
+        a {
+          text-decoration: var(--haxtheme-course-card-a-text-decoration);
+          color: var(--haxtheme-course-card-a-color);
+          display: var(--haxtheme-course-card-a-display, block);
+          width: var(--haxtheme-course-card-a-width, 100%);
+          @apply --haxtheme-course-card-a;
+        }
+        #card_wrap {
+          display: var(--haxtheme-course-card-card-wrap-display, flex);
+          flex-direction: var(
+            --haxtheme-course-card-card-wrap-flex-direction,
+            column
+          );
+          align-items: var(
+            --haxtheme-course-card-card-wrap-align-items,
+            center
+          );
+          @apply --haxtheme-course-card-card-wrap;
+        }
+        #course_number {
+          font-size: var(--haxtheme-course-card-course-number-font-size, 28px);
+          text-transform: var(
+            --haxtheme-course-card-course-number-text-transform
+          );
+          line-height: 1.4;
+          @apply --haxtheme-course-card-course-number;
+        }
+        #course_name {
+          font-size: var(--haxtheme-course-card-course-name-font-size);
+          text-align: var(
+            --haxtheme-course-card-course-name-text-align,
+            center
+          );
+          width: var(--haxtheme-course-card-course-name-width, 90%);
+          margin: var(--haxtheme-course-card-course-name-margin, 0 0 15px 0);
+          line-height: 1.2;
+          @apply --haxtheme-course-card-course-name;
+        }
+        #course_icon {
+          background-color: var(
+            --haxtheme-course-card-course-icon-background-color
+          );
+          border-radius: var(
+            --haxtheme-course-card-course-icon-border-radius,
+            50%
+          );
+          position: var(--haxtheme-course-card-course-icon-position, relative);
+          bottom: var(--haxtheme-course-card-course-icon-position-bottom, 50px);
+          border: var(--haxtheme-course-card-course-icon-border, solid);
+          border-color: var(--haxtheme-course-card-course-icon-border-color);
+          border-width: var(
+            --haxtheme-course-card-course-icon-border-width,
+            5px
+          );
+          margin: var(--haxtheme-course-card-course-icon-margin, 0 0 -40px 0);
+          @apply --haxtheme-course-card-course-icon;
+        }
+        iron-icon {
+          width: var(--haxtheme-course-card-iron-icon-width, 70px);
+          height: var(--haxtheme-course-card-iron-icon-height, 70px);
+          fill: var(--haxtheme-course-card-iron-icon-color);
+          @apply --haxtheme-course-card-course-iron-icon;
+        }
+
+        #course_image {
+          background-repeat: var(
+            --haxtheme-course-card-course-image-background-repeat,
+            no-repeat
+          );
+          background-size: var(
+            --haxtheme-course-card-course-image-background-size,
+            cover
+          );
+          background-position: var(
+            --haxtheme-course-card-course-image-background-position,
+            right center
+          );
+          width: var(--haxtheme-course-card-course-image-width, 100%);
+          height: var(--haxtheme-course-card-course-image-height, 150px);
+          @apply --haxtheme-course-card-course-image;
+        }
+      </style>
+      <a href$="[[url]]">
+        <div id="card_wrap">
+          <div
+            id="course_image"
+            style$="background-image:url([[image]])"
+            alt="[[alt]]"
+          ></div>
+          <div id="course_icon">
+            <iron-icon icon="[[icon]]"></iron-icon>
+          </div>
+          <div id="course_number">[[number]]</div>
+          <div id="course_name">[[name]]</div>
+        </div>
+      </a>
+    `;
+  }
+  static get tag() {
+    return "course-card";
+  }
+  static get properties() {
+    return {
+      /**
+       * Course Image
+       */
+      image: {
+        type: String
+      },
+      /**
+       * Image Alt Text
+       */
+      alt: {
+        type: String
+      },
+      /**
+       * Course Number
+       */
+      number: {
+        type: String
+      },
+      /**
+       * Course Icon
+       */
+      icon: {
+        type: String
+      },
+      /**
+       * Course Name
+       */
+      name: {
+        type: String
+      },
+      /**
+       * Course URL
+       */
+      url: {
+        type: String
+      }
+    };
+  }
+}
+window.customElements.define(CourseCard.tag, CourseCard);
 
 class HaxThemeCourses extends PolymerElement {
   static get template() {
