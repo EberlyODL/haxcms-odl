@@ -4,6 +4,7 @@ import { autorun, toJS } from "mobx/lib/mobx.module.js";
 import "./page-banner.js";
 import "./service-icon";
 import "./course-icons.js";
+import "./haxtheme-icons.js";
 
 class HaxThemeNgdle extends PolymerElement {
   static get template() {
@@ -43,11 +44,15 @@ class HaxThemeNgdle extends PolymerElement {
           line-height: 1.4;
         }
 
-        /* #icon-banner {
-          background-color: #363533;
-          height: 400px;
-          border-bottom: 5px solid #fff;
-        } */
+        #icon-banner {
+          display: flex;
+        }
+
+        @media screen and (max-width: 768px) {
+          #icon-banner {
+            flex-direction: column;
+          }
+        }
       </style>
       <page-banner
         image="files/theme-images/page-banners/ngdle-banner.jpg"
@@ -67,19 +72,19 @@ class HaxThemeNgdle extends PolymerElement {
         </div>
         <div id="icon-banner">
           <service-icon
-            icon="courseicons:phys010"
+            icon="courseicons:astro011"
             title="Icon Title 1"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
           <service-icon
-            icon="courseicons:phys010"
+            icon="courseicons:astro011"
             title="Icon Title 2"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
           <service-icon
-            icon="courseicons:astro140"
+            icon="courseicons:astro011"
             title="Icon Title 3"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
