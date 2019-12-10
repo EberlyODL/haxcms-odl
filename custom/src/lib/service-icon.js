@@ -24,7 +24,7 @@ class ServiceIcon extends PolymerElement {
           border-radius: 50%;
           padding: 15px;
           margin: 25px auto 0 auto;
-          max-width: 100px;
+          width: 100px;
         }
 
         iron-icon {

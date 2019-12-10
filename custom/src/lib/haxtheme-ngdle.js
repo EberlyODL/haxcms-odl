@@ -2,9 +2,9 @@ import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
 import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js";
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
 import "./page-banner.js";
-import "./service-icon";
+import "./service-icon.js";
+import "./service-band.js";
 import "./course-icons.js";
-import "./haxtheme-icons.js";
 
 class HaxThemeNgdle extends PolymerElement {
   static get template() {
@@ -89,6 +89,21 @@ class HaxThemeNgdle extends PolymerElement {
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
+        </div>
+        <div id="service-banner">
+          <service-band
+            image="files/feature-images/course-select.jpg"
+            title="Track Real-time Anayltics to Measure Student Performance"
+          >
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </service-band>
+          <service-band
+            image="files/feature-images/course-select.jpg"
+            title="Track Real-time Anayltics to Measure Student Performance"
+            right
+          >
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </service-band>
         </div>
       </div>
     `;
