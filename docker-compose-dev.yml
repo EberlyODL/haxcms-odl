@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   reverse-proxy:
-    image: traefik # The official Traefik docker image
+    image: traefik:1.7 # The official Traefik docker image
     command: --api --docker # Enables the web UI and tells Traefik to listen to docker
     ports:
       - "80:80"     # The HTTP port
@@ -10,7 +10,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock # So that Traefik can listen to the Docker events
 
   haxcms:
-    image: elmsln/haxcms:latest
+    image: elmsln/haxcms:release-0.12.0
     volumes:
       - ./:/var/www/html/_sites/haxcms-odl:delegated
       - ./_config:/var/www/html/_config:delegated

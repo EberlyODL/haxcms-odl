@@ -6730,12 +6730,9 @@ tr:hover {
               } else if (location.route.path.startsWith("syllabi/")) {
                 this.selectedPage = 9;
                 target = "syllabus";
-              } else if (location.route.path.startsWith("ngdle/")) {
+              } else if (location.route.path.startsWith("ngdle")) {
                 this.selectedPage = 10;
                 target = "ngdle";
-              } else if (location.route.path.startsWith("about/")) {
-                this.selectedPage = 11;
-                target = "about";
               }
               break;
           }
