@@ -1610,24 +1610,13 @@ class HaxThemeHome extends PolymerElement {
           --button-hover-color: none;
         }
 
-        .promo_tile {
-          display: grid;
-          grid-template-columns: repeat(5, auto);
-        }
+     
 
-        @media screen and (max-width: 1330px) {
-          .promo_tile {
-            grid-template-columns: repeat(2, auto);
-          }
-        }
 
-        @media screen and (max-width: 768px) {
-          .promo_tile {
-            grid-template-columns: repeat(1, auto);
-          }
-        }
 
         #promo_tile_wrap {
+          display: grid;
+          grid-template-columns: repeat(5, auto);
           border-top: solid;
           border-top-width: 20px;
           border-top-color: var(--theme-color-1);
@@ -1636,6 +1625,18 @@ class HaxThemeHome extends PolymerElement {
         @media screen and (max-width: 768px) {
           #promo_tile_wrap {
             border-top: none;
+          }
+        }
+
+        @media screen and (max-width: 1330px) {
+          #promo_tile_wrap {
+            grid-template-columns: repeat(2, auto);
+          }
+        }
+
+        @media screen and (max-width: 768px) {
+          #promo_tile_wrap {
+            grid-template-columns: repeat(1, auto);
           }
         }
 
@@ -1672,28 +1673,58 @@ class HaxThemeHome extends PolymerElement {
           build tools for any pedagogy; dream it and we will build it.
         </span>
       </info-box>
-      <site-query
-          result="{{__serviceitems}}"
-          conditions='{
-          "metadata.type": "services"
-        }'
-          limit="4"
-        ></site-query>
       <div id="promo_tile_wrap">
         <div class="promo_tile">
-        <dom-repeat items="[[__serviceitems]]" mutable-data>
-          <template>
           <promo-tile
-            title="[[item.metadata.fields.name]]"
-            label="[[item.metadata.fields.label]]"
-            image="[[item.metadata.fields.image]]"
-            alt="[[item.metadata.fields.tileAlt]]"
+            title="NGDLE"
+            label="Create"
+            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
+            alt="NGDLE stands for: Next Generation Learning Environment."
+            url="ngdle"
+          >
+            Create your course using our Next Generation Digital Learning
+            Environment and gain access to a network of innovative
+            technologies instantly.
+          </promo-tile>
+        </div>
+        <div class="promo_tile">
+          <promo-tile
+            title="NGDLE"
+            label="Create"
+            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
+            alt="NGDLE stands for: Next Generation Learning Environment."
             url="[[item.location]]"
           >
-          [[item.metadata.fields.short]]
+            Create your course using our Next Generation Digital Learning
+            Environment and gain access to a network of innovative
+            technologies instantly.
           </promo-tile>
-       </template>
-        </dom-repeat>
+        </div>
+        <div class="promo_tile">
+          <promo-tile
+            title="NGDLE"
+            label="Create"
+            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
+            alt="NGDLE stands for: Next Generation Learning Environment."
+            url="[[item.location]]"
+          >
+            Create your course using our Next Generation Digital Learning
+            Environment and gain access to a network of innovative
+            technologies instantly.
+          </promo-tile>
+        </div>
+        <div class="promo_tile">
+          <promo-tile
+            title="NGDLE"
+            label="Create"
+            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
+            alt="NGDLE stands for: Next Generation Learning Environment."
+            url="[[item.location]]"
+          >
+            Create your course using our Next Generation Digital Learning
+            Environment and gain access to a network of innovative
+            technologies instantly.
+          </promo-tile>
         </div>
       </div>
       <site-query
@@ -1767,12 +1798,11 @@ class HaxThemeHome extends PolymerElement {
   static get tag() {
     return "haxtheme-home";
   }
-  
+
   constructor() {
     super();
     import('../../build/es6/node_modules/@polymer/paper-button/paper-button.js');
   }
-  
 }
 window.customElements.define(HaxThemeHome.tag, HaxThemeHome);
 
@@ -2725,7 +2755,7 @@ $_documentContainer.innerHTML = `<iron-iconset-svg name="courseicons" size="100"
 
 document.head.appendChild($_documentContainer);
 
-class HaxThemeServices extends PolymerElement {
+class HaxThemeNgdle extends PolymerElement {
   static get template() {
     return html`
       <style>
@@ -2770,35 +2800,46 @@ class HaxThemeServices extends PolymerElement {
         } */
       </style>
       <page-banner
-        image="[[activeItem.metadata.fields.bannerImg]]"
-        text="[[activeItem.title]]"
-        alt="[[activeItem.metadata.fields.bannerAlt]]"
+        image="files/theme-images/page-banners/ngdle-banner.jpg"
+        text="NGDLE"
+        alt="Hand on keyboard with digital imagery.  Photo by: Geralt - Pixabay.com"
       ></page-banner>
       <div id="content-wrap">
         <div id="header">
-          <h1>[[activeItem.metadata.fields.longName]]</h1>
-          <div class="description">[[activeItem.description]]</div>
+          <h1>Next Generation Digital Learning Environment</h1>
+          <div class="description">
+            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur
+            aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </div>
         </div>
         <div id="icon-banner">
-          <site-query
-            result="{{__serviceinfo}}"
-            conditions='{"metadata.type": "services"}'
-          ></site-query>
-          <dom-repeat items="[[__serviceinfo]]" mutable-data>
-          <template>
           <service-icon
-            icon="[[activeItem.metadata.fields.icon]]"
-            title="[[activeItem.metadata.fields.iconTitle]]"
-            info="[[activeItem.metadata.fields.iconDescription]]"
+            icon="courseicons:phys010"
+            title="Icon Title 1"
+            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
-          </template>
-        </dom-repeat>
+          <service-icon
+            icon="courseicons:phys010"
+            title="Icon Title 2"
+            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          ></service-icon>
+          <service-icon
+            icon="courseicons:astro140"
+            title="Icon Title 3"
+            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          ></service-icon>
         </div>
       </div>
     `;
   }
   static get tag() {
-    return "haxtheme-services";
+    return "haxtheme-ngdle";
   }
   connectedCallback() {
     super.connectedCallback();
@@ -2819,7 +2860,7 @@ class HaxThemeServices extends PolymerElement {
     super.disconnectedCallback();
   }
 }
-window.customElements.define(HaxThemeServices.tag, HaxThemeServices);
+window.customElements.define(HaxThemeNgdle.tag, HaxThemeNgdle);
 
 class NewsCard extends LitElement {
   static get styles() {
@@ -6492,7 +6533,7 @@ tr:hover {
   conditions='{
     "parent": null,
     "location": {
-      "value": ["syllabi", "spotlight", "services"],
+      "value": ["syllabi", "spotlight"],
       "operator": "!="
     }
   }'>
@@ -6508,7 +6549,7 @@ tr:hover {
     <haxtheme-profile id="profile" edit-mode$="[[editMode]]"></haxtheme-profile>
     <haxtheme-course id="course" edit-mode$="[[editMode]]"></haxtheme-course>
     <haxtheme-syllabus id="syllabus" edit-mode$="[[editMode]]"></haxtheme-syllabus>
-    <haxtheme-services id="services" edit-mode$="[[editMode]]"></haxtheme-services>
+    <haxtheme-ngdle id="ngdle" edit-mode$="[[editMode]]"></haxtheme-ngdle>
 </iron-pages>
 <scroll-button></scroll-button>
 <page-footer></page-footer>`;
@@ -6676,28 +6717,28 @@ tr:hover {
           this.selectedPage = 5;
           target = location.route.name;
           break;
-        default:
-          if (location.route.path.startsWith("blog-posts/")) {
-            this.selectedPage = 6;
-            target = "blog";
-          } else if (location.route.path.startsWith("team-directory/")) {
-            this.selectedPage = 7;
-            target = "profile";
-          } else if (location.route.path.startsWith("courses/")) {
-            this.selectedPage = 8;
-            target = "course";
-          } else if (location.route.path.startsWith("syllabi/")) {
-            this.selectedPage = 9;
-            target = "syllabus";
-          } else if (location.route.path.startsWith("services/")) {
-            this.selectedPage = 10;
-            target = "services";
-          } else if (location.route.path.startsWith("about/")) {
-            this.selectedPage = 11;
-            target = "about";
+          default:
+              if (location.route.path.startsWith("blog-posts/")) {
+                this.selectedPage = 6;
+                target = "blog";
+              } else if (location.route.path.startsWith("team-directory/")) {
+                this.selectedPage = 7;
+                target = "profile";
+              } else if (location.route.path.startsWith("courses/")) {
+                this.selectedPage = 8;
+                target = "course";
+              } else if (location.route.path.startsWith("syllabi/")) {
+                this.selectedPage = 9;
+                target = "syllabus";
+              } else if (location.route.path.startsWith("ngdle/")) {
+                this.selectedPage = 10;
+                target = "ngdle";
+              } else if (location.route.path.startsWith("about/")) {
+                this.selectedPage = 11;
+                target = "about";
+              }
+              break;
           }
-          break;
-      }
       if (target) {
         this.contentContainer = this.shadowRoot
           .querySelector("#" + target)

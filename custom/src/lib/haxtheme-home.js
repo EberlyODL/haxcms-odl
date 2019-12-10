@@ -38,24 +38,13 @@ class HaxThemeHome extends PolymerElement {
           --button-hover-color: none;
         }
 
-        .promo_tile {
-          display: grid;
-          grid-template-columns: repeat(5, auto);
-        }
+     
 
-        @media screen and (max-width: 1330px) {
-          .promo_tile {
-            grid-template-columns: repeat(2, auto);
-          }
-        }
 
-        @media screen and (max-width: 768px) {
-          .promo_tile {
-            grid-template-columns: repeat(1, auto);
-          }
-        }
 
         #promo_tile_wrap {
+          display: grid;
+          grid-template-columns: repeat(5, auto);
           border-top: solid;
           border-top-width: 20px;
           border-top-color: var(--theme-color-1);
@@ -64,6 +53,18 @@ class HaxThemeHome extends PolymerElement {
         @media screen and (max-width: 768px) {
           #promo_tile_wrap {
             border-top: none;
+          }
+        }
+
+        @media screen and (max-width: 1330px) {
+          #promo_tile_wrap {
+            grid-template-columns: repeat(2, auto);
+          }
+        }
+
+        @media screen and (max-width: 768px) {
+          #promo_tile_wrap {
+            grid-template-columns: repeat(1, auto);
           }
         }
 
@@ -100,28 +101,58 @@ class HaxThemeHome extends PolymerElement {
           build tools for any pedagogy; dream it and we will build it.
         </span>
       </info-box>
-      <site-query
-          result="{{__serviceitems}}"
-          conditions='{
-          "metadata.type": "services"
-        }'
-          limit="4"
-        ></site-query>
       <div id="promo_tile_wrap">
         <div class="promo_tile">
-        <dom-repeat items="[[__serviceitems]]" mutable-data>
-          <template>
           <promo-tile
-            title="[[item.metadata.fields.name]]"
-            label="[[item.metadata.fields.label]]"
-            image="[[item.metadata.fields.image]]"
-            alt="[[item.metadata.fields.tileAlt]]"
+            title="NGDLE"
+            label="Create"
+            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
+            alt="NGDLE stands for: Next Generation Learning Environment."
+            url="ngdle"
+          >
+            Create your course using our Next Generation Digital Learning
+            Environment and gain access to a network of innovative
+            technologies instantly.
+          </promo-tile>
+        </div>
+        <div class="promo_tile">
+          <promo-tile
+            title="NGDLE"
+            label="Create"
+            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
+            alt="NGDLE stands for: Next Generation Learning Environment."
             url="[[item.location]]"
           >
-          [[item.metadata.fields.short]]
+            Create your course using our Next Generation Digital Learning
+            Environment and gain access to a network of innovative
+            technologies instantly.
           </promo-tile>
-       </template>
-        </dom-repeat>
+        </div>
+        <div class="promo_tile">
+          <promo-tile
+            title="NGDLE"
+            label="Create"
+            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
+            alt="NGDLE stands for: Next Generation Learning Environment."
+            url="[[item.location]]"
+          >
+            Create your course using our Next Generation Digital Learning
+            Environment and gain access to a network of innovative
+            technologies instantly.
+          </promo-tile>
+        </div>
+        <div class="promo_tile">
+          <promo-tile
+            title="NGDLE"
+            label="Create"
+            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
+            alt="NGDLE stands for: Next Generation Learning Environment."
+            url="[[item.location]]"
+          >
+            Create your course using our Next Generation Digital Learning
+            Environment and gain access to a network of innovative
+            technologies instantly.
+          </promo-tile>
         </div>
       </div>
       <site-query
@@ -195,12 +226,11 @@ class HaxThemeHome extends PolymerElement {
   static get tag() {
     return "haxtheme-home";
   }
-  
+
   constructor() {
     super();
     import("@polymer/paper-button/paper-button.js");
   }
-  
 }
 window.customElements.define(HaxThemeHome.tag, HaxThemeHome);
 export { HaxThemeHome };

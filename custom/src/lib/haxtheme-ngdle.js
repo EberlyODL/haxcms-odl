@@ -5,7 +5,7 @@ import "./page-banner.js";
 import "./service-icon";
 import "./course-icons.js";
 
-class HaxThemeServices extends PolymerElement {
+class HaxThemeNgdle extends PolymerElement {
   static get template() {
     return html`
       <style>
@@ -50,35 +50,46 @@ class HaxThemeServices extends PolymerElement {
         } */
       </style>
       <page-banner
-        image="[[activeItem.metadata.fields.bannerImg]]"
-        text="[[activeItem.title]]"
-        alt="[[activeItem.metadata.fields.bannerAlt]]"
+        image="files/theme-images/page-banners/ngdle-banner.jpg"
+        text="NGDLE"
+        alt="Hand on keyboard with digital imagery.  Photo by: Geralt - Pixabay.com"
       ></page-banner>
       <div id="content-wrap">
         <div id="header">
-          <h1>[[activeItem.metadata.fields.longName]]</h1>
-          <div class="description">[[activeItem.description]]</div>
+          <h1>Next Generation Digital Learning Environment</h1>
+          <div class="description">
+            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur
+            aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </div>
         </div>
         <div id="icon-banner">
-          <site-query
-            result="{{__serviceinfo}}"
-            conditions='{"metadata.type": "services"}'
-          ></site-query>
-          <dom-repeat items="[[__serviceinfo]]" mutable-data>
-          <template>
           <service-icon
-            icon="[[activeItem.metadata.fields.icon]]"
-            title="[[activeItem.metadata.fields.iconTitle]]"
-            info="[[activeItem.metadata.fields.iconDescription]]"
+            icon="courseicons:phys010"
+            title="Icon Title 1"
+            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
-          </template>
-        </dom-repeat>
+          <service-icon
+            icon="courseicons:phys010"
+            title="Icon Title 2"
+            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          ></service-icon>
+          <service-icon
+            icon="courseicons:astro140"
+            title="Icon Title 3"
+            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          ></service-icon>
         </div>
       </div>
     `;
   }
   static get tag() {
-    return "haxtheme-services";
+    return "haxtheme-ngdle";
   }
   connectedCallback() {
     super.connectedCallback();
@@ -99,5 +110,5 @@ class HaxThemeServices extends PolymerElement {
     super.disconnectedCallback();
   }
 }
-window.customElements.define(HaxThemeServices.tag, HaxThemeServices);
-export { HaxThemeServices };
+window.customElements.define(HaxThemeNgdle.tag, HaxThemeNgdle);
+export { HaxThemeNgdle };

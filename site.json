@@ -3784,129 +3784,16 @@
             }
         },
         {
-            "id": "services",
+            "id": "ngdle",
             "indent": 0,
-            "location": "pages\/services\/index.html",
+            "location": "pages\/ngdle\/index.html",
             "order": 8,
             "parent": null,
-            "title": "Services",
+            "title": "NGDLE",
             "description": "",
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755
-            }
-        },
-        {
-            "id": "ngdle",
-            "indent": 1,
-            "location": "pages\/services\/ngdle\/index.html",
-            "order": 1,
-            "parent": "services",
-            "title": "NGDLE",
-            "description": "Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit.",
-            "metadata": {
-                "fields": {
-                    "name": "NGDLE",
-                    "longName": "Next Generation Digital Learning Enviornment",
-                    "image": "files/theme-images/promo-tiles/elmsln-tile.jpg",
-                    "tileAlt": "NGDLE is short for Next Generation Learning Environment.",
-                    "bannerImg": "files/theme-images/page-banners/ngdle-banner.jpg",
-                    "bannerAlt": "Hand on keyboard with digital imagery.  Photo by: Geralt - Pixabay.com",
-                    "label": "Create",
-                    "short": "Create your course using our Next Generation Digital Learning Environment and gain access to a network of innovative technologies instantly.",
-                    "icon": "courseicons:phys010",
-                    "iconTitle": "Icon Title",
-                    "iconDescription": "Icon Description...Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat."
-                },
-                "created": 1555387200,
-                "updated": 1555387200,
-                "type": "services",
-                "template": "services"
-            }
-        },
-        {
-            "id": "pedagogy",
-            "indent": 1,
-            "location": "pages\/services\/pedagogy\/index.html",
-            "order": 2,
-            "parent": "services",
-            "title": "Pedagogy",
-            "description": "Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit.",
-            "metadata": {
-                "fields": {
-                    "name": "Pedagogy",
-                    "longName": "Pedagogy",
-                    "image": "files/theme-images/promo-tiles/hax-tile.jpg",
-                    "tileAlt": "Pedagogy is the study of how knowledge and skills are imparted in an educational context, and it considers the interactions that take place during learning.",
-                    "bannerImg": "",
-                    "bannerAlt": "",
-                    "label": "Learn",
-                    "short": "Pedagogy refers to the theory and practice of learning, and how this process influences the development of learners; see how we're implementing pedagogy into our online courses.",
-                    "icon": "courseicons:phys010",
-                    "iconTitle": "Icon Title 2",
-                    "iconDescription": "Icon Description 2...Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat."
-
-                },
-                "created": 1555387200,
-                "updated": 1555387200,
-                "type": "services",
-                "template": "services"
-            }
-        },
-        {
-            "id": "lab",
-            "indent": 1,
-            "location": "pages\/services\/lab\/index.html",
-            "order": 2,
-            "parent": "services",
-            "title": "Lab",
-            "description": "Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit.",
-            "metadata": {
-                "fields": {
-                    "name": "Lab",
-                    "longName": "Innovation Lab",
-                    "image": "files/theme-images/promo-tiles/vr-tile.jpg",
-                    "tileAlt": "A student using virtual reality; check out some of the new technologies we're exploring.",
-                    "bannerImg": "",
-                    "bannerAlt": "",
-                    "label": "Explore",
-                    "short": "Our team is working constantly to identify, explore, and share the industry's best educational resources; check out our inovation lab to see what we've been up to.",
-                    "icon": "courseicons:phys010",
-                    "iconTitle": "Icon Title 3",
-                    "iconDescription": "Icon Description 3...Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat."
-                },
-                "created": 1555387200,
-                "updated": 1555387200,
-                "type": "services",
-                "template": "services"
-            }
-        },
-        {
-            "id": "obs",
-            "indent": 1,
-            "location": "pages\/services\/obs\/index.html",
-            "order": 2,
-            "parent": "services",
-            "title": "Studio",
-            "description": "1 Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit.",
-            "metadata": {
-                "fields": {
-                    "name": "Studio",
-                    "longName": "One Button Studio",
-                    "image": "files/theme-images/promo-tiles/obs-tile.jpg",
-                    "tileAlt": "Use the One Button Studio to record professional lectures and presentations.",
-                    "bannerImg": "",
-                    "bannerAlt": "",
-                    "label": "Film",
-                    "short": "Work with experts to record high-quality presentations, lectures, ideas and more in our One Button Studio.",
-                    "icon": "courseicons:astro140",
-                    "iconTitle": "Icon Title 4",
-                    "iconDescription": "Icon Description 4...Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat."
-                },
-                "created": 1555387200,
-                "updated": 1555387200,
-                "type": "services",
-                "template": "services"
             }
         }
     ]
