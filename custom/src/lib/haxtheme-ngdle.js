@@ -1,10 +1,12 @@
 import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
 import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js";
+import "@lrnwebcomponents/person-testimonial/person-testimonial.js";
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
 import "./page-banner.js";
 import "./service-icon.js";
 import "./service-band.js";
 import "./course-icons.js";
+
 
 class HaxThemeNgdle extends PolymerElement {
   static get template() {
@@ -25,9 +27,14 @@ class HaxThemeNgdle extends PolymerElement {
           font-weight: 400;
         }
 
+        h2 {
+          font-size: 24px;
+          font-weight: 400;
+        }
+
         @media screen and (max-width: 768px) {
           h1 {
-           font-size: 28px;
+            font-size: 28px;
           }
         }
 
@@ -58,7 +65,7 @@ class HaxThemeNgdle extends PolymerElement {
 
         @media screen and (max-width: 1130px) {
           #icon-banner {
-            grid-template-columns: repeat(2, auto);           
+            grid-template-columns: repeat(2, auto);
           }
         }
 
@@ -67,7 +74,35 @@ class HaxThemeNgdle extends PolymerElement {
             grid-template-columns: repeat(1, auto);
           }
         }
-        
+
+        #testimonials {
+          margin: 0 0 25px 0;
+        }
+
+        #testimonial_header {
+          font-size: 24px;
+          font-weight: 400;
+          border-left: solid;
+          border-left-width: 4px;
+          border-left-color: #e2801e;
+          padding-left: 15px;
+          margin: 0 0 25px 0
+        }
+
+        #quotes {
+          display: grid;
+          grid-template-columns: repeat(2, auto);
+        }
+
+        @media screen and (max-width: 768px) {
+          #quotes {
+            grid-template-columns: repeat(1, auto);
+          }
+        }
+
+        person-testimonial {
+          margin-right: 10px;
+        }
       </style>
       <page-banner
         image="files/theme-images/page-banners/ngdle-banner.jpg"
@@ -114,23 +149,85 @@ class HaxThemeNgdle extends PolymerElement {
         <div id="service-banner">
           <service-band
             image="files/feature-images/course-select.jpg"
+            alt="A student raises their hand in a lecture hall."
             title="Track Real-time Anayltics to Measure Student Performance"
           >
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit.
           </service-band>
           <service-band
             image="files/feature-images/course-select.jpg"
+            alt="A student raises their hand in a lecture hall."
             title="Track Real-time Anayltics to Measure Student Performance"
             align="right"
           >
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit.
           </service-band>
           <service-band
             image="files/feature-images/course-select.jpg"
+            alt="A student raises their hand in a lecture hall."
             title="Track Real-time Anayltics to Measure Student Performance"
           >
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit.
           </service-band>
+        </div>
+        <div id="testimonials">
+          <div id="testimonial_header">
+            <h2>What Others are Saying...</h2>
+          </div>
+          <div id="quotes">
+            <person-testimonial
+              accent-color="orange"
+              image="files/odl-team/mike.jpg"
+              name="Michael Potter"
+              position="Educational Technologist"
+            >
+              <span
+                >HAX has revolutionized how I help faculty deliver content!</span
+              >
+            </person-testimonial>
+            <person-testimonial
+              accent-color="orange"
+              image="files/odl-team/mike.jpg"
+              name="Michael Potter"
+              position="Educational Technologist"
+            >
+              <span
+                >HAX has revolutionized how I help faculty deliver content!</span
+              >
+            </person-testimonial>
+            <person-testimonial
+              accent-color="orange"
+              image="files/odl-team/mike.jpg"
+              name="Michael Potter"
+              position="Educational Technologist"
+            >
+              <span
+                >HAX has revolutionized how I help faculty deliver content!</span
+              >
+            </person-testimonial>
+            <person-testimonial
+              accent-color="orange"
+              image="files/odl-team/mike.jpg"
+              name="Michael Potter"
+              position="Educational Technologist"
+            >
+              <span
+                >HAX has revolutionized how I help faculty deliver content!</span
+              >
+            </person-testimonial>
+          </div>
         </div>
       </div>
     `;

@@ -25,18 +25,20 @@ class ServiceBand extends PolymerElement {
 
         @media screen and (max-width: 768px) {
           :host([align="right"]) #image {
-            margin: 0 0 25px 0; 
+            margin: 0 0 25px 0;
+            order: 0; 
           }
         }
 
         #container {
           display: flex;
-          margin: 15px;
+          align-items: center;
+          margin: 0 0 25px 0;
         }
 
         @media screen and (min-width: 768px) {
           :host([align="right"]) #container {
-            margin: 0 0 15px 0; 
+            margin: 0 0 25px 0; 
           }
         }
 
@@ -114,6 +116,12 @@ class ServiceBand extends PolymerElement {
        * Image source
        */
       image: {
+        type: String
+      },
+      /**
+       * Image alt
+       */
+      alt: {
         type: String
       },
       /**

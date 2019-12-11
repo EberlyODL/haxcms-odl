@@ -180,7 +180,7 @@ tr:hover {
   conditions='{
     "parent": null,
     "location": {
-      "value": ["syllabi", "spotlight"],
+      "value": ["syllabi", "spotlight", "ngdle"],
       "operator": "!="
     }
   }'>
