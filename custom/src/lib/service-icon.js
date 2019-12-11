@@ -14,13 +14,12 @@ class ServiceIcon extends PolymerElement {
         }
 
         #container {
-          background-color: #363533;
           margin: 15px;
           padding: 5px;
         }
 
         #icon-wrap {
-          border: solid 3px #fff;
+          border: solid 3px #e2801e;
           border-radius: 50%;
           padding: 15px;
           margin: 25px auto 0 auto;
@@ -30,7 +29,7 @@ class ServiceIcon extends PolymerElement {
         iron-icon {
           width: 100px;
           height: 100px;
-          fill: #fff;
+          fill: #e2801e;
         }
 
         #info-wrap {
@@ -42,7 +41,6 @@ class ServiceIcon extends PolymerElement {
 
         #title {
           text-transform: uppercase;
-          color: #e2801e;
           font-size: 24px;
           margin: 0 0 5px 0;
           font-weight: 400;
@@ -50,7 +48,6 @@ class ServiceIcon extends PolymerElement {
 
         #info {
           font-size: 16px;
-          color: #fff;
           text-align: center;
           font-weight: 300;
           line-height: 1.4;

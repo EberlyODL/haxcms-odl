@@ -2006,13 +2006,12 @@ class ServiceIcon extends PolymerElement {
         }
 
         #container {
-          background-color: #363533;
           margin: 15px;
           padding: 5px;
         }
 
         #icon-wrap {
-          border: solid 3px #fff;
+          border: solid 3px #e2801e;
           border-radius: 50%;
           padding: 15px;
           margin: 25px auto 0 auto;
@@ -2022,7 +2021,7 @@ class ServiceIcon extends PolymerElement {
         iron-icon {
           width: 100px;
           height: 100px;
-          fill: #fff;
+          fill: #e2801e;
         }
 
         #info-wrap {
@@ -2034,7 +2033,6 @@ class ServiceIcon extends PolymerElement {
 
         #title {
           text-transform: uppercase;
-          color: #e2801e;
           font-size: 24px;
           margin: 0 0 5px 0;
           font-weight: 400;
@@ -2042,7 +2040,6 @@ class ServiceIcon extends PolymerElement {
 
         #info {
           font-size: 16px;
-          color: #fff;
           text-align: center;
           font-weight: 300;
           line-height: 1.4;
@@ -2103,14 +2100,38 @@ class ServiceBand extends PolymerElement {
           display: none;
         }
 
-        /* :host([align="right"]) #card_info {
+        :host([align="right"]) #image {
           display: flex;
-          justify-content: flex-end;
-        } */
+          order: 2;
+          margin: 0 0 0 25px;
+        }
+
+        :host([align="right"]) #card_info {
+          text-align: left;
+        }
+
+        @media screen and (max-width: 768px) {
+          :host([align="right"]) #image {
+            margin: 0 0 25px 0; 
+          }
+        }
 
         #container {
           display: flex;
           margin: 15px;
+        }
+
+        @media screen and (min-width: 768px) {
+          :host([align="right"]) #container {
+            margin: 0 0 15px 0; 
+          }
+        }
+
+        @media screen and (max-width: 768px) {
+          #container {
+            flex-direction: column;
+            margin: 0
+          }
         }
 
         #image {
@@ -2122,6 +2143,13 @@ class ServiceBand extends PolymerElement {
           margin: 0 20px 0 0;
         }
 
+        @media screen and (max-width: 768px) {
+          #image {
+            width: 100%;
+          }
+        }
+
+
         #title {
           font-size: 24px;
           font-weight: 400;
@@ -2131,7 +2159,7 @@ class ServiceBand extends PolymerElement {
           padding-left: 15px;
           margin: 0 0 25px 0;
         }
-
+        
         #info {
           font-weight: 300;
           line-height: 1.4;
@@ -2143,9 +2171,15 @@ class ServiceBand extends PolymerElement {
           margin: 25px 0 0 15px;
           width: 50%;
         }
+
+        @media screen and (max-width: 768px) {
+          #card_info{
+            width: 100%;
+            margin: 20px 0 20px;
+          }
+        }
+
       </style>
-
-
       <div id="container">
         <div id="image" style$="background-image:url([[image]])"></div>
         <div id="card_info">
@@ -2154,6 +2188,7 @@ class ServiceBand extends PolymerElement {
             <slot>[[info]]</slot>
           </div>
         </div>
+
       </div>
     `;
   }
@@ -2185,7 +2220,7 @@ class ServiceBand extends PolymerElement {
        */
       align: {
         type: String,
-        value: "",
+        value: "left",
         reflectToAttribute: true
       }
     };
@@ -2919,6 +2954,12 @@ class HaxThemeNgdle extends PolymerElement {
           font-weight: 400;
         }
 
+        @media screen and (max-width: 768px) {
+          h1 {
+           font-size: 28px;
+          }
+        }
+
         #content-wrap {
           width: 80%;
           margin: 0 auto 0 auto;
@@ -2939,14 +2980,23 @@ class HaxThemeNgdle extends PolymerElement {
         }
 
         #icon-banner {
-          display: flex;
+          display: grid;
+          grid-template-columns: repeat(5, auto);
+          margin: -20px 0 0 0;
+        }
+
+        @media screen and (max-width: 1130px) {
+          #icon-banner {
+            grid-template-columns: repeat(2, auto);           
+          }
         }
 
         @media screen and (max-width: 768px) {
           #icon-banner {
-            flex-direction: column;
+            grid-template-columns: repeat(1, auto);
           }
         }
+        
       </style>
       <page-banner
         image="files/theme-images/page-banners/ngdle-banner.jpg"
@@ -2983,6 +3033,12 @@ class HaxThemeNgdle extends PolymerElement {
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
+          <service-icon
+            icon="courseicons:astro011"
+            title="Icon Title 4"
+            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          ></service-icon>
         </div>
         <div id="service-banner">
           <service-band
@@ -2994,7 +3050,13 @@ class HaxThemeNgdle extends PolymerElement {
           <service-band
             image="files/feature-images/course-select.jpg"
             title="Track Real-time Anayltics to Measure Student Performance"
-            right
+            align="right"
+          >
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </service-band>
+          <service-band
+            image="files/feature-images/course-select.jpg"
+            title="Track Real-time Anayltics to Measure Student Performance"
           >
           Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </service-band>

@@ -25,6 +25,12 @@ class HaxThemeNgdle extends PolymerElement {
           font-weight: 400;
         }
 
+        @media screen and (max-width: 768px) {
+          h1 {
+           font-size: 28px;
+          }
+        }
+
         #content-wrap {
           width: 80%;
           margin: 0 auto 0 auto;
@@ -45,14 +51,23 @@ class HaxThemeNgdle extends PolymerElement {
         }
 
         #icon-banner {
-          display: flex;
+          display: grid;
+          grid-template-columns: repeat(5, auto);
+          margin: -20px 0 0 0;
+        }
+
+        @media screen and (max-width: 1130px) {
+          #icon-banner {
+            grid-template-columns: repeat(2, auto);           
+          }
         }
 
         @media screen and (max-width: 768px) {
           #icon-banner {
-            flex-direction: column;
+            grid-template-columns: repeat(1, auto);
           }
         }
+        
       </style>
       <page-banner
         image="files/theme-images/page-banners/ngdle-banner.jpg"
@@ -89,6 +104,12 @@ class HaxThemeNgdle extends PolymerElement {
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
+          <service-icon
+            icon="courseicons:astro011"
+            title="Icon Title 4"
+            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          ></service-icon>
         </div>
         <div id="service-banner">
           <service-band
@@ -100,7 +121,13 @@ class HaxThemeNgdle extends PolymerElement {
           <service-band
             image="files/feature-images/course-select.jpg"
             title="Track Real-time Anayltics to Measure Student Performance"
-            right
+            align="right"
+          >
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </service-band>
+          <service-band
+            image="files/feature-images/course-select.jpg"
+            title="Track Real-time Anayltics to Measure Student Performance"
           >
           Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </service-band>

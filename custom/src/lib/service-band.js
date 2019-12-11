@@ -13,14 +13,38 @@ class ServiceBand extends PolymerElement {
           display: none;
         }
 
-        /* :host([align="right"]) #card_info {
+        :host([align="right"]) #image {
           display: flex;
-          justify-content: flex-end;
-        } */
+          order: 2;
+          margin: 0 0 0 25px;
+        }
+
+        :host([align="right"]) #card_info {
+          text-align: left;
+        }
+
+        @media screen and (max-width: 768px) {
+          :host([align="right"]) #image {
+            margin: 0 0 25px 0; 
+          }
+        }
 
         #container {
           display: flex;
           margin: 15px;
+        }
+
+        @media screen and (min-width: 768px) {
+          :host([align="right"]) #container {
+            margin: 0 0 15px 0; 
+          }
+        }
+
+        @media screen and (max-width: 768px) {
+          #container {
+            flex-direction: column;
+            margin: 0
+          }
         }
 
         #image {
@@ -32,6 +56,13 @@ class ServiceBand extends PolymerElement {
           margin: 0 20px 0 0;
         }
 
+        @media screen and (max-width: 768px) {
+          #image {
+            width: 100%;
+          }
+        }
+
+
         #title {
           font-size: 24px;
           font-weight: 400;
@@ -41,7 +72,7 @@ class ServiceBand extends PolymerElement {
           padding-left: 15px;
           margin: 0 0 25px 0;
         }
-
+        
         #info {
           font-weight: 300;
           line-height: 1.4;
@@ -53,9 +84,15 @@ class ServiceBand extends PolymerElement {
           margin: 25px 0 0 15px;
           width: 50%;
         }
+
+        @media screen and (max-width: 768px) {
+          #card_info{
+            width: 100%;
+            margin: 20px 0 20px;
+          }
+        }
+
       </style>
-
-
       <div id="container">
         <div id="image" style$="background-image:url([[image]])"></div>
         <div id="card_info">
@@ -64,6 +101,7 @@ class ServiceBand extends PolymerElement {
             <slot>[[info]]</slot>
           </div>
         </div>
+
       </div>
     `;
   }
@@ -95,7 +133,7 @@ class ServiceBand extends PolymerElement {
        */
       align: {
         type: String,
-        value: "",
+        value: "left",
         reflectToAttribute: true
       }
     };
