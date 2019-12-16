@@ -1611,10 +1611,6 @@ class HaxThemeHome extends PolymerElement {
           --button-hover-color: none;
         }
 
-     
-
-
-
         #promo_tile_wrap {
           display: grid;
           grid-template-columns: repeat(5, auto);
@@ -1677,54 +1673,52 @@ class HaxThemeHome extends PolymerElement {
       <div id="promo_tile_wrap">
         <div class="promo_tile">
           <promo-tile
-            title="NGDLE"
+            title="Course Management"
             label="Create"
             image="files/theme-images/promo-tiles/elmsln-tile.jpg"
             alt="NGDLE stands for: Next Generation Learning Environment."
             url="ngdle"
           >
             Create your course using our Next Generation Digital Learning
-            Environment and gain access to a network of innovative
+            Environment and gain access to a network of cutting-edge
             technologies instantly.
           </promo-tile>
         </div>
         <div class="promo_tile">
           <promo-tile
-            title="NGDLE"
-            label="Create"
-            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
+            title="Innovation Lab"
+            label="Explore"
+            image="files/theme-images/promo-tiles/vr-tile.jpg"
             alt="NGDLE stands for: Next Generation Learning Environment."
-            url="[[item.location]]"
+            url="lab"
           >
-            Create your course using our Next Generation Digital Learning
-            Environment and gain access to a network of innovative
-            technologies instantly.
+            Our team is always exploring, testing, and sharing new and
+            technologies for education; step into our innovation lab and see
+            what we've been up to.
           </promo-tile>
         </div>
         <div class="promo_tile">
           <promo-tile
-            title="NGDLE"
-            label="Create"
+            title="Pedagogy"
+            label="Learn"
             image="files/theme-images/promo-tiles/elmsln-tile.jpg"
-            alt="NGDLE stands for: Next Generation Learning Environment."
+            alt=""
             url="[[item.location]]"
           >
-            Create your course using our Next Generation Digital Learning
-            Environment and gain access to a network of innovative
-            technologies instantly.
+            Pedagogy refers to the instructional methods and techniques used to
+            effectively convey learning objectives.
           </promo-tile>
         </div>
         <div class="promo_tile">
           <promo-tile
-            title="NGDLE"
-            label="Create"
-            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
-            alt="NGDLE stands for: Next Generation Learning Environment."
+            title="One Button Studio"
+            label="Film"
+            image="files/theme-images/promo-tiles/obs-tile.jpg"
+            alt=""
             url="[[item.location]]"
           >
-            Create your course using our Next Generation Digital Learning
-            Environment and gain access to a network of innovative
-            technologies instantly.
+            Work with experts to storyboard and film engaging lectures,
+            presentations, and more using our One Button Studio.
           </promo-tile>
         </div>
       </div>
@@ -2087,18 +2081,32 @@ class ServiceIcon extends PolymerElement {
 }
 window.customElements.define(ServiceIcon.tag, ServiceIcon);
 
-class ServiceBand extends PolymerElement {
-  static get template() {
-    return html`
-      <style>
+class ServiceBand extends LitElement {
+  /**
+   * LitElement constructable styles enhancement
+   */
+  static get styles() {
+    return [
+      css`
         :host {
           display: block;
         }
-        /**
-       * Hide the slotted content during edit mode. This must be here to work.
-       */
-        :host([edit-mode]) #slot {
-          display: none;
+
+        :host([align="right"]) #video {
+          display: flex;
+          order: 2;
+          margin: 0 0 0 25px;
+        }
+
+        @media screen and (max-width: 768px) {
+          :host([align="right"]) #video {
+            margin: 0 0 25px 0;
+            order: 0;
+          }
+        }
+
+        :host([align="right"]) video-player {
+          width: 100%;
         }
 
         :host([align="right"]) #image {
@@ -2114,7 +2122,7 @@ class ServiceBand extends PolymerElement {
         @media screen and (max-width: 768px) {
           :host([align="right"]) #image {
             margin: 0 0 25px 0;
-            order: 0; 
+            order: 0;
           }
         }
 
@@ -2126,14 +2134,14 @@ class ServiceBand extends PolymerElement {
 
         @media screen and (min-width: 768px) {
           :host([align="right"]) #container {
-            margin: 0 0 25px 0; 
+            margin: 0 0 25px 0;
           }
         }
 
         @media screen and (max-width: 768px) {
           #container {
             flex-direction: column;
-            margin: 0
+            margin: 0;
           }
         }
 
@@ -2152,6 +2160,20 @@ class ServiceBand extends PolymerElement {
           }
         }
 
+        #video {
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: right center;
+          width: 40%;
+          min-height: 300px;
+          margin: 0 20px 0 0;
+        }
+
+        @media screen and (max-width: 768px) {
+          #video {
+            width: 100%;
+          }
+        }
 
         #title {
           font-size: 24px;
@@ -2162,7 +2184,7 @@ class ServiceBand extends PolymerElement {
           padding-left: 15px;
           margin: 0 0 25px 0;
         }
-        
+
         #info {
           font-weight: 300;
           line-height: 1.4;
@@ -2176,22 +2198,54 @@ class ServiceBand extends PolymerElement {
         }
 
         @media screen and (max-width: 768px) {
-          #card_info{
+          #card_info {
             width: 100%;
             margin: 20px 0 20px;
           }
         }
-
-      </style>
+      `
+    ];
+  }
+  render() {
+    return html$1`
       <div id="container">
-        <div id="image" style$="background-image:url([[image]])"></div>
+        ${this.renderSource(this.type)}
         <div id="card_info">
-          <div id="title">[[title]]</div>
+          <div id="title">${this.title}</div>
           <div id="info">
-            <slot>[[info]]</slot>
+            <slot>${this.info}</slot>
           </div>
         </div>
-
+      </div>
+    `;
+  }
+  renderSource(type) {
+    switch (type) {
+      case "video":
+        return this.renderVideo();
+        break;
+      case "icon":
+        return this.renderIcon();
+        break;
+    }
+    return this.renderImage();
+  }
+  renderIcon() {
+    import('../../build/es6/node_modules/@polymer/iron-icon/iron-icon.js');
+    return html$1`
+      <iron-icon icon="${this.source}"></iron-icon>
+    `;
+  }
+  renderImage() {
+    return html$1`
+      <div id="image" style="background-image:url(${this.source})"></div>
+    `;
+  }
+  renderVideo() {
+    import('../../build/es6/node_modules/@lrnwebcomponents/video-player/video-player.js');
+    return html$1`
+      <div id="video">
+        <video-player source="${this.source}"></video-player>
       </div>
     `;
   }
@@ -2201,38 +2255,48 @@ class ServiceBand extends PolymerElement {
   static get properties() {
     return {
       /**
-       * Image source
+       * Media Source
        */
-      image: {
+      source: {
         type: String
       },
       /**
-       * Image alt
+       * Media Type
+       */
+      type: {
+        type: String
+      },
+      /**
+       * Image Alt
        */
       alt: {
         type: String
       },
       /**
-       * Title over icon
+       * Title Over Icon
        */
       title: {
         type: String
       },
       /**
-       * info text for icon
+       * Info Text for Icon
        */
       info: {
         type: String
       },
       /**
-       * align image
+       * Align Media
        */
       align: {
         type: String,
-        value: "left",
-        reflectToAttribute: true
+        reflect: true
       }
     };
+  }
+  constructor() {
+    super();
+    this.type = "image";
+    this.align = "left";
   }
 }
 window.customElements.define(ServiceBand.tag, ServiceBand);
@@ -3042,12 +3106,262 @@ class HaxThemeNgdle extends PolymerElement {
       </style>
       <page-banner
         image="files/theme-images/page-banners/ngdle-banner.jpg"
-        text="NGDLE"
+        text="Course Management"
         alt="Hand on keyboard with digital imagery.  Photo by: Geralt - Pixabay.com"
       ></page-banner>
       <div id="content-wrap">
         <div id="header">
           <h1>Next Generation Digital Learning Environment</h1>
+          <div class="description">
+            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur
+            aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </div>
+        </div>
+        <div id="icon-banner">
+          <service-icon
+            icon="courseicons:astro011"
+            title="Icon Title 1"
+            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          ></service-icon>
+          <service-icon
+            icon="courseicons:astro011"
+            title="Icon Title 2"
+            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          ></service-icon>
+          <service-icon
+            icon="courseicons:astro011"
+            title="Icon Title 3"
+            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          ></service-icon>
+          <service-icon
+            icon="courseicons:astro011"
+            title="Icon Title 4"
+            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          ></service-icon>
+        </div>
+        <div id="service-banner">
+          <service-band
+            type="video"
+            source="https://youtu.be/o55m5yfdF-o"
+            alt="A student raises their hand in a lecture hall."
+            title="Track Real-time Anayltics to Measure Student Performance"
+          >
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit.
+          </service-band>
+          <service-band
+            source="files/feature-images/course-select.jpg"
+            alt="A student raises their hand in a lecture hall."
+            title="Track Real-time Anayltics to Measure Student Performance"
+            align="right"
+          >
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit.
+          </service-band>
+          <service-band
+            type="video"
+            source="https://youtu.be/obxNix6w2aE"
+            alt="A student raises their hand in a lecture hall."
+            title="Track Real-time Anayltics to Measure Student Performance"
+          >
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit.
+          </service-band>
+        </div>
+        <div id="testimonials">
+          <div id="testimonial_header">
+            <h2>What Others are Saying...</h2>
+          </div>
+          <div id="quotes">
+            <person-testimonial
+              accent-color="orange"
+              image="files/odl-team/mike.jpg"
+              name="Michael Potter"
+              position="Educational Technologist"
+            >
+              <span
+                >HAX has revolutionized how I help faculty deliver content!</span
+              >
+            </person-testimonial>
+            <person-testimonial
+              accent-color="orange"
+              image="files/odl-team/mike.jpg"
+              name="Michael Potter"
+              position="Educational Technologist"
+            >
+              <span
+                >HAX has revolutionized how I help faculty deliver content!</span
+              >
+            </person-testimonial>
+            <person-testimonial
+              accent-color="orange"
+              image="files/odl-team/mike.jpg"
+              name="Michael Potter"
+              position="Educational Technologist"
+            >
+              <span
+                >HAX has revolutionized how I help faculty deliver content!</span
+              >
+            </person-testimonial>
+            <person-testimonial
+              accent-color="orange"
+              image="files/odl-team/mike.jpg"
+              name="Michael Potter"
+              position="Educational Technologist"
+            >
+              <span
+                >HAX has revolutionized how I help faculty deliver content!</span
+              >
+            </person-testimonial>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+  static get tag() {
+    return "haxtheme-ngdle";
+  }
+  connectedCallback() {
+    super.connectedCallback();
+    this.__disposer = [];
+    autorun(reaction => {
+      this.manifest = toJS(store.routerManifest);
+      this.__disposer.push(reaction);
+    });
+    autorun(reaction => {
+      this.activeItem = toJS(store.activeItem);
+      this.__disposer.push(reaction);
+    });
+  }
+  disconnectedCallback() {
+    for (var i in this.__disposer) {
+      this.__disposer[i].dispose();
+    }
+    super.disconnectedCallback();
+  }
+}
+window.customElements.define(HaxThemeNgdle.tag, HaxThemeNgdle);
+
+class HaxThemeLab extends PolymerElement {
+  static get template() {
+    return html`
+      <style>
+        :host {
+          display: block;
+        }
+        /**
+       * Hide the slotted content during edit mode. This must be here to work.
+       */
+        :host([edit-mode]) #slot {
+          display: none;
+        }
+
+        h1 {
+          font-size: 36px;
+          font-weight: 400;
+        }
+
+        h2 {
+          font-size: 24px;
+          font-weight: 400;
+        }
+
+        @media screen and (max-width: 768px) {
+          h1 {
+            font-size: 28px;
+          }
+        }
+
+        #content-wrap {
+          width: 80%;
+          margin: 0 auto 0 auto;
+        }
+
+        #header {
+          border-left: solid;
+          border-left-width: 4px;
+          border-left-color: #e2801e;
+          padding-left: 15px;
+          margin: 0 0 25px 0;
+        }
+
+        .description {
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 1.4;
+        }
+
+        #icon-banner {
+          display: grid;
+          grid-template-columns: repeat(5, auto);
+          margin: -20px 0 0 0;
+        }
+
+        @media screen and (max-width: 1130px) {
+          #icon-banner {
+            grid-template-columns: repeat(2, auto);
+          }
+        }
+
+        @media screen and (max-width: 768px) {
+          #icon-banner {
+            grid-template-columns: repeat(1, auto);
+          }
+        }
+
+        #testimonials {
+          margin: 0 0 25px 0;
+        }
+
+        #testimonial_header {
+          font-size: 24px;
+          font-weight: 400;
+          border-left: solid;
+          border-left-width: 4px;
+          border-left-color: #e2801e;
+          padding-left: 15px;
+          margin: 0 0 25px 0
+        }
+
+        #quotes {
+          display: grid;
+          grid-template-columns: repeat(2, auto);
+        }
+
+        @media screen and (max-width: 768px) {
+          #quotes {
+            grid-template-columns: repeat(1, auto);
+          }
+        }
+
+        person-testimonial {
+          margin-right: 10px;
+        }
+      </style>
+      <page-banner
+        image="files/theme-images/page-banners/ngdle-banner.jpg"
+        text="Innovation Lab"
+        alt="Hand on keyboard with digital imagery.  Photo by: Geralt - Pixabay.com"
+      ></page-banner>
+      <div id="content-wrap">
+        <div id="header">
+          <h1>Innovation Lab</h1>
           <div class="description">
             Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -3169,7 +3483,7 @@ class HaxThemeNgdle extends PolymerElement {
     `;
   }
   static get tag() {
-    return "haxtheme-ngdle";
+    return "haxtheme-lab";
   }
   connectedCallback() {
     super.connectedCallback();
@@ -3190,7 +3504,7 @@ class HaxThemeNgdle extends PolymerElement {
     super.disconnectedCallback();
   }
 }
-window.customElements.define(HaxThemeNgdle.tag, HaxThemeNgdle);
+window.customElements.define(HaxThemeLab.tag, HaxThemeLab);
 
 class NewsCard extends LitElement {
   static get styles() {
@@ -6880,6 +7194,7 @@ tr:hover {
     <haxtheme-course id="course" edit-mode$="[[editMode]]"></haxtheme-course>
     <haxtheme-syllabus id="syllabus" edit-mode$="[[editMode]]"></haxtheme-syllabus>
     <haxtheme-ngdle id="ngdle" edit-mode$="[[editMode]]"></haxtheme-ngdle>
+    <haxtheme-lab id="lab" edit-mode$="[[editMode]]"></haxtheme-lab>
 </iron-pages>
 <scroll-button></scroll-button>
 <page-footer></page-footer>`;
@@ -7063,6 +7378,9 @@ tr:hover {
               } else if (location.route.path.startsWith("ngdle")) {
                 this.selectedPage = 10;
                 target = "ngdle";
+              } else if (location.route.path.startsWith("lab")) {
+                this.selectedPage = 11;
+                target = "lab";
               }
               break;
           }

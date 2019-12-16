@@ -38,10 +38,6 @@ class HaxThemeHome extends PolymerElement {
           --button-hover-color: none;
         }
 
-     
-
-
-
         #promo_tile_wrap {
           display: grid;
           grid-template-columns: repeat(5, auto);
@@ -104,54 +100,52 @@ class HaxThemeHome extends PolymerElement {
       <div id="promo_tile_wrap">
         <div class="promo_tile">
           <promo-tile
-            title="NGDLE"
+            title="Course Management"
             label="Create"
             image="files/theme-images/promo-tiles/elmsln-tile.jpg"
             alt="NGDLE stands for: Next Generation Learning Environment."
             url="ngdle"
           >
             Create your course using our Next Generation Digital Learning
-            Environment and gain access to a network of innovative
+            Environment and gain access to a network of cutting-edge
             technologies instantly.
           </promo-tile>
         </div>
         <div class="promo_tile">
           <promo-tile
-            title="NGDLE"
-            label="Create"
-            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
+            title="Innovation Lab"
+            label="Explore"
+            image="files/theme-images/promo-tiles/vr-tile.jpg"
             alt="NGDLE stands for: Next Generation Learning Environment."
-            url="[[item.location]]"
+            url="lab"
           >
-            Create your course using our Next Generation Digital Learning
-            Environment and gain access to a network of innovative
-            technologies instantly.
+            Our team is always exploring, testing, and sharing new and
+            technologies for education; step into our innovation lab and see
+            what we've been up to.
           </promo-tile>
         </div>
         <div class="promo_tile">
           <promo-tile
-            title="NGDLE"
-            label="Create"
+            title="Pedagogy"
+            label="Learn"
             image="files/theme-images/promo-tiles/elmsln-tile.jpg"
-            alt="NGDLE stands for: Next Generation Learning Environment."
+            alt=""
             url="[[item.location]]"
           >
-            Create your course using our Next Generation Digital Learning
-            Environment and gain access to a network of innovative
-            technologies instantly.
+            Pedagogy refers to the instructional methods and techniques used to
+            effectively convey learning objectives.
           </promo-tile>
         </div>
         <div class="promo_tile">
           <promo-tile
-            title="NGDLE"
-            label="Create"
-            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
-            alt="NGDLE stands for: Next Generation Learning Environment."
+            title="One Button Studio"
+            label="Film"
+            image="files/theme-images/promo-tiles/obs-tile.jpg"
+            alt=""
             url="[[item.location]]"
           >
-            Create your course using our Next Generation Digital Learning
-            Environment and gain access to a network of innovative
-            technologies instantly.
+            Work with experts to storyboard and film engaging lectures,
+            presentations, and more using our One Button Studio.
           </promo-tile>
         </div>
       </div>

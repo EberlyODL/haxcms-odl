@@ -223,7 +223,7 @@
             "order": 2,
             "parent": "news",
             "title": "5 Web Accessibility Tips for Developers",
-            "description": "  Web accessibility is an intricate part of the development process. As a  builder, we need to ensure that our content is available to everyone,  including the growing population of people with dis",
+            "description": "Web accessibility is an intricate part of the development process. As a  builder, we need to ensure that our content is available to everyone,  including the growing population of people with disabi",
             "metadata": {
                 "fields": {
                     "image": "files\/blog-images\/10-22-18.jpg",
@@ -231,7 +231,7 @@
                     "authorId": "chuck"
                 },
                 "created": 1540180800,
-                "updated": 1568912157,
+                "updated": 1576178861,
                 "type": "news",
                 "template": "news",
                 "author": "Charles Lavera",
@@ -3582,7 +3582,7 @@
                     "program": "Undergraduate",
                     "credits": "3",
                     "name": "Matrices",
-                    "pdf": "files\/syllabi\/math220\/math220-syllabus.pdf"  
+                    "pdf": "files\/syllabi\/math220\/math220-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -3790,6 +3790,20 @@
             "order": 8,
             "parent": null,
             "title": "NGDLE",
+            "description": "",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "ngdle"
+            }
+        },
+        {
+            "id": "lab",
+            "indent": 0,
+            "location": "pages\/lab\/index.html",
+            "order": 9,
+            "parent": null,
+            "title": "Lab",
             "description": "",
             "metadata": {
                 "created": 1541517755,

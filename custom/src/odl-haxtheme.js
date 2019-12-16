@@ -13,6 +13,7 @@ import "@polymer/iron-pages/iron-pages.js";
 import "./lib/haxtheme-home.js";
 import "./lib/haxtheme-about.js";
 import "./lib/haxtheme-ngdle.js";
+import "./lib/haxtheme-lab.js";
 import "./lib/haxtheme-news.js";
 import "./lib/haxtheme-team.js";
 import "./lib/haxtheme-courses.js";
@@ -197,6 +198,7 @@ tr:hover {
     <haxtheme-course id="course" edit-mode$="[[editMode]]"></haxtheme-course>
     <haxtheme-syllabus id="syllabus" edit-mode$="[[editMode]]"></haxtheme-syllabus>
     <haxtheme-ngdle id="ngdle" edit-mode$="[[editMode]]"></haxtheme-ngdle>
+    <haxtheme-lab id="lab" edit-mode$="[[editMode]]"></haxtheme-lab>
 </iron-pages>
 <scroll-button></scroll-button>
 <page-footer></page-footer>`;
@@ -380,6 +382,9 @@ tr:hover {
               } else if (location.route.path.startsWith("ngdle")) {
                 this.selectedPage = 10;
                 target = "ngdle";
+              } else if (location.route.path.startsWith("lab")) {
+                this.selectedPage = 11;
+                target = "lab";
               }
               break;
           }

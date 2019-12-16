@@ -8,7 +8,7 @@ import "./service-band.js";
 import "./course-icons.js";
 
 
-class HaxThemeNgdle extends PolymerElement {
+class HaxThemeLab extends PolymerElement {
   static get template() {
     return html`
       <style>
@@ -106,12 +106,12 @@ class HaxThemeNgdle extends PolymerElement {
       </style>
       <page-banner
         image="files/theme-images/page-banners/ngdle-banner.jpg"
-        text="Course Management"
+        text="Innovation Lab"
         alt="Hand on keyboard with digital imagery.  Photo by: Geralt - Pixabay.com"
       ></page-banner>
       <div id="content-wrap">
         <div id="header">
-          <h1>Next Generation Digital Learning Environment</h1>
+          <h1>Innovation Lab</h1>
           <div class="description">
             Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -148,8 +148,7 @@ class HaxThemeNgdle extends PolymerElement {
         </div>
         <div id="service-banner">
           <service-band
-            type="video"
-            source="https://youtu.be/o55m5yfdF-o"
+            image="files/feature-images/course-select.jpg"
             alt="A student raises their hand in a lecture hall."
             title="Track Real-time Anayltics to Measure Student Performance"
           >
@@ -160,7 +159,7 @@ class HaxThemeNgdle extends PolymerElement {
             ipsum dolor sit amet, consectetur adipiscing elit.
           </service-band>
           <service-band
-            source="files/feature-images/course-select.jpg"
+            image="files/feature-images/course-select.jpg"
             alt="A student raises their hand in a lecture hall."
             title="Track Real-time Anayltics to Measure Student Performance"
             align="right"
@@ -172,8 +171,7 @@ class HaxThemeNgdle extends PolymerElement {
             ipsum dolor sit amet, consectetur adipiscing elit.
           </service-band>
           <service-band
-            type="video"
-            source="https://youtu.be/obxNix6w2aE"
+            image="files/feature-images/course-select.jpg"
             alt="A student raises their hand in a lecture hall."
             title="Track Real-time Anayltics to Measure Student Performance"
           >
@@ -235,7 +233,7 @@ class HaxThemeNgdle extends PolymerElement {
     `;
   }
   static get tag() {
-    return "haxtheme-ngdle";
+    return "haxtheme-lab";
   }
   connectedCallback() {
     super.connectedCallback();
@@ -256,5 +254,5 @@ class HaxThemeNgdle extends PolymerElement {
     super.disconnectedCallback();
   }
 }
-window.customElements.define(HaxThemeNgdle.tag, HaxThemeNgdle);
-export { HaxThemeNgdle };
+window.customElements.define(HaxThemeLab.tag, HaxThemeLab);
+export { HaxThemeLab };

@@ -6,7 +6,7 @@
     <description></description>
     <copyright>Copyright (C) 2019 </copyright>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Sep 2019 14:09:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Dec 2019 15:41:08 +0000</lastBuildDate>
     <atom:link href="/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Louis Leblond</title>
@@ -260,307 +260,6 @@
       <category></category>
       <guid>/team-directory/carly</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Biol 110</title>
-      <link>/syllabi/biol110</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  This course is a study of the evolution of the major groups of organisms
-  including the fundamental concepts of biology. The goal of this course is to
-  introduce you to fundamental concepts that are common to all organisms and to
-  explore the biological diversity of life on Earth. Biology 110 is intended for
-  students who need a majors-level introductory biology course and is not the
-  best option for students who are looking for a general education course in
-  science.
-</p>
-<h2>Objective</h2>
-<p>
-  Biology 110 is a four credit course. The course will utilize web-based
-  tutorials and laboratory sessions. The goal of this course is to introduce you
-  to fundamental concepts that are common to all organisms and to explore the
-  biological diversity of life on Earth.
-</p>
-<h2>Outline</h2>
-<table>
-  <tr>
-    <td>1</td>
-    <td>Overview, Life and Natural Selection</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Carbon and Life</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Antiquity of Life</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Prokaryotes I - Cellular and Genetic Organization</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Prokaryotes II - Structure and Function</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>Prokaryotes III - Evolution and Early Metabolism</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>Subcellular Architecture of the Eukaryotic Cell</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>
-      Protists I - Protists with Modified Mitochondria, Kingdoms Euglenozoa and
-      Alveolata
-    </td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>
-      Protists II - Kingdoms Stramenopila, Rhodophyta, Chlorophyta, and the
-      Slime Molds
-    </td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>
-      Mitosis
-    </td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>
-      Heredity and Life Cycles
-    </td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>
-      Fungi I - Evolution and Diversity, Phyla Chytridiomycota and Zygomycota
-    </td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>
-      Fungi II - Phyla Ascomycota and Basidiomycota
-    </td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>
-      Animals One - Phylogeny and Diversity; Animals without Body Cavities -
-      Parazoa, Radiata, Acoelomates
-    </td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>
-      Animals Two - Animals with Body Cavities: Pseudocoelomates and Protostome
-      Coelomates
-    </td>
-  </tr>
-  <tr>
-    <td>16</td>
-    <td>
-      Animals Three - Animals with Body Cavities:Deuterostomes - Echinoderms and
-      Chordates
-    </td>
-  </tr>
-  <tr>
-    <td>17</td>
-    <td>
-      Energy I - Thermodynamics
-    </td>
-  </tr>
-  <tr>
-    <td>18</td>
-    <td>
-      Energy II - Cellular Respiration (Glycolysis)
-    </td>
-  </tr>
-  <tr>
-    <td>19</td>
-    <td>
-      Energy III - Cellular Respiration (Krebs Cycle and Electron Transport
-      Chain)
-    </td>
-  </tr>
-  <tr>
-    <td>20</td>
-    <td>
-      Energy IV - Photosynthesis (Light-dependent Reactions)
-    </td>
-  </tr>
-  <tr>
-    <td>21</td>
-    <td>
-      Energy V - Photosynthesis (Calvin Cycle)
-    </td>
-  </tr>
-  <tr>
-    <td>22</td>
-    <td>
-      Plants I - Evolution and Diversity
-    </td>
-  </tr>
-  <tr>
-    <td>23</td>
-    <td>
-      Plants II - Vascular Non-flowering Plants
-    </td>
-  </tr>
-  <tr>
-    <td>24</td>
-    <td>
-      Plants III - Vascular Flowering Plants
-    </td>
-  </tr>
-  <tr>
-    <td>25</td>
-    <td>
-      Mendel and Modern Genetics
-    </td>
-  </tr>
-  <tr>
-    <td>26</td>
-    <td>
-      Predicting Phenotypes and Genotypes
-    </td>
-  </tr>
-  <tr>
-    <td>27</td>
-    <td>
-      The Complex Expression Patterns of Multiple Alleles
-    </td>
-  </tr>
-  <tr>
-    <td>28</td>
-    <td>
-      Pedigree Analysis
-    </td>
-  </tr>
-  <tr>
-    <td>29</td>
-    <td>
-      Chromosome Behavior and Sex Chromosomes
-    </td>
-  </tr>
-  <tr>
-    <td>30</td>
-    <td>
-      Chromosome Behavior and Gene Linkage
-    </td>
-  </tr>
-  <tr>
-    <td>31</td>
-    <td>
-      DNA Replication
-    </td>
-  </tr>
-  <tr>
-    <td>32</td>
-    <td>
-      From Gene to Protein
-    </td>
-  </tr>
-  <tr>
-    <td>33</td>
-    <td>
-      Genes in Populations
-    </td>
-  </tr>
-  <tr>
-    <td>34</td>
-    <td>
-      Genetic Change in Populations
-    </td>
-  </tr>
-  <tr>
-    <td>35</td>
-    <td>
-      Genetics and Natural Selection
-    </td>
-  </tr>
-</table>
-
-<h2>Mastering Biology Access</h2>
-<p>
-  Mastering Biology is an online homework system that will be used extensively
-  during the course. Information about registering for Mastering Biology is
-  posted on Canvas. Please note: You can purchase an e-book version of the
-  textbook through the Mastering Biologywebsite (please see information about
-  the optional textbook below).
-</p>
-<h2>Textbook (Optional)</h2>
-<p>
-  Textbook - Reece, J et al. 2014. Campbell Biology. Tenth Edition. Pearson
-  Benjamin Cummings, San Francisco, CA. The prior edition can also be used. The
-  textbook is available in both electronic (etext) and hardcover formats. The
-  textbook is not required but some students have found it to be a valuable
-  supplement to the online tutorials to the course.
-</p>
-<h2>Online Labs</h2>
-<p>
-  Late Nite Labs is an online laboratory software program. Information about
-  registering for Late Nite Labs is posted on Canvas.
-</p>
-<h2>Grade Scale</h2>
-<p>
-  Lecture material counts for 730 points and lab material counts for 200 points
-  for a total of 930 points. If you do not pass lab (your score is less than
-  60%), you will not pass the course, regardless of your grade in the lecture
-  portion of the class. The grading scale (in points) is:
-</p>
-<table>
-  <th>Letter Grade</th>
-  <th>Points</th>
-  <tr>
-    <td>A</td>
-    <td>855-930</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>837-854</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>800-836</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>772-799</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>744-771</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>697-743</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>651-696</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>558-650</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 558</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/biol110</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
       <title>Biol 120N</title>
@@ -919,513 +618,6 @@
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
-      <title>Phys 212</title>
-      <link>/syllabi/phys212</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  Calculus-based introduction to classical electricity and magnetism, including
-  such topics as, electric charge and electric fields, Gauss's law, electric
-  potential, capacitance, current, resistance, and circuits, magnetic fields,
-  and fields due to currents, induction and inductance, magnetism of matter,
-  Maxwell's equations, and electromagnetic oscillations
-</p>
-<h2>Prerequisite</h2>
-<p>Math 140, Phys 211 Concurrent: MATH 141</p>
-<h2>Textbook</h2>
-<p>
-  Physics for Scientists and Engineers: A Strategic Approach by Knight, 4th
-  edition. This course will cover (in parts) chapters 22-32 and Chap 16 from the
-  Phys 211 book.
-</p>
-<h2>Course Topics</h2>
-<table>
-  <th>Unit</th>
-  <th>Topic(s)</th>
-  <tr>
-    <td>1</td>
-    <td>Electric Force and Field</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Electric Potential & Current</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>DC Circuits</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Magnetism</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Electromagnetic Induction</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>AC Circuits</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>Electromagnetic Waves</td>
-  </tr>
-</table>
-
-<h2>Course Schedule</h2>
-<p>
-  This is a 4 credit course that is fairly intensive with course work due almost
-  every day. A standard week contains three phases: exploratory phase, problem
-  solving phase and revision phase. The exploratory phase of a giving week
-  overlaps with the revision phase of the previous week. The final assignment
-  for a week are due on Tuesday of the next week allowing time to review and
-  discuss.
-</p>
-<table>
-  <th>Days</th>
-  <th>Wednesday</th>
-  <th>Thursday</th>
-  <th>Friday</th>
-  <th>Saturday</th>
-  <th>Sunday</th>
-  <th>Monday</th>
-  <th>Tuesday</th>
-  <tr>
-    <td></td>
-    <td colspan="2">Exploratory Phase</td>
-    <td colspan="2">Problem Solving Phase</td>
-    <td colspan="3">Revision Phase / Exploratory Phase (Next Week)</td>
-  </tr>
-  <tr>
-    <td>Graded Assignments due</td>
-    <td>Discussion Board - 1st Post</td>
-    <td>Reading Quiz</td>
-    <td></td>
-    <td>Tutorial / Lab - 1st Draft</td>
-    <td>Discussion Boards - Replies</td>
-    <td>Peer Reviews</td>
-    <td>Tutorial / Lab - Final Version</td>
-  </tr>
-  <tr>
-    <td>Live Sessions</td>
-    <td></td>
-    <td>Office Hours</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td colspan="2">Learning Sessions</td>
-  </tr>
-</table>
-
-<p>
-  Not every week will contain all different types of assignments. For an exam
-  week, the exam is on Thursday (on the material of the previous weeks).
-</p>
-<p>
-  Most of the material is posted ahead and it is entirely possible for you to
-  adjust this schedule to fit better with your own work/study schedule.
-</p>
-<h2>Reading Quiz</h2>
-<p>
-  We will be using an online computer grading system called MasteringPhysics
-  (https://www.pearsonmylabandmastering.com/) to do reading quiz . Access to
-  MasteringPhysics is provided in the PSU custom book in the bookstore.
-</p>
-<p>
-  The reading quiz are due early in the week and they are meant to be places to
-  first learn the material, not a place to “test” your knowledge. Most of the
-  questions are “tutorials” that will walk you through how to solve problems.
-  You get immediate feedback when answering questions and many questions provide
-  hints.
-</p>
-<h2>Tutorial</h2>
-<p>
-  Each week, we will have a tutorial. There are three options on how to do the
-  tutorials:
-</p>
-<ul>
-  <li>
-    Print it and write your answer by hand, take a picture (or a scan) and
-    submit.
-  </li>
-  <li>
-    Use a blank sheet, write your answer by hand clearly numbering them. Take a
-    pic or scan and submit.
-  </li>
-  <li>
-    Using a tablet, write your answer by hand on the tutorial pdf and submit.
-  </li>
-</ul>
-<p>
-  In this type of assignments, we will grade your work and not just your answer.
-  If you have a real professional scanner, that will work great. If we have to
-  use a phone we recommend to use scanning app which do better than just
-  pictures.
-</p>
-<h2>Labs</h2>
-<p>
-  The laboratories (8 in total) are designed to provide you with hands-on
-  experience with the material being investigated in class as well as teaching
-  data sensemaking and observational experimental methods. See the list of
-  learning objectives for more details. All of those skills and topics learned
-  in the lab may be tested in the exams. The lab will be using the IOLab device
-  various sensors together with the accompanying software. While the lab
-  component is officially only worth 10% of the grade, a zero on all labs will
-  result in a letter grade of D at best irrespective of all other course work.
-</p>
-<h2>Peer-Review</h2>
-<p>
-  It is very beneficial for students to see each other works and to receive and
-  give feedback. Therefore, a first draft of the weekly tutorial and lab is
-  required to be posted every Saturday. You will then be randomly assigned to
-  peer-review multiple of your peers and give feedback on their work (not grade
-  their work which is only a draft anyway). The instructors will also review
-  each draft submission and help out where needed. The tutorial and lab will
-  then be resubmitted for grading every Tuesday. The peer-review is graded and
-  is part of the quiz grade. As you will see, there are some points every week
-  in the quiz assigned to a peer-review question.
-</p>
-<h2>Discussion Boards</h2>
-<p>
-  Maybe the most important part of this course is the weekly discussion board.
-  You will be assigned a team and you will need to post and reply to your
-  teammates.
-</p>
-<p>Often the post will include three parts:</p>
-<ul>
-  <li>
-    Your answers and reasoning to a couple of conceptual questions on the
-    material
-  </li>
-  <li>Comments/questions on your work on the tutorial</li>
-  <li>Comments/questions on your work on the lab</li>
-</ul>
-<p>
-  Instructor and TA will provide feedback in the discussion boards. The
-  discussion boards are the online analog of a lecture where the students
-  discuss with continuous instructor feedback.
-</p>
-<p>
-  The first post of the discussion is due on Wednesday but replies will continue
-  as long as needed.
-</p>
-<h2>Quiz</h2>
-<p>
-  There will be individual quizzes throughout the semester with questions that
-  closely resembled the exams. These are graded on correctness. You get two
-  tries and the best score is kept. The quiz will also self-reflections
-  questions and this is where the points for the peer-review will be attributed.
-</p>
-<h2>TA Sessions</h2>
-<p>
-  These are required live discussions once a week where we will review previous
-  material and look ahead to the upcoming week. These sessions will be hosted by
-  teaching assistanta and the instructor. We will have multiple time options.
-</p>
-<h2>Discussions with Professor</h2>
-<p>
-  I will host a discussion hour on Thursdays (not graded or required but very
-  useful). These may be recorded but I will need students to start the
-  discussions!
-</p>
-<h2>Exams</h2>
-<p>
-  There will be two midterm exams. Both midterms are worth the same: 20% each
-  for a total of 40%.
-</p>
-<p>
-  Exams will be closed book. Relevant physical constants and formulae will be
-  provided. Calculators, cellular phones and other communication devices are NOT
-  allowed and the exam will be designed such that they are not needed. The exams
-  will be based on the assigned reading in the textbook, the material covered in
-  course content, the quizzes, discussion boards and the laboratories/tutorial.
-</p>
-<p>
-  Each exam will be delivered through Canvas. All exams are proctored using
-  Examity which allow you to take the exam anywhere and to schedule at any time
-  (in the appropriate time window where the exam is opened).
-</p>
-<h2>Grading</h2>
-<p>
-  Your grade in the course will be based on your performance in the
-  labs/tutorials, on the quizzes, on the discussion boards/wrap-ups/peer-reviews
-  and on the exams with the following weights:
-</p>
-<table>
-  <th>Assignment</th>
-  <th>% Score</th>
-  <tr>
-    <td>Reading Quiz</td>
-    <td>5%</td>
-  </tr>
-  <tr>
-    <td>Quiz</td>
-    <td>5%</td>
-  </tr>
-  <tr>
-    <td>Discussion Boards</td>
-    <td>5%</td>
-  </tr>
-  <tr>
-    <td>Labs</td>
-    <td>10%</td>
-  </tr>
-  <tr>
-    <td>Tutorials</td>
-    <td>5%</td>
-  </tr>
-  <tr>
-    <td>Midterms</td>
-    <td>40%</td>
-  </tr>
-  <tr>
-    <td>Final</td>
-    <td>25%</td>
-  </tr>
-  <tr>
-    <td>Concept Surveys</td>
-    <td>2%</td>
-  </tr>
-  <tr>
-    <td>TA Sessions</td>
-    <td>3%</td>
-  </tr>
-  <tr>
-    <td>Total</td>
-    <td>100%</td>
-  </tr>
-</table>
-
-<h2>Grading Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% Score</th>
-  <tr>
-    <td>A</td>
-    <td>93-100%</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>90-92%</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>87-89%</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>83-86%</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>80-82%</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>77-79%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-76%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-69%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 59%</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/phys212</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>BiSc 004</title>
-      <link>/syllabi/bisc004</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  This course combines Human Anatomy, which is the study of parts of the human
-  body, with Human physiology, which is the study of how parts of the body work
-  together to make the body function. It is an introductory course for
-  non-science majors, and it is hoped that you will develop a basic
-  understanding about the human body that you will find useful when dealing with
-  your own or a family member’s injury or illness in the future.
-</p>
-<h2>Assignments</h2>
-<p>
-  All students are expected to complete the weekly assignments on time. These
-  will be available for at least one week so budget your time accordingly. You
-  are not able to complete all of your work for a month at one time and be done.
-  This course is paced so you can progress through at a reasonable speed.
-</p>
-<p>
-  Each week there will be at least one lesson for you to study. Each lesson will
-  have one quiz, one homework assignment, and textbook assignment (LearnSmart
-  modules, Labs, etc.). Be aware that some weeks there may be more than one
-  lesson, thus more than one quiz and homework/textbook assignments. Each of
-  these have specific due dates listed on the folder in which you find them.
-</p>
-<p>
-  You may complete the homework and textbook assignments early as they will be
-  available from the start of the semester. However, each quiz has a definite
-  shelf life. Quizzes are meant to activate on a Saturday and deactivate on the
-  following Sunday. That means you have more than a week to complete it. At no
-  other time will you be able to view or complete quizzes, it is impossible to
-  open up the quiz for a single person. The only exception to this is an
-  instance of the quiz being improperly configured. If I short the class on time
-  due an incorrect setting I will open up the quiz for additional time and
-  everyone will have an opportunity to then complete it. However, that has been
-  a rare event (but if it happens, notify the instructor). Pay attention to due
-  dates, each assignment has one listed with the folder for that week.
-</p>
-<p>
-  The quizzes are set to overlap so you can manage your schedule if you happen
-  to be away from a computer for an entire weekend. If you know that will happen
-  then either get things out of the way very early or make it a point to finish
-  the following weekend. Missing an assignment should never happen if you manage
-  your time properly. You will be entirely responsible for your time and
-  scheduling.
-</p>
-<p>
-  The weekly quizzes will be timed so it will not be possible to look up the
-  answers to these questions at your leisure. The expectation is that you will
-  study the content, gain some level of mastery of the terminology and take the
-  tests to see how well you know everything. You are not to have access to
-  sources of information when you take these tests, they are not open book.
-</p>
-<p>
-  The homework assignments may be completed ahead of schedule but not after the
-  due date. Being late a day or two will result in a late penalty. Homework
-  turned in after that will result in a zero. Homework assignments should not be
-  copied from any other source, cited correctly or not. Many assignments will
-  have you finding information from sources including the internet, however, a
-  cut and paste job does not equal effort. Googling information is not
-  considered an academic achievement.
-</p>
-<p>
-  Everything you write is expected to be your own work, not something you find
-  and copy from the internet. It's perfectly clear when students have
-  plagiarized a paragraph from a web page. It only takes 30 minutes to find a
-  few web sites about a topic and then write up a summary of what you find.
-  Don't risk University sanctions and an F for a homework assignment that should
-  take less than an hour. See the statement on academic integrity for further
-  information.
-</p>
-<h2>Late Assignments / Technical Difficulites</h2>
-<p>
-  Since you have seven days in which to submit homework, and take a quiz, I will
-  not accept illness or technical difficulties as an excuse to make up missed
-  work. The only exception to this would be an extended hospitalization stay.
-  All quizzes and homework message boards are available at the beginning of of
-  the course. The due dates listed with each assignment are the last days that a
-  quiz or homework assignment is available. To avoid missing deadlines, submit
-  your work early and avoid waiting until the last evening at 11:55 pm to submit
-  your homework or take a quiz. Your internet dropping out at the last possible
-  minute to submit work is not a reasonable cause for being unable to complete
-  work in a timely manner. Do not turn in work at the last possible minute. No
-  scores will be dropped. Work cannot be turned in for a higher grade once a
-  grade is assigned. There will be no opportunities to turn in extra work for
-  extra credit. Be prepared to do the necessary work to reach your goals for a
-  final grade.
-</p>
-<h2>Submitting Your Work</h2>
-<p>
-  All course work will be submitted to your instructor through Canvas. To do
-  this, you will need to:
-</p>
-<ul>
-  <li>Click on the Modules button in the menu bar at the left of this page</li>
-  <li>Choose the folder for the week we are currently in</li>
-  <li>Click on the homework assignment for the week</li>
-  <li>Type your answer into the text box</li>
-  <li>Click "submit assignment"</li>
-  <li>
-    At the appropriate time click on the quiz for that week and complete it
-    within the time specified or it will automatically submit whether you are
-    finished or not
-  </li>
-</ul>
-<h2>Grading</h2>
-<p>
-  The Grading Scale can be found in the Getting Started section of Canvas. All
-  grades can be found in Canvas by going to the Grades button on the left hand
-  side.
-</p>
-<p>
-  Each lesson has a quiz that will vary in length between 10 and 20 points each.
-  Some will be longer than others depending on the amount of material covered in
-  a particular lesson.
-</p>
-<p>
-  Each quiz question is worth 1 point out of the total. Every question is worth
-  exactly the same as any other question; only the length of the quiz each week
-  will vary. Do not think in terms of percentage points here, this will be a
-  point system based on total points.
-</p>
-<p>
-  Students will work on these assignments as an individual and will be
-  responsible for completing them on time. Late assignments will have a
-  deduction, assignments more than a couple of days late will not be accepted.
-  Once we reach the end of the course it will not be possible to go back and
-  complete work that is outdated by weeks or even months. Keep up on assignments
-  to gain maximum points.
-</p>
-<p>
-  Grades are based on a combination of quizzes where each question is worth one
-  point and various homework assignments worth a handful of points. All students
-  are expected to complete the weekly quizzes on time. These will be available
-  for at least one week so budget your time accordingly. You are not able to
-  take all your tests at one time and be done. This course is paced so you can
-  progress through at a reasonable speed.Each homework assignment has a specific
-  number of points associated with it.
-</p>
-<p>
-  Any questions concerning a particular quiz or homework assignment must be
-  resolved immediately. You cannot wait till the end of the semester to correct
-  any problems. Due to time constraints, it will be impossible to review all
-  assignments on the last day in the hope of finding one or two points to meet a
-  grade cutoff. You should ask that all grading issues be resolved as they occur
-  during the semester. No exams will be dropped; no extra credit will be
-  accepted. It's impossible to evaluate hundreds of book reports or shoebox
-  dioramas.
-</p>
-<h2>Deferred Grades</h2>
-<p>
-  Students who are unable to complete the course because of illness or emergency
-  may be granted a deferred grade which will allow the student to complete the
-  course within the first six weeks of the following semester.
-</p>
-<p>
-  When a request for a deferred grade is supported by the instructor, the
-  instructor indicates this approval by recording the deferred grade symbol (DF)
-  for the student. The expiration date for the deferred grade is automatically
-  recorded as the end of the sixth week of the next semester. Spring semester
-  approvals expire during the fall semester unless the student enrolls during
-  summer session. Therefore, course requirements must be completed and a grade
-  must be submitted by the end of six weeks into the student’s next semester for
-  which he or she is registered. Any deferred grade that is not replaced by the
-  deadline will automatically become an F.
-</p>
-<p>
-  Note that deferred grades are limited to those students who can verify and
-  document a valid reason for not being able to complete the last few
-  assignments, not for gaining extra time to complete missing work from earlier
-  in the semester. Students are expected to have completed at least 75% of the
-  course assignments to be eligible for a deferment. For more information see DF
-  grade.
-</p>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/bisc004</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
       <title>Biol 127</title>
       <link>/syllabi/biol127</link>
       <description>
@@ -1642,6 +834,227 @@
       </description>
       <category></category>
       <guid>/syllabi/biol127</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>NGDLE</title>
+      <link>/ngdle</link>
+      <description>
+          <![CDATA[ <p>This is the ngdle page!</p> ]]>
+      </description>
+      <category></category>
+      <guid>/ngdle</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 11</title>
+      <link>/syllabi/biol11</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  You are a biological being, as are the foods that you eat. We use products
+  from other organisms to make many of the clothes that we wear, build our
+  homes, provide medicines, and give beauty to our lives. Therefore, developing
+  an appreciation and understanding of the biological world is important to
+  living in this world and becoming a responsible steward of its resources. Who
+  hasn't watched a bird and wondered what it would be like to be able to fly? To
+  see the world from a different perspective? This course will provide an
+  introduction to fundamental biological topics (including cells, energy
+  transduction, genetics, evolution, organismal structure/function, ecology) for
+  non-majors in biology-related fields.
+</p>
+<h2>Objectives</h2>
+<p>
+  By the time you complete this course, you should have learned about the
+  following:
+</p>
+<ul>
+  <li>
+    The role of natural selection, which shapes organisms in response to their
+    environment through differential reproduction.
+  </li>
+  <li>
+    The mechanisms of inheritance, and how DNA encodes the genetic information
+    for all living organisms.
+  </li>
+  <li>
+    The chemical basis of life, the origin of life on Earth, the structure and
+    function of the two basic types of cells, and how cells utilize energy.
+  </li>
+  <li>
+    The fundamentals of plant biology, including plant structure, response, and
+    reproduction.
+  </li>
+  <li>
+    The basic organization of the animal body, with a focus on the digestive and
+    reproductive systems.
+  </li>
+  <li>
+    How organisms interact with each other and their environment, and how human
+    activities have modified the environment for other organisms.
+  </li>
+</ul>
+<h2>Course Schedule</h2>
+<table>
+  <th>Week</th>
+  <th>Topic</th>
+  <tr>
+    <td>1</td>
+    <td>Course Orientation</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Evolution and Ecology</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>The Chemistry of Life</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Cells</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Exam 1</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Energy & Life</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>How Cells Divide</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Exam 2</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Foundations of Genetics</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>How Genes Work</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Evolution and Natural Selection</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Exam 3</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Plant Biology</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>The Animal Body</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Ecosystems</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Exam 4</td>
+  </tr>
+</table>
+
+<h2>Discussion Forums</h2>
+<p>
+  Throughout the 11 lessons in this course, you will be expected to participate
+  in discussions on a weekly basis. There are 15 participation points available
+  for each lesson, for a total of 165 points. The quality of your participation
+  will determine how many points you earn. If you fully answer the questions
+  posted, in an original post with no quotes or copy and paste, then you will
+  earn 7 pts. If you make 2 substantial replies to your classmates’ posts, then
+  you will earn 4 pts each (8 pts total) for a total of 7 + 8 = 15 pts for each
+  weekly discussion forum. No late submissions accepted. If you run into any
+  difficulties, please email me asap.
+</p>
+<h2>Quizzes</h2>
+<p>
+  Throughout the 11 lessons in this course, you will be expected to participate
+  in multiple choice quizzes on a weekly basis. These short quizzes are to help
+  you understand and apply the material being learned that week. You have one
+  chance to take each untimed quiz before the weekly deadline. Upon submission
+  of your completed quiz, it will be automatically graded, at 10 pts for each
+  quiz.
+</p>
+<h2>Exams</h2>
+<p>
+  Students are expected to take exams at the scheduled times. You will have
+  plenty of advance warning as to when the exams are to take place. Please see
+  the calendar. Contact me if there is a problem. Only
+  legitimate excuses shall warrant a makeup exam to be taken as soon as
+  possible. Legitimate excuses can include, but are not limited to, illness,
+  family emergencies, trips, get called into work. Sleeping through the alarm is
+  NOT a legitimate excuse! Neither is ‘my car broke down’ (bring me your
+  mechanic’s bill) or ‘my ISP wasn’t working’----the least you can do is be
+  creative! Each open, multiple choice exam is worth 100 pts and automatically
+  graded after submission. No proctors required---but Penn State’s Academic
+  Integrity policy is in effect. Upon submission of each exam, you are agreeing
+  to abide by Penn State’s Academic Integrity policy.
+</p>
+<h2>Grade Scale</h2>
+<table>
+  <th>Letter Grade</th>
+  <th>% Range</th>
+  <th>Points</th>
+  <tr>
+    <td>A</td>
+    <td>92-100%</td>
+    <td>621-675</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>90-91.9%</td>
+    <td>608-620</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>88-89.9%</td>
+    <td>594-607</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>82-87.9%</td>
+    <td>554-593</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>80-81.9%</td>
+    <td>540-553</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>78-79.9%</td>
+    <td>527-539</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>70-77.9%</td>
+    <td>473-526</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>60-69.9%</td>
+    <td>405-472</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>< 60%</td>
+    <td>< 405</td>
+  </tr>
+</table>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol11</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
@@ -2793,214 +2206,707 @@
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
-      <title>Biol 11</title>
-      <link>/syllabi/biol11</link>
+      <title>Chem 005</title>
+      <link>/syllabi/chem005</link>
       <description>
           <![CDATA[ <h2>Description</h2>
 <p>
-  You are a biological being, as are the foods that you eat. We use products
-  from other organisms to make many of the clothes that we wear, build our
-  homes, provide medicines, and give beauty to our lives. Therefore, developing
-  an appreciation and understanding of the biological world is important to
-  living in this world and becoming a responsible steward of its resources. Who
-  hasn't watched a bird and wondered what it would be like to be able to fly? To
-  see the world from a different perspective? This course will provide an
-  introduction to fundamental biological topics (including cells, energy
-  transduction, genetics, evolution, organismal structure/function, ecology) for
-  non-majors in biology-related fields.
+  CHEM 005 incorporates reading, problem-solving, and ‘edible’ home experiments
+  to develop an understanding of chemical concepts and scientific inquiry within
+  the context of food and cooking. Prior study of chemistry is not assumed, but
+  you should have taken at least one class in algebra before taking CHEM 005.
+  For some students, CHEM 005 provides the chemistry required by their major
+  area of study. For other students, CHEM 005 provides review and preparation
+  for subsequent Chemistry classes such as CHEM 110 (Chemical Principles I) and
+  CHEM 130 (Introduction to General, Organic, and Biochemistry).
 </p>
 <h2>Objectives</h2>
+<p>When you successfully complete this course, you will be able to:</p>
+<ul>
+  <li>
+    Read and critically analyze the nutritional facts on food labels
+  </li>
+  <li>
+    Recognize functional groups and understand the difference in the structures
+    and properties of the main macromolecules in food
+  </li>
+  <li>
+    Understand polarity and its effect on the unique properties of water
+  </li>
+  <li>
+    Define the pH scale, identify acids and bases in common household items, and
+    understand the effect of pH on cooking of foods
+  </li>
+  <li>
+    Interpret a phase diagram and understand ways of manipulating phase diagram
+    in cooking
+  </li>
+  <li>
+    Describe the structural and textural changes of fruits and vegetables before
+    and after cooking
+  </li>
+  <li>
+    Understand the underlying principles that are at work in the various ways
+    that chefs thicken sauces
+  </li>
+  <li>
+    Understand how chocolate melts and the tempering process
+  </li>
+  <li>
+    Describe the roles of caffeine and other chemicals in coffee and tea
+  </li>
+  <li>
+    Identify appropriate ingredient choices for specific baking application
+  </li>
+  <li>
+    Describe the chemical reactions that take place during the preparation and
+    cooking of foods
+  </li>
+</ul>
+<h2>Materials</h2>
 <p>
-  By the time you complete this course, you should have learned about the
-  following:
+  Access to a basic functional kitchen and Food/ingredients and equipment for
+  weekly labs. A complete list of required cooking equipment and ingredients for
+  weekly labs can be found
+  <a href="files/documents/ch005_equipment_food_list.pdf" target="_blank">here</a>
+  . Note: Please look through this list carefully and make sure that you have
+  ways to either purchase or borrow any ingredients/equipment that you do not
+  already have in your kitchen. Your cost for the lab activities will depend on
+  how fully stocked your kitchen is, and please keep receipts for any equipment
+  or ingredients you buy specifically for this course.
+</p>
+<p>
+  You'll need to order the following two items as soon as possible to ensure lab
+  success.
 </p>
 <ul>
   <li>
-    The role of natural selection, which shapes organisms in response to their
-    environment through differential reproduction.
+    Thermometer (that has temperature range of - 40 to 230 oC). A
+    multifunctional instant read thermometer, such as
+    <a href="https://www.amazon.com/Accurate-Splash-Resistant-High-Performance-Digital-Thermometer/dp/B00GRFHXVQ/ref=pd_sim_k_1?ie=UTF8&refRID=19H66CN4QXA2AEDDRD5V" target="_blank">Lavatools Thermowand</a>
+    (cost about $25), is a great choice for this course, as well as cooking
+    meat, deep-frying, or making candy and jam.'
   </li>
   <li>
-    The mechanisms of inheritance, and how DNA encodes the genetic information
-    for all living organisms.
-  </li>
-  <li>
-    The chemical basis of life, the origin of life on Earth, the structure and
-    function of the two basic types of cells, and how cells utilize energy.
-  </li>
-  <li>
-    The fundamentals of plant biology, including plant structure, response, and
-    reproduction.
-  </li>
-  <li>
-    The basic organization of the animal body, with a focus on the digestive and
-    reproductive systems.
-  </li>
-  <li>
-    How organisms interact with each other and their environment, and how human
-    activities have modified the environment for other organisms.
+    Kitchen scale (1g resolution or better). Recommended:
+    <a href="https://www.amazon.com/Ozeri-Digital-Multifunction-Kitchen-Elegant/dp/B004164SRA/ref=sr_1_6?s=home-garden&ie=UTF8&qid=1420558878&sr=1-6&keywords=scale">Ozeri Pronto Digital Multifunction Kitchen and Food Scale</a>
+    (cost about $16)
   </li>
 </ul>
+<h2>Textbook</h2>
+<p>
+  <a href="https://www.amazon.com/Food-Cooking-Science-Lore-Kitchen/dp/0684800012" target="_blank">
+    On Food and Cooking: The Science ad Lore of the Kitchen</a>
+  , by Harold McGee, Scribner; Rev Upd edition (November 23, 2004), ISBN:
+  978-0684800011 (cost about $25).
+</p>
+<h2>Supplemental Textbook</h2>
+<p>
+  <a href="https://www.amazon.com/Chemistry-For-Dummies-John-Moore/dp/1118007301" target="_blank">
+    Chemistry for Dummies</a>
+  by John T. Moore, 2nd edition (May 31, 2011), ISBN-13: 978-1118007303 (cost
+  about $15). Many students from previous semesters have found this book to be
+  helpful to simplify some of the complex Chemistry topics.
+</p>
 <h2>Course Schedule</h2>
 <table>
-  <th>Week</th>
+  <tbody><tr><th>Week</th>
   <th>Topic</th>
-  <tr>
+  </tr>
+<tr>
     <td>1</td>
-    <td>Course Orientation</td>
+    <td>Course Preparation</td>
   </tr>
   <tr>
     <td>2</td>
-    <td>Evolution and Ecology</td>
+    <td>Matter and Measurement</td>
   </tr>
   <tr>
     <td>3</td>
-    <td>The Chemistry of Life</td>
+    <td>Food Components</td>
   </tr>
   <tr>
     <td>4</td>
-    <td>Cells</td>
+    <td>Water</td>
   </tr>
   <tr>
     <td>5</td>
-    <td>Exam 1</td>
+    <td>Energy, Temperature, and Heat</td>
   </tr>
   <tr>
     <td>6</td>
-    <td>Energy & Life</td>
+    <td>Midterm Exam 1</td>
   </tr>
   <tr>
     <td>7</td>
-    <td>How Cells Divide</td>
+    <td>Phase Transition</td>
   </tr>
   <tr>
     <td>8</td>
-    <td>Exam 2</td>
+    <td>Vegetables and Fruits</td>
   </tr>
   <tr>
     <td>9</td>
-    <td>Foundations of Genetics</td>
+    <td>Starch and Sauces</td>
   </tr>
   <tr>
     <td>10</td>
-    <td>How Genes Work</td>
+    <td>Chocolate</td>
   </tr>
   <tr>
     <td>11</td>
-    <td>Evolution and Natural Selection</td>
+    <td>Midterm Exam 2</td>
   </tr>
   <tr>
     <td>12</td>
-    <td>Exam 3</td>
+    <td>Coffee and Tea</td>
   </tr>
   <tr>
     <td>13</td>
-    <td>Plant Biology</td>
+    <td>Baking</td>
   </tr>
   <tr>
     <td>14</td>
-    <td>The Animal Body</td>
+    <td>Browning Reactions</td>
   </tr>
   <tr>
     <td>15</td>
-    <td>Ecosystems</td>
+    <td>Fermentation</td>
   </tr>
   <tr>
     <td>16</td>
-    <td>Exam 4</td>
+    <td>Final Project Assignments (Canvas)</td>
   </tr>
+</tbody>
 </table>
-
-<h2>Discussion Forums</h2>
+<h2>Assignments</h2>
 <p>
-  Throughout the 11 lessons in this course, you will be expected to participate
-  in discussions on a weekly basis. There are 15 participation points available
-  for each lesson, for a total of 165 points. The quality of your participation
-  will determine how many points you earn. If you fully answer the questions
-  posted, in an original post with no quotes or copy and paste, then you will
-  earn 7 pts. If you make 2 substantial replies to your classmates’ posts, then
-  you will earn 4 pts each (8 pts total) for a total of 7 + 8 = 15 pts for each
-  weekly discussion forum. No late submissions accepted. If you run into any
-  difficulties, please email me asap.
+  This course consists of 12 lessons. For each lesson you will complete the
+  reading and lesson assignments. In addition, you will conduct lab activities
+  for most of the lessons, and contribute to the course discussion regularly.
 </p>
-<h2>Quizzes</h2>
+<h2>Orientation Activities</h2>
 <p>
-  Throughout the 11 lessons in this course, you will be expected to participate
-  in multiple choice quizzes on a weekly basis. These short quizzes are to help
-  you understand and apply the material being learned that week. You have one
-  chance to take each untimed quiz before the weekly deadline. Upon submission
-  of your completed quiz, it will be automatically graded, at 10 pts for each
-  quiz.
+  Orientation Activities (total worth 20 points): During the first week of the
+  class, you will conduct some orientation activities on Canvas: take a food
+  safety quiz (worth 5 points), take a course syllabus quiz (worth 5 points),
+  submit the signed food safety and academic integrity contracts (worth 5
+  points), and complete an introduction discussion assignment (worth 5 points).
 </p>
-<h2>Exams</h2>
+<h2>Lesson Assignments</h2>
 <p>
-  Students are expected to take exams at the scheduled times. You will have
-  plenty of advance warning as to when the exams are to take place. Please see
-  the calendar. Contact me if there is a problem. Only
-  legitimate excuses shall warrant a makeup exam to be taken as soon as
-  possible. Legitimate excuses can include, but are not limited to, illness,
-  family emergencies, trips, get called into work. Sleeping through the alarm is
-  NOT a legitimate excuse! Neither is ‘my car broke down’ (bring me your
-  mechanic’s bill) or ‘my ISP wasn’t working’----the least you can do is be
-  creative! Each open, multiple choice exam is worth 100 pts and automatically
-  graded after submission. No proctors required---but Penn State’s Academic
-  Integrity policy is in effect. Upon submission of each exam, you are agreeing
-  to abide by Penn State’s Academic Integrity policy.
+  Lesson Assignments (12 total, each worth 10 points): Each lesson will have a
+  lesson assignment (on Canvas) which may include fill-in-the blank, short
+  essay, and multiple choice questions. See course schedule for deadlines for
+  each lesson assignment. The goal of these assignments are for you to
+  understand and apply the materials learned from the lesson contents. You are
+  allowed to use your notes and may need to research on the internet when
+  complete these assignments. For each lesson assignments, you will have two
+  attempts with a 60 minutes time limits, and the highest score counts towards
+  your overall grade. There will be 12 lesson assignments, and each worth 10
+  points.
 </p>
+<h2>Lab Reports</h2>
+<p>
+  Lab Reports (10 total, each worth 20 points): Most of the lessons will have a
+  lab activity performed individually by the student. Each experiment will have
+  a lab report submitted consisting of experimental data, observations (and
+  pictures, when applicable), and short answers to interpretive questions. See
+  course schedule for deadlines for each lab report. There will be 10 lab report
+  total, each worth 20 points.
+</p>
+<h2>Course Discussions</h2>
+<p>
+  Course Discussions (6 total, each worth 10 points): In this course, we will
+  use Canvas Discussion Forum to discuss food and cooking with each other. You
+  will regularly contribute and comment on your classmates’ posts in response to
+  required readings and class discussions. See course schedule for deadlines for
+  each discussion assignment. The grading rubrics for discussion contributions
+  is posted on Canvas.
+</p>
+<h2>Mid-Term Exams</h2>
+<p>
+  Self-Proctored Online Mid-Term Exams (2 total, each worth 120 points): There
+  will be two mid-term exams in the semester where you will have the opportunity
+  to show how well you have learned the course material. The exams will be
+  delivered through Canvas, and they will be worth 120 points each.
+</p>
+<h2>Final Project</h2>
+<p>
+  Self-Proctored Final Project (worth 160 points): You will carry out your own
+  scientific study of some recipe or aspect of cooking in your own kitchen.
+  Guidelines and further information about the final project will be available
+  on Canvas under Final Project Module.
+</p>
+<h2>Grading</h2>
+<table>
+  <tbody><tr><th>Assignments (Canvas)</th>
+  <th>Number</th>
+  <th>Points Each</th>
+  <th>Total Points</th>
+  <th>% of Course Grade</th>
+  </tr>
+<tr>
+    <td>Orientation Activities</td>
+    <td>4</td>
+    <td>5</td>
+    <td>20</td>
+    <td>2.5%</td>
+  </tr>
+  <tr>
+    <td>Lesson Assignments</td>
+    <td>12</td>
+    <td>10</td>
+    <td>120</td>
+    <td>15%</td>
+  </tr>
+  <tr>
+    <td>Lab Reports</td>
+    <td>10</td>
+    <td>20</td>
+    <td>200</td>
+    <td>25%</td>
+  </tr>
+  <tr>
+    <td>Course Discussions</td>
+    <td>6</td>
+    <td>10</td>
+    <td>60</td>
+    <td>7.5%</td>
+  </tr>
+  <tr>
+    <td>Mid-Term Exams</td>
+    <td>2</td>
+    <td>120</td>
+    <td>240</td>
+    <td>30%</td>
+  </tr>
+  <tr>
+    <td>Final Project Report</td>
+    <td>1</td>
+    <td>160</td>
+    <td>160</td>
+    <td>20%</td>
+  </tr>
+  <tr>
+    <td>Final Project Photo/Video Discussion (Extra Credit)</td>
+    <td>1</td>
+    <td>20</td>
+    <td>20</td>
+    <td>2.5%</td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td></td>
+    <td></td>
+    <td>800</td>
+    <td>100%</td>
+  </tr>
+</tbody>
+</table>
 <h2>Grade Scale</h2>
 <table>
-  <th>Letter Grade</th>
-  <th>% Range</th>
-  <th>Points</th>
-  <tr>
+  <tbody><tr><th>Letter Grade</th>
+  <th>Total Points</th>
+  <th>% of Course Points</th>
+  </tr>
+<tr>
     <td>A</td>
-    <td>92-100%</td>
-    <td>621-675</td>
+    <td>724-800</td>
+    <td>90.5-100%</td>
   </tr>
   <tr>
     <td>A-</td>
-    <td>90-91.9%</td>
-    <td>608-620</td>
+    <td>708-723</td>
+    <td>88.5-90.4%</td>
   </tr>
   <tr>
     <td>B+</td>
-    <td>88-89.9%</td>
-    <td>594-607</td>
+    <td>692-707</td>
+    <td>86.5-88.4%</td>
   </tr>
   <tr>
     <td>B</td>
-    <td>82-87.9%</td>
-    <td>554-593</td>
+    <td>636-691</td>
+    <td>79.5-86.4%</td>
   </tr>
   <tr>
     <td>B-</td>
-    <td>80-81.9%</td>
-    <td>540-553</td>
+    <td>620-635</td>
+    <td>77.5-79.4%</td>
   </tr>
   <tr>
     <td>C+</td>
-    <td>78-79.9%</td>
-    <td>527-539</td>
+    <td>604-619</td>
+    <td>75.5-77.4%</td>
   </tr>
   <tr>
     <td>C</td>
-    <td>70-77.9%</td>
-    <td>473-526</td>
+    <td>532-603</td>
+    <td>66.5-75.4%</td>
   </tr>
   <tr>
     <td>D</td>
-    <td>60-69.9%</td>
-    <td>405-472</td>
+    <td>452-531</td>
+    <td>56.5-66.4%</td>
   </tr>
   <tr>
     <td>F</td>
-    <td>< 60%</td>
-    <td>< 405</td>
+    <td> < 451</td>
+    <td> < 56.4%</td>
+  </tr>
+</tbody>
+</table>
+<h2>Late Submission Policy</h2>
+<p>
+  Meeting assigned due dates is critical for demonstrating progress and ensuring
+  appropriate time for instructor feedback on assignments. We recommend that you
+  try to complete the assignments as close to the scheduled time as possible.
+</p>
+<p>
+  However, sometimes students are unable to meet due dates. In those rare cases,
+  the following late submission policy applies:
+</p>
+<ul>
+  <li>
+    There is a 3-day grace period on all due dates, except midterm exams,
+    assignments for Lesson 12, and the final project. For example, the lab 1
+    report is due at 11:59 pm Eastern Standard Time (EST) Sunday September 2,
+    however you'll still receive full credit if you submit the report by 11:59
+    pm EST Wednesday September 5.
+  </li>
+  <li>
+    With the exception of the midterm exams, assignments for Lesson 12, and the
+    final project, you may submit assignments late up until the last day of the
+    semester. Note that each Canvas assignment will automatically stop accepting
+    submission after the 3-day grace period, so instructor approval is needed
+    for late submissions. A penalty of ten percent (10%) per week will be
+    applied to the grade you achieved on the assignment for each week the
+    assignment is submitted after the deadline.
+  </li>
+  <li>
+    Assignments will not be accepted after the last day of the semester unless a
+    Deferred Grade has been approved by the instructor.
+  </li>
+  <li>
+    I will grade late submitted assignments no later than a week after you
+    submit the assignment. Be sure to notify me of the late submission and to
+    ensure that I have received the assignment. The full ten percent (10%) late
+    penalty for each week applies regardless of the day of the week you submit
+    your work.
+  </li>
+  <li>
+    I may accept late work for full credit in the case of extenuating
+    circumstances (such as hospitalization, childbirth, major accident or injury
+    and bereavement). You should notify me immediately of any extenuating
+    circumstances that prevent you from submitting your work on time.
+  </li>
+</ul>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/chem005</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 110</title>
+      <link>/syllabi/biol110</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  This course is a study of the evolution of the major groups of organisms
+  including the fundamental concepts of biology. The goal of this course is to
+  introduce you to fundamental concepts that are common to all organisms and to
+  explore the biological diversity of life on Earth. Biology 110 is intended for
+  students who need a majors-level introductory biology course and is not the
+  best option for students who are looking for a general education course in
+  science.
+</p>
+<h2>Objective</h2>
+<p>
+  Biology 110 is a four credit course. The course will utilize web-based
+  tutorials and laboratory sessions. The goal of this course is to introduce you
+  to fundamental concepts that are common to all organisms and to explore the
+  biological diversity of life on Earth.
+</p>
+<h2>Outline</h2>
+<table>
+  <tr>
+    <td>1</td>
+    <td>Overview, Life and Natural Selection</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Carbon and Life</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Antiquity of Life</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Prokaryotes I - Cellular and Genetic Organization</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Prokaryotes II - Structure and Function</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Prokaryotes III - Evolution and Early Metabolism</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Subcellular Architecture of the Eukaryotic Cell</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>
+      Protists I - Protists with Modified Mitochondria, Kingdoms Euglenozoa and
+      Alveolata
+    </td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>
+      Protists II - Kingdoms Stramenopila, Rhodophyta, Chlorophyta, and the
+      Slime Molds
+    </td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>
+      Mitosis
+    </td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>
+      Heredity and Life Cycles
+    </td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>
+      Fungi I - Evolution and Diversity, Phyla Chytridiomycota and Zygomycota
+    </td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>
+      Fungi II - Phyla Ascomycota and Basidiomycota
+    </td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>
+      Animals One - Phylogeny and Diversity; Animals without Body Cavities -
+      Parazoa, Radiata, Acoelomates
+    </td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>
+      Animals Two - Animals with Body Cavities: Pseudocoelomates and Protostome
+      Coelomates
+    </td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>
+      Animals Three - Animals with Body Cavities:Deuterostomes - Echinoderms and
+      Chordates
+    </td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>
+      Energy I - Thermodynamics
+    </td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>
+      Energy II - Cellular Respiration (Glycolysis)
+    </td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>
+      Energy III - Cellular Respiration (Krebs Cycle and Electron Transport
+      Chain)
+    </td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>
+      Energy IV - Photosynthesis (Light-dependent Reactions)
+    </td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>
+      Energy V - Photosynthesis (Calvin Cycle)
+    </td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>
+      Plants I - Evolution and Diversity
+    </td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>
+      Plants II - Vascular Non-flowering Plants
+    </td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>
+      Plants III - Vascular Flowering Plants
+    </td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>
+      Mendel and Modern Genetics
+    </td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>
+      Predicting Phenotypes and Genotypes
+    </td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>
+      The Complex Expression Patterns of Multiple Alleles
+    </td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>
+      Pedigree Analysis
+    </td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>
+      Chromosome Behavior and Sex Chromosomes
+    </td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>
+      Chromosome Behavior and Gene Linkage
+    </td>
+  </tr>
+  <tr>
+    <td>31</td>
+    <td>
+      DNA Replication
+    </td>
+  </tr>
+  <tr>
+    <td>32</td>
+    <td>
+      From Gene to Protein
+    </td>
+  </tr>
+  <tr>
+    <td>33</td>
+    <td>
+      Genes in Populations
+    </td>
+  </tr>
+  <tr>
+    <td>34</td>
+    <td>
+      Genetic Change in Populations
+    </td>
+  </tr>
+  <tr>
+    <td>35</td>
+    <td>
+      Genetics and Natural Selection
+    </td>
+  </tr>
+</table>
+
+<h2>Mastering Biology Access</h2>
+<p>
+  Mastering Biology is an online homework system that will be used extensively
+  during the course. Information about registering for Mastering Biology is
+  posted on Canvas. Please note: You can purchase an e-book version of the
+  textbook through the Mastering Biologywebsite (please see information about
+  the optional textbook below).
+</p>
+<h2>Textbook (Optional)</h2>
+<p>
+  Textbook - Reece, J et al. 2014. Campbell Biology. Tenth Edition. Pearson
+  Benjamin Cummings, San Francisco, CA. The prior edition can also be used. The
+  textbook is available in both electronic (etext) and hardcover formats. The
+  textbook is not required but some students have found it to be a valuable
+  supplement to the online tutorials to the course.
+</p>
+<h2>Online Labs</h2>
+<p>
+  Late Nite Labs is an online laboratory software program. Information about
+  registering for Late Nite Labs is posted on Canvas.
+</p>
+<h2>Grade Scale</h2>
+<p>
+  Lecture material counts for 730 points and lab material counts for 200 points
+  for a total of 930 points. If you do not pass lab (your score is less than
+  60%), you will not pass the course, regardless of your grade in the lecture
+  portion of the class. The grading scale (in points) is:
+</p>
+<table>
+  <th>Letter Grade</th>
+  <th>Points</th>
+  <tr>
+    <td>A</td>
+    <td>855-930</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>837-854</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>800-836</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>772-799</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>744-771</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>697-743</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>651-696</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>558-650</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>< 558</td>
   </tr>
 </table>
  ]]>
       </description>
       <category></category>
-      <guid>/syllabi/biol11</guid>
+      <guid>/syllabi/biol110</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
@@ -3143,6 +3049,188 @@
       </description>
       <category></category>
       <guid>/syllabi/bisc001</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>BiSc 004</title>
+      <link>/syllabi/bisc004</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  This course combines Human Anatomy, which is the study of parts of the human
+  body, with Human physiology, which is the study of how parts of the body work
+  together to make the body function. It is an introductory course for
+  non-science majors, and it is hoped that you will develop a basic
+  understanding about the human body that you will find useful when dealing with
+  your own or a family member’s injury or illness in the future.
+</p>
+<h2>Assignments</h2>
+<p>
+  All students are expected to complete the weekly assignments on time. These
+  will be available for at least one week so budget your time accordingly. You
+  are not able to complete all of your work for a month at one time and be done.
+  This course is paced so you can progress through at a reasonable speed.
+</p>
+<p>
+  Each week there will be at least one lesson for you to study. Each lesson will
+  have one quiz, one homework assignment, and textbook assignment (LearnSmart
+  modules, Labs, etc.). Be aware that some weeks there may be more than one
+  lesson, thus more than one quiz and homework/textbook assignments. Each of
+  these have specific due dates listed on the folder in which you find them.
+</p>
+<p>
+  You may complete the homework and textbook assignments early as they will be
+  available from the start of the semester. However, each quiz has a definite
+  shelf life. Quizzes are meant to activate on a Saturday and deactivate on the
+  following Sunday. That means you have more than a week to complete it. At no
+  other time will you be able to view or complete quizzes, it is impossible to
+  open up the quiz for a single person. The only exception to this is an
+  instance of the quiz being improperly configured. If I short the class on time
+  due an incorrect setting I will open up the quiz for additional time and
+  everyone will have an opportunity to then complete it. However, that has been
+  a rare event (but if it happens, notify the instructor). Pay attention to due
+  dates, each assignment has one listed with the folder for that week.
+</p>
+<p>
+  The quizzes are set to overlap so you can manage your schedule if you happen
+  to be away from a computer for an entire weekend. If you know that will happen
+  then either get things out of the way very early or make it a point to finish
+  the following weekend. Missing an assignment should never happen if you manage
+  your time properly. You will be entirely responsible for your time and
+  scheduling.
+</p>
+<p>
+  The weekly quizzes will be timed so it will not be possible to look up the
+  answers to these questions at your leisure. The expectation is that you will
+  study the content, gain some level of mastery of the terminology and take the
+  tests to see how well you know everything. You are not to have access to
+  sources of information when you take these tests, they are not open book.
+</p>
+<p>
+  The homework assignments may be completed ahead of schedule but not after the
+  due date. Being late a day or two will result in a late penalty. Homework
+  turned in after that will result in a zero. Homework assignments should not be
+  copied from any other source, cited correctly or not. Many assignments will
+  have you finding information from sources including the internet, however, a
+  cut and paste job does not equal effort. Googling information is not
+  considered an academic achievement.
+</p>
+<p>
+  Everything you write is expected to be your own work, not something you find
+  and copy from the internet. It's perfectly clear when students have
+  plagiarized a paragraph from a web page. It only takes 30 minutes to find a
+  few web sites about a topic and then write up a summary of what you find.
+  Don't risk University sanctions and an F for a homework assignment that should
+  take less than an hour. See the statement on academic integrity for further
+  information.
+</p>
+<h2>Late Assignments / Technical Difficulites</h2>
+<p>
+  Since you have seven days in which to submit homework, and take a quiz, I will
+  not accept illness or technical difficulties as an excuse to make up missed
+  work. The only exception to this would be an extended hospitalization stay.
+  All quizzes and homework message boards are available at the beginning of of
+  the course. The due dates listed with each assignment are the last days that a
+  quiz or homework assignment is available. To avoid missing deadlines, submit
+  your work early and avoid waiting until the last evening at 11:55 pm to submit
+  your homework or take a quiz. Your internet dropping out at the last possible
+  minute to submit work is not a reasonable cause for being unable to complete
+  work in a timely manner. Do not turn in work at the last possible minute. No
+  scores will be dropped. Work cannot be turned in for a higher grade once a
+  grade is assigned. There will be no opportunities to turn in extra work for
+  extra credit. Be prepared to do the necessary work to reach your goals for a
+  final grade.
+</p>
+<h2>Submitting Your Work</h2>
+<p>
+  All course work will be submitted to your instructor through Canvas. To do
+  this, you will need to:
+</p>
+<ul>
+  <li>Click on the Modules button in the menu bar at the left of this page</li>
+  <li>Choose the folder for the week we are currently in</li>
+  <li>Click on the homework assignment for the week</li>
+  <li>Type your answer into the text box</li>
+  <li>Click "submit assignment"</li>
+  <li>
+    At the appropriate time click on the quiz for that week and complete it
+    within the time specified or it will automatically submit whether you are
+    finished or not
+  </li>
+</ul>
+<h2>Grading</h2>
+<p>
+  The Grading Scale can be found in the Getting Started section of Canvas. All
+  grades can be found in Canvas by going to the Grades button on the left hand
+  side.
+</p>
+<p>
+  Each lesson has a quiz that will vary in length between 10 and 20 points each.
+  Some will be longer than others depending on the amount of material covered in
+  a particular lesson.
+</p>
+<p>
+  Each quiz question is worth 1 point out of the total. Every question is worth
+  exactly the same as any other question; only the length of the quiz each week
+  will vary. Do not think in terms of percentage points here, this will be a
+  point system based on total points.
+</p>
+<p>
+  Students will work on these assignments as an individual and will be
+  responsible for completing them on time. Late assignments will have a
+  deduction, assignments more than a couple of days late will not be accepted.
+  Once we reach the end of the course it will not be possible to go back and
+  complete work that is outdated by weeks or even months. Keep up on assignments
+  to gain maximum points.
+</p>
+<p>
+  Grades are based on a combination of quizzes where each question is worth one
+  point and various homework assignments worth a handful of points. All students
+  are expected to complete the weekly quizzes on time. These will be available
+  for at least one week so budget your time accordingly. You are not able to
+  take all your tests at one time and be done. This course is paced so you can
+  progress through at a reasonable speed.Each homework assignment has a specific
+  number of points associated with it.
+</p>
+<p>
+  Any questions concerning a particular quiz or homework assignment must be
+  resolved immediately. You cannot wait till the end of the semester to correct
+  any problems. Due to time constraints, it will be impossible to review all
+  assignments on the last day in the hope of finding one or two points to meet a
+  grade cutoff. You should ask that all grading issues be resolved as they occur
+  during the semester. No exams will be dropped; no extra credit will be
+  accepted. It's impossible to evaluate hundreds of book reports or shoebox
+  dioramas.
+</p>
+<h2>Deferred Grades</h2>
+<p>
+  Students who are unable to complete the course because of illness or emergency
+  may be granted a deferred grade which will allow the student to complete the
+  course within the first six weeks of the following semester.
+</p>
+<p>
+  When a request for a deferred grade is supported by the instructor, the
+  instructor indicates this approval by recording the deferred grade symbol (DF)
+  for the student. The expiration date for the deferred grade is automatically
+  recorded as the end of the sixth week of the next semester. Spring semester
+  approvals expire during the fall semester unless the student enrolls during
+  summer session. Therefore, course requirements must be completed and a grade
+  must be submitted by the end of six weeks into the student’s next semester for
+  which he or she is registered. Any deferred grade that is not replaced by the
+  deadline will automatically become an F.
+</p>
+<p>
+  Note that deferred grades are limited to those students who can verify and
+  document a valid reason for not being able to complete the last few
+  assignments, not for gaining extra time to complete missing work from earlier
+  in the semester. Students are expected to have completed at least 75% of the
+  course assignments to be eligible for a deferment. For more information see DF
+  grade.
+</p>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/bisc004</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
@@ -3726,460 +3814,255 @@
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
-      <title>Chem 101</title>
-      <link>/syllabi/chem101</link>
+      <title>Chem 110</title>
+      <link>/syllabi/chem110</link>
       <description>
           <![CDATA[ <h2>Description</h2>
 <p>
-  CHEM 101 is an introductory chemistry course that incorporates lectures,
-  readings, problem-solving and laboratory experiments in developing an
-  understanding of chemical concepts and practices. Prior study of chemistry is
-  not assumed, but you should have taken at least one class in algebra before
-  taking CHEM 101. For some students, CHEM 101 provides the chemistry required
-  by their major area of study. For other students, CHEM 101 provides review and
-  preparation for subsequent Chemistry classes such as CHEM 110 (Chemical
-  Principles I) and CHEM 202 (Fundamentals of Organic Chemistry).
+  The purpose of this course is to provide you with an introduction to atomic
+  and molecular structure as well as molecular properties. We will also discuss
+  general principles of reactions including stoichiometry and some
+  thermodynamics. The long-term goal of this course is to get you to begin
+  thinking of chemistry in your everyday life. You should begin noticing that
+  chemistry is everywhere: it is in the foods we eat, the ingredients in our
+  soaps, and the reason flowers and leaves have specific colors. I encourage you
+  to send me anything that you find interesting about chemistry including
+  videos, pictures, or websites.
 </p>
 <h2>Objectives</h2>
-<p>When you successfully complete this course, you will be able to:</p>
+<p>At the end of the course, students will be able to…</p>
 <ul>
-  <li>Describe the structure and behavior of atoms</li>
-  <li>Extract data and information from the periodic table of the elements</li>
+  <li>Define key terms and concepts in chemistry</li>
   <li>
-    Predict the properties and behavior of elements based on their position in
-    the periodic table
+    Explain how atomic and molecular structure relates to macroscopic
+    (observable) properties of matter
   </li>
   <li>
-    Understand the process of chemical bonding and predict what type of bonds
-    will form between different substances
+    Define the various forms of energy, explain how energy interacts with
+    matter, and be able to calculate the energy changes associated with chemical
+    and physical processes
   </li>
   <li>
-    Determine when chemical reactions will take place between substances, the
-    ratio in which the substances will combine, what new products will be formed
-    in the reaction, and the amount of product formed from a given amount of
-    starting materials
+    Apply chemistry concepts to solve mathematical problems on homework, problem
+    sets, and exams
   </li>
   <li>
-    Correctly name chemical substances based on the ratio of the elements in the
-    compound and the type of bonding between the atoms
+    Describe the chemistry behind phenomena in everyday life (i.e. why water is
+    a liquid)
   </li>
-  <li>
-    Identify the intramolecular forces that can exist between atoms within a
-    chemical compound or molecule and the intermolecular forces that occur
-    between molecules
-  </li>
-  <li>Describe and compare the properties of gases, liquids and solids</li>
 </ul>
 <h2>Materials</h2>
-<ol>
-  <li>
-    Textbook: Introductory Chemistry: A Foundation by Steven Zumdahl and Donald
-    Decoste, 7th Edition, 2011, Houghton Mifflin Company publishers. ISBN:
-    978-0538736398
-  </li>
-  <li>CHEM 101 General Tool Kit and CHEM 101 Lab Kit</li>
-  <li>
-    A suitable scientific calculator (with scientific notation and log
-    functions) is essential. Calculators with text-storage capabilities will not
-    be permitted for use on exams. Note that MBS is not carrying this for the
-    course.
-  </li>
-</ol>
-<h2>Additional Materials</h2>
 <ul>
-  <li>Isopropyl alcohol (rubbing alcohol) 50%, 70%, or 91%</li>
-  <li>Clear white vinegar</li>
-  <li>Granulated sugar</li>
-  <li>Salt</li>
-  <li>Bottled or distilled water</li>
   <li>
-    A ruler that is at least 6" in length. Must be marked in cm's with at least
-    10 divisions in between the cm's
+    PSU-E Chem 110: Structure and Properties (eBook, access codes available only
+    through PSU Bookstore, ordering info here:
+    <a href="http://sites.psu.edu/chem110wc/course-materials/" target="_blank"
+      >http://sites.psu.edu/chem110wc/course-materials/</a
+    >
+    [a printed copy is available for purchase at the bookstore, but it does not
+    include required in-text problems and interactive figures.]
   </li>
-  <li>Measuring spoon set</li>
-  <li>Scissors</li>
-  <li>Stapler and staples</li>
-  <li>Matches</li>
-  <li>2 regular ceramic mugs</li>
-  <li>1 clear plastic or glass container</li>
-  <li>A heat resistant plate</li>
-  <li>Disposable plastic teaspoon</li>
-  <li>Cotton swabs similar to Q-tips</li>
-  <li>Toothpicks</li>
-  <li>Paper Towels</li>
-  <li>Pen and Pencil</li>
+  <li>Scientific calculator (non-programmable)</li>
+  <li>Video recording capabilities such as a smartphone or webcam</li>
+  <li>Photo or scanning capabilities</li>
 </ul>
 <h2>Course Schedule</h2>
 <table>
   <th>Week</th>
-  <th>Topic</th>
+  <th>Topic(s)</th>
   <tr>
     <td>1</td>
-    <td>Orientation</td>
+    <td>
+      Course Overview<br />Introduction to Atomic Structure<br />The Mole, Ions
+      & Molecules<br />Introduction to Energy
+    </td>
   </tr>
   <tr>
     <td>2</td>
-    <td>Measurements and Calculations</td>
+    <td>
+      Light and Spectroscopy<br />Line Spectra & Bohr Model<br />Quantum Numbers
+      and Orbitals
+    </td>
   </tr>
   <tr>
     <td>3</td>
-    <td>Matter</td>
+    <td>Electron Configuration<br />Periodic Properties</td>
   </tr>
   <tr>
     <td>4</td>
-    <td>Chemical Foundations: Electrons, Atoms, Ions</td>
+    <td>Intro to Molecules<br />Molecular Formulas and % Composition</td>
   </tr>
   <tr>
     <td>5</td>
-    <td>Modern Atomic Theory</td>
+    <td>
+      Ionic Compounds<br />Covalent Compounds & Bond Polarity<br />Lewis
+      Structures & Formal Charge
+    </td>
   </tr>
   <tr>
     <td>6</td>
-    <td>Chemical Bonding</td>
+    <td>
+      Resonance<br />Exceptions to the Octet Rule<br />Electron Domain Geometry
+    </td>
   </tr>
   <tr>
     <td>7</td>
-    <td>Midterm 1 / Nomenclature</td>
+    <td>Molecular Geometry & Polarity<br />Hybridization<br />Pi bonding</td>
   </tr>
   <tr>
     <td>8</td>
-    <td>Chemical Composition</td>
+    <td>Organic Molecules<br />Functional Groups & IM Forces</td>
   </tr>
   <tr>
     <td>9</td>
-    <td>Chemical Equations</td>
+    <td>
+      IM Forces & Phase Changes<br />Heating Curves<br />Vapor Pressure, Phase
+      Diagrams, Liquid Properties
+    </td>
   </tr>
   <tr>
     <td>10</td>
-    <td>Reactions and Aqueous Solutions</td>
+    <td>
+      Solution Process<br />Electrolytes<br />Solubility (of solids and liquids)
+    </td>
   </tr>
   <tr>
     <td>11</td>
-    <td>Classifiying Chemical Reactions</td>
+    <td>Concentration<br />KMT, Gas Laws</td>
   </tr>
   <tr>
     <td>12</td>
-    <td>Midterm 2</td>
+    <td>
+      Ideal Gases<br />Real Gases, Solubility of Gases<br />Chemical Reactions,
+      Ionic Equations
+    </td>
   </tr>
   <tr>
     <td>13</td>
-    <td>Chemical Quantities</td>
+    <td>
+      Classes of Reactions, Oxidation Number<br />Stoichiometry, Limiting
+      Reactant, Percent Yeild<br />Reaction Calculations, Combustion Analysis
+    </td>
   </tr>
   <tr>
     <td>14</td>
-    <td>Final Exam</td>
+    <td>Reaction Enthalpies<br />Calorimetry</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Hess's Law & Heats of Formation<br />Bond Dissociation Energies</td>
   </tr>
 </table>
 
-<h2>Lesson Assignments (20%)</h2>
+<h2>Skills Check (~2%)</h2>
 <p>
-  Each lesson will conclude with a few homework assignments. The format of each
-  assignment will vary and may include fill-in-the blank, short essay, and
-  multiple choice questions. Each assignment will be due at the end of each
-  lesson before beginning the next lesson. The lowest assignment grade will be
-  dropped, and all of the others will be weighted equally.
+  The skills check is an opportunity to review topics from high school chemistry
+  that will be used in CHEM 110. There are two parts to each of the five topics,
+  aptly named “Part A” and “Part B.” Each part is a quiz with 5-7 questions and
+  a 20-minute time limit. In Part A, you may take the quiz as many times as you
+  like. Once you are confident in the skill, you can take Part B up to three
+  times. Only the highest score in each part will be recorded. (Everyone can
+  earn 100%!!!!) Your average percent score on all 10 quizzes (5 skills, two
+  parts each) will be your grade on the skills check. For example, if you earn
+  an 80%, you would earn 12 of 15 points.
 </p>
-<h2>Video Demonstration Summaries (5%)</h2>
+<h2>Midterm Exams (~13%)</h2>
 <p>
-  There will be multiple video demonstrations for some of the lessons. A short
-  online submission (one page or less in length) will be required for five of
-  the demonstrations. Each submission will go into a separate dropbox and must
-  include a description of the demonstration, the concept being presented, your
-  observations, and any suggestions you may have to change or expand the
-  demonstration. Watch all the videos, but please only submit summaries for 5 of
-  the videos.
+  There will be four (4) 50-minute midterm exams given over the course of the
+  semester. Exams will focus on material covered since the last exam; however,
+  you are still responsible for information presented previously. If you read
+  your lecture notes & the eBook and solve the recommended problems, you will be
+  able to anticipate the exam questions; all concepts could make multiple
+  appearances. The exams will consist of short answer questions and open-ended
+  problems. Some questions may be multiple choice. Stay tuned to announcements
+  on the format.
 </p>
-<h2>Lab Experiment Reports (25%)</h2>
+<h2>Final Exam (~26%)</h2>
 <p>
-  There will be four lab experiments performed individually by the student. Each
-  experiment will have an online report submitted consisting of experimental
-  data, observations and short answers to interpretive questions.
+  A cumulative final exam will be given during the week of December 11. The exam
+  window will be announced later in the semester. The final exam will be
+  proctored remotely just as the midterm exams.
 </p>
-<h2>Non-Proctored Online Mid-Term Exams (30%)</h2>
+<h2>Homework Sets (~8%)</h2>
 <p>
-  The two exams will have multiple choice questions. Both will have a 90-minute
-  time limit. Only one attempt is allowed. Each exam will be worth 15% of the
-  final grade.
-</p>
-<h2>Non-Proctored, Closed-Book, Comprehensive Final Exam (20%)</h2>
-<p>
-  Students will complete a closed-book final exam consisting of multiple-choice
-  questions that will be similar in scope to those given in the homework
-  assignments and mid-term exams. Students will need to print out the Useful
-  Information file located in the Exams folder, which may be used when
-  completing the final exam. The file includes a periodic table, a list of key
-  equations, and a solubility table.
-</p>
-<p>
-  You will also need a scientific calculator to take the Final Exam. If you want
-  to know whether your calculator is allowed, email your instructor as soon as
-  possible.
-</p>
-<h2>Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% of Course Points</th>
-  <tr>
-    <td>A</td>
-    <td>91.5-100%</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>89.5-91.4%</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>85.5-89.4%</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>78.5-80.4%</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>74.5-78.4%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>68.5-74.4%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>56.5-68.4%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 56.4%</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/chem101</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Astro 140</title>
-      <link>/syllabi/astro140</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  The possible existence of life beyond Earth is one of the most fundamental
-  questions relating the human race to the physical Universe around us. While
-  considerations of extraterrestrial life were in the domains of philosophy and
-  science fiction in the past, today we have considerable scientific knowledge
-  that can be applied to the question. Advances in modern astronomy have
-  dramatically improved our understanding of our cosmic surroundings: tracing
-  the cosmic origins of biological molecules, direct evidence for planets around
-  most stars (exoplanets), and a deeper understanding of planet formation have
-  all emerged in the past generation. Several fields -- geology, biochemistry,
-  paleontology (fossils), evolutionary biology -- give insight (though not a
-  complete understanding) on how life arose on Earth, and spacecraft travel
-  provides constraints on life elsewhere in our Solar System.
+  There will be 15 graded homework sets (4 points each) throughout the semester.
+  One assignment will be due every week. On most occasions homework will be
+  graded solely based on completion and effort. On several randomly selected
+  occasions, however, one randomly selected problem from the homework assignment
+  will be graded for 2 points based on correctness. On those occasions,
+  completing the rest of the homework assignment is worth an additional 2
+  points, graded based on completeness and effort. Homework sets will be
+  available on Canvas and are due by submitting a file in the Canvas assignment
+  each Tuesday by 11:59 pm. There will be no late homework accepted. The lowest
+  homework score will be dropped at the end of the term.
 </p>
 <p>
-  The results from studies on Earth, the Solar System, and exoplanets across the
-  Galaxy together indicate that the conditions for life are widespread in the
-  Universe; extraterrestrial life has not been found yet, but does not seem
-  implausible. Interstellar space travel between habitable planets, by humans or
-  other beings, is exceedingly difficult but not physically impossible. The
-  course is thus rooted in modern science, but is connected to the long-standing
-  philosophical question: Are we alone in the Universe? Today, this question is
-  often embedded in science fiction (such as movies about aliens) and discussion
-  about whether aliens have visited Earth. Today, astronomical studies are
-  leading the way in answering part of the question: Earth-like planets seems to
-  be extremely common. But there is no evidence yet for life outside of Earth.
+  Other assignments, such as an eBook Scavenger Hunt (7 points on Canvas) will
+  be included in this category. If you earn 85% or more of the available
+  homework points, you will earn all 60 points in the category! If you earn
+  fewer than 85% of the possible points, you will receive a proportionally lower
+  score. No extra credit results from accumulating a score of more than 85% of
+  the points.
 </p>
-<h2>Activities</h2>
+<h2>Participation (13%)</h2>
 <p>
-  Part of the course resembles a traditional classroom learning environment: We
-  have lectures by the instructor (online rather than in person), read chapters
-  of our textbook, and take quizzes to evaluate that we have learned the
-  material. But the course also has more (inter)active assignments: students
-  participate in discussion forums; take part in a huge citizen science research
-  effort; and engage in science writing, producing two papers. The result is a
-  multifaceted learning experience, blending more passive knowledge acquisition
-  with more active learning processes.
+  Participation in class will come in three forms: attending a weekly
+  recitation, answering the guiding questions, and interactions in ELMS/Piazza.
+  More information on each type of participation is described below.
 </p>
-<h2>Outline</h2>
+<h2>Weekly Recitation</h2>
 <p>
-  The course is divided into five broad themes that are, in turn, divided into
-  several topics. The course is designed as a 15-week course with a new Web page
-  environment for each week. Readings from our textbook, {selected textbook for
-  the semester} associated with each week are listed.
+  Recitations are one-hour sessions led by a pair of learning assistants via
+  Zoom videoconferencing. Recitation is an opportunity to participate actively
+  in problem solving and to ask questions about the material. Students will be
+  assigned a recitation session according to their availability as indicated by
+  a “When is Good” poll (sent to students via email prior to the start of
+  classes). There will be 5-7 students in each recitation session. To be
+  prepared for recitation, you should bring a copy of the recitation worksheet
+  (available on ELMS), a copy of the Periodic Table and datasheet, and a
+  scientific calculator. There will be 14 recitations (they will begin in week
+  2). If you attend 12 of the 14 sessions, you will earn 4 all 30 points. Each
+  absence beyond the first two will result in a three-point (10%) reduction of
+  your recitation grade.
 </p>
+<h2>Guiding Questions</h2>
 <p>
-  <strong>Theme I: Introduction and astronomical context (Weeks 1 - 2)</strong>
+  Each week, there will be 2-3 “Guiding Question Sets” meant to assess your
+  comprehension of the course content (reading and/or videos). These will be
+  available in Canvas (also linked in ELMS) and due each Friday at 11:59 pm. If
+  you earn an 85% or higher on the guiding question sets, you will receive all
+  40 points available in the category. If you earn fewer than 85% of the
+  possible points, you will receive a proportionally lower score. No extra
+  credit results from accumulating a score of more than 85% of the points
 </p>
-<ol>
-  <li>
-    Cosmology: The history of the Universe
-  </li>
-  <li>
-    Stars: Energy for life
-  </li>
-</ol>
+<h2>Interactions</h2>
 <p>
-  <strong>Theme II: Life on Earth (Weeks 3 - 4)</strong>
+  Interactions include watching videos, answering embedded h5p questions in
+  ELMS, and posting questions or answers to Piazza. Behind-the-scenes click data
+  for users can be tracked and will be counted for this portion of the
+  participation grade. We will use Piazza as a class forum/chatroom for asking
+  and answering questions about the course. You can ask and answer questions
+  here, which will be monitored by the TAs, LAs, and instructor. Please direct
+  your questions here before e-mailing. You will be able to ask and answer
+  anonymously if you wish. The beauty of Piazza is that the entire class can
+  benefit from the questions and answers. More information on enrolling and
+  etiquette for using will be provided during the semester. Any personal
+  inquiries can be addressed by email (see below). If you interact with at least
+  85% of the course content in ELMS and make a minimum of five (5) posts to
+  Piazza, you will earn all 30 points in the category. If you interact with less
+  than 85% of the content, you will receive a proportionally lower score.
 </p>
-<ol start="3">
-  <li>
-    Biochemistry & Origin of Life
-  </li>
-  <li>
-    Early Life & Earth's Atmosphere
-  </li>
-</ol>
+<h2>Extra Credit (~1%)</h2>
 <p>
-  <strong>Theme III: Life elsewhere in the Solar System</strong>
-</p>
-<ol start="5">
-  <li>
-    Review of our Solar System
-  </li>
-  <li>
-    Possibility of life on Mars
-  </li>
-  <li>
-    Possibility of life in the outer Solar System
-  </li>
-</ol>
-<p>
-  <strong>Theme IV: Planetary systems in the galaxy (Weeks 8 - 11)</strong>
-</p>
-<ol start="8">
-  <li>
-    Discovering Exoplanets (PlanetHunter Activity)
-  </li>
-  <li>
-    Census and properties of Exoplanets
-  </li>
-  <li>
-    Census and properties of Exoplanets (Continued)
-  </li>
-  <li>
-    The formation of Planetary Systems
-  </li>
-</ol>
-<p>
-  <strong>Theme V: Life around other stars (Weeks 12 - 14)</strong>
-</p>
-<ol start="12">
-  <li>
-    Possibility of life in other planetary systems
-  </li>
-  <li>
-    Searching for extraterrestrial life
-  </li>
-  <li>
-    Interstellar Travel
-  </li>
-</ol>
-<p>
-  <strong>Theme VI: Philosophical perspectives (Week 15)</strong>
-</p>
-<h2>Materials</h2>
-<p>
-  The following material is required and may be purchased from MBS Direct:
-</p>
-<h2>Textbook (varies)</h2>
-<p>
-  It is important that students have this book, as we will read most of it
-  during 12 of the 15 weeks of the course. For pricing and ordering information,
-  please see the MBS Direct Web page for Astro 140. MBS Direct can also be
-  contacted at 1-800-325-3252. It may also be purchased from Barnes & Noble,
-  Amazon.com or other book vendors, but delivery to non-U.S. locations may be
-  slow. MBS Direct promises rapid delivery.
-</p>
-<p>
-  Many of Penn State's library resources can be utilized from a distance.
-  Through the Library Resources and Services for Off-Campus Users Web site, you
-  can...
-</p>
-<ul>
-  <li>
-    Access magazine, journal, and newspaper articles online using library
-    databases
-  </li>
-  <li>
-    Borrow materials and have them delivered to your doorstep...or even your
-    desktop
-  </li>
-  <li>
-    Ask a librarian for research help via e-mail, chat, or phone using the ASK!
-    service
-  </li>
-  <li>
-    ...and much more!
-  </li>
-</ul>
-<p>
-  <strong>NOTE:</strong> You must have an active Penn State Access Account to
-  take full advantage of the Libraries' resources and services. Once you have a
-  Penn State account, you will automatically be registered with the library
-  within 24-48 hours. If you would like to check that your library registration
-  has been completed, visit the Library's homepage, click on "My Library
-  Accounts" and then click on "CAT Account".
-</p>
-<h2>Grading</h2>
-<h3>Quizzes (48%)</h3>
-<p>
-  Four times during the semester after a Theme is completed, students will take
-  a quiz on recent material covered in the class, associated reading and online
-  material. The quizzes will last 40 minutes and have combinations of multiple
-  choice, short answer and short essay questions. Students may have access to
-  notes and the textbook, but study prior to the quiz is necessary because of
-  the time constraint. Quizzes are taken in Penn State's ANGEL Web environment.
-  Students can take the quiz anytime during specified 4-day periods from
-  early-Friday to end-of-day Monday. Quizzes are `open book, open Web' format
-  without proctoring; however, they are timed so that students are who are not
-  familiar with the material cannot perform well. Each Quiz is worth 12% of the
-  course grade.
-</p>
-<h3>Science Writing Papers (27%)</h3>
-<p>
-  Students will submit two original papers using topics and resources provided
-  by (or in agreement with) the instructor. The goal is to learn techniques of
-  science writing: the papers review scientific findings and will present them
-  in a formal style. General guidence is given here, and the student and
-  instructor interact individually on Paper #1. The student then writes Paper #2
-  on their own; it is the same length as Paper #1 but is worth more points as
-  the student can incorporate what they have leared about science writing. There
-  are three deadlines: a draft of Paper 1, the final version of Paper 1 and, at
-  the beginning of Exam Week, delivery of Paper 2. Details on science writing,
-  paper requirements, and sample topics are given here. Paper #1 is worth 12% of
-  the course grade, and Paper #2 is worth 15% of the course grade.
-</p>
-<h3>Discussion Forums (15%)</h3>
-<p>
-  Throughout the course, we will hold informal discussions on through PSU's
-  ANGEL, and optionally VoiceThread, environment. The instructor will start with
-  a question, sometimes accompanied with on-line material. Students then
-  participate with independent or secondary commentaries. Points are earned by
-  number and quality of contributions; contributions based on factual material
-  is preferred over informal opinions. The maximum contribution is 15% of the
-  course grade.
-</p>
-<h3>PlanetHunters Activity (10%)</h3>
-<p>
-  During Weeks 8-9, students will engage in the Zooniverse `citizen science'
-  activity PlanetHunters. This involves a training session, classification of
-  ~30 lightcurves from NASA's Kepler mission for possible planet transits, and
-  completion of a worksheet and analysis. The goal is to examine observations
-  from the Kepler observations of ~200,000 stars, characterizing the variability
-  of the star and looking for periodic dips in brightness due to transiting
-  planets.
-</p>
-<p>
-  At the end of the semester, course grades (A/A-/B+/B/B-/C+/C/D/F) will be
-  calculated on a `curve' based on the instructor's judgment of class
-  performance. Throughout the semester, each student can access their grades for
-  past work on the ANGEL gradebook.
+  There will be several opportunities to earn up to a maximum of 8 extra credit
+  points over the course of the semester. Opportunities will be announced as
+  they come up. The number and type of assignment are at the discretion of the
+  instructor.
 </p>
  ]]>
       </description>
       <category></category>
-      <guid>/syllabi/astro140</guid>
+      <guid>/syllabi/chem110</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
   </channel>

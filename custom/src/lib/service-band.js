@@ -1,16 +1,30 @@
-import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
-class ServiceBand extends PolymerElement {
-  static get template() {
-    return html`
-      <style>
+import { LitElement, html, css } from "lit-element/lit-element.js";
+class ServiceBand extends LitElement {
+  /**
+   * LitElement constructable styles enhancement
+   */
+  static get styles() {
+    return [
+      css`
         :host {
           display: block;
         }
-        /**
-       * Hide the slotted content during edit mode. This must be here to work.
-       */
-        :host([edit-mode]) #slot {
-          display: none;
+
+        :host([align="right"]) #video {
+          display: flex;
+          order: 2;
+          margin: 0 0 0 25px;
+        }
+
+        @media screen and (max-width: 768px) {
+          :host([align="right"]) #video {
+            margin: 0 0 25px 0;
+            order: 0;
+          }
+        }
+
+        :host([align="right"]) video-player {
+          width: 100%;
         }
 
         :host([align="right"]) #image {
@@ -26,7 +40,7 @@ class ServiceBand extends PolymerElement {
         @media screen and (max-width: 768px) {
           :host([align="right"]) #image {
             margin: 0 0 25px 0;
-            order: 0; 
+            order: 0;
           }
         }
 
@@ -38,14 +52,14 @@ class ServiceBand extends PolymerElement {
 
         @media screen and (min-width: 768px) {
           :host([align="right"]) #container {
-            margin: 0 0 25px 0; 
+            margin: 0 0 25px 0;
           }
         }
 
         @media screen and (max-width: 768px) {
           #container {
             flex-direction: column;
-            margin: 0
+            margin: 0;
           }
         }
 
@@ -64,6 +78,20 @@ class ServiceBand extends PolymerElement {
           }
         }
 
+        #video {
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: right center;
+          width: 40%;
+          min-height: 300px;
+          margin: 0 20px 0 0;
+        }
+
+        @media screen and (max-width: 768px) {
+          #video {
+            width: 100%;
+          }
+        }
 
         #title {
           font-size: 24px;
@@ -74,7 +102,7 @@ class ServiceBand extends PolymerElement {
           padding-left: 15px;
           margin: 0 0 25px 0;
         }
-        
+
         #info {
           font-weight: 300;
           line-height: 1.4;
@@ -88,22 +116,54 @@ class ServiceBand extends PolymerElement {
         }
 
         @media screen and (max-width: 768px) {
-          #card_info{
+          #card_info {
             width: 100%;
             margin: 20px 0 20px;
           }
         }
-
-      </style>
+      `
+    ];
+  }
+  render() {
+    return html`
       <div id="container">
-        <div id="image" style$="background-image:url([[image]])"></div>
+        ${this.renderSource(this.type)}
         <div id="card_info">
-          <div id="title">[[title]]</div>
+          <div id="title">${this.title}</div>
           <div id="info">
-            <slot>[[info]]</slot>
+            <slot>${this.info}</slot>
           </div>
         </div>
-
+      </div>
+    `;
+  }
+  renderSource(type) {
+    switch (type) {
+      case "video":
+        return this.renderVideo();
+        break;
+      case "icon":
+        return this.renderIcon();
+        break;
+    }
+    return this.renderImage();
+  }
+  renderIcon() {
+    import("@polymer/iron-icon/iron-icon.js");
+    return html`
+      <iron-icon icon="${this.source}"></iron-icon>
+    `;
+  }
+  renderImage() {
+    return html`
+      <div id="image" style="background-image:url(${this.source})"></div>
+    `;
+  }
+  renderVideo() {
+    import("@lrnwebcomponents/video-player/video-player.js");
+    return html`
+      <div id="video">
+        <video-player source="${this.source}"></video-player>
       </div>
     `;
   }
@@ -113,38 +173,48 @@ class ServiceBand extends PolymerElement {
   static get properties() {
     return {
       /**
-       * Image source
+       * Media Source
        */
-      image: {
+      source: {
         type: String
       },
       /**
-       * Image alt
+       * Media Type
+       */
+      type: {
+        type: String
+      },
+      /**
+       * Image Alt
        */
       alt: {
         type: String
       },
       /**
-       * Title over icon
+       * Title Over Icon
        */
       title: {
         type: String
       },
       /**
-       * info text for icon
+       * Info Text for Icon
        */
       info: {
         type: String
       },
       /**
-       * align image
+       * Align Media
        */
       align: {
         type: String,
-        value: "left",
-        reflectToAttribute: true
+        reflect: true
       }
     };
+  }
+  constructor() {
+    super();
+    this.type = "image";
+    this.align = "left";
   }
 }
 window.customElements.define(ServiceBand.tag, ServiceBand);
