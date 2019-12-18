@@ -14,6 +14,8 @@ import "./lib/haxtheme-home.js";
 import "./lib/haxtheme-about.js";
 import "./lib/haxtheme-ngdle.js";
 import "./lib/haxtheme-lab.js";
+import "./lib/haxtheme-pedagogy";
+import "./lib/haxtheme-obs";
 import "./lib/haxtheme-news.js";
 import "./lib/haxtheme-team.js";
 import "./lib/haxtheme-courses.js";
@@ -181,7 +183,7 @@ tr:hover {
   conditions='{
     "parent": null,
     "location": {
-      "value": ["syllabi", "spotlight", "ngdle"],
+      "value": ["syllabi", "spotlight", "ngdle", "lab", "pedagogy", "obs"],
       "operator": "!="
     }
   }'>
@@ -199,6 +201,8 @@ tr:hover {
     <haxtheme-syllabus id="syllabus" edit-mode$="[[editMode]]"></haxtheme-syllabus>
     <haxtheme-ngdle id="ngdle" edit-mode$="[[editMode]]"></haxtheme-ngdle>
     <haxtheme-lab id="lab" edit-mode$="[[editMode]]"></haxtheme-lab>
+    <haxtheme-pedagogy id="pedagogy" edit-mode$="[[editMode]]"></haxtheme-pedagogy>
+    <haxtheme-obs id="obs" edit-mode$="[[editMode]]"></haxtheme-obs>
 </iron-pages>
 <scroll-button></scroll-button>
 <page-footer></page-footer>`;
@@ -385,6 +389,12 @@ tr:hover {
               } else if (location.route.path.startsWith("lab")) {
                 this.selectedPage = 11;
                 target = "lab";
+              } else if (location.route.path.startsWith("pedagogy")) {
+                this.selectedPage = 12;
+                target = "pedagogy";
+              } else if (location.route.path.startsWith("obs")) {
+                this.selectedPage = 13;
+                target = "obs";
               }
               break;
           }

@@ -130,7 +130,7 @@ class HaxThemeHome extends PolymerElement {
             label="Learn"
             image="files/theme-images/promo-tiles/elmsln-tile.jpg"
             alt=""
-            url="[[item.location]]"
+            url="pedagogy"
           >
             Pedagogy refers to the instructional methods and techniques used to
             effectively convey learning objectives.
@@ -142,7 +142,7 @@ class HaxThemeHome extends PolymerElement {
             label="Film"
             image="files/theme-images/promo-tiles/obs-tile.jpg"
             alt=""
-            url="[[item.location]]"
+            url="obs"
           >
             Work with experts to storyboard and film engaging lectures,
             presentations, and more using our One Button Studio.

@@ -7,7 +7,7 @@ import "./service-icon.js";
 import "./service-band.js";
 import "./course-icons.js";
 
-class HaxThemeNgdle extends PolymerElement {
+class HaxThemeObs extends PolymerElement {
   static get template() {
     return html`
       <style>
@@ -104,13 +104,13 @@ class HaxThemeNgdle extends PolymerElement {
         }
       </style>
       <page-banner
-        image="files/theme-images/page-banners/ngdle-banner.jpg"
-        text="Course Management"
-        alt="Hand on keyboard with digital imagery.  Photo by: Geralt - Pixabay.com"
+        image="files/theme-images/page-banners/obs-banner3.jpg"
+        text="One Button Studio"
+        alt="Digital representation of an eye. Photo by: Geralt - Pixabay.com"
       ></page-banner>
       <div id="content-wrap">
         <div id="header">
-          <h1>Next Generation Digital Learning Environment</h1>
+          <h1>One Button Studio</h1>
           <div class="description">
             Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -189,7 +189,6 @@ class HaxThemeNgdle extends PolymerElement {
             >
           </service-band>
         </div>
-
         <div id="testimonials">
           <div id="testimonial_header">
             <h2>What Others are Saying...</h2>
@@ -245,7 +244,7 @@ class HaxThemeNgdle extends PolymerElement {
     `;
   }
   static get tag() {
-    return "haxtheme-ngdle";
+    return "haxtheme-obs";
   }
   connectedCallback() {
     super.connectedCallback();
@@ -266,5 +265,5 @@ class HaxThemeNgdle extends PolymerElement {
     super.disconnectedCallback();
   }
 }
-window.customElements.define(HaxThemeNgdle.tag, HaxThemeNgdle);
-export { HaxThemeNgdle };
+window.customElements.define(HaxThemeObs.tag, HaxThemeObs);
+export { HaxThemeObs };

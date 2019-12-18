@@ -3810,6 +3810,34 @@
                 "updated": 1541517755,
                 "type": "ngdle"
             }
+        },
+        {
+            "id": "pedagogy",
+            "indent": 0,
+            "location": "pages\/pedagogy\/index.html",
+            "order": 10,
+            "parent": null,
+            "title": "Pedagogy",
+            "description": "",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "pedagogy"
+            }
+        },
+        {
+            "id": "obs",
+            "indent": 0,
+            "location": "pages\/obs\/index.html",
+            "order": 11,
+            "parent": null,
+            "title": "One Button Studio",
+            "description": "",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "obs"
+            }
         }
     ]
 }

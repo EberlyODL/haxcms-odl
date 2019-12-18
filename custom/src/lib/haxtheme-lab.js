@@ -7,7 +7,6 @@ import "./service-icon.js";
 import "./service-band.js";
 import "./course-icons.js";
 
-
 class HaxThemeLab extends PolymerElement {
   static get template() {
     return html`
@@ -86,7 +85,7 @@ class HaxThemeLab extends PolymerElement {
           border-left-width: 4px;
           border-left-color: #e2801e;
           padding-left: 15px;
-          margin: 0 0 25px 0
+          margin: 0 0 25px 0;
         }
 
         #quotes {
@@ -105,9 +104,9 @@ class HaxThemeLab extends PolymerElement {
         }
       </style>
       <page-banner
-        image="files/theme-images/page-banners/ngdle-banner.jpg"
+        image="files/theme-images/page-banners/lab-banner.jpg"
         text="Innovation Lab"
-        alt="Hand on keyboard with digital imagery.  Photo by: Geralt - Pixabay.com"
+        alt="Random gears on a banner.  Photo by: Geralt - Pixabay.com"
       ></page-banner>
       <div id="content-wrap">
         <div id="header">
@@ -148,38 +147,46 @@ class HaxThemeLab extends PolymerElement {
         </div>
         <div id="service-banner">
           <service-band
-            image="files/feature-images/course-select.jpg"
+            type="video"
+            source="https://youtu.be/o55m5yfdF-o"
             alt="A student raises their hand in a lecture hall."
             title="Track Real-time Anayltics to Measure Student Performance"
           >
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-            Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit.
+            <span slot>
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit.</span
+            >
           </service-band>
           <service-band
-            image="files/feature-images/course-select.jpg"
+            source="files/feature-images/course-select.jpg"
             alt="A student raises their hand in a lecture hall."
             title="Track Real-time Anayltics to Measure Student Performance"
             align="right"
           >
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-            Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit.
+            <span slot>
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit.</span
+            >
           </service-band>
           <service-band
-            image="files/feature-images/course-select.jpg"
+            type="video"
+            source="https://youtu.be/obxNix6w2aE"
             alt="A student raises their hand in a lecture hall."
             title="Track Real-time Anayltics to Measure Student Performance"
           >
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-            Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit.
+            <span slot>
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit.</span
+            >
           </service-band>
         </div>
         <div id="testimonials">
@@ -194,7 +201,8 @@ class HaxThemeLab extends PolymerElement {
               position="Educational Technologist"
             >
               <span
-                >HAX has revolutionized how I help faculty deliver content!</span
+                >HAX has revolutionized how I help faculty deliver
+                content!</span
               >
             </person-testimonial>
             <person-testimonial
@@ -204,7 +212,8 @@ class HaxThemeLab extends PolymerElement {
               position="Educational Technologist"
             >
               <span
-                >HAX has revolutionized how I help faculty deliver content!</span
+                >HAX has revolutionized how I help faculty deliver
+                content!</span
               >
             </person-testimonial>
             <person-testimonial
@@ -214,7 +223,8 @@ class HaxThemeLab extends PolymerElement {
               position="Educational Technologist"
             >
               <span
-                >HAX has revolutionized how I help faculty deliver content!</span
+                >HAX has revolutionized how I help faculty deliver
+                content!</span
               >
             </person-testimonial>
             <person-testimonial
@@ -224,7 +234,8 @@ class HaxThemeLab extends PolymerElement {
               position="Educational Technologist"
             >
               <span
-                >HAX has revolutionized how I help faculty deliver content!</span
+                >HAX has revolutionized how I help faculty deliver
+                content!</span
               >
             </person-testimonial>
           </div>
