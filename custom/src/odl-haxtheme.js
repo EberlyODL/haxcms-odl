@@ -14,16 +14,17 @@ import "./lib/haxtheme-home.js";
 import "./lib/haxtheme-about.js";
 import "./lib/haxtheme-ngdle.js";
 import "./lib/haxtheme-lab.js";
-import "./lib/haxtheme-pedagogy";
-import "./lib/haxtheme-obs";
+import "./lib/haxtheme-pedagogy.js";
+import "./lib/haxtheme-obs.js";
 import "./lib/haxtheme-news.js";
 import "./lib/haxtheme-team.js";
 import "./lib/haxtheme-courses.js";
 import "./lib/haxtheme-course.js";
 import "./lib/haxtheme-blog.js";
 import "./lib/haxtheme-profile.js";
+import "./lib/haxtheme-spotlight.js";
 import "./lib/haxtheme-syllabus.js";
-import "./lib/haxtheme-contact";
+import "./lib/haxtheme-contact.js";
 import "./lib/link-preview.js";
 import "./lib/page-topbar.js";
 import "./lib/page-footer.js";
@@ -203,6 +204,7 @@ tr:hover {
     <haxtheme-lab id="lab" edit-mode$="[[editMode]]"></haxtheme-lab>
     <haxtheme-pedagogy id="pedagogy" edit-mode$="[[editMode]]"></haxtheme-pedagogy>
     <haxtheme-obs id="obs" edit-mode$="[[editMode]]"></haxtheme-obs>
+    <haxtheme-spotlight id="spotlight" edit-mode$="[[editMode]]"></haxtheme-spotlight>
 </iron-pages>
 <scroll-button></scroll-button>
 <page-footer></page-footer>`;
@@ -329,6 +331,8 @@ tr:hover {
             target = "syllabus";
           } else if (location.route.path.startsWith("about/")) {
             target = "about";
+          } else if (location.route.path.startsWith("spotlight/")) {
+            target = "spotlight";
           }
           break;
       }
@@ -395,6 +399,9 @@ tr:hover {
               } else if (location.route.path.startsWith("obs")) {
                 this.selectedPage = 13;
                 target = "obs";
+              } else if (location.route.path.startsWith("spotlight/")) {
+                this.selectedPage = 14;
+                target = "spotlight";
               }
               break;
           }

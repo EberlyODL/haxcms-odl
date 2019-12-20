@@ -2028,6 +2028,7 @@ class ServiceIcon extends PolymerElement {
 
         #title {
           text-transform: uppercase;
+          text-align: center;
           font-size: 24px;
           margin: 0 0 5px 0;
           font-weight: 400;
@@ -3123,25 +3124,24 @@ class HaxThemeNgdle extends PolymerElement {
         <div id="icon-banner">
           <service-icon
             icon="courseicons:astro011"
-            title="Icon Title 1"
+            title="Microservices"
+            info="Extend your online course with a number of microservices"
+          ></service-icon>
+          <service-icon
+            icon="courseicons:astro011"
+            title="OER Schema"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
           <service-icon
             icon="courseicons:astro011"
-            title="Icon Title 2"
+            title="Analytics"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
           <service-icon
             icon="courseicons:astro011"
-            title="Icon Title 3"
-            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          ></service-icon>
-          <service-icon
-            icon="courseicons:astro011"
-            title="Icon Title 4"
+            title="Portable"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
@@ -6100,6 +6100,105 @@ class HaxThemeProfile extends PolymerElement {
 }
 window.customElements.define(HaxThemeProfile.tag, HaxThemeProfile);
 
+class HaxThemeSpotlight extends PolymerElement {
+  static get template() {
+    return html`
+      <style>
+        :host {
+          display: block;
+        }
+        /**
+       * Hide the slotted content during edit mode. This must be here to work.
+       */
+        :host([edit-mode]) #slot {
+          display: none;
+        }
+
+        h1 {
+          font-size: 36px;
+          font-weight: 400;
+        }
+        #content-wrap {
+          width: 80%;
+          margin: 0 auto 0 auto;
+        }
+
+        #contentcontainer {
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 1.4;
+        }
+
+        #about_header {
+          border-left: solid;
+          border-left-width: 4px;
+          border-left-color: #e2801e;
+          padding-left: 15px;
+        }
+
+        #spotlight-image {
+          width: 50%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: right center;
+          min-height: 400px;
+        }
+
+
+
+
+      </style>
+      <page-banner
+        image="files/theme-images/page-banners/spotlight-banner.jpg"
+        text="Faculty Spotlight"
+        alt=""
+      ></page-banner>
+      <div id="content-wrap">
+        <div id="about_header">
+          <div id="title">
+            <h1>[[activeItem.title]]</h1>
+            <h2>[[activeItem.metadata.fields.jobTitle]]</h2>
+          </div>
+        </div>
+        <div id="spotlight-image" style="background-image:url([[activeItem.metadata.fields.image]])"></div>
+
+        <!-- <div
+          id="spotlight-image"
+          
+        ></div> -->
+
+        <div id="contentcontainer">
+          <div id="slot">
+            <slot></slot>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+  static get tag() {
+    return "haxtheme-spotlight";
+  }
+  connectedCallback() {
+    super.connectedCallback();
+    this.__disposer = [];
+    autorun(reaction => {
+      this.manifest = toJS(store.routerManifest);
+      this.__disposer.push(reaction);
+    });
+    autorun(reaction => {
+      this.activeItem = toJS(store.activeItem);
+      this.__disposer.push(reaction);
+    });
+  }
+  disconnectedCallback() {
+    for (var i in this.__disposer) {
+      this.__disposer[i].dispose();
+    }
+    super.disconnectedCallback();
+  }
+}
+window.customElements.define(HaxThemeSpotlight.tag, HaxThemeSpotlight);
+
 class WorksheetDownload extends LitElement {
   static get properties() {
     return {
@@ -7741,6 +7840,7 @@ tr:hover {
     <haxtheme-lab id="lab" edit-mode$="[[editMode]]"></haxtheme-lab>
     <haxtheme-pedagogy id="pedagogy" edit-mode$="[[editMode]]"></haxtheme-pedagogy>
     <haxtheme-obs id="obs" edit-mode$="[[editMode]]"></haxtheme-obs>
+    <haxtheme-spotlight id="spotlight" edit-mode$="[[editMode]]"></haxtheme-spotlight>
 </iron-pages>
 <scroll-button></scroll-button>
 <page-footer></page-footer>`;
@@ -7867,6 +7967,8 @@ tr:hover {
             target = "syllabus";
           } else if (location.route.path.startsWith("about/")) {
             target = "about";
+          } else if (location.route.path.startsWith("spotlight/")) {
+            target = "spotlight";
           }
           break;
       }
@@ -7933,6 +8035,9 @@ tr:hover {
               } else if (location.route.path.startsWith("obs")) {
                 this.selectedPage = 13;
                 target = "obs";
+              } else if (location.route.path.startsWith("spotlight/")) {
+                this.selectedPage = 14;
+                target = "spotlight";
               }
               break;
           }

@@ -122,25 +122,24 @@ class HaxThemeNgdle extends PolymerElement {
         <div id="icon-banner">
           <service-icon
             icon="courseicons:astro011"
-            title="Icon Title 1"
+            title="Microservices"
+            info="Extend your online course with a number of microservices"
+          ></service-icon>
+          <service-icon
+            icon="courseicons:astro011"
+            title="OER Schema"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
           <service-icon
             icon="courseicons:astro011"
-            title="Icon Title 2"
+            title="Analytics"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
           <service-icon
             icon="courseicons:astro011"
-            title="Icon Title 3"
-            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          ></service-icon>
-          <service-icon
-            icon="courseicons:astro011"
-            title="Icon Title 4"
+            title="Portable"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>

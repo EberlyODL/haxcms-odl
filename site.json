@@ -588,7 +588,7 @@
             "order": 1,
             "parent": "spotlight",
             "title": "Louis Leblond",
-            "description": "Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit.",
+            "description": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacin",
             "metadata": {
                 "fields": {
                     "name": "Louis Leblond",
@@ -597,9 +597,20 @@
                     "jobTitle": "Director of Online Education in Physics"
                 },
                 "created": 1555387200,
-                "updated": 1555387200,
+                "updated": 1576699476,
                 "type": "spotlight",
-                "template": "spotlight"
+                "template": "spotlight",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 3,
+                    "schema": [],
+                    "tags": {
+                        "p": 3,
+                        "grid-plate": 1
+                    },
+                    "elements": 4
+                }
             }
         },
         {

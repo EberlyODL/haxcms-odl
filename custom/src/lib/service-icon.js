@@ -41,6 +41,7 @@ class ServiceIcon extends PolymerElement {
 
         #title {
           text-transform: uppercase;
+          text-align: center;
           font-size: 24px;
           margin: 0 0 5px 0;
           font-weight: 400;
