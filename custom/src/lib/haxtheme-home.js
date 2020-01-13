@@ -116,7 +116,7 @@ class HaxThemeHome extends PolymerElement {
             title="Innovation Lab"
             label="Explore"
             image="files/theme-images/promo-tiles/vr-tile.jpg"
-            alt="NGDLE stands for: Next Generation Learning Environment."
+            alt=""
             url="lab"
           >
             Our team is always exploring, testing, and sharing new and
@@ -133,19 +133,20 @@ class HaxThemeHome extends PolymerElement {
             url="pedagogy"
           >
             Pedagogy refers to the instructional methods and techniques used to
-            effectively convey learning objectives.
+            effectively convey learning objectives. Work with us to discover
+            creative ways to implement pedagogy into your instruction.
           </promo-tile>
         </div>
         <div class="promo_tile">
           <promo-tile
-            title="One Button Studio"
-            label="Film"
+            title="Multimedia"
+            label="Create"
             image="files/theme-images/promo-tiles/obs-tile.jpg"
             alt=""
             url="obs"
           >
-            Work with experts to storyboard and film engaging lectures,
-            presentations, and more using our One Button Studio.
+            Work with experts to create instructional videos, high-fidelity
+            graphics, virtual reality assets, and more.
           </promo-tile>
         </div>
       </div>
