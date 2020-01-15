@@ -104,7 +104,7 @@ class HaxThemeHome extends PolymerElement {
             label="Create"
             image="files/theme-images/promo-tiles/icontest5.jpg"
             alt="NGDLE stands for: Next Generation Learning Environment."
-            url="ngdle"
+            url="coursemanagement"
           >
             Create and deliver course content using systems designed to empower instructors.
           </promo-tile>

@@ -184,7 +184,7 @@ tr:hover {
   conditions='{
     "parent": null,
     "location": {
-      "value": ["syllabi", "spotlight", "ngdle", "lab", "pedagogy", "obs"],
+      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "obs"],
       "operator": "!="
     }
   }'>
@@ -200,7 +200,7 @@ tr:hover {
     <haxtheme-profile id="profile" edit-mode$="[[editMode]]"></haxtheme-profile>
     <haxtheme-course id="course" edit-mode$="[[editMode]]"></haxtheme-course>
     <haxtheme-syllabus id="syllabus" edit-mode$="[[editMode]]"></haxtheme-syllabus>
-    <haxtheme-service-course id="coursemanage" edit-mode$="[[editMode]]"></haxtheme-service-course>
+    <haxtheme-service-course id="coursemanagement" edit-mode$="[[editMode]]"></haxtheme-service-course>
     <haxtheme-lab id="lab" edit-mode$="[[editMode]]"></haxtheme-lab>
     <haxtheme-pedagogy id="pedagogy" edit-mode$="[[editMode]]"></haxtheme-pedagogy>
     <haxtheme-obs id="obs" edit-mode$="[[editMode]]"></haxtheme-obs>
@@ -387,9 +387,9 @@ tr:hover {
               } else if (location.route.path.startsWith("syllabi/")) {
                 this.selectedPage = 9;
                 target = "syllabus";
-              } else if (location.route.path.startsWith("coursemanage")) {
+              } else if (location.route.path.startsWith("coursemanagement")) {
                 this.selectedPage = 10;
-                target = "coursemanage";
+                target = "coursemanagement";
               } else if (location.route.path.startsWith("lab")) {
                 this.selectedPage = 11;
                 target = "lab";

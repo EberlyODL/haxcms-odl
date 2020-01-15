@@ -3795,17 +3795,17 @@
             }
         },
         {
-            "id": "coursemanage",
+            "id": "coursemanagement",
             "indent": 0,
-            "location": "pages\/coursemanage\/index.html",
+            "location": "pages/coursemanagement/index.html",
             "order": 8,
             "parent": null,
-            "title": "coursemanage",
+            "title": "coursemanagement",
             "description": "",
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
-                "type": "coursemanage"
+                "type": "coursemanagement"
             }
         },
         {
