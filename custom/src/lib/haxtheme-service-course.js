@@ -7,7 +7,7 @@ import "./service-icon.js";
 import "./service-band.js";
 import "./course-icons.js";
 
-class HaxThemeNgdle extends PolymerElement {
+class HaxThemeServiceCourse extends PolymerElement {
   static get template() {
     return html`
       <style>
@@ -110,7 +110,7 @@ class HaxThemeNgdle extends PolymerElement {
       ></page-banner>
       <div id="content-wrap">
         <div id="header">
-          <h1>Next Generation Digital Learning Environment</h1>
+          <h1>Course Management</h1>
           <div class="description">
             Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -245,7 +245,7 @@ class HaxThemeNgdle extends PolymerElement {
     `;
   }
   static get tag() {
-    return "haxtheme-ngdle";
+    return "haxtheme-service-course";
   }
   connectedCallback() {
     super.connectedCallback();
@@ -266,5 +266,5 @@ class HaxThemeNgdle extends PolymerElement {
     super.disconnectedCallback();
   }
 }
-window.customElements.define(HaxThemeNgdle.tag, HaxThemeNgdle);
-export { HaxThemeNgdle };
+window.customElements.define(HaxThemeServiceCourse.tag, HaxThemeServiceCourse);
+export { HaxThemeServiceCourse };

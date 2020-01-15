@@ -102,25 +102,23 @@ class HaxThemeHome extends PolymerElement {
           <promo-tile
             title="Course Management"
             label="Create"
-            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
+            image="files/theme-images/promo-tiles/icontest5.jpg"
             alt="NGDLE stands for: Next Generation Learning Environment."
             url="ngdle"
           >
-            Create your course using our Next Generation Digital Learning
-            Environment and gain access to a network of cutting-edge
-            technologies instantly.
+            Create and deliver course content using systems designed to empower instructors.
           </promo-tile>
         </div>
         <div class="promo_tile">
           <promo-tile
             title="Innovation Lab"
             label="Explore"
-            image="files/theme-images/promo-tiles/vr-tile.jpg"
+            image="files/theme-images/promo-tiles/icontest4.jpg"
             alt=""
             url="lab"
           >
-            Our team is always exploring, testing, and sharing new and
-            technologies for education; step into our innovation lab and see
+            We're always exploring, testing, and sharing new and
+            technologies; step into our innovation lab and see
             what we've been up to.
           </promo-tile>
         </div>
@@ -128,20 +126,20 @@ class HaxThemeHome extends PolymerElement {
           <promo-tile
             title="Pedagogy"
             label="Learn"
-            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
+            image="files/theme-images/promo-tiles/icontest8.jpg"
             alt=""
             url="pedagogy"
           >
-            Pedagogy refers to the instructional methods and techniques used to
-            effectively convey learning objectives. Work with us to discover
-            creative ways to implement pedagogy into your instruction.
+            Instructional methods used to convey learning objectives. Work with
+            us to discover creative ways to implement pedagogy into your
+            instruction.
           </promo-tile>
         </div>
         <div class="promo_tile">
           <promo-tile
             title="Multimedia"
             label="Create"
-            image="files/theme-images/promo-tiles/obs-tile.jpg"
+            image="files/theme-images/promo-tiles/icontest10.jpg"
             alt=""
             url="obs"
           >

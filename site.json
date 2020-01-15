@@ -3795,17 +3795,17 @@
             }
         },
         {
-            "id": "ngdle",
+            "id": "coursemanage",
             "indent": 0,
-            "location": "pages\/ngdle\/index.html",
+            "location": "pages\/coursemanage\/index.html",
             "order": 8,
             "parent": null,
-            "title": "NGDLE",
+            "title": "coursemanage",
             "description": "",
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
-                "type": "ngdle"
+                "type": "coursemanage"
             }
         },
         {

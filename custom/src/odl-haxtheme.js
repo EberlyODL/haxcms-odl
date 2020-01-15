@@ -12,7 +12,7 @@ import { wipeSlot } from "@lrnwebcomponents/hax-body/lib/haxutils.js";
 import "@polymer/iron-pages/iron-pages.js";
 import "./lib/haxtheme-home.js";
 import "./lib/haxtheme-about.js";
-import "./lib/haxtheme-ngdle.js";
+import "./lib/haxtheme-service-course.js";
 import "./lib/haxtheme-lab.js";
 import "./lib/haxtheme-pedagogy.js";
 import "./lib/haxtheme-obs.js";
@@ -200,7 +200,7 @@ tr:hover {
     <haxtheme-profile id="profile" edit-mode$="[[editMode]]"></haxtheme-profile>
     <haxtheme-course id="course" edit-mode$="[[editMode]]"></haxtheme-course>
     <haxtheme-syllabus id="syllabus" edit-mode$="[[editMode]]"></haxtheme-syllabus>
-    <haxtheme-ngdle id="ngdle" edit-mode$="[[editMode]]"></haxtheme-ngdle>
+    <haxtheme-service-course id="coursemanage" edit-mode$="[[editMode]]"></haxtheme-service-course>
     <haxtheme-lab id="lab" edit-mode$="[[editMode]]"></haxtheme-lab>
     <haxtheme-pedagogy id="pedagogy" edit-mode$="[[editMode]]"></haxtheme-pedagogy>
     <haxtheme-obs id="obs" edit-mode$="[[editMode]]"></haxtheme-obs>
@@ -387,9 +387,9 @@ tr:hover {
               } else if (location.route.path.startsWith("syllabi/")) {
                 this.selectedPage = 9;
                 target = "syllabus";
-              } else if (location.route.path.startsWith("ngdle")) {
+              } else if (location.route.path.startsWith("coursemanage")) {
                 this.selectedPage = 10;
-                target = "ngdle";
+                target = "coursemanage";
               } else if (location.route.path.startsWith("lab")) {
                 this.selectedPage = 11;
                 target = "lab";

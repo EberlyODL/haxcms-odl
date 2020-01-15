@@ -1675,25 +1675,23 @@ class HaxThemeHome extends PolymerElement {
           <promo-tile
             title="Course Management"
             label="Create"
-            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
+            image="files/theme-images/promo-tiles/icontest5.jpg"
             alt="NGDLE stands for: Next Generation Learning Environment."
             url="ngdle"
           >
-            Create your course using our Next Generation Digital Learning
-            Environment and gain access to a network of cutting-edge
-            technologies instantly.
+            Create and deliver course content using systems designed to empower instructors.
           </promo-tile>
         </div>
         <div class="promo_tile">
           <promo-tile
             title="Innovation Lab"
             label="Explore"
-            image="files/theme-images/promo-tiles/vr-tile.jpg"
+            image="files/theme-images/promo-tiles/icontest4.jpg"
             alt=""
             url="lab"
           >
-            Our team is always exploring, testing, and sharing new and
-            technologies for education; step into our innovation lab and see
+            We're always exploring, testing, and sharing new and
+            technologies; step into our innovation lab and see
             what we've been up to.
           </promo-tile>
         </div>
@@ -1701,20 +1699,20 @@ class HaxThemeHome extends PolymerElement {
           <promo-tile
             title="Pedagogy"
             label="Learn"
-            image="files/theme-images/promo-tiles/elmsln-tile.jpg"
+            image="files/theme-images/promo-tiles/icontest8.jpg"
             alt=""
             url="pedagogy"
           >
-            Pedagogy refers to the instructional methods and techniques used to
-            effectively convey learning objectives. Work with us to discover
-            creative ways to implement pedagogy into your instruction.
+            Instructional methods used to convey learning objectives. Work with
+            us to discover creative ways to implement pedagogy into your
+            instruction.
           </promo-tile>
         </div>
         <div class="promo_tile">
           <promo-tile
             title="Multimedia"
             label="Create"
-            image="files/theme-images/promo-tiles/obs-tile.jpg"
+            image="files/theme-images/promo-tiles/icontest10.jpg"
             alt=""
             url="obs"
           >
@@ -3010,7 +3008,7 @@ $_documentContainer.innerHTML = `<iron-iconset-svg name="courseicons" size="100"
 
 document.head.appendChild($_documentContainer);
 
-class HaxThemeNgdle extends PolymerElement {
+class HaxThemeServiceCourse extends PolymerElement {
   static get template() {
     return html`
       <style>
@@ -3113,7 +3111,7 @@ class HaxThemeNgdle extends PolymerElement {
       ></page-banner>
       <div id="content-wrap">
         <div id="header">
-          <h1>Next Generation Digital Learning Environment</h1>
+          <h1>Course Management</h1>
           <div class="description">
             Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -3248,7 +3246,7 @@ class HaxThemeNgdle extends PolymerElement {
     `;
   }
   static get tag() {
-    return "haxtheme-ngdle";
+    return "haxtheme-service-course";
   }
   connectedCallback() {
     super.connectedCallback();
@@ -3269,7 +3267,7 @@ class HaxThemeNgdle extends PolymerElement {
     super.disconnectedCallback();
   }
 }
-window.customElements.define(HaxThemeNgdle.tag, HaxThemeNgdle);
+window.customElements.define(HaxThemeServiceCourse.tag, HaxThemeServiceCourse);
 
 class HaxThemeLab extends PolymerElement {
   static get template() {
@@ -7838,7 +7836,7 @@ tr:hover {
     <haxtheme-profile id="profile" edit-mode$="[[editMode]]"></haxtheme-profile>
     <haxtheme-course id="course" edit-mode$="[[editMode]]"></haxtheme-course>
     <haxtheme-syllabus id="syllabus" edit-mode$="[[editMode]]"></haxtheme-syllabus>
-    <haxtheme-ngdle id="ngdle" edit-mode$="[[editMode]]"></haxtheme-ngdle>
+    <haxtheme-service-course id="coursemanage" edit-mode$="[[editMode]]"></haxtheme-service-course>
     <haxtheme-lab id="lab" edit-mode$="[[editMode]]"></haxtheme-lab>
     <haxtheme-pedagogy id="pedagogy" edit-mode$="[[editMode]]"></haxtheme-pedagogy>
     <haxtheme-obs id="obs" edit-mode$="[[editMode]]"></haxtheme-obs>
@@ -8025,9 +8023,9 @@ tr:hover {
               } else if (location.route.path.startsWith("syllabi/")) {
                 this.selectedPage = 9;
                 target = "syllabus";
-              } else if (location.route.path.startsWith("ngdle")) {
+              } else if (location.route.path.startsWith("coursemanage")) {
                 this.selectedPage = 10;
-                target = "ngdle";
+                target = "coursemanage";
               } else if (location.route.path.startsWith("lab")) {
                 this.selectedPage = 11;
                 target = "lab";
