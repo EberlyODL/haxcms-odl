@@ -7,7 +7,7 @@ import "./service-icon.js";
 import "./service-band.js";
 import "./course-icons.js";
 
-class HaxThemePedagogy extends PolymerElement {
+class HaxThemeServicePedagogy extends PolymerElement {
   static get template() {
     return html`
       <style>
@@ -245,7 +245,7 @@ class HaxThemePedagogy extends PolymerElement {
     `;
   }
   static get tag() {
-    return "haxtheme-pedagogy";
+    return "haxtheme-service-pedagogy";
   }
   connectedCallback() {
     super.connectedCallback();
@@ -266,5 +266,5 @@ class HaxThemePedagogy extends PolymerElement {
     super.disconnectedCallback();
   }
 }
-window.customElements.define(HaxThemePedagogy.tag, HaxThemePedagogy);
-export { HaxThemePedagogy };
+window.customElements.define(HaxThemeServicePedagogy.tag, HaxThemeServicePedagogy);
+export { HaxThemeServicePedagogy };

@@ -1714,7 +1714,7 @@ class HaxThemeHome extends PolymerElement {
             label="Create"
             image="files/theme-images/promo-tiles/icontest10.jpg"
             alt=""
-            url="obs"
+            url="multimedia"
           >
             Work with experts to create instructional videos, high-fidelity
             graphics, virtual reality assets, and more.
@@ -3269,7 +3269,7 @@ class HaxThemeServiceCourse extends PolymerElement {
 }
 window.customElements.define(HaxThemeServiceCourse.tag, HaxThemeServiceCourse);
 
-class HaxThemeLab extends PolymerElement {
+class HaxThemeServiceLab extends PolymerElement {
   static get template() {
     return html`
       <style>
@@ -3506,7 +3506,7 @@ class HaxThemeLab extends PolymerElement {
     `;
   }
   static get tag() {
-    return "haxtheme-lab";
+    return "haxtheme-service-lab";
   }
   connectedCallback() {
     super.connectedCallback();
@@ -3527,9 +3527,9 @@ class HaxThemeLab extends PolymerElement {
     super.disconnectedCallback();
   }
 }
-window.customElements.define(HaxThemeLab.tag, HaxThemeLab);
+window.customElements.define(HaxThemeServiceLab.tag, HaxThemeServiceLab);
 
-class HaxThemePedagogy extends PolymerElement {
+class HaxThemeServicePedagogy extends PolymerElement {
   static get template() {
     return html`
       <style>
@@ -3767,7 +3767,7 @@ class HaxThemePedagogy extends PolymerElement {
     `;
   }
   static get tag() {
-    return "haxtheme-pedagogy";
+    return "haxtheme-service-pedagogy";
   }
   connectedCallback() {
     super.connectedCallback();
@@ -3788,9 +3788,9 @@ class HaxThemePedagogy extends PolymerElement {
     super.disconnectedCallback();
   }
 }
-window.customElements.define(HaxThemePedagogy.tag, HaxThemePedagogy);
+window.customElements.define(HaxThemeServicePedagogy.tag, HaxThemeServicePedagogy);
 
-class HaxThemeObs extends PolymerElement {
+class HaxThemeServiceMultimedia extends PolymerElement {
   static get template() {
     return html`
       <style>
@@ -3888,12 +3888,12 @@ class HaxThemeObs extends PolymerElement {
       </style>
       <page-banner
         image="files/theme-images/page-banners/obs-banner3.jpg"
-        text="One Button Studio"
+        text="Multimedia"
         alt="Digital representation of an eye. Photo by: Geralt - Pixabay.com"
       ></page-banner>
       <div id="content-wrap">
         <div id="header">
-          <h1>One Button Studio</h1>
+          <h1>Multimedia</h1>
           <div class="description">
             Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -4027,7 +4027,7 @@ class HaxThemeObs extends PolymerElement {
     `;
   }
   static get tag() {
-    return "haxtheme-obs";
+    return "haxtheme-service-multimedia";
   }
   connectedCallback() {
     super.connectedCallback();
@@ -4048,7 +4048,7 @@ class HaxThemeObs extends PolymerElement {
     super.disconnectedCallback();
   }
 }
-window.customElements.define(HaxThemeObs.tag, HaxThemeObs);
+window.customElements.define(HaxThemeServiceMultimedia.tag, HaxThemeServiceMultimedia);
 
 class NewsCard extends LitElement {
   static get styles() {
@@ -7820,7 +7820,7 @@ tr:hover {
   conditions='{
     "parent": null,
     "location": {
-      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "obs"],
+      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "multimedia"],
       "operator": "!="
     }
   }'>
@@ -7837,9 +7837,9 @@ tr:hover {
     <haxtheme-course id="course" edit-mode$="[[editMode]]"></haxtheme-course>
     <haxtheme-syllabus id="syllabus" edit-mode$="[[editMode]]"></haxtheme-syllabus>
     <haxtheme-service-course id="coursemanagement" edit-mode$="[[editMode]]"></haxtheme-service-course>
-    <haxtheme-lab id="lab" edit-mode$="[[editMode]]"></haxtheme-lab>
-    <haxtheme-pedagogy id="pedagogy" edit-mode$="[[editMode]]"></haxtheme-pedagogy>
-    <haxtheme-obs id="obs" edit-mode$="[[editMode]]"></haxtheme-obs>
+    <haxtheme-service-lab id="lab" edit-mode$="[[editMode]]"></haxtheme-service-lab>
+    <haxtheme-service-pedagogy id="pedagogy" edit-mode$="[[editMode]]"></haxtheme-service-pedagogy>
+    <haxtheme-service-multimedia id="multimedia" edit-mode$="[[editMode]]"></haxtheme-service-multimedia>
     <haxtheme-spotlight id="spotlight" edit-mode$="[[editMode]]"></haxtheme-spotlight>
 </iron-pages>
 <scroll-button></scroll-button>
@@ -8032,9 +8032,9 @@ tr:hover {
               } else if (location.route.path.startsWith("pedagogy")) {
                 this.selectedPage = 12;
                 target = "pedagogy";
-              } else if (location.route.path.startsWith("obs")) {
+              } else if (location.route.path.startsWith("multimedia")) {
                 this.selectedPage = 13;
-                target = "obs";
+                target = "multimedia";
               } else if (location.route.path.startsWith("spotlight/")) {
                 this.selectedPage = 14;
                 target = "spotlight";

@@ -7,7 +7,7 @@ import "./service-icon.js";
 import "./service-band.js";
 import "./course-icons.js";
 
-class HaxThemeLab extends PolymerElement {
+class HaxThemeServiceMultimedia extends PolymerElement {
   static get template() {
     return html`
       <style>
@@ -104,13 +104,13 @@ class HaxThemeLab extends PolymerElement {
         }
       </style>
       <page-banner
-        image="files/theme-images/page-banners/lab-banner.jpg"
-        text="Innovation Lab"
-        alt="Random gears on a banner.  Photo by: Geralt - Pixabay.com"
+        image="files/theme-images/page-banners/obs-banner3.jpg"
+        text="Multimedia"
+        alt="Digital representation of an eye. Photo by: Geralt - Pixabay.com"
       ></page-banner>
       <div id="content-wrap">
         <div id="header">
-          <h1>Innovation Lab</h1>
+          <h1>Multimedia</h1>
           <div class="description">
             Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -244,7 +244,7 @@ class HaxThemeLab extends PolymerElement {
     `;
   }
   static get tag() {
-    return "haxtheme-lab";
+    return "haxtheme-service-multimedia";
   }
   connectedCallback() {
     super.connectedCallback();
@@ -265,5 +265,5 @@ class HaxThemeLab extends PolymerElement {
     super.disconnectedCallback();
   }
 }
-window.customElements.define(HaxThemeLab.tag, HaxThemeLab);
-export { HaxThemeLab };
+window.customElements.define(HaxThemeServiceMultimedia.tag, HaxThemeServiceMultimedia);
+export { HaxThemeServiceMultimedia };

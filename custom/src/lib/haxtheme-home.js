@@ -141,7 +141,7 @@ class HaxThemeHome extends PolymerElement {
             label="Create"
             image="files/theme-images/promo-tiles/icontest10.jpg"
             alt=""
-            url="obs"
+            url="multimedia"
           >
             Work with experts to create instructional videos, high-fidelity
             graphics, virtual reality assets, and more.

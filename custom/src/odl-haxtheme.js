@@ -13,9 +13,9 @@ import "@polymer/iron-pages/iron-pages.js";
 import "./lib/haxtheme-home.js";
 import "./lib/haxtheme-about.js";
 import "./lib/haxtheme-service-course.js";
-import "./lib/haxtheme-lab.js";
-import "./lib/haxtheme-pedagogy.js";
-import "./lib/haxtheme-obs.js";
+import "./lib/haxtheme-service-lab.js";
+import "./lib/haxtheme-service-pedagogy.js";
+import "./lib/haxtheme-service-multimedia.js";
 import "./lib/haxtheme-news.js";
 import "./lib/haxtheme-team.js";
 import "./lib/haxtheme-courses.js";
@@ -184,7 +184,7 @@ tr:hover {
   conditions='{
     "parent": null,
     "location": {
-      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "obs"],
+      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "multimedia"],
       "operator": "!="
     }
   }'>
@@ -201,9 +201,9 @@ tr:hover {
     <haxtheme-course id="course" edit-mode$="[[editMode]]"></haxtheme-course>
     <haxtheme-syllabus id="syllabus" edit-mode$="[[editMode]]"></haxtheme-syllabus>
     <haxtheme-service-course id="coursemanagement" edit-mode$="[[editMode]]"></haxtheme-service-course>
-    <haxtheme-lab id="lab" edit-mode$="[[editMode]]"></haxtheme-lab>
-    <haxtheme-pedagogy id="pedagogy" edit-mode$="[[editMode]]"></haxtheme-pedagogy>
-    <haxtheme-obs id="obs" edit-mode$="[[editMode]]"></haxtheme-obs>
+    <haxtheme-service-lab id="lab" edit-mode$="[[editMode]]"></haxtheme-service-lab>
+    <haxtheme-service-pedagogy id="pedagogy" edit-mode$="[[editMode]]"></haxtheme-service-pedagogy>
+    <haxtheme-service-multimedia id="multimedia" edit-mode$="[[editMode]]"></haxtheme-service-multimedia>
     <haxtheme-spotlight id="spotlight" edit-mode$="[[editMode]]"></haxtheme-spotlight>
 </iron-pages>
 <scroll-button></scroll-button>
@@ -396,9 +396,9 @@ tr:hover {
               } else if (location.route.path.startsWith("pedagogy")) {
                 this.selectedPage = 12;
                 target = "pedagogy";
-              } else if (location.route.path.startsWith("obs")) {
+              } else if (location.route.path.startsWith("multimedia")) {
                 this.selectedPage = 13;
-                target = "obs";
+                target = "multimedia";
               } else if (location.route.path.startsWith("spotlight/")) {
                 this.selectedPage = 14;
                 target = "spotlight";

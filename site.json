@@ -3819,7 +3819,7 @@
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
-                "type": "ngdle"
+                "type": "lab"
             }
         },
         {
@@ -3837,17 +3837,17 @@
             }
         },
         {
-            "id": "obs",
+            "id": "multimedia",
             "indent": 0,
-            "location": "pages\/obs\/index.html",
+            "location": "pages\/multimedia\/index.html",
             "order": 11,
             "parent": null,
-            "title": "One Button Studio",
+            "title": "Multimedia",
             "description": "",
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
-                "type": "obs"
+                "type": "multimedia"
             }
         }
     ]
