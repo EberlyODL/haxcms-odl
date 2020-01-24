@@ -93,8 +93,8 @@ class ServiceBand extends LitElement {
           }
         }
 
-        #title {
-          font-size: 24px;
+        #title h2 {
+          font-size: 28px;
           font-weight: 400;
           border-left: solid;
           border-left-width: 4px;
@@ -121,6 +121,29 @@ class ServiceBand extends LitElement {
             margin: 20px 0 20px;
           }
         }
+
+        paper-button {
+          padding: 0;
+          margin: 0;
+        }
+
+        .action_button {
+          margin: 20px 0 0 0;
+        }
+
+        .action_button a {
+          text-decoration: none;
+        }
+
+        paper-button#learn {
+          color: #e2801e;
+        }
+
+        paper-button#learn:hover,
+        paper-button#learn:focus {
+          color: var(--haxtheme-info-box-paper-button-color-active);
+          @apply --haxtheme-info-box-paper-button-active;
+        }
       `
     ];
   }
@@ -129,9 +152,14 @@ class ServiceBand extends LitElement {
       <div id="container">
         ${this.renderSource(this.type)}
         <div id="card_info">
-          <div id="title">${this.title}</div>
+          <div id="title">
+            <h2>${this.title}</h2>
+          </div>
           <div id="info">
             <slot>${this.info}</slot>
+            <div id="url">
+              ${this.url ? this.renderUrl() : html`` }
+            </div>
           </div>
         </div>
       </div>
@@ -166,6 +194,18 @@ class ServiceBand extends LitElement {
         <video-player source="${this.source}"></video-player>
       </div>
     `;
+  }
+  renderUrl() {
+    return html`
+    <div class="action_button">
+      <a href="${this.url}">
+        <paper-button noink id="learn">
+          <div class="title">Read More</div>
+          <iron-icon icon="chevron-right"></iron-icon>
+        </paper-button>
+      </a>
+    </div>
+    `
   }
   static get tag() {
     return "service-band";
@@ -208,13 +248,20 @@ class ServiceBand extends LitElement {
       align: {
         type: String,
         reflect: true
-      }
+      },
+      /**
+       * Optional Url 
+       */
+      url: {
+        type: String
+      },
     };
   }
   constructor() {
     super();
     this.type = "image";
     this.align = "left";
+    this.url = null;
   }
 }
 window.customElements.define(ServiceBand.tag, ServiceBand);

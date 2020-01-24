@@ -121,26 +121,26 @@ class HaxThemeServiceMultimedia extends PolymerElement {
         </div>
         <div id="icon-banner">
           <service-icon
-            icon="courseicons:astro011"
-            title="Icon Title 1"
+            icon="serviceicons:video"
+            title="Instructional Video"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
           <service-icon
-            icon="courseicons:astro011"
-            title="Icon Title 2"
+            icon="serviceicons:vr"
+            title="Virtual Reality"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
           <service-icon
-            icon="courseicons:astro011"
-            title="Icon Title 3"
+            icon="serviceicons:image"
+            title="Visual Representations"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
           <service-icon
-            icon="courseicons:astro011"
-            title="Icon Title 4"
+            icon="serviceicons:podcast"
+            title="Podcasting"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>

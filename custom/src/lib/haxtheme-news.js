@@ -137,12 +137,12 @@ class HaxThemeNews extends PolymerElement {
         <div class="news_container">
           <div class="news_page_feed">
             <site-query
-              result="{{__items}}"
+              result="{{__newsitems}}"
               conditions='{"metadata.type": "news"}'
               limit="5"
               sort
             ></site-query>
-            <dom-repeat items="[[__items]]" mutable-data>
+            <dom-repeat items="[[__newsitems]]" mutable-data>
               <template>
                 <news-card
                   image="[[item.metadata.fields.image]]"
@@ -175,11 +175,13 @@ class HaxThemeNews extends PolymerElement {
             <div id="news_archive">
               <site-recent-content-block
                 title="News Archive"
-                conditions='{"metadata.type": "news"}'
-                result="{{__items}}"
-                limit="5"
+                conditions='{"metadata.type": {
+                            "value": ["spotlight", "news"],
+                            "operator": "=="
+                }}'
+                limit=""
                 start-index="5"
-                sort
+                sort=""
               >
               </site-recent-content-block>
             </div>

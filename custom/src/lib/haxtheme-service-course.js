@@ -6,6 +6,7 @@ import "./page-banner.js";
 import "./service-icon.js";
 import "./service-band.js";
 import "./course-icons.js";
+import "./haxtheme-service-icons";
 
 class HaxThemeServiceCourse extends PolymerElement {
   static get template() {
@@ -27,7 +28,7 @@ class HaxThemeServiceCourse extends PolymerElement {
         }
 
         h2 {
-          font-size: 24px;
+          font-size: 28px;
           font-weight: 400;
         }
 
@@ -121,25 +122,25 @@ class HaxThemeServiceCourse extends PolymerElement {
         </div>
         <div id="icon-banner">
           <service-icon
-            icon="courseicons:astro011"
+            icon="serviceicons:computer"
             title="Content Delivery"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
           <service-icon
-            icon="courseicons:astro011"
+            icon="serviceicons:accessibility"
             title="Accessibility"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
           <service-icon
-            icon="courseicons:astro011"
+            icon="serviceicons:globe"
             title="World Campus"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
           <service-icon
-            icon="courseicons:astro011"
+            icon="serviceicons:consult"
             title="Consultations"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -150,7 +151,8 @@ class HaxThemeServiceCourse extends PolymerElement {
             type="video"
             source="https://youtu.be/o55m5yfdF-o"
             alt="A student raises their hand in a lecture hall."
-            title="Track Real-time Anayltics to Measure Student Performance"
+            title="Content Delivery Title"
+            url="https://www.google.com"
           >
             <span slot>
               Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
@@ -163,7 +165,7 @@ class HaxThemeServiceCourse extends PolymerElement {
           <service-band
             source="files/feature-images/course-select.jpg"
             alt="A student raises their hand in a lecture hall."
-            title="Track Real-time Anayltics to Measure Student Performance"
+            title="Accessibility Title"
             align="right"
           >
             <span slot>
@@ -178,7 +180,23 @@ class HaxThemeServiceCourse extends PolymerElement {
             type="video"
             source="https://youtu.be/obxNix6w2aE"
             alt="A student raises their hand in a lecture hall."
-            title="Track Real-time Anayltics to Measure Student Performance"
+            title="World Campus Title" 
+            url="https://www.google.com"
+          >
+            <span slot>
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit.</span
+            >
+          </service-band>
+          <service-band
+            type="video"
+            source="https://youtu.be/obxNix6w2aE"
+            alt="A student raises their hand in a lecture hall."
+            title="Consultations Title"
+            align="right"
           >
             <span slot>
               Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
@@ -192,7 +210,7 @@ class HaxThemeServiceCourse extends PolymerElement {
 
         <div id="testimonials">
           <div id="testimonial_header">
-            <h2>What Others are Saying...</h2>
+            <h2>What Others are Saying</h2>
           </div>
           <div id="quotes">
             <person-testimonial

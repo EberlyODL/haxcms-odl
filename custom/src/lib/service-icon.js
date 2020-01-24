@@ -19,9 +19,9 @@ class ServiceIcon extends PolymerElement {
         }
 
         #icon-wrap {
-          border: solid 3px #e2801e;
+          border: solid 4px #e2801e;
           border-radius: 50%;
-          padding: 15px;
+          padding: 25px;
           margin: 25px auto 0 auto;
           width: 100px;
         }

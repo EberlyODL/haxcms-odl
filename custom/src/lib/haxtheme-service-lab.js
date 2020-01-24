@@ -74,11 +74,11 @@ class HaxThemeServiceLab extends PolymerElement {
           }
         }
 
-        #testimonials {
+        #whatsnext {
           margin: 0 0 25px 0;
         }
 
-        #testimonial_header {
+        #whatsnext_header {
           font-size: 24px;
           font-weight: 400;
           border-left: solid;
@@ -121,26 +121,26 @@ class HaxThemeServiceLab extends PolymerElement {
         </div>
         <div id="icon-banner">
           <service-icon
-            icon="courseicons:astro011"
-            title="Icon Title 1"
+            icon="serviceicons:vr"
+            title="Virtual Reality"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
           <service-icon
-            icon="courseicons:astro011"
-            title="Icon Title 2"
+            icon="serviceicons:ngdle"
+            title="NGDLE"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
           <service-icon
-            icon="courseicons:astro011"
-            title="Icon Title 3"
+            icon="serviceicons:container"
+            title="Containers on Demand"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
           <service-icon
-            icon="courseicons:astro011"
-            title="Icon Title 4"
+            icon="serviceicons:oer"
+            title="OER Schema"
             info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           ></service-icon>
@@ -189,55 +189,9 @@ class HaxThemeServiceLab extends PolymerElement {
             >
           </service-band>
         </div>
-        <div id="testimonials">
-          <div id="testimonial_header">
-            <h2>What Others are Saying...</h2>
-          </div>
-          <div id="quotes">
-            <person-testimonial
-              accent-color="orange"
-              image="files/odl-team/mike.jpg"
-              name="Michael Potter"
-              position="Educational Technologist"
-            >
-              <span
-                >HAX has revolutionized how I help faculty deliver
-                content!</span
-              >
-            </person-testimonial>
-            <person-testimonial
-              accent-color="orange"
-              image="files/odl-team/mike.jpg"
-              name="Michael Potter"
-              position="Educational Technologist"
-            >
-              <span
-                >HAX has revolutionized how I help faculty deliver
-                content!</span
-              >
-            </person-testimonial>
-            <person-testimonial
-              accent-color="orange"
-              image="files/odl-team/mike.jpg"
-              name="Michael Potter"
-              position="Educational Technologist"
-            >
-              <span
-                >HAX has revolutionized how I help faculty deliver
-                content!</span
-              >
-            </person-testimonial>
-            <person-testimonial
-              accent-color="orange"
-              image="files/odl-team/mike.jpg"
-              name="Michael Potter"
-              position="Educational Technologist"
-            >
-              <span
-                >HAX has revolutionized how I help faculty deliver
-                content!</span
-              >
-            </person-testimonial>
+        <div id="whatsnext">
+          <div id="whatsnext_header">
+            <h2>What's Next</h2>
           </div>
         </div>
       </div>
