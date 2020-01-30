@@ -138,8 +138,11 @@ class HaxThemeNews extends PolymerElement {
           <div class="news_page_feed">
             <site-query
               result="{{__newsitems}}"
-              conditions='{"metadata.type": "news"}'
-              limit="5"
+              conditions='{"metadata.type": {
+                            "value": ["spotlight", "news"],
+                            "operator": "=="
+                }}'
+              limit="8"
               sort
             ></site-query>
             <dom-repeat items="[[__newsitems]]" mutable-data>

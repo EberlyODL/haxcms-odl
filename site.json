@@ -511,6 +511,7 @@
                     "phone": "814-865-5233",
                     "email": "lul29@psu.edu",
                     "twitter": "https:\/\/twitter.com\/louisleb"
+                    
                 },
                 "created": 1555387200,
                 "updated": 1555387200,
@@ -591,26 +592,21 @@
             "description": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacin",
             "metadata": {
                 "fields": {
-                    "name": "Louis Leblond",
+                    "name": "Facutly Spotlight: Louis Leblond",
                     "image": "files\/feature-images\/louis_feature.jpg",
                     "imageAlt": "Director of Online Education in Physics, Louis Leblond - discussing git workflow at a university conference.",
-                    "jobTitle": "Director of Online Education in Physics"
+                    "jobTitle": "Director of Online Education in Physics",
+                    "authorImage": "files\/odl-team\/melissa.jpg"
                 },
                 "created": 1555387200,
                 "updated": 1576699476,
                 "type": "spotlight",
                 "template": "spotlight",
-                "readtime": 1,
-                "contentDetails": {
-                    "headings": 0,
-                    "paragraphs": 3,
-                    "schema": [],
-                    "tags": {
-                        "p": 3,
-                        "grid-plate": 1
-                    },
-                    "elements": 4
-                }
+                "tags": [
+                    "Faculty Spotlight",
+                    "Education",
+                    "Learning"
+                ]
             }
         },
         {
