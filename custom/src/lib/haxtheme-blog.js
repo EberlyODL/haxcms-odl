@@ -255,12 +255,13 @@ class HaxThemeBlog extends PolymerElement {
         <div class="sidebar_wrap">
           <div id="news_archive">
             <site-recent-content-block
-              title="Recent News"
-              conditions='{"metadata.type": "news"}'
-              result="{{__items}}" 
+              title="News Archive"
+              conditions='{"metadata.type": {
+                          "value": ["spotlight", "news"],
+                          "operator": "=="
+              }}'
               limit="5"
-              sort
-              >
+            >
             </site-recent-content-block>
           </div>
         </div>

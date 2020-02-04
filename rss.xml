@@ -4,10 +4,24 @@
     <title>odl</title>
     <link>/rss.xml</link>
     <description></description>
-    <copyright>Copyright (C) 2019 </copyright>
+    <copyright>Copyright (C) 2020 </copyright>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Dec 2019 15:41:08 +0000</lastBuildDate>
     <atom:link href="/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Joe Houck</title>
+      <link>/spotlight/joe</link>
+      <description>
+          <![CDATA[ <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
+<p class="hax-active">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
+<p class="hax-active"><br/></p>
+<p class="hax-active"><br/></p>
+ ]]>
+      </description>
+      <category>Faculty Spotlight,Education,Learning</category>
+      <guid>/spotlight/joe</guid>
+      <pubDate>Sat, 16 Aug 2025 23:38:20 +0000</pubDate>
+    </item>
     <item>
       <title>Louis Leblond</title>
       <link>/spotlight/louis</link>
@@ -15,18 +29,11 @@
           <![CDATA[ <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
 <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.<br/></p>
 <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
-<grid-plate layout="6/6" responsive-size="xl" style="width: 100%;"><h2 slot="col-1">Heading</h2>
-
-<p slot="col-1">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Sed porttitor lectus nibh. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
-
-<place-holder slot="col-2" type="image"></place-holder>
-
-</grid-plate>
  ]]>
       </description>
-      <category></category>
+      <category>Faculty Spotlight,Education,Learning</category>
       <guid>/spotlight/louis</guid>
-      <pubDate>Tue, 16 Apr 2019 04:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 Jun 2022 13:46:40 +0000</pubDate>
     </item>
     <item>
       <title>Joseph Houck</title>
@@ -270,985 +277,6 @@
       <category></category>
       <guid>/team-directory/carly</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Biol 127</title>
-      <link>/syllabi/biol127</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  Cellular structure and organization; physiological processes; classification;
-  reproduction and development; relationship of plant groups. Students who have
-  passed BIOL 240W may not schedule this course
-</p>
-<h2>Objectives</h2>
-<p>During the course of the semester, the student will:</p>
-<ul>
-  <li>
-    Develop critical thinking skills, gather credible information, question
-    ideas from a scientific viewpoint
-  </li>
-  <li>Learn and integrate terms and concepts in plant biology</li>
-  <li>
-    Understand how plant structure (cellular, organismal) and function
-    (biochemical) are tied together
-  </li>
-  <li>
-    Learn how plants and humans interact and the outcomes of this interaction
-  </li>
-  <li>
-    Develop laboratory skills to investigate plant evolution, anatomy, and
-    physiology
-  </li>
-  <li>
-    Design an experimental approach that addresses a concept in plant biology
-  </li>
-  <li>
-    Summarize, in the style of a scientific journal article, the design,
-    rationale, results, interpretation, and conclusions of a scientific
-    experiment or studyP
-  </li>
-</ul>
-<h2>Required Materials</h2>
-<ol>
-  <li>
-    Bidlack J., Jansky S., and Stern K. Stern’s Introductory Plant Biology, 13th
-    ed. ISBN-13: 978- 0073369440, ISBN-10: 0073369446
-  </li>
-  <li>
-    Carolina Biological Botany Lab Kits Purchase at:
-    https://www.carolina.com/carolina-distancelearning-science-kits/the-pennsylvania-state-university-introductory-plant-biology-biol-127/581864.pr
-  </li>
-  <li>
-    Digital camera with ability to upload pictures to Canvas
-  </li>
-</ol>
-<h2>Attendance / Participation</h2>
-<p>
-  You will be expected to check in every day or every other day for any
-  announcements or updates. The amount of time spent looking over the material
-  typically is correlated with quiz and exam grade: the more time spent studying
-  usually translates into a better grade. Although this is an online course, you
-  should expect to spend a similar amount of time on the material that you would
-  for an inperson class. The general rule for studying is as follows: for every
-  one hour of lecture, you should spend 2.5 to 3 hours studying the material.
-  That means for a three-credit course, you should spend 7.5 to 9 hours per week
-  studying and completing assignments if you intend to do well (“A” or “B”
-  level).
-</p>
-<h2>Labs</h2>
-<p>
-  You will complete 11 labs related to the material covered during that week.
-  The lab materials must be ordered through Carolina Biological Supplies, and
-  will be delivered to your home. The labs are designed for you to complete at
-  your home, with the exception of one lab, where you will be required to go to
-  a local park, arboretum, or botanical garden. Though in some cases the lab
-  will reinforce concepts covered in the book and in the PowerPoints, the lab
-  may also cover a unique topic. For this reason, material covered in lab
-  activities will be included on exams. If you have completed all 11 labs, only
-  your 10 best scores will count towards your grade.
-</p>
-<h2>Quizzes</h2>
-<p>
-  Each week one or more short quizzes covering that week’s chapter contents must
-  be completed. The quizzes are designed to ensure that you keep up with your
-  reading and study. The quizzes will be in a true/false, matching, or
-  multiple-choice type format and are intended to reinforce the main concepts in
-  each chapter. Utilize the weekly objectives as a study guide for the quizzes
-  and exams. These quizzes will only be open for a limited time, so do not go
-  for extended periods of time (days, weeks) without having logged into the
-  course. I typically do not re-open quizzes unless in the case of technical
-  difficulties from my end. If you miss one or a few quizzes, this will not
-  negatively affect your grade. If you have taken all 23 quizzes, only your 20
-  best scores will count towards your grade.
-</p>
-<h2>Video Discussions</h2>
-<p>
-  During the semester, you will watch two documentaries: The Botany of Desire,
-  broken into four parts of 30 minutes each, and America’s Lost Landscape: The
-  Tallgrass Prairie which is 60 minutes. This is a total of five discussion
-  forums. For each forum, you will be asked to post a response or answers
-  questions. Your first post is due 24 hours prior to the due date for the
-  assignment. If the post is late, no points will be awarded (see discussion
-  instructions in the week 1 module on Canvas for more detailed instructions).
-  The discussions are worth 25 points each.
-</p>
-<h2>Lab Report</h2>
-<p>
-  One lab will require that you write a formal lab report. This is meant to give
-  you practice at scientific writing. You will complete a peer-review draft, a
-  rough draft, and a final draft (see the instruction in the Effects of Ethylene
-  on Fruit Ripening Lab and the individual Lab Report assignments on Canvas for
-  more details).
-</p>
-<h2>Exams</h2>
-<p>
-  During the semester, you will have three exams and a final exam over the
-  material covered. These exams will include true/false, multiple-choice, and/or
-  matching questions; in addition there may be diagrams to label and/or short
-  free-response questions. Exams will cover material for each “unit”: Exam 1
-  will cover material from the beginning of the course until the first exam,
-  Exam 2 will cover material after Exam 1 until the second exam, and so forth.
-  The final will be similar in format to the midterm exams. The only differences
-  will be that the final will be slightly (about 50%) longer, and will be
-  cumulative. The cumulative section will be about 33% of the final, and the
-  remainder will be material covered after the third midterm. All exams will be
-  delivered online, but they will be proctored, using Examity (see Examity
-  section under University Policies). You will have a window of about 72 hours
-  to take your exam, but you must schedule it in advance through the Examity tab
-  in Canvas. If you make changes to your scheduled exam time less than 24 hours
-  before the start of the exam window, Examity will charge you a fee of $3.
-</p>
-<h2>Grade Distribution</h2>
-<table>
-  <th>Assignment</th>
-  <th>Breakdown</th>
-  <th>Points</th>
-  <th>Drop</th>
-  <tr>
-    <td>Labs</td>
-    <td>11 x 25pts</td>
-    <td>225</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Chapter Quizzes</td>
-    <td>23 x 5pts</td>
-    <td>100</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Video Discussions</td>
-    <td>5 x 25pts</td>
-    <td>125</td>
-    <td>N/A</td>
-  </tr>
-  <tr>
-    <td>Lab Report</td>
-    <td>1 x 100pts</td>
-    <td>100</td>
-    <td>N/A</td>
-  </tr>
-  <tr>
-    <td>Exams</td>
-    <td>3 x 100pts</td>
-    <td>300</td>
-    <td>N/A</td>
-  </tr>
-  <tr>
-    <td>Final Exam</td>
-    <td>1 x 150pts</td>
-    <td>150</td>
-    <td>N/A</td>
-  </tr>
-</table>
-
-<h2>Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>Points</th>
-  <tr>
-    <td>A</td>
-    <td>930-1000</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>900-929</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>870-899</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>830-869</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>800-829</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>770-799</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>700-769</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>600-699</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 599</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/biol127</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Biol 133</title>
-      <link>/syllabi/biol133</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  This course is an overview of our current knowledge of human heredity, genetic
-  issues, genetic diseases, and human evolution. Background information that is
-  necessary for understanding these issues will be taught including cell
-  structure, the structure and function of DNA and chromosomes, patterns of
-  inheritance, population genetics, human evolution, and genetic technologies.
-  This course is intended for non-biology majors and does not include a detailed
-  analysis of human genetics. This course will include Canvas readings,
-  web-based readings and videos, and web-based interactive exercises. There are
-  ample opportunities for individual problem-solving while group assignments are
-  offered as discussion forums. Students will also research genetic conditions
-  and have the opportunity to share what they have learned.
-</p>
-<h2>Objectives</h2>
-<p>
-  By the end of this course students should have gained sufficient scientific
-  knowledge to…
-</p>
-<ul>
-  <li>
-    Read and describe popular science articles pertaining to genetic issues.
-  </li>
-  <li>Discuss genetic issues intelligently.</li>
-  <li>
-    Make informed decisions about genetic issues relating to their personal
-    health.
-  </li>
-  <li>
-    Illustrate the impact of genetic technologies on our everyday lives.
-  </li>
-  <li>
-    Identify where to find information and web pages relating to genetic issues.
-  </li>
-  <li>Summarize the major theories and findings of human evolution.</li>
-</ul>
-<h2>Materials</h2>
-<p>
-  All course materials can be accessed through Canvas, the PSU Learning
-  Management System. You will need your Penn State access account username and
-  password for access to Canvas. You do not need to purchase any textbook.
-</p>
-<h2>Format</h2>
-<p>Each week you will be expected to…</p>
-<ul>
-  <li>
-    Read the text on content pages of at least one module in our Canvas course
-    site.
-  </li>
-  <li>
-    Complete additional activities such as a web activity, a case study,
-    participate in a group discussion forum, or watch a short NOVA/PBS video and
-    answer questions about it.
-  </li>
-  <li>
-    Take a quiz after reading the text and completing the associated
-    assignments.
-  </li>
-  <li>
-    Complete all assignments by 11:00 PM Eastern time on Monday following each
-    week.
-  </li>
-</ul>
-<h2>Quizzes</h2>
-<p>
-  Quizzes consist of multiple choice and true/false questions based on the
-  weekly text readings and web assignments. These will be available in Canvas
-  for a designated period during which you may log in and open a quiz one time.
-  Your answers must be submitted within time frame specified for each quiz. For
-  one quiz, you will be required to use the PSU online proctoring system,
-  Examity. Please see additional specific information below.
-</p>
-<p>
-  In this class you will take one assessment that will be proctored by a service
-  called Examity®. Review the Student Quick-Guide, which is available in the
-  modules tab, for instructions on how to use Examity®. Please log in as soon as
-  possible to set up your profile. You will not be able to schedule exams until
-  your profile is complete.
-</p>
-<h2>Web Activities</h2>
-<p>
-  Web Activities are assigned for almost all modules via links to web resources
-  to learn more about a specific topic. Each web site has associated questions
-  to be submitted to Canvas to be evaluated for a grade.
-</p>
-<h2>Videos</h2>
-<p>
-  Several short videos produced by PBS NOVA are quite relevant to several of our
-  discussions. Watch each video and complete the associated quiz in Canvas.
-</p>
-<h2>Writing Assignment</h2>
-<p>
-  You must complete one writing assignment relating to genetic issues. This
-  writing should be approximately 500 words and be submitted via the appropriate
-  place in Canvas. Unless prior arrangements are made, late assignments will
-  have points deducted.
-</p>
-<h2>Case Studies</h2>
-<p>
-  Several short case studies will be completed during the course. These
-  exercises will give you the opportunity to apply your learning to a real life
-  situation.
-</p>
-<h2>Discussion Forums and Surveys</h2>
-<p>
-  Your participation in these will be awarded points. To encourage discussion,
-  opinions are welcomed and will not be graded.
-</p>
-<h2>Grading</h2>
-<p>
-  All assignments are worth approximately 500 total points. Weekly assignments
-  sets are due on Monday at 11:00PM Eastern Time. Late assignments will be
-  accepted for two weeks beyond the due date and 5 points will be deducted from
-  each assignment that is late. After two weeks the drop box for each assignment
-  will expire and no points will be awarded. Emergencies do arise, so please
-  contact Dr. Topper if you experience an emergency situation where you need
-  extra time to complete an assignment. Please do not put yourself in danger,
-  such as going out in the dark to find internet access to complete an
-  assignment. Each request will be considered on an individual basis. *No extra
-  credit will be offered. If you are concerned about your grade, please contact
-  Dr. Topper as quickly as possible and state your concerns.
-</p>
-<table>
-  <th>Assignment</th>
-  <th>Number</th>
-  <th>Points(Each)</th>
-  <th>Total Points</th>
-  <tr>
-    <td>Quizzes</td>
-    <td>~12</td>
-    <td>15-40</td>
-    <td>~250</td>
-  </tr>
-  <tr>
-    <td>Web Activities</td>
-    <td>11</td>
-    <td>10-20</td>
-    <td>~100</td>
-  </tr>
-  <tr>
-    <td>NOVA Videos</td>
-    <td>5</td>
-    <td>15-20</td>
-    <td>~80</td>
-  </tr>
-  <tr>
-    <td>Writing Assignments</td>
-    <td>1</td>
-    <td>35</td>
-    <td>35</td>
-  </tr>
-  <tr>
-    <td>Discussion Forums, Polls & Surveys</td>
-    <td>3</td>
-    <td>10</td>
-    <td>~30</td>
-  </tr>
-</table>
-
-<h2>Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>Percentage</th>
-  <tr>
-    <td>A</td>
-    <td>93-100%</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>90-92%</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>87-89%</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>83-86%</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>80-82%</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>77-79%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-76%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-69%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 60%</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/biol133</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Biol 141</title>
-      <link>/syllabi/biol141</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  The human body is fascinating to most of us, presumably because we have a
-  rather vested interest in it. It is especially interesting when we include the
-  physiology of diseases, as diseases often represent good illustrations of the
-  systems not functioning properly. I have tried to include information that
-  will both sustain and stimulate your interest, as well as challenge you to
-  extend your knowledge outside this course. There are many good programs on the
-  Public Broadcasting System and cable TV as well as articles in magazines such
-  as Science News, Scientific American, Discover, Scientific American Science
-  and Medicine, and Natural History that illustrate the fascinating aspects of
-  human physiology. One of the goals of this course is to develop your ability
-  to understand the more complex scientific and medical advances that are
-  occurring with increasing frequency today.
-</p>
-<h2>Objectives</h2>
-<p>
-  This course is designed to cover the fundamentals of human physiology for
-  students in a variety of life science-related majors including Nursing,
-  Kinesiology, Athletic Training, and Science. By the time you complete this
-  course, you should:
-</p>
-<ul>
-  <li>Have a working knowledge and understanding of basic human physiology.</li>
-  <li>
-    Be able to apply these physiological principles to problem solving
-    situations as observed in medical situations, including cardiac problems,
-    hypertension, renal failure, acid-base balance disturbances, and endocrine
-    imbalances.
-  </li>
-  <li>
-    Have a practical understanding of physiology upon which you can build and
-    use in future clinical settings.
-  </li>
-</ul>
-<h2>Textbook</h2>
-<p>
-  Human Anatomy & Physiology, 10th Edition, by Elaine Marieb and Katja Hoehn,
-  Pearson Benjamin Cummings Publishers, 2016. ISBN: 9780321927040
-</p>
-<h2>Course Schedule</h2>
-<table>
-  <th>Lesson</th>
-  <th>Topic</th>
-  <tr>
-    <td>1</td>
-    <td>
-      Introduction to Physiology: Cell Chemistry, The Living Cell, Tissues and
-      Organ Systems
-    </td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>
-      Cell Growth, Reproduction, Nutrition, and Intermediary Metabolism
-    </td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>
-      Physiology of Muscles
-    </td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>
-      Nerve Impulse Physiology
-    </td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>
-      The Central Nervous System, The Peripheral Nervous System, The Autonomic
-      Nervous System, and The Special Senses
-    </td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>
-      The Endocrine System
-    </td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>
-      The Blood, The Cardiovascular System, and Capillary Exchange
-    </td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>
-      The Lymphatic System and The Immune System
-    </td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>
-      The Respiratory System
-    </td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>
-      The Digestive System
-    </td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>
-      The Urinary System and Regulation of Fluids, Electrolytes, and pH in the
-      Body
-    </td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>
-      The Reproductive Systems, Pregnancy, and Human Development
-    </td>
-  </tr>
-</table>
-
-<h2>Grading</h2>
-<p>
-  Your final grade will be based on your performance on the 12 lesson
-  assignments, four discussion forums, and two exams as shown below:
-</p>
-<table>
-  <th>Activity</th>
-  <th>Breakdown</th>
-  <th>Total Points</th>
-  <tr>
-    <td>Lesson Assignments</td>
-    <td>12 (100pts/each)</td>
-    <td>1200</td>
-  </tr>
-  <tr>
-    <td>Discussion Forums / Class Participation</td>
-    <td>4 (25pts/each)</td>
-    <td>100</td>
-  </tr>
-  <tr>
-    <td>Mid-Course Exam</td>
-    <td>1 (200pts)</td>
-    <td>200</td>
-  </tr>
-  <tr>
-    <td>Final Exam</td>
-    <td>1 (200pts)</td>
-    <td>200</td>
-  </tr>
-  <tr>
-    <td>Total</td>
-    <td></td>
-    <td>1700</td>
-  </tr>
-</table>
-
-<h2>Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>Points</th>
-  <tr>
-    <td>A</td>
-    <td>1580+</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>1530-1579</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>1470-1529</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>1415-1469</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>1360-1414</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>1275-1359</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>1190-1274</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>1020-1189</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td> < 1020</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/biol141</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>One Button Studio</title>
-      <link>/obs</link>
-      <description>
-          <![CDATA[  ]]>
-      </description>
-      <category></category>
-      <guid>/obs</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Biol 120N</title>
-      <link>/syllabi/biol120n</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  This course is designed to introduce you to the discipline of plant biology
-  and increase your awareness and appreciation of the impact of plants on your
-  daily lives. The first part of the course will present the fundamentals of
-  botany to provide you with a basic understanding of plant form and function.
-  The rest of the course will be devoted to a survey of historical, cultural,
-  and economic aspects of botany and related fields. We will finish up with an
-  examination of the role of plants as an integral part of the world's
-  ecosystem.
-</p>
-<h2>Objective</h2>
-<p>
-  The purpose of Biology 120 is to introduce you to the fascinating world of
-  plants with an emphasis on the historical, cultural, and economic uses.
-</p>
-<h2>Textbook</h2>
-<p>
-  Levetin and McMahon, Plants and Society, 6th edition, McGraw-Hill. ISBN:
-  9780073524221
-</p>
-<h2>Course Schedule</h2>
-<table>
-  <tbody><tr><th>Week</th>
-  <th>Topic</th>
-  </tr>
-<tr>
-    <td>1</td>
-    <td>Plants in Life and in History</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Plant Anatomy and Physiology</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Plant Genetics, Systematics, and Diversity</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Plants and Dietary Needs</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Grasses and Legumes</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>Starches and Carbohydrates: Feeding the Hungry World</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>Plant Fibers and Wood Products</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>A Foray into the Fungi</td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>Herbs, Spices, Essential Oils, and Medicinal Plants</td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>Poisonous and Psychoactive Plants</td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>Stimulating Plant Beverages</td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>Plants and the Environment</td>
-  </tr>
-</tbody>
-</table>
-<h2>Grading</h2>
-<table>
-  <tbody><tr><th>Type</th>
-  <th>Points</th>
-  <th>Percentage</th>
-  </tr>
-<tr>
-    <td>3 Exams</td>
-    <td>200 each</td>
-    <td>40% of final grade</td>
-  </tr>
-  <tr>
-    <td>12 Lesson Assignments</td>
-    <td>75</td>
-    <td>60% of final grade</td>
-  </tr>
-</tbody>
-</table>
-<h2>Proctor Information</h2>
-<p>
-  You will need to secure a proctor in order to take exams in this course. A
-  proctor will not automatically be assigned to you; rather, you must make the
-  necessary contacts to secure a professional who will serve in this capacity.
-</p>
-<ol>
-  <li>
-    Contact a person who meets the qualifications and ask him or her to proctor
-    your exam.
-  </li>
-  <li>
-    Student Services must approve your proctor before any exams can be taken.
-    Please see instructions for <a href="https://student.worldcampus.psu.edu/courses/proctored-exams">securing a suitable proctor</a>
-. While many proctors
-    will serve on a voluntary basis, you are responsible for paying any expenses
-    incurred in retaining a proctor.
-  </li>
-  <li>
-    You must submit your proctor for approval or schedule your exams at a
-    testing center using our online proctored exam portal. You will need to
-    enter your proctor's contact information and submit proctor verification
-    documentation. Note: If your proctor has been previously approved by the
-    World Campus during a prior course within two years, you do not need to
-    obtain verification. World Campus retains proctor information on file for
-    two years. To learn more about using the online portal, visit the World
-    Campus website "<a href="https://student.worldcampus.psu.edu/a-z-index/using-the-proctored-exam-portal">Using the Proctored Exam Portal</a>
-."
-  </li>
-  <li>
-    If your proctor does not meet the required specifications, Student Services
-    will notify you within 5 to 7 business days.
-  </li>
-  <li>
-    If you are a graduating senior requesting a final exam, please see
-    additional information about early deadlines for course completion and exam
-    scheduling.
-  </li>
-  <li>
-    Contact <a href="https://www.worldcampus.psu.edu/contacts-help">Student Services</a>
- if you cannot take a scheduled exam.
-  </li>
-  <li>
-    Unless you have received permission to take your exam at an alternative
-    time, your proctor will only allow you to take the exam during dates
-    specified in your course.
-  </li>
-</ol>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/biol120n</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Biol 155</title>
-      <link>/syllabi/biol155</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  Biology 155 is a 3-credit lecture course designed to give both science and
-  non-science majors a basic understanding of the aging process, with special
-  emphasis on aging as it relates to the human body and health. The first third
-  of the course will discuss important aging terminology, methods of measuring
-  aging, current theories of the aging process, and research models used to
-  study aging. The later two thirds of the course will review aging as related
-  to specific body systems. As such, portions of lessons will review normal
-  anatomy (structure naming) and physiology (body function) of these body
-  systems. In this later section, details of both senescence and age-related
-  disease processes will be discussed.
-</p>
-<h2>Objectives</h2>
-<p>Upon completion of this course, you will have:</p>
-<ul>
-  <li>
-    Developed a functional understanding of how our bodies change over time
-  </li>
-  <li>
-    Gained a perspective on major diseases that affect our aging bodies
-  </li>
-  <li>
-    Understand how long-term, healthy living strategies and interventions,
-    started during young life, can potentially prolong life and add additional
-    healthy years to our lifespan
-  </li>
-</ul>
-<h2>Course Schedule</h2>
-<table>
-  <th>Lesson</th>
-  <th>Topic</th>
-  <tr>
-    <td>1</td>
-    <td>Getting Started</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Overview of Aging and Life Expectancy</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Theories of Aging</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Aging and Population Demography</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Cancer, Aging, and the Immune System</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>Cutaneous Aging</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>Aging of the Musculoskeletal System</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>Mid-Course Exam</td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>The Nervous System and Aging; Special Senses and Aging</td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>Special Senses and Aging</td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>Aging and the Cardiovascular System</td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>Aging of the Respiratory and Urinary Systems</td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>Endocrine Changes in the Elderly</td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>Reproductive System Aging</td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>Final Exam</td>
-  </tr>
-</table>
-
-<h2>Textbook</h2>
-<p>
-  Digovanna, Augustine. Human Aging, Biological Perspectives, 2nd edtion. McGraw
-  Hill.
-</p>
-<h2>Grading</h2>
-<p>
-  Your course grade will be based upon your performance on the lesson
-  assignments and two examinations. The lesson assignments will be 1/3 of the
-  final course grade, with the mid-course counting as 1/3 and the final counting
-  as the last 1/3. Examinations will have 30 multiple choice, matching and
-  true/false questions, worth 80% of the exam points, and the remaining 20% of
-  the exam points will be performance on a short essay and term definitions. The
-  mid-course exam will stress material developed in lesson assignments 2-7. The
-  final exam will stress material developed in lesson assignments 9-14, and will
-  not be comprehensive. That said, some broad concepts developed throughout the
-  course, could be found in some questions.
-</p>
-<table>
-  <th>Activity</th>
-  <th>% of Grade</th>
-  <tr>
-    <td>Lessons (average score)</td>
-    <td>33.3%</td>
-  </tr>
-  <tr>
-    <td>Mid-Course Exam</td>
-    <td>33.3%</td>
-  </tr>
-  <tr>
-    <td>Final Exam</td>
-    <td>33.3%</td>
-  </tr>
-</table>
-
-<h2>Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% Range</th>
-  <tr>
-    <td>A</td>
-    <td>93-100%</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>90-92%</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>87-89%</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>83-85%</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>80-82%</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>77-79%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-76%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-69%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td> < 60%</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/biol155</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
       <title>Biol 177</title>
@@ -1523,6 +551,487 @@
       </description>
       <category></category>
       <guid>/syllabi/biol177</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 155</title>
+      <link>/syllabi/biol155</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  Biology 155 is a 3-credit lecture course designed to give both science and
+  non-science majors a basic understanding of the aging process, with special
+  emphasis on aging as it relates to the human body and health. The first third
+  of the course will discuss important aging terminology, methods of measuring
+  aging, current theories of the aging process, and research models used to
+  study aging. The later two thirds of the course will review aging as related
+  to specific body systems. As such, portions of lessons will review normal
+  anatomy (structure naming) and physiology (body function) of these body
+  systems. In this later section, details of both senescence and age-related
+  disease processes will be discussed.
+</p>
+<h2>Objectives</h2>
+<p>Upon completion of this course, you will have:</p>
+<ul>
+  <li>
+    Developed a functional understanding of how our bodies change over time
+  </li>
+  <li>
+    Gained a perspective on major diseases that affect our aging bodies
+  </li>
+  <li>
+    Understand how long-term, healthy living strategies and interventions,
+    started during young life, can potentially prolong life and add additional
+    healthy years to our lifespan
+  </li>
+</ul>
+<h2>Course Schedule</h2>
+<table>
+  <th>Lesson</th>
+  <th>Topic</th>
+  <tr>
+    <td>1</td>
+    <td>Getting Started</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Overview of Aging and Life Expectancy</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Theories of Aging</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Aging and Population Demography</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Cancer, Aging, and the Immune System</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Cutaneous Aging</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Aging of the Musculoskeletal System</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Mid-Course Exam</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>The Nervous System and Aging; Special Senses and Aging</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Special Senses and Aging</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Aging and the Cardiovascular System</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Aging of the Respiratory and Urinary Systems</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Endocrine Changes in the Elderly</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Reproductive System Aging</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Final Exam</td>
+  </tr>
+</table>
+
+<h2>Textbook</h2>
+<p>
+  Digovanna, Augustine. Human Aging, Biological Perspectives, 2nd edtion. McGraw
+  Hill.
+</p>
+<h2>Grading</h2>
+<p>
+  Your course grade will be based upon your performance on the lesson
+  assignments and two examinations. The lesson assignments will be 1/3 of the
+  final course grade, with the mid-course counting as 1/3 and the final counting
+  as the last 1/3. Examinations will have 30 multiple choice, matching and
+  true/false questions, worth 80% of the exam points, and the remaining 20% of
+  the exam points will be performance on a short essay and term definitions. The
+  mid-course exam will stress material developed in lesson assignments 2-7. The
+  final exam will stress material developed in lesson assignments 9-14, and will
+  not be comprehensive. That said, some broad concepts developed throughout the
+  course, could be found in some questions.
+</p>
+<table>
+  <th>Activity</th>
+  <th>% of Grade</th>
+  <tr>
+    <td>Lessons (average score)</td>
+    <td>33.3%</td>
+  </tr>
+  <tr>
+    <td>Mid-Course Exam</td>
+    <td>33.3%</td>
+  </tr>
+  <tr>
+    <td>Final Exam</td>
+    <td>33.3%</td>
+  </tr>
+</table>
+
+<h2>Grade Scale</h2>
+<table>
+  <th>Letter Grade</th>
+  <th>% Range</th>
+  <tr>
+    <td>A</td>
+    <td>93-100%</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>90-92%</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>87-89%</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>83-85%</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>80-82%</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>77-79%</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>70-76%</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>60-69%</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td> < 60%</td>
+  </tr>
+</table>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol155</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 110</title>
+      <link>/syllabi/biol110</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  This course is a study of the evolution of the major groups of organisms
+  including the fundamental concepts of biology. The goal of this course is to
+  introduce you to fundamental concepts that are common to all organisms and to
+  explore the biological diversity of life on Earth. Biology 110 is intended for
+  students who need a majors-level introductory biology course and is not the
+  best option for students who are looking for a general education course in
+  science.
+</p>
+<h2>Objective</h2>
+<p>
+  Biology 110 is a four credit course. The course will utilize web-based
+  tutorials and laboratory sessions. The goal of this course is to introduce you
+  to fundamental concepts that are common to all organisms and to explore the
+  biological diversity of life on Earth.
+</p>
+<h2>Outline</h2>
+<table>
+  <tr>
+    <td>1</td>
+    <td>Overview, Life and Natural Selection</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Carbon and Life</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Antiquity of Life</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Prokaryotes I - Cellular and Genetic Organization</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Prokaryotes II - Structure and Function</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Prokaryotes III - Evolution and Early Metabolism</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Subcellular Architecture of the Eukaryotic Cell</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>
+      Protists I - Protists with Modified Mitochondria, Kingdoms Euglenozoa and
+      Alveolata
+    </td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>
+      Protists II - Kingdoms Stramenopila, Rhodophyta, Chlorophyta, and the
+      Slime Molds
+    </td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>
+      Mitosis
+    </td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>
+      Heredity and Life Cycles
+    </td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>
+      Fungi I - Evolution and Diversity, Phyla Chytridiomycota and Zygomycota
+    </td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>
+      Fungi II - Phyla Ascomycota and Basidiomycota
+    </td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>
+      Animals One - Phylogeny and Diversity; Animals without Body Cavities -
+      Parazoa, Radiata, Acoelomates
+    </td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>
+      Animals Two - Animals with Body Cavities: Pseudocoelomates and Protostome
+      Coelomates
+    </td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>
+      Animals Three - Animals with Body Cavities:Deuterostomes - Echinoderms and
+      Chordates
+    </td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>
+      Energy I - Thermodynamics
+    </td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>
+      Energy II - Cellular Respiration (Glycolysis)
+    </td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>
+      Energy III - Cellular Respiration (Krebs Cycle and Electron Transport
+      Chain)
+    </td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>
+      Energy IV - Photosynthesis (Light-dependent Reactions)
+    </td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>
+      Energy V - Photosynthesis (Calvin Cycle)
+    </td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>
+      Plants I - Evolution and Diversity
+    </td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>
+      Plants II - Vascular Non-flowering Plants
+    </td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>
+      Plants III - Vascular Flowering Plants
+    </td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>
+      Mendel and Modern Genetics
+    </td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>
+      Predicting Phenotypes and Genotypes
+    </td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>
+      The Complex Expression Patterns of Multiple Alleles
+    </td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>
+      Pedigree Analysis
+    </td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>
+      Chromosome Behavior and Sex Chromosomes
+    </td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>
+      Chromosome Behavior and Gene Linkage
+    </td>
+  </tr>
+  <tr>
+    <td>31</td>
+    <td>
+      DNA Replication
+    </td>
+  </tr>
+  <tr>
+    <td>32</td>
+    <td>
+      From Gene to Protein
+    </td>
+  </tr>
+  <tr>
+    <td>33</td>
+    <td>
+      Genes in Populations
+    </td>
+  </tr>
+  <tr>
+    <td>34</td>
+    <td>
+      Genetic Change in Populations
+    </td>
+  </tr>
+  <tr>
+    <td>35</td>
+    <td>
+      Genetics and Natural Selection
+    </td>
+  </tr>
+</table>
+
+<h2>Mastering Biology Access</h2>
+<p>
+  Mastering Biology is an online homework system that will be used extensively
+  during the course. Information about registering for Mastering Biology is
+  posted on Canvas. Please note: You can purchase an e-book version of the
+  textbook through the Mastering Biologywebsite (please see information about
+  the optional textbook below).
+</p>
+<h2>Textbook (Optional)</h2>
+<p>
+  Textbook - Reece, J et al. 2014. Campbell Biology. Tenth Edition. Pearson
+  Benjamin Cummings, San Francisco, CA. The prior edition can also be used. The
+  textbook is available in both electronic (etext) and hardcover formats. The
+  textbook is not required but some students have found it to be a valuable
+  supplement to the online tutorials to the course.
+</p>
+<h2>Online Labs</h2>
+<p>
+  Late Nite Labs is an online laboratory software program. Information about
+  registering for Late Nite Labs is posted on Canvas.
+</p>
+<h2>Grade Scale</h2>
+<p>
+  Lecture material counts for 730 points and lab material counts for 200 points
+  for a total of 930 points. If you do not pass lab (your score is less than
+  60%), you will not pass the course, regardless of your grade in the lecture
+  portion of the class. The grading scale (in points) is:
+</p>
+<table>
+  <th>Letter Grade</th>
+  <th>Points</th>
+  <tr>
+    <td>A</td>
+    <td>855-930</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>837-854</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>800-836</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>772-799</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>744-771</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>697-743</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>651-696</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>558-650</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>< 558</td>
+  </tr>
+</table>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol110</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
@@ -2437,6 +1946,847 @@
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
+      <title>Biol 141</title>
+      <link>/syllabi/biol141</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  The human body is fascinating to most of us, presumably because we have a
+  rather vested interest in it. It is especially interesting when we include the
+  physiology of diseases, as diseases often represent good illustrations of the
+  systems not functioning properly. I have tried to include information that
+  will both sustain and stimulate your interest, as well as challenge you to
+  extend your knowledge outside this course. There are many good programs on the
+  Public Broadcasting System and cable TV as well as articles in magazines such
+  as Science News, Scientific American, Discover, Scientific American Science
+  and Medicine, and Natural History that illustrate the fascinating aspects of
+  human physiology. One of the goals of this course is to develop your ability
+  to understand the more complex scientific and medical advances that are
+  occurring with increasing frequency today.
+</p>
+<h2>Objectives</h2>
+<p>
+  This course is designed to cover the fundamentals of human physiology for
+  students in a variety of life science-related majors including Nursing,
+  Kinesiology, Athletic Training, and Science. By the time you complete this
+  course, you should:
+</p>
+<ul>
+  <li>Have a working knowledge and understanding of basic human physiology.</li>
+  <li>
+    Be able to apply these physiological principles to problem solving
+    situations as observed in medical situations, including cardiac problems,
+    hypertension, renal failure, acid-base balance disturbances, and endocrine
+    imbalances.
+  </li>
+  <li>
+    Have a practical understanding of physiology upon which you can build and
+    use in future clinical settings.
+  </li>
+</ul>
+<h2>Textbook</h2>
+<p>
+  Human Anatomy & Physiology, 10th Edition, by Elaine Marieb and Katja Hoehn,
+  Pearson Benjamin Cummings Publishers, 2016. ISBN: 9780321927040
+</p>
+<h2>Course Schedule</h2>
+<table>
+  <th>Lesson</th>
+  <th>Topic</th>
+  <tr>
+    <td>1</td>
+    <td>
+      Introduction to Physiology: Cell Chemistry, The Living Cell, Tissues and
+      Organ Systems
+    </td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>
+      Cell Growth, Reproduction, Nutrition, and Intermediary Metabolism
+    </td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>
+      Physiology of Muscles
+    </td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>
+      Nerve Impulse Physiology
+    </td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>
+      The Central Nervous System, The Peripheral Nervous System, The Autonomic
+      Nervous System, and The Special Senses
+    </td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>
+      The Endocrine System
+    </td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>
+      The Blood, The Cardiovascular System, and Capillary Exchange
+    </td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>
+      The Lymphatic System and The Immune System
+    </td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>
+      The Respiratory System
+    </td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>
+      The Digestive System
+    </td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>
+      The Urinary System and Regulation of Fluids, Electrolytes, and pH in the
+      Body
+    </td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>
+      The Reproductive Systems, Pregnancy, and Human Development
+    </td>
+  </tr>
+</table>
+
+<h2>Grading</h2>
+<p>
+  Your final grade will be based on your performance on the 12 lesson
+  assignments, four discussion forums, and two exams as shown below:
+</p>
+<table>
+  <th>Activity</th>
+  <th>Breakdown</th>
+  <th>Total Points</th>
+  <tr>
+    <td>Lesson Assignments</td>
+    <td>12 (100pts/each)</td>
+    <td>1200</td>
+  </tr>
+  <tr>
+    <td>Discussion Forums / Class Participation</td>
+    <td>4 (25pts/each)</td>
+    <td>100</td>
+  </tr>
+  <tr>
+    <td>Mid-Course Exam</td>
+    <td>1 (200pts)</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>Final Exam</td>
+    <td>1 (200pts)</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td></td>
+    <td>1700</td>
+  </tr>
+</table>
+
+<h2>Grade Scale</h2>
+<table>
+  <th>Letter Grade</th>
+  <th>Points</th>
+  <tr>
+    <td>A</td>
+    <td>1580+</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>1530-1579</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>1470-1529</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>1415-1469</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>1360-1414</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>1275-1359</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>1190-1274</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>1020-1189</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td> < 1020</td>
+  </tr>
+</table>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol141</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 133</title>
+      <link>/syllabi/biol133</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  This course is an overview of our current knowledge of human heredity, genetic
+  issues, genetic diseases, and human evolution. Background information that is
+  necessary for understanding these issues will be taught including cell
+  structure, the structure and function of DNA and chromosomes, patterns of
+  inheritance, population genetics, human evolution, and genetic technologies.
+  This course is intended for non-biology majors and does not include a detailed
+  analysis of human genetics. This course will include Canvas readings,
+  web-based readings and videos, and web-based interactive exercises. There are
+  ample opportunities for individual problem-solving while group assignments are
+  offered as discussion forums. Students will also research genetic conditions
+  and have the opportunity to share what they have learned.
+</p>
+<h2>Objectives</h2>
+<p>
+  By the end of this course students should have gained sufficient scientific
+  knowledge to…
+</p>
+<ul>
+  <li>
+    Read and describe popular science articles pertaining to genetic issues.
+  </li>
+  <li>Discuss genetic issues intelligently.</li>
+  <li>
+    Make informed decisions about genetic issues relating to their personal
+    health.
+  </li>
+  <li>
+    Illustrate the impact of genetic technologies on our everyday lives.
+  </li>
+  <li>
+    Identify where to find information and web pages relating to genetic issues.
+  </li>
+  <li>Summarize the major theories and findings of human evolution.</li>
+</ul>
+<h2>Materials</h2>
+<p>
+  All course materials can be accessed through Canvas, the PSU Learning
+  Management System. You will need your Penn State access account username and
+  password for access to Canvas. You do not need to purchase any textbook.
+</p>
+<h2>Format</h2>
+<p>Each week you will be expected to…</p>
+<ul>
+  <li>
+    Read the text on content pages of at least one module in our Canvas course
+    site.
+  </li>
+  <li>
+    Complete additional activities such as a web activity, a case study,
+    participate in a group discussion forum, or watch a short NOVA/PBS video and
+    answer questions about it.
+  </li>
+  <li>
+    Take a quiz after reading the text and completing the associated
+    assignments.
+  </li>
+  <li>
+    Complete all assignments by 11:00 PM Eastern time on Monday following each
+    week.
+  </li>
+</ul>
+<h2>Quizzes</h2>
+<p>
+  Quizzes consist of multiple choice and true/false questions based on the
+  weekly text readings and web assignments. These will be available in Canvas
+  for a designated period during which you may log in and open a quiz one time.
+  Your answers must be submitted within time frame specified for each quiz. For
+  one quiz, you will be required to use the PSU online proctoring system,
+  Examity. Please see additional specific information below.
+</p>
+<p>
+  In this class you will take one assessment that will be proctored by a service
+  called Examity®. Review the Student Quick-Guide, which is available in the
+  modules tab, for instructions on how to use Examity®. Please log in as soon as
+  possible to set up your profile. You will not be able to schedule exams until
+  your profile is complete.
+</p>
+<h2>Web Activities</h2>
+<p>
+  Web Activities are assigned for almost all modules via links to web resources
+  to learn more about a specific topic. Each web site has associated questions
+  to be submitted to Canvas to be evaluated for a grade.
+</p>
+<h2>Videos</h2>
+<p>
+  Several short videos produced by PBS NOVA are quite relevant to several of our
+  discussions. Watch each video and complete the associated quiz in Canvas.
+</p>
+<h2>Writing Assignment</h2>
+<p>
+  You must complete one writing assignment relating to genetic issues. This
+  writing should be approximately 500 words and be submitted via the appropriate
+  place in Canvas. Unless prior arrangements are made, late assignments will
+  have points deducted.
+</p>
+<h2>Case Studies</h2>
+<p>
+  Several short case studies will be completed during the course. These
+  exercises will give you the opportunity to apply your learning to a real life
+  situation.
+</p>
+<h2>Discussion Forums and Surveys</h2>
+<p>
+  Your participation in these will be awarded points. To encourage discussion,
+  opinions are welcomed and will not be graded.
+</p>
+<h2>Grading</h2>
+<p>
+  All assignments are worth approximately 500 total points. Weekly assignments
+  sets are due on Monday at 11:00PM Eastern Time. Late assignments will be
+  accepted for two weeks beyond the due date and 5 points will be deducted from
+  each assignment that is late. After two weeks the drop box for each assignment
+  will expire and no points will be awarded. Emergencies do arise, so please
+  contact Dr. Topper if you experience an emergency situation where you need
+  extra time to complete an assignment. Please do not put yourself in danger,
+  such as going out in the dark to find internet access to complete an
+  assignment. Each request will be considered on an individual basis. *No extra
+  credit will be offered. If you are concerned about your grade, please contact
+  Dr. Topper as quickly as possible and state your concerns.
+</p>
+<table>
+  <th>Assignment</th>
+  <th>Number</th>
+  <th>Points(Each)</th>
+  <th>Total Points</th>
+  <tr>
+    <td>Quizzes</td>
+    <td>~12</td>
+    <td>15-40</td>
+    <td>~250</td>
+  </tr>
+  <tr>
+    <td>Web Activities</td>
+    <td>11</td>
+    <td>10-20</td>
+    <td>~100</td>
+  </tr>
+  <tr>
+    <td>NOVA Videos</td>
+    <td>5</td>
+    <td>15-20</td>
+    <td>~80</td>
+  </tr>
+  <tr>
+    <td>Writing Assignments</td>
+    <td>1</td>
+    <td>35</td>
+    <td>35</td>
+  </tr>
+  <tr>
+    <td>Discussion Forums, Polls & Surveys</td>
+    <td>3</td>
+    <td>10</td>
+    <td>~30</td>
+  </tr>
+</table>
+
+<h2>Grade Scale</h2>
+<table>
+  <th>Letter Grade</th>
+  <th>Percentage</th>
+  <tr>
+    <td>A</td>
+    <td>93-100%</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>90-92%</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>87-89%</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>83-86%</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>80-82%</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>77-79%</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>70-76%</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>60-69%</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>< 60%</td>
+  </tr>
+</table>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol133</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 127</title>
+      <link>/syllabi/biol127</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  Cellular structure and organization; physiological processes; classification;
+  reproduction and development; relationship of plant groups. Students who have
+  passed BIOL 240W may not schedule this course
+</p>
+<h2>Objectives</h2>
+<p>During the course of the semester, the student will:</p>
+<ul>
+  <li>
+    Develop critical thinking skills, gather credible information, question
+    ideas from a scientific viewpoint
+  </li>
+  <li>Learn and integrate terms and concepts in plant biology</li>
+  <li>
+    Understand how plant structure (cellular, organismal) and function
+    (biochemical) are tied together
+  </li>
+  <li>
+    Learn how plants and humans interact and the outcomes of this interaction
+  </li>
+  <li>
+    Develop laboratory skills to investigate plant evolution, anatomy, and
+    physiology
+  </li>
+  <li>
+    Design an experimental approach that addresses a concept in plant biology
+  </li>
+  <li>
+    Summarize, in the style of a scientific journal article, the design,
+    rationale, results, interpretation, and conclusions of a scientific
+    experiment or studyP
+  </li>
+</ul>
+<h2>Required Materials</h2>
+<ol>
+  <li>
+    Bidlack J., Jansky S., and Stern K. Stern’s Introductory Plant Biology, 13th
+    ed. ISBN-13: 978- 0073369440, ISBN-10: 0073369446
+  </li>
+  <li>
+    Carolina Biological Botany Lab Kits Purchase at:
+    https://www.carolina.com/carolina-distancelearning-science-kits/the-pennsylvania-state-university-introductory-plant-biology-biol-127/581864.pr
+  </li>
+  <li>
+    Digital camera with ability to upload pictures to Canvas
+  </li>
+</ol>
+<h2>Attendance / Participation</h2>
+<p>
+  You will be expected to check in every day or every other day for any
+  announcements or updates. The amount of time spent looking over the material
+  typically is correlated with quiz and exam grade: the more time spent studying
+  usually translates into a better grade. Although this is an online course, you
+  should expect to spend a similar amount of time on the material that you would
+  for an inperson class. The general rule for studying is as follows: for every
+  one hour of lecture, you should spend 2.5 to 3 hours studying the material.
+  That means for a three-credit course, you should spend 7.5 to 9 hours per week
+  studying and completing assignments if you intend to do well (“A” or “B”
+  level).
+</p>
+<h2>Labs</h2>
+<p>
+  You will complete 11 labs related to the material covered during that week.
+  The lab materials must be ordered through Carolina Biological Supplies, and
+  will be delivered to your home. The labs are designed for you to complete at
+  your home, with the exception of one lab, where you will be required to go to
+  a local park, arboretum, or botanical garden. Though in some cases the lab
+  will reinforce concepts covered in the book and in the PowerPoints, the lab
+  may also cover a unique topic. For this reason, material covered in lab
+  activities will be included on exams. If you have completed all 11 labs, only
+  your 10 best scores will count towards your grade.
+</p>
+<h2>Quizzes</h2>
+<p>
+  Each week one or more short quizzes covering that week’s chapter contents must
+  be completed. The quizzes are designed to ensure that you keep up with your
+  reading and study. The quizzes will be in a true/false, matching, or
+  multiple-choice type format and are intended to reinforce the main concepts in
+  each chapter. Utilize the weekly objectives as a study guide for the quizzes
+  and exams. These quizzes will only be open for a limited time, so do not go
+  for extended periods of time (days, weeks) without having logged into the
+  course. I typically do not re-open quizzes unless in the case of technical
+  difficulties from my end. If you miss one or a few quizzes, this will not
+  negatively affect your grade. If you have taken all 23 quizzes, only your 20
+  best scores will count towards your grade.
+</p>
+<h2>Video Discussions</h2>
+<p>
+  During the semester, you will watch two documentaries: The Botany of Desire,
+  broken into four parts of 30 minutes each, and America’s Lost Landscape: The
+  Tallgrass Prairie which is 60 minutes. This is a total of five discussion
+  forums. For each forum, you will be asked to post a response or answers
+  questions. Your first post is due 24 hours prior to the due date for the
+  assignment. If the post is late, no points will be awarded (see discussion
+  instructions in the week 1 module on Canvas for more detailed instructions).
+  The discussions are worth 25 points each.
+</p>
+<h2>Lab Report</h2>
+<p>
+  One lab will require that you write a formal lab report. This is meant to give
+  you practice at scientific writing. You will complete a peer-review draft, a
+  rough draft, and a final draft (see the instruction in the Effects of Ethylene
+  on Fruit Ripening Lab and the individual Lab Report assignments on Canvas for
+  more details).
+</p>
+<h2>Exams</h2>
+<p>
+  During the semester, you will have three exams and a final exam over the
+  material covered. These exams will include true/false, multiple-choice, and/or
+  matching questions; in addition there may be diagrams to label and/or short
+  free-response questions. Exams will cover material for each “unit”: Exam 1
+  will cover material from the beginning of the course until the first exam,
+  Exam 2 will cover material after Exam 1 until the second exam, and so forth.
+  The final will be similar in format to the midterm exams. The only differences
+  will be that the final will be slightly (about 50%) longer, and will be
+  cumulative. The cumulative section will be about 33% of the final, and the
+  remainder will be material covered after the third midterm. All exams will be
+  delivered online, but they will be proctored, using Examity (see Examity
+  section under University Policies). You will have a window of about 72 hours
+  to take your exam, but you must schedule it in advance through the Examity tab
+  in Canvas. If you make changes to your scheduled exam time less than 24 hours
+  before the start of the exam window, Examity will charge you a fee of $3.
+</p>
+<h2>Grade Distribution</h2>
+<table>
+  <th>Assignment</th>
+  <th>Breakdown</th>
+  <th>Points</th>
+  <th>Drop</th>
+  <tr>
+    <td>Labs</td>
+    <td>11 x 25pts</td>
+    <td>225</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Chapter Quizzes</td>
+    <td>23 x 5pts</td>
+    <td>100</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Video Discussions</td>
+    <td>5 x 25pts</td>
+    <td>125</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>Lab Report</td>
+    <td>1 x 100pts</td>
+    <td>100</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>Exams</td>
+    <td>3 x 100pts</td>
+    <td>300</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>Final Exam</td>
+    <td>1 x 150pts</td>
+    <td>150</td>
+    <td>N/A</td>
+  </tr>
+</table>
+
+<h2>Grade Scale</h2>
+<table>
+  <th>Letter Grade</th>
+  <th>Points</th>
+  <tr>
+    <td>A</td>
+    <td>930-1000</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>900-929</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>870-899</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>830-869</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>800-829</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>770-799</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>700-769</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>600-699</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>< 599</td>
+  </tr>
+</table>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol127</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 125N</title>
+      <link>/syllabi/biol125n</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  Society and Disease Management is an investigation of how infectious diseases
+  spread through populations and the economic and societal impacts of these
+  diseases. An examination of the biological mechanisms of diseases and how
+  disease burden is managed in communities will guide the rational for local and
+  global health approaches to managing disease interventions. Class foundations
+  include topics from biology, economics, systems theory, and health policy.
+  Assessments will incorporate applications from all of these fields.
+</p>
+<h2>Objectives</h2>
+<p>
+  By the end of this course, students should have gained sufficient knowledge
+  to:
+</p>
+<ul>
+  <li>
+    Explain the biological mechanisms by which humans respond to pathogens
+    (bacteria, virus, protist) and typical treatment regimens.
+  </li>
+  <li>
+    Summarize the historical biological and cultural context relating to the
+    development and use of vaccines and of antibiotics.
+  </li>
+  <li>
+    Identify the most pressing health issues related to human diseases around
+    the globe and evaluate these issues from cultural and economic viewpoints.
+  </li>
+  <li>
+    Assess the present economic and cultural issues related to public health
+    management strategies including plausible frameworks for disease prevention
+    or containment.
+  </li>
+  <li>
+    Read and evaluate popular scientific, economic, cultural, and news articles
+    to make informed decisions relating to their personal health and health of
+    the larger community.
+  </li>
+</ul>
+<h2>Course Schedule</h2>
+<table>
+  <th>Week</th>
+  <th>Topic</th>
+  <tr>
+    <td>1</td>
+    <td>
+      Course orientation activities and introduction to the course. Meet your
+      classmates review course modules.
+    </td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>
+      Discuss the Global Goals website; identify the layers and players involved
+      in health care and those who work to improve health conditions; example
+      disease study - measles.
+    </td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>
+      We focus on management, leadership, social entrepreneurship, and
+      economics. How do philosophy, political theory, and fit into the practice
+      of cultural disease management? For those whose life needs have been met,
+      are they morally obligated to be optimistic?
+    </td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>
+      What is systems thinking? Practice this at the personal and larger levels.
+    </td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>
+      Basics of the human immune system — innate, adaptive, and passive
+      immunity; the 10 oldest known human diseases, false remedies of the past
+      and present.
+    </td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>
+      Viral diseases and vaccinations – Smallpox as the story of success;
+      explore viruses of today-HIV, Ebola, Zika.; create an awareness campaign
+      poster.
+    </td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>
+      Vaccination production, vaccination rates in the US, Vaccination myths;
+      the anti-vaccine movement – national and international
+    </td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>
+      Bacterial diseases –Introduction to historical evidence of bacterial
+      disease in humans, social and economic issues relating to Black Death,
+      tuberculosis, and cholera, bacterial vaccines, and future concerns about
+      bacterial diseases.
+    </td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>
+      Antibiotics & antimicrobials, their classification, how they work, and
+      issues relating to antibacterial resistance.
+    </td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>
+      Diseases caused by protists - history of malaria, treatment, epidemiology,
+      and vaccines.
+    </td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>
+      What is disease burden? How have infectious diseases shaped human
+      populations?
+    </td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>
+      Systems thinking revisited - tackle an issue on the national or global
+      level.
+    </td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>
+      Final course portfolio project.
+    </td>
+  </tr>
+</table>
+
+<h2>Materials</h2>
+<p>
+  All readings and other course materials will be provided in our Canvas course.
+</p>
+<h2>Expectations</h2>
+<p>
+  This course is really one of those "you get out of it what you put into it"
+  type of experiences. We do not aim to change your opinions but we do hope to
+  help you consider national and international health issues at a deeper level
+  than if you had not taken this course. Discussion boards will be a large part
+  of this class. There will also be reflection/reaction essays to complete, as
+  well as short videos and interactive activities from various websites for
+  which you can earn points toward your final point total. We ask you to note
+  topics or websites of interest as you research the various topics for this
+  course. We strongly encourage suggestions for topics, assignments, and
+  projects from you!
+</p>
+<h2>Grading</h2>
+<table>
+  <th>Activity</th>
+  <th>%</th>
+  <th>Description</th>
+  <tr>
+    <td>Short Reflections</td>
+    <td>25%</td>
+    <td>
+      These will be assembled into a portfolio for you to use as a personal
+      reference outside of this course
+    </td>
+  </tr>
+  <tr>
+    <td>Discussion Forums</td>
+    <td>50%</td>
+    <td>
+      Where you will post your thoughts and then reply to those of other group
+      members
+    </td>
+  </tr>
+  <tr>
+    <td>Online Activities</td>
+    <td>15%</td>
+    <td>
+      Includes website animations
+    </td>
+  </tr>
+  <tr>
+    <td>Quizzes</td>
+    <td>10%</td>
+    <td>
+      Can be completed in Canvas
+    </td>
+  </tr>
+</table>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol125n</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
       <title>Chem 110</title>
       <link>/syllabi/chem110</link>
       <description>
@@ -2689,894 +3039,165 @@
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
-      <title>Biol 125N</title>
-      <link>/syllabi/biol125n</link>
+      <title>Biol 120N</title>
+      <link>/syllabi/biol120n</link>
       <description>
           <![CDATA[ <h2>Description</h2>
 <p>
-  Society and Disease Management is an investigation of how infectious diseases
-  spread through populations and the economic and societal impacts of these
-  diseases. An examination of the biological mechanisms of diseases and how
-  disease burden is managed in communities will guide the rational for local and
-  global health approaches to managing disease interventions. Class foundations
-  include topics from biology, economics, systems theory, and health policy.
-  Assessments will incorporate applications from all of these fields.
-</p>
-<h2>Objectives</h2>
-<p>
-  By the end of this course, students should have gained sufficient knowledge
-  to:
-</p>
-<ul>
-  <li>
-    Explain the biological mechanisms by which humans respond to pathogens
-    (bacteria, virus, protist) and typical treatment regimens.
-  </li>
-  <li>
-    Summarize the historical biological and cultural context relating to the
-    development and use of vaccines and of antibiotics.
-  </li>
-  <li>
-    Identify the most pressing health issues related to human diseases around
-    the globe and evaluate these issues from cultural and economic viewpoints.
-  </li>
-  <li>
-    Assess the present economic and cultural issues related to public health
-    management strategies including plausible frameworks for disease prevention
-    or containment.
-  </li>
-  <li>
-    Read and evaluate popular scientific, economic, cultural, and news articles
-    to make informed decisions relating to their personal health and health of
-    the larger community.
-  </li>
-</ul>
-<h2>Course Schedule</h2>
-<table>
-  <th>Week</th>
-  <th>Topic</th>
-  <tr>
-    <td>1</td>
-    <td>
-      Course orientation activities and introduction to the course. Meet your
-      classmates review course modules.
-    </td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>
-      Discuss the Global Goals website; identify the layers and players involved
-      in health care and those who work to improve health conditions; example
-      disease study - measles.
-    </td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>
-      We focus on management, leadership, social entrepreneurship, and
-      economics. How do philosophy, political theory, and fit into the practice
-      of cultural disease management? For those whose life needs have been met,
-      are they morally obligated to be optimistic?
-    </td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>
-      What is systems thinking? Practice this at the personal and larger levels.
-    </td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>
-      Basics of the human immune system — innate, adaptive, and passive
-      immunity; the 10 oldest known human diseases, false remedies of the past
-      and present.
-    </td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>
-      Viral diseases and vaccinations – Smallpox as the story of success;
-      explore viruses of today-HIV, Ebola, Zika.; create an awareness campaign
-      poster.
-    </td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>
-      Vaccination production, vaccination rates in the US, Vaccination myths;
-      the anti-vaccine movement – national and international
-    </td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>
-      Bacterial diseases –Introduction to historical evidence of bacterial
-      disease in humans, social and economic issues relating to Black Death,
-      tuberculosis, and cholera, bacterial vaccines, and future concerns about
-      bacterial diseases.
-    </td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>
-      Antibiotics & antimicrobials, their classification, how they work, and
-      issues relating to antibacterial resistance.
-    </td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>
-      Diseases caused by protists - history of malaria, treatment, epidemiology,
-      and vaccines.
-    </td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>
-      What is disease burden? How have infectious diseases shaped human
-      populations?
-    </td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>
-      Systems thinking revisited - tackle an issue on the national or global
-      level.
-    </td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>
-      Final course portfolio project.
-    </td>
-  </tr>
-</table>
-
-<h2>Materials</h2>
-<p>
-  All readings and other course materials will be provided in our Canvas course.
-</p>
-<h2>Expectations</h2>
-<p>
-  This course is really one of those "you get out of it what you put into it"
-  type of experiences. We do not aim to change your opinions but we do hope to
-  help you consider national and international health issues at a deeper level
-  than if you had not taken this course. Discussion boards will be a large part
-  of this class. There will also be reflection/reaction essays to complete, as
-  well as short videos and interactive activities from various websites for
-  which you can earn points toward your final point total. We ask you to note
-  topics or websites of interest as you research the various topics for this
-  course. We strongly encourage suggestions for topics, assignments, and
-  projects from you!
-</p>
-<h2>Grading</h2>
-<table>
-  <th>Activity</th>
-  <th>%</th>
-  <th>Description</th>
-  <tr>
-    <td>Short Reflections</td>
-    <td>25%</td>
-    <td>
-      These will be assembled into a portfolio for you to use as a personal
-      reference outside of this course
-    </td>
-  </tr>
-  <tr>
-    <td>Discussion Forums</td>
-    <td>50%</td>
-    <td>
-      Where you will post your thoughts and then reply to those of other group
-      members
-    </td>
-  </tr>
-  <tr>
-    <td>Online Activities</td>
-    <td>15%</td>
-    <td>
-      Includes website animations
-    </td>
-  </tr>
-  <tr>
-    <td>Quizzes</td>
-    <td>10%</td>
-    <td>
-      Can be completed in Canvas
-    </td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/biol125n</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>BiSc 003</title>
-      <link>/syllabi/bisc003</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  The purpose of BI SC 003 is to help you prepare for living in the 21st century
-  in a sustainable way. Through the course, you will come to realize that you
-  are dependent upon and supported by natural systems, without which life on
-  earth could not exist. By presenting ideas and concepts about living systems
-  and their environment, it is hoped that an understanding of these biological
-  and ecological principles and their application towards current environmental
-  problems will give you the confidence to be a trustworthy instrument for
-  healthy development, a conscientious steward of nature and an agent of change
-  towards a sustainable society.
-</p>
-<h2>Objectives</h2>
-<ul>
-  <li>
-    Evaluate your worldview (your own personal belief system), which shapes the
-    way you currently think about the environment and environmental issues.
-  </li>
-  <li>
-    Outline important events in the history of environmentalism.
-  </li>
-  <li>
-    Explain basic ecological concepts and natural laws of matter and energy and
-    how they relate to environmental issues.
-  </li>
-  <li>
-    Classify and describe biomes in the United States.
-  </li>
-  <li>
-    Discuss causes, effects and solutions to these major environmental issues:
-  </li>
-  <ul>
-    <li>
-      Overpopulation
-    </li>
-    <li>
-      Food Production
-    </li>
-    <li>
-      Habitat Destruction
-    </li>
-    <li>
-      Urbanization and Urban Sprawl
-    </li>
-    <li>
-      Energy Use and Abuse
-    </li>
-    <li>
-      Preservation of Biodiversity
-    </li>
-    <li>
-      Conservation of erreplaceable Natural Resources
-    </li>
-    <li>
-      Global Climate Change
-    </li>
-    <li>
-      Water Use and Abuse
-    </li>
-    <li>
-      Solid Waste Management
-    </li>
-    <li>
-      Affluenza and Overconsumption
-    </li>
-  </ul>
-  <li>
-    Use critical thinking and evaluate environmental information sources.
-  </li>
-  <li>
-    Apply information and tools necessary to minimize your environmental impact
-    in meaningful ways if you choose to do so.
-  </li>
-</ul>
-<h2>Course Materials</h2>
-<p>
-  The following text book is required. It may be purchased from MBS Direct, or
-  rented/purchased from other sources:
-</p>
-<ul>
-  <li>
-    Principles of Environmental Science: Inquiry and Applications, 8th Edition,
-    Cunningham and Cunningham, published by McGraw-Hill, 2016. ISBN:
-    9780078036071
-  </li>
-  <li>
-    MBS Direct: Loose-Leaf version of the same book. ISBN: 9781260722666. You
-    can buy or rent either version.
-  </li>
-</ul>
-<h2>Reading and Lectures</h2>
-<p>
-  For each of the 12 lessons in this course you should read the assigned
-  chapter(s) in the text book and watch/listen to a 20-25 minute lecture located
-  on the course web-site, or read the transcript of the lecture.
-</p>
-<h2>Exams</h2>
-<p>
-  There will be two proctored exams in this course, one mid-course exam covering
-  lessons 1-6, and one final exam covering lessons 7-12. Each exam will be
-  available in Canvas for a 7 day period as outlined in the course schedule. You
-  will only be able to open each exam once and you will then have 2 hours to
-  complete all the questions. The exams will be proctored with Examity and you
-  are not permitted to use the text book or notes while taking the exams. Exam
-  questions will assess your understanding of the course materials.
-</p>
-<p>
-  Each exam consists of 40 multiple choice questions worth 3 points each (total
-  120 points), and 8 short answer questions worth 10 points each (total 80
-  points). Each exam is 200 points total and 20% of the course grade.
-</p>
-<p>
-  Exam Late Submission Policy: If you miss the exam deadline you may contact the
-  instructor to ask to take a make-up exam. Unless you have a valid, documented
-  reason for missing the exam period you will lose 10% per day taking the exam
-  late.
-</p>
-<h2>Assignments</h2>
-<p>
-  For each of the 12 lessons there will be 1-3 assignments. See course schedule
-  for due dates for individual assignments.
-</p>
-<p>
-  Course Introduction Activities (25 points): During week 1 you will complete
-  several course introduction activities:
-</p>
-<ul>
-  <li>
-    Class introduction, post in “Class Introductions” discussion forum (1 point)
-  </li>
-  <li>
-    Examity Profil and Mid-course Exam scheduling (1 point)
-  </li>
-  <li>
-    Syllabus quiz (2 points)
-  </li>
-  <li>
-    Academic Integrity Contract (1 point)
-  </li>
-  <li>
-    Complete pre-course environmental science quiz and submit comments to this
-    quiz in drop box. The purpose is to see how much you already know about
-    environmental issues and no worries; you can get full credit for this
-    activity even with a low score on the quiz (10 points).
-  </li>
-  <li>
-    Evaluating Information Sources (10 points).
-  </li>
-</ul>
-<h2>Discussion Forums (15- 30 points)</h2>
-<p>
-  In the discussion forums you will get a chance to discuss environmental issues
-  with your classmates. You will write your answer to a set of questions in a
-  short essay format and post this in the discussion forum, in addition to
-  replying to at least two of your classmates’ posts (one in the information
-  literacy discussion, three in climate change discussion). Participate by the
-  deadlines outlined in the course schedule.
-</p>
-<p>
-  Grading Criteria: To obtain full credit for participation in the discussion
-  forums you need to post well-written, reflective main response that meets all
-  the requirements outlined in description, and write at least two (three in
-  climate change discussion) substantial replies to your classmates’ postings. A
-  simple "I agree with you" is not enough, you should instead try to ask
-  thought-provoking questions, add supporting information, or state your
-  opposing views that contributes to your classmates’ learning.
-</p>
-<h2>Quizzes (10-30 points each)</h2>
-<p>
-  Each quiz will consist of multiple choice and short answer questions. Quizzes
-  are open book/notes and there is no time limit. Submit by the deadlines
-  outlined in the course schedule.
-</p>
-<h2>Case Studies (20 points each)</h2>
-<p>
-  You will research one specific example that relates to a topic covered in the
-  required reading/lecture and summarize your findings in a 300-500 word essay.
-</p>
-<ol>
-  <li>
-    The history of the Environmental Movement - Choose one person or
-    organization
-  </li>
-  <li>
-    Endangered or Invasive Species - choose one species
-  </li>
-  <li>
-    Deforestation - choose one country
-  </li>
-</ol>
-<p>
-  Submit in assignment folders by the deadlines outlined in the course schedule.
-  Note: The originality of your case study assignments will be checked through
-  Turnitin.
-</p>
-<p>
-  Grading Criteria: Full credit will be awarded if all the requirements outlined
-  in the description are met, all questions are answered correctly/ thoroughly
-  and assignment is submitted by the deadline. See grading rubrics for more
-  detail.
-</p>
-<h2>Video Assignments (15-20 points each)</h2>
-<p>
-  You will watch one or several short videos that relate to topics covered in
-  the required reading/lecture and then answer a set of questions. Submit in
-  drop box by deadlines outlined in the course schedule.
-</p>
-<p>
-  Grading Criteria: Full credit will be awarded if all questions are answered
-  correctly/thoroughly and submitted by the deadline.
-</p>
-<h2>Projects (15-50 points each)</h2>
-<ol>
-  <li>
-    Biodiversity (30 points): Surveying biodiversity in your neighborhood or
-    nearby natural ecosystem (going for a walk and web research)
-  </li>
-  <li>
-    Food (20 points): Keeping track of and evaluating the impact of the food you
-    eat (kitchen, potentially restaurants, and web research)
-  </li>
-  <li>
-    Energy (50 points): Researching pros and cons of non-renewable and renewable
-    energy source
-  </li>
-  <li>
-    Ecological Footprint (15 points): Calculating your ecological footprint
-    (web-activity). Submit in drop box by deadlines outlined in the course
-    schedule.
-  </li>
-</ol>
-<p>
-  Grading Criteria: Full credit will be awarded if all the requirements outlined
-  in the description are met, all questions are answered correctly/ thoroughly
-  and assignment is submitted by the deadline. See grading rubrics for more
-  detail.
-</p>
-<h2>Extra Credit – Polls/Surveys (2 points each)</h2>
-<p>
-  Throughout the semester you will get a chance to participate in a few
-  polls/surveys. You will get 2 extra credit points for each poll/survey you
-  participate in if you do so by the corresponding lesson’s submission deadline.
-  Zero points for late participation in polls/surveys. There will also be a 10
-  extra credit point discussion forum associated with lesson 12.
-</p>
-<p>
-  Use proper English when writing assignments, participating in class
-  discussions and completing exams; achieving competence in the use of the
-  English language is one of the objectives of general education at Penn State.
-  Improper use of the English language, including more than a few minor spelling
-  and grammatical errors, will adversely affect your grade.
-</p>
-<h2>Grading</h2>
-<p>
-  This course consists of 12 lessons. For each lesson you will read one (or two)
-  chapter(s) in the text book, watch a power point lecture and complete 1-3
-  assignments. Assignments associated with each lesson add up to approximately
-  50 points. 15 points are associated with the course introductory activities.
-  See course format for assignment descriptions and course schedule for
-  deadlines for each assignment.
-</p>
-<table>
-  <th>Assignment Type</th>
-  <th>Number Assigned</th>
-  <th>Points Each</th>
-  <th>Total Points</th>
-  <th>% of Course Grade</th>
-  <tr>
-    <td>Exams</td>
-    <td>2</td>
-    <td>200</td>
-    <td>400</td>
-    <td>40%</td>
-  </tr>
-  <tr>
-    <td>Quizzes</td>
-    <td>9</td>
-    <td>10-35</td>
-    <td>160</td>
-    <td>16%</td>
-  </tr>
-  <tr>
-    <td>Discussion Forums</td>
-    <td>10</td>
-    <td>15-30</td>
-    <td>185</td>
-    <td>17.5%</td>
-  </tr>
-  <tr>
-    <td>Case Studies</td>
-    <td>3</td>
-    <td>20</td>
-    <td>60</td>
-    <td>6%</td>
-  </tr>
-  <tr>
-    <td>Projects</td>
-    <td>4</td>
-    <td>15-50</td>
-    <td>65</td>
-    <td>6.5%</td>
-  </tr>
-  <tr>
-    <td>Video Assignments</td>
-    <td>4</td>
-    <td>15-20</td>
-    <td>65</td>
-    <td>6.5%</td>
-  </tr>
-  <tr>
-    <td>Course Introduction Activities</td>
-    <td>5</td>
-    <td>1-10</td>
-    <td>25</td>
-    <td>2.5%</td>
-  </tr>
-  <tr>
-    <td>Total</td>
-    <td>36</td>
-    <td>N/A</td>
-    <td>1000 pts</td>
-    <td>100%</td>
-  </tr>
-</table>
-
-<h2>Grade Scale</h2>
-<table>
-  <th>Grade</th>
-  <th>Percentage</th>
-  <th>Points</th>
-  <tr>
-    <td>A</td>
-    <td>92-100</td>
-    <td>920-1000</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>90-91.9</td>
-    <td>900-919</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>88-89.9</td>
-    <td>880-899</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>82-87.9</td>
-    <td>829-879</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>80-81.9</td>
-    <td>800-819</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>78-79.9</td>
-    <td>780-799</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-77.9</td>
-    <td>700-779</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-69.9</td>
-    <td>600-699</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 60</td>
-    <td>< 600</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/bisc003</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Biol 110</title>
-      <link>/syllabi/biol110</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  This course is a study of the evolution of the major groups of organisms
-  including the fundamental concepts of biology. The goal of this course is to
-  introduce you to fundamental concepts that are common to all organisms and to
-  explore the biological diversity of life on Earth. Biology 110 is intended for
-  students who need a majors-level introductory biology course and is not the
-  best option for students who are looking for a general education course in
-  science.
+  This course is designed to introduce you to the discipline of plant biology
+  and increase your awareness and appreciation of the impact of plants on your
+  daily lives. The first part of the course will present the fundamentals of
+  botany to provide you with a basic understanding of plant form and function.
+  The rest of the course will be devoted to a survey of historical, cultural,
+  and economic aspects of botany and related fields. We will finish up with an
+  examination of the role of plants as an integral part of the world's
+  ecosystem.
 </p>
 <h2>Objective</h2>
 <p>
-  Biology 110 is a four credit course. The course will utilize web-based
-  tutorials and laboratory sessions. The goal of this course is to introduce you
-  to fundamental concepts that are common to all organisms and to explore the
-  biological diversity of life on Earth.
+  The purpose of Biology 120 is to introduce you to the fascinating world of
+  plants with an emphasis on the historical, cultural, and economic uses.
 </p>
-<h2>Outline</h2>
+<h2>Textbook</h2>
+<p>
+  Levetin and McMahon, Plants and Society, 6th edition, McGraw-Hill. ISBN:
+  9780073524221
+</p>
+<h2>Course Schedule</h2>
 <table>
-  <tr>
+  <tbody><tr><th>Week</th>
+  <th>Topic</th>
+  </tr>
+<tr>
     <td>1</td>
-    <td>Overview, Life and Natural Selection</td>
+    <td>Plants in Life and in History</td>
   </tr>
   <tr>
     <td>2</td>
-    <td>Carbon and Life</td>
+    <td>Plant Anatomy and Physiology</td>
   </tr>
   <tr>
     <td>3</td>
-    <td>Antiquity of Life</td>
+    <td>Plant Genetics, Systematics, and Diversity</td>
   </tr>
   <tr>
     <td>4</td>
-    <td>Prokaryotes I - Cellular and Genetic Organization</td>
+    <td>Plants and Dietary Needs</td>
   </tr>
   <tr>
     <td>5</td>
-    <td>Prokaryotes II - Structure and Function</td>
+    <td>Grasses and Legumes</td>
   </tr>
   <tr>
     <td>6</td>
-    <td>Prokaryotes III - Evolution and Early Metabolism</td>
+    <td>Starches and Carbohydrates: Feeding the Hungry World</td>
   </tr>
   <tr>
     <td>7</td>
-    <td>Subcellular Architecture of the Eukaryotic Cell</td>
+    <td>Plant Fibers and Wood Products</td>
   </tr>
   <tr>
     <td>8</td>
-    <td>
-      Protists I - Protists with Modified Mitochondria, Kingdoms Euglenozoa and
-      Alveolata
-    </td>
+    <td>A Foray into the Fungi</td>
   </tr>
   <tr>
     <td>9</td>
-    <td>
-      Protists II - Kingdoms Stramenopila, Rhodophyta, Chlorophyta, and the
-      Slime Molds
-    </td>
+    <td>Herbs, Spices, Essential Oils, and Medicinal Plants</td>
   </tr>
   <tr>
     <td>10</td>
-    <td>
-      Mitosis
-    </td>
+    <td>Poisonous and Psychoactive Plants</td>
   </tr>
   <tr>
     <td>11</td>
-    <td>
-      Heredity and Life Cycles
-    </td>
+    <td>Stimulating Plant Beverages</td>
   </tr>
   <tr>
     <td>12</td>
-    <td>
-      Fungi I - Evolution and Diversity, Phyla Chytridiomycota and Zygomycota
-    </td>
+    <td>Plants and the Environment</td>
   </tr>
-  <tr>
-    <td>13</td>
-    <td>
-      Fungi II - Phyla Ascomycota and Basidiomycota
-    </td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>
-      Animals One - Phylogeny and Diversity; Animals without Body Cavities -
-      Parazoa, Radiata, Acoelomates
-    </td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>
-      Animals Two - Animals with Body Cavities: Pseudocoelomates and Protostome
-      Coelomates
-    </td>
-  </tr>
-  <tr>
-    <td>16</td>
-    <td>
-      Animals Three - Animals with Body Cavities:Deuterostomes - Echinoderms and
-      Chordates
-    </td>
-  </tr>
-  <tr>
-    <td>17</td>
-    <td>
-      Energy I - Thermodynamics
-    </td>
-  </tr>
-  <tr>
-    <td>18</td>
-    <td>
-      Energy II - Cellular Respiration (Glycolysis)
-    </td>
-  </tr>
-  <tr>
-    <td>19</td>
-    <td>
-      Energy III - Cellular Respiration (Krebs Cycle and Electron Transport
-      Chain)
-    </td>
-  </tr>
-  <tr>
-    <td>20</td>
-    <td>
-      Energy IV - Photosynthesis (Light-dependent Reactions)
-    </td>
-  </tr>
-  <tr>
-    <td>21</td>
-    <td>
-      Energy V - Photosynthesis (Calvin Cycle)
-    </td>
-  </tr>
-  <tr>
-    <td>22</td>
-    <td>
-      Plants I - Evolution and Diversity
-    </td>
-  </tr>
-  <tr>
-    <td>23</td>
-    <td>
-      Plants II - Vascular Non-flowering Plants
-    </td>
-  </tr>
-  <tr>
-    <td>24</td>
-    <td>
-      Plants III - Vascular Flowering Plants
-    </td>
-  </tr>
-  <tr>
-    <td>25</td>
-    <td>
-      Mendel and Modern Genetics
-    </td>
-  </tr>
-  <tr>
-    <td>26</td>
-    <td>
-      Predicting Phenotypes and Genotypes
-    </td>
-  </tr>
-  <tr>
-    <td>27</td>
-    <td>
-      The Complex Expression Patterns of Multiple Alleles
-    </td>
-  </tr>
-  <tr>
-    <td>28</td>
-    <td>
-      Pedigree Analysis
-    </td>
-  </tr>
-  <tr>
-    <td>29</td>
-    <td>
-      Chromosome Behavior and Sex Chromosomes
-    </td>
-  </tr>
-  <tr>
-    <td>30</td>
-    <td>
-      Chromosome Behavior and Gene Linkage
-    </td>
-  </tr>
-  <tr>
-    <td>31</td>
-    <td>
-      DNA Replication
-    </td>
-  </tr>
-  <tr>
-    <td>32</td>
-    <td>
-      From Gene to Protein
-    </td>
-  </tr>
-  <tr>
-    <td>33</td>
-    <td>
-      Genes in Populations
-    </td>
-  </tr>
-  <tr>
-    <td>34</td>
-    <td>
-      Genetic Change in Populations
-    </td>
-  </tr>
-  <tr>
-    <td>35</td>
-    <td>
-      Genetics and Natural Selection
-    </td>
-  </tr>
+</tbody>
 </table>
-
-<h2>Mastering Biology Access</h2>
-<p>
-  Mastering Biology is an online homework system that will be used extensively
-  during the course. Information about registering for Mastering Biology is
-  posted on Canvas. Please note: You can purchase an e-book version of the
-  textbook through the Mastering Biologywebsite (please see information about
-  the optional textbook below).
-</p>
-<h2>Textbook (Optional)</h2>
-<p>
-  Textbook - Reece, J et al. 2014. Campbell Biology. Tenth Edition. Pearson
-  Benjamin Cummings, San Francisco, CA. The prior edition can also be used. The
-  textbook is available in both electronic (etext) and hardcover formats. The
-  textbook is not required but some students have found it to be a valuable
-  supplement to the online tutorials to the course.
-</p>
-<h2>Online Labs</h2>
-<p>
-  Late Nite Labs is an online laboratory software program. Information about
-  registering for Late Nite Labs is posted on Canvas.
-</p>
-<h2>Grade Scale</h2>
-<p>
-  Lecture material counts for 730 points and lab material counts for 200 points
-  for a total of 930 points. If you do not pass lab (your score is less than
-  60%), you will not pass the course, regardless of your grade in the lecture
-  portion of the class. The grading scale (in points) is:
-</p>
+<h2>Grading</h2>
 <table>
-  <th>Letter Grade</th>
+  <tbody><tr><th>Type</th>
   <th>Points</th>
-  <tr>
-    <td>A</td>
-    <td>855-930</td>
+  <th>Percentage</th>
+  </tr>
+<tr>
+    <td>3 Exams</td>
+    <td>200 each</td>
+    <td>40% of final grade</td>
   </tr>
   <tr>
-    <td>A-</td>
-    <td>837-854</td>
+    <td>12 Lesson Assignments</td>
+    <td>75</td>
+    <td>60% of final grade</td>
   </tr>
-  <tr>
-    <td>B+</td>
-    <td>800-836</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>772-799</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>744-771</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>697-743</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>651-696</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>558-650</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 558</td>
-  </tr>
+</tbody>
 </table>
+<h2>Proctor Information</h2>
+<p>
+  You will need to secure a proctor in order to take exams in this course. A
+  proctor will not automatically be assigned to you; rather, you must make the
+  necessary contacts to secure a professional who will serve in this capacity.
+</p>
+<ol>
+  <li>
+    Contact a person who meets the qualifications and ask him or her to proctor
+    your exam.
+  </li>
+  <li>
+    Student Services must approve your proctor before any exams can be taken.
+    Please see instructions for <a href="https://student.worldcampus.psu.edu/courses/proctored-exams">securing a suitable proctor</a>
+. While many proctors
+    will serve on a voluntary basis, you are responsible for paying any expenses
+    incurred in retaining a proctor.
+  </li>
+  <li>
+    You must submit your proctor for approval or schedule your exams at a
+    testing center using our online proctored exam portal. You will need to
+    enter your proctor's contact information and submit proctor verification
+    documentation. Note: If your proctor has been previously approved by the
+    World Campus during a prior course within two years, you do not need to
+    obtain verification. World Campus retains proctor information on file for
+    two years. To learn more about using the online portal, visit the World
+    Campus website "<a href="https://student.worldcampus.psu.edu/a-z-index/using-the-proctored-exam-portal">Using the Proctored Exam Portal</a>
+."
+  </li>
+  <li>
+    If your proctor does not meet the required specifications, Student Services
+    will notify you within 5 to 7 business days.
+  </li>
+  <li>
+    If you are a graduating senior requesting a final exam, please see
+    additional information about early deadlines for course completion and exam
+    scheduling.
+  </li>
+  <li>
+    Contact <a href="https://www.worldcampus.psu.edu/contacts-help">Student Services</a>
+ if you cannot take a scheduled exam.
+  </li>
+  <li>
+    Unless you have received permission to take your exam at an alternative
+    time, your proctor will only allow you to take the exam during dates
+    specified in your course.
+  </li>
+</ol>
  ]]>
       </description>
       <category></category>
-      <guid>/syllabi/biol110</guid>
+      <guid>/syllabi/biol120n</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multimedia</title>
+      <link>/multimedia</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>/multimedia</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>

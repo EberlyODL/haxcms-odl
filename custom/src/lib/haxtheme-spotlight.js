@@ -210,7 +210,7 @@ class HaxThemeSpotlight extends PolymerElement {
             <site-breadcrumb></site-breadcrumb>
           <div class="publish_credentials">
             <div class="title">
-              <h1>[[activeItem.title]]</h1>
+              <h1>[[activeItem.metadata.fields.name]]</h1>
             </div>
             <div class="date">
               <h2>[[_formatDate(activeItem.metadata.created)]]</h2>

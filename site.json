@@ -511,7 +511,6 @@
                     "phone": "814-865-5233",
                     "email": "lul29@psu.edu",
                     "twitter": "https:\/\/twitter.com\/louisleb"
-                    
                 },
                 "created": 1555387200,
                 "updated": 1555387200,
@@ -588,11 +587,11 @@
             "location": "pages\/spotlight\/louis\/index.html",
             "order": 1,
             "parent": "spotlight",
-            "title": "Louis Leblond",
+            "title": "Faculty Spotlight: Louis Leblond",
             "description": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacin",
             "metadata": {
                 "fields": {
-                    "name": "Facutly Spotlight: Louis Leblond",
+                    "name": "Louis Leblond",
                     "image": "files\/feature-images\/louis_feature.jpg",
                     "imageAlt": "Director of Online Education in Physics, Louis Leblond - discussing git workflow at a university conference.",
                     "jobTitle": "Director of Online Education in Physics",
@@ -605,7 +604,7 @@
                 "type": "spotlight",
                 "template": "spotlight",
                 "tags": [
-                    "Faculty Spotlight",
+                    "Spotlight",
                     "Education",
                     "Learning"
                 ]
@@ -617,27 +616,37 @@
             "location": "pages\/spotlight\/joe\/index.html",
             "order": 2,
             "parent": "spotlight",
-            "title": "Joe Houck",
-            "description": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacin",
+            "title": "Faculty Spotlight: Joe Houck",
+            "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim.Quisque velit nisi, pretium ut lacin",
             "metadata": {
                 "fields": {
-                    "name": "Facutly Spotlight: Joe Houck",
-                    "image": "files\/feature-images\/louis_feature.jpg",
-                    "imageAlt": "",
-                    "jobTitle": "Professor of Chemistry",
+                    "name": "Joe Houck",
+                    "image": "files\/feature-images\/joe_feature.jpg",
+                    "imageAlt": "Joe Houck with students at Penn State",
+                    "jobTitle": "Associate Teaching Professor, Chemistry",
                     "authorId": "melissa"
                 },
                 "created": 1755387500,
-                "updated": 1755387500,
+                "updated": 1580843984,
                 "author": "Melissa Hicks",
                 "authorImage": "files\/odl-team\/melissa.jpg",
                 "type": "spotlight",
                 "template": "spotlight",
                 "tags": [
-                    "Faculty Spotlight",
+                    "Spotlight",
                     "Education",
                     "Learning"
-                ]
+                ],
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 4,
+                    "schema": [],
+                    "tags": {
+                        "p": 4
+                    },
+                    "elements": 4
+                }
             }
         },
         {
@@ -3824,7 +3833,7 @@
         {
             "id": "coursemanagement",
             "indent": 0,
-            "location": "pages/coursemanagement/index.html",
+            "location": "pages\/coursemanagement\/index.html",
             "order": 8,
             "parent": null,
             "title": "coursemanagement",

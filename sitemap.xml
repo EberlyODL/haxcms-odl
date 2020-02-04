@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- generator-class="Icamys\SitemapGenerator\SitemapGenerator" -->
 <!-- generator-version="1.1.0" -->
-<!-- generated-on="2019-12-18T20:04:36+00:00" -->
+<!-- generated-on="2020-02-04T19:19:44+00:00" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>/home</loc>
@@ -113,7 +113,13 @@
   </url>
   <url>
     <loc>/spotlight/louis</loc>
-    <lastmod>2019-12-18T20:04:36+00:00</lastmod>
+    <lastmod>2022-06-16T13:46:40+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/spotlight/joe</loc>
+    <lastmod>2020-02-04T19:19:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -730,7 +736,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/ngdle</loc>
+    <loc>/coursemanagement</loc>
     <lastmod>2018-11-06T15:22:35+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -748,7 +754,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>/obs</loc>
+    <loc>/multimedia</loc>
     <lastmod>2018-11-06T15:22:35+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>

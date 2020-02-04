@@ -1038,7 +1038,6 @@ class PageFeature extends PolymerElement {
         #sub_info {
           font-size: var(--haxtheme-page-feature-sub-info-font-size, 20px);
           font-weight: var(--haxtheme-page-feature-sub-info-font-weight);
-          margin: var(--haxtheme-page-feature-sub-info-margin, -8px 0 0 0);
           @apply --haxtheme-page-feature-sub-info;
         }
 
@@ -1759,7 +1758,7 @@ class HaxThemeHome extends PolymerElement {
           <template>
             <page-feature
               title="Faculty Spotlight"
-              subtitle="[[item.title]]"
+              subtitle="[[item.metadata.fields.name]]"
               info="[[item.metadata.fields.jobTitle]]"
               url="[[item.location]]"
               image="[[item.metadata.fields.image]]"
@@ -5875,12 +5874,13 @@ class HaxThemeBlog extends PolymerElement {
         <div class="sidebar_wrap">
           <div id="news_archive">
             <site-recent-content-block
-              title="Recent News"
-              conditions='{"metadata.type": "news"}'
-              result="{{__items}}" 
+              title="News Archive"
+              conditions='{"metadata.type": {
+                          "value": ["spotlight", "news"],
+                          "operator": "=="
+              }}'
               limit="5"
-              sort
-              >
+            >
             </site-recent-content-block>
           </div>
         </div>
@@ -6411,7 +6411,7 @@ class HaxThemeSpotlight extends PolymerElement {
             <site-breadcrumb></site-breadcrumb>
           <div class="publish_credentials">
             <div class="title">
-              <h1>[[activeItem.title]]</h1>
+              <h1>[[activeItem.metadata.fields.name]]</h1>
             </div>
             <div class="date">
               <h2>[[_formatDate(activeItem.metadata.created)]]</h2>

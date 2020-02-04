@@ -186,7 +186,7 @@ class HaxThemeHome extends PolymerElement {
           <template>
             <page-feature
               title="Faculty Spotlight"
-              subtitle="[[item.title]]"
+              subtitle="[[item.metadata.fields.name]]"
               info="[[item.metadata.fields.jobTitle]]"
               url="[[item.location]]"
               image="[[item.metadata.fields.image]]"
