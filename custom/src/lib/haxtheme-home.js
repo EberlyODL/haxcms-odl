@@ -148,13 +148,6 @@ class HaxThemeHome extends PolymerElement {
           </promo-tile>
         </div>
       </div>
-      <site-query
-        result="{{__newsitems}}"
-        conditions='{
-          "metadata.type": "news"
-        }'
-        limit="1"
-      ></site-query>
       <div id="page_feature">
         <site-query
           result="{{__newsitems}}"
@@ -162,6 +155,7 @@ class HaxThemeHome extends PolymerElement {
           "metadata.type": "news"
         }'
           limit="1"
+          sort='{ "order": "ASC" }'
         ></site-query>
         <dom-repeat items="[[__newsitems]]" mutable-data>
           <template>
@@ -186,13 +180,14 @@ class HaxThemeHome extends PolymerElement {
           result="{{__spotlightitems}}"
           conditions='{ "metadata.type": "spotlight" }'
           limit="1"
+          sort='{ "order": "DES" }'
         ></site-query>
         <dom-repeat items="[[__spotlightitems]]" mutable-data>
           <template>
             <page-feature
               title="Faculty Spotlight"
               subtitle="[[item.title]]"
-              info="Director of Online Education in Physics"
+              info="[[item.metadata.fields.jobTitle]]"
               url="[[item.location]]"
               image="[[item.metadata.fields.image]]"
               alt="[[item.metadata.fields.imageAlt]]"

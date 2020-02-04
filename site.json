@@ -596,10 +596,41 @@
                     "image": "files\/feature-images\/louis_feature.jpg",
                     "imageAlt": "Director of Online Education in Physics, Louis Leblond - discussing git workflow at a university conference.",
                     "jobTitle": "Director of Online Education in Physics",
-                    "authorImage": "files\/odl-team\/melissa.jpg"
+                    "authorId": "melissa"
                 },
-                "created": 1555387200,
-                "updated": 1576699476,
+                "created": 1655387200,
+                "updated": 1655387200,
+                "author": "Melissa Hicks",
+                "authorImage": "files\/odl-team\/melissa.jpg",
+                "type": "spotlight",
+                "template": "spotlight",
+                "tags": [
+                    "Faculty Spotlight",
+                    "Education",
+                    "Learning"
+                ]
+            }
+        },
+        {
+            "id": "Joe1",
+            "indent": 1,
+            "location": "pages\/spotlight\/joe\/index.html",
+            "order": 2,
+            "parent": "spotlight",
+            "title": "Joe Houck",
+            "description": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacin",
+            "metadata": {
+                "fields": {
+                    "name": "Facutly Spotlight: Joe Houck",
+                    "image": "files\/feature-images\/louis_feature.jpg",
+                    "imageAlt": "",
+                    "jobTitle": "Professor of Chemistry",
+                    "authorId": "melissa"
+                },
+                "created": 1755387500,
+                "updated": 1755387500,
+                "author": "Melissa Hicks",
+                "authorImage": "files\/odl-team\/melissa.jpg",
                 "type": "spotlight",
                 "template": "spotlight",
                 "tags": [

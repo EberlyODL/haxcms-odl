@@ -1721,13 +1721,6 @@ class HaxThemeHome extends PolymerElement {
           </promo-tile>
         </div>
       </div>
-      <site-query
-        result="{{__newsitems}}"
-        conditions='{
-          "metadata.type": "news"
-        }'
-        limit="1"
-      ></site-query>
       <div id="page_feature">
         <site-query
           result="{{__newsitems}}"
@@ -1735,6 +1728,7 @@ class HaxThemeHome extends PolymerElement {
           "metadata.type": "news"
         }'
           limit="1"
+          sort='{ "order": "ASC" }'
         ></site-query>
         <dom-repeat items="[[__newsitems]]" mutable-data>
           <template>
@@ -1759,13 +1753,14 @@ class HaxThemeHome extends PolymerElement {
           result="{{__spotlightitems}}"
           conditions='{ "metadata.type": "spotlight" }'
           limit="1"
+          sort='{ "order": "DES" }'
         ></site-query>
         <dom-repeat items="[[__spotlightitems]]" mutable-data>
           <template>
             <page-feature
               title="Faculty Spotlight"
               subtitle="[[item.title]]"
-              info="Director of Online Education in Physics"
+              info="[[item.metadata.fields.jobTitle]]"
               url="[[item.location]]"
               image="[[item.metadata.fields.image]]"
               alt="[[item.metadata.fields.imageAlt]]"
@@ -6429,7 +6424,7 @@ class HaxThemeSpotlight extends PolymerElement {
                 src="[[activeItem.metadata.authorImage]]">
               </iron-image>
               <div id="author">By:
-                <a href="/team-directory/[[activeItem.metadata.fields.authorId]]">[[activeItem.metadata.author]]</a> 
+                <a href="/sites/haxcms-odl/team-directory/[[activeItem.metadata.fields.authorId]]">[[activeItem.metadata.author]]</a> 
               </div>
             </div>
           </div>
@@ -6461,10 +6456,11 @@ class HaxThemeSpotlight extends PolymerElement {
         <div class="sidebar_wrap">
           <div id="news_archive">
             <site-recent-content-block
-              title="Recent News"
-              conditions='{"metadata.type": "news"}'
+              title="Recent Spotlights"
+              conditions='{"metadata.type": "spotlight", "id": { "value": "[[activeItem.id]]", "operator": "!=" }}'
               result="{{__items}}" 
               limit="5"
+              start-index="2"
               sort
               >
             </site-recent-content-block>

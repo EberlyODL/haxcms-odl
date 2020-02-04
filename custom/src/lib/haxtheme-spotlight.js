@@ -223,7 +223,7 @@ class HaxThemeSpotlight extends PolymerElement {
                 src="[[activeItem.metadata.authorImage]]">
               </iron-image>
               <div id="author">By:
-                <a href="/team-directory/[[activeItem.metadata.fields.authorId]]">[[activeItem.metadata.author]]</a> 
+                <a href="/sites/haxcms-odl/team-directory/[[activeItem.metadata.fields.authorId]]">[[activeItem.metadata.author]]</a> 
               </div>
             </div>
           </div>
@@ -255,10 +255,11 @@ class HaxThemeSpotlight extends PolymerElement {
         <div class="sidebar_wrap">
           <div id="news_archive">
             <site-recent-content-block
-              title="Recent News"
-              conditions='{"metadata.type": "news"}'
+              title="Recent Spotlights"
+              conditions='{"metadata.type": "spotlight", "id": { "value": "[[activeItem.id]]", "operator": "!=" }}'
               result="{{__items}}" 
               limit="5"
+              start-index="2"
               sort
               >
             </site-recent-content-block>
