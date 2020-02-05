@@ -39,6 +39,16 @@ class HaxThemeTeam extends PolymerElement {
           @apply --haxtheme-team-card;
         }
 
+        @media screen and (max-width: 1000px) {
+          #team_card {
+            grid-template-columns: var(
+              --haxtheme-team-team-card-grid-template-columns-mobile,
+              repeat(2, auto [col-start])
+            );
+            @apply --haxtheme-team-card-mobile;
+          }
+        }
+
         @media screen and (max-width: 768px) {
           #team_card {
             grid-template-columns: var(

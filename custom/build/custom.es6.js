@@ -4802,6 +4802,10 @@ class TeamCard extends PolymerElement {
       <style>
         :host {
           display: block;
+          --paper-button: {
+            border-radius: none;
+            text-decoration: none;
+          }
         }
 
         a {
@@ -4815,9 +4819,10 @@ class TeamCard extends PolymerElement {
           border: solid;
           border-width: 2px;
           border-color: #dcdcdc;
+          border-bottom: none;
           max-width: 300px;
-          height: auto;
-          margin: 40px 10px;
+          height: 480px;
+          margin: 50px 10px;
         }
 
         .image {
@@ -4843,19 +4848,46 @@ class TeamCard extends PolymerElement {
           font-size: 20px;
           background: rgba(0, 0, 0, 0.5);
           text-shadow: 1px 2px #000;
-          text-align: center;;
+          text-align: center;
+        }
+
+        #info_wrap {
+          padding: 20px;
         }
         
         #position {
           color: #e2801e;
-          font-size: 16px;
-          margin-top: -20px;
+          font-size: 18px;
+          margin: -45px 0 5px 0;
+          text-align: center;
         }
 
+        #info {
+          font-size: 16px;
+          text-align: center;
+          color: #000;
+        }
 
+        .action_button {
+          display: flex;
+          justify-content: center;
+          border: solid;
+          border-width: 2px;
+          border-color: #dcdcdc;
+          border-top: none;
+          max-width: 300px;
+          margin: -100px auto 0 auto;
+        }
+
+        paper-button#connect {
+          text-transform: none;
+          background-color: #e2801e;
+          color: #fff;
+          margin: 0 0 15px 0;
+        }
    
       </style>
-      <a href="[[url]]">
+      
         <div id="card_wrap">
           <div id="image_wrap">
             <div id="card_image" class="image" style$="background-image:url([[image]])"></div>
@@ -4865,10 +4897,16 @@ class TeamCard extends PolymerElement {
             <div id="position">[[position]]</div>
             <div id="info">[[info]]</div>
           </div>
-            
-       
         </div>
-      </a>
+        <div class="action_button">
+          <a href\$="[[url]]">
+            <paper-button noink id="connect">
+              <div class="title">Connect</div>
+              <iron-icon icon="chevron-right"></iron-icon>
+            </paper-button>
+          </a>
+        </div>
+    
     `;
   }
   static get tag() {
@@ -4949,6 +4987,16 @@ class HaxThemeTeam extends PolymerElement {
           margin: var(--haxtheme-team-team-card-margin, 25px 0 0 0);
           padding: var(--haxtheme-team-team-card-padding, 0 0 25px 0);
           @apply --haxtheme-team-card;
+        }
+
+        @media screen and (max-width: 1000px) {
+          #team_card {
+            grid-template-columns: var(
+              --haxtheme-team-team-card-grid-template-columns-mobile,
+              repeat(2, auto [col-start])
+            );
+            @apply --haxtheme-team-card-mobile;
+          }
         }
 
         @media screen and (max-width: 768px) {
