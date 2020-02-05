@@ -28,7 +28,7 @@ class HaxThemeTeam extends PolymerElement {
           display: var(--haxtheme-team-team-card-display, grid);
           grid-template-columns: var(
             --haxtheme-team-team-card-grid-template-columns,
-            repeat(2, auto [col-start])
+            repeat(3, auto [col-start])
           );
           justify-content: var(
             --haxtheme-team-team-card-justify-content,
@@ -64,15 +64,14 @@ class HaxThemeTeam extends PolymerElement {
       <div id="team_card">
         <dom-repeat items="[[__items]]" mutable-data>
           <template>
-            <a href="[[item.location]]">
-              <team-card
-                name="[[item.metadata.fields.name]]"
-                image="[[item.metadata.fields.image]]"
-                item="[[item]]"
-                position="[[item.metadata.fields.jobTitle]]"
-              >
-              </team-card>
-            </a>
+            <team-card
+              name="[[item.metadata.fields.name]]"
+              image="[[item.metadata.fields.image]]"
+              position="[[item.metadata.fields.jobTitle]]"
+              info="[[item.metadata.fields.info]]"
+              url="[[item.location]]"
+            >
+            </team-card>
           </template>
         </dom-repeat>
       </div>

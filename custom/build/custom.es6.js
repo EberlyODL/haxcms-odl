@@ -4587,7 +4587,7 @@ class HaxThemeNews extends PolymerElement {
                 title="News Archive"
                 conditions='{"metadata.type": {
                             "value": ["spotlight", "news"],
-                            "operator": "=="
+                            "operator": "="
                 }}'
                 limit=""
                 start-index="5"
@@ -4804,116 +4804,71 @@ class TeamCard extends PolymerElement {
           display: block;
         }
 
+        a {
+          text-decoration: none;
+        }
+
         #card_wrap {
-          margin: var(--haxtheme-team-card-card-wrap-margin, 10px);
-          @apply --haxtheme-team-card-card-wrap;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border: solid;
+          border-width: 2px;
+          border-color: #dcdcdc;
+          max-width: 300px;
+          height: auto;
+          margin: 40px 10px;
         }
 
         .image {
-          background-position: var(
-            --haxtheme-team-card-image-background-position,
-            top center
-          );
-          background-repeat: var(
-            --haxtheme-team-card-image-background-repeat,
-            no-repeat
-          );
-          background-size: var(
-            --haxtheme-team-card-image-background-size,
-            cover
-          );
-          width: var(--haxtheme-team-card-image-width, 100%);
-          height: var(--haxtheme-team-card-image-height, 100%);
-          border: var(--haxtheme-team-card-image-border, solid);
-          border-width: var(--haxtheme-team-card-image-border-width, 8px);
-          border-color: var(--haxtheme-team-card-image-border-color);
-          @apply --haxtheme-team-card-image;
+          background-position: top center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 100%;
+          height: 100%;
         }
 
         #card_image {
-          width: var(--haxtheme-team-card-card-image-width, 280px);
-          height: var(--haxtheme-team-card-card-image-height, 280px);
-          border-radius: var(--haxtheme-team-card-image-border-radius, 50%);
-          @apply --haxtheme-team-card-card-image;
-        }
-
-        #info_container {
-          display: var(--haxtheme-team-card-info-container-display, flex);
-          align-items: var(
-            --haxtheme-team-card-info-container-align-items,
-            center
-          );
-          justify-content: var(
-            --haxtheme-team-card-info-container-justify-content,
-            center
-          );
-          width: var(--haxtheme-team-card-info-container-width, 280px);
-          height: var(--haxtheme-team-card-info-container-height, 280px);
-          background: var(
-            --haxtheme-team-card-info-container-background,
-            rgba(0, 0, 0, 0.8)
-          );
-          border-radius: var(
-            --haxtheme-team-card-info-container-border-radius,
-            50%
-          );
-          color: var(--haxtheme-team-card-info-container-color);
-          opacity: var(--haxtheme-team-card-info-container-opacity, 0);
-          @apply --haxtheme-team-card-info-container;
-        }
-
-        #info_container:hover {
-          opacity: var(--haxtheme-team-card-info-container-hover-opacity, 0.9);
-          transition: var(
-            --haxtheme-team-card-info-container-hover-transition,
-            all 0.3s ease-in-out
-          );
-          @apply --haxtheme-team-card-info-container-hover;
-        }
-
-        .info {
-          display: var(--haxtheme-team-card-info-display, flex);
-          flex-direction: var(--haxtheme-team-card-info-flex-direction, column);
-          align-items: var(--haxtheme-team-card-info-align-items, center);
-          @apply --haxtheme-team-card-info;
+          width: 275px;
+          height: 275px;
+          margin-top: -30px;
+          box-shadow: 4px 5px 6px #a9a9a9;
         }
 
         #name {
-          font-size: var(--haxtheme-team-card-name-font-size, 20px);
-          text-transform: var(
-            --haxtheme-team-card-name-text-transform,
-            uppercase
-          );
-          margin: var(--haxtheme-team-card-name-margin, 0 0 7px 0);
-          border-bottom: var(--haxtheme-team-card-name-border-bottom, solid);
-          border-bottom-width: var(
-            --haxtheme-team-card-name-border-bottom-width,
-            1px
-          );
-          border-bottom-color: var(
-            --haxtheme-team-card-name-border-bottom-color
-          );
-          @apply --haxtheme-team-card-name;
+          position: relative;
+          bottom: 44px;
+          padding: 8px;
+          color: #fff;
+          font-size: 20px;
+          background: rgba(0, 0, 0, 0.5);
+          text-shadow: 1px 2px #000;
+          text-align: center;;
+        }
+        
+        #position {
+          color: #e2801e;
+          font-size: 16px;
+          margin-top: -20px;
         }
 
-        #position {
-          text-align: center;
-        }
+
+   
       </style>
-      <div id="card_wrap">
-        <div
-          id="card_image"
-          class="image"
-          style$="background-image:url([[image]])"
-        >
-          <div id="info_container">
-            <div class="info">
-              <div id="name">[[name]]</div>
-              <div id="position">[[position]]</div>
-            </div>
+      <a href="[[url]]">
+        <div id="card_wrap">
+          <div id="image_wrap">
+            <div id="card_image" class="image" style$="background-image:url([[image]])"></div>
+            <div id="name">[[name]]</div>
+          </div>   
+          <div id="info_wrap">
+            <div id="position">[[position]]</div>
+            <div id="info">[[info]]</div>
           </div>
+            
+       
         </div>
-      </div>
+      </a>
     `;
   }
   static get tag() {
@@ -4937,6 +4892,18 @@ class TeamCard extends PolymerElement {
        * position
        */
       position: {
+        type: String
+      },
+      /**
+       * info
+       */
+      info: {
+        type: String
+      },
+      /**
+       * url
+       */
+      url: {
         type: String
       }
     };
@@ -4973,7 +4940,7 @@ class HaxThemeTeam extends PolymerElement {
           display: var(--haxtheme-team-team-card-display, grid);
           grid-template-columns: var(
             --haxtheme-team-team-card-grid-template-columns,
-            repeat(2, auto [col-start])
+            repeat(3, auto [col-start])
           );
           justify-content: var(
             --haxtheme-team-team-card-justify-content,
@@ -5009,15 +4976,14 @@ class HaxThemeTeam extends PolymerElement {
       <div id="team_card">
         <dom-repeat items="[[__items]]" mutable-data>
           <template>
-            <a href="[[item.location]]">
-              <team-card
-                name="[[item.metadata.fields.name]]"
-                image="[[item.metadata.fields.image]]"
-                item="[[item]]"
-                position="[[item.metadata.fields.jobTitle]]"
-              >
-              </team-card>
-            </a>
+            <team-card
+              name="[[item.metadata.fields.name]]"
+              image="[[item.metadata.fields.image]]"
+              position="[[item.metadata.fields.jobTitle]]"
+              info="[[item.metadata.fields.info]]"
+              url="[[item.location]]"
+            >
+            </team-card>
           </template>
         </dom-repeat>
       </div>
@@ -6428,9 +6394,6 @@ class HaxThemeSpotlight extends PolymerElement {
               </div>
             </div>
           </div>
-          <!-- <div id="share_actions">
-            <site-print-button></site-print-button>
-          </div> -->
           <div id="contentcontainer">
               <div id="slot">
                 <slot></slot>
@@ -6457,10 +6420,9 @@ class HaxThemeSpotlight extends PolymerElement {
           <div id="news_archive">
             <site-recent-content-block
               title="Recent Spotlights"
-              conditions='{"metadata.type": "spotlight", "id": { "value": "[[activeItem.id]]", "operator": "!=" }}'
+              conditions='{"metadata.type": { "value": "spotlight", "operator": "="}, "id": { "value": "$activeId", "operator": "!=" }}'
               result="{{__items}}" 
               limit="5"
-              start-index="2"
               sort
               >
             </site-recent-content-block>

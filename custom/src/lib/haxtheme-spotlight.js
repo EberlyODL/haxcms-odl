@@ -227,9 +227,6 @@ class HaxThemeSpotlight extends PolymerElement {
               </div>
             </div>
           </div>
-          <!-- <div id="share_actions">
-            <site-print-button></site-print-button>
-          </div> -->
           <div id="contentcontainer">
               <div id="slot">
                 <slot></slot>
@@ -256,10 +253,9 @@ class HaxThemeSpotlight extends PolymerElement {
           <div id="news_archive">
             <site-recent-content-block
               title="Recent Spotlights"
-              conditions='{"metadata.type": "spotlight", "id": { "value": "[[activeItem.id]]", "operator": "!=" }}'
+              conditions='{"metadata.type": { "value": "spotlight", "operator": "="}, "id": { "value": "$activeId", "operator": "!=" }}'
               result="{{__items}}" 
               limit="5"
-              start-index="2"
               sort
               >
             </site-recent-content-block>

@@ -180,7 +180,7 @@ class HaxThemeNews extends PolymerElement {
                 title="News Archive"
                 conditions='{"metadata.type": {
                             "value": ["spotlight", "news"],
-                            "operator": "=="
+                            "operator": "="
                 }}'
                 limit=""
                 start-index="5"
