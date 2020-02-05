@@ -54,6 +54,10 @@ class OdlHaxtheme extends HAXCMSTheme(SimpleColors) {
   --site-print-button-button: {
     color: #a9a9a9;
   }
+  --paper-button: {
+      border-radius: none;
+      text-decoration: none;
+  };
 }
 
 :root {
@@ -174,9 +178,6 @@ tr:hover {
   background-color: #ddd;
   
 }
-
-
-
 </style>
 
 <page-topbar></page-topbar>

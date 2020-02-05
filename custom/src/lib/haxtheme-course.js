@@ -14,10 +14,7 @@ class HaxThemeCourse extends PolymerElement {
           --site-recent-content-block-item-link: {
             text-transform: uppercase;
           }
-          --paper-button: {
-            border-radius: none;
-            text-decoration: none;
-          }
+         
         }
         /**
        * Hide the slotted content during edit mode. This must be here to work.

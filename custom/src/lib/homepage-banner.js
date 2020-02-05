@@ -105,7 +105,7 @@ class HomePageBanner extends PolymerElement {
           );
           @apply --haxtheme-homepage-banner-branding-wrap;
         }
-
+/* 
         @media screen and (max-width: 700px) {
           .branding_wrap {
             display: var(
@@ -114,7 +114,7 @@ class HomePageBanner extends PolymerElement {
             );
             @apply --haxtheme-homepage-banner-branding-wrap-mobile;
           }
-        }
+        } */
 
         .logo {
           position: var(--haxtheme-homepage-banner-logo-position, absolute);
