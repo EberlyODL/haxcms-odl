@@ -4549,7 +4549,7 @@ class HaxThemeNews extends PolymerElement {
                             "value": ["spotlight", "news"],
                             "operator": "=="
                 }}'
-              limit="8"
+              limit="5"
               sort
             ></site-query>
             <dom-repeat items="[[__newsitems]]" mutable-data>
