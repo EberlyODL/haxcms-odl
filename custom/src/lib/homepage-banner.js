@@ -144,6 +144,12 @@ class HomePageBanner extends PolymerElement {
           @apply --haxtheme-homepage-banner-logo-image;
         }
 
+        @media screen and (max-width: 700px) {
+          .logo img {
+            margin: 0 0 0 20px;
+          }
+        }
+
         .company_name {
           width: var(--haxtheme-homepage-banner-company-name-width, 76%);
           margin: var(
