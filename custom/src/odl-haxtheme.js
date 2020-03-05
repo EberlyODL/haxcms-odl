@@ -378,6 +378,7 @@ tr:hover {
           default:
               // normalize the route path so that this logic works on sub directory / multi-site setup
               const routePath = location.route.path.startsWith("/") ? location.route.path : `/${location.route.path}`
+              console.log('routePath:', routePath)
               if (routePath.startsWith("/blog-posts/")) {
                 this.selectedPage = 6;
                 target = "blog";
