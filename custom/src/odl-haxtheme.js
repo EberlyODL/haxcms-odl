@@ -180,7 +180,7 @@ tr:hover {
 }
 </style>
 
-<page-topbar></page-topbar>
+<page-topbar alert="true"></page-topbar>
 <site-top-menu 
   conditions='{
     "parent": null,
