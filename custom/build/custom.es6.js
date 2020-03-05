@@ -5562,7 +5562,7 @@ class HaxThemeCourse extends PolymerElement {
                 </template>
               </div> -->
               <div id="syllabi">
-                <a href="/[[activeItem.metadata.syllabus]]">
+                <a href="[[activeItem.metadata.syllabus]]">
                   <paper-button noink>Sample Syllabus</paper-button>
                 </a>
               </div>
@@ -8365,31 +8365,33 @@ tr:hover {
           target = location.route.name;
           break;
           default:
-              if (location.route.path.startsWith("blog-posts/")) {
+              // normalize the route path so that this logic works on sub directory / multi-site setup
+              const routePath = location.route.path.startsWith("/") ? location.route.path : `/${location.route.path}`;
+              if (routePath.startsWith("/blog-posts/")) {
                 this.selectedPage = 6;
                 target = "blog";
-              } else if (location.route.path.startsWith("team-directory/")) {
+              } else if (routePath.startsWith("/team-directory/")) {
                 this.selectedPage = 7;
                 target = "profile";
-              } else if (location.route.path.startsWith("courses/")) {
+              } else if (routePath.startsWith("/courses/")) {
                 this.selectedPage = 8;
                 target = "course";
-              } else if (location.route.path.startsWith("syllabi/")) {
+              } else if (routePath.startsWith("/syllabi/")) {
                 this.selectedPage = 9;
                 target = "syllabus";
-              } else if (location.route.path.startsWith("coursemanagement")) {
+              } else if (routePath.startsWith("/coursemanagement")) {
                 this.selectedPage = 10;
                 target = "coursemanagement";
-              } else if (location.route.path.startsWith("lab")) {
+              } else if (routePath.startsWith("/lab")) {
                 this.selectedPage = 11;
                 target = "lab";
-              } else if (location.route.path.startsWith("pedagogy")) {
+              } else if (routePath.startsWith("/pedagogy")) {
                 this.selectedPage = 12;
                 target = "pedagogy";
-              } else if (location.route.path.startsWith("multimedia")) {
+              } else if (routePath.startsWith("/multimedia")) {
                 this.selectedPage = 13;
                 target = "multimedia";
-              } else if (location.route.path.startsWith("spotlight/")) {
+              } else if (routePath.startsWith("/spotlight/")) {
                 this.selectedPage = 14;
                 target = "spotlight";
               }
