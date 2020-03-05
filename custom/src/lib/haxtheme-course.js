@@ -263,7 +263,7 @@ class HaxThemeCourse extends PolymerElement {
                 </template>
               </div> -->
               <div id="syllabi">
-                <a href="[[activeItem.metadata.syllabus]]">
+                <a href="/[[activeItem.metadata.syllabus]]">
                   <paper-button noink>Sample Syllabus</paper-button>
                 </a>
               </div>
