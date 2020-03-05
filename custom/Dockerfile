@@ -1,4 +1,4 @@
-FROM elmsln/haxcms:latest as haxcms
+FROM elmsln/haxcms:release-0.12.0 as haxcms
 
 FROM node:8
 
