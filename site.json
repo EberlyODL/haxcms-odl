@@ -3891,6 +3891,20 @@
                 "updated": 1541517755,
                 "type": "multimedia"
             }
+        },
+        {
+            "id": "contingency",
+            "indent": 0,
+            "location": "pages\/contingency\/index.html",
+            "order": 11,
+            "parent": null,
+            "title": "Contingency",
+            "description": "",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "contingency"
+            }
         }
     ]
 }

@@ -30,7 +30,7 @@ class HaxThemeHome extends PolymerElement {
 
         @media screen and (max-width: 768px) {
           info-box#about {
-            margin: 25px 0 0 0;
+            margin: 40px 0 0 0;
           }
         }
 

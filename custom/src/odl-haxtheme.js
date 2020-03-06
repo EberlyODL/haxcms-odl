@@ -25,6 +25,7 @@ import "./lib/haxtheme-profile.js";
 import "./lib/haxtheme-spotlight.js";
 import "./lib/haxtheme-syllabus.js";
 import "./lib/haxtheme-contact.js";
+import "./lib/haxtheme-contingency.js"
 import "./lib/link-preview.js";
 import "./lib/page-topbar.js";
 import "./lib/page-footer.js";
@@ -180,12 +181,12 @@ tr:hover {
 }
 </style>
 
-<page-topbar alert="true"></page-topbar>
+<page-topbar alert></page-topbar>
 <site-top-menu 
   conditions='{
     "parent": null,
     "location": {
-      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "multimedia"],
+      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "multimedia", "contingency"],
       "operator": "!="
     }
   }'>
@@ -205,6 +206,7 @@ tr:hover {
     <haxtheme-service-lab id="lab" edit-mode$="[[editMode]]"></haxtheme-service-lab>
     <haxtheme-service-pedagogy id="pedagogy" edit-mode$="[[editMode]]"></haxtheme-service-pedagogy>
     <haxtheme-service-multimedia id="multimedia" edit-mode$="[[editMode]]"></haxtheme-service-multimedia>
+    <haxtheme-contingency id="contingency" edit-mode$="[[editMode]]"></haxtheme-contingency>
     <haxtheme-spotlight id="spotlight" edit-mode$="[[editMode]]"></haxtheme-spotlight>
 </iron-pages>
 <scroll-button></scroll-button>
@@ -378,7 +380,6 @@ tr:hover {
           default:
               // normalize the route path so that this logic works on sub directory / multi-site setup
               const routePath = location.route.path.startsWith("/") ? location.route.path : `/${location.route.path}`
-              console.log('routePath:', routePath)
               if (routePath.startsWith("/blog-posts/")) {
                 this.selectedPage = 6;
                 target = "blog";
@@ -403,8 +404,11 @@ tr:hover {
               } else if (routePath.startsWith("/multimedia")) {
                 this.selectedPage = 13;
                 target = "multimedia";
-              } else if (routePath.startsWith("/spotlight/")) {
+              } else if (routePath.startsWith("/contingency")) {
                 this.selectedPage = 14;
+                target = "contingency";
+              } else if (routePath.startsWith("/spotlight/")) {
+                this.selectedPage = 15;
                 target = "spotlight";
               }
               break;

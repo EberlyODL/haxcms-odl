@@ -123,17 +123,7 @@ class HomePageBanner extends PolymerElement {
           );
           @apply --haxtheme-homepage-banner-branding-wrap;
         }
-/* 
-        @media screen and (max-width: 700px) {
-          .branding_wrap {
-            display: var(
-              --haxtheme-homepage-banner-branding-wrap-display-mobile,
-              none
-            );
-            @apply --haxtheme-homepage-banner-branding-wrap-mobile;
-          }
-        } */
-
+        
         .logo {
           position: var(--haxtheme-homepage-banner-logo-position, absolute);
           width: var(--haxtheme-homepage-banner-logo-width, 40%);
@@ -164,7 +154,7 @@ class HomePageBanner extends PolymerElement {
 
         @media screen and (max-width: 700px) {
           .logo img {
-            margin: 0 0 0 20px;
+            margin: 0 0 0 5px;
           }
         }
 
@@ -1608,7 +1598,7 @@ class HaxThemeHome extends PolymerElement {
 
         @media screen and (max-width: 768px) {
           info-box#about {
-            margin: 25px 0 0 0;
+            margin: 40px 0 0 0;
           }
         }
 
@@ -7327,6 +7317,88 @@ class HaxThemeContact extends PolymerElement {
 }
 window.customElements.define(HaxThemeContact.tag, HaxThemeContact);
 
+class HaxThemeContingency extends PolymerElement {
+  static get template() {
+    return html`
+      <style>
+        #content-wrap {
+          width: 80%;
+          margin: 0 auto 0 auto;
+        }
+        
+        h1 {
+          font-size: 36px;
+          font-weight: 400;
+        }
+
+        h2 {
+          font-size: 24px;
+          font-weight: 400;
+        }
+
+        @media screen and (max-width: 768px) {
+          h1 {
+            font-size: 28px;
+          }
+        }
+
+        #header {
+          border-left: solid;
+          border-left-width: 4px;
+          border-left-color: #e2801e;
+          padding-left: 15px;
+          margin: 0 0 25px 0;
+        }
+
+        .description {
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 1.4;
+        }
+      </style>
+      <page-banner
+        image="files/theme-images/page-banners/contingency.jpg"
+        text="Contingency"
+        alt="Empty classroom auditorium. Photo by: Nathan Dumlao - unsplash.com"
+      ></page-banner>
+      <div id="content-wrap">
+        <div id="header">
+          <h1>Contingency Planning</h1>
+          <div class="description">
+            What would happen if there was a huge snowstorm that shut down most
+            of the Northeast? What if there was a zombie apocolypse? What if you
+            simply get ill and can't come to class? What would you do? Our
+            office is here to help you get your content where everyone can
+            access it without the need for being physically present.
+          </div>
+        </div>
+      </div>
+    `;
+  }
+  static get tag() {
+    return "haxtheme-contingency";
+  }
+  connectedCallback() {
+    super.connectedCallback();
+    this.__disposer = [];
+    autorun(reaction => {
+      this.manifest = toJS(store.routerManifest);
+      this.__disposer.push(reaction);
+    });
+    autorun(reaction => {
+      this.activeItem = toJS(store.activeItem);
+      this.__disposer.push(reaction);
+    });
+  }
+  disconnectedCallback() {
+    for (var i in this.__disposer) {
+      this.__disposer[i].dispose();
+    }
+    super.disconnectedCallback();
+  }
+}
+window.customElements.define(HaxThemeContingency.tag, HaxThemeContingency);
+
 class LinkPreview extends LitElement {
   static get styles() {
     return [
@@ -7607,6 +7679,70 @@ class PageSearch extends LitElement {
 }
 window.customElements.define(PageSearch.tag, PageSearch);
 
+class AlertMessage extends LitElement {
+  static get styles() {
+    return [
+      css`
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        @media screen and (max-width: 768px) {
+          a {
+            font-size: 14px;
+          }
+        }
+
+        a:hover {
+          color: #00d2ff;
+        }
+
+        #container {
+          background-color: red;
+          padding: 8px;
+        }
+
+        iron-icon {
+          width: 25px;
+          height: 25px;
+          color: #fff;
+          margin-right: 5px;
+        }
+      `
+    ];
+  }
+  render() {
+    return html$1`
+      <div id="container">
+        <iron-icon icon="icons:report-problem"></iron-icon>
+        <a href="${this.url}">
+          <slot></slot>
+        </a>
+      </div>
+    `;
+  }
+
+  static get tag() {
+    return "alert-message";
+  }
+  static get properties() {
+    return {
+      /**
+       * URL for alert
+       */
+      url: {
+        type: String,
+      },
+    };
+  }
+  constructor() {
+    super();
+    this.url = "";
+  }
+}
+window.customElements.define(AlertMessage.tag, AlertMessage);
+
 class PageTopBar extends LitElement {
   static get styles() {
     return [
@@ -7652,21 +7788,7 @@ class PageTopBar extends LitElement {
   }
   render() {
     return html$1`
-      ${this.renderSource(this.alert)}  
-    `;
-  }
-
-  renderSource(alert) {
-    console.log(alert);
-    if (alert === "true") {
-      return this.renderAlert();
-    }
-
-    return this.renderDefault();
-  }
-
-  renderDefault() {
-    return html$1`
+      ${this.renderAlert(this.alert)} 
       <div id="topbar-wrap">
       <company-mark></company-mark>
       <div class="action_button">
@@ -7678,26 +7800,24 @@ class PageTopBar extends LitElement {
         </a>
       </div>
       <page-search></page-search>
-    </div>
+    </div> 
     `;
   }
 
-  renderAlert() {
-    return html$1`
-       <div id="alert">Alert here!</div>
-       <div id="topbar-wrap">
-        <company-mark></company-mark>
-        <div class="action_button">
-          <a href="https://nam01.safelinks.protection.outlook.com/?url=https%3A%2F%2Foutlook.office365.com%2Fowa%2Fcalendar%2Fb58fc79c95a249aa8de9afbc555ed6ab%40psu.edu%2F16fac4c6e6aa4f5f90aabda235ee917710394492065995205772%2Fcalendar.html&data=02%7C01%7Ccmd30%40psu.edu%7C7909d5ecf71d4d74be9508d7aa714dc0%7C7cf48d453ddb4389a9c1c115526eb52e%7C0%7C0%7C637165277560978827&sdata=YisxiX9FgsqsT%2BeuAfzDs1ZfsTzPwM52HL270vPFvIE%3D&reserved=0" target=_blank>
-            <paper-button noink id="schedule">
-              <div class="title">Schedule Our Studio</div>
-              <iron-icon icon="date-range"></iron-icon>
-            </paper-button>
-          </a>
-        </div>
-        <page-search></page-search>
-      </div>
-    `;
+  renderAlert(alert) {
+    if (alert === true) {
+      return html$1`
+       <div id="alert">
+        <alert-message url="contingency">
+          Information about Coronavirus and Contingency Planning
+        </alert-message>
+       </div>
+      `;
+    }
+    else {
+      return "";
+    }
+    
   }
 
 
@@ -7710,8 +7830,7 @@ class PageTopBar extends LitElement {
        * Alert
        */
       alert: {
-        type: String,
-        reflect: true
+        type: Boolean,
       },
     };
   }
@@ -8219,12 +8338,12 @@ tr:hover {
 }
 </style>
 
-<page-topbar alert$="true"></page-topbar>
+<page-topbar alert></page-topbar>
 <site-top-menu 
   conditions='{
     "parent": null,
     "location": {
-      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "multimedia"],
+      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "multimedia", "contingency"],
       "operator": "!="
     }
   }'>
@@ -8244,6 +8363,7 @@ tr:hover {
     <haxtheme-service-lab id="lab" edit-mode$="[[editMode]]"></haxtheme-service-lab>
     <haxtheme-service-pedagogy id="pedagogy" edit-mode$="[[editMode]]"></haxtheme-service-pedagogy>
     <haxtheme-service-multimedia id="multimedia" edit-mode$="[[editMode]]"></haxtheme-service-multimedia>
+    <haxtheme-contingency id="contingency" edit-mode$="[[editMode]]"></haxtheme-contingency>
     <haxtheme-spotlight id="spotlight" edit-mode$="[[editMode]]"></haxtheme-spotlight>
 </iron-pages>
 <scroll-button></scroll-button>
@@ -8417,7 +8537,6 @@ tr:hover {
           default:
               // normalize the route path so that this logic works on sub directory / multi-site setup
               const routePath = location.route.path.startsWith("/") ? location.route.path : `/${location.route.path}`;
-              console.log('routePath:', routePath);
               if (routePath.startsWith("/blog-posts/")) {
                 this.selectedPage = 6;
                 target = "blog";
@@ -8442,8 +8561,11 @@ tr:hover {
               } else if (routePath.startsWith("/multimedia")) {
                 this.selectedPage = 13;
                 target = "multimedia";
-              } else if (routePath.startsWith("/spotlight/")) {
+              } else if (routePath.startsWith("/contingency")) {
                 this.selectedPage = 14;
+                target = "contingency";
+              } else if (routePath.startsWith("/spotlight/")) {
+                this.selectedPage = 15;
                 target = "spotlight";
               }
               break;
