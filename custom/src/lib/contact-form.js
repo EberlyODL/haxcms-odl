@@ -74,6 +74,20 @@ class ContactForm extends LitElement {
       `
     }
   }
+  firstUpdated() {
+    // Setup recaptcha
+    const script = document.createElement("script");
+    script.src = "https://www.google.com/recaptcha/api.js?render=6LcgleAUAAAAAG21mesiKq8YAo8tgYn4zEHPhTWG"
+    document.head.appendChild(script);
+    this.shadowRoot.querySelector("form").addEventListener("click", e => {
+      grecaptcha.ready(() => {
+          grecaptcha.execute('6LcgleAUAAAAAG21mesiKq8YAo8tgYn4zEHPhTWG', {action: 'contact_form'}).then((token) => {
+            const captcha = this.shadowRoot.querySelector("#recaptcha");
+            captcha.value = token;
+          });
+      });
+    })
+  }
   render() {
     return html`
       <hax-form endpoint="http://hax-forms-service.odl.courses.science.psu.edu" @loading-changed="${e =>
@@ -116,6 +130,9 @@ class ContactForm extends LitElement {
                 name="comments"
               ></textarea>
             </label>
+          <div>
+            <input id="recaptcha" type="hidden" name="recaptcha">
+          </div>
           </div>
             ${this.submissionButton()}
           </div>

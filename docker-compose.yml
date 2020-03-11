@@ -24,13 +24,16 @@ services:
         order: start-first
 
   hax-forms-service:
-    image: heymp/hax-forms-service:0.1.3
+    image: heymp/hax-forms-service:9d7219ba57f8a4316a52971db47555e5a7520812
     networks:
       - traefik-public
     environment:
-      - CORS_ORIGIN=*.${HOST:-docker.localhost}
-      - PRISMA_DB_PROVIDER=postgresql
-      - PRISMA_DB_URL=postgresql://prisma:prisma@hax-forms-postgres/
+      - EMAIL=odlformsservice@gmail.com
+      - CORS_ORIGIN=*
+      - EMAIL_TEMPLATE_HEADER=ODL Form Submission
+      - EMAIL_FROM_ADDRESS='ODL Website'<odlformsservice@gmail.com>
+      - EMAIL_TO_ADDRESS=mgp140@gmail.com
+      - EMAIL_SUBJECT=ODL Form Submission
     deploy:
       labels:
         - "traefik.enable=true"
@@ -41,31 +44,6 @@ services:
       replicas: 1
       update_config:
         order: start-first
-    depends_on: 
-      - hax-forms-postgres
-
-  hax-forms-postgres:
-    image: postgres:10.3
-    restart: always
-    environment:
-      POSTGRES_USER: prisma
-      POSTGRES_PASSWORD: prisma
-    volumes:
-      - hax-forms-service:/var/lib/postgresql/data
-    networks:
-      - traefik-public
-    deploy:
-      labels:
-        - "traefik.enable=true"
-        - "traefik.docker.network=traefik-public"
-        - "traefik.tags=traefik-public"
-        - "traefik.port=5432"
-      replicas: 1
-      update_config:
-        order: start-first
-
-volumes:
-  hax-forms-service:
 
 networks:
   traefik-public:
