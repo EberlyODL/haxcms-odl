@@ -29,7 +29,7 @@ services:
       - traefik-public
     environment:
       - EMAIL=odlformsservice@gmail.com
-      - CORS_ORIGIN=*
+      - CORS_ORIGIN=*.courses.science.psu.edu
       - EMAIL_TEMPLATE_HEADER=ODL Form Submission
       - EMAIL_FROM_ADDRESS='ODL Website'<odlformsservice@gmail.com>
       - EMAIL_TO_ADDRESS=mgp140@gmail.com
