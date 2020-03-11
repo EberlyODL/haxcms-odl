@@ -7,6 +7,7 @@ import "./videos-feed.js";
 import "./testimonials-feed.js";
 import "./page-feature.js";
 import "./content-listing.js";
+import "./odl-promo-tile.js";
 class HaxThemeHome extends PolymerElement {
   static get template() {
     return html`
@@ -34,7 +35,7 @@ class HaxThemeHome extends PolymerElement {
           }
         }
 
-        promo-tile {
+        odl-promo-tile {
           --button-hover-color: none;
         }
 
@@ -99,7 +100,7 @@ class HaxThemeHome extends PolymerElement {
       </info-box>
       <div id="promo_tile_wrap">
         <div class="promo_tile">
-          <promo-tile
+          <odl-promo-tile
             title="Course Management"
             label="Create"
             image="files/theme-images/promo-tiles/icontest5.jpg"
@@ -107,10 +108,10 @@ class HaxThemeHome extends PolymerElement {
             url="coursemanagement"
           >
             Create and deliver course content using systems designed to empower instructors.
-          </promo-tile>
+          </odl-promo-tile>
         </div>
         <div class="promo_tile">
-          <promo-tile
+          <odl-promo-tile
             title="Innovation Lab"
             label="Explore"
             image="files/theme-images/promo-tiles/icontest4.jpg"
@@ -120,10 +121,10 @@ class HaxThemeHome extends PolymerElement {
             We're always exploring, testing, and sharing new and
             technologies; step into our innovation lab and see
             what we've been up to.
-          </promo-tile>
+          </odl-promo-tile>
         </div>
         <div class="promo_tile">
-          <promo-tile
+          <odl-promo-tile
             title="Pedagogy"
             label="Learn"
             image="files/theme-images/promo-tiles/icontest8.jpg"
@@ -133,10 +134,10 @@ class HaxThemeHome extends PolymerElement {
             Instructional methods used to convey learning objectives. Work with
             us to discover creative ways to implement pedagogy into your
             instruction.
-          </promo-tile>
+          </odl-promo-tile>
         </div>
         <div class="promo_tile">
-          <promo-tile
+          <odl-promo-tile
             title="Multimedia"
             label="Create"
             image="files/theme-images/promo-tiles/icontest10.jpg"
@@ -145,7 +146,7 @@ class HaxThemeHome extends PolymerElement {
           >
             Work with experts to create instructional videos, high-fidelity
             graphics, virtual reality assets, and more.
-          </promo-tile>
+          </odl-promo-tile>
         </div>
       </div>
       <div id="page_feature">

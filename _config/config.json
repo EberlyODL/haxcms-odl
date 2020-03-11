@@ -605,7 +605,8 @@
         "lrndesign-timeline": "@lrnwebcomponents/lrndesign-timeline/lrndesign-timeline.js",
         "html-block": "@lrnwebcomponents/html-block/html-block.js",
         "user-action": "@lrnwebcomponents/user-action/user-action.js",
-        "rss-items": "@lrnwebcomponents/rss-items/rss-items.js"
+        "rss-items": "@lrnwebcomponents/rss-items/rss-items.js",
+        "odl-promo-tile": "@lrnwebcomponents/rss-items/rss-items.js"
     },
       "apiKeys": {
           "youtube": "",
