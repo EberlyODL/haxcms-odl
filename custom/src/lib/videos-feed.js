@@ -61,6 +61,7 @@ class VideosFeed extends LitElement {
         }
 
         #card_wrap {
+          height: 500px;
           display: flex;
           flex: 1 1 auto;
           flex-direction: column;
@@ -94,8 +95,8 @@ class VideosFeed extends LitElement {
           <div id="card_wrap">
             <iframe
               width="100%"
-              height="315"
-              src="https://www.youtube.com/embed/5n7WCeHXc4A"
+              height="415"
+              src="https://www.youtube.com/embed/zPwe8nMYCq0"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -104,8 +105,8 @@ class VideosFeed extends LitElement {
           <div id="card_wrap">
             <iframe
               width="100%"
-              height="315"
-              src="https://www.youtube.com/embed/GVTB-jnWDRk"
+              height="415"
+              src="https://www.youtube.com/embed/5n7WCeHXc4A"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen

@@ -118,7 +118,7 @@ class HaxThemeHome extends PolymerElement {
             alt=""
             url="lab"
           >
-            We're always exploring, testing, and sharing new and
+            We're always exploring, testing, and sharing new
             technologies; step into our innovation lab and see
             what we've been up to.
           </odl-promo-tile>
