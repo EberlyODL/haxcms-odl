@@ -25,23 +25,108 @@
 </p>
 <p>
   Specifically, Louis has filmed a number of creative instructional lab videos.
-  The videos feature Louis performing a variety of experiments that would
-  help students visualize difficult concepts online.
+  The videos feature Louis performing a variety of experiments that would help
+  students visualize difficult concepts online.
 </p>
-<p>Check out some of his <a href="https://www.youtube.com/watch?v=9PnJRokt-Ow&list=PLBBCdKoDCnCBA6YR6q4hkMM4_jOza7BQJ" target="_blank">videos</a>
-.
+<p>
+  Check out some of his
+  <a
+    href="https://www.youtube.com/watch?v=9PnJRokt-Ow&list=PLBBCdKoDCnCBA6YR6q4hkMM4_jOza7BQJ"
+    target="_blank"
+    >videos</a
+  >.
 </p>
 <p>
   Moreover, when Loius isn't pouring over his course materials for quality and
-  effectiveness, he's working to create resources for fellow faculty to improve the college.
+  effectiveness, he's working to create resources for fellow faculty to improve
+  the college.
 </p>
-<p>For example, here is a helpful video Louis created recently to help faculty transition into Canvas.</p>
-<video-player accent-color="grey" iframed="iframed" is-a11y-media="is-a11y-media" is-youtube="is-youtube" lang="en" preload="metadata" source="https://youtu.be/zPwe8nMYCq0" source-type="youtube" sticky-corner="top-right" youtube-id="zPwe8nMYCq0" schema-resource-id="#ff04a88e-140c-185a-7bef" resource="#ff04a88e-140c-185a-7bef" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " sources="[]" tracks="[]"></video-player>
+<p>
+  For example, here is a helpful video Louis created recently to help faculty
+  transition into Canvas during the Corona Virus outbreak.
+</p>
+<video-player
+  accent-color="grey"
+  iframed="iframed"
+  is-a11y-media="is-a11y-media"
+  is-youtube="is-youtube"
+  lang="en"
+  preload="metadata"
+  source="https://youtu.be/zPwe8nMYCq0"
+  source-type="youtube"
+  sticky-corner="top-right"
+  youtube-id="zPwe8nMYCq0"
+  schema-resource-id="#ff04a88e-140c-185a-7bef"
+  resource="#ff04a88e-140c-185a-7bef"
+  prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org "
+  sources="[]"
+  tracks="[]"
+></video-player>
  ]]>
       </description>
       <category>Spotlight,Education,Learning</category>
       <guid>/spotlight/louis</guid>
       <pubDate>Thu, 16 Jun 2022 13:46:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Drupal Camp NJ: Progressively Decoupled Drupal for Everyone</title>
+      <link>/blog-posts/2-10-20</link>
+      <description>
+          <![CDATA[ <p>
+  Recently, the Office of Digital Learning (Eberly College of Science at Penn
+  State) participated in the ninth consecutive <a href="https://www.drupalcampnj.org/">Drupal Camp NJ</a>
+, hosted at
+  Princeton University. The weekend witnessed developers and industry
+  professionals collaborating on a number of Drupal initiatives through
+  informative presentations, networking opportunities, and engaging training
+  sessions.
+</p>
+<p>
+  Demonstrating their progress since Drupal Camp NJ 2019, the ODL team continued
+  where they left off with their discussion on decoupling Drupal. Specifically,
+  Michal Potter and I joined <a href="https://www.elmsln.org/">ELMS:LN</a>
+ lead developer, Bryan Ollendyke (College of
+  Arts and Architecture - Penn State) and Rebecca Goodman (Branch Chief, Web at
+  U.S. <a href="https://www.archives.gov/">National Archives and Records Administration</a>
+ / NARA) to present work on
+  web components.
+</p>
+<p>
+  Web components are a set of web platform APIs that allow you to create custom,
+  reusable, HTML tags to use in web pages and web apps. Because they’re built
+  using web standards, they will work across all modern browsers and within any
+  JavaScript library or framework that works with HTML. The team has been
+  actively working to implement web components across a number of projects,
+  including a custom suite of authoring tools (<a href="https://haxtheweb.org/">HAX</a>
+), Drupal, WordPress, Grav CMS
+  and more.
+</p>
+<p>
+  Bryan Ollendyke jump-started the conversation with a great introduction and
+  Michael Potter and I showcased our implementation of web components across
+  several custom web themes. The highlight of the talk was Rebecca Goodman
+  announcing that her web team at NARA had started implementing web components
+  into their work-flow by successfully placing a branding bar across several of
+  their existing web properties.
+</p>
+<p>
+  Overall, feedback was extremely positive. The audience contained a wide
+  variety of technical backgrounds. Developers quickly understood how they could
+  reduce technical debt across their projects, graphic designers saw how their
+  interactions with Content Management Systems could be simplified, and project
+  managers realized how this approach could reduce timelines of maintenance and
+  enhancement across the board.
+</p>
+<p>
+  Check out our presentation below and see how web components can revolutionize
+  your next web project:
+</p>
+<video-player accent-color="grey" iframed="iframed" is-a11y-media="is-a11y-media" is-youtube="is-youtube" lang="en" preload="metadata" source="https://youtu.be/4MXqYGGpeD8" source-type="youtube" sticky-corner="top-right" youtube-id="4MXqYGGpeD8" schema-resource-id="#fbb77a1d-12dc-b794-1190" resource="#fbb77a1d-12dc-b794-1190" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " sources="[]" tracks="[]"></video-player>
+ ]]>
+      </description>
+      <category>Decoupled,Headless,Webdev</category>
+      <guid>/blog-posts/2-10-20</guid>
+      <pubDate>Mon, 10 Feb 2020 05:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Joseph Houck</title>
@@ -143,6 +228,76 @@
       <category></category>
       <guid>/team-directory/louis</guid>
       <pubDate>Tue, 16 Apr 2019 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Get Decoupled at Drupal Camp NJ</title>
+      <link>/blog-posts/2-6-19</link>
+      <description>
+          <![CDATA[ <p>
+  This past weekend (February 1-3) the Office of Digital Learning (Eberly
+  College of Science at Penn State) participated in the eighth consecutive
+  <a href="https://www.drupalcampnj.org/" target="_blank">Drupal Camp NJ</a>
+
+
+
+, hosted at Princeton University. The annual event brings
+  developers and industry professionals from varying backgrounds and
+  skill-levels together to share all things <a href="https://www.drupal.org/" target="_blank">Drupal</a>
+
+
+ through engaging
+  presentations, co-working sessions, and networking.
+</p>
+<p>
+  This year there were a number of great discussions to get involved with, but
+  one topic continued to dominate the conversation - decoupling Drupal.
+  Decoupling Drupal essentially means separating Drupal’s front-end (theme
+  layer) from it’s back-end (data/content layer) using a custom JavaScript
+  framework. While there are still some discussions as to which framework is
+  ‘best’ when decoupling Drupal, the general consensus is that the decoupled
+  method is becoming an industry-wide movement.
+</p>
+<p>
+  Jesus Manuel Olivas (Head of Products at <a href="https://weknowinc.com/" target="_blank">weKnow</a>
+
+) showcased decoupling tools
+  like <a href="http://www.gatsbyjs.org/" target="_blank">Gatsby</a>
+ and <a href="https://www.drupal.org/project/tome" target="_blank">Tome</a>
+. These tools assist in creating static sites by
+  decoupling Drupal’s theme and just using Drupal for content creation.
+</p>
+<p>
+  Saurabh Chugh and Surendra Singh hosted a discussion, ‘Decoupling Patterns,
+  Services and creating an enterprise level editorial experience’ where they
+  also emphasized using decoupled applications to display content.
+</p>
+<p>
+  Saurabh Chugh and Surendra Singh hosted a discussion, ‘Decoupling Patterns,
+  Services and creating an enterprise level editorial experience’ where they
+  also emphasized using decoupled applications to display content.
+</p>
+<p>
+  Our team demonstrated decoupled development when Michal Potter and Charles
+  Lavera joined ELMS:LN lead developer, Bryan Ollendyke (College of Arts and
+  Architecture - Penn State) to present work on web components. Specifically,
+  the trio discussed the tooling they use to quickly generate and publish their
+  components onto the web (<a href="https://github.com/elmsln/wcfactory" target="_blank">WCFactory</a>
+ / Drupal <a href="https://www.drupal.org/project/webcomponents" target="_blank">webcomponents module</a>
+). In
+  addition, Bryan explored the future of content-authoring with a completely
+  headless authoring experience called HAX.
+</p>
+<p>
+  Get decoupled at Drupal Camp NJ and check out our presentation below, then use
+  this link ---> and try <a href="https://haxtheweb.org/" target="_blank">HAX</a>
+ for yourself!
+</p>
+<video-player accent-color="grey" iframed="iframed" is-a11y-media="is-a11y-media" is-youtube="is-youtube" lang="en" preload="metadata" source="https://youtu.be/nYYUDsI-qwY" source-type="youtube" sticky-corner="top-right" youtube-id="nYYUDsI-qwY" schema-resource-id="#e2f10b12-ed54-1899-4a04" resource="#e2f10b12-ed54-1899-4a04" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " sources="[]" tracks="[]"></video-player>
+ ]]>
+      </description>
+      <category>Decoupled,Headless,Webdev</category>
+      <guid>/blog-posts/2-6-19</guid>
+      <pubDate>Wed, 06 Feb 2019 05:00:00 +0000</pubDate>
     </item>
     <item>
       <title>H5P - Documentation Tool</title>
@@ -287,278 +442,830 @@
       <pubDate>Tue, 06 Nov 2018 15:22:36 +0000</pubDate>
     </item>
     <item>
-      <title>Bmmb 852</title>
-      <link>/syllabi/bmmb852</link>
+      <title>Contingency</title>
+      <link>/contingency</link>
       <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  The purpose of this course is to provide students with a foundation in the
-  various applications of high-throughput sequencing including: chip-Seq,
-  RNA-Seq, SNP calling, metagenomics, de-novo assembly and others. The course
-  material will concentrate on presenting complete data analysis scenarios for
-  each of these domains of applications and will introduce students to a wide
-  variety of existing tools and techniques.
-</p>
-<h2>Objectives</h2>
-<p>By the end of the course work students will:</p>
-<ul>
-  <li>Understand common bioinformatics data formats and standards</li>
-  <li>
-    Become familiar with the practice of analyzing sequencing data from various
-    instruments
-  </li>
-  <li>
-    Develop the computationally oriented thinking that is necessary to take on
-    large-scale data analysis projects
-  </li>
-</ul>
-<h2>Lessons</h2>
-<p>
-  The Lessons will provide you with general background information and practical
-  examples that tie in with the topic. We will share some real life exercises
-  and the homework will give you a chance to apply what you have learned for
-  each lesson.
-</p>
-<p>We will cover five topics throughout the course:</p>
-<ul>
-  <li>
-    Core Informatics Competency
-  </li>
-  <li>
-    Computational Foundations
-  </li>
-  <li>
-    Biological Data Formats
-  </li>
-  <li>
-    Statistical Methods and Visualization
-  </li>
-  <li>
-    Software Tools and their Applications
-  </li>
-</ul>
-<h2>Assignments</h2>
-<p>
-  At the end of each lesson, there will be a homework to assess your
-  comprehension of the content.
-</p>
-<p>
-  Homework will usually fit on one sheet of paper. You will need to show the
-  commands and their output. You additionally can print screens, but please DO
-  NOT pring a console output of white text on black background!
-</p>
-<h2>Grading</h2>
-<p>
-  Your grade for the course will be the weighted average of all homeworks and a
-  final project.
-</p>
-<p>
-  The final project (weight-20%) will be similar, but more complex than a
-  typical homework and will require that you use the knowledge of the concepts
-  learned throughout the entire course.
-</p>
-<p>You may work in teams if you wish.</p>
- ]]>
+          <![CDATA[ <p>Contingency page!</p> ]]>
       </description>
       <category></category>
-      <guid>/syllabi/bmmb852</guid>
+      <guid>/contingency</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
-      <title>Bmmb 551</title>
-      <link>/syllabi/bmmb551</link>
+      <title>Biol 127</title>
+      <link>/syllabi/biol127</link>
       <description>
           <![CDATA[ <h2>Description</h2>
 <p>
-  What is it in your DNA that makes you different from chimpanzees, mice or
-  flies? What sequences in your DNA make it more or less likely that you will
-  develop diabetes or cancer?
-</p>
-<p>
-  This course will remind students of the basic molecular biology of genes,
-  introduce them to major DNA sequencing technologies, and explore how genomic
-  technologies are informing principles of genome function globally, with a
-  strong emphasis on identifying genes and gene regulatory modules. Students
-  will use web-based bioinformatics tools for exploring genomic and epigenetic
-  data to complete assignments. Each student also will develop a project on a
-  topic in genomics that interests them. The goal of each project will be
-  determined mainly by the student’s interest; it can be research or
-  educational. The student will choose the medium used to convey the results of
-  his/her work. Employing traditional media such as term papers or oral
-  presentations is fine, and creative and effective use of popular media (games,
-  video, music, dance, etc.) is encouraged.
-</p>
-<p>
-  The course proceeds in two phases, first on the basics of genomics, and second
-  on the search for functional elements in genomes.
+  Cellular structure and organization; physiological processes; classification;
+  reproduction and development; relationship of plant groups. Students who have
+  passed BIOL 240W may not schedule this course
 </p>
 <h2>Objectives</h2>
-<p>
-  At the end of this course, you will successfully be able to do/perform the
-  following:
-</p>
+<p>During the course of the semester, the student will:</p>
 <ul>
   <li>
-    Describe the range of genome sizes and structures of genomes in organisms
+    Develop critical thinking skills, gather credible information, question
+    ideas from a scientific viewpoint
+  </li>
+  <li>Learn and integrate terms and concepts in plant biology</li>
+  <li>
+    Understand how plant structure (cellular, organismal) and function
+    (biochemical) are tied together
   </li>
   <li>
-    Use a wide range of sequence alignment tools with a strong appreciation of
-    the power and limitations of each for the task at hand
+    Learn how plants and humans interact and the outcomes of this interaction
   </li>
   <li>
-    Use the community-supported online computational platform Galaxy to analyze
-    files with genomic data
+    Develop laboratory skills to investigate plant evolution, anatomy, and
+    physiology
   </li>
   <li>
-    Use online databases and resources to find information on genes,
-    physiologically relevant sets of genes, and entire sets of genes from an
-    organism
+    Design an experimental approach that addresses a concept in plant biology
   </li>
   <li>
-    Predict gene structures in long genome sequences
-  </li>
-  <li>
-    Analyze processed results from massively parallel RNA determinations
-    (microarray and RNA-seq) to infer functional groups of genes
-  </li>
-  <li>
-    Interpret epigenetic patterns around individual genes and groups of genes to
-    infer function
-  </li>
-  <li>
-    Mesh results of genome-wide association studies of complex traits with
-    genomic and epigenetic information to improve interpretations
+    Summarize, in the style of a scientific journal article, the design,
+    rationale, results, interpretation, and conclusions of a scientific
+    experiment or studyP
   </li>
 </ul>
-<h2>Course Schedule</h2>
+<h2>Required Materials</h2>
+<ol>
+  <li>
+    Bidlack J., Jansky S., and Stern K. Stern’s Introductory Plant Biology, 13th
+    ed. ISBN-13: 978- 0073369440, ISBN-10: 0073369446
+  </li>
+  <li>
+    Carolina Biological Botany Lab Kits Purchase at:
+    https://www.carolina.com/carolina-distancelearning-science-kits/the-pennsylvania-state-university-introductory-plant-biology-biol-127/581864.pr
+  </li>
+  <li>
+    Digital camera with ability to upload pictures to Canvas
+  </li>
+</ol>
+<h2>Attendance / Participation</h2>
+<p>
+  You will be expected to check in every day or every other day for any
+  announcements or updates. The amount of time spent looking over the material
+  typically is correlated with quiz and exam grade: the more time spent studying
+  usually translates into a better grade. Although this is an online course, you
+  should expect to spend a similar amount of time on the material that you would
+  for an inperson class. The general rule for studying is as follows: for every
+  one hour of lecture, you should spend 2.5 to 3 hours studying the material.
+  That means for a three-credit course, you should spend 7.5 to 9 hours per week
+  studying and completing assignments if you intend to do well (“A” or “B”
+  level).
+</p>
+<h2>Labs</h2>
+<p>
+  You will complete 11 labs related to the material covered during that week.
+  The lab materials must be ordered through Carolina Biological Supplies, and
+  will be delivered to your home. The labs are designed for you to complete at
+  your home, with the exception of one lab, where you will be required to go to
+  a local park, arboretum, or botanical garden. Though in some cases the lab
+  will reinforce concepts covered in the book and in the PowerPoints, the lab
+  may also cover a unique topic. For this reason, material covered in lab
+  activities will be included on exams. If you have completed all 11 labs, only
+  your 10 best scores will count towards your grade.
+</p>
+<h2>Quizzes</h2>
+<p>
+  Each week one or more short quizzes covering that week’s chapter contents must
+  be completed. The quizzes are designed to ensure that you keep up with your
+  reading and study. The quizzes will be in a true/false, matching, or
+  multiple-choice type format and are intended to reinforce the main concepts in
+  each chapter. Utilize the weekly objectives as a study guide for the quizzes
+  and exams. These quizzes will only be open for a limited time, so do not go
+  for extended periods of time (days, weeks) without having logged into the
+  course. I typically do not re-open quizzes unless in the case of technical
+  difficulties from my end. If you miss one or a few quizzes, this will not
+  negatively affect your grade. If you have taken all 23 quizzes, only your 20
+  best scores will count towards your grade.
+</p>
+<h2>Video Discussions</h2>
+<p>
+  During the semester, you will watch two documentaries: The Botany of Desire,
+  broken into four parts of 30 minutes each, and America’s Lost Landscape: The
+  Tallgrass Prairie which is 60 minutes. This is a total of five discussion
+  forums. For each forum, you will be asked to post a response or answers
+  questions. Your first post is due 24 hours prior to the due date for the
+  assignment. If the post is late, no points will be awarded (see discussion
+  instructions in the week 1 module on Canvas for more detailed instructions).
+  The discussions are worth 25 points each.
+</p>
+<h2>Lab Report</h2>
+<p>
+  One lab will require that you write a formal lab report. This is meant to give
+  you practice at scientific writing. You will complete a peer-review draft, a
+  rough draft, and a final draft (see the instruction in the Effects of Ethylene
+  on Fruit Ripening Lab and the individual Lab Report assignments on Canvas for
+  more details).
+</p>
+<h2>Exams</h2>
+<p>
+  During the semester, you will have three exams and a final exam over the
+  material covered. These exams will include true/false, multiple-choice, and/or
+  matching questions; in addition there may be diagrams to label and/or short
+  free-response questions. Exams will cover material for each “unit”: Exam 1
+  will cover material from the beginning of the course until the first exam,
+  Exam 2 will cover material after Exam 1 until the second exam, and so forth.
+  The final will be similar in format to the midterm exams. The only differences
+  will be that the final will be slightly (about 50%) longer, and will be
+  cumulative. The cumulative section will be about 33% of the final, and the
+  remainder will be material covered after the third midterm. All exams will be
+  delivered online, but they will be proctored, using Examity (see Examity
+  section under University Policies). You will have a window of about 72 hours
+  to take your exam, but you must schedule it in advance through the Examity tab
+  in Canvas. If you make changes to your scheduled exam time less than 24 hours
+  before the start of the exam window, Examity will charge you a fee of $3.
+</p>
+<h2>Grade Distribution</h2>
 <table>
-  <th>Week</th>
-  <th>Topic</th>
+  <th>Assignment</th>
+  <th>Breakdown</th>
+  <th>Points</th>
+  <th>Drop</th>
   <tr>
+    <td>Labs</td>
+    <td>11 x 25pts</td>
+    <td>225</td>
     <td>1</td>
-    <td>Introduction to course / Fundamentals of Molecular Genetics</td>
   </tr>
   <tr>
-    <td>2</td>
-    <td>Fundamentals of Genomics</td>
-  </tr>
-  <tr>
+    <td>Chapter Quizzes</td>
+    <td>23 x 5pts</td>
+    <td>100</td>
     <td>3</td>
-    <td>Sequencing Technologies</td>
   </tr>
   <tr>
-    <td>4</td>
-    <td>Aligning Biological Sequences</td>
+    <td>Video Discussions</td>
+    <td>5 x 25pts</td>
+    <td>125</td>
+    <td>N/A</td>
   </tr>
   <tr>
-    <td>5</td>
-    <td>Genome Databases and Browsers</td>
+    <td>Lab Report</td>
+    <td>1 x 100pts</td>
+    <td>100</td>
+    <td>N/A</td>
   </tr>
   <tr>
-    <td>6</td>
-    <td>Analysis Platforms for Genomics: Galaxy</td>
+    <td>Exams</td>
+    <td>3 x 100pts</td>
+    <td>300</td>
+    <td>N/A</td>
   </tr>
   <tr>
-    <td>7-8</td>
-    <td>Protein-Coding Genes within Genomes</td>
-  </tr>
-  <tr>
-    <td>8-9</td>
-    <td>Transcribed Regions of Genomes</td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>Evolutionary Signatures of Function by Comparative Genomics</td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>Gene Regulatory Modules in Genome Sequences</td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>Other Non-protein-coding Functional Sequences in Genomes</td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>Finding Function by Phenotype</td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>Genome Editing</td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>Phenotyping After Genome Editing</td>
+    <td>Final Exam</td>
+    <td>1 x 150pts</td>
+    <td>150</td>
+    <td>N/A</td>
   </tr>
 </table>
 
-<h2>Expectations</h2>
+<h2>Grade Scale</h2>
+<table>
+  <th>Letter Grade</th>
+  <th>Points</th>
+  <tr>
+    <td>A</td>
+    <td>930-1000</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>900-929</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>870-899</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>830-869</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>800-829</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>770-799</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>700-769</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>600-699</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>< 599</td>
+  </tr>
+</table>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol127</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 133</title>
+      <link>/syllabi/biol133</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
 <p>
-  Students should complete each of the lessons and a semester project. The
-  course will cover 14 lessons spread over the 15 weeks of the course. Each
-  lesson covers a topic, and it includes reading material, presentations, and
-  homework (no homework for lesson 14). Students should read the assigned texts,
-  listen to the presentations, and do the homework. The text material comes from
-  online textbooks, reviews and research articles. The presentations are
-  provided as VoiceThreads. These are a series of slides on each topic, with a
-  recorded presentation from the instructor. You can interact with the
-  VoiceThread, and ask questions or make additional points.
+  This course is an overview of our current knowledge of human heredity, genetic
+  issues, genetic diseases, and human evolution. Background information that is
+  necessary for understanding these issues will be taught including cell
+  structure, the structure and function of DNA and chromosomes, patterns of
+  inheritance, population genetics, human evolution, and genetic technologies.
+  This course is intended for non-biology majors and does not include a detailed
+  analysis of human genetics. This course will include Canvas readings,
+  web-based readings and videos, and web-based interactive exercises. There are
+  ample opportunities for individual problem-solving while group assignments are
+  offered as discussion forums. Students will also research genetic conditions
+  and have the opportunity to share what they have learned.
+</p>
+<h2>Objectives</h2>
+<p>
+  By the end of this course students should have gained sufficient scientific
+  knowledge to…
+</p>
+<ul>
+  <li>
+    Read and describe popular science articles pertaining to genetic issues.
+  </li>
+  <li>Discuss genetic issues intelligently.</li>
+  <li>
+    Make informed decisions about genetic issues relating to their personal
+    health.
+  </li>
+  <li>
+    Illustrate the impact of genetic technologies on our everyday lives.
+  </li>
+  <li>
+    Identify where to find information and web pages relating to genetic issues.
+  </li>
+  <li>Summarize the major theories and findings of human evolution.</li>
+</ul>
+<h2>Materials</h2>
+<p>
+  All course materials can be accessed through Canvas, the PSU Learning
+  Management System. You will need your Penn State access account username and
+  password for access to Canvas. You do not need to purchase any textbook.
+</p>
+<h2>Format</h2>
+<p>Each week you will be expected to…</p>
+<ul>
+  <li>
+    Read the text on content pages of at least one module in our Canvas course
+    site.
+  </li>
+  <li>
+    Complete additional activities such as a web activity, a case study,
+    participate in a group discussion forum, or watch a short NOVA/PBS video and
+    answer questions about it.
+  </li>
+  <li>
+    Take a quiz after reading the text and completing the associated
+    assignments.
+  </li>
+  <li>
+    Complete all assignments by 11:00 PM Eastern time on Monday following each
+    week.
+  </li>
+</ul>
+<h2>Quizzes</h2>
+<p>
+  Quizzes consist of multiple choice and true/false questions based on the
+  weekly text readings and web assignments. These will be available in Canvas
+  for a designated period during which you may log in and open a quiz one time.
+  Your answers must be submitted within time frame specified for each quiz. For
+  one quiz, you will be required to use the PSU online proctoring system,
+  Examity. Please see additional specific information below.
 </p>
 <p>
-  A homework assignment is made for 13 of the 14 lessons. Students should turn
-  in a report on their work on the assignment. Sometimes you have explicit
-  options on the assignment. You also can tailor the assignments to your
-  particular interests. If you think of an assignment related to the topic that
-  would be more meaningful or more interesting to you, it is very likely that I
-  will approve it. Please check in advance of the due dates.
+  In this class you will take one assessment that will be proctored by a service
+  called Examity®. Review the Student Quick-Guide, which is available in the
+  modules tab, for instructions on how to use Examity®. Please log in as soon as
+  possible to set up your profile. You will not be able to schedule exams until
+  your profile is complete.
 </p>
+<h2>Web Activities</h2>
 <p>
-  Students will also complete a semester project. The student will chooses a
-  topic to present or a problem on which they want to work. It is a good idea to
-  discuss your interests with the instructor, so that the scope and content of
-  the project can be reasonable and meaningful. Using the material in the course
-  as a foundation, the student will define the topic or problem, gather
-  material, and analyze data (if appropriate) to describe the topic or solve the
-  problem. The student will make a report on the project by the end of the
-  semester. As stated above, the medium for presentation of the project will be
-  chosen by the student; creativity is welcome. Most reports are papers, but the
-  report can be a presentation (e.g. using the VoiceThread technology), a film,
-  a song, a comic book, a video game, a board game, a sculpture (all have been
-  done in the past), or other medium.
+  Web Activities are assigned for almost all modules via links to web resources
+  to learn more about a specific topic. Each web site has associated questions
+  to be submitted to Canvas to be evaluated for a grade.
+</p>
+<h2>Videos</h2>
+<p>
+  Several short videos produced by PBS NOVA are quite relevant to several of our
+  discussions. Watch each video and complete the associated quiz in Canvas.
+</p>
+<h2>Writing Assignment</h2>
+<p>
+  You must complete one writing assignment relating to genetic issues. This
+  writing should be approximately 500 words and be submitted via the appropriate
+  place in Canvas. Unless prior arrangements are made, late assignments will
+  have points deducted.
+</p>
+<h2>Case Studies</h2>
+<p>
+  Several short case studies will be completed during the course. These
+  exercises will give you the opportunity to apply your learning to a real life
+  situation.
+</p>
+<h2>Discussion Forums and Surveys</h2>
+<p>
+  Your participation in these will be awarded points. To encourage discussion,
+  opinions are welcomed and will not be graded.
 </p>
 <h2>Grading</h2>
+<p>
+  All assignments are worth approximately 500 total points. Weekly assignments
+  sets are due on Monday at 11:00PM Eastern Time. Late assignments will be
+  accepted for two weeks beyond the due date and 5 points will be deducted from
+  each assignment that is late. After two weeks the drop box for each assignment
+  will expire and no points will be awarded. Emergencies do arise, so please
+  contact Dr. Topper if you experience an emergency situation where you need
+  extra time to complete an assignment. Please do not put yourself in danger,
+  such as going out in the dark to find internet access to complete an
+  assignment. Each request will be considered on an individual basis. *No extra
+  credit will be offered. If you are concerned about your grade, please contact
+  Dr. Topper as quickly as possible and state your concerns.
+</p>
 <table>
   <th>Assignment</th>
   <th>Number</th>
-  <th>Points (each)</th>
+  <th>Points(Each)</th>
   <th>Total Points</th>
-  <th>% of Course Grade</th>
   <tr>
-    <td>Final Project</td>
-    <td>1</td>
-    <td>250</td>
-    <td>250</td>
-    <td>25%</td>
+    <td>Quizzes</td>
+    <td>~12</td>
+    <td>15-40</td>
+    <td>~250</td>
   </tr>
   <tr>
-    <td>Quizzes / Exercises</td>
-    <td>13</td>
-    <td>50</td>
-    <td>750</td>
-    <td>75%</td>
+    <td>Web Activities</td>
+    <td>11</td>
+    <td>10-20</td>
+    <td>~100</td>
+  </tr>
+  <tr>
+    <td>NOVA Videos</td>
+    <td>5</td>
+    <td>15-20</td>
+    <td>~80</td>
+  </tr>
+  <tr>
+    <td>Writing Assignments</td>
+    <td>1</td>
+    <td>35</td>
+    <td>35</td>
+  </tr>
+  <tr>
+    <td>Discussion Forums, Polls & Surveys</td>
+    <td>3</td>
+    <td>10</td>
+    <td>~30</td>
+  </tr>
+</table>
+
+<h2>Grade Scale</h2>
+<table>
+  <th>Letter Grade</th>
+  <th>Percentage</th>
+  <tr>
+    <td>A</td>
+    <td>93-100%</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>90-92%</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>87-89%</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>83-86%</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>80-82%</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>77-79%</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>70-76%</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>60-69%</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>< 60%</td>
+  </tr>
+</table>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol133</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 141</title>
+      <link>/syllabi/biol141</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  The human body is fascinating to most of us, presumably because we have a
+  rather vested interest in it. It is especially interesting when we include the
+  physiology of diseases, as diseases often represent good illustrations of the
+  systems not functioning properly. I have tried to include information that
+  will both sustain and stimulate your interest, as well as challenge you to
+  extend your knowledge outside this course. There are many good programs on the
+  Public Broadcasting System and cable TV as well as articles in magazines such
+  as Science News, Scientific American, Discover, Scientific American Science
+  and Medicine, and Natural History that illustrate the fascinating aspects of
+  human physiology. One of the goals of this course is to develop your ability
+  to understand the more complex scientific and medical advances that are
+  occurring with increasing frequency today.
+</p>
+<h2>Objectives</h2>
+<p>
+  This course is designed to cover the fundamentals of human physiology for
+  students in a variety of life science-related majors including Nursing,
+  Kinesiology, Athletic Training, and Science. By the time you complete this
+  course, you should:
+</p>
+<ul>
+  <li>Have a working knowledge and understanding of basic human physiology.</li>
+  <li>
+    Be able to apply these physiological principles to problem solving
+    situations as observed in medical situations, including cardiac problems,
+    hypertension, renal failure, acid-base balance disturbances, and endocrine
+    imbalances.
+  </li>
+  <li>
+    Have a practical understanding of physiology upon which you can build and
+    use in future clinical settings.
+  </li>
+</ul>
+<h2>Textbook</h2>
+<p>
+  Human Anatomy & Physiology, 10th Edition, by Elaine Marieb and Katja Hoehn,
+  Pearson Benjamin Cummings Publishers, 2016. ISBN: 9780321927040
+</p>
+<h2>Course Schedule</h2>
+<table>
+  <th>Lesson</th>
+  <th>Topic</th>
+  <tr>
+    <td>1</td>
+    <td>
+      Introduction to Physiology: Cell Chemistry, The Living Cell, Tissues and
+      Organ Systems
+    </td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>
+      Cell Growth, Reproduction, Nutrition, and Intermediary Metabolism
+    </td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>
+      Physiology of Muscles
+    </td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>
+      Nerve Impulse Physiology
+    </td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>
+      The Central Nervous System, The Peripheral Nervous System, The Autonomic
+      Nervous System, and The Special Senses
+    </td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>
+      The Endocrine System
+    </td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>
+      The Blood, The Cardiovascular System, and Capillary Exchange
+    </td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>
+      The Lymphatic System and The Immune System
+    </td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>
+      The Respiratory System
+    </td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>
+      The Digestive System
+    </td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>
+      The Urinary System and Regulation of Fluids, Electrolytes, and pH in the
+      Body
+    </td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>
+      The Reproductive Systems, Pregnancy, and Human Development
+    </td>
+  </tr>
+</table>
+
+<h2>Grading</h2>
+<p>
+  Your final grade will be based on your performance on the 12 lesson
+  assignments, four discussion forums, and two exams as shown below:
+</p>
+<table>
+  <th>Activity</th>
+  <th>Breakdown</th>
+  <th>Total Points</th>
+  <tr>
+    <td>Lesson Assignments</td>
+    <td>12 (100pts/each)</td>
+    <td>1200</td>
+  </tr>
+  <tr>
+    <td>Discussion Forums / Class Participation</td>
+    <td>4 (25pts/each)</td>
+    <td>100</td>
+  </tr>
+  <tr>
+    <td>Mid-Course Exam</td>
+    <td>1 (200pts)</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>Final Exam</td>
+    <td>1 (200pts)</td>
+    <td>200</td>
   </tr>
   <tr>
     <td>Total</td>
     <td></td>
-    <td></td>
-    <td>1000</td>
-    <td>100%</td>
+    <td>1700</td>
+  </tr>
+</table>
+
+<h2>Grade Scale</h2>
+<table>
+  <th>Letter Grade</th>
+  <th>Points</th>
+  <tr>
+    <td>A</td>
+    <td>1580+</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>1530-1579</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>1470-1529</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>1415-1469</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>1360-1414</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>1275-1359</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>1190-1274</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>1020-1189</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td> < 1020</td>
   </tr>
 </table>
  ]]>
       </description>
       <category></category>
-      <guid>/syllabi/bmmb551</guid>
+      <guid>/syllabi/biol141</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biol 155</title>
+      <link>/syllabi/biol155</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  Biology 155 is a 3-credit lecture course designed to give both science and
+  non-science majors a basic understanding of the aging process, with special
+  emphasis on aging as it relates to the human body and health. The first third
+  of the course will discuss important aging terminology, methods of measuring
+  aging, current theories of the aging process, and research models used to
+  study aging. The later two thirds of the course will review aging as related
+  to specific body systems. As such, portions of lessons will review normal
+  anatomy (structure naming) and physiology (body function) of these body
+  systems. In this later section, details of both senescence and age-related
+  disease processes will be discussed.
+</p>
+<h2>Objectives</h2>
+<p>Upon completion of this course, you will have:</p>
+<ul>
+  <li>
+    Developed a functional understanding of how our bodies change over time
+  </li>
+  <li>
+    Gained a perspective on major diseases that affect our aging bodies
+  </li>
+  <li>
+    Understand how long-term, healthy living strategies and interventions,
+    started during young life, can potentially prolong life and add additional
+    healthy years to our lifespan
+  </li>
+</ul>
+<h2>Course Schedule</h2>
+<table>
+  <th>Lesson</th>
+  <th>Topic</th>
+  <tr>
+    <td>1</td>
+    <td>Getting Started</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Overview of Aging and Life Expectancy</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Theories of Aging</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Aging and Population Demography</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Cancer, Aging, and the Immune System</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Cutaneous Aging</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Aging of the Musculoskeletal System</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Mid-Course Exam</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>The Nervous System and Aging; Special Senses and Aging</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Special Senses and Aging</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Aging and the Cardiovascular System</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Aging of the Respiratory and Urinary Systems</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Endocrine Changes in the Elderly</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Reproductive System Aging</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Final Exam</td>
+  </tr>
+</table>
+
+<h2>Textbook</h2>
+<p>
+  Digovanna, Augustine. Human Aging, Biological Perspectives, 2nd edtion. McGraw
+  Hill.
+</p>
+<h2>Grading</h2>
+<p>
+  Your course grade will be based upon your performance on the lesson
+  assignments and two examinations. The lesson assignments will be 1/3 of the
+  final course grade, with the mid-course counting as 1/3 and the final counting
+  as the last 1/3. Examinations will have 30 multiple choice, matching and
+  true/false questions, worth 80% of the exam points, and the remaining 20% of
+  the exam points will be performance on a short essay and term definitions. The
+  mid-course exam will stress material developed in lesson assignments 2-7. The
+  final exam will stress material developed in lesson assignments 9-14, and will
+  not be comprehensive. That said, some broad concepts developed throughout the
+  course, could be found in some questions.
+</p>
+<table>
+  <th>Activity</th>
+  <th>% of Grade</th>
+  <tr>
+    <td>Lessons (average score)</td>
+    <td>33.3%</td>
+  </tr>
+  <tr>
+    <td>Mid-Course Exam</td>
+    <td>33.3%</td>
+  </tr>
+  <tr>
+    <td>Final Exam</td>
+    <td>33.3%</td>
+  </tr>
+</table>
+
+<h2>Grade Scale</h2>
+<table>
+  <th>Letter Grade</th>
+  <th>% Range</th>
+  <tr>
+    <td>A</td>
+    <td>93-100%</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>90-92%</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>87-89%</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>83-85%</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>80-82%</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>77-79%</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>70-76%</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>60-69%</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td> < 60%</td>
+  </tr>
+</table>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/biol155</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
@@ -986,6 +1693,281 @@
       </description>
       <category></category>
       <guid>/syllabi/biol120n</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bmmb 551</title>
+      <link>/syllabi/bmmb551</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  What is it in your DNA that makes you different from chimpanzees, mice or
+  flies? What sequences in your DNA make it more or less likely that you will
+  develop diabetes or cancer?
+</p>
+<p>
+  This course will remind students of the basic molecular biology of genes,
+  introduce them to major DNA sequencing technologies, and explore how genomic
+  technologies are informing principles of genome function globally, with a
+  strong emphasis on identifying genes and gene regulatory modules. Students
+  will use web-based bioinformatics tools for exploring genomic and epigenetic
+  data to complete assignments. Each student also will develop a project on a
+  topic in genomics that interests them. The goal of each project will be
+  determined mainly by the student’s interest; it can be research or
+  educational. The student will choose the medium used to convey the results of
+  his/her work. Employing traditional media such as term papers or oral
+  presentations is fine, and creative and effective use of popular media (games,
+  video, music, dance, etc.) is encouraged.
+</p>
+<p>
+  The course proceeds in two phases, first on the basics of genomics, and second
+  on the search for functional elements in genomes.
+</p>
+<h2>Objectives</h2>
+<p>
+  At the end of this course, you will successfully be able to do/perform the
+  following:
+</p>
+<ul>
+  <li>
+    Describe the range of genome sizes and structures of genomes in organisms
+  </li>
+  <li>
+    Use a wide range of sequence alignment tools with a strong appreciation of
+    the power and limitations of each for the task at hand
+  </li>
+  <li>
+    Use the community-supported online computational platform Galaxy to analyze
+    files with genomic data
+  </li>
+  <li>
+    Use online databases and resources to find information on genes,
+    physiologically relevant sets of genes, and entire sets of genes from an
+    organism
+  </li>
+  <li>
+    Predict gene structures in long genome sequences
+  </li>
+  <li>
+    Analyze processed results from massively parallel RNA determinations
+    (microarray and RNA-seq) to infer functional groups of genes
+  </li>
+  <li>
+    Interpret epigenetic patterns around individual genes and groups of genes to
+    infer function
+  </li>
+  <li>
+    Mesh results of genome-wide association studies of complex traits with
+    genomic and epigenetic information to improve interpretations
+  </li>
+</ul>
+<h2>Course Schedule</h2>
+<table>
+  <th>Week</th>
+  <th>Topic</th>
+  <tr>
+    <td>1</td>
+    <td>Introduction to course / Fundamentals of Molecular Genetics</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Fundamentals of Genomics</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Sequencing Technologies</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Aligning Biological Sequences</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Genome Databases and Browsers</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Analysis Platforms for Genomics: Galaxy</td>
+  </tr>
+  <tr>
+    <td>7-8</td>
+    <td>Protein-Coding Genes within Genomes</td>
+  </tr>
+  <tr>
+    <td>8-9</td>
+    <td>Transcribed Regions of Genomes</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Evolutionary Signatures of Function by Comparative Genomics</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Gene Regulatory Modules in Genome Sequences</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Other Non-protein-coding Functional Sequences in Genomes</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Finding Function by Phenotype</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Genome Editing</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Phenotyping After Genome Editing</td>
+  </tr>
+</table>
+
+<h2>Expectations</h2>
+<p>
+  Students should complete each of the lessons and a semester project. The
+  course will cover 14 lessons spread over the 15 weeks of the course. Each
+  lesson covers a topic, and it includes reading material, presentations, and
+  homework (no homework for lesson 14). Students should read the assigned texts,
+  listen to the presentations, and do the homework. The text material comes from
+  online textbooks, reviews and research articles. The presentations are
+  provided as VoiceThreads. These are a series of slides on each topic, with a
+  recorded presentation from the instructor. You can interact with the
+  VoiceThread, and ask questions or make additional points.
+</p>
+<p>
+  A homework assignment is made for 13 of the 14 lessons. Students should turn
+  in a report on their work on the assignment. Sometimes you have explicit
+  options on the assignment. You also can tailor the assignments to your
+  particular interests. If you think of an assignment related to the topic that
+  would be more meaningful or more interesting to you, it is very likely that I
+  will approve it. Please check in advance of the due dates.
+</p>
+<p>
+  Students will also complete a semester project. The student will chooses a
+  topic to present or a problem on which they want to work. It is a good idea to
+  discuss your interests with the instructor, so that the scope and content of
+  the project can be reasonable and meaningful. Using the material in the course
+  as a foundation, the student will define the topic or problem, gather
+  material, and analyze data (if appropriate) to describe the topic or solve the
+  problem. The student will make a report on the project by the end of the
+  semester. As stated above, the medium for presentation of the project will be
+  chosen by the student; creativity is welcome. Most reports are papers, but the
+  report can be a presentation (e.g. using the VoiceThread technology), a film,
+  a song, a comic book, a video game, a board game, a sculpture (all have been
+  done in the past), or other medium.
+</p>
+<h2>Grading</h2>
+<table>
+  <th>Assignment</th>
+  <th>Number</th>
+  <th>Points (each)</th>
+  <th>Total Points</th>
+  <th>% of Course Grade</th>
+  <tr>
+    <td>Final Project</td>
+    <td>1</td>
+    <td>250</td>
+    <td>250</td>
+    <td>25%</td>
+  </tr>
+  <tr>
+    <td>Quizzes / Exercises</td>
+    <td>13</td>
+    <td>50</td>
+    <td>750</td>
+    <td>75%</td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td></td>
+    <td></td>
+    <td>1000</td>
+    <td>100%</td>
+  </tr>
+</table>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/bmmb551</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bmmb 852</title>
+      <link>/syllabi/bmmb852</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  The purpose of this course is to provide students with a foundation in the
+  various applications of high-throughput sequencing including: chip-Seq,
+  RNA-Seq, SNP calling, metagenomics, de-novo assembly and others. The course
+  material will concentrate on presenting complete data analysis scenarios for
+  each of these domains of applications and will introduce students to a wide
+  variety of existing tools and techniques.
+</p>
+<h2>Objectives</h2>
+<p>By the end of the course work students will:</p>
+<ul>
+  <li>Understand common bioinformatics data formats and standards</li>
+  <li>
+    Become familiar with the practice of analyzing sequencing data from various
+    instruments
+  </li>
+  <li>
+    Develop the computationally oriented thinking that is necessary to take on
+    large-scale data analysis projects
+  </li>
+</ul>
+<h2>Lessons</h2>
+<p>
+  The Lessons will provide you with general background information and practical
+  examples that tie in with the topic. We will share some real life exercises
+  and the homework will give you a chance to apply what you have learned for
+  each lesson.
+</p>
+<p>We will cover five topics throughout the course:</p>
+<ul>
+  <li>
+    Core Informatics Competency
+  </li>
+  <li>
+    Computational Foundations
+  </li>
+  <li>
+    Biological Data Formats
+  </li>
+  <li>
+    Statistical Methods and Visualization
+  </li>
+  <li>
+    Software Tools and their Applications
+  </li>
+</ul>
+<h2>Assignments</h2>
+<p>
+  At the end of each lesson, there will be a homework to assess your
+  comprehension of the content.
+</p>
+<p>
+  Homework will usually fit on one sheet of paper. You will need to show the
+  commands and their output. You additionally can print screens, but please DO
+  NOT pring a console output of white text on black background!
+</p>
+<h2>Grading</h2>
+<p>
+  Your grade for the course will be the weighted average of all homeworks and a
+  final project.
+</p>
+<p>
+  The final project (weight-20%) will be similar, but more complex than a
+  typical homework and will require that you use the knowledge of the concepts
+  learned throughout the entire course.
+</p>
+<p>You may work in teams if you wish.</p>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/bmmb852</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
@@ -2177,823 +3159,6 @@
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
-      <title>Biol 155</title>
-      <link>/syllabi/biol155</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  Biology 155 is a 3-credit lecture course designed to give both science and
-  non-science majors a basic understanding of the aging process, with special
-  emphasis on aging as it relates to the human body and health. The first third
-  of the course will discuss important aging terminology, methods of measuring
-  aging, current theories of the aging process, and research models used to
-  study aging. The later two thirds of the course will review aging as related
-  to specific body systems. As such, portions of lessons will review normal
-  anatomy (structure naming) and physiology (body function) of these body
-  systems. In this later section, details of both senescence and age-related
-  disease processes will be discussed.
-</p>
-<h2>Objectives</h2>
-<p>Upon completion of this course, you will have:</p>
-<ul>
-  <li>
-    Developed a functional understanding of how our bodies change over time
-  </li>
-  <li>
-    Gained a perspective on major diseases that affect our aging bodies
-  </li>
-  <li>
-    Understand how long-term, healthy living strategies and interventions,
-    started during young life, can potentially prolong life and add additional
-    healthy years to our lifespan
-  </li>
-</ul>
-<h2>Course Schedule</h2>
-<table>
-  <th>Lesson</th>
-  <th>Topic</th>
-  <tr>
-    <td>1</td>
-    <td>Getting Started</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Overview of Aging and Life Expectancy</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Theories of Aging</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Aging and Population Demography</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Cancer, Aging, and the Immune System</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>Cutaneous Aging</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>Aging of the Musculoskeletal System</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>Mid-Course Exam</td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>The Nervous System and Aging; Special Senses and Aging</td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>Special Senses and Aging</td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>Aging and the Cardiovascular System</td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>Aging of the Respiratory and Urinary Systems</td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>Endocrine Changes in the Elderly</td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>Reproductive System Aging</td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>Final Exam</td>
-  </tr>
-</table>
-
-<h2>Textbook</h2>
-<p>
-  Digovanna, Augustine. Human Aging, Biological Perspectives, 2nd edtion. McGraw
-  Hill.
-</p>
-<h2>Grading</h2>
-<p>
-  Your course grade will be based upon your performance on the lesson
-  assignments and two examinations. The lesson assignments will be 1/3 of the
-  final course grade, with the mid-course counting as 1/3 and the final counting
-  as the last 1/3. Examinations will have 30 multiple choice, matching and
-  true/false questions, worth 80% of the exam points, and the remaining 20% of
-  the exam points will be performance on a short essay and term definitions. The
-  mid-course exam will stress material developed in lesson assignments 2-7. The
-  final exam will stress material developed in lesson assignments 9-14, and will
-  not be comprehensive. That said, some broad concepts developed throughout the
-  course, could be found in some questions.
-</p>
-<table>
-  <th>Activity</th>
-  <th>% of Grade</th>
-  <tr>
-    <td>Lessons (average score)</td>
-    <td>33.3%</td>
-  </tr>
-  <tr>
-    <td>Mid-Course Exam</td>
-    <td>33.3%</td>
-  </tr>
-  <tr>
-    <td>Final Exam</td>
-    <td>33.3%</td>
-  </tr>
-</table>
-
-<h2>Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% Range</th>
-  <tr>
-    <td>A</td>
-    <td>93-100%</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>90-92%</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>87-89%</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>83-85%</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>80-82%</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>77-79%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-76%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-69%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td> < 60%</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/biol155</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Biol 141</title>
-      <link>/syllabi/biol141</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  The human body is fascinating to most of us, presumably because we have a
-  rather vested interest in it. It is especially interesting when we include the
-  physiology of diseases, as diseases often represent good illustrations of the
-  systems not functioning properly. I have tried to include information that
-  will both sustain and stimulate your interest, as well as challenge you to
-  extend your knowledge outside this course. There are many good programs on the
-  Public Broadcasting System and cable TV as well as articles in magazines such
-  as Science News, Scientific American, Discover, Scientific American Science
-  and Medicine, and Natural History that illustrate the fascinating aspects of
-  human physiology. One of the goals of this course is to develop your ability
-  to understand the more complex scientific and medical advances that are
-  occurring with increasing frequency today.
-</p>
-<h2>Objectives</h2>
-<p>
-  This course is designed to cover the fundamentals of human physiology for
-  students in a variety of life science-related majors including Nursing,
-  Kinesiology, Athletic Training, and Science. By the time you complete this
-  course, you should:
-</p>
-<ul>
-  <li>Have a working knowledge and understanding of basic human physiology.</li>
-  <li>
-    Be able to apply these physiological principles to problem solving
-    situations as observed in medical situations, including cardiac problems,
-    hypertension, renal failure, acid-base balance disturbances, and endocrine
-    imbalances.
-  </li>
-  <li>
-    Have a practical understanding of physiology upon which you can build and
-    use in future clinical settings.
-  </li>
-</ul>
-<h2>Textbook</h2>
-<p>
-  Human Anatomy & Physiology, 10th Edition, by Elaine Marieb and Katja Hoehn,
-  Pearson Benjamin Cummings Publishers, 2016. ISBN: 9780321927040
-</p>
-<h2>Course Schedule</h2>
-<table>
-  <th>Lesson</th>
-  <th>Topic</th>
-  <tr>
-    <td>1</td>
-    <td>
-      Introduction to Physiology: Cell Chemistry, The Living Cell, Tissues and
-      Organ Systems
-    </td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>
-      Cell Growth, Reproduction, Nutrition, and Intermediary Metabolism
-    </td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>
-      Physiology of Muscles
-    </td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>
-      Nerve Impulse Physiology
-    </td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>
-      The Central Nervous System, The Peripheral Nervous System, The Autonomic
-      Nervous System, and The Special Senses
-    </td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>
-      The Endocrine System
-    </td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>
-      The Blood, The Cardiovascular System, and Capillary Exchange
-    </td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>
-      The Lymphatic System and The Immune System
-    </td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>
-      The Respiratory System
-    </td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>
-      The Digestive System
-    </td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>
-      The Urinary System and Regulation of Fluids, Electrolytes, and pH in the
-      Body
-    </td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>
-      The Reproductive Systems, Pregnancy, and Human Development
-    </td>
-  </tr>
-</table>
-
-<h2>Grading</h2>
-<p>
-  Your final grade will be based on your performance on the 12 lesson
-  assignments, four discussion forums, and two exams as shown below:
-</p>
-<table>
-  <th>Activity</th>
-  <th>Breakdown</th>
-  <th>Total Points</th>
-  <tr>
-    <td>Lesson Assignments</td>
-    <td>12 (100pts/each)</td>
-    <td>1200</td>
-  </tr>
-  <tr>
-    <td>Discussion Forums / Class Participation</td>
-    <td>4 (25pts/each)</td>
-    <td>100</td>
-  </tr>
-  <tr>
-    <td>Mid-Course Exam</td>
-    <td>1 (200pts)</td>
-    <td>200</td>
-  </tr>
-  <tr>
-    <td>Final Exam</td>
-    <td>1 (200pts)</td>
-    <td>200</td>
-  </tr>
-  <tr>
-    <td>Total</td>
-    <td></td>
-    <td>1700</td>
-  </tr>
-</table>
-
-<h2>Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>Points</th>
-  <tr>
-    <td>A</td>
-    <td>1580+</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>1530-1579</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>1470-1529</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>1415-1469</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>1360-1414</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>1275-1359</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>1190-1274</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>1020-1189</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td> < 1020</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/biol141</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Biol 133</title>
-      <link>/syllabi/biol133</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  This course is an overview of our current knowledge of human heredity, genetic
-  issues, genetic diseases, and human evolution. Background information that is
-  necessary for understanding these issues will be taught including cell
-  structure, the structure and function of DNA and chromosomes, patterns of
-  inheritance, population genetics, human evolution, and genetic technologies.
-  This course is intended for non-biology majors and does not include a detailed
-  analysis of human genetics. This course will include Canvas readings,
-  web-based readings and videos, and web-based interactive exercises. There are
-  ample opportunities for individual problem-solving while group assignments are
-  offered as discussion forums. Students will also research genetic conditions
-  and have the opportunity to share what they have learned.
-</p>
-<h2>Objectives</h2>
-<p>
-  By the end of this course students should have gained sufficient scientific
-  knowledge to…
-</p>
-<ul>
-  <li>
-    Read and describe popular science articles pertaining to genetic issues.
-  </li>
-  <li>Discuss genetic issues intelligently.</li>
-  <li>
-    Make informed decisions about genetic issues relating to their personal
-    health.
-  </li>
-  <li>
-    Illustrate the impact of genetic technologies on our everyday lives.
-  </li>
-  <li>
-    Identify where to find information and web pages relating to genetic issues.
-  </li>
-  <li>Summarize the major theories and findings of human evolution.</li>
-</ul>
-<h2>Materials</h2>
-<p>
-  All course materials can be accessed through Canvas, the PSU Learning
-  Management System. You will need your Penn State access account username and
-  password for access to Canvas. You do not need to purchase any textbook.
-</p>
-<h2>Format</h2>
-<p>Each week you will be expected to…</p>
-<ul>
-  <li>
-    Read the text on content pages of at least one module in our Canvas course
-    site.
-  </li>
-  <li>
-    Complete additional activities such as a web activity, a case study,
-    participate in a group discussion forum, or watch a short NOVA/PBS video and
-    answer questions about it.
-  </li>
-  <li>
-    Take a quiz after reading the text and completing the associated
-    assignments.
-  </li>
-  <li>
-    Complete all assignments by 11:00 PM Eastern time on Monday following each
-    week.
-  </li>
-</ul>
-<h2>Quizzes</h2>
-<p>
-  Quizzes consist of multiple choice and true/false questions based on the
-  weekly text readings and web assignments. These will be available in Canvas
-  for a designated period during which you may log in and open a quiz one time.
-  Your answers must be submitted within time frame specified for each quiz. For
-  one quiz, you will be required to use the PSU online proctoring system,
-  Examity. Please see additional specific information below.
-</p>
-<p>
-  In this class you will take one assessment that will be proctored by a service
-  called Examity®. Review the Student Quick-Guide, which is available in the
-  modules tab, for instructions on how to use Examity®. Please log in as soon as
-  possible to set up your profile. You will not be able to schedule exams until
-  your profile is complete.
-</p>
-<h2>Web Activities</h2>
-<p>
-  Web Activities are assigned for almost all modules via links to web resources
-  to learn more about a specific topic. Each web site has associated questions
-  to be submitted to Canvas to be evaluated for a grade.
-</p>
-<h2>Videos</h2>
-<p>
-  Several short videos produced by PBS NOVA are quite relevant to several of our
-  discussions. Watch each video and complete the associated quiz in Canvas.
-</p>
-<h2>Writing Assignment</h2>
-<p>
-  You must complete one writing assignment relating to genetic issues. This
-  writing should be approximately 500 words and be submitted via the appropriate
-  place in Canvas. Unless prior arrangements are made, late assignments will
-  have points deducted.
-</p>
-<h2>Case Studies</h2>
-<p>
-  Several short case studies will be completed during the course. These
-  exercises will give you the opportunity to apply your learning to a real life
-  situation.
-</p>
-<h2>Discussion Forums and Surveys</h2>
-<p>
-  Your participation in these will be awarded points. To encourage discussion,
-  opinions are welcomed and will not be graded.
-</p>
-<h2>Grading</h2>
-<p>
-  All assignments are worth approximately 500 total points. Weekly assignments
-  sets are due on Monday at 11:00PM Eastern Time. Late assignments will be
-  accepted for two weeks beyond the due date and 5 points will be deducted from
-  each assignment that is late. After two weeks the drop box for each assignment
-  will expire and no points will be awarded. Emergencies do arise, so please
-  contact Dr. Topper if you experience an emergency situation where you need
-  extra time to complete an assignment. Please do not put yourself in danger,
-  such as going out in the dark to find internet access to complete an
-  assignment. Each request will be considered on an individual basis. *No extra
-  credit will be offered. If you are concerned about your grade, please contact
-  Dr. Topper as quickly as possible and state your concerns.
-</p>
-<table>
-  <th>Assignment</th>
-  <th>Number</th>
-  <th>Points(Each)</th>
-  <th>Total Points</th>
-  <tr>
-    <td>Quizzes</td>
-    <td>~12</td>
-    <td>15-40</td>
-    <td>~250</td>
-  </tr>
-  <tr>
-    <td>Web Activities</td>
-    <td>11</td>
-    <td>10-20</td>
-    <td>~100</td>
-  </tr>
-  <tr>
-    <td>NOVA Videos</td>
-    <td>5</td>
-    <td>15-20</td>
-    <td>~80</td>
-  </tr>
-  <tr>
-    <td>Writing Assignments</td>
-    <td>1</td>
-    <td>35</td>
-    <td>35</td>
-  </tr>
-  <tr>
-    <td>Discussion Forums, Polls & Surveys</td>
-    <td>3</td>
-    <td>10</td>
-    <td>~30</td>
-  </tr>
-</table>
-
-<h2>Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>Percentage</th>
-  <tr>
-    <td>A</td>
-    <td>93-100%</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>90-92%</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>87-89%</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>83-86%</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>80-82%</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>77-79%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-76%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-69%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 60%</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/biol133</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Biol 127</title>
-      <link>/syllabi/biol127</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  Cellular structure and organization; physiological processes; classification;
-  reproduction and development; relationship of plant groups. Students who have
-  passed BIOL 240W may not schedule this course
-</p>
-<h2>Objectives</h2>
-<p>During the course of the semester, the student will:</p>
-<ul>
-  <li>
-    Develop critical thinking skills, gather credible information, question
-    ideas from a scientific viewpoint
-  </li>
-  <li>Learn and integrate terms and concepts in plant biology</li>
-  <li>
-    Understand how plant structure (cellular, organismal) and function
-    (biochemical) are tied together
-  </li>
-  <li>
-    Learn how plants and humans interact and the outcomes of this interaction
-  </li>
-  <li>
-    Develop laboratory skills to investigate plant evolution, anatomy, and
-    physiology
-  </li>
-  <li>
-    Design an experimental approach that addresses a concept in plant biology
-  </li>
-  <li>
-    Summarize, in the style of a scientific journal article, the design,
-    rationale, results, interpretation, and conclusions of a scientific
-    experiment or studyP
-  </li>
-</ul>
-<h2>Required Materials</h2>
-<ol>
-  <li>
-    Bidlack J., Jansky S., and Stern K. Stern’s Introductory Plant Biology, 13th
-    ed. ISBN-13: 978- 0073369440, ISBN-10: 0073369446
-  </li>
-  <li>
-    Carolina Biological Botany Lab Kits Purchase at:
-    https://www.carolina.com/carolina-distancelearning-science-kits/the-pennsylvania-state-university-introductory-plant-biology-biol-127/581864.pr
-  </li>
-  <li>
-    Digital camera with ability to upload pictures to Canvas
-  </li>
-</ol>
-<h2>Attendance / Participation</h2>
-<p>
-  You will be expected to check in every day or every other day for any
-  announcements or updates. The amount of time spent looking over the material
-  typically is correlated with quiz and exam grade: the more time spent studying
-  usually translates into a better grade. Although this is an online course, you
-  should expect to spend a similar amount of time on the material that you would
-  for an inperson class. The general rule for studying is as follows: for every
-  one hour of lecture, you should spend 2.5 to 3 hours studying the material.
-  That means for a three-credit course, you should spend 7.5 to 9 hours per week
-  studying and completing assignments if you intend to do well (“A” or “B”
-  level).
-</p>
-<h2>Labs</h2>
-<p>
-  You will complete 11 labs related to the material covered during that week.
-  The lab materials must be ordered through Carolina Biological Supplies, and
-  will be delivered to your home. The labs are designed for you to complete at
-  your home, with the exception of one lab, where you will be required to go to
-  a local park, arboretum, or botanical garden. Though in some cases the lab
-  will reinforce concepts covered in the book and in the PowerPoints, the lab
-  may also cover a unique topic. For this reason, material covered in lab
-  activities will be included on exams. If you have completed all 11 labs, only
-  your 10 best scores will count towards your grade.
-</p>
-<h2>Quizzes</h2>
-<p>
-  Each week one or more short quizzes covering that week’s chapter contents must
-  be completed. The quizzes are designed to ensure that you keep up with your
-  reading and study. The quizzes will be in a true/false, matching, or
-  multiple-choice type format and are intended to reinforce the main concepts in
-  each chapter. Utilize the weekly objectives as a study guide for the quizzes
-  and exams. These quizzes will only be open for a limited time, so do not go
-  for extended periods of time (days, weeks) without having logged into the
-  course. I typically do not re-open quizzes unless in the case of technical
-  difficulties from my end. If you miss one or a few quizzes, this will not
-  negatively affect your grade. If you have taken all 23 quizzes, only your 20
-  best scores will count towards your grade.
-</p>
-<h2>Video Discussions</h2>
-<p>
-  During the semester, you will watch two documentaries: The Botany of Desire,
-  broken into four parts of 30 minutes each, and America’s Lost Landscape: The
-  Tallgrass Prairie which is 60 minutes. This is a total of five discussion
-  forums. For each forum, you will be asked to post a response or answers
-  questions. Your first post is due 24 hours prior to the due date for the
-  assignment. If the post is late, no points will be awarded (see discussion
-  instructions in the week 1 module on Canvas for more detailed instructions).
-  The discussions are worth 25 points each.
-</p>
-<h2>Lab Report</h2>
-<p>
-  One lab will require that you write a formal lab report. This is meant to give
-  you practice at scientific writing. You will complete a peer-review draft, a
-  rough draft, and a final draft (see the instruction in the Effects of Ethylene
-  on Fruit Ripening Lab and the individual Lab Report assignments on Canvas for
-  more details).
-</p>
-<h2>Exams</h2>
-<p>
-  During the semester, you will have three exams and a final exam over the
-  material covered. These exams will include true/false, multiple-choice, and/or
-  matching questions; in addition there may be diagrams to label and/or short
-  free-response questions. Exams will cover material for each “unit”: Exam 1
-  will cover material from the beginning of the course until the first exam,
-  Exam 2 will cover material after Exam 1 until the second exam, and so forth.
-  The final will be similar in format to the midterm exams. The only differences
-  will be that the final will be slightly (about 50%) longer, and will be
-  cumulative. The cumulative section will be about 33% of the final, and the
-  remainder will be material covered after the third midterm. All exams will be
-  delivered online, but they will be proctored, using Examity (see Examity
-  section under University Policies). You will have a window of about 72 hours
-  to take your exam, but you must schedule it in advance through the Examity tab
-  in Canvas. If you make changes to your scheduled exam time less than 24 hours
-  before the start of the exam window, Examity will charge you a fee of $3.
-</p>
-<h2>Grade Distribution</h2>
-<table>
-  <th>Assignment</th>
-  <th>Breakdown</th>
-  <th>Points</th>
-  <th>Drop</th>
-  <tr>
-    <td>Labs</td>
-    <td>11 x 25pts</td>
-    <td>225</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Chapter Quizzes</td>
-    <td>23 x 5pts</td>
-    <td>100</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Video Discussions</td>
-    <td>5 x 25pts</td>
-    <td>125</td>
-    <td>N/A</td>
-  </tr>
-  <tr>
-    <td>Lab Report</td>
-    <td>1 x 100pts</td>
-    <td>100</td>
-    <td>N/A</td>
-  </tr>
-  <tr>
-    <td>Exams</td>
-    <td>3 x 100pts</td>
-    <td>300</td>
-    <td>N/A</td>
-  </tr>
-  <tr>
-    <td>Final Exam</td>
-    <td>1 x 150pts</td>
-    <td>150</td>
-    <td>N/A</td>
-  </tr>
-</table>
-
-<h2>Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>Points</th>
-  <tr>
-    <td>A</td>
-    <td>930-1000</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>900-929</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>870-899</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>830-869</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>800-829</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>770-799</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>700-769</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>600-699</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 599</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/biol127</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
       <title>Biol 125N</title>
       <link>/syllabi/biol125n</link>
       <description>
@@ -3198,13 +3363,389 @@
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
-      <title>Contingency</title>
-      <link>/contingency</link>
+      <title>BiSc 003</title>
+      <link>/syllabi/bisc003</link>
       <description>
-          <![CDATA[ <p>Contingency page!</p> ]]>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  The purpose of BI SC 003 is to help you prepare for living in the 21st century
+  in a sustainable way. Through the course, you will come to realize that you
+  are dependent upon and supported by natural systems, without which life on
+  earth could not exist. By presenting ideas and concepts about living systems
+  and their environment, it is hoped that an understanding of these biological
+  and ecological principles and their application towards current environmental
+  problems will give you the confidence to be a trustworthy instrument for
+  healthy development, a conscientious steward of nature and an agent of change
+  towards a sustainable society.
+</p>
+<h2>Objectives</h2>
+<ul>
+  <li>
+    Evaluate your worldview (your own personal belief system), which shapes the
+    way you currently think about the environment and environmental issues.
+  </li>
+  <li>
+    Outline important events in the history of environmentalism.
+  </li>
+  <li>
+    Explain basic ecological concepts and natural laws of matter and energy and
+    how they relate to environmental issues.
+  </li>
+  <li>
+    Classify and describe biomes in the United States.
+  </li>
+  <li>
+    Discuss causes, effects and solutions to these major environmental issues:
+  </li>
+  <ul>
+    <li>
+      Overpopulation
+    </li>
+    <li>
+      Food Production
+    </li>
+    <li>
+      Habitat Destruction
+    </li>
+    <li>
+      Urbanization and Urban Sprawl
+    </li>
+    <li>
+      Energy Use and Abuse
+    </li>
+    <li>
+      Preservation of Biodiversity
+    </li>
+    <li>
+      Conservation of erreplaceable Natural Resources
+    </li>
+    <li>
+      Global Climate Change
+    </li>
+    <li>
+      Water Use and Abuse
+    </li>
+    <li>
+      Solid Waste Management
+    </li>
+    <li>
+      Affluenza and Overconsumption
+    </li>
+  </ul>
+  <li>
+    Use critical thinking and evaluate environmental information sources.
+  </li>
+  <li>
+    Apply information and tools necessary to minimize your environmental impact
+    in meaningful ways if you choose to do so.
+  </li>
+</ul>
+<h2>Course Materials</h2>
+<p>
+  The following text book is required. It may be purchased from MBS Direct, or
+  rented/purchased from other sources:
+</p>
+<ul>
+  <li>
+    Principles of Environmental Science: Inquiry and Applications, 8th Edition,
+    Cunningham and Cunningham, published by McGraw-Hill, 2016. ISBN:
+    9780078036071
+  </li>
+  <li>
+    MBS Direct: Loose-Leaf version of the same book. ISBN: 9781260722666. You
+    can buy or rent either version.
+  </li>
+</ul>
+<h2>Reading and Lectures</h2>
+<p>
+  For each of the 12 lessons in this course you should read the assigned
+  chapter(s) in the text book and watch/listen to a 20-25 minute lecture located
+  on the course web-site, or read the transcript of the lecture.
+</p>
+<h2>Exams</h2>
+<p>
+  There will be two proctored exams in this course, one mid-course exam covering
+  lessons 1-6, and one final exam covering lessons 7-12. Each exam will be
+  available in Canvas for a 7 day period as outlined in the course schedule. You
+  will only be able to open each exam once and you will then have 2 hours to
+  complete all the questions. The exams will be proctored with Examity and you
+  are not permitted to use the text book or notes while taking the exams. Exam
+  questions will assess your understanding of the course materials.
+</p>
+<p>
+  Each exam consists of 40 multiple choice questions worth 3 points each (total
+  120 points), and 8 short answer questions worth 10 points each (total 80
+  points). Each exam is 200 points total and 20% of the course grade.
+</p>
+<p>
+  Exam Late Submission Policy: If you miss the exam deadline you may contact the
+  instructor to ask to take a make-up exam. Unless you have a valid, documented
+  reason for missing the exam period you will lose 10% per day taking the exam
+  late.
+</p>
+<h2>Assignments</h2>
+<p>
+  For each of the 12 lessons there will be 1-3 assignments. See course schedule
+  for due dates for individual assignments.
+</p>
+<p>
+  Course Introduction Activities (25 points): During week 1 you will complete
+  several course introduction activities:
+</p>
+<ul>
+  <li>
+    Class introduction, post in “Class Introductions” discussion forum (1 point)
+  </li>
+  <li>
+    Examity Profil and Mid-course Exam scheduling (1 point)
+  </li>
+  <li>
+    Syllabus quiz (2 points)
+  </li>
+  <li>
+    Academic Integrity Contract (1 point)
+  </li>
+  <li>
+    Complete pre-course environmental science quiz and submit comments to this
+    quiz in drop box. The purpose is to see how much you already know about
+    environmental issues and no worries; you can get full credit for this
+    activity even with a low score on the quiz (10 points).
+  </li>
+  <li>
+    Evaluating Information Sources (10 points).
+  </li>
+</ul>
+<h2>Discussion Forums (15- 30 points)</h2>
+<p>
+  In the discussion forums you will get a chance to discuss environmental issues
+  with your classmates. You will write your answer to a set of questions in a
+  short essay format and post this in the discussion forum, in addition to
+  replying to at least two of your classmates’ posts (one in the information
+  literacy discussion, three in climate change discussion). Participate by the
+  deadlines outlined in the course schedule.
+</p>
+<p>
+  Grading Criteria: To obtain full credit for participation in the discussion
+  forums you need to post well-written, reflective main response that meets all
+  the requirements outlined in description, and write at least two (three in
+  climate change discussion) substantial replies to your classmates’ postings. A
+  simple "I agree with you" is not enough, you should instead try to ask
+  thought-provoking questions, add supporting information, or state your
+  opposing views that contributes to your classmates’ learning.
+</p>
+<h2>Quizzes (10-30 points each)</h2>
+<p>
+  Each quiz will consist of multiple choice and short answer questions. Quizzes
+  are open book/notes and there is no time limit. Submit by the deadlines
+  outlined in the course schedule.
+</p>
+<h2>Case Studies (20 points each)</h2>
+<p>
+  You will research one specific example that relates to a topic covered in the
+  required reading/lecture and summarize your findings in a 300-500 word essay.
+</p>
+<ol>
+  <li>
+    The history of the Environmental Movement - Choose one person or
+    organization
+  </li>
+  <li>
+    Endangered or Invasive Species - choose one species
+  </li>
+  <li>
+    Deforestation - choose one country
+  </li>
+</ol>
+<p>
+  Submit in assignment folders by the deadlines outlined in the course schedule.
+  Note: The originality of your case study assignments will be checked through
+  Turnitin.
+</p>
+<p>
+  Grading Criteria: Full credit will be awarded if all the requirements outlined
+  in the description are met, all questions are answered correctly/ thoroughly
+  and assignment is submitted by the deadline. See grading rubrics for more
+  detail.
+</p>
+<h2>Video Assignments (15-20 points each)</h2>
+<p>
+  You will watch one or several short videos that relate to topics covered in
+  the required reading/lecture and then answer a set of questions. Submit in
+  drop box by deadlines outlined in the course schedule.
+</p>
+<p>
+  Grading Criteria: Full credit will be awarded if all questions are answered
+  correctly/thoroughly and submitted by the deadline.
+</p>
+<h2>Projects (15-50 points each)</h2>
+<ol>
+  <li>
+    Biodiversity (30 points): Surveying biodiversity in your neighborhood or
+    nearby natural ecosystem (going for a walk and web research)
+  </li>
+  <li>
+    Food (20 points): Keeping track of and evaluating the impact of the food you
+    eat (kitchen, potentially restaurants, and web research)
+  </li>
+  <li>
+    Energy (50 points): Researching pros and cons of non-renewable and renewable
+    energy source
+  </li>
+  <li>
+    Ecological Footprint (15 points): Calculating your ecological footprint
+    (web-activity). Submit in drop box by deadlines outlined in the course
+    schedule.
+  </li>
+</ol>
+<p>
+  Grading Criteria: Full credit will be awarded if all the requirements outlined
+  in the description are met, all questions are answered correctly/ thoroughly
+  and assignment is submitted by the deadline. See grading rubrics for more
+  detail.
+</p>
+<h2>Extra Credit – Polls/Surveys (2 points each)</h2>
+<p>
+  Throughout the semester you will get a chance to participate in a few
+  polls/surveys. You will get 2 extra credit points for each poll/survey you
+  participate in if you do so by the corresponding lesson’s submission deadline.
+  Zero points for late participation in polls/surveys. There will also be a 10
+  extra credit point discussion forum associated with lesson 12.
+</p>
+<p>
+  Use proper English when writing assignments, participating in class
+  discussions and completing exams; achieving competence in the use of the
+  English language is one of the objectives of general education at Penn State.
+  Improper use of the English language, including more than a few minor spelling
+  and grammatical errors, will adversely affect your grade.
+</p>
+<h2>Grading</h2>
+<p>
+  This course consists of 12 lessons. For each lesson you will read one (or two)
+  chapter(s) in the text book, watch a power point lecture and complete 1-3
+  assignments. Assignments associated with each lesson add up to approximately
+  50 points. 15 points are associated with the course introductory activities.
+  See course format for assignment descriptions and course schedule for
+  deadlines for each assignment.
+</p>
+<table>
+  <th>Assignment Type</th>
+  <th>Number Assigned</th>
+  <th>Points Each</th>
+  <th>Total Points</th>
+  <th>% of Course Grade</th>
+  <tr>
+    <td>Exams</td>
+    <td>2</td>
+    <td>200</td>
+    <td>400</td>
+    <td>40%</td>
+  </tr>
+  <tr>
+    <td>Quizzes</td>
+    <td>9</td>
+    <td>10-35</td>
+    <td>160</td>
+    <td>16%</td>
+  </tr>
+  <tr>
+    <td>Discussion Forums</td>
+    <td>10</td>
+    <td>15-30</td>
+    <td>185</td>
+    <td>17.5%</td>
+  </tr>
+  <tr>
+    <td>Case Studies</td>
+    <td>3</td>
+    <td>20</td>
+    <td>60</td>
+    <td>6%</td>
+  </tr>
+  <tr>
+    <td>Projects</td>
+    <td>4</td>
+    <td>15-50</td>
+    <td>65</td>
+    <td>6.5%</td>
+  </tr>
+  <tr>
+    <td>Video Assignments</td>
+    <td>4</td>
+    <td>15-20</td>
+    <td>65</td>
+    <td>6.5%</td>
+  </tr>
+  <tr>
+    <td>Course Introduction Activities</td>
+    <td>5</td>
+    <td>1-10</td>
+    <td>25</td>
+    <td>2.5%</td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td>36</td>
+    <td>N/A</td>
+    <td>1000 pts</td>
+    <td>100%</td>
+  </tr>
+</table>
+
+<h2>Grade Scale</h2>
+<table>
+  <th>Grade</th>
+  <th>Percentage</th>
+  <th>Points</th>
+  <tr>
+    <td>A</td>
+    <td>92-100</td>
+    <td>920-1000</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>90-91.9</td>
+    <td>900-919</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>88-89.9</td>
+    <td>880-899</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>82-87.9</td>
+    <td>829-879</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>80-81.9</td>
+    <td>800-819</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>78-79.9</td>
+    <td>780-799</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>70-77.9</td>
+    <td>700-779</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>60-69.9</td>
+    <td>600-699</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>< 60</td>
+    <td>< 600</td>
+  </tr>
+</table>
+ ]]>
       </description>
       <category></category>
-      <guid>/contingency</guid>
+      <guid>/syllabi/bisc003</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
@@ -3506,682 +4047,6 @@
       </description>
       <category></category>
       <guid>/syllabi/biol110</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Biol 11</title>
-      <link>/syllabi/biol11</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  You are a biological being, as are the foods that you eat. We use products
-  from other organisms to make many of the clothes that we wear, build our
-  homes, provide medicines, and give beauty to our lives. Therefore, developing
-  an appreciation and understanding of the biological world is important to
-  living in this world and becoming a responsible steward of its resources. Who
-  hasn't watched a bird and wondered what it would be like to be able to fly? To
-  see the world from a different perspective? This course will provide an
-  introduction to fundamental biological topics (including cells, energy
-  transduction, genetics, evolution, organismal structure/function, ecology) for
-  non-majors in biology-related fields.
-</p>
-<h2>Objectives</h2>
-<p>
-  By the time you complete this course, you should have learned about the
-  following:
-</p>
-<ul>
-  <li>
-    The role of natural selection, which shapes organisms in response to their
-    environment through differential reproduction.
-  </li>
-  <li>
-    The mechanisms of inheritance, and how DNA encodes the genetic information
-    for all living organisms.
-  </li>
-  <li>
-    The chemical basis of life, the origin of life on Earth, the structure and
-    function of the two basic types of cells, and how cells utilize energy.
-  </li>
-  <li>
-    The fundamentals of plant biology, including plant structure, response, and
-    reproduction.
-  </li>
-  <li>
-    The basic organization of the animal body, with a focus on the digestive and
-    reproductive systems.
-  </li>
-  <li>
-    How organisms interact with each other and their environment, and how human
-    activities have modified the environment for other organisms.
-  </li>
-</ul>
-<h2>Course Schedule</h2>
-<table>
-  <th>Week</th>
-  <th>Topic</th>
-  <tr>
-    <td>1</td>
-    <td>Course Orientation</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Evolution and Ecology</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>The Chemistry of Life</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Cells</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Exam 1</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>Energy & Life</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>How Cells Divide</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>Exam 2</td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>Foundations of Genetics</td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>How Genes Work</td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>Evolution and Natural Selection</td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>Exam 3</td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>Plant Biology</td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>The Animal Body</td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>Ecosystems</td>
-  </tr>
-  <tr>
-    <td>16</td>
-    <td>Exam 4</td>
-  </tr>
-</table>
-
-<h2>Discussion Forums</h2>
-<p>
-  Throughout the 11 lessons in this course, you will be expected to participate
-  in discussions on a weekly basis. There are 15 participation points available
-  for each lesson, for a total of 165 points. The quality of your participation
-  will determine how many points you earn. If you fully answer the questions
-  posted, in an original post with no quotes or copy and paste, then you will
-  earn 7 pts. If you make 2 substantial replies to your classmates’ posts, then
-  you will earn 4 pts each (8 pts total) for a total of 7 + 8 = 15 pts for each
-  weekly discussion forum. No late submissions accepted. If you run into any
-  difficulties, please email me asap.
-</p>
-<h2>Quizzes</h2>
-<p>
-  Throughout the 11 lessons in this course, you will be expected to participate
-  in multiple choice quizzes on a weekly basis. These short quizzes are to help
-  you understand and apply the material being learned that week. You have one
-  chance to take each untimed quiz before the weekly deadline. Upon submission
-  of your completed quiz, it will be automatically graded, at 10 pts for each
-  quiz.
-</p>
-<h2>Exams</h2>
-<p>
-  Students are expected to take exams at the scheduled times. You will have
-  plenty of advance warning as to when the exams are to take place. Please see
-  the calendar. Contact me if there is a problem. Only
-  legitimate excuses shall warrant a makeup exam to be taken as soon as
-  possible. Legitimate excuses can include, but are not limited to, illness,
-  family emergencies, trips, get called into work. Sleeping through the alarm is
-  NOT a legitimate excuse! Neither is ‘my car broke down’ (bring me your
-  mechanic’s bill) or ‘my ISP wasn’t working’----the least you can do is be
-  creative! Each open, multiple choice exam is worth 100 pts and automatically
-  graded after submission. No proctors required---but Penn State’s Academic
-  Integrity policy is in effect. Upon submission of each exam, you are agreeing
-  to abide by Penn State’s Academic Integrity policy.
-</p>
-<h2>Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% Range</th>
-  <th>Points</th>
-  <tr>
-    <td>A</td>
-    <td>92-100%</td>
-    <td>621-675</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>90-91.9%</td>
-    <td>608-620</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>88-89.9%</td>
-    <td>594-607</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>82-87.9%</td>
-    <td>554-593</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>80-81.9%</td>
-    <td>540-553</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>78-79.9%</td>
-    <td>527-539</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-77.9%</td>
-    <td>473-526</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-69.9%</td>
-    <td>405-472</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 60%</td>
-    <td>< 405</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/biol11</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>BiSc 004</title>
-      <link>/syllabi/bisc004</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  This course combines Human Anatomy, which is the study of parts of the human
-  body, with Human physiology, which is the study of how parts of the body work
-  together to make the body function. It is an introductory course for
-  non-science majors, and it is hoped that you will develop a basic
-  understanding about the human body that you will find useful when dealing with
-  your own or a family member’s injury or illness in the future.
-</p>
-<h2>Assignments</h2>
-<p>
-  All students are expected to complete the weekly assignments on time. These
-  will be available for at least one week so budget your time accordingly. You
-  are not able to complete all of your work for a month at one time and be done.
-  This course is paced so you can progress through at a reasonable speed.
-</p>
-<p>
-  Each week there will be at least one lesson for you to study. Each lesson will
-  have one quiz, one homework assignment, and textbook assignment (LearnSmart
-  modules, Labs, etc.). Be aware that some weeks there may be more than one
-  lesson, thus more than one quiz and homework/textbook assignments. Each of
-  these have specific due dates listed on the folder in which you find them.
-</p>
-<p>
-  You may complete the homework and textbook assignments early as they will be
-  available from the start of the semester. However, each quiz has a definite
-  shelf life. Quizzes are meant to activate on a Saturday and deactivate on the
-  following Sunday. That means you have more than a week to complete it. At no
-  other time will you be able to view or complete quizzes, it is impossible to
-  open up the quiz for a single person. The only exception to this is an
-  instance of the quiz being improperly configured. If I short the class on time
-  due an incorrect setting I will open up the quiz for additional time and
-  everyone will have an opportunity to then complete it. However, that has been
-  a rare event (but if it happens, notify the instructor). Pay attention to due
-  dates, each assignment has one listed with the folder for that week.
-</p>
-<p>
-  The quizzes are set to overlap so you can manage your schedule if you happen
-  to be away from a computer for an entire weekend. If you know that will happen
-  then either get things out of the way very early or make it a point to finish
-  the following weekend. Missing an assignment should never happen if you manage
-  your time properly. You will be entirely responsible for your time and
-  scheduling.
-</p>
-<p>
-  The weekly quizzes will be timed so it will not be possible to look up the
-  answers to these questions at your leisure. The expectation is that you will
-  study the content, gain some level of mastery of the terminology and take the
-  tests to see how well you know everything. You are not to have access to
-  sources of information when you take these tests, they are not open book.
-</p>
-<p>
-  The homework assignments may be completed ahead of schedule but not after the
-  due date. Being late a day or two will result in a late penalty. Homework
-  turned in after that will result in a zero. Homework assignments should not be
-  copied from any other source, cited correctly or not. Many assignments will
-  have you finding information from sources including the internet, however, a
-  cut and paste job does not equal effort. Googling information is not
-  considered an academic achievement.
-</p>
-<p>
-  Everything you write is expected to be your own work, not something you find
-  and copy from the internet. It's perfectly clear when students have
-  plagiarized a paragraph from a web page. It only takes 30 minutes to find a
-  few web sites about a topic and then write up a summary of what you find.
-  Don't risk University sanctions and an F for a homework assignment that should
-  take less than an hour. See the statement on academic integrity for further
-  information.
-</p>
-<h2>Late Assignments / Technical Difficulites</h2>
-<p>
-  Since you have seven days in which to submit homework, and take a quiz, I will
-  not accept illness or technical difficulties as an excuse to make up missed
-  work. The only exception to this would be an extended hospitalization stay.
-  All quizzes and homework message boards are available at the beginning of of
-  the course. The due dates listed with each assignment are the last days that a
-  quiz or homework assignment is available. To avoid missing deadlines, submit
-  your work early and avoid waiting until the last evening at 11:55 pm to submit
-  your homework or take a quiz. Your internet dropping out at the last possible
-  minute to submit work is not a reasonable cause for being unable to complete
-  work in a timely manner. Do not turn in work at the last possible minute. No
-  scores will be dropped. Work cannot be turned in for a higher grade once a
-  grade is assigned. There will be no opportunities to turn in extra work for
-  extra credit. Be prepared to do the necessary work to reach your goals for a
-  final grade.
-</p>
-<h2>Submitting Your Work</h2>
-<p>
-  All course work will be submitted to your instructor through Canvas. To do
-  this, you will need to:
-</p>
-<ul>
-  <li>Click on the Modules button in the menu bar at the left of this page</li>
-  <li>Choose the folder for the week we are currently in</li>
-  <li>Click on the homework assignment for the week</li>
-  <li>Type your answer into the text box</li>
-  <li>Click "submit assignment"</li>
-  <li>
-    At the appropriate time click on the quiz for that week and complete it
-    within the time specified or it will automatically submit whether you are
-    finished or not
-  </li>
-</ul>
-<h2>Grading</h2>
-<p>
-  The Grading Scale can be found in the Getting Started section of Canvas. All
-  grades can be found in Canvas by going to the Grades button on the left hand
-  side.
-</p>
-<p>
-  Each lesson has a quiz that will vary in length between 10 and 20 points each.
-  Some will be longer than others depending on the amount of material covered in
-  a particular lesson.
-</p>
-<p>
-  Each quiz question is worth 1 point out of the total. Every question is worth
-  exactly the same as any other question; only the length of the quiz each week
-  will vary. Do not think in terms of percentage points here, this will be a
-  point system based on total points.
-</p>
-<p>
-  Students will work on these assignments as an individual and will be
-  responsible for completing them on time. Late assignments will have a
-  deduction, assignments more than a couple of days late will not be accepted.
-  Once we reach the end of the course it will not be possible to go back and
-  complete work that is outdated by weeks or even months. Keep up on assignments
-  to gain maximum points.
-</p>
-<p>
-  Grades are based on a combination of quizzes where each question is worth one
-  point and various homework assignments worth a handful of points. All students
-  are expected to complete the weekly quizzes on time. These will be available
-  for at least one week so budget your time accordingly. You are not able to
-  take all your tests at one time and be done. This course is paced so you can
-  progress through at a reasonable speed.Each homework assignment has a specific
-  number of points associated with it.
-</p>
-<p>
-  Any questions concerning a particular quiz or homework assignment must be
-  resolved immediately. You cannot wait till the end of the semester to correct
-  any problems. Due to time constraints, it will be impossible to review all
-  assignments on the last day in the hope of finding one or two points to meet a
-  grade cutoff. You should ask that all grading issues be resolved as they occur
-  during the semester. No exams will be dropped; no extra credit will be
-  accepted. It's impossible to evaluate hundreds of book reports or shoebox
-  dioramas.
-</p>
-<h2>Deferred Grades</h2>
-<p>
-  Students who are unable to complete the course because of illness or emergency
-  may be granted a deferred grade which will allow the student to complete the
-  course within the first six weeks of the following semester.
-</p>
-<p>
-  When a request for a deferred grade is supported by the instructor, the
-  instructor indicates this approval by recording the deferred grade symbol (DF)
-  for the student. The expiration date for the deferred grade is automatically
-  recorded as the end of the sixth week of the next semester. Spring semester
-  approvals expire during the fall semester unless the student enrolls during
-  summer session. Therefore, course requirements must be completed and a grade
-  must be submitted by the end of six weeks into the student’s next semester for
-  which he or she is registered. Any deferred grade that is not replaced by the
-  deadline will automatically become an F.
-</p>
-<p>
-  Note that deferred grades are limited to those students who can verify and
-  document a valid reason for not being able to complete the last few
-  assignments, not for gaining extra time to complete missing work from earlier
-  in the semester. Students are expected to have completed at least 75% of the
-  course assignments to be eligible for a deferment. For more information see DF
-  grade.
-</p>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/bisc004</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chem 202</title>
-      <link>/syllabi/chem202</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  CHEM 202 is a one-semester, comprehensive course that introduces the students
-  to the fundamental principles of organic chemistry including relationships
-  between the molecular structure of organic compounds and their macroscopic
-  properties. Some of the principles are illustrated with a variety of examples
-  from nature and everyday life. The course covers the following topics:
-  alkanes; alkenes, including polymers; alkynes; benzene and aromaticity;
-  alcohols and phenols; ethers; aldehydes; ketones; carboxylic acids and their
-  acyl derivatives; amines; alkyl halides; nomenclature; stereochemistry,
-  including conformational analysis and chirality. Chemical reactions of the
-  functional groups will be discussed along with the mechanistic details,
-  including stereospecificity, of some of these processes. Biological molecules
-  such as carbohydrates, lipids, steroids, peptides/proteins and nucleic acids,
-  along with their importance in living systems, will be surveyed.
-</p>
-<p>
-  To achieve these goals, we will study the structure and function of organic
-  molecules with emphasis on their physical properties and chemical
-  reactivities. An understanding of the structure and function of various
-  functional groups is essential to master the content of this course.
-</p>
-<h2>Objectives</h2>
-<p>When you successfully complete this course, you will be able to:</p>
-<ul>
-  <li>
-    Draw chemical structures for any given chemical formula and be able to name
-    the molecules based on IUPAC nomenclature rules.
-  </li>
-  <li>
-    Identify and draw constitutional and conformational structural isomers for a
-    given formula or structure, including stereoisomers and geometric isomers
-    and understand the relationship between them.
-  </li>
-  <li>
-    Describe bonding- ionic, covalent, hydrogen bonding and van der Waals
-    bonding and understand the concept of hybridization leading to single and
-    multiple covalent bonding.
-  </li>
-  <li>
-    Differentiate between bonding, non-bonded interactions and inductive effects
-    in the determination of physical properties such as bond polarity, boiling
-    points and solubility.
-  </li>
-  <li>
-    Name all classes of molecules. Nomenclature of alkanes, alkenes, alkyl
-    halides, aromatic compounds, alcohols, ethers, aldehydes, ketones,
-    carboxylic acids and derivatives of carboxylic acids is important.
-  </li>
-  <li>
-    Write chemical reactions and know chemical reagents, reactants and products
-    for reactions of alkanes, alkyl halides, alcohols, ethers, aromatic
-    compounds, aldehydes, ketones, amines, carboxylic acids and derivatives.
-  </li>
-  <li>
-    Write stepwise reaction mechanisms for nucleophilic substitution reactions
-    (SN1 and SN2), elimination reactions (E1 and E2), electrophilic aromatic
-    substitutions, nlectrophilic acyl substitution reactions and addition
-    reactions, including polymerizations.
-  </li>
-  <li>
-    Identify enantiomers and diastereomers (meso), optically activity, racemes;
-    E/Z geometrical isomers for unsaturated compounds.
-  </li>
-</ul>
-<h2>Materials</h2>
-<ul>
-  <li>
-    Fundamentals of Organic Chemistry, by John McMurry, and Eric Simanek. 7th
-    edition. Thomson Brooks/Cole. Date published 2011. ISBN-13: 9781439049716.
-  </li>
-  <li>
-    Fundamentals of Organic Chemistry Study Guide and Solutions Manual, by
-    McMurry, Susan. 7th edition. Illustrated. Some students find this
-    useful.Thomson Brooks/Cole. Date published: 2011. ISBN-13: 9781439049723.
-    (optional)
-  </li>
-  <li>
-    Models: A molecular model set is often useful. Recommended Set - Molecular
-    Model Set A for Organic Chemistry [Allyn & Bacon (Prenctice Hall)]. ISBN:
-    9780205081363. (optional)
-  </li>
-</ul>
-<h2>Course Schedule</h2>
-<table>
-  <th>Week</th>
-  <th>Topic(s)</th>
-  <tr>
-    <td>1</td>
-    <td>Structure and Bonding</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Functional Groups and Conformations</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Alkene Structure, Isomerism & Reactions</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Additions to Alkenes, Reaction Mechanism</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Aromatic Compounds, Aromaticity, Reactions & Mechanisms</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>
-      Stereochemistry, Chirality-enatiomers, Diastereomers, and Meso compounds
-    </td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>
-      Alkyl Halides
-    </td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>
-      Midterm Exam
-    </td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>
-      Alcohols, Phenols, Ethers
-    </td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>
-      Aldehydes and Ketones
-    </td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>
-      Carboxylic Acid and Derivatives
-    </td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>
-      Amines
-    </td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>
-      Carbohydrate Structure and Function
-    </td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>
-      Amino acids, Peptides, Proteins. Lipids and Nucleic acids
-    </td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>
-      Final Exam
-    </td>
-  </tr>
-</table>
-
-<h2>Lesson Structure</h2>
-<p>
-  Each Lesson contains narrated introductory slides (the PowerPoint slides have
-  an audio component), a quiz, and slides from Office Hours.
-</p>
-<h2>
-  Non-proctored, Non-timed Quiz Assignments (220 points)
-</h2>
-<p>(13 x 20 points each / Drop the two lowest / 60 minutes per attempt)</p>
-<p>
-  Each lesson will conclude with a quiz which is based on the learning goals
-  listed at the end of the Narrated Introductory Slides. If you know how to
-  solve the homework problems, you will be able to solve a set of the homework
-  problems assigned as a quiz. The best 11 quiz grades will be count. Quiz
-  assignments will not be proctored and have to be completed by the due date and
-  time. It will be open for one week. A Blackboard Collaborate session will be
-  held weekly to discuss the solutions to the quiz questions.
-</p>
-<h2>Proctored, Timed Midterm Exam (150 points)</h2>
-<p>
-  On materials learned in Lesson 1 - 7
-</p>
-<p>
-  Students will complete an online, multiple-choice exam consisting of questions
-  that will be similar in scope to those given in the quiz assignments. Students
-  are NOT allowed to refer to the lessons, the textbook, or their notes to
-  complete the exam. Students are not allowed to consult with another person
-  while working on the exam. Canvas allows a limited amount of time to complete
-  the exam and students are requested to complete the exam within the time
-  allotted.
-</p>
-<h2>Proctored, Timed, Comprehensive, Final Exam (200 points)</h2>
-<p>
-  Students will complete an online, multiple-choice exam consisting of questions
-  that will be similar in scope to those given in the homework assignments. This
-  exam will be proctored, and students are not allowed to refer to the lessons,
-  the textbook, or their notes to complete the exam. Students are not allowed to
-  consult with another person while working on the exam. Canvas allows a limited
-  amount of time to complete the exam and students are requested to complete the
-  exam within the time allotted.
-</p>
-<h2>Grading</h2>
-<table>
-  <th>Assignment</th>
-  <th>Course Points</th>
-  <tr>
-    <td>Midterm</td>
-    <td>150</td>
-  </tr>
-  <tr>
-    <td>Quizzes (13 at 20 points each, lowest 2 scores dropped)</td>
-    <td>220</td>
-  </tr>
-  <tr>
-    <td>Final Exam</td>
-    <td>200</td>
-  </tr>
-  <tr>
-    <td>Total</td>
-    <td>570</td>
-  </tr>
-</table>
-
-<h2>Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% of Course Points</th>
-  <tr>
-    <td>A</td>
-    <td>92-100%</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>90-91%</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>88-89%</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>82-87%</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>80-81%</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>78-79%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-77%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-69%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td> < 60%</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/chem202</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
   </channel>
