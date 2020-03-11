@@ -594,48 +594,19 @@
             "order": 1,
             "parent": "spotlight",
             "title": "Faculty Spotlight: Louis Leblond",
-            "description": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacin",
+            "description": "Louis Leblonde is the Director of Online Education in Physics. With a strong passion for all things education (research and online), he teaches large enrollment intro physics courses and has worked tirelessly to enhance them with engaging, accessible, and innovative materials.",
             "metadata": {
                 "fields": {
                     "name": "Louis Leblond",
                     "image": "files\/feature-images\/louis_feature.jpg",
                     "imageAlt": "Director of Online Education in Physics, Louis Leblond - discussing git workflow at a university conference.",
                     "jobTitle": "Director of Online Education in Physics",
-                    "authorId": "melissa"
+                    "authorId": "chuck"
                 },
                 "created": 1655387200,
-                "updated": 1655387200,
-                "author": "Melissa Hicks",
-                "authorImage": "files\/odl-team\/melissa.jpg",
-                "type": "spotlight",
-                "template": "spotlight",
-                "tags": [
-                    "Spotlight",
-                    "Education",
-                    "Learning"
-                ]
-            }
-        },
-        {
-            "id": "Joe1",
-            "indent": 1,
-            "location": "pages\/spotlight\/joe\/index.html",
-            "order": 2,
-            "parent": "spotlight",
-            "title": "Faculty Spotlight: Joe Houck",
-            "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim.Quisque velit nisi, pretium ut lacin",
-            "metadata": {
-                "fields": {
-                    "name": "Joe Houck",
-                    "image": "files\/feature-images\/joe_feature.jpg",
-                    "imageAlt": "Joe Houck with students at Penn State",
-                    "jobTitle": "Associate Teaching Professor, Chemistry",
-                    "authorId": "melissa"
-                },
-                "created": 1755387500,
-                "updated": 1580843984,
-                "author": "Melissa Hicks",
-                "authorImage": "files\/odl-team\/melissa.jpg",
+                "updated": 1583942512,
+                "author": "Charles Lavera",
+                "authorImage": "files\/odl-team\/chuck.jpg",
                 "type": "spotlight",
                 "template": "spotlight",
                 "tags": [
@@ -646,12 +617,18 @@
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 0,
-                    "paragraphs": 4,
-                    "schema": [],
+                    "paragraphs": 6,
+                    "schema": [
+                        {
+                            "resource": "#ff04a88e-140c-185a-7bef",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        }
+                    ],
                     "tags": {
-                        "p": 4
+                        "p": 6,
+                        "video-player": 1
                     },
-                    "elements": 4
+                    "elements": 7
                 }
             }
         },

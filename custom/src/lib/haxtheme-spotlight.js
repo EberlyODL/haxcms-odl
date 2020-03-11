@@ -148,6 +148,19 @@ class HaxThemeSpotlight extends PolymerElement {
         margin-right: var(--haxtheme-blog-iron-image-author-image-margin-right, 10px);
         @apply --haxtheme-blog-iron-image-author-image;
       }
+
+      #spotlight_image {
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: right center;
+          min-height: 24vw;
+        }
+
+        @media screen and (max-width: 768px) {
+          #spotlight_image {
+            min-height: 40vw;
+        }
+      }
   
       #taxonomy {
         display: var(--haxtheme-blog-taxonomy-display, flex);
@@ -226,6 +239,8 @@ class HaxThemeSpotlight extends PolymerElement {
                 <a href="/sites/haxcms-odl/team-directory/[[activeItem.metadata.fields.authorId]]">[[activeItem.metadata.author]]</a> 
               </div>
             </div>
+          </div>
+          <div id="spotlight_image" style$="background-image:url([[activeItem.metadata.fields.image]])">
           </div>
           <div id="contentcontainer">
               <div id="slot">
