@@ -24,7 +24,7 @@ services:
         order: start-first
 
   hax-forms-service:
-    image: heymp/hax-forms-service:9d7219ba57f8a4316a52971db47555e5a7520812
+    image: heymp/hax-forms-service:89a105e93f6f40a97f43609b3af2b7d6f5cf768e
     networks:
       - traefik-public
     environment:
