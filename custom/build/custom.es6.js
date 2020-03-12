@@ -6795,6 +6795,57 @@ class HaxThemeSpotlight extends PolymerElement {
 }
 window.customElements.define(HaxThemeSpotlight.tag, HaxThemeSpotlight);
 
+class HaxthemeResources extends LitElement {
+  /**
+   * LitElement constructable styles enhancement
+   */
+  static get styles() {
+    return [css``];
+  }
+  render() {
+    return html$1`
+      ${this.activeItem
+        ? html$1`
+            <page-banner
+              image="files/theme-images/page-banners/news_banner.jpg"
+              text="${this.activeItem.title}"
+              alt=""
+            ></page-banner>
+            <div id="container"><slot></slot></div>
+          `
+        : html$1``}
+    `;
+  }
+
+  static get tag() {
+    return "haxtheme-resources";
+  }
+  static get properties() {
+    return {
+      activeItem: {
+        type: Object
+      }
+    };
+  }
+  constructor() {
+    super();
+    this.__disposer = [];
+    this.activeItem = null;
+    autorun(reaction => {
+      this.activeItem = toJS(store.activeItem);
+      console.log(this.activeItem);
+      this.__disposer.push(reaction);
+    });
+  }
+  disconnectedCallback() {
+    for (var i in this.__disposer) {
+      this.__disposer[i].dispose();
+    }
+    super.disconnectedCallback();
+  }
+}
+window.customElements.define(HaxthemeResources.tag, HaxthemeResources);
+
 class WorksheetDownload extends LitElement {
   static get properties() {
     return {
@@ -8112,7 +8163,7 @@ class PageTopBar extends LitElement {
     if (alert === true) {
       return html$1`
        <div id="alert">
-        <alert-message url="contingency">
+        <alert-message url="resources/contingency">
           Information about Coronavirus and Contingency Planning
         </alert-message>
        </div>
@@ -8667,8 +8718,8 @@ tr:hover {
     <haxtheme-service-lab id="lab" edit-mode$="[[editMode]]"></haxtheme-service-lab>
     <haxtheme-service-pedagogy id="pedagogy" edit-mode$="[[editMode]]"></haxtheme-service-pedagogy>
     <haxtheme-service-multimedia id="multimedia" edit-mode$="[[editMode]]"></haxtheme-service-multimedia>
-    <haxtheme-contingency id="contingency" edit-mode$="[[editMode]]"></haxtheme-contingency>
     <haxtheme-spotlight id="spotlight" edit-mode$="[[editMode]]"></haxtheme-spotlight>
+    <haxtheme-resources id="resources" edit-mode$="[[editMode]]"></haxtheme-resources>
 </iron-pages>
 <scroll-button></scroll-button>
 <page-footer></page-footer>`;
@@ -8797,6 +8848,8 @@ tr:hover {
             target = "about";
           } else if (location.route.path.startsWith("spotlight/")) {
             target = "spotlight";
+          } else if (location.route.path.startsWith("resources/")) {
+            target = "resources";
           }
           break;
       }
@@ -8811,6 +8864,7 @@ tr:hover {
    * Notice active item changed state
    */
   _locationChanged(location) {
+    console.log(location.route.name);
     if (typeof location !== typeof undefined) {
       var target;
       switch (location.route.name) {
@@ -8836,6 +8890,10 @@ tr:hover {
           break;
         case "contact":
           this.selectedPage = 5;
+          target = location.route.name;
+          break;
+        case "resources":
+          this.selectedPage = 15;
           target = location.route.name;
           break;
           default:
@@ -8865,13 +8923,14 @@ tr:hover {
               } else if (routePath.startsWith("/multimedia")) {
                 this.selectedPage = 13;
                 target = "multimedia";
-              } else if (routePath.startsWith("/contingency")) {
-                this.selectedPage = 14;
-                target = "contingency";
               } else if (routePath.startsWith("/spotlight/")) {
-                this.selectedPage = 15;
+                this.selectedPage = 14;
                 target = "spotlight";
+              } else if (routePath.startsWith("/resources/")) {
+                this.selectedPage = 15;
+                target = "resources";
               }
+              
               break;
           }
       if (target) {

@@ -4002,17 +4002,30 @@
             }
         },
         {
+            "id": "resources",
+            "indent": 0,
+            "location": "pages\/resources\/index.html",
+            "order": 5,
+            "parent": null,
+            "title": "Resources",
+            "description": "",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1544543594
+            }
+        },
+        {
             "id": "contingency",
             "indent": 0,
-            "location": "pages\/contingency\/index.html",
-            "order": 11,
-            "parent": null,
+            "location": "pages\/resources\/contingency\/index.html",
+            "order": 1,
+            "parent": "resources",
             "title": "Contingency",
             "description": "",
             "metadata": {
                 "created": 1541517755,
                 "updated": 1541517755,
-                "type": "contingency"
+                "type": "resources"
             }
         }
     ]
