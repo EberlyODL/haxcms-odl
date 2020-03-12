@@ -272,7 +272,8 @@
     font-weight: var(--odl-haxtheme-h2-font-weight);
   }
 
-  
-
-
+  /* hide-recaptcha */
+  .grecaptcha-badge{
+    visibility: collapse !important;  
+  } 
   
