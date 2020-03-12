@@ -67,7 +67,7 @@ class PageTopBar extends LitElement {
     if (alert === true) {
       return html`
        <div id="alert">
-        <alert-message url="contingency">
+        <alert-message url="resources/contingency">
           Information about Coronavirus and Contingency Planning
         </alert-message>
        </div>
