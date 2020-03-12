@@ -4023,6 +4023,9 @@
             "title": "Contingency",
             "description": "",
             "metadata": {
+                "fields": {
+                    "image": "files/resource-images/contingency.jpg"
+                },
                 "created": 1541517755,
                 "updated": 1541517755,
                 "type": "resources"

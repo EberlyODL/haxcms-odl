@@ -15,7 +15,7 @@ class HaxthemeResources extends LitElement {
       ${this.activeItem
         ? html`
             <page-banner
-              image="files/theme-images/page-banners/news_banner.jpg"
+              image="${this.background}"
               text="${this.activeItem.title}"
               alt=""
             ></page-banner>
@@ -32,6 +32,9 @@ class HaxthemeResources extends LitElement {
     return {
       activeItem: {
         type: Object
+      },
+      background: {
+        type: String
       }
     };
   }
@@ -39,9 +42,19 @@ class HaxthemeResources extends LitElement {
     super();
     this.__disposer = [];
     this.activeItem = null;
+    this.background = "files/theme-images/page-banners/news_banner.jpg";
     autorun(reaction => {
       this.activeItem = toJS(store.activeItem);
-      console.log(this.activeItem)
+
+      let background = "files/theme-images/page-banners/news_banner.jpg";
+      if (toJS(store.activeItem.metadata)) {
+        if (toJS(store.activeItem.metadata.fields)) {
+          if (toJS(store.activeItem.metadata.fields.image)) {
+            background = toJS(store.activeItem.metadata.fields.image);
+          }
+        }
+      }
+      this.background = background;
       this.__disposer.push(reaction);
     });
   }
