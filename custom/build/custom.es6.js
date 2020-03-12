@@ -1847,6 +1847,139 @@ class ODLPromoTile extends PromoTile {
 }
 window.customElements.define(ODLPromoTile.tag, ODLPromoTile);
 
+/**
+ * Copyright 2019 The Pennsylvania State University
+ * @license Apache-2.0, see License.md for full text.
+ */
+/**
+ * `site-menu`
+ * `Menu hierarchy`
+ */
+class ResourcesSidemenu extends LitElement {
+  /**
+   * LitElement constructable styles enhancement
+   */
+  static get styles() {
+    return [
+      css`
+        :host {
+          display: block;
+          height: 100vh;
+        }
+      `
+    ];
+  }
+  /**
+   * Store the tag name to make it easier to obtain directly.
+   */
+  static get tag() {
+    return "resources-sidemenu";
+  }
+  /**
+   * HTMLElement life cycle
+   */
+  constructor() {
+    super();
+    import('../../build/es6/node_modules/@lrnwebcomponents/map-menu/map-menu.js');
+    this.hideActiveIndicator = false;
+    this.preventAutoScroll = false;
+    this.trackIcon = "";
+    this.__disposer = [];
+    this.topLevel = null;
+    autorun(reaction => {
+      this.__updateMenu(Object.assign({}, toJS(store.routerManifest)));
+      this.__disposer.push(reaction);
+    });
+  }
+    /**
+   * LitElement life cycle - properties definition
+   */
+  static get properties() {
+    return {
+      /**
+       * Manifest with router / location enhancements
+       */
+      routerManifest: {
+        type: Object
+      },
+      /**
+       * acitvely selected item
+       */
+      activeId: {
+        type: String,
+        attribute: "active-id"
+      },
+      /**
+       * Binding for active indicator and auto scrolling
+       */
+      hideActiveIndicator: {
+        type: Boolean,
+        attribute: "hide-active-indicator"
+      },
+      /**
+       * prevent the automatic scrolling when items become active
+       */
+      preventAutoScroll: {
+        type: Boolean,
+        attribute: "prevent-auto-scroll"
+      },
+      /**
+       * allow for visualizing the tracking of page requests
+       */
+      trackIcon: {
+        type: String,
+        attribute: "track-icon"
+      },
+      /**
+       * Where to start from
+       */
+      topLevel: {
+        type: String
+      }
+    };
+  }
+  /**
+   * LitElement life cycle - render callback
+   */
+  render() {
+    return html$1`
+      <map-menu
+        .selected="${this.activeId}"
+        .manifest="${this.routerManifest}"
+        ?active-indicator="${!this.hideActiveIndicator}"
+        selected="${this.activeId}"
+        ?auto-scroll="${!this.preventAutoScroll}"
+        @active-item="${this.mapMenuActiveChanged}"
+      ></map-menu>
+    `;
+  }
+  firstUpdated(changedProperties) {
+    // executing this here ensures that the timing is correct with highlighting the active item in the menu
+    autorun(reaction => {
+      this.activeId = toJS(store.activeId);
+      this.__disposer.push(reaction);
+    });
+  }
+  disconnectedCallback() {
+    for (var i in this.__disposer) {
+      this.__disposer[i].dispose();
+    }
+    super.disconnectedCallback();
+  }
+  __updateMenu(routerManifest) {
+    let _manifest = routerManifest;
+
+    // figure out where to start
+    if (this.topLevel && this.topLevel !== "") {
+      const topLevelObject = this.routerManifest.items.find(i => this.id === this.topLevel);
+      console.log(topLevelObject);
+    }
+    console.log('_manifest:', _manifest);
+    this.routerManifest = _manifest;
+  }
+}
+window.customElements.define(ResourcesSidemenu.tag, ResourcesSidemenu);
+
 class HaxThemeHome extends PolymerElement {
   static get template() {
     return html`
@@ -2049,6 +2182,7 @@ class HaxThemeHome extends PolymerElement {
           location="metadata.fields.subject"
         ></content-listing>
       </div>
+      <resources-sidemenu></resources-sidemenu>
     `;
   }
   static get tag() {
