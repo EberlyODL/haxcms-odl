@@ -24,7 +24,7 @@ services:
         order: start-first
 
   hax-forms-service:
-    image: heymp/hax-forms-service:5ebf87b963622d9817ea0324a44fee661267d24b
+    image: heymp/hax-forms-service:next
     command: 'yarn run dev'
     networks:
       - traefik-public
