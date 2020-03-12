@@ -24,7 +24,7 @@ services:
         order: start-first
 
   hax-forms-service:
-    image: heymp/hax-forms-service:a1b89b63a95d8a36423bbc85179e389dff24e47f
+    image: heymp/hax-forms-service:5ebf87b963622d9817ea0324a44fee661267d24b
     command: 'yarn run dev'
     networks:
       - traefik-public
@@ -49,6 +49,7 @@ services:
         order: start-first
     secrets:
       - odl_hax_form_email_password
+      - odl_recaptcha_secret
 
 secrets:
   odl_hax_form_email_password:
