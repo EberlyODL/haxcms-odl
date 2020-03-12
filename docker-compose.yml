@@ -36,6 +36,7 @@ services:
       - EMAIL_FROM_ADDRESS='ODL Website'<odlformsservice@gmail.com>
       - EMAIL_TO_ADDRESS=mgp140@gmail.com
       - EMAIL_SUBJECT=ODL Form Submission
+      - RECAPTCHA_SECRET=odl_recaptcha_secret
     deploy:
       labels:
         - "traefik.enable=true"
@@ -51,6 +52,8 @@ services:
 
 secrets:
   odl_hax_form_email_password:
+    external: true
+  odl_recaptcha_secret:
     external: true
 
 networks:
