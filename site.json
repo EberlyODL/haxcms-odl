@@ -4011,7 +4011,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/resources-banner.jpg"
+                    "image": "files/resource-images/resources-banner.jpg",
+                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1544543594
@@ -4027,7 +4028,44 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/contingency.jpg"
+                    "image": "files/resource-images/contingency.jpg",
+                    "alt": "Empty classroom chairs. Photo by: Nathan Dumlao - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
+            "id": "obs",
+            "indent": 0,
+            "location": "pages\/resources\/obs\/index.html",
+            "order": 2,
+            "parent": "resources",
+            "title": "One Button Studio",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files/resource-images/obs-banner.jpg",
+                    "alt": "Studio Lights. Photo by: William F. Santos - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
+            "id": "examity",
+            "indent": 0,
+            "location": "pages\/resources\/examity\/index.html",
+            "order": 3,
+            "parent": "resources",
+            "title": "Examity",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files/resource-images/examity-banner.jpg",
+                    "alt": ""
                 },
                 "created": 1541517755,
                 "updated": 1541517755,

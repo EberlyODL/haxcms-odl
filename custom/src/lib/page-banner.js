@@ -23,7 +23,7 @@ class PageBanner extends PolymerElement {
             right center
           );
           width: var(--haxtheme-page-banner-image-wrap-width, 100%);
-          min-height: var(--haxtheme-page-banner-image-wrap-min-height, 32vw);
+          min-height: var(--haxtheme-page-banner-image-wrap-min-height, 28vw);
           display: var(--haxtheme-page-banner-image-wrap-display, flex);
           justify-content: var(
             --haxtheme-page-banner-image-wrap-justify-content,
