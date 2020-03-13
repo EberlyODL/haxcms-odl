@@ -1,60 +1,66 @@
-import { LitElement, html, css } from "lit-element/lit-element.js";
+import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
 import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js";
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
 import "./page-banner.js";
 
-class HaxthemeResources extends LitElement {
-  /**
-   * LitElement constructable styles enhancement
-   */
-  static get styles() {
-    return [css``];
-  }
-  render() {
+class HaxThemeResources extends PolymerElement {
+  static get template() {
     return html`
-      ${this.activeItem
-        ? html`
-            <page-banner
-              image="${this.background}"
-              text="${this.activeItem.title}"
-              alt=""
-            ></page-banner>
-            <div id="container"><slot></slot></div>
-          `
-        : html``}
-    `;
-  }
+    <style>
+      :host {
+        display: block;
+      }
 
+    </style>
+    
+    <page-banner image="[[activeItem.metadata.fields.image]]" text="[[activeItem.title]]" alt="Gateway to the Sciences"></page-banner>
+    <div id="blog_wrap">
+      <div class="blog_container">
+        <div id="blog_inner_wrap">
+            <site-breadcrumb></site-breadcrumb>
+          <div class="publish_credentials">
+            <div class="title">
+              <h1>[[activeItem.title]]</h1>
+            </div>
+          </div>
+          <div id="contentcontainer">
+              <div id="slot">
+                <slot></slot>
+              </div>
+            </div>
+        </div>
+        <div class="sidebar_wrap">
+          <div id="news_archive">
+            <site-recent-content-block
+              title="News Archive"
+              conditions='{"metadata.type": {
+                          "value": ["spotlight", "news"],
+                          "operator": "=="
+              }}'
+              limit="5"
+            >
+            </site-recent-content-block>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>`;
+  }
   static get tag() {
     return "haxtheme-resources";
   }
-  static get properties() {
-    return {
-      activeItem: {
-        type: Object
-      },
-      background: {
-        type: String
-      }
-    };
-  }
+  
+
   constructor() {
     super();
+    import("@polymer/iron-image/iron-image.js");
+    import("@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-menu-button.js");
+    import("@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-breadcrumb.js");
+    import("@lrnwebcomponents/haxcms-elements/lib/ui-components/blocks/site-recent-content-block.js");
+    import("@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-print-button.js");
     this.__disposer = [];
-    this.activeItem = null;
-    this.background = "files/theme-images/page-banners/news_banner.jpg";
     autorun(reaction => {
       this.activeItem = toJS(store.activeItem);
-
-      let background = "files/theme-images/page-banners/news_banner.jpg";
-      if (toJS(store.activeItem.metadata)) {
-        if (toJS(store.activeItem.metadata.fields)) {
-          if (toJS(store.activeItem.metadata.fields.image)) {
-            background = toJS(store.activeItem.metadata.fields.image);
-          }
-        }
-      }
-      this.background = background;
       this.__disposer.push(reaction);
     });
   }
@@ -65,5 +71,5 @@ class HaxthemeResources extends LitElement {
     super.disconnectedCallback();
   }
 }
-window.customElements.define(HaxthemeResources.tag, HaxthemeResources);
-export { HaxthemeResources };
+window.customElements.define(HaxThemeResources.tag, HaxThemeResources);
+export { HaxThemeResources };

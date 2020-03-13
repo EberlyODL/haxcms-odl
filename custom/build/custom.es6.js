@@ -6795,58 +6795,64 @@ class HaxThemeSpotlight extends PolymerElement {
 }
 window.customElements.define(HaxThemeSpotlight.tag, HaxThemeSpotlight);
 
-class HaxthemeResources extends LitElement {
-  /**
-   * LitElement constructable styles enhancement
-   */
-  static get styles() {
-    return [css``];
-  }
-  render() {
-    return html$1`
-      ${this.activeItem
-        ? html$1`
-            <page-banner
-              image="${this.background}"
-              text="${this.activeItem.title}"
-              alt=""
-            ></page-banner>
-            <div id="container"><slot></slot></div>
-          `
-        : html$1``}
-    `;
-  }
+class HaxThemeResources extends PolymerElement {
+  static get template() {
+    return html`
+    <style>
+      :host {
+        display: block;
+      }
 
+    </style>
+    
+    <page-banner image="[[activeItem.metadata.fields.image]]" text="[[activeItem.title]]" alt="Gateway to the Sciences"></page-banner>
+    <div id="blog_wrap">
+      <div class="blog_container">
+        <div id="blog_inner_wrap">
+            <site-breadcrumb></site-breadcrumb>
+          <div class="publish_credentials">
+            <div class="title">
+              <h1>[[activeItem.title]]</h1>
+            </div>
+          </div>
+          <div id="contentcontainer">
+              <div id="slot">
+                <slot></slot>
+              </div>
+            </div>
+        </div>
+        <div class="sidebar_wrap">
+          <div id="news_archive">
+            <site-recent-content-block
+              title="News Archive"
+              conditions='{"metadata.type": {
+                          "value": ["spotlight", "news"],
+                          "operator": "=="
+              }}'
+              limit="5"
+            >
+            </site-recent-content-block>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>`;
+  }
   static get tag() {
     return "haxtheme-resources";
   }
-  static get properties() {
-    return {
-      activeItem: {
-        type: Object
-      },
-      background: {
-        type: String
-      }
-    };
-  }
+  
+
   constructor() {
     super();
+    import('../../build/es6/node_modules/@polymer/iron-image/iron-image.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-menu-button.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-breadcrumb.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/blocks/site-recent-content-block.js');
+    import('../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-print-button.js');
     this.__disposer = [];
-    this.activeItem = null;
-    this.background = "files/theme-images/page-banners/news_banner.jpg";
     autorun(reaction => {
       this.activeItem = toJS(store.activeItem);
-
-      let background = "files/theme-images/page-banners/news_banner.jpg";
-      if (toJS(store.activeItem.metadata)) {
-        if (toJS(store.activeItem.metadata.fields)) {
-          if (toJS(store.activeItem.metadata.fields.image)) {
-            background = toJS(store.activeItem.metadata.fields.image);
-          }
-        }
-      }
-      this.background = background;
       this.__disposer.push(reaction);
     });
   }
@@ -6857,7 +6863,7 @@ class HaxthemeResources extends LitElement {
     super.disconnectedCallback();
   }
 }
-window.customElements.define(HaxthemeResources.tag, HaxthemeResources);
+window.customElements.define(HaxThemeResources.tag, HaxThemeResources);
 
 class WorksheetDownload extends LitElement {
   static get properties() {
@@ -7684,88 +7690,6 @@ class HaxThemeContact extends PolymerElement {
   }
 }
 window.customElements.define(HaxThemeContact.tag, HaxThemeContact);
-
-class HaxThemeContingency extends PolymerElement {
-  static get template() {
-    return html`
-      <style>
-        #content-wrap {
-          width: 80%;
-          margin: 0 auto 0 auto;
-        }
-        
-        h1 {
-          font-size: 36px;
-          font-weight: 400;
-        }
-
-        h2 {
-          font-size: 24px;
-          font-weight: 400;
-        }
-
-        @media screen and (max-width: 768px) {
-          h1 {
-            font-size: 28px;
-          }
-        }
-
-        #header {
-          border-left: solid;
-          border-left-width: 4px;
-          border-left-color: #e2801e;
-          padding-left: 15px;
-          margin: 0 0 25px 0;
-        }
-
-        .description {
-          font-size: 18px;
-          font-weight: 300;
-          line-height: 1.4;
-        }
-      </style>
-      <page-banner
-        image="files/theme-images/page-banners/contingency.jpg"
-        text="Contingency"
-        alt="Empty classroom auditorium. Photo by: Nathan Dumlao - unsplash.com"
-      ></page-banner>
-      <div id="content-wrap">
-        <div id="header">
-          <h1>Contingency Planning</h1>
-          <div class="description">
-            What would happen if there was a huge snowstorm that shut down most
-            of the Northeast? What if there was a zombie apocolypse? What if you
-            simply get ill and can't come to class? What would you do? Our
-            office is here to help you get your content where everyone can
-            access it without the need for being physically present.
-          </div>
-        </div>
-      </div>
-    `;
-  }
-  static get tag() {
-    return "haxtheme-contingency";
-  }
-  connectedCallback() {
-    super.connectedCallback();
-    this.__disposer = [];
-    autorun(reaction => {
-      this.manifest = toJS(store.routerManifest);
-      this.__disposer.push(reaction);
-    });
-    autorun(reaction => {
-      this.activeItem = toJS(store.activeItem);
-      this.__disposer.push(reaction);
-    });
-  }
-  disconnectedCallback() {
-    for (var i in this.__disposer) {
-      this.__disposer[i].dispose();
-    }
-    super.disconnectedCallback();
-  }
-}
-window.customElements.define(HaxThemeContingency.tag, HaxThemeContingency);
 
 class LinkPreview extends LitElement {
   static get styles() {
@@ -8905,10 +8829,10 @@ tr:hover {
           this.selectedPage = 5;
           target = location.route.name;
           break;
-        case "resources":
-          this.selectedPage = 15;
-          target = location.route.name;
-          break;
+        // case "resources":
+        //   this.selectedPage = 15;
+        //   target = location.route.name;
+        //   break;
           default:
               // normalize the route path so that this logic works on sub directory / multi-site setup
               const routePath = location.route.path.startsWith("/") ? location.route.path : `/${location.route.path}`;
@@ -8939,7 +8863,7 @@ tr:hover {
               } else if (routePath.startsWith("/spotlight/")) {
                 this.selectedPage = 14;
                 target = "spotlight";
-              } else if (routePath.startsWith("/resources/")) {
+              } else if (routePath.startsWith("/resources")) {
                 this.selectedPage = 15;
                 target = "resources";
               }
