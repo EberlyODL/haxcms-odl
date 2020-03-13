@@ -39,9 +39,9 @@ class ResourcesSidemenu extends LitElement {
     this.preventAutoScroll = false;
     this.trackIcon = "";
     this.__disposer = [];
-    this.topLevel = null;
+    this.toplevel = null;
     autorun(reaction => {
-      this.__updateMenu(Object.assign({}, toJS(store.routerManifest)));
+      this.__updateMenu(toJS(store.routerManifest));
       this.__disposer.push(reaction);
     });
   }
@@ -87,7 +87,7 @@ class ResourcesSidemenu extends LitElement {
       /**
        * Where to start from
        */
-      topLevel: {
+      toplevel: {
         type: String
       }
     };
@@ -110,7 +110,9 @@ class ResourcesSidemenu extends LitElement {
   firstUpdated(changedProperties) {
     // executing this here ensures that the timing is correct with highlighting the active item in the menu
     autorun(reaction => {
-      this.activeId = toJS(store.activeId);
+      setTimeout(() => {
+        this.activeId = toJS(store.activeId);
+      }, 2000)
       this.__disposer.push(reaction);
     });
   }
@@ -124,12 +126,23 @@ class ResourcesSidemenu extends LitElement {
     let _manifest = routerManifest
 
     // figure out where to start
-    if (this.topLevel && this.topLevel !== "") {
-      const topLevelObject = this.routerManifest.items.find(i => this.id === this.topLevel);
-      console.log(topLevelObject);
+    const topLevelObject = routerManifest.items.find(i => i.id === "resources");
+    let newManifestItems = []
+    const _assembleChildren = (_item) => {
+      newManifestItems = [ ...newManifestItems, _item]
+      if (_item.children) {
+        if (_item.children.length > 0) {
+          for (let _child of _item.children) {
+            return _assembleChildren(_child);
+          }
+        }
+      }
     }
-    console.log('_manifest:', _manifest)
-    this.routerManifest = _manifest;
+    _assembleChildren(topLevelObject);
+    console.log(assembleChildren(topLevelObject))
+    let newManifestItems = [ ...assembleChildren(topLevelObject)]
+
+    this.routerManifest = Object.assign({}, _manifest, { items: newManifestItems })
   }
 }
 window.customElements.define(ResourcesSidemenu.tag, ResourcesSidemenu);
