@@ -17,6 +17,7 @@ import '../../build/es6/node_modules/@polymer/iron-iconset-svg/iron-iconset-svg.
 import '../../build/es6/node_modules/@polymer/polymer/lib/elements/dom-if.js';
 import { HAXWiring } from '../../build/es6/node_modules/@lrnwebcomponents/hax-body-behaviors/lib/HAXWiring.js';
 import '../../build/es6/node_modules/@polymer/paper-button/paper-button.js';
+import { SiteTopMenu } from '../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-top-menu.js';
 
 class HomePageBanner extends PolymerElement {
   static get template() {
@@ -8733,6 +8734,46 @@ window.customElements.define(PageFooter.tag, PageFooter);
  * Copyright 2019 The Pennsylvania State University
  * @license Apache-2.0, see License.md for full text.
  */
+/**
+ * `site-top-menu`
+ * `Menu on top of the site typically a bar of options`
+ *
+ * @customElement
+ * @polymer
+ * @demo demo/index.html
+ */
+
+class OdlSiteTopMenu extends SiteTopMenu {
+  /**
+   * Store the tag name to make it easier to obtain directly.
+   * @notice function name must be here for tooling to operate correctly
+   */
+  static get tag() {
+    return "odl-site-top-menu";
+  }
+
+  constructor() {
+    super();
+  }
+
+  static get template() {
+    return html`
+      <style>
+        #indicator {
+          z-index: 99;
+        }
+      </style>
+      ${super.template}
+    `
+  }
+}
+
+window.customElements.define(OdlSiteTopMenu.tag, OdlSiteTopMenu);
+
+/**
+ * Copyright 2019 The Pennsylvania State University
+ * @license Apache-2.0, see License.md for full text.
+ */
 
 /**
  * `odl-haxtheme`
@@ -8818,8 +8859,10 @@ scroll-button {
 
 /* Menu Styles */
 
-site-top-menu {
+odl-site-top-menu {
     width: 100%;
+    --site-top-menu-bg: var(--theme-color-2);
+    color: white;
   --site-top-menu-button: {
     padding: 15px 10px;
     margin: 0;
@@ -8886,7 +8929,7 @@ tr:hover {
 </style>
 
 <page-topbar alert></page-topbar>
-<site-top-menu 
+<odl-site-top-menu 
   conditions='{
     "parent": null,
     "location": {
@@ -8894,7 +8937,7 @@ tr:hover {
       "operator": "!="
     }
   }'>
-</site-top-menu>
+</odl-site-top-menu>
 <iron-pages selected="[[selectedPage]]">
     <haxtheme-home id="home" edit-mode$="[[editMode]]"></haxtheme-home>
     <haxtheme-news id="news" edit-mode$="[[editMode]]"></haxtheme-news>

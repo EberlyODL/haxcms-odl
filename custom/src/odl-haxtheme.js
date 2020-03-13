@@ -29,6 +29,7 @@ import "./lib/haxtheme-contact.js";
 import "./lib/link-preview.js";
 import "./lib/page-topbar.js";
 import "./lib/page-footer.js";
+import "./lib/odl-site-top-menu.js";
 
 /**
  * `odl-haxtheme`
@@ -114,8 +115,10 @@ scroll-button {
 
 /* Menu Styles */
 
-site-top-menu {
+odl-site-top-menu {
     width: 100%;
+    --site-top-menu-bg: var(--theme-color-2);
+    color: white;
   --site-top-menu-button: {
     padding: 15px 10px;
     margin: 0;
@@ -182,7 +185,7 @@ tr:hover {
 </style>
 
 <page-topbar alert></page-topbar>
-<site-top-menu 
+<odl-site-top-menu 
   conditions='{
     "parent": null,
     "location": {
@@ -190,7 +193,7 @@ tr:hover {
       "operator": "!="
     }
   }'>
-</site-top-menu>
+</odl-site-top-menu>
 <iron-pages selected="[[selectedPage]]">
     <haxtheme-home id="home" edit-mode$="[[editMode]]"></haxtheme-home>
     <haxtheme-news id="news" edit-mode$="[[editMode]]"></haxtheme-news>
