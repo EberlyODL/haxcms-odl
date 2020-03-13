@@ -6908,7 +6908,7 @@ class ResourcesSidemenu extends LitElement {
       return html$1`
         <ul>
           <li>
-            ${item.title}
+            <a href="${item.location}">${item.title}</a>
             ${item.children && item.children.length > 0 ? html$1`
               ${item.children.map(i => this.__renderSideMenu(i))}
             ` : ""}
