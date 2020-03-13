@@ -6830,6 +6830,98 @@ class ResourceDisplay extends LitElement {
 }
 window.customElements.define(ResourceDisplay.tag, ResourceDisplay);
 
+/**
+ * Copyright 2019 The Pennsylvania State University
+ * @license Apache-2.0, see License.md for full text.
+ */
+
+/**
+ * `site-menu`
+ * `Menu hierarchy`
+ */
+class ResourcesSidemenu extends LitElement {
+  /**
+   * LitElement constructable styles enhancement
+   */
+  static get styles() {
+    return [
+      css`
+        :host {
+          display: block;
+          height: 100vh;
+        }
+      `
+    ];
+  }
+  /**
+   * Store the tag name to make it easier to obtain directly.
+   */
+  static get tag() {
+    return "resources-sidemenu";
+  }
+  /**
+   * HTMLElement life cycle
+   */
+  constructor() {
+    super();
+    import('../../build/es6/node_modules/@lrnwebcomponents/map-menu/map-menu.js');
+    this.__disposer = [];
+    autorun(reaction => {
+      this.__updateMenu(toJS(store.routerManifest));
+      this.__disposer.push(reaction);
+    });
+  }
+  /**
+   * LitElement life cycle - properties definition
+   */
+  static get properties() {
+    return {
+      /**
+       * Manifest with router / location enhancements
+       */
+      manifest: {
+        type: Object
+      }
+    };
+  }
+  /**
+   * LitElement life cycle - render callback
+   */
+  render() {
+    return html$1`
+      ${this.__renderSideMenu(this.manifest)}
+    `;
+  }
+  disconnectedCallback() {
+    for (var i in this.__disposer) {
+      this.__disposer[i].dispose();
+    }
+    super.disconnectedCallback();
+  }
+  __updateMenu(routerManifest) {
+    // figure out where to start
+    const topLevelObject = routerManifest.items.find(i => i.id === "resources");
+    this.manifest = topLevelObject;
+  }
+  __renderSideMenu(item) {
+    if (item) {
+      return html$1`
+        <ul>
+          <li>
+            ${item.title}
+            ${item.children && item.children.length > 0 ? html$1`
+              ${item.children.map(i => this.__renderSideMenu(i))}
+            ` : ""}
+          </li>
+        </ul>
+      `;
+    } else {
+      return "";
+    }
+  }
+}
+window.customElements.define(ResourcesSidemenu.tag, ResourcesSidemenu);
+
 class HaxThemeResources extends PolymerElement {
   static get template() {
     return html`
@@ -6965,7 +7057,7 @@ class HaxThemeResources extends PolymerElement {
         <div class="sidebar_wrap">
           <div id="resource_archive">
             <div id="side_menu">
-              Sidebar Menu Here
+              <resources-sidemenu></resources-sidemenu>
             </div>
           </div>
         </div>
