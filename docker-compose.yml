@@ -18,7 +18,7 @@ services:
         - "traefik.docker.network=traefik-public"
         - "traefik.frontend.rule=Host:odl.${HOST:-docker.localhost}"
         - "traefik.tags=traefik-public"
-        - "traefik.frontend.auth.basic.users=${BASIC_AUTH_CONFIG}"
+        # - "traefik.frontend.auth.basic.users=${BASIC_AUTH_CONFIG}"
       replicas: 1
       update_config:
         order: start-first
