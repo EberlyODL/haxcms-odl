@@ -21,29 +21,29 @@ class HaxThemeResources extends PolymerElement {
       }
 
       h1 {
-        margin: var(--haxtheme-blog-h1-margin, 25px 0 0);
-        font-weight: var(--haxtheme-blog-h1-font-weight);
-        font-size: var(--haxtheme-blog-h1-font-size);
+        margin: 25px 0 0;
+        font-weight: 400;
+        font-size: 36px;
       }
 
 
       .publish_credentials {
-        border-left: var(--haxtheme-blog-publish-credentials-border-left);
-        border-left-width: var(--haxtheme-blog-publish-credentials-border-left-width);
-        border-left-color: var(--haxtheme-blog-accent-color);
-        padding-left: var(--haxtheme-blog-publish-credentials-padding-left, 15px);
+        border-left: solid;
+        border-left-width: 4px;
+        border-left-color: #e2801e;
+        padding-left: 15px;
       }
 
       #description {
-        font-size: var(--haxtheme-blog-contentcontainer-font-size);
-        font-weight: var(--haxtheme-blog-contentcontainer-font-weight);
-        line-height: var(--haxtheme-blog-contentcontainer-line-height);
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.4;
       }
 
       #contentcontainer {
-        font-size: var(--haxtheme-blog-contentcontainer-font-size);
-        font-weight: var(--haxtheme-blog-contentcontainer-font-weight);
-        line-height: var(--haxtheme-blog-contentcontainer-line-height);
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.4;
       }
 
       .resource_container {
@@ -78,13 +78,13 @@ class HaxThemeResources extends PolymerElement {
       }
 
       .sidebar_wrap {
-        width: var(--haxtheme-blog-sidebar-wrap-width);
-        margin: var(--haxtheme-blog-sidebar-wrap-margin);
-        border-left: var(--haxtheme-blog-sidebar-wrap-border-left);
-        border-left-width: var(--haxtheme-blog-sidebar-wrap-border-left-width);
-        border-left-color: var(--haxtheme-blog-sidebar-wrap-border-left-color);
-        height: var(--haxtheme-blog-sidebar-wrap-height);
-        padding: var(--haxtheme-blog-sidebar-wrap-padding);
+        width: 25%;
+        margin: 45px 0 0 0;
+        border-left: solid;
+        border-left-width: 2px;
+        border-left-color: #dcdcdc;
+        height: 600px;
+        padding: 0 0 0 20px;
       }
 
       @media screen and (max-width: 768px) {
