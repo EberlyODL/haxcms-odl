@@ -17,6 +17,7 @@ import '../../build/es6/node_modules/@polymer/iron-iconset-svg/iron-iconset-svg.
 import '../../build/es6/node_modules/@polymer/polymer/lib/elements/dom-if.js';
 import { HAXWiring } from '../../build/es6/node_modules/@lrnwebcomponents/hax-body-behaviors/lib/HAXWiring.js';
 import '../../build/es6/node_modules/@polymer/paper-button/paper-button.js';
+import { SiteTopMenu } from '../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-top-menu.js';
 
 class HomePageBanner extends PolymerElement {
   static get template() {
@@ -8260,8 +8261,12 @@ class PageTopBar extends LitElement {
 
         #topbar-wrap {
           display: flex;
-          justify-content: space-between;
+          justify-content: stretch;
           align-items: center;
+        }
+
+        .spacer {
+          flex: 1 1 auto;
         }
 
         .action_button {
@@ -8285,6 +8290,11 @@ class PageTopBar extends LitElement {
             width: 30%;
           }
         }
+        
+        page-search {
+          /* add a little spacing between this and the schedule button */
+          margin-left: 8px;
+        }
       `
     ];
   }
@@ -8293,6 +8303,7 @@ class PageTopBar extends LitElement {
       ${this.renderAlert(this.alert)} 
       <div id="topbar-wrap">
       <company-mark></company-mark>
+      <div class="spacer"></div>
       <div class="action_button">
         <a href="https://nam01.safelinks.protection.outlook.com/?url=https%3A%2F%2Foutlook.office365.com%2Fowa%2Fcalendar%2Fb58fc79c95a249aa8de9afbc555ed6ab%40psu.edu%2F16fac4c6e6aa4f5f90aabda235ee917710394492065995205772%2Fcalendar.html&data=02%7C01%7Ccmd30%40psu.edu%7C7909d5ecf71d4d74be9508d7aa714dc0%7C7cf48d453ddb4389a9c1c115526eb52e%7C0%7C0%7C637165277560978827&sdata=YisxiX9FgsqsT%2BeuAfzDs1ZfsTzPwM52HL270vPFvIE%3D&reserved=0" target=_blank>
           <paper-button noink id="schedule">
@@ -8688,6 +8699,46 @@ window.customElements.define(PageFooter.tag, PageFooter);
  * Copyright 2019 The Pennsylvania State University
  * @license Apache-2.0, see License.md for full text.
  */
+/**
+ * `site-top-menu`
+ * `Menu on top of the site typically a bar of options`
+ *
+ * @customElement
+ * @polymer
+ * @demo demo/index.html
+ */
+
+class OdlSiteTopMenu extends SiteTopMenu {
+  /**
+   * Store the tag name to make it easier to obtain directly.
+   * @notice function name must be here for tooling to operate correctly
+   */
+  static get tag() {
+    return "odl-site-top-menu";
+  }
+
+  constructor() {
+    super();
+  }
+
+  static get template() {
+    return html`
+      <style>
+        #indicator {
+          z-index: 99;
+        }
+      </style>
+      ${super.template}
+    `
+  }
+}
+
+window.customElements.define(OdlSiteTopMenu.tag, OdlSiteTopMenu);
+
+/**
+ * Copyright 2019 The Pennsylvania State University
+ * @license Apache-2.0, see License.md for full text.
+ */
 
 /**
  * `odl-haxtheme`
@@ -8773,8 +8824,10 @@ scroll-button {
 
 /* Menu Styles */
 
-site-top-menu {
+odl-site-top-menu {
     width: 100%;
+    --site-top-menu-bg: var(--theme-color-2);
+    color: white;
   --site-top-menu-button: {
     padding: 15px 10px;
     margin: 0;
@@ -8841,7 +8894,7 @@ tr:hover {
 </style>
 
 <page-topbar alert></page-topbar>
-<site-top-menu 
+<odl-site-top-menu 
   conditions='{
     "parent": null,
     "location": {
@@ -8849,7 +8902,7 @@ tr:hover {
       "operator": "!="
     }
   }'>
-</site-top-menu>
+</odl-site-top-menu>
 <iron-pages selected="[[selectedPage]]">
     <haxtheme-home id="home" edit-mode$="[[editMode]]"></haxtheme-home>
     <haxtheme-news id="news" edit-mode$="[[editMode]]"></haxtheme-news>
