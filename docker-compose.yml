@@ -18,6 +18,8 @@ services:
         - "traefik.docker.network=traefik-public"
         - "traefik.frontend.rule=Host:odl.${HOST:-docker.localhost}"
         - "traefik.tags=traefik-public"
+        - "traefik.frontend.entryPoints=http,https"
+        - "traefik.frontend.redirect.entryPoint=https"
         # - "traefik.frontend.auth.basic.users=${BASIC_AUTH_CONFIG}"
       replicas: 1
       update_config:
@@ -31,10 +33,10 @@ services:
     environment:
       - EMAIL=odlformsservice@gmail.com
       - EMAIL_PASSWORD=odl_hax_form_email_password
-      - CORS_ORIGIN=http://odl.courses.science.psu.edu
+      - CORS_ORIGIN=https://odl.courses.science.psu.edu
       - EMAIL_TEMPLATE_HEADER=ODL Form Submission
       - EMAIL_FROM_ADDRESS='ODL Website'<odlformsservice@gmail.com>
-      - EMAIL_TO_ADDRESS=mgp140@gmail.com
+      - EMAIL_TO_ADDRESS=odl@science.psu.edu
       - EMAIL_SUBJECT=ODL Form Submission
       - RECAPTCHA_SECRET=odl_recaptcha_secret
     deploy:
@@ -44,6 +46,8 @@ services:
         - "traefik.frontend.rule=Host:hax-forms-service.odl.${HOST:-docker.localhost}"
         - "traefik.docker.network=traefik-public"
         - "traefik.tags=traefik-public"
+        - "traefik.frontend.entryPoints=http,https"
+        - "traefik.frontend.redirect.entryPoint=https"
       replicas: 1
       update_config:
         order: start-first
