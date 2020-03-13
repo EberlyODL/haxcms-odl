@@ -336,7 +336,7 @@ tr:hover {
             target = "about";
           } else if (location.route.path.startsWith("spotlight/")) {
             target = "spotlight";
-          } else if (location.route.path.startsWith("resources/")) {
+          } else if (location.route.path.startsWith("resources")) {
             target = "resources";
           }
           break;
