@@ -26,7 +26,6 @@ import "./lib/haxtheme-spotlight.js";
 import "./lib/haxtheme-resources.js";
 import "./lib/haxtheme-syllabus.js";
 import "./lib/haxtheme-contact.js";
-import "./lib/haxtheme-contingency.js"
 import "./lib/link-preview.js";
 import "./lib/page-topbar.js";
 import "./lib/page-footer.js";
@@ -381,10 +380,10 @@ tr:hover {
           this.selectedPage = 5;
           target = location.route.name;
           break;
-        case "resources":
-          this.selectedPage = 15;
-          target = location.route.name;
-          break;
+        // case "resources":
+        //   this.selectedPage = 15;
+        //   target = location.route.name;
+        //   break;
           default:
               // normalize the route path so that this logic works on sub directory / multi-site setup
               const routePath = location.route.path.startsWith("/") ? location.route.path : `/${location.route.path}`
@@ -415,7 +414,7 @@ tr:hover {
               } else if (routePath.startsWith("/spotlight/")) {
                 this.selectedPage = 14;
                 target = "spotlight";
-              } else if (routePath.startsWith("/resources/")) {
+              } else if (routePath.startsWith("/resources")) {
                 this.selectedPage = 15;
                 target = "resources";
               }
