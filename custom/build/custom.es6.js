@@ -2071,6 +2071,14 @@ class PageBanner extends PolymerElement {
           --page-banner-text-transform: none;
         }
 
+        #banner_wrap {
+          display: var(--haxtheme-page-banner-banner-wrap-display, block);
+          overflow: var(--haxtheme-page-banner-banner-wrap-overflow, hidden);
+          height: var(--haxtheme-page-banner-banner-wrap-height, 28vw);
+          max-height: var(--haxtheme-page-banner-banner-wrap-max-height, 400px);
+          position: var(--haxtheme-page-banner-banner-wrap-position, relative);
+        }
+
         .image_wrap {
           background-repeat: var(
             --haxtheme-page-banner-image-wrap-background-repeat,
@@ -2085,7 +2093,8 @@ class PageBanner extends PolymerElement {
             right center
           );
           width: var(--haxtheme-page-banner-image-wrap-width, 100%);
-          min-height: var(--haxtheme-page-banner-image-wrap-min-height, 28vw);
+          height: var(--haxtheme-page-banner-image-wrap-height, 100%);
+          position: var(--haxtheme-page-banner-image-wrap-position, absolute);
           display: var(--haxtheme-page-banner-image-wrap-display, flex);
           justify-content: var(
             --haxtheme-page-banner-image-wrap-justify-content,
@@ -2110,9 +2119,10 @@ class PageBanner extends PolymerElement {
             --haxtheme-page-banner-image-text-width,
             calc(150px + (355 - 28) * ((100vw - 300px) / (1600 - 300)))
           );
-          margin: var(--haxtheme-page-banner-image-text-margin, 0 5vw 0 5vw);
+          margin: var(--haxtheme-page-banner-image-text-margin, 5vw);
           padding: var(--haxtheme-page-banner-image-text-padding, 2vw);
           text-align: var(--haxtheme-page-banner-image-text-text-align, center);
+          text-transform: var(--page-banner-text-transform);
           text-transform: var(--page-banner-text-transform);
           @apply --haxtheme-page-banner-image-text;
         }
@@ -2129,12 +2139,20 @@ class PageBanner extends PolymerElement {
           );
           @apply --haxtheme-page-banner-image-text-h1;
         }
+
+        @media (min-width: 1200px) {
+          .image_text h1 {
+            font-size: 46px;
+          }
+        }
       </style>
       <div id="banner_wrap">
         <div class="image_wrap" style$="background-image:url([[image]])">
           <div class="banner_image"></div>
-          <div class="image_text">
-            <h1>[[text]]</h1>
+          <div class="image_text_container">
+            <div class="image_text">
+              <h1>[[text]]</h1>
+            </div>
           </div>
         </div>
       </div>
