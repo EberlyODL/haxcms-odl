@@ -4071,6 +4071,96 @@
                 "updated": 1541517755,
                 "type": "resources"
             }
+        },
+        {
+            "id": "academic-integrity-and-assessments",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/academic-integrity-and-assessments\/index.html",
+            "order": 3,
+            "parent": "contingency",
+            "title": "Academic Integrity and Assessments",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files/resource-images/examity-banner.jpg",
+                    "alt": "Man using a cellphone with a laptop in front of him. Original Photo by: Joseph Gruenthal - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
+            "id": "accessibility",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/accessibility\/index.html",
+            "order": 3,
+            "parent": "contingency",
+            "title": "Accessibility",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files/resource-images/examity-banner.jpg",
+                    "alt": "Man using a cellphone with a laptop in front of him. Original Photo by: Joseph Gruenthal - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
+            "id": "canvas",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/canvas\/index.html",
+            "order": 3,
+            "parent": "contingency",
+            "title": "Canvas",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files/resource-images/examity-banner.jpg",
+                    "alt": "Man using a cellphone with a laptop in front of him. Original Photo by: Joseph Gruenthal - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
+            "id": "educational-technologies",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/educational-technologies\/index.html",
+            "order": 3,
+            "parent": "contingency",
+            "title": "Educational Technologies",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files/resource-images/examity-banner.jpg",
+                    "alt": "Man using a cellphone with a laptop in front of him. Original Photo by: Joseph Gruenthal - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
+            "id": "video-conferencing",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/video-conferencing\/index.html",
+            "order": 3,
+            "parent": "contingency",
+            "title": "Video Conferencing, Recording, and Media Management",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files/resource-images/examity-banner.jpg",
+                    "alt": "Man using a cellphone with a laptop in front of him. Original Photo by: Joseph Gruenthal - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
         }
     ]
 }

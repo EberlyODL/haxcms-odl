@@ -48,7 +48,7 @@ class HaxThemeResources extends PolymerElement {
 
       .resource_container {
         display: flex;
-        width: 75%;
+        width: 80%;
         margin: 0 auto 0;
       }
 

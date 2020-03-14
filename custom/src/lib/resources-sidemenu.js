@@ -21,6 +21,33 @@ class ResourcesSidemenu extends LitElement {
           display: block;
           height: 100vh;
         }
+
+        ul {
+          list-style-type: none;
+          margin-left: 0em;
+          padding-left: 0em;
+        }
+
+        li {
+          list-style-type: none;
+          margin-left: 0em;
+          padding-left: .5em;
+        }
+
+        a {
+          color: var(--odl-haxtheme-accent-color-2);
+          padding: .8em;
+          padding-bottom: .5em;
+          padding-right: .2em;
+          border-bottom: solid 1px #dcdcdc;
+          display: block;
+          text-decoration: none;
+          font-size: .9em;
+        }
+
+        a:hover {
+          color: calc(var(--odl-haxtheme-accent-color-2) * 0.1);
+        }
       `
     ];
   }
@@ -51,6 +78,9 @@ class ResourcesSidemenu extends LitElement {
        * Manifest with router / location enhancements
        */
       manifest: {
+        type: Object
+      },
+      activeItem: {
         type: Object
       }
     };
