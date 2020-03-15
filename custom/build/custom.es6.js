@@ -8949,6 +8949,7 @@ tr:hover {
     <haxtheme-spotlight id="spotlight" edit-mode$="[[editMode]]"></haxtheme-spotlight>
     <haxtheme-resources id="resources" edit-mode$="[[editMode]]"></haxtheme-resources>
 </iron-pages>
+tips_for_learning_during_disruption
 <scroll-button></scroll-button>
 <page-footer></page-footer>`;
   }

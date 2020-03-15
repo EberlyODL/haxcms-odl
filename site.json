@@ -4288,15 +4288,54 @@
             "order": 3,
             "parent": "contingency",
             "title": "Teaching Support",
-            "description": "",
+            "description": "A Note from CESE Director, Jackie Bortiatynksi  As active members in the Center for Excellence in Science Education faculty  community I am calling on all of you.\u00a0 First, CESE's leadership wants",
             "metadata": {
                 "fields": {
                     "image": "files\/resource-images\/resources-banner.jpg",
                     "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
-                "type": "resources"
+                "updated": 1584300519,
+                "type": "resources",
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/sites\/haxcms-odl\/files\/Tips for Learning during Disruption[5].pdf",
+                        "fullUrl": "\/sites\/haxcms-odl\/files\/Tips for Learning during Disruption[5].pdf",
+                        "url": "files\/Tips for Learning during Disruption[5].pdf",
+                        "type": "application\/pdf",
+                        "name": "Tips for Learning during Disruption[5].pdf",
+                        "size": 325605
+                    },
+                    {
+                        "path": "\/var\/www\/html\/sites\/haxcms-odl\/files\/tips_for_learning_during_disruption.pdf",
+                        "fullUrl": "\/sites\/haxcms-odl\/files\/tips_for_learning_during_disruption.pdf",
+                        "url": "files\/tips_for_learning_during_disruption.pdf",
+                        "type": "application\/pdf",
+                        "name": "tips_for_learning_during_disruption.pdf",
+                        "size": 325605
+                    },
+                    {
+                        "path": "\/var\/www\/html\/sites\/haxcms-odl\/files\/tips_for_learning_during_disruption.png",
+                        "fullUrl": "\/sites\/haxcms-odl\/files\/tips_for_learning_during_disruption.png",
+                        "url": "files\/tips_for_learning_during_disruption.png",
+                        "type": "image\/png",
+                        "name": "tips_for_learning_during_disruption.png",
+                        "size": 104822
+                    }
+                ],
+                "readtime": 2,
+                "contentDetails": {
+                    "headings": 2,
+                    "paragraphs": 8,
+                    "schema": [],
+                    "tags": {
+                        "p": 8,
+                        "h3": 2,
+                        "img": 1,
+                        "ul": 1
+                    },
+                    "elements": 12
+                }
             }
         },
         {
