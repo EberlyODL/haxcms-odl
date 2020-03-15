@@ -276,3 +276,7 @@
   .grecaptcha-badge{
     visibility: collapse !important;  
   } 
+
+  a {
+    color: pink;
+  }

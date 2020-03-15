@@ -44,7 +44,7 @@
   <link rel="apple-touch-icon" sizes="96x96" href="assets/icon-96x96.png">
   <link rel="apple-touch-icon" sizes="144x144" href="assets/icon-144x144.png">
   <link rel="apple-touch-icon" sizes="192x192" href="assets/icon-192x192.png">
-  <title>My site</title>
+  <title>Office of Digital Learning</title>
   <style>
     body {
       margin: 0;
@@ -81,99 +81,6 @@
   </style>
 </head>
 <body no-js vocab="http://schema.org/" prefix="oer:http://oerschema.org cc:http://creativecommons.org/ns dc:http://purl.org/dc/terms/">
-  <div id="pre-bootstrap">
-    <div class="messaging">
-      <div class="progress-line"></div>
-    </div>
-    <style>
-      #pre-bootstrap {
-        background-color: white;
-        bottom: 0px;
-        left: 0px;
-        opacity: 1;
-        position: fixed;
-        right: 0px;
-        top: 0px;
-        transition: all linear 300ms;
-        -webkit-transition: all linear 300ms;
-        z-index: 999999;
-      }
-      body[no-js] #pre-bootstrap {
-        display: none !important;
-      }
-      #pre-bootstrap.loaded {
-        animation: fade-out .7s ease-in-out;
-        animation-fill-mode: forwards;
-      }
-      #pre-bootstrap div.messaging {
-        color: rgba(255,255,255, 0.7);
-        font-family: Roboto;
-        left: 0px;
-        margin-top: -75px;
-        position: absolute;
-        right: 0px;
-        text-align: center;
-        top: 50%;
-      }
-      #pre-bootstrap img {
-        width: 300px;
-        padding-bottom: 50px;
-      }
-      .progress-line,
-      .progress-line:before {
-        height: 5px;
-        width: 100%;
-        margin: auto;
-      }
-      .progress-line {
-        background-color: rgba(0,0,0, 0.05);
-        display: -webkit-flex;
-        display: flex;
-        width: 300px;
-      }
-      .progress-line:before {
-        background-color: black;
-        content: '';
-        animation: running-progress 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-      }
-      @keyframes running-progress {
-        0% {
-          margin-left: 0px;
-          margin-right: 100%;
-        }
-        50% {
-          margin-left: 25%;
-          margin-right: 0%;
-        }
-        100% {
-          margin-left: 100%;
-          margin-right: 0;
-        }
-      }
-      @keyframes fade-out {
-        0% {
-          opacity: 1;
-        }
-        99% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 0;
-        }
-      }
-    </style>
-    <script>
-      window.addEventListener('load', (event) => {
-        // give the web components a second to build
-        setTimeout(function() {
-          document.querySelector('#pre-bootstrap').classList.add('loaded');
-          setTimeout(function() {
-            document.querySelector('#pre-bootstrap').setAttribute('style', 'display: none !important');
-          }, 100)
-        }, 100)
-      });
-    </script>
-  </div>
 
   <haxcms-site-builder id="site" file="site.json"></haxcms-site-builder>
   <script>document.body.removeAttribute('no-js');var cdn="";var forceUpgrade=false;var old=false;var ancient=false;
@@ -245,7 +152,7 @@
     link.href = cdn + 'build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/base.css';
     link.type = 'text/css';
     var def = document.getElementsByTagName('link')[0];
-    def.parentNode.insertBefore(link, def);
+    // def.parentNode.insertBefore(link, def);
     var link2 = document.createElement('link');
     link2.rel = 'stylesheet';
     link2.href = './theme/theme.css';

@@ -4008,14 +4008,25 @@
             "order": 5,
             "parent": null,
             "title": "Resources",
-            "description": "Enriching and improving your classroom begins with access to the resources you need. The Office of Digital Learning strives to make our vast network of resources available for faculty interested in improving a course for their students. The resources below will help create accessible, engaging, meaningful experiences.",
+            "description": "  The Center for Excellence in Science Education  The Center for Excellence in Science Education (CESE)  in the Eberly College of Science mission is to provide faculty and students  with a co",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/resources-banner.jpg",
+                    "image": "files\/resource-images\/resources-banner.jpg",
                     "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
-                "updated": 1544543594
+                "updated": 1584298339,
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 2,
+                    "paragraphs": 3,
+                    "schema": [],
+                    "tags": {
+                        "h3": 2,
+                        "p": 3
+                    },
+                    "elements": 5
+                }
             }
         },
         {
@@ -4028,7 +4039,7 @@
             "description": "What would happen if there was a huge snowstorm that shut down most of the Northeast? What if there was a zombie apocolypse? What if you simply get ill and can't come to class? What would you do? Our office is here to help you get your content where everyone can access it without the need for being physically present.",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/contingency.jpg",
+                    "image": "files\/resource-images\/contingency.jpg",
                     "alt": "Empty classroom chairs. Photo by: Nathan Dumlao - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4046,7 +4057,7 @@
             "description": "The Office of Digital Learning hosts a One-Button Studio for faculty for the easy creation of videos for residential, blended, and online courses. Some of the functions of the OBS include a green-screen, a lightboard, and a podcasting studio.",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/obs-banner.jpg",
+                    "image": "files\/resource-images\/obs-banner.jpg",
                     "alt": "Studio Lights. Photo by: William F. Santos - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4064,7 +4075,7 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/resources-banner.jpg",
+                    "image": "files\/resource-images\/resources-banner.jpg",
                     "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4079,10 +4090,10 @@
             "order": 3,
             "parent": "toolkits",
             "title": "Examity",
-            "description": "Examity® is an online proctoring solution that gives students the flexibility to take exams remotely. It provides instructors, schools, ,and students with the tools they need to prevent cheating and to preserve integrity of assessments.",
+            "description": "Examity\u00ae is an online proctoring solution that gives students the flexibility to take exams remotely. It provides instructors, schools, ,and students with the tools they need to prevent cheating and to preserve integrity of assessments.",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/examity-banner.jpg",
+                    "image": "files\/resource-images\/examity-banner.jpg",
                     "alt": "Man using a cellphone with a laptop in front of him. Original Photo by: Joseph Gruenthal - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4100,7 +4111,7 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/resources-banner.jpg",
+                    "image": "files\/resource-images\/resources-banner.jpg",
                     "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4118,7 +4129,7 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/resources-banner.jpg",
+                    "image": "files\/resource-images\/resources-banner.jpg",
                     "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4136,7 +4147,7 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/resources-banner.jpg",
+                    "image": "files\/resource-images\/resources-banner.jpg",
                     "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4154,7 +4165,7 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/resources-banner.jpg",
+                    "image": "files\/resource-images\/resources-banner.jpg",
                     "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4172,7 +4183,7 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/resources-banner.jpg",
+                    "image": "files\/resource-images\/resources-banner.jpg",
                     "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4190,7 +4201,7 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/resources-banner.jpg",
+                    "image": "files\/resource-images\/resources-banner.jpg",
                     "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4208,7 +4219,7 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/resources-banner.jpg",
+                    "image": "files\/resource-images\/resources-banner.jpg",
                     "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4226,7 +4237,7 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/resources-banner.jpg",
+                    "image": "files\/resource-images\/resources-banner.jpg",
                     "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4244,7 +4255,7 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/resources-banner.jpg",
+                    "image": "files\/resource-images\/resources-banner.jpg",
                     "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4262,7 +4273,7 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/resources-banner.jpg",
+                    "image": "files\/resource-images\/resources-banner.jpg",
                     "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4280,7 +4291,7 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/resources-banner.jpg",
+                    "image": "files\/resource-images\/resources-banner.jpg",
                     "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4298,7 +4309,7 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/resources-banner.jpg",
+                    "image": "files\/resource-images\/resources-banner.jpg",
                     "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,

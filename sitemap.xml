@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- generator-class="Icamys\SitemapGenerator\SitemapGenerator" -->
 <!-- generator-version="1.1.0" -->
-<!-- generated-on="2020-03-11T18:24:39+00:00" -->
+<!-- generated-on="2020-03-15T18:52:19+00:00" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>/home</loc>
@@ -14,6 +14,12 @@
     <lastmod>2018-12-11T15:53:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/blog-posts/3-5-20</loc>
+    <lastmod>2020-03-11T18:24:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>/blog-posts/2-10-20</loc>
@@ -766,9 +772,105 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>/contingency</loc>
-    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <loc>/resources</loc>
+    <lastmod>2020-03-15T18:52:19+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/obs</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/toolkits</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/toolkits/examity</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/toolkits/h5p</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/toolkits/online-labs</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/toolkits/zoom</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/academic-integrity-and-assessments</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/accessibility</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/canvas</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/educational-technologies</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/online-lab-toolkit</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/science-specific-needs</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/students</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/teaching-support</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/video-conferencing</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
