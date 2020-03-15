@@ -4055,17 +4055,89 @@
             }
         },
         {
+            "id": "toolkits",
+            "indent": 0,
+            "location": "pages\/resources\/toolkits\/index.html",
+            "order": 2,
+            "parent": "resources",
+            "title": "Toolkits",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files/resource-images/resources-banner.jpg",
+                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
             "id": "examity",
             "indent": 0,
-            "location": "pages\/resources\/examity\/index.html",
+            "location": "pages\/resources\/toolkits\/examity\/index.html",
             "order": 3,
-            "parent": "resources",
+            "parent": "toolkits",
             "title": "Examity",
             "description": "Examity® is an online proctoring solution that gives students the flexibility to take exams remotely. It provides instructors, schools, ,and students with the tools they need to prevent cheating and to preserve integrity of assessments.",
             "metadata": {
                 "fields": {
                     "image": "files/resource-images/examity-banner.jpg",
                     "alt": "Man using a cellphone with a laptop in front of him. Original Photo by: Joseph Gruenthal - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
+            "id": "h5p",
+            "indent": 0,
+            "location": "pages\/resources\/toolkits\/h5p\/index.html",
+            "order": 3,
+            "parent": "toolkits",
+            "title": "H5P",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files/resource-images/resources-banner.jpg",
+                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
+            "id": "online-labs",
+            "indent": 0,
+            "location": "pages\/resources\/toolkits\/online-labs\/index.html",
+            "order": 3,
+            "parent": "toolkits",
+            "title": "Online Labs",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files/resource-images/resources-banner.jpg",
+                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
+            "id": "zoom",
+            "indent": 0,
+            "location": "pages\/resources\/toolkits\/zoom\/index.html",
+            "order": 3,
+            "parent": "toolkits",
+            "title": "Zoom",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files/resource-images/resources-banner.jpg",
+                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -4082,8 +4154,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/examity-banner.jpg",
-                    "alt": "Man using a cellphone with a laptop in front of him. Original Photo by: Joseph Gruenthal - Unsplash.com"
+                    "image": "files/resource-images/resources-banner.jpg",
+                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -4100,8 +4172,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/examity-banner.jpg",
-                    "alt": "Man using a cellphone with a laptop in front of him. Original Photo by: Joseph Gruenthal - Unsplash.com"
+                    "image": "files/resource-images/resources-banner.jpg",
+                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -4118,8 +4190,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/examity-banner.jpg",
-                    "alt": "Man using a cellphone with a laptop in front of him. Original Photo by: Joseph Gruenthal - Unsplash.com"
+                    "image": "files/resource-images/resources-banner.jpg",
+                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -4136,8 +4208,80 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/examity-banner.jpg",
-                    "alt": "Man using a cellphone with a laptop in front of him. Original Photo by: Joseph Gruenthal - Unsplash.com"
+                    "image": "files/resource-images/resources-banner.jpg",
+                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
+            "id": "online-lab-toolkit",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/online-lab-toolkit\/index.html",
+            "order": 3,
+            "parent": "contingency",
+            "title": "Online Lab Toolkit",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files/resource-images/resources-banner.jpg",
+                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
+            "id": "science-specific-needs",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/science-specific-needs\/index.html",
+            "order": 3,
+            "parent": "contingency",
+            "title": "Science Specific Needs",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files/resource-images/resources-banner.jpg",
+                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
+            "id": "students",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/students\/index.html",
+            "order": 3,
+            "parent": "contingency",
+            "title": "Students",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files/resource-images/resources-banner.jpg",
+                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
+            "id": "teaching-support",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/teaching-support\/index.html",
+            "order": 3,
+            "parent": "contingency",
+            "title": "Teaching Support",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files/resource-images/resources-banner.jpg",
+                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -4154,8 +4298,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/examity-banner.jpg",
-                    "alt": "Man using a cellphone with a laptop in front of him. Original Photo by: Joseph Gruenthal - Unsplash.com"
+                    "image": "files/resource-images/resources-banner.jpg",
+                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,

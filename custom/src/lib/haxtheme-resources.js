@@ -82,7 +82,6 @@ class HaxThemeResources extends PolymerElement {
         border-left: solid;
         border-left-width: 2px;
         border-left-color: #dcdcdc;
-        height: 600px;
         padding: 0 0 0 20px;
       }
 
