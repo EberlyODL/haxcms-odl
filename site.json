@@ -631,10 +631,35 @@
             }
         },
         {
+            "id": "sey",
+            "indent": 1,
+            "location": "pages\/team-directory\/sey\/index.html",
+            "order": 5,
+            "parent": "team",
+            "title": "",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "name": "Sey Yeaple",
+                    "image": "files\/odl-team\/sey.jpg",
+                    "jobTitle": "3D Generalist",
+                    "address": "221 Ritenour",
+                    "phone": "814-867-4604",
+                    "email": "scy5038@psu.edu",
+                    "twitter": "https:\/\/twitter.com\/seymaple",
+                    "info": "Expertise: 3D / AR Asset and Scene Creation, Annimations, and...;  "
+                },
+                "created": 1541517910,
+                "updated": 1541517757,
+                "type": "team",
+                "template": "team"
+            }
+        },
+        {
             "id": "louis",
             "indent": 1,
             "location": "pages\/team-directory\/louis\/index.html",
-            "order": 5,
+            "order": 6,
             "parent": "team",
             "title": "Louis Leblond",
             "description": "",
@@ -659,7 +684,7 @@
             "id": "joe",
             "indent": 1,
             "location": "pages\/team-directory\/joseph\/index.html",
-            "order": 6,
+            "order": 7,
             "parent": "team",
             "title": "Joseph Houck",
             "description": "",
