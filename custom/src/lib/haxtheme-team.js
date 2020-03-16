@@ -66,7 +66,7 @@ class HaxThemeTeam extends PolymerElement {
       >
       </site-query>
       <page-banner
-        image="files/theme-images/page-banners/team_banner.jpg"
+        image="files/theme-images/page-banners/team-banner.jpg"
         text="Team"
         alt="Office of Digital Learning Team"
       >

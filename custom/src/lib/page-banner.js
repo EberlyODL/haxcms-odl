@@ -13,7 +13,7 @@ class PageBanner extends PolymerElement {
           display: var(--haxtheme-page-banner-banner-wrap-display, block);
           overflow: var(--haxtheme-page-banner-banner-wrap-overflow, hidden);
           height: var(--haxtheme-page-banner-banner-wrap-height, 28vw);
-          max-height: var(--haxtheme-page-banner-banner-wrap-max-height, 400px);
+          max-height: var(--haxtheme-page-banner-banner-wrap-max-height, 420px);
           position: var(--haxtheme-page-banner-banner-wrap-position, relative);
         }
 

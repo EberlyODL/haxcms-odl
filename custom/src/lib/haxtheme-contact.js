@@ -62,7 +62,7 @@ class HaxThemeContact extends PolymerElement {
         }
       </style>
       <page-banner
-        image="files/theme-images/page-banners/news_banner.jpg"
+        image="files/theme-images/page-banners/contact-banner.jpg"
         text="Contact"
         alt="Gateway to the Sciences"
       ></page-banner>

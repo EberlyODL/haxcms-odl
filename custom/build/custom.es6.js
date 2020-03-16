@@ -2077,7 +2077,7 @@ class PageBanner extends PolymerElement {
           display: var(--haxtheme-page-banner-banner-wrap-display, block);
           overflow: var(--haxtheme-page-banner-banner-wrap-overflow, hidden);
           height: var(--haxtheme-page-banner-banner-wrap-height, 28vw);
-          max-height: var(--haxtheme-page-banner-banner-wrap-max-height, 400px);
+          max-height: var(--haxtheme-page-banner-banner-wrap-max-height, 420px);
           position: var(--haxtheme-page-banner-banner-wrap-position, relative);
         }
 
@@ -2225,7 +2225,7 @@ class HaxThemeAbout extends PolymerElement {
         }
       </style>
       <page-banner
-        image="files/theme-images/page-banners/news_banner.jpg"
+        image="files/theme-images/page-banners/about-banner.jpg"
         text="About"
         alt="Gateway to the Sciences"
       ></page-banner>
@@ -4839,7 +4839,7 @@ class HaxThemeNews extends PolymerElement {
         }
       </style>
       <page-banner
-        image="files/theme-images/page-banners/news_banner.jpg"
+        image="files/theme-images/page-banners/news-banner.jpg"
         text="News"
         alt="Gateway to the Sciences"
       ></page-banner>
@@ -5321,7 +5321,7 @@ class HaxThemeTeam extends PolymerElement {
       >
       </site-query>
       <page-banner
-        image="files/theme-images/page-banners/team_banner.jpg"
+        image="files/theme-images/page-banners/team-banner.jpg"
         text="Team"
         alt="Office of Digital Learning Team"
       >
@@ -7891,7 +7891,7 @@ class HaxThemeContact extends PolymerElement {
         }
       </style>
       <page-banner
-        image="files/theme-images/page-banners/news_banner.jpg"
+        image="files/theme-images/page-banners/contact-banner.jpg"
         text="Contact"
         alt="Gateway to the Sciences"
       ></page-banner>
