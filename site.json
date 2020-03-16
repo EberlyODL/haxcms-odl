@@ -707,6 +707,19 @@
             }
         },
         {
+            "id": "search",
+            "indent": 0,
+            "location": "pages\/search\/index.html",
+            "order": 6,
+            "parent": null,
+            "title": "Search",
+            "description": "",
+            "metadata": {
+                "created": 1541517755,
+                "updated": 1541517755
+            }
+        },
+        {
             "id": "spotlight",
             "indent": 0,
             "location": "pages\/spotlight\/index.html",

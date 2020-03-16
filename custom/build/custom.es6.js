@@ -18,6 +18,7 @@ import '../../build/es6/node_modules/@polymer/polymer/lib/elements/dom-if.js';
 import { HAXWiring } from '../../build/es6/node_modules/@lrnwebcomponents/hax-body-behaviors/lib/HAXWiring.js';
 import '../../build/es6/node_modules/@polymer/paper-button/paper-button.js';
 import { SiteTopMenu } from '../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-top-menu.js';
+import '../../build/es6/node_modules/@polymer/paper-input/paper-input.js';
 
 class HomePageBanner extends PolymerElement {
   static get template() {
@@ -8764,6 +8765,78 @@ class OdlSiteTopMenu extends SiteTopMenu {
 
 window.customElements.define(OdlSiteTopMenu.tag, OdlSiteTopMenu);
 
+class HaxthemeSearch extends LitElement {
+  /**
+   * LitElement constructable styles enhancement
+   */
+  static get styles() {
+    return [
+      css`
+        :host {
+          display: flex;
+          flex: 1 1 auto;
+          flex-direction: column;
+        }
+
+        #container {
+          display: block;
+          padding: 1em;
+        }
+
+        #search {
+          max-width: 900px;
+          margin: auto;
+        }
+
+        input {
+          margin: auto;
+          padding: 15px;
+          border: 1px solid #ccc;
+          border-radius: 3px;
+          margin-bottom: 10px;
+          width: 100%;
+          box-sizing: border-box;
+          font-family: montserrat;
+          color: #2C3E50;
+          font-size: 13px;
+        }
+      `
+    ];
+  }
+  render() {
+    return html$1`
+      <div id="container">
+        <div id="search">
+          <h1>Search</h1>
+          <input @input=${this.__inputChanged}>
+        </div>
+        <div id="results">
+        </div>
+      </div>
+    `;
+  }
+  static get tag() {
+    return "haxtheme-search";
+  }
+  static get properties() {
+    return { 
+      results: {
+        type: Array
+      }
+    };
+  }
+  constructor() {
+    super();
+    this.results = [];
+  }
+  __inputChanged(e) {
+    const value = e.target.value;
+    const results = fetch('lunrSearchIndex.json').then(res => res.json());
+    console.log('results:', results);
+  }
+}
+window.customElements.define(HaxthemeSearch.tag, HaxthemeSearch);
+
 /**
  * Copyright 2019 The Pennsylvania State University
  * @license Apache-2.0, see License.md for full text.
@@ -8786,7 +8859,9 @@ class OdlHaxtheme extends HAXCMSTheme(SimpleColors) {
   static get template() {
     return html`
 <style>:host {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: "Roboto", sans-serif;
   --theme-color-1: #363533;
   --theme-color-2: #e2801e;
@@ -8814,8 +8889,7 @@ class OdlHaxtheme extends HAXCMSTheme(SimpleColors) {
     border-radius: none;
     color: var(--theme-color-4);
   };
-  
-  
+
   --site-menu-button-link: {
     text-decoration: none;
   };
@@ -8836,7 +8910,6 @@ class OdlHaxtheme extends HAXCMSTheme(SimpleColors) {
 }
 
 /* Scroll Button Styles */
-
 scroll-button {
     position: fixed;
     right: 0;
@@ -8851,6 +8924,12 @@ scroll-button {
   }
 }
 
+  
+iron-pages {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+  }
 /* Menu Styles */
 
 odl-site-top-menu {
@@ -8926,7 +9005,7 @@ tr:hover {
   conditions='{
     "parent": null,
     "location": {
-      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "multimedia", "contingency"],
+      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "multimedia", "contingency", "search"],
       "operator": "!="
     }
   }'>
@@ -8948,6 +9027,7 @@ tr:hover {
     <haxtheme-service-multimedia id="multimedia" edit-mode$="[[editMode]]"></haxtheme-service-multimedia>
     <haxtheme-spotlight id="spotlight" edit-mode$="[[editMode]]"></haxtheme-spotlight>
     <haxtheme-resources id="resources" edit-mode$="[[editMode]]"></haxtheme-resources>
+    <haxtheme-search id="search" edit-mode$="[[editMode]]"></haxtheme-search>
 </iron-pages>
 <scroll-button></scroll-button>
 <page-footer></page-footer>`;
@@ -9078,6 +9158,8 @@ tr:hover {
             target = "spotlight";
           } else if (location.route.path.startsWith("resources")) {
             target = "resources";
+          } else if (location.route.path.startsWith("search")) {
+            target = "search";
           }
           break;
       }
@@ -9092,7 +9174,7 @@ tr:hover {
    * Notice active item changed state
    */
   _locationChanged(location) {
-    console.log(location.route.name);
+    console.log(location);
     if (typeof location !== typeof undefined) {
       var target;
       switch (location.route.name) {
@@ -9118,6 +9200,10 @@ tr:hover {
           break;
         case "contact":
           this.selectedPage = 5;
+          target = location.route.name;
+          break;
+        case "search":
+          this.selectedPage = 16;
           target = location.route.name;
           break;
         // case "resources":
@@ -9157,6 +9243,9 @@ tr:hover {
               } else if (routePath.startsWith("/resources")) {
                 this.selectedPage = 15;
                 target = "resources";
+              } else if (routePath.startsWith("/search")) {
+                this.selectedPage = 15;
+                target = "search";
               }
               
               break;

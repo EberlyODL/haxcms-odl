@@ -30,6 +30,7 @@ import "./lib/link-preview.js";
 import "./lib/page-topbar.js";
 import "./lib/page-footer.js";
 import "./lib/odl-site-top-menu.js";
+import "./lib/haxtheme-search.js";
 
 /**
  * `odl-haxtheme`
@@ -48,7 +49,9 @@ class OdlHaxtheme extends HAXCMSTheme(SimpleColors) {
   static get template() {
     return html`
 <style>:host {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: "Roboto", sans-serif;
   --theme-color-1: #363533;
   --theme-color-2: #e2801e;
@@ -76,8 +79,7 @@ class OdlHaxtheme extends HAXCMSTheme(SimpleColors) {
     border-radius: none;
     color: var(--theme-color-4);
   };
-  
-  
+
   --site-menu-button-link: {
     text-decoration: none;
   };
@@ -98,7 +100,6 @@ class OdlHaxtheme extends HAXCMSTheme(SimpleColors) {
 }
 
 /* Scroll Button Styles */
-
 scroll-button {
     position: fixed;
     right: 0;
@@ -113,6 +114,12 @@ scroll-button {
   }
 }
 
+  
+iron-pages {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+  }
 /* Menu Styles */
 
 odl-site-top-menu {
@@ -188,7 +195,7 @@ tr:hover {
   conditions='{
     "parent": null,
     "location": {
-      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "multimedia", "contingency"],
+      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "multimedia", "contingency", "search"],
       "operator": "!="
     }
   }'>
@@ -210,6 +217,7 @@ tr:hover {
     <haxtheme-service-multimedia id="multimedia" edit-mode$="[[editMode]]"></haxtheme-service-multimedia>
     <haxtheme-spotlight id="spotlight" edit-mode$="[[editMode]]"></haxtheme-spotlight>
     <haxtheme-resources id="resources" edit-mode$="[[editMode]]"></haxtheme-resources>
+    <haxtheme-search id="search" edit-mode$="[[editMode]]"></haxtheme-search>
 </iron-pages>
 <scroll-button></scroll-button>
 <page-footer></page-footer>`;
@@ -340,6 +348,8 @@ tr:hover {
             target = "spotlight";
           } else if (location.route.path.startsWith("resources")) {
             target = "resources";
+          } else if (location.route.path.startsWith("search")) {
+            target = "search";
           }
           break;
       }
@@ -354,7 +364,7 @@ tr:hover {
    * Notice active item changed state
    */
   _locationChanged(location) {
-    console.log(location.route.name)
+    console.log(location)
     if (typeof location !== typeof undefined) {
       var target;
       switch (location.route.name) {
@@ -380,6 +390,10 @@ tr:hover {
           break;
         case "contact":
           this.selectedPage = 5;
+          target = location.route.name;
+          break;
+        case "search":
+          this.selectedPage = 16;
           target = location.route.name;
           break;
         // case "resources":
@@ -419,6 +433,9 @@ tr:hover {
               } else if (routePath.startsWith("/resources")) {
                 this.selectedPage = 15;
                 target = "resources";
+              } else if (routePath.startsWith("/search")) {
+                this.selectedPage = 15;
+                target = "search";
               }
               
               break;
