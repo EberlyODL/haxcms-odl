@@ -70,6 +70,8 @@ class TeamCard extends PolymerElement {
           font-size: 16px;
           text-align: center;
           color: #000;
+          line-height: 1.3;
+          font-weight: 300;
         }
 
         .action_button {
@@ -80,7 +82,7 @@ class TeamCard extends PolymerElement {
           border-color: #dcdcdc;
           border-top: none;
           max-width: 300px;
-          margin: -100px auto 0 auto;
+          margin: -113px auto 0 auto;
         }
 
         paper-button#connect {

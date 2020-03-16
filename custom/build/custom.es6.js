@@ -5169,6 +5169,8 @@ class TeamCard extends PolymerElement {
           font-size: 16px;
           text-align: center;
           color: #000;
+          line-height: 1.3;
+          font-weight: 300;
         }
 
         .action_button {
@@ -5179,7 +5181,7 @@ class TeamCard extends PolymerElement {
           border-color: #dcdcdc;
           border-top: none;
           max-width: 300px;
-          margin: -100px auto 0 auto;
+          margin: -113px auto 0 auto;
         }
 
         paper-button#connect {
@@ -5537,22 +5539,6 @@ class HaxThemeCourses extends PolymerElement {
           grid-row-gap: var(--haxtheme-courses-course-grid-row-gap, 2vw);
           @apply --haxtheme-courses-course;
         }
-
-        /* course-card {
-          width: var(--haxtheme-courses-course-card-width, 100%);
-          border: var(--haxtheme-courses-course-card-border, solid);
-          border-width: var(--haxtheme-courses-course-card-border-width, 2px);
-          border-color: var(--haxtheme-courses-course-card-border-color);
-          @apply --haxtheme-courses-course-card;
-        }
-
-        course-card:hover {
-          box-shadow: var(
-            --haxtheme-courses-course-card-hover-box-shadow,
-            1px 1px 5px #dcdcdc
-          );
-          @apply --haxtheme-courses-course-card-hover;
-        } */
       </style>
       <site-query
         result="{{__items}}"

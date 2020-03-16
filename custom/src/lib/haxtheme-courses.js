@@ -38,22 +38,6 @@ class HaxThemeCourses extends PolymerElement {
           grid-row-gap: var(--haxtheme-courses-course-grid-row-gap, 2vw);
           @apply --haxtheme-courses-course;
         }
-
-        /* course-card {
-          width: var(--haxtheme-courses-course-card-width, 100%);
-          border: var(--haxtheme-courses-course-card-border, solid);
-          border-width: var(--haxtheme-courses-course-card-border-width, 2px);
-          border-color: var(--haxtheme-courses-course-card-border-color);
-          @apply --haxtheme-courses-course-card;
-        }
-
-        course-card:hover {
-          box-shadow: var(
-            --haxtheme-courses-course-card-hover-box-shadow,
-            1px 1px 5px #dcdcdc
-          );
-          @apply --haxtheme-courses-course-card-hover;
-        } */
       </style>
       <site-query
         result="{{__items}}"
