@@ -5360,8 +5360,14 @@ class CourseCard extends PolymerElement {
           color: var(--haxtheme-course-card-a-color);
           display: var(--haxtheme-course-card-a-display, block);
           width: var(--haxtheme-course-card-a-width, 100%);
-          @apply --haxtheme-course-card-a;
+          min-height: 300px;
+          border: solid 1px #dcdcdc;
         }
+
+        a:hover {
+          box-shadow:  1px 1px 5px #dcdcdc;
+        }
+
         #card_wrap {
           display: var(--haxtheme-course-card-card-wrap-display, flex);
           flex-direction: var(
@@ -5532,7 +5538,7 @@ class HaxThemeCourses extends PolymerElement {
           @apply --haxtheme-courses-course;
         }
 
-        course-card {
+        /* course-card {
           width: var(--haxtheme-courses-course-card-width, 100%);
           border: var(--haxtheme-courses-course-card-border, solid);
           border-width: var(--haxtheme-courses-course-card-border-width, 2px);
@@ -5546,7 +5552,7 @@ class HaxThemeCourses extends PolymerElement {
             1px 1px 5px #dcdcdc
           );
           @apply --haxtheme-courses-course-card-hover;
-        }
+        } */
       </style>
       <site-query
         result="{{__items}}"

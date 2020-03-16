@@ -39,7 +39,7 @@ class HaxThemeCourses extends PolymerElement {
           @apply --haxtheme-courses-course;
         }
 
-        course-card {
+        /* course-card {
           width: var(--haxtheme-courses-course-card-width, 100%);
           border: var(--haxtheme-courses-course-card-border, solid);
           border-width: var(--haxtheme-courses-course-card-border-width, 2px);
@@ -53,7 +53,7 @@ class HaxThemeCourses extends PolymerElement {
             1px 1px 5px #dcdcdc
           );
           @apply --haxtheme-courses-course-card-hover;
-        }
+        } */
       </style>
       <site-query
         result="{{__items}}"
