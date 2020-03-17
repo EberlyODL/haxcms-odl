@@ -1,5 +1,4 @@
 import { PolymerElement, html } from '../../build/es6/node_modules/@polymer/polymer/polymer-element.js';
-import { SimpleColors } from '../../build/es6/node_modules/@lrnwebcomponents/simple-colors/simple-colors.js';
 import { HAXCMSPolymerElementTheme } from '../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/core/HAXCMSPolymerElementTheme.js';
 import { store } from '../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js';
 import { autorun, toJS } from '../../build/es6/node_modules/mobx/lib/mobx.module.js';
@@ -15,7 +14,6 @@ import '../../build/es6/node_modules/@lrnwebcomponents/person-testimonial/person
 import '../../build/es6/node_modules/@polymer/iron-icon/iron-icon.js';
 import '../../build/es6/node_modules/@polymer/iron-iconset-svg/iron-iconset-svg.js';
 import '../../build/es6/node_modules/@polymer/polymer/lib/elements/dom-if.js';
-import { HAXWiring } from '../../build/es6/node_modules/@lrnwebcomponents/hax-body-behaviors/lib/HAXWiring.js';
 import '../../build/es6/node_modules/@polymer/paper-button/paper-button.js';
 import { SiteTopMenu } from '../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-top-menu.js';
 import '../../build/es6/node_modules/@polymer/paper-input/paper-input.js';
@@ -7173,51 +7171,43 @@ class WorksheetDownload extends LitElement {
     };
   }
 
-  connectedCallback() {
-    super.connectedCallback();
-    this.HAXWiring = new HAXWiring();
-    this.HAXWiring.setup(
-      WorksheetDownload.haxProperties,
-      WorksheetDownload.tag,
-      this
-    );
-  }
-
   constructor() {
     super();
     this.title = "";
     this.link = "";
   }
+  static get styles() {
+    return [css`
+      :host {
+        display: block;
+      }
+
+      a {
+        text-decoration: none;
+        color: #0c7cd5;
+      }
+
+      paper-button {
+        --paper-button-ink-color: #dcdcdc;
+        text-transform: none;
+        border: solid 2px #dcdcdc;
+        display: flex;
+        width: 100%;
+        margin: 0 auto 0;
+      }
+
+      paper-button:hover {
+        background-color: #0c7cd5;
+        color: #fff;
+      }
+
+      iron-icon {
+        margin-right: 5px;
+      }
+    `];
+  }
   render() {
     return html$1`
-      <style>
-        :host {
-          display: block;
-        }
-
-        a {
-          text-decoration: none;
-          color: #0c7cd5;
-        }
-
-        paper-button {
-          --paper-button-ink-color: #dcdcdc;
-          text-transform: none;
-          border: solid 2px #dcdcdc;
-          display: flex;
-          width: 100%;
-          margin: 0 auto 0;
-        }
-
-        paper-button:hover {
-          background-color: #0c7cd5;
-          color: #fff;
-        }
-
-        iron-icon {
-          margin-right: 5px;
-        }
-      </style>
       <div id="button_wrap">
         <a href="${this.link}" target="_blank">
           <paper-button>
@@ -8854,12 +8844,6 @@ window.customElements.define(HaxthemeSearch.tag, HaxthemeSearch);
 /**
  * `odl-haxtheme`
  * `ODL custom site theme`
- *
- * @microcopy - language worth noting:
- *  -
- *
- * @customElement
- * @polymer
  * @demo demo/index.html
  */
 class OdlHaxtheme extends HAXCMSPolymerElementTheme {
@@ -9115,6 +9099,9 @@ tr:hover {
   static get tag() {
     return "odl-haxtheme";
   }
+  /**
+   * life cycle, element is afixed to the DOM
+   */
   connectedCallback() {
     super.connectedCallback();
     autorun(reaction => {
@@ -9126,7 +9113,6 @@ tr:hover {
       this.__disposer.push(reaction);
     });
   }
-
   disconnectedCallback() {
     for (var i in this.__disposer) {
       this.__disposer[i].dispose();
