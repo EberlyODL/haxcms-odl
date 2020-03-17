@@ -64,12 +64,12 @@ class HaxThemeContact extends PolymerElement {
       <page-banner
         image="files/theme-images/page-banners/contact-banner.jpg"
         text="Contact"
-        alt="Gateway to the Sciences"
+        alt="A courtyard view of Shortlidge Square."
       ></page-banner>
       <div id="content-wrap">
         <div id="about_header">
           <div id="title">
-            <h1>Contact</h1>
+            <h1>Email Us</h1>
           </div>
         </div>
         <div id="contact-info">

@@ -4872,7 +4872,7 @@ class HaxThemeNews extends PolymerElement {
             </dom-repeat>
           </div>
           <div class="sidebar_wrap">
-            <div id="twitter_feed">
+            <!-- <div id="twitter_feed">
               <a
                 class="twitter-timeline"
                 data-height="600"
@@ -4884,7 +4884,7 @@ class HaxThemeNews extends PolymerElement {
                 src="https://platform.twitter.com/widgets.js"
                 charset="utf-8"
               ></script>
-            </div>
+            </div> -->
             <div id="news_archive">
               <site-recent-content-block
                 title="News Archive"
@@ -7893,12 +7893,12 @@ class HaxThemeContact extends PolymerElement {
       <page-banner
         image="files/theme-images/page-banners/contact-banner.jpg"
         text="Contact"
-        alt="Gateway to the Sciences"
+        alt="A courtyard view of Shortlidge Square."
       ></page-banner>
       <div id="content-wrap">
         <div id="about_header">
           <div id="title">
-            <h1>Contact</h1>
+            <h1>Email Us</h1>
           </div>
         </div>
         <div id="contact-info">

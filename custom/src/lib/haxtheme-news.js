@@ -162,7 +162,7 @@ class HaxThemeNews extends PolymerElement {
             </dom-repeat>
           </div>
           <div class="sidebar_wrap">
-            <div id="twitter_feed">
+            <!-- <div id="twitter_feed">
               <a
                 class="twitter-timeline"
                 data-height="600"
@@ -174,7 +174,7 @@ class HaxThemeNews extends PolymerElement {
                 src="https://platform.twitter.com/widgets.js"
                 charset="utf-8"
               ></script>
-            </div>
+            </div> -->
             <div id="news_archive">
               <site-recent-content-block
                 title="News Archive"
