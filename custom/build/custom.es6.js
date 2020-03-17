@@ -1,5 +1,4 @@
 import { PolymerElement, html } from '../../build/es6/node_modules/@polymer/polymer/polymer-element.js';
-import { SimpleColors } from '../../build/es6/node_modules/@lrnwebcomponents/simple-colors/simple-colors.js';
 import { HAXCMSPolymerElementTheme } from '../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/core/HAXCMSPolymerElementTheme.js';
 import { store } from '../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js';
 import { autorun, toJS } from '../../build/es6/node_modules/mobx/lib/mobx.module.js';
@@ -8854,12 +8853,6 @@ window.customElements.define(HaxthemeSearch.tag, HaxthemeSearch);
 /**
  * `odl-haxtheme`
  * `ODL custom site theme`
- *
- * @microcopy - language worth noting:
- *  -
- *
- * @customElement
- * @polymer
  * @demo demo/index.html
  */
 class OdlHaxtheme extends HAXCMSPolymerElementTheme {
@@ -9115,6 +9108,9 @@ tr:hover {
   static get tag() {
     return "odl-haxtheme";
   }
+  /**
+   * life cycle, element is afixed to the DOM
+   */
   connectedCallback() {
     super.connectedCallback();
     autorun(reaction => {
@@ -9126,7 +9122,6 @@ tr:hover {
       this.__disposer.push(reaction);
     });
   }
-
   disconnectedCallback() {
     for (var i in this.__disposer) {
       this.__disposer[i].dispose();

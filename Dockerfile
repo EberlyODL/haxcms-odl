@@ -1,4 +1,4 @@
-FROM elmsln/haxcms:release-0.12.0 as haxcms
+FROM elmsln/haxcms:1f7a2b4ae2 as haxcms
 
 FROM php:7.3-apache
 
