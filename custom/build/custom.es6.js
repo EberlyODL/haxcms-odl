@@ -7948,6 +7948,8 @@ class LinkPreview extends LitElement {
           --link-preview-link-color: #000;
           --link-preview-accent-color: #e2801e;
           --link-preview-title-font-size: 28px;
+          width: 95%;
+          margin: 15px 0 15px;
         }
 
         a {
