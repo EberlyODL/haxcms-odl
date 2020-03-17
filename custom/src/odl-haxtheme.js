@@ -3,8 +3,7 @@
  * @license Apache-2.0, see License.md for full text.
  */
 import { html } from "@polymer/polymer/polymer-element.js";
-import { SimpleColors } from "@lrnwebcomponents/simple-colors/simple-colors.js";
-import { HAXCMSTheme } from "@lrnwebcomponents/haxcms-elements/lib/core/HAXCMSThemeWiring.js";
+import { HAXCMSPolymerElementTheme } from "@lrnwebcomponents/haxcms-elements/lib/core/HAXCMSPolymerElementTheme.js";
 import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js";
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
 import { dom } from "@polymer/polymer/lib/legacy/polymer.dom.js";
@@ -35,15 +34,9 @@ import "./lib/haxtheme-search.js";
 /**
  * `odl-haxtheme`
  * `ODL custom site theme`
- *
- * @microcopy - language worth noting:
- *  -
- *
- * @customElement
- * @polymer
  * @demo demo/index.html
  */
-class OdlHaxtheme extends HAXCMSTheme(SimpleColors) {
+class OdlHaxtheme extends HAXCMSPolymerElementTheme {
   
   // render function
   static get template() {
