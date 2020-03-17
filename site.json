@@ -622,7 +622,7 @@
                     "phone": "814-867-4604",
                     "email": "cgl109@psu.edu",
                     "twitter": "https:\/\/twitter.com\/CGLDevel",
-                    "info": "Expertise: Programming (site building, course widgets, web components), H5P; let's create something for your course / website."
+                    "info": "Expertise: Programming (site building, course widgets, web components), H5P; let's create something for your course \/ website."
                 },
                 "created": 1541517910,
                 "updated": 1541517757,
@@ -642,12 +642,12 @@
                 "fields": {
                     "name": "Sey Yeaple",
                     "image": "files\/odl-team\/sey.jpg",
-                    "jobTitle": "3D Generalist / Student Intern",
+                    "jobTitle": "3D Generalist \/ Student Intern",
                     "address": "221 Ritenour",
                     "phone": "814-867-4604",
                     "email": "scy5038@psu.edu",
                     "twitter": "https:\/\/twitter.com\/seymaple",
-                    "info": "Expertise: 3D / AR Asset and Scene Creation, Animations, and Video Compositing; let's explore how we can add virtual reality to your world."
+                    "info": "Expertise: 3D \/ AR Asset and Scene Creation, Animations, and Video Compositing; let's explore how we can add virtual reality to your world."
                 },
                 "created": 1541517910,
                 "updated": 1541517757,
@@ -4092,15 +4092,25 @@
             "order": 2,
             "parent": "resources",
             "title": "One Button Studio",
-            "description": "The Office of Digital Learning hosts a One-Button Studio for faculty for the easy creation of videos for residential, blended, and online courses. Some of the functions of the OBS include a green-screen, a lightboard, and a podcasting studio.",
+            "description": "  The Office of Digital Learning hosts a One-Button Studio for faculty for the  easy creation of videos for residential, blended, and online courses. Some  of the functions of the OBS include a gre",
             "metadata": {
                 "fields": {
                     "image": "files\/resource-images\/obs-banner.jpg",
                     "alt": "Studio Lights. Photo by: William F. Santos - Unsplash.com"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
-                "type": "resources"
+                "updated": 1584471955,
+                "type": "resources",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 4,
+                    "schema": [],
+                    "tags": {
+                        "p": 4
+                    },
+                    "elements": 4
+                }
             }
         },
         {
