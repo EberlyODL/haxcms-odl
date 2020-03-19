@@ -13,7 +13,8 @@
     "watch": "rollup --watch -c rollup.config.js"
   },
   "dependencies": {
-    "hax-form": "^0.1.2"
+    "hax-form": "^0.1.2",
+    "@adobe/lit-mobx": "^0.0.3"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-amd": "^7.2.0",

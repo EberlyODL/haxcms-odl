@@ -19,6 +19,19 @@ services:
       - "traefik.enable=true" # Enable reverse-proxy for this service
       - "traefik.frontend.rule=Host:haxcms-odl.haxcms.localhost"
   
+  api:
+    build:
+      context: ./services/api
+    volumes:
+      - ./site.json:/haxcms/site.json
+      - ./pages:/haxcms/pages
+      - ./services/api:/home/node/app
+      - /home/node/app/node_modules
+    labels:
+      - "traefik.enable=true" # Enable reverse-proxy for this service
+      - "traefik.port=3000" # Enable reverse-proxy for this service
+      - "traefik.frontend.rule=Host:api.haxcms-odl.haxcms.localhost"
+
   custom:
     build:
       context: ./custom

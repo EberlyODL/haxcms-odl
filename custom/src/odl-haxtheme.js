@@ -30,6 +30,7 @@ import "./lib/page-topbar.js";
 import "./lib/page-footer.js";
 import "./lib/odl-site-top-menu.js";
 import "./lib/haxtheme-search.js";
+import "./lib/haxtheme-faqs.js"
 
 /**
  * `odl-haxtheme`
@@ -211,6 +212,7 @@ tr:hover {
     <haxtheme-spotlight id="spotlight" edit-mode$="[[editMode]]"></haxtheme-spotlight>
     <haxtheme-resources id="resources" edit-mode$="[[editMode]]"></haxtheme-resources>
     <haxtheme-search id="search" edit-mode$="[[editMode]]"></haxtheme-search>
+    <haxtheme-faqs id="faqs" edit-mode$="[[editMode]]"></haxtheme-faqs>
 </iron-pages>
 <scroll-button></scroll-button>
 <page-footer></page-footer>`;
@@ -343,6 +345,8 @@ tr:hover {
             target = "resources";
           } else if (location.route.path.startsWith("search")) {
             target = "search";
+          } else if (location.route.path.startsWith("faqs")) {
+            target = "faqs";
           }
           break;
       }
@@ -389,6 +393,10 @@ tr:hover {
           this.selectedPage = 16;
           target = location.route.name;
           break;
+        case "faqs":
+          this.selectedPage = 17;
+          target = location.route.name;
+          break;
         // case "resources":
         //   this.selectedPage = 15;
         //   target = location.route.name;
@@ -427,8 +435,11 @@ tr:hover {
                 this.selectedPage = 15;
                 target = "resources";
               } else if (routePath.startsWith("/search")) {
-                this.selectedPage = 15;
+                this.selectedPage = 16;
                 target = "search";
+              } else if (routePath.startsWith("/faqs")) {
+                this.selectedPage = 17;
+                target = "faqs";
               }
               
               break;
