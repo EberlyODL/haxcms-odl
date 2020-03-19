@@ -7023,6 +7023,7 @@ class HaxThemeResources extends PolymerElement {
         border-left-width: 2px;
         border-left-color: #dcdcdc;
         padding: 0 0 0 20px;
+        height: 750px;
       }
 
       @media screen and (max-width: 768px) {

@@ -622,7 +622,7 @@
                     "phone": "814-867-4604",
                     "email": "cgl109@psu.edu",
                     "twitter": "https:\/\/twitter.com\/CGLDevel",
-                    "info": "Expertise: Programming (site building, course widgets, web components), H5P; let's create something for your course / website."
+                    "info": "Expertise: Programming (site building, course widgets, web components), H5P; let's create something for your course \/ website."
                 },
                 "created": 1541517910,
                 "updated": 1541517757,
@@ -642,12 +642,12 @@
                 "fields": {
                     "name": "Sey Yeaple",
                     "image": "files\/odl-team\/sey.jpg",
-                    "jobTitle": "3D Generalist / Student Intern",
+                    "jobTitle": "3D Generalist \/ Student Intern",
                     "address": "221 Ritenour",
                     "phone": "814-867-4604",
                     "email": "scy5038@psu.edu",
                     "twitter": "https:\/\/twitter.com\/seymaple",
-                    "info": "Expertise: 3D / AR Asset and Scene Creation, Animations, and Video Compositing; let's explore how we can add virtual reality to your world."
+                    "info": "Expertise: 3D \/ AR Asset and Scene Creation, Animations, and Video Compositing; let's explore how we can add virtual reality to your world."
                 },
                 "created": 1541517910,
                 "updated": 1541517757,
@@ -4200,11 +4200,11 @@
             "order": 3,
             "parent": "contingency",
             "title": "Academic Integrity and Assessments",
-            "description": "",
+            "description": "Currently, there is no university-wide supported proctoring service for online classes. World Campus utilizes the Examity proctoring service, for a fee.",
             "metadata": {
                 "fields": {
-                    "image": "files\/resource-images\/resources-banner.jpg",
-                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
+                    "image": "files\/resource-images\/academic-integrity-banner.jpg",
+                    "alt": "Students sitting on chairs with papers and pens. Photo by: Miguel Henriques - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -4218,11 +4218,11 @@
             "order": 3,
             "parent": "contingency",
             "title": "Accessibility",
-            "description": "",
+            "description": "When publishing content online, it is important to ensure all accessibility standards are met.",
             "metadata": {
                 "fields": {
-                    "image": "files\/resource-images\/resources-banner.jpg",
-                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
+                    "image": "files\/resource-images\/accessibility-banner.jpg",
+                    "alt": "Magnifying glass near gray laptop computer. Photo by: Agence Olloweb - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -4236,11 +4236,11 @@
             "order": 3,
             "parent": "contingency",
             "title": "Canvas",
-            "description": "",
+            "description": "Canvas is the University's Learning Management System. It allows for the sharing of content, performing of administrative functions (grading and assessment), and opportunities for engagement. It's fairly intuititve to learn, and Penn State has created an easy to navigate Learning Path that will get you up to speed quickly.",
             "metadata": {
                 "fields": {
-                    "image": "files\/resource-images\/resources-banner.jpg",
-                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
+                    "image": "files\/resource-images\/canvas-banner.jpg",
+                    "alt": "MacBook Pro near white open book. Original Photo by: Nick Morrison - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -4254,15 +4254,32 @@
             "order": 3,
             "parent": "contingency",
             "title": "Educational Technologies",
-            "description": "",
+            "description": "Ed Tech Advisor  Ed Tech Advisor  is a decision support tool designed to help PSU faculty pick the Penn  State-supported tool that best meets their teaching needs. Ed Tech Advisor ETA  enables y",
             "metadata": {
                 "fields": {
-                    "image": "files\/resource-images\/resources-banner.jpg",
-                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
+                    "image": "files\/resource-images\/edtech-banner.jpg",
+                    "alt": "Worms eye view of buildings. Photo by: Alex Wong - Unsplash.com"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
-                "type": "resources"
+                "updated": 1584649266,
+                "type": "resources",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 4,
+                    "paragraphs": 4,
+                    "schema": [
+                        {
+                            "resource": "#95754ce3-85d1-6035-003d",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        }
+                    ],
+                    "tags": {
+                        "h2": 4,
+                        "p": 4,
+                        "video-player": 1
+                    },
+                    "elements": 9
+                }
             }
         },
         {
@@ -4272,11 +4289,11 @@
             "order": 3,
             "parent": "contingency",
             "title": "Online Lab Toolkit",
-            "description": "",
+            "description": "With all this talk of contingency planning, many of our colleagues are asking, How do you deal with labs in the face of a cancellation? And the answer, as always, is that it depends.",
             "metadata": {
                 "fields": {
-                    "image": "files\/resource-images\/resources-banner.jpg",
-                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
+                    "image": "files/resource-images/online-lab-toolkit-banner.jpg",
+                    "alt": "Pendant Light Bulb. Photo by: Luca Florio - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,

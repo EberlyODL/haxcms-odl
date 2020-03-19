@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- generator-class="Icamys\SitemapGenerator\SitemapGenerator" -->
 <!-- generator-version="1.1.0" -->
-<!-- generated-on="2020-03-15T19:28:39+00:00" -->
+<!-- generated-on="2020-03-19T20:21:06+00:00" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>/home</loc>
@@ -100,6 +100,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>/team-directory/sey</loc>
+    <lastmod>2018-11-06T15:22:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>/team-directory/louis</loc>
     <lastmod>2019-04-16T04:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -119,6 +125,12 @@
   </url>
   <url>
     <loc>/contact</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/search</loc>
     <lastmod>2018-11-06T15:22:35+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -839,7 +851,7 @@
   </url>
   <url>
     <loc>/resources/contingency/educational-technologies</loc>
-    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <lastmod>2020-03-19T20:21:06+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

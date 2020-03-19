@@ -247,30 +247,7 @@
       <title>Joseph Houck</title>
       <link>/team-directory/joseph</link>
       <description>
-          <![CDATA[ <div>
-  Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut
-  lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
-  <br />
-  <br />
-</div>
-<div>
-  Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut
-  lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
-  <br />
-  <br />
-</div>
-<div>
-  Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut
-  lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
-  <br />
-  <br />
-</div>
-<div>
-  Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut
-  lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
-  <br />
-  <br />
-</div>
+          <![CDATA[ <p>Coming Soon!</p>
  ]]>
       </description>
       <category></category>
@@ -415,6 +392,28 @@
       <pubDate>Tue, 06 Nov 2018 15:25:10 +0000</pubDate>
     </item>
     <item>
+      <title></title>
+      <link>/team-directory/sey</link>
+      <description>
+          <![CDATA[ <p>
+  My name's Sey Yeaple and I am a digital artist, that specializes in 3d work. I
+  am a senior at Penn State majoring in Digital Art Media and Design (DAMD),
+  formally known as IDS (Interdisciplinary Digital Studios). I work for the
+  Office of Digital Learning (ODL) at Eberly College of Science at Penn State. I
+  primarily work on creating 3D assets (modeling/texturing), 3D scans, animations,
+  and video compositing. I am proficient in Adobe Creative Suite and 3D
+  programs including: Blender, Maya, Substance Painter, Unreal Engine (gaming),
+  Marvelous Designer, Medium(VR), and 3D scanning (using Artec 3d). I am
+  fortunate to have been granted the opportunity to work with the ODL team and
+  the new and fun advancements the team is working on.
+</p>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/team-directory/sey</guid>
+      <pubDate>Tue, 06 Nov 2018 15:25:10 +0000</pubDate>
+    </item>
+    <item>
       <title>Michael Potter</title>
       <link>/team-directory/mike</link>
       <description>
@@ -488,619 +487,6 @@
       <category></category>
       <guid>/team-directory/carly</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chem 111</title>
-      <link>/syllabi/chem111</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  CHEM 111 is an introductory chemistry laboratory experience that gives
-  students the opportunity to put into practice the essential principles
-  utilized in a professional chemistry laboratory regarding topics relevant to
-  CHEM 110.
-</p>
-<h2>Objectives</h2>
-<p>Upon successful completion of this course students will be able to:</p>
-<ul>
-  <li>
-    Conduct experiments on topics relevant to CHEM 110 in a manner that is safe,
-    economical, and environmentally friendly
-  </li>
-  <li>
-    Perform fundamental laboratory manipulations
-  </li>
-  <li>
-    Make accurate experimental observations
-  </li>
-  <li>
-    Accurately record and interpret data
-  </li>
-  <li>
-    Recognize sources of error in experiments and estimate their importance
-  </li>
-  <li>
-    Plan and produce useful reports of laboratory work that meet acceptable
-    standards of completeness, accuracy, clarity, and neatness
-  </li>
-</ul>
-<h2>Materials</h2>
-<ul>
-  <li>
-    <a
-      href="https://www.carolina.com/catalog/detail.jsp?prodId=581862"
-      target="_blank"
-      >PSU Experimental Chemistry Kit</a
-    >
-  </li>
-  <li>LabArchives (email sent to you)</li>
-  <li>Scientific Calculator (non-programmable)</li>
-</ul>
-<h2>Course Schedule</h2>
-<table>
-  <th>Week</th>
-  <th>Topic(s)</th>
-  <tr>
-    <td>1</td>
-    <td>Course Overview & Safety</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>"Finding Scientific Information” Module</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Uncertainty and Measurement & Faster, Plop, Plop, Fizz, Fizz</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Atomic Emission</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Physical and Chemical Changes</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>Determination of Water Hardness by Titration</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>Bonding and properties of water</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>Work week for project proposal</td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>No Investigation<br />Midterm Exam 1 (Weeks 1-7)</td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>Fundamentals of Chromatography</td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>Investigating Chemical Reactions</td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>Single replacement reactions: Stoich and percent yield</td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>Gases</td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>Enthalpy of a Reaction Using Hess’s Law</td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>No Investigation<br />Midterm Exam 2 (Weeks 10-14)</td>
-  </tr>
-</table>
-
-<h2>Laboratory Investigations (75%)</h2>
-<p>
-  Each week, there will be an investigation to complete. All of the information
-  will be provided on LabArchives. The first two weeks are considered a “dry”
-  lab because there will not be an explicit experiment conducted. Most
-  laboratory investigations will be worth 70 points and consist of three parts:
-  notebook pages, post-lab worksheet, and a quiz. Each part is explained in more
-  detail below. The deadline to submit all parts of the investigation for the
-  week will be on Tuesday of the following week.
-</p>
-<h2>Notebook Pages (10 points)</h2>
-<p>
-  There will be a dedicated page in LabArchives for collecting raw data and
-  recording procedural notes.
-</p>
-<h2>Post-lab Worksheet (50 points)</h2>
-<p>
-  After completing the investigation and collecting the data, you will complete
-  a worksheet where you will analyze the data. Analysis may consist of
-  performing calculations with the data, making graphs, and assessing accuracy
-  and/or precision of results.
-</p>
-<h2>Quiz (10 points)</h2>
-<p>
-  The quiz associated with each laboratory investigation can be completed at
-  anytime during the week on Canvas. You will have 20-mintues and up to two
-  attempts (only the highest score will be kept). The quizzes will test your
-  conceptual understanding of the investigation.
-</p>
-<p>
-  All parts of the lab investigations will be due on Tuesdays by 11:59 pm and
-  should be handed in on time. If they are not handed in on time, substantial
-  penalties will apply (–10% for each day that an assignment is late). Material
-  that is more than one week late will not be accepted.
-</p>
-<h2>Midterm Exams (10% each)</h2>
-<p>
-  There will be two (2) midterm exams given over the course of the semester.
-  Exams are schedule on the following dates and times and will require you to
-  come to campus. If you are not able to make the exam at that time, you must
-  make arrangements with instructor for an alternate exam time earlier in the
-  day.
-</p>
-<p>
-  Exams will focus on material covered since the last exam; however, you are
-  still responsible for information presented previously. The exams will consist
-  of short answer questions and open-ended problems. Some questions may be
-  multiple choice. Stay tuned to announcements for details on the format.
-</p>
-<h2>Participation (5%)</h2>
-<p>
-  We will have a class forum/chatroom for asking and answering questions about
-  the course using Piazza (accessed in Canvas). You can ask and answer questions
-  here, which will be monitored by the TA and instructor. Please direct your
-  questions here before e-mailing. You will be able to ask and answer
-  anonymously if you wish. The beauty of Piazza is that the entire class can
-  benefit from the questions and answers. More information on enrolling and
-  etiquette for using will be provided during the semester. You must make 10
-  posts (questions or answers) anytime before October 19 to earn all 25
-  participation points for the exam period. You will earn a proportionately
-  lower score for fewer than 10 posts. Make an addition 10 posts (questions or
-  answers) anytime between October 20 and December 7 to earn the remaining 25
-  points.
-</p>
-<h2>Grading</h2>
-<p>
-  The final grade is calculated based on scores in each assignment category
-  (details follow).
-</p>
-<table>
-  <th>Activity</th>
-  <th>Points</th>
-  <tr>
-    <td>Laboratory Investigations</td>
-    <td>750</td>
-  </tr>
-  <tr>
-    <td>Midterm Exams(2)</td>
-    <td>100 each / 200 total</td>
-  </tr>
-  <tr>
-    <td>Participation</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Total</td>
-    <td>1000</td>
-  </tr>
-</table>
-
-<h2>Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% of Course Points</th>
-  <tr>
-    <td>A</td>
-    <td>93-100%</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>90-92%</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>91-87%</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>83-90%</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>80-82%</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>77-79%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>69-76%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>57-68%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 56%</td>
-  </tr>
-</table>
-
-<h2>Make-up Exams</h2>
-<p>
-  As required by University regulations, students who miss an exam with a valid
-  excuse (family emergency, illness, university-scheduled activities, etc.) will
-  be given an opportunity to make-up the exam. Prearranged make ups can be taken
-  earlier in the exam week. In order to be eligible for the make-up exam ALL of
-  the following conditions MUST be fulfilled:
-</p>
-<ol>
-  <li>
-    The missed exam is the result of a University-approved excuse. Per Senate
-    Policy 42-27, “Requests for missing class or an evaluative event due to
-    reasons that are based on false claims may be considered violations of the
-    policy on Academic Integrity”
-  </li>
-  <li>
-    Instructor must be notified in writing (email is preferred) within 24 hours
-    of the missed exam.
-  </li>
-  <li>
-    You must schedule a make up for the exam within 1 week of the original exam
-    date.
-  </li>
-</ol>
-<h2>Regrades and Grade Corrections</h2>
-<p>
-  If after an exam or laboratory investigation is returned there is a question
-  concerning the grading of the assignment, the material should be resubmitted
-  to instructor for full reconsideration. Under no circumstances will anyone
-  else make changes to the grades. All requests for re-grading are to be made in
-  writing according to the procedure outlined below and must be submitted to
-  instructor within one week of receiving the feedback. Note that the entire
-  assignment will be regraded and this may result in a lower grade. Late
-  re-grades will not be accepted and will not be considered at the end of the
-  semester.
-</p>
-<p>
-  The written request for a re-grade must be on a separate piece of paper. DO
-  NOT ALTER THE ORIGINAL SUBMISSION. The re-grade must include an explanation as
-  to why you feel the problem should be re-graded. I will not discuss with you
-  whether or not you should submit a re-grade. "Brief comparisons" which consist
-  of "I think I deserve more points" or “the answer is correct because my friend
-  had the same answer” are NOT reconsidered.
-</p>
-<p>
-  Note: Addition errors made during point totaling are not considered re-grades
-  and may be given to the instructor for correction at any time during the
-  semester.
-</p>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/chem111</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chem 130</title>
-      <link>/syllabi/chem130</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  This course is a one-semester college level introductory chemistry course
-  covering the fundamental principles of general, organic, and biochemistry.
-  Three credits, fulfills the General Education (GN) requirements.
-</p>
-<p>
-  Course topics include dimensional analysis, atomic structure and periodicity,
-  chemical bonding, molecular structure, states of matter and intermolecular
-  forces, basic gas laws, solutions and solubility, acids, bases and
-  equilibrium, reaction stoichiometry and thermodynamics. In addition,
-  fundamentals of organic nomenclature, properties of main organic functional
-  groups, and structure and function of biological macromolecules will be
-  discussed. The course will emphasize chemistry in environmental and
-  health-related contexts.
-</p>
-<h2>Objectives</h2>
-<p>
-  The overall objective of this course is for students to gain knowledge of
-  fundamental principles in the areas of general chemistry, organic chemistry,
-  and biochemistry. Since many of the students enrolled in this course will be
-  majoring in environmental or health related sciences, this course will
-  emphasize chemistry as it appears in environmental and health related
-  contexts. The specific learning objectives are listed below:
-</p>
-<ol>
-  <li>General Learning Objectives: Students will be able to...</li>
-  <ul>
-    <li>
-      Apply scientific reasoning and methods of inquiry to explain chemical
-      phenomena.
-    </li>
-    <li>
-      Demonstrate effective problem-solving and critical thinking skills through
-      interpreting, analyzing, and evaluating chemical information (both
-      qualitative and quantitative).
-    </li>
-    <li>
-      Use their knowledge of general, organic and biochemistry to describe and
-      analyze issues in health and environmental sciences.
-    </li>
-  </ul>
-  <li>In the areas of general chemistry, students will be able to...</li>
-  <ul>
-    <li>
-      Perform dimensional analysis to convert between different measurements,
-      particularly as applied to health-related situations.
-    </li>
-    <li>
-      Describe the structure of an atom, explain how elements are arranged in
-      the periodic table, and understand the periodic trends in atomic
-      properties.
-    </li>
-    <li>
-      Name and identify ionic and molecular compounds (either binary or
-      containing polyatomic ions), draw Lewis structures of molecular compounds,
-      use VSEPR theory to predict molecular shapes, classify whether a molecule
-      is polar, and describe the attractive forces in molecular compounds.
-    </li>
-    <li>
-      Apply basic gas laws, especially in regard to the human respiratory
-      system.
-    </li>
-    <li>
-      Identify the solute and solvent in a solution, describe the effect of
-      temperature, pressure, and intermolecular forces on the solubility,
-      identify solutes as electrolytes or nonelectrolytes, and describe how
-      solute concentrations affect the properties of a solution.
-    </li>
-    <li>
-      Balance and classify basic chemical reactions, use balanced equations to
-      determine relationships between reactants and products, determine the
-      limiting reactant, theoretical yield, and percent yield of a reaction.
-    </li>
-    <li>
-      Describe how free energy changes are different for spontaneous and
-      non-spontaneous reactions, and explain how variables such as temperature
-      and pressure affect the rate of a reaction.
-    </li>
-    <li>
-      Identify common acids and bases, and apply the concepts of pH, acids,
-      bases and buffers to problems involving systems of the human body.
-    </li>
-  </ul>
-  <li>In the area of organic chemistry, students will be able to...</li>
-  <ul>
-    <li>
-      Describe how condensed structural formulas and skeletal structures differ.
-    </li>
-    <li>Classify hydrocarbons as alkanes, alkenes, alkynes, or aromatics</li>
-    <li>
-      Name and draw the major organic functional groups (alcohols, thiols,
-      aldehydes, ketones, acids and acid derivatives, amines, amino acids).
-    </li>
-    <li>
-      Apply the concepts of molecular geometry, polarity, and intermolecular
-      forces to describe properties of organic molecules.
-    </li>
-    <li>
-      Describe, draw, and identify constitutional, geometric, and stereoisomers.
-    </li>
-  </ul>
-  <li>In the area of biochemistry, students will be able to...</li>
-  <ul>
-    <li>
-      Identify basic structural elements of carbohydrates, lipids, proteins
-      (peptides), and nucleic acids.
-    </li>
-    <li>
-      Understand the structural properties and biological activities of the four
-      major groups of biological macromolecules.
-    </li>
-  </ul>
-</ol>
-<h2>Materials</h2>
-<ol>
-  <li>
-    Textbook: Ball et al,
-    <a
-      href="https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Book%3A_The_Basics_of_GOB_Chemistry_(Ball_et_al.)"
-      target="_blank"
-      >The basics of General, Organic, and Biological Chemistry</a
-    >
-    . Publisher: Saylor Academy, 2012, Open (Access) Textbook
-  </li>
-  <li>
-    A suitable non-programmable scientific calculator (one that handles numbers
-    in scientific notation and provides log/antilog functions). Calculators with
-    text-storage, graphing, or communication capabilities (such as the TI-81
-    used in MATH 140, cell-phone calculators, etc) will not be permitted for use
-    on CHEM 130 exams.
-  </li>
-  <li>Webcam</li>
-  <li>Photo or Scanning Capabilities (Adobe Scan, CamScanner, etc.)</li>
-</ol>
-<h2>Midterm / Final Exams</h2>
-<p>
-  There will be three midterm examinations during the semester and a
-  comprehensive final examination during the final exam period. Each exam will
-  be administered through a proctoring service called Examity® (more information
-  below). Dates and times for midterm exams are flexible; you may sign up to
-  take each exam on either Thursday, Friday, or Saturday of each exam week.
-</p>
-<h2>Make-up Exam</h2>
-<p>
-  A student having a legitimate excuse for missing any of the three scheduled
-  midterms will be provided with a single make-up exam. This cumulative make-up
-  exam will cover the material from all three midterms. It is your
-  responsibility to obtain permission from your instructor to take this exam.
-  The make-up exam will be provided only to students with valid excuses (family
-  emergency, illness, university-scheduled activities, etc.).
-</p>
-<h2>Lectures and Course Content</h2>
-<p>
-  Most course content is delivered in the form of weekly lessons. Each week you
-  will have two lessons to complete (or one lesson on exam weeks). These lessons
-  are available on Canvas and consist of a series of lecture videos that are
-  accompanied by written lecture notes. After viewing these materials you’ll be
-  asked to complete a Knowledge Check Quiz that is based on the lesso
-</p>
-<p>
-  Three versions of the lecture slides are provided with each lesson. “Slides
-  without solutions” are lecture slides without any solutions to
-  example/practice problems; you’re encouraged to take notes using this version
-  of the slides. A copy of the slides with solutions is also provided. The third
-  version of the lecture slides contains written notes below each slide
-  explaining the content from that slide.
-</p>
-<h2>Knowledge Check Quizzes</h2>
-<p>
-  After finishing each lesson you’ll be asked to complete a Knowledge Check
-  Quiz. You’ll receive three attempts on each quiz, and only your highest score
-  will count. The quiz questions will change from one attempt to the next.
-  You’re encouraged to ask for help if you have questions about the quiz
-  questions; posting your questions on Piazza is encouraged
-</p>
-<p>
-  Knowledge Check Quizzes are due on Sunday of each week. Knowledge Check
-  Quizzes will open two weeks before they are due. The Knowledge Check Quizzes
-  account for 13% of the total course grade. At the end of the semester your two
-  lowest Knowledge Check scores will be dropped.
-</p>
-<h2>Homework Assignments</h2>
-<p>
-  Homework is designed to help you develop basic skills and understand and apply
-  your understanding of concepts presented in class. Doing all assigned problems
-  is essential to success in this course. Homework assignments can be accessed
-  from the Canvas page. You’re encouraged to work with your peers on homework
-  assignments, and you’re welcome to ask for help on Piazza, but your submitted
-  work must be your own. Homework is due at 11:59pm each Wednesday and should be
-  submitted on our Canvas page as a scanned PDF or DOCX file. There are no
-  homework assignments in the weeks following exams.
-</p>
-<p>
-  Each homework assignment is scored out of 10 possible points (not equivalent
-  to course points). On some occasions homework will be graded solely based on
-  completion and effort. On other occasions, however, one randomly selected
-  problem from the homework assignment will be graded for 5 points based on
-  correctness. On those occasions, completing the rest of the homework
-  assignment is worth an additional 5 points, graded based on completeness and
-  effort.
-</p>
-<p>
-  The homework scores will be totaled twice during the semester (after exam 2
-  and at the end of the semester). You must earn at least 75% of the available
-  homework points during each period to earn full course points for that period.
-  No extra credit results from accumulating more than 75% of the points during
-  that period. There will be no make-up opportunities for homework due to the
-  built-in excess of points.
-</p>
-<p>
-  All homework assignments will be submitted electronically using the
-  appropriate Canvas page. In order to upload your work you’ll need to either
-  scan it or take a high quality photograph of it (we suggest taking a photo
-  with a phone). You may be asked to resubmit your assignment if the image
-  quality of your scanned work is insufficient. You must upload your work as a
-  single PDF or DOCX file in order for Canvas to accept it. One way to do this
-  is to use an Android or iOS app that saves photographs on your phone as PDF
-  files. You can find many such apps by searching for scanning apps on the
-  Google Play Store or Apple App Store. “CamScanner” is a popular app that was
-  used by students in previous semesters. Alternatively, you can copy and paste
-  an image of your homework into a Microsoft Word document and save it as a DOCX
-  file.
-</p>
-<h2>Grading</h2>
-<table>
-  <th>Assignments</th>
-  <th>% of Course Grade</th>
-  <tr>
-    <td>Exam 1</td>
-    <td>15%</td>
-  </tr>
-  <tr>
-    <td>Exam 2</td>
-    <td>15%</td>
-  </tr>
-  <tr>
-    <td>Exam 3</td>
-    <td>15%</td>
-  </tr>
-  <tr>
-    <td>Final Exam</td>
-    <td>25%</td>
-  </tr>
-  <tr>
-    <td>Knowledge Check Quizzes</td>
-    <td>13%</td>
-  </tr>
-  <tr>
-    <td>Homework</td>
-    <td>11%</td>
-  </tr>
-  <tr>
-    <td>Piazza Participation</td>
-    <td>6%</td>
-  </tr>
-  <tr>
-    <td>Total</td>
-    <td>100%</td>
-  </tr>
-</table>
-
-<h2>Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% of Course Points</th>
-  <tr>
-    <td>A</td>
-    <td>92-100%</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>89-92%</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>86-89%</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>82-86%</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>79-82%</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>76-79%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>68-76%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>56-68%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 56%</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/chem130</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
       <title>Chem 202</title>
@@ -1624,6 +1010,971 @@
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
+      <title>Chem 130</title>
+      <link>/syllabi/chem130</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  This course is a one-semester college level introductory chemistry course
+  covering the fundamental principles of general, organic, and biochemistry.
+  Three credits, fulfills the General Education (GN) requirements.
+</p>
+<p>
+  Course topics include dimensional analysis, atomic structure and periodicity,
+  chemical bonding, molecular structure, states of matter and intermolecular
+  forces, basic gas laws, solutions and solubility, acids, bases and
+  equilibrium, reaction stoichiometry and thermodynamics. In addition,
+  fundamentals of organic nomenclature, properties of main organic functional
+  groups, and structure and function of biological macromolecules will be
+  discussed. The course will emphasize chemistry in environmental and
+  health-related contexts.
+</p>
+<h2>Objectives</h2>
+<p>
+  The overall objective of this course is for students to gain knowledge of
+  fundamental principles in the areas of general chemistry, organic chemistry,
+  and biochemistry. Since many of the students enrolled in this course will be
+  majoring in environmental or health related sciences, this course will
+  emphasize chemistry as it appears in environmental and health related
+  contexts. The specific learning objectives are listed below:
+</p>
+<ol>
+  <li>General Learning Objectives: Students will be able to...</li>
+  <ul>
+    <li>
+      Apply scientific reasoning and methods of inquiry to explain chemical
+      phenomena.
+    </li>
+    <li>
+      Demonstrate effective problem-solving and critical thinking skills through
+      interpreting, analyzing, and evaluating chemical information (both
+      qualitative and quantitative).
+    </li>
+    <li>
+      Use their knowledge of general, organic and biochemistry to describe and
+      analyze issues in health and environmental sciences.
+    </li>
+  </ul>
+  <li>In the areas of general chemistry, students will be able to...</li>
+  <ul>
+    <li>
+      Perform dimensional analysis to convert between different measurements,
+      particularly as applied to health-related situations.
+    </li>
+    <li>
+      Describe the structure of an atom, explain how elements are arranged in
+      the periodic table, and understand the periodic trends in atomic
+      properties.
+    </li>
+    <li>
+      Name and identify ionic and molecular compounds (either binary or
+      containing polyatomic ions), draw Lewis structures of molecular compounds,
+      use VSEPR theory to predict molecular shapes, classify whether a molecule
+      is polar, and describe the attractive forces in molecular compounds.
+    </li>
+    <li>
+      Apply basic gas laws, especially in regard to the human respiratory
+      system.
+    </li>
+    <li>
+      Identify the solute and solvent in a solution, describe the effect of
+      temperature, pressure, and intermolecular forces on the solubility,
+      identify solutes as electrolytes or nonelectrolytes, and describe how
+      solute concentrations affect the properties of a solution.
+    </li>
+    <li>
+      Balance and classify basic chemical reactions, use balanced equations to
+      determine relationships between reactants and products, determine the
+      limiting reactant, theoretical yield, and percent yield of a reaction.
+    </li>
+    <li>
+      Describe how free energy changes are different for spontaneous and
+      non-spontaneous reactions, and explain how variables such as temperature
+      and pressure affect the rate of a reaction.
+    </li>
+    <li>
+      Identify common acids and bases, and apply the concepts of pH, acids,
+      bases and buffers to problems involving systems of the human body.
+    </li>
+  </ul>
+  <li>In the area of organic chemistry, students will be able to...</li>
+  <ul>
+    <li>
+      Describe how condensed structural formulas and skeletal structures differ.
+    </li>
+    <li>Classify hydrocarbons as alkanes, alkenes, alkynes, or aromatics</li>
+    <li>
+      Name and draw the major organic functional groups (alcohols, thiols,
+      aldehydes, ketones, acids and acid derivatives, amines, amino acids).
+    </li>
+    <li>
+      Apply the concepts of molecular geometry, polarity, and intermolecular
+      forces to describe properties of organic molecules.
+    </li>
+    <li>
+      Describe, draw, and identify constitutional, geometric, and stereoisomers.
+    </li>
+  </ul>
+  <li>In the area of biochemistry, students will be able to...</li>
+  <ul>
+    <li>
+      Identify basic structural elements of carbohydrates, lipids, proteins
+      (peptides), and nucleic acids.
+    </li>
+    <li>
+      Understand the structural properties and biological activities of the four
+      major groups of biological macromolecules.
+    </li>
+  </ul>
+</ol>
+<h2>Materials</h2>
+<ol>
+  <li>
+    Textbook: Ball et al,
+    <a
+      href="https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Book%3A_The_Basics_of_GOB_Chemistry_(Ball_et_al.)"
+      target="_blank"
+      >The basics of General, Organic, and Biological Chemistry</a
+    >
+    . Publisher: Saylor Academy, 2012, Open (Access) Textbook
+  </li>
+  <li>
+    A suitable non-programmable scientific calculator (one that handles numbers
+    in scientific notation and provides log/antilog functions). Calculators with
+    text-storage, graphing, or communication capabilities (such as the TI-81
+    used in MATH 140, cell-phone calculators, etc) will not be permitted for use
+    on CHEM 130 exams.
+  </li>
+  <li>Webcam</li>
+  <li>Photo or Scanning Capabilities (Adobe Scan, CamScanner, etc.)</li>
+</ol>
+<h2>Midterm / Final Exams</h2>
+<p>
+  There will be three midterm examinations during the semester and a
+  comprehensive final examination during the final exam period. Each exam will
+  be administered through a proctoring service called Examity® (more information
+  below). Dates and times for midterm exams are flexible; you may sign up to
+  take each exam on either Thursday, Friday, or Saturday of each exam week.
+</p>
+<h2>Make-up Exam</h2>
+<p>
+  A student having a legitimate excuse for missing any of the three scheduled
+  midterms will be provided with a single make-up exam. This cumulative make-up
+  exam will cover the material from all three midterms. It is your
+  responsibility to obtain permission from your instructor to take this exam.
+  The make-up exam will be provided only to students with valid excuses (family
+  emergency, illness, university-scheduled activities, etc.).
+</p>
+<h2>Lectures and Course Content</h2>
+<p>
+  Most course content is delivered in the form of weekly lessons. Each week you
+  will have two lessons to complete (or one lesson on exam weeks). These lessons
+  are available on Canvas and consist of a series of lecture videos that are
+  accompanied by written lecture notes. After viewing these materials you’ll be
+  asked to complete a Knowledge Check Quiz that is based on the lesso
+</p>
+<p>
+  Three versions of the lecture slides are provided with each lesson. “Slides
+  without solutions” are lecture slides without any solutions to
+  example/practice problems; you’re encouraged to take notes using this version
+  of the slides. A copy of the slides with solutions is also provided. The third
+  version of the lecture slides contains written notes below each slide
+  explaining the content from that slide.
+</p>
+<h2>Knowledge Check Quizzes</h2>
+<p>
+  After finishing each lesson you’ll be asked to complete a Knowledge Check
+  Quiz. You’ll receive three attempts on each quiz, and only your highest score
+  will count. The quiz questions will change from one attempt to the next.
+  You’re encouraged to ask for help if you have questions about the quiz
+  questions; posting your questions on Piazza is encouraged
+</p>
+<p>
+  Knowledge Check Quizzes are due on Sunday of each week. Knowledge Check
+  Quizzes will open two weeks before they are due. The Knowledge Check Quizzes
+  account for 13% of the total course grade. At the end of the semester your two
+  lowest Knowledge Check scores will be dropped.
+</p>
+<h2>Homework Assignments</h2>
+<p>
+  Homework is designed to help you develop basic skills and understand and apply
+  your understanding of concepts presented in class. Doing all assigned problems
+  is essential to success in this course. Homework assignments can be accessed
+  from the Canvas page. You’re encouraged to work with your peers on homework
+  assignments, and you’re welcome to ask for help on Piazza, but your submitted
+  work must be your own. Homework is due at 11:59pm each Wednesday and should be
+  submitted on our Canvas page as a scanned PDF or DOCX file. There are no
+  homework assignments in the weeks following exams.
+</p>
+<p>
+  Each homework assignment is scored out of 10 possible points (not equivalent
+  to course points). On some occasions homework will be graded solely based on
+  completion and effort. On other occasions, however, one randomly selected
+  problem from the homework assignment will be graded for 5 points based on
+  correctness. On those occasions, completing the rest of the homework
+  assignment is worth an additional 5 points, graded based on completeness and
+  effort.
+</p>
+<p>
+  The homework scores will be totaled twice during the semester (after exam 2
+  and at the end of the semester). You must earn at least 75% of the available
+  homework points during each period to earn full course points for that period.
+  No extra credit results from accumulating more than 75% of the points during
+  that period. There will be no make-up opportunities for homework due to the
+  built-in excess of points.
+</p>
+<p>
+  All homework assignments will be submitted electronically using the
+  appropriate Canvas page. In order to upload your work you’ll need to either
+  scan it or take a high quality photograph of it (we suggest taking a photo
+  with a phone). You may be asked to resubmit your assignment if the image
+  quality of your scanned work is insufficient. You must upload your work as a
+  single PDF or DOCX file in order for Canvas to accept it. One way to do this
+  is to use an Android or iOS app that saves photographs on your phone as PDF
+  files. You can find many such apps by searching for scanning apps on the
+  Google Play Store or Apple App Store. “CamScanner” is a popular app that was
+  used by students in previous semesters. Alternatively, you can copy and paste
+  an image of your homework into a Microsoft Word document and save it as a DOCX
+  file.
+</p>
+<h2>Grading</h2>
+<table>
+  <th>Assignments</th>
+  <th>% of Course Grade</th>
+  <tr>
+    <td>Exam 1</td>
+    <td>15%</td>
+  </tr>
+  <tr>
+    <td>Exam 2</td>
+    <td>15%</td>
+  </tr>
+  <tr>
+    <td>Exam 3</td>
+    <td>15%</td>
+  </tr>
+  <tr>
+    <td>Final Exam</td>
+    <td>25%</td>
+  </tr>
+  <tr>
+    <td>Knowledge Check Quizzes</td>
+    <td>13%</td>
+  </tr>
+  <tr>
+    <td>Homework</td>
+    <td>11%</td>
+  </tr>
+  <tr>
+    <td>Piazza Participation</td>
+    <td>6%</td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td>100%</td>
+  </tr>
+</table>
+
+<h2>Grade Scale</h2>
+<table>
+  <th>Letter Grade</th>
+  <th>% of Course Points</th>
+  <tr>
+    <td>A</td>
+    <td>92-100%</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>89-92%</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>86-89%</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>82-86%</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>79-82%</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>76-79%</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>68-76%</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>56-68%</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>< 56%</td>
+  </tr>
+</table>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/chem130</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chem 111</title>
+      <link>/syllabi/chem111</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  CHEM 111 is an introductory chemistry laboratory experience that gives
+  students the opportunity to put into practice the essential principles
+  utilized in a professional chemistry laboratory regarding topics relevant to
+  CHEM 110.
+</p>
+<h2>Objectives</h2>
+<p>Upon successful completion of this course students will be able to:</p>
+<ul>
+  <li>
+    Conduct experiments on topics relevant to CHEM 110 in a manner that is safe,
+    economical, and environmentally friendly
+  </li>
+  <li>
+    Perform fundamental laboratory manipulations
+  </li>
+  <li>
+    Make accurate experimental observations
+  </li>
+  <li>
+    Accurately record and interpret data
+  </li>
+  <li>
+    Recognize sources of error in experiments and estimate their importance
+  </li>
+  <li>
+    Plan and produce useful reports of laboratory work that meet acceptable
+    standards of completeness, accuracy, clarity, and neatness
+  </li>
+</ul>
+<h2>Materials</h2>
+<ul>
+  <li>
+    <a
+      href="https://www.carolina.com/catalog/detail.jsp?prodId=581862"
+      target="_blank"
+      >PSU Experimental Chemistry Kit</a
+    >
+  </li>
+  <li>LabArchives (email sent to you)</li>
+  <li>Scientific Calculator (non-programmable)</li>
+</ul>
+<h2>Course Schedule</h2>
+<table>
+  <th>Week</th>
+  <th>Topic(s)</th>
+  <tr>
+    <td>1</td>
+    <td>Course Overview & Safety</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>"Finding Scientific Information” Module</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Uncertainty and Measurement & Faster, Plop, Plop, Fizz, Fizz</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Atomic Emission</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Physical and Chemical Changes</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Determination of Water Hardness by Titration</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Bonding and properties of water</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Work week for project proposal</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>No Investigation<br />Midterm Exam 1 (Weeks 1-7)</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Fundamentals of Chromatography</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Investigating Chemical Reactions</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Single replacement reactions: Stoich and percent yield</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Gases</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Enthalpy of a Reaction Using Hess’s Law</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>No Investigation<br />Midterm Exam 2 (Weeks 10-14)</td>
+  </tr>
+</table>
+
+<h2>Laboratory Investigations (75%)</h2>
+<p>
+  Each week, there will be an investigation to complete. All of the information
+  will be provided on LabArchives. The first two weeks are considered a “dry”
+  lab because there will not be an explicit experiment conducted. Most
+  laboratory investigations will be worth 70 points and consist of three parts:
+  notebook pages, post-lab worksheet, and a quiz. Each part is explained in more
+  detail below. The deadline to submit all parts of the investigation for the
+  week will be on Tuesday of the following week.
+</p>
+<h2>Notebook Pages (10 points)</h2>
+<p>
+  There will be a dedicated page in LabArchives for collecting raw data and
+  recording procedural notes.
+</p>
+<h2>Post-lab Worksheet (50 points)</h2>
+<p>
+  After completing the investigation and collecting the data, you will complete
+  a worksheet where you will analyze the data. Analysis may consist of
+  performing calculations with the data, making graphs, and assessing accuracy
+  and/or precision of results.
+</p>
+<h2>Quiz (10 points)</h2>
+<p>
+  The quiz associated with each laboratory investigation can be completed at
+  anytime during the week on Canvas. You will have 20-mintues and up to two
+  attempts (only the highest score will be kept). The quizzes will test your
+  conceptual understanding of the investigation.
+</p>
+<p>
+  All parts of the lab investigations will be due on Tuesdays by 11:59 pm and
+  should be handed in on time. If they are not handed in on time, substantial
+  penalties will apply (–10% for each day that an assignment is late). Material
+  that is more than one week late will not be accepted.
+</p>
+<h2>Midterm Exams (10% each)</h2>
+<p>
+  There will be two (2) midterm exams given over the course of the semester.
+  Exams are schedule on the following dates and times and will require you to
+  come to campus. If you are not able to make the exam at that time, you must
+  make arrangements with instructor for an alternate exam time earlier in the
+  day.
+</p>
+<p>
+  Exams will focus on material covered since the last exam; however, you are
+  still responsible for information presented previously. The exams will consist
+  of short answer questions and open-ended problems. Some questions may be
+  multiple choice. Stay tuned to announcements for details on the format.
+</p>
+<h2>Participation (5%)</h2>
+<p>
+  We will have a class forum/chatroom for asking and answering questions about
+  the course using Piazza (accessed in Canvas). You can ask and answer questions
+  here, which will be monitored by the TA and instructor. Please direct your
+  questions here before e-mailing. You will be able to ask and answer
+  anonymously if you wish. The beauty of Piazza is that the entire class can
+  benefit from the questions and answers. More information on enrolling and
+  etiquette for using will be provided during the semester. You must make 10
+  posts (questions or answers) anytime before October 19 to earn all 25
+  participation points for the exam period. You will earn a proportionately
+  lower score for fewer than 10 posts. Make an addition 10 posts (questions or
+  answers) anytime between October 20 and December 7 to earn the remaining 25
+  points.
+</p>
+<h2>Grading</h2>
+<p>
+  The final grade is calculated based on scores in each assignment category
+  (details follow).
+</p>
+<table>
+  <th>Activity</th>
+  <th>Points</th>
+  <tr>
+    <td>Laboratory Investigations</td>
+    <td>750</td>
+  </tr>
+  <tr>
+    <td>Midterm Exams(2)</td>
+    <td>100 each / 200 total</td>
+  </tr>
+  <tr>
+    <td>Participation</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td>1000</td>
+  </tr>
+</table>
+
+<h2>Grade Scale</h2>
+<table>
+  <th>Letter Grade</th>
+  <th>% of Course Points</th>
+  <tr>
+    <td>A</td>
+    <td>93-100%</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>90-92%</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>91-87%</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>83-90%</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>80-82%</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>77-79%</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>69-76%</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>57-68%</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>< 56%</td>
+  </tr>
+</table>
+
+<h2>Make-up Exams</h2>
+<p>
+  As required by University regulations, students who miss an exam with a valid
+  excuse (family emergency, illness, university-scheduled activities, etc.) will
+  be given an opportunity to make-up the exam. Prearranged make ups can be taken
+  earlier in the exam week. In order to be eligible for the make-up exam ALL of
+  the following conditions MUST be fulfilled:
+</p>
+<ol>
+  <li>
+    The missed exam is the result of a University-approved excuse. Per Senate
+    Policy 42-27, “Requests for missing class or an evaluative event due to
+    reasons that are based on false claims may be considered violations of the
+    policy on Academic Integrity”
+  </li>
+  <li>
+    Instructor must be notified in writing (email is preferred) within 24 hours
+    of the missed exam.
+  </li>
+  <li>
+    You must schedule a make up for the exam within 1 week of the original exam
+    date.
+  </li>
+</ol>
+<h2>Regrades and Grade Corrections</h2>
+<p>
+  If after an exam or laboratory investigation is returned there is a question
+  concerning the grading of the assignment, the material should be resubmitted
+  to instructor for full reconsideration. Under no circumstances will anyone
+  else make changes to the grades. All requests for re-grading are to be made in
+  writing according to the procedure outlined below and must be submitted to
+  instructor within one week of receiving the feedback. Note that the entire
+  assignment will be regraded and this may result in a lower grade. Late
+  re-grades will not be accepted and will not be considered at the end of the
+  semester.
+</p>
+<p>
+  The written request for a re-grade must be on a separate piece of paper. DO
+  NOT ALTER THE ORIGINAL SUBMISSION. The re-grade must include an explanation as
+  to why you feel the problem should be re-graded. I will not discuss with you
+  whether or not you should submit a re-grade. "Brief comparisons" which consist
+  of "I think I deserve more points" or “the answer is correct because my friend
+  had the same answer” are NOT reconsidered.
+</p>
+<p>
+  Note: Addition errors made during point totaling are not considered re-grades
+  and may be given to the instructor for correction at any time during the
+  semester.
+</p>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/chem111</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Video Conferencing, Recording, and Media Management</title>
+      <link>/resources/contingency/video-conferencing</link>
+      <description>
+          <![CDATA[   <p>
+    Penn State has adopted Zoom and Kaltura to work together to provide the
+    University with an optimal conferencing and media-management service. Both
+    tools will serve to enhance&nbsp;Penn State’s live-streaming and media
+    management capabilities.
+  </p>
+  <ul>
+    <li>
+      <a href="https://psu.zoom.us/">Zoom</a>: Zoom unifies cloud video
+      conferencing, simple online meetings, group messaging, and a
+      software-defined conference room solution into one easy-to-use platform.
+      This solution offers&nbsp;video, audio, and wireless screen-sharing
+      experience across Windows, Mac, Linux, iOS, Android, Blackberry, Zoom
+      Rooms, and H.323/SIP room systems.
+      <ul>
+        <li>
+          <a href="https://support.zoom.us/hc/en-us/categories/200101697"
+            >Getting Started</a
+          >
+        </li>
+        <li>
+          <a href="https://support.zoom.us/hc/en-us/sections/201740096"
+            >Training</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://wikispaces.psu.edu/display/bwkb/How+To+Create+A+Zoom+Meeting"
+            >How to create a Zoom meeting</a
+          >
+        </li>
+        <li>
+          <a href="https://youtu.be/AnrLFA4T37U"
+            >Recording a presentation in Zoom</a
+          >
+        </li>
+        <li>
+          <a href="https://itld.psu.edu/learning-path/zoom-learning-path-hosts"
+            >Zoom Learning Path</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="https://psu.mediaspace.kaltura.com/user/login">Kaltura</a
+      >:&nbsp;Kaltura is Penn State’s enterprise-level, cloud-based media
+      management platform for storing, publishing, and streaming videos, video
+      collections, and other media. Kaltura will work in tandem with Zoom, the
+      University’s conferencing system, to help users record, store, and stream
+      media.
+      <ul>
+        <li>
+          &#8203;<a
+            href="http://itld.psu.edu/learning-path/kaltura-learning-path-teachers-and-instructional-content-creators"
+            >Kaltura Learning Path</a
+          >: For Instructors and Instructional Content Creators
+        </li>
+        <li>
+          <a
+            href="https://www.kaltura.com/index.php/extwidget/preview/partner_id/2356971/uiconf_id/42959531/entry_id/1_1ru5wtui/embed/dynamic?"
+            >Kaltura MediaSpace Essentials Remote Training</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="https://sites.psu.edu/eta/2017/01/16/canvas-conferences"
+        >&nbsp;Canvas Conferences</a
+      >&nbsp;<em
+        >(Note that at most 50 can participate and&nbsp;recordings are deleted
+        after 14 days.)</em
+      >
+    </li>
+  </ul>
+  <h3>Other Conferencing Options</h3>
+  <ul>
+    <li>
+      &#8203;Canvas Conferences:<em>&nbsp;</em
+      ><a href="https://sites.psu.edu/eta/2017/01/16/canvas-conferences/"
+        >https://sites.psu.edu/eta/2017/01/16/canvas-conferences/</a
+      >
+    </li>
+    <li>
+      Microsoft Teams Meetings:&nbsp;<a
+        href="https://docs.microsoft.com/en-us/MicrosoftTeams/tutorial-meetings-in-teams"
+        >https://docs.microsoft.com/en-us/MicrosoftTeams/tutorial-meetings-in-teams</a
+      >
+    </li>
+    <li>
+      Skype:&nbsp;<a href="https://www.skype.com/en/"
+        >https://www.skype.com/en/</a
+      >&nbsp;&nbsp;
+    </li>
+    <li>
+      Whereby:&nbsp;<a href="https://whereby.com/">https://whereby.com/</a>
+    </li>
+  </ul>
+  <p>
+    <a href="https://spark.adobe.com/page/vxKM4IctqwsAB/"
+      >Maximizing Video in Your Classroom</a
+    >: A comprehensive resource of how to implement video in your course.
+  </p>
+  <p>
+    <a href="https://instructionalvideoguide.psu.edu/guide/"
+      >Penn State Instructional Video Guide</a
+    >: This site will help determine what type of video you might want to record
+    depending on the type of content you want to share.
+  </p>
+  <p style="font-size: 16px;">&nbsp; &nbsp; &nbsp;</p>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/resources/contingency/video-conferencing</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chem 101</title>
+      <link>/syllabi/chem101</link>
+      <description>
+          <![CDATA[ <h2>Description</h2>
+<p>
+  CHEM 101 is an introductory chemistry course that incorporates lectures,
+  readings, problem-solving and laboratory experiments in developing an
+  understanding of chemical concepts and practices. Prior study of chemistry is
+  not assumed, but you should have taken at least one class in algebra before
+  taking CHEM 101. For some students, CHEM 101 provides the chemistry required
+  by their major area of study. For other students, CHEM 101 provides review and
+  preparation for subsequent Chemistry classes such as CHEM 110 (Chemical
+  Principles I) and CHEM 202 (Fundamentals of Organic Chemistry).
+</p>
+<h2>Objectives</h2>
+<p>When you successfully complete this course, you will be able to:</p>
+<ul>
+  <li>Describe the structure and behavior of atoms</li>
+  <li>Extract data and information from the periodic table of the elements</li>
+  <li>
+    Predict the properties and behavior of elements based on their position in
+    the periodic table
+  </li>
+  <li>
+    Understand the process of chemical bonding and predict what type of bonds
+    will form between different substances
+  </li>
+  <li>
+    Determine when chemical reactions will take place between substances, the
+    ratio in which the substances will combine, what new products will be formed
+    in the reaction, and the amount of product formed from a given amount of
+    starting materials
+  </li>
+  <li>
+    Correctly name chemical substances based on the ratio of the elements in the
+    compound and the type of bonding between the atoms
+  </li>
+  <li>
+    Identify the intramolecular forces that can exist between atoms within a
+    chemical compound or molecule and the intermolecular forces that occur
+    between molecules
+  </li>
+  <li>Describe and compare the properties of gases, liquids and solids</li>
+</ul>
+<h2>Materials</h2>
+<ol>
+  <li>
+    Textbook: Introductory Chemistry: A Foundation by Steven Zumdahl and Donald
+    Decoste, 7th Edition, 2011, Houghton Mifflin Company publishers. ISBN:
+    978-0538736398
+  </li>
+  <li>CHEM 101 General Tool Kit and CHEM 101 Lab Kit</li>
+  <li>
+    A suitable scientific calculator (with scientific notation and log
+    functions) is essential. Calculators with text-storage capabilities will not
+    be permitted for use on exams. Note that MBS is not carrying this for the
+    course.
+  </li>
+</ol>
+<h2>Additional Materials</h2>
+<ul>
+  <li>Isopropyl alcohol (rubbing alcohol) 50%, 70%, or 91%</li>
+  <li>Clear white vinegar</li>
+  <li>Granulated sugar</li>
+  <li>Salt</li>
+  <li>Bottled or distilled water</li>
+  <li>
+    A ruler that is at least 6" in length. Must be marked in cm's with at least
+    10 divisions in between the cm's
+  </li>
+  <li>Measuring spoon set</li>
+  <li>Scissors</li>
+  <li>Stapler and staples</li>
+  <li>Matches</li>
+  <li>2 regular ceramic mugs</li>
+  <li>1 clear plastic or glass container</li>
+  <li>A heat resistant plate</li>
+  <li>Disposable plastic teaspoon</li>
+  <li>Cotton swabs similar to Q-tips</li>
+  <li>Toothpicks</li>
+  <li>Paper Towels</li>
+  <li>Pen and Pencil</li>
+</ul>
+<h2>Course Schedule</h2>
+<table>
+  <th>Week</th>
+  <th>Topic</th>
+  <tr>
+    <td>1</td>
+    <td>Orientation</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Measurements and Calculations</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Matter</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Chemical Foundations: Electrons, Atoms, Ions</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Modern Atomic Theory</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Chemical Bonding</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Midterm 1 / Nomenclature</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Chemical Composition</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Chemical Equations</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Reactions and Aqueous Solutions</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Classifiying Chemical Reactions</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Midterm 2</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Chemical Quantities</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Final Exam</td>
+  </tr>
+</table>
+
+<h2>Lesson Assignments (20%)</h2>
+<p>
+  Each lesson will conclude with a few homework assignments. The format of each
+  assignment will vary and may include fill-in-the blank, short essay, and
+  multiple choice questions. Each assignment will be due at the end of each
+  lesson before beginning the next lesson. The lowest assignment grade will be
+  dropped, and all of the others will be weighted equally.
+</p>
+<h2>Video Demonstration Summaries (5%)</h2>
+<p>
+  There will be multiple video demonstrations for some of the lessons. A short
+  online submission (one page or less in length) will be required for five of
+  the demonstrations. Each submission will go into a separate dropbox and must
+  include a description of the demonstration, the concept being presented, your
+  observations, and any suggestions you may have to change or expand the
+  demonstration. Watch all the videos, but please only submit summaries for 5 of
+  the videos.
+</p>
+<h2>Lab Experiment Reports (25%)</h2>
+<p>
+  There will be four lab experiments performed individually by the student. Each
+  experiment will have an online report submitted consisting of experimental
+  data, observations and short answers to interpretive questions.
+</p>
+<h2>Non-Proctored Online Mid-Term Exams (30%)</h2>
+<p>
+  The two exams will have multiple choice questions. Both will have a 90-minute
+  time limit. Only one attempt is allowed. Each exam will be worth 15% of the
+  final grade.
+</p>
+<h2>Non-Proctored, Closed-Book, Comprehensive Final Exam (20%)</h2>
+<p>
+  Students will complete a closed-book final exam consisting of multiple-choice
+  questions that will be similar in scope to those given in the homework
+  assignments and mid-term exams. Students will need to print out the Useful
+  Information file located in the Exams folder, which may be used when
+  completing the final exam. The file includes a periodic table, a list of key
+  equations, and a solubility table.
+</p>
+<p>
+  You will also need a scientific calculator to take the Final Exam. If you want
+  to know whether your calculator is allowed, email your instructor as soon as
+  possible.
+</p>
+<h2>Grade Scale</h2>
+<table>
+  <th>Letter Grade</th>
+  <th>% of Course Points</th>
+  <tr>
+    <td>A</td>
+    <td>91.5-100%</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>89.5-91.4%</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>85.5-89.4%</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>78.5-80.4%</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>74.5-78.4%</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>68.5-74.4%</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>56.5-68.4%</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>< 56.4%</td>
+  </tr>
+</table>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/chem101</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
       <title>Frnsc 100</title>
       <link>/syllabi/frnsc100</link>
       <description>
@@ -2125,239 +2476,6 @@
       </description>
       <category></category>
       <guid>/syllabi/frnsc100</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chem 101</title>
-      <link>/syllabi/chem101</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  CHEM 101 is an introductory chemistry course that incorporates lectures,
-  readings, problem-solving and laboratory experiments in developing an
-  understanding of chemical concepts and practices. Prior study of chemistry is
-  not assumed, but you should have taken at least one class in algebra before
-  taking CHEM 101. For some students, CHEM 101 provides the chemistry required
-  by their major area of study. For other students, CHEM 101 provides review and
-  preparation for subsequent Chemistry classes such as CHEM 110 (Chemical
-  Principles I) and CHEM 202 (Fundamentals of Organic Chemistry).
-</p>
-<h2>Objectives</h2>
-<p>When you successfully complete this course, you will be able to:</p>
-<ul>
-  <li>Describe the structure and behavior of atoms</li>
-  <li>Extract data and information from the periodic table of the elements</li>
-  <li>
-    Predict the properties and behavior of elements based on their position in
-    the periodic table
-  </li>
-  <li>
-    Understand the process of chemical bonding and predict what type of bonds
-    will form between different substances
-  </li>
-  <li>
-    Determine when chemical reactions will take place between substances, the
-    ratio in which the substances will combine, what new products will be formed
-    in the reaction, and the amount of product formed from a given amount of
-    starting materials
-  </li>
-  <li>
-    Correctly name chemical substances based on the ratio of the elements in the
-    compound and the type of bonding between the atoms
-  </li>
-  <li>
-    Identify the intramolecular forces that can exist between atoms within a
-    chemical compound or molecule and the intermolecular forces that occur
-    between molecules
-  </li>
-  <li>Describe and compare the properties of gases, liquids and solids</li>
-</ul>
-<h2>Materials</h2>
-<ol>
-  <li>
-    Textbook: Introductory Chemistry: A Foundation by Steven Zumdahl and Donald
-    Decoste, 7th Edition, 2011, Houghton Mifflin Company publishers. ISBN:
-    978-0538736398
-  </li>
-  <li>CHEM 101 General Tool Kit and CHEM 101 Lab Kit</li>
-  <li>
-    A suitable scientific calculator (with scientific notation and log
-    functions) is essential. Calculators with text-storage capabilities will not
-    be permitted for use on exams. Note that MBS is not carrying this for the
-    course.
-  </li>
-</ol>
-<h2>Additional Materials</h2>
-<ul>
-  <li>Isopropyl alcohol (rubbing alcohol) 50%, 70%, or 91%</li>
-  <li>Clear white vinegar</li>
-  <li>Granulated sugar</li>
-  <li>Salt</li>
-  <li>Bottled or distilled water</li>
-  <li>
-    A ruler that is at least 6" in length. Must be marked in cm's with at least
-    10 divisions in between the cm's
-  </li>
-  <li>Measuring spoon set</li>
-  <li>Scissors</li>
-  <li>Stapler and staples</li>
-  <li>Matches</li>
-  <li>2 regular ceramic mugs</li>
-  <li>1 clear plastic or glass container</li>
-  <li>A heat resistant plate</li>
-  <li>Disposable plastic teaspoon</li>
-  <li>Cotton swabs similar to Q-tips</li>
-  <li>Toothpicks</li>
-  <li>Paper Towels</li>
-  <li>Pen and Pencil</li>
-</ul>
-<h2>Course Schedule</h2>
-<table>
-  <th>Week</th>
-  <th>Topic</th>
-  <tr>
-    <td>1</td>
-    <td>Orientation</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Measurements and Calculations</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Matter</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Chemical Foundations: Electrons, Atoms, Ions</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Modern Atomic Theory</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>Chemical Bonding</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>Midterm 1 / Nomenclature</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>Chemical Composition</td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>Chemical Equations</td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>Reactions and Aqueous Solutions</td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>Classifiying Chemical Reactions</td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>Midterm 2</td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>Chemical Quantities</td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>Final Exam</td>
-  </tr>
-</table>
-
-<h2>Lesson Assignments (20%)</h2>
-<p>
-  Each lesson will conclude with a few homework assignments. The format of each
-  assignment will vary and may include fill-in-the blank, short essay, and
-  multiple choice questions. Each assignment will be due at the end of each
-  lesson before beginning the next lesson. The lowest assignment grade will be
-  dropped, and all of the others will be weighted equally.
-</p>
-<h2>Video Demonstration Summaries (5%)</h2>
-<p>
-  There will be multiple video demonstrations for some of the lessons. A short
-  online submission (one page or less in length) will be required for five of
-  the demonstrations. Each submission will go into a separate dropbox and must
-  include a description of the demonstration, the concept being presented, your
-  observations, and any suggestions you may have to change or expand the
-  demonstration. Watch all the videos, but please only submit summaries for 5 of
-  the videos.
-</p>
-<h2>Lab Experiment Reports (25%)</h2>
-<p>
-  There will be four lab experiments performed individually by the student. Each
-  experiment will have an online report submitted consisting of experimental
-  data, observations and short answers to interpretive questions.
-</p>
-<h2>Non-Proctored Online Mid-Term Exams (30%)</h2>
-<p>
-  The two exams will have multiple choice questions. Both will have a 90-minute
-  time limit. Only one attempt is allowed. Each exam will be worth 15% of the
-  final grade.
-</p>
-<h2>Non-Proctored, Closed-Book, Comprehensive Final Exam (20%)</h2>
-<p>
-  Students will complete a closed-book final exam consisting of multiple-choice
-  questions that will be similar in scope to those given in the homework
-  assignments and mid-term exams. Students will need to print out the Useful
-  Information file located in the Exams folder, which may be used when
-  completing the final exam. The file includes a periodic table, a list of key
-  equations, and a solubility table.
-</p>
-<p>
-  You will also need a scientific calculator to take the Final Exam. If you want
-  to know whether your calculator is allowed, email your instructor as soon as
-  possible.
-</p>
-<h2>Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% of Course Points</th>
-  <tr>
-    <td>A</td>
-    <td>91.5-100%</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>89.5-91.4%</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>85.5-89.4%</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>78.5-80.4%</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>74.5-78.4%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>68.5-74.4%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>56.5-68.4%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 56.4%</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/chem101</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
@@ -3361,553 +3479,6 @@
       </description>
       <category></category>
       <guid>/syllabi/math021</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Math 022</title>
-      <link>/syllabi/math022</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  College Algebra II represents a significant opportunity for students to
-  discover the beauty and practical power of mathematics. Concepts and skills
-  are taught while at the same time a sense of algebra's utility in the real
-  world is imparted. This course provides indepth coverage of college algebra
-  topics that students continuing in mathematics will require. This is the kind
-  of mathematics that students will use the rest of their lives in many fields.
-  MATH 022 is a preparatory course intended to provide mathematical background
-  in algebra with a function/graph emphasis required in calculus courses.
-  Linear, polynomial, rational, exponential and logarithmic functions and their
-  graphs provide necessary models for mathematical applications.
-</p>
-<h2>Objectives</h2>
-<p>Upon successful completion fo the course, students should be able to:</p>
-<ul>
-  <li>Solve various types of basic equations.</li>
-  <li>Solve linear, absolute value, non-linear and rational inequalities.</li>
-  <li>
-    Identify functions from algebraic, graphical, tabular and verbal
-    representations.
-  </li>
-  <li>Use function notation when evaluating functions.</li>
-  <li>Identify domain and range of functions.</li>
-  <li>Graph a piece-wise defined function.</li>
-  <li>
-    Identify properties of graphs such as relative and global extrema, symmetry,
-    increasing, decreasing, even, and odd.
-  </li>
-  <li>Identify graphs of Basic Functions and their properties.</li>
-  <li>Transform the graph of a function.</li>
-  <li>Translate the graph of a circle in standard or general form.</li>
-  <li>Write the equation of a line.</li>
-  <li>Write equations of parallel and perpendicular lines to a given line.</li>
-  <li>Extract information from linear and quadratic models.</li>
-  <li>Translate applications into algebraic models and solve.</li>
-  <li>Perform operations on functions, including composition of functions.</li>
-  <li>Identify one-to-one functions.</li>
-  <li>
-    Identify, analyze and graph the inverse of a function. Find the inverse of a
-    given function.
-  </li>
-  <li>Analyze and graph polynomials functions.</li>
-  <li>Divide a polynomial function by another polynomial function.</li>
-  <li>Apply the Remainder Theorem and Factor Theorem.</li>
-  <li>Graph rational functions.</li>
-  <li>Analyze and graph exponential and logarithmic functions.</li>
-  <li>Solve exponential equations.</li>
-  <li>Solve logarithmic equations.</li>
-  <li>Explain what a logarithm is.</li>
-  <li>Use logarithm properties to simplify an expression.</li>
-  <li>Set up and solve exponential and logarithmic application problems.</li>
-</ul>
-<h2>Textbook</h2>
-<p>
-  College Algebra, 2nd Edition by John W. Coburn (McGraw-Hill, 2010)
-  pre-packaged with one-semester access to ALEKS
-</p>
-<h2>Course Schedule</h2>
-<table>
-  <tbody>
-    <tr>
-      <th>Unit</th>
-      <th>Topic(s)</th>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>
-        Extensive review of intermediate algebra topics. The review will
-        include: solving linear equations and inequalities, fundamental concepts
-        associated with quadratic equations, solving equations and inequalities
-        with absolute values and other miscellaneous equations involving
-        rational expressions and radical expressions. An introduction to complex
-        number arithmetic is also included.
-      </td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>
-        General concepts associated with relations and functions. Topics such as
-        the algebra of functions, function composition and range and domain are
-        studied. The graphical representation of linear and quadratic functions
-        are also presented. The algebraic and graphical representation of
-        circles will also be studied as it pertains to terminology associated
-        with relations in general. Basic graphical transformations are
-        introduced.
-      </td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>
-        Polynomial and rational functions are studied in detail. In particular,
-        ideas associated with zeros of polynomials, end-behavior, and graph
-        sketching are discussed. The unit includes synthetic division, the
-        remainder theorem, the conjugate root theorem, horizontal and slant
-        (oblique) asymptotes, and vertical asymptotes.
-      </td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>
-        Exponential and logarithmic functions are studied in detail. Specific
-        skills entail working with the rules of exponents and logarithms and
-        solving exponential and logarithmic equations. Concepts associated with
-        one-to-one functions and the existence of inverses are also studied.
-        Sketching and recognizing the graphical representation of exponential
-        and log functions is included.
-      </td>
-    </tr>
-  </tbody>
-</table>
-<h2>Algebraic Skills</h2>
-<p>
-  Algebraic skills will be primarily developed through work on ALEKS. ALEKS is a
-  web-based tutorial system which provides students with ongoing skills based
-  assessments and tracks progress. The midterm and final exams will also entail
-  skills based problems.
-</p>
-<p>
-  As necessary, lectures will be done via BlackBoard Collaborate. The midterm
-  and final exams will administered via Canvas.
-</p>
-<h2>Conceptual Skills</h2>
-<p>
-  Conceptual Skills will be incorporated in lectures, reading, and activities.
-  Lectures and activities will be conducted approximately every other week. A
-  typical lecture and/or activity will tie skill based ideas together to provide
-  a larger overview of the topics. Lectures will be done via Elluminate and
-  activities will be based upon discussion board prompts and/or assigned tasks
-  from the text. The final exam will also incorporate questions which relate to
-  the conceptual tasks.
-</p>
-<h2>ALEKS</h2>
-<p>
-  Essentially all of the skills based work will be conducted through ALEKS. The
-  ALEKS system will do ongoing assessments of skills based problems and track
-  student progress. ALEKS is a major component of the course and a typical
-  college algebra student will need to plan on 4-6 hours of online work each
-  week (50-60 hours for the course). Skills based points will be earned by
-  measuring mastered objective milestones and skills based ALEKS quizzes.
-</p>
-<h2>Readings / Problems</h2>
-<p>
-  he text will be primarily used to tie ideas to concepts and skills together.
-  This will be done through assigned readings and suggested problems.
-  Occasionally, a problem may be selected to emphasize a specific skill that
-  ALEKS did not adequately incorporate. Some of the activities will stem from
-  the text. Finally, the text will support the ALEKS work in that explanations
-  within ALEKS will reference specific areas from the text for further reading.
-</p>
-<h2>Lecture Attendance</h2>
-<p>
-  Elluminate is the web-conference utility where the virtual classroom resides.
-  This may also be used for more "face-to-face" group correspondence with
-  students.
-</p>
-<h2>Grading</h2>
-<p>
-  The total number of points for the course will be 1000 points. Students will
-  have an opportunity to earn 200 points in each of the following three areas:
-  1) Basic Skills (ALEKS work), 2) Conceptual Understanding (Activities and
-  quizzes), and 3) the Final Exam (incorporates both basic skills and conceptual
-  understanding). The final grade will be determined by the sum of these three
-  areas. The minimum of the three area scores and the maximum of the three area
-  scores will be incorporated twice and thus each of these two areas will will
-  contribute to 40% of your overall grade as each will be worth 400 points. This
-  rubric emphasizes that all three areas are of utmost importance.
-</p>
-<table>
-  <tbody>
-    <tr>
-      <th>Conceptual Assessment</th>
-      <th>Basic Skills</th>
-      <th>Final Exam</th>
-      <th>Minimum 3 Areas</th>
-      <th>Maximum 3 areas</th>
-    </tr>
-    <tr>
-      <td>4 Activities (5 pts / each)</td>
-      <td>4 ALEKS Units (40 pts / each)</td>
-      <td>1 Proctored Exam (200 pts)</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>4 Quizzes (20 pts / each)</td>
-      <td>Final Set (40 pts)</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>2 Midterm Exams (50 pts / each)</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>200 pts</td>
-      <td>200 pts</td>
-      <td>200 pts</td>
-      <td>200 pts</td>
-      <td>200 pts</td>
-    </tr>
-  </tbody>
-</table>
-<h2>Grading Scale</h2>
-<table>
-  <tbody>
-    <tr>
-      <th>Letter Grade</th>
-      <th>% Score</th>
-      <th>Total Points</th>
-    </tr>
-    <tr>
-      <td>A</td>
-      <td>90-100</td>
-      <td>896-1000</td>
-    </tr>
-    <tr>
-      <td>B</td>
-      <td>80-89</td>
-      <td>796 -895</td>
-    </tr>
-    <tr>
-      <td>C</td>
-      <td>70-79</td>
-      <td>696-795</td>
-    </tr>
-    <tr>
-      <td>D</td>
-      <td>60-69</td>
-      <td>596-695</td>
-    </tr>
-    <tr>
-      <td>F</td>
-      <td>0-59</td>
-      <td>50-595</td>
-    </tr>
-  </tbody>
-</table>
-<h2>Arranging a Proctor</h2>
-<p>
-  You will need to secure a proctor in order to take exams in this course. A
-  proctor will not automatically be assigned to you; rather, you must make the
-  necessary contacts to secure a professional who will serve in this capacity.
-</p>
-<ul>
-  <li>
-    Contact a person who meets the qualifications and ask him or her to proctor
-    your exam.
-  </li>
-  <li>
-    Student Services must approve your proctor before any exams can be taken.
-    Please see instructions for securing a
-    <a
-      href="https://student.worldcampus.psu.edu/courses/proctored-exams"
-      target="_blank"
-      >suitable proctor</a
-    >
-    . While many proctors will serve on a voluntary basis, you are responsible
-    for paying any expenses incurred in retaining a proctor.
-  </li>
-  <li>
-    You must complete a Proctor Information Form and submit the completed form
-    with the proctor verification documentation. Note: If your proctor has been
-    previously approved by the World Campus during a prior course within two
-    years, you do not need to obtain verification. World Campus retains proctor
-    information on file for two years.
-  </li>
-  <li>
-    If your proctor does not meet the required specifications, Student Services
-    will notify you within 5 to 7 business days.
-  </li>
-  <li>
-    You will need to complete an Exam Request Form for each exam. Contact your
-    proctor to confirm the date, time, and location of your exam(s). Complete
-    the form 3 weeks prior to your scheduled exam to allow for processing the
-    request and mailing exams to proctors. If you are located outside the United
-    States, in order to allow adequate time for mailing, please plan to request
-    your exam earlier than 3 weeks prior to the exam week.
-  </li>
-  <li>Contact Student Services if you cannot take a scheduled exam.</li>
-</ul>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/math022</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chem 110</title>
-      <link>/syllabi/chem110</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  The purpose of this course is to provide you with an introduction to atomic
-  and molecular structure as well as molecular properties. We will also discuss
-  general principles of reactions including stoichiometry and some
-  thermodynamics. The long-term goal of this course is to get you to begin
-  thinking of chemistry in your everyday life. You should begin noticing that
-  chemistry is everywhere: it is in the foods we eat, the ingredients in our
-  soaps, and the reason flowers and leaves have specific colors. I encourage you
-  to send me anything that you find interesting about chemistry including
-  videos, pictures, or websites.
-</p>
-<h2>Objectives</h2>
-<p>At the end of the course, students will be able to…</p>
-<ul>
-  <li>Define key terms and concepts in chemistry</li>
-  <li>
-    Explain how atomic and molecular structure relates to macroscopic
-    (observable) properties of matter
-  </li>
-  <li>
-    Define the various forms of energy, explain how energy interacts with
-    matter, and be able to calculate the energy changes associated with chemical
-    and physical processes
-  </li>
-  <li>
-    Apply chemistry concepts to solve mathematical problems on homework, problem
-    sets, and exams
-  </li>
-  <li>
-    Describe the chemistry behind phenomena in everyday life (i.e. why water is
-    a liquid)
-  </li>
-</ul>
-<h2>Materials</h2>
-<ul>
-  <li>
-    PSU-E Chem 110: Structure and Properties (eBook, access codes available only
-    through PSU Bookstore, ordering info here:
-    <a href="http://sites.psu.edu/chem110wc/course-materials/" target="_blank"
-      >http://sites.psu.edu/chem110wc/course-materials/</a
-    >
-    [a printed copy is available for purchase at the bookstore, but it does not
-    include required in-text problems and interactive figures.]
-  </li>
-  <li>Scientific calculator (non-programmable)</li>
-  <li>Video recording capabilities such as a smartphone or webcam</li>
-  <li>Photo or scanning capabilities</li>
-</ul>
-<h2>Course Schedule</h2>
-<table>
-  <th>Week</th>
-  <th>Topic(s)</th>
-  <tr>
-    <td>1</td>
-    <td>
-      Course Overview<br />Introduction to Atomic Structure<br />The Mole, Ions
-      & Molecules<br />Introduction to Energy
-    </td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>
-      Light and Spectroscopy<br />Line Spectra & Bohr Model<br />Quantum Numbers
-      and Orbitals
-    </td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Electron Configuration<br />Periodic Properties</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Intro to Molecules<br />Molecular Formulas and % Composition</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>
-      Ionic Compounds<br />Covalent Compounds & Bond Polarity<br />Lewis
-      Structures & Formal Charge
-    </td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>
-      Resonance<br />Exceptions to the Octet Rule<br />Electron Domain Geometry
-    </td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>Molecular Geometry & Polarity<br />Hybridization<br />Pi bonding</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>Organic Molecules<br />Functional Groups & IM Forces</td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>
-      IM Forces & Phase Changes<br />Heating Curves<br />Vapor Pressure, Phase
-      Diagrams, Liquid Properties
-    </td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>
-      Solution Process<br />Electrolytes<br />Solubility (of solids and liquids)
-    </td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>Concentration<br />KMT, Gas Laws</td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>
-      Ideal Gases<br />Real Gases, Solubility of Gases<br />Chemical Reactions,
-      Ionic Equations
-    </td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>
-      Classes of Reactions, Oxidation Number<br />Stoichiometry, Limiting
-      Reactant, Percent Yeild<br />Reaction Calculations, Combustion Analysis
-    </td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>Reaction Enthalpies<br />Calorimetry</td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>Hess's Law & Heats of Formation<br />Bond Dissociation Energies</td>
-  </tr>
-</table>
-
-<h2>Skills Check (~2%)</h2>
-<p>
-  The skills check is an opportunity to review topics from high school chemistry
-  that will be used in CHEM 110. There are two parts to each of the five topics,
-  aptly named “Part A” and “Part B.” Each part is a quiz with 5-7 questions and
-  a 20-minute time limit. In Part A, you may take the quiz as many times as you
-  like. Once you are confident in the skill, you can take Part B up to three
-  times. Only the highest score in each part will be recorded. (Everyone can
-  earn 100%!!!!) Your average percent score on all 10 quizzes (5 skills, two
-  parts each) will be your grade on the skills check. For example, if you earn
-  an 80%, you would earn 12 of 15 points.
-</p>
-<h2>Midterm Exams (~13%)</h2>
-<p>
-  There will be four (4) 50-minute midterm exams given over the course of the
-  semester. Exams will focus on material covered since the last exam; however,
-  you are still responsible for information presented previously. If you read
-  your lecture notes & the eBook and solve the recommended problems, you will be
-  able to anticipate the exam questions; all concepts could make multiple
-  appearances. The exams will consist of short answer questions and open-ended
-  problems. Some questions may be multiple choice. Stay tuned to announcements
-  on the format.
-</p>
-<h2>Final Exam (~26%)</h2>
-<p>
-  A cumulative final exam will be given during the week of December 11. The exam
-  window will be announced later in the semester. The final exam will be
-  proctored remotely just as the midterm exams.
-</p>
-<h2>Homework Sets (~8%)</h2>
-<p>
-  There will be 15 graded homework sets (4 points each) throughout the semester.
-  One assignment will be due every week. On most occasions homework will be
-  graded solely based on completion and effort. On several randomly selected
-  occasions, however, one randomly selected problem from the homework assignment
-  will be graded for 2 points based on correctness. On those occasions,
-  completing the rest of the homework assignment is worth an additional 2
-  points, graded based on completeness and effort. Homework sets will be
-  available on Canvas and are due by submitting a file in the Canvas assignment
-  each Tuesday by 11:59 pm. There will be no late homework accepted. The lowest
-  homework score will be dropped at the end of the term.
-</p>
-<p>
-  Other assignments, such as an eBook Scavenger Hunt (7 points on Canvas) will
-  be included in this category. If you earn 85% or more of the available
-  homework points, you will earn all 60 points in the category! If you earn
-  fewer than 85% of the possible points, you will receive a proportionally lower
-  score. No extra credit results from accumulating a score of more than 85% of
-  the points.
-</p>
-<h2>Participation (13%)</h2>
-<p>
-  Participation in class will come in three forms: attending a weekly
-  recitation, answering the guiding questions, and interactions in ELMS/Piazza.
-  More information on each type of participation is described below.
-</p>
-<h2>Weekly Recitation</h2>
-<p>
-  Recitations are one-hour sessions led by a pair of learning assistants via
-  Zoom videoconferencing. Recitation is an opportunity to participate actively
-  in problem solving and to ask questions about the material. Students will be
-  assigned a recitation session according to their availability as indicated by
-  a “When is Good” poll (sent to students via email prior to the start of
-  classes). There will be 5-7 students in each recitation session. To be
-  prepared for recitation, you should bring a copy of the recitation worksheet
-  (available on ELMS), a copy of the Periodic Table and datasheet, and a
-  scientific calculator. There will be 14 recitations (they will begin in week
-  2). If you attend 12 of the 14 sessions, you will earn 4 all 30 points. Each
-  absence beyond the first two will result in a three-point (10%) reduction of
-  your recitation grade.
-</p>
-<h2>Guiding Questions</h2>
-<p>
-  Each week, there will be 2-3 “Guiding Question Sets” meant to assess your
-  comprehension of the course content (reading and/or videos). These will be
-  available in Canvas (also linked in ELMS) and due each Friday at 11:59 pm. If
-  you earn an 85% or higher on the guiding question sets, you will receive all
-  40 points available in the category. If you earn fewer than 85% of the
-  possible points, you will receive a proportionally lower score. No extra
-  credit results from accumulating a score of more than 85% of the points
-</p>
-<h2>Interactions</h2>
-<p>
-  Interactions include watching videos, answering embedded h5p questions in
-  ELMS, and posting questions or answers to Piazza. Behind-the-scenes click data
-  for users can be tracked and will be counted for this portion of the
-  participation grade. We will use Piazza as a class forum/chatroom for asking
-  and answering questions about the course. You can ask and answer questions
-  here, which will be monitored by the TAs, LAs, and instructor. Please direct
-  your questions here before e-mailing. You will be able to ask and answer
-  anonymously if you wish. The beauty of Piazza is that the entire class can
-  benefit from the questions and answers. More information on enrolling and
-  etiquette for using will be provided during the semester. Any personal
-  inquiries can be addressed by email (see below). If you interact with at least
-  85% of the course content in ELMS and make a minimum of five (5) posts to
-  Piazza, you will earn all 30 points in the category. If you interact with less
-  than 85% of the content, you will receive a proportionally lower score.
-</p>
-<h2>Extra Credit (~1%)</h2>
-<p>
-  There will be several opportunities to earn up to a maximum of 8 extra credit
-  points over the course of the semester. Opportunities will be announced as
-  they come up. The number and type of assignment are at the discretion of the
-  instructor.
-</p>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/chem110</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
   </channel>
