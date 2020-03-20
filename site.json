@@ -4167,8 +4167,8 @@
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/resource-images\/resources-banner.jpg",
-                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
+                    "image": "files\/resource-images\/online-lab-toolkit-banner.jpg",
+                    "alt": "Pendant Light Bulb. Photo by: Luca Florio - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -4182,11 +4182,11 @@
             "order": 3,
             "parent": "toolkits",
             "title": "Zoom",
-            "description": "",
+            "description": "Zoom video conferencing allows you to engage in multi-person video or audio meetings using software installed on your computer, without the need for dedicated video conferencing hardware.",
             "metadata": {
                 "fields": {
-                    "image": "files\/resource-images\/resources-banner.jpg",
-                    "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
+                    "image": "files\/resource-images\/zoom-banner.jpg",
+                    "alt": "Grey and brown headphones. Original Photo by: Pavel Anoshin - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
