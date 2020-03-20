@@ -8840,7 +8840,9 @@ class HaxFormItem extends LitElement {
   static get properties() {
     return {
       item: { type: Object },
-      active: { type: Boolean }
+      active: { type: Boolean },
+      isLoggedIn: { type: Boolean },
+      path: { type: String }
     };
   }
 
@@ -8957,9 +8959,13 @@ class HaxFormItem extends LitElement {
     super();
     this.__disposer = [];
     this.active = false;
+    this.isLoggedIn = false;
+    this.path = null;
+    this.item = {};
   }
 
   firstUpdated() {
+    console.log('item', this.item);
     this.shadowRoot
       .querySelector(".accordion-item a")
       .addEventListener("click", this.__toggleAccordion.bind(this));
@@ -8973,26 +8979,28 @@ class HaxFormItem extends LitElement {
   }
 
   updated(changedProperties) {
-    const content = this.shadowRoot.querySelector('.content');
-    content.innerHTML = this.item.content;
+    if (this.item) {
+      const contentOutlet = this.shadowRoot.querySelector('#content-outlet');
+      contentOutlet.innerHTML = this.item.content;
+      // update path
+      const manifestItem = store.routerManifest.items.find(i => i.id === this.item.id);
+      this.path = manifestItem.location;
+    }
   }
 
   render() {
-    let content = '';
-    if (this.item) {
-      if (this.item.content) {
-        content = this.item.content;
-        console.log(typeof this.item.content);
-      }
-    }
     return html$1`
       ${this.item ? html$1`
         <div class="accordion-item">
-          <a
-            >${this.item.title}
-            <span class="icon">${this.__renderIcon()}</span></a
-          >
+          <a id="toggle">
+            ${this.item.title}
+            <span class="icon">${this.__renderIcon()}</span>
+          </a>
           <div class="content">
+            <div id="content-outlet"></div>
+            <div id="edit">
+              ${this.__renderEditIcon()}
+            </div>
           </div>
         </div>
       ` : html$1``}
@@ -9033,6 +9041,15 @@ class HaxFormItem extends LitElement {
     }
   }
 
+  __renderEditIcon() {
+    if (this.isLoggedIn) {
+      return html$1`<a href="${this.path}" id="edit">edit</a>`;
+    }
+    else {
+      return html$1``;
+    }
+  }
+
   __toggleAccordion(e) {
     this.active = !this.active;
     e.target.classList.toggle("active");
@@ -9045,7 +9062,8 @@ customElements.define("hax-faqs-item", HaxFormItem);
 class HaxForm$1 extends LitElement {
   static get properties() {
     return {
-      results: { type: Array }
+      results: { type: Array },
+      isLoggedIn: { type: Boolean }
     };
   }
 
@@ -9162,9 +9180,10 @@ class HaxForm$1 extends LitElement {
     super();
     this.__disposer = [];
     this.results = [];
+    this.isLoggedIn = false;
+    this.__getFaqs();
     autorun(reaction => {
-      // filter faqs
-      this.__getFaqs(toJS(store.routerManifest));
+      this.isLoggedIn = store.isLoggedIn;
       this.__disposer.push(reaction);
     });
   }
@@ -9173,10 +9192,6 @@ class HaxForm$1 extends LitElement {
       this.__disposer[i].dispose();
     }
     super.disconnectedCallback();
-  }
-
-  connectedCallback() {
-    super.connectedCallback();
   }
 
   render() {
@@ -9190,7 +9205,8 @@ class HaxForm$1 extends LitElement {
               <div class="container">
                 <div class="accordion">
                   ${this.results.map(result => html$1`
-                    <hax-faqs-item .item=${result}></hax-faqs-item>
+                    ${console.log('result:', result)}
+                    <hax-faqs-item .item=${result} .isLoggedIn=${this.isLoggedIn}></hax-faqs-item>
                   `)}
                 </div>
               </div>
@@ -9201,64 +9217,10 @@ class HaxForm$1 extends LitElement {
     `;
   }
 
-  __renderIcon(active) {
-    if (active) {
-      return html$1`
-        <svg
-          enable-background="new 0 0 551.13 551.13"
-          height="512"
-          viewBox="0 0 551.13 551.13"
-          width="512"
-        >
-          <path
-            d="m275.565 0c-151.944 0-275.565 123.621-275.565 275.565s123.621 275.565 275.565 275.565 275.565-123.621 275.565-275.565-123.621-275.565-275.565-275.565zm0 516.685c-132.955 0-241.119-108.164-241.119-241.119s108.164-241.12 241.119-241.12 241.12 108.164 241.12 241.119-108.165 241.12-241.12 241.12z"
-          />
-          <path d="m137.783 258.342h275.565v34.446h-275.565z" />
-        </svg>
-      `;
-    } else {
-      return html$1`
-        <svg
-          enable-background="new 0 0 551.13 551.13"
-          height="512"
-          viewBox="0 0 551.13 551.13"
-          width="512"
-        >
-          <path
-            d="m275.565 0c-151.944 0-275.565 123.621-275.565 275.565s123.621 275.565 275.565 275.565 275.565-123.621 275.565-275.565-123.621-275.565-275.565-275.565zm0 516.685c-132.955 0-241.119-108.164-241.119-241.119s108.164-241.12 241.119-241.12 241.12 108.164 241.12 241.119-108.165 241.12-241.12 241.12z"
-          />
-          <path
-            d="m292.788 137.783h-34.446v120.56h-120.56v34.446h120.56v120.56h34.446v-120.56h120.56v-34.446h-120.56z"
-          />
-        </svg>
-      `;
-    }
-  }
-
-  __getFaqs(manifest) {
-    if (manifest) {
-      if (manifest.items) {
-        const faqsParent = manifest.items.find(i => i.id === "faqs");
-        if (faqsParent) {
-          if (faqsParent.children) {
-            this.results = faqsParent.children;
-          }
-        }
-      }
-    }
-  }
-
-  __renderSearchItem(item) {
-    const active = (Math.random() < 0.5);
-    const contentNode = document.createElement('div');
-    contentNode.classList.add('content');
-    contentNode.innerHTML = item.content;
-    return html$1`
-      <div class="accordion-item">
-        <a>${item.title}
-          <span class="icon">${this.__renderIcon(active)}</span></a>
-      </div>
-    `;
+  __getFaqs() {
+    fetch('/service/api/faqs')
+      .then(res => res.json())
+      .then(res => this.results = res);
   }
 }
 

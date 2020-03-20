@@ -18,7 +18,19 @@ const faqs = (tags = null) => {
       }
     }
   }
-  return faqs
+
+  // Load the html for the faqs
+  faqs = faqs.map(faq => {
+    try {
+      const pageContent = fs.readFileSync(path.join(HAXCMS_PATH, faq.location), 'utf8');
+      faq.content = pageContent;
+    } catch (error) {
+      console.error(`Could not load page for faq item.`, error);
+    }
+    return faq;
+  })
+
+  return faqs;
 }
 
 module.exports.faqs = faqs;

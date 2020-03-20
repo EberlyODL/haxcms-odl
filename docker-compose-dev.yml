@@ -30,7 +30,7 @@ services:
     labels:
       - "traefik.enable=true" # Enable reverse-proxy for this service
       - "traefik.port=3000" # Enable reverse-proxy for this service
-      - "traefik.frontend.rule=Host:api.haxcms-odl.haxcms.localhost"
+      - "traefik.frontend.rule=Host:haxcms-odl.haxcms.localhost; PathPrefix:/service/api; ReplacePathRegex: ^/service/api(.*) $$1"
 
   custom:
     build:

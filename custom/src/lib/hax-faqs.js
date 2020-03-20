@@ -6,7 +6,8 @@ import "./hax-faqs-item.js"
 class HaxForm extends LitElement {
   static get properties() {
     return {
-      results: { type: Array }
+      results: { type: Array },
+      isLoggedIn: { type: Boolean }
     };
   }
 
@@ -123,9 +124,10 @@ class HaxForm extends LitElement {
     super();
     this.__disposer = [];
     this.results = [];
+    this.isLoggedIn = false;
+    this.__getFaqs();
     autorun(reaction => {
-      // filter faqs
-      this.__getFaqs(toJS(store.routerManifest));
+      this.isLoggedIn = store.isLoggedIn;
       this.__disposer.push(reaction);
     });
   }
@@ -134,10 +136,6 @@ class HaxForm extends LitElement {
       this.__disposer[i].dispose();
     }
     super.disconnectedCallback();
-  }
-
-  connectedCallback() {
-    super.connectedCallback();
   }
 
   render() {
@@ -151,7 +149,8 @@ class HaxForm extends LitElement {
               <div class="container">
                 <div class="accordion">
                   ${this.results.map(result => html`
-                    <hax-faqs-item .item=${result}></hax-faqs-item>
+                    ${console.log('result:', result)}
+                    <hax-faqs-item .item=${result} .isLoggedIn=${this.isLoggedIn}></hax-faqs-item>
                   `)}
                 </div>
               </div>
@@ -162,64 +161,10 @@ class HaxForm extends LitElement {
     `;
   }
 
-  __renderIcon(active) {
-    if (active) {
-      return html`
-        <svg
-          enable-background="new 0 0 551.13 551.13"
-          height="512"
-          viewBox="0 0 551.13 551.13"
-          width="512"
-        >
-          <path
-            d="m275.565 0c-151.944 0-275.565 123.621-275.565 275.565s123.621 275.565 275.565 275.565 275.565-123.621 275.565-275.565-123.621-275.565-275.565-275.565zm0 516.685c-132.955 0-241.119-108.164-241.119-241.119s108.164-241.12 241.119-241.12 241.12 108.164 241.12 241.119-108.165 241.12-241.12 241.12z"
-          />
-          <path d="m137.783 258.342h275.565v34.446h-275.565z" />
-        </svg>
-      `;
-    } else {
-      return html`
-        <svg
-          enable-background="new 0 0 551.13 551.13"
-          height="512"
-          viewBox="0 0 551.13 551.13"
-          width="512"
-        >
-          <path
-            d="m275.565 0c-151.944 0-275.565 123.621-275.565 275.565s123.621 275.565 275.565 275.565 275.565-123.621 275.565-275.565-123.621-275.565-275.565-275.565zm0 516.685c-132.955 0-241.119-108.164-241.119-241.119s108.164-241.12 241.119-241.12 241.12 108.164 241.12 241.119-108.165 241.12-241.12 241.12z"
-          />
-          <path
-            d="m292.788 137.783h-34.446v120.56h-120.56v34.446h120.56v120.56h34.446v-120.56h120.56v-34.446h-120.56z"
-          />
-        </svg>
-      `;
-    }
-  }
-
-  __getFaqs(manifest) {
-    if (manifest) {
-      if (manifest.items) {
-        const faqsParent = manifest.items.find(i => i.id === "faqs");
-        if (faqsParent) {
-          if (faqsParent.children) {
-            this.results = faqsParent.children;
-          }
-        }
-      }
-    }
-  }
-
-  __renderSearchItem(item) {
-    const active = (Math.random() < 0.5)
-    const contentNode = document.createElement('div')
-    contentNode.classList.add('content')
-    contentNode.innerHTML = item.content;
-    return html`
-      <div class="accordion-item">
-        <a>${item.title}
-          <span class="icon">${this.__renderIcon(active)}</span></a>
-      </div>
-    `;
+  __getFaqs() {
+    fetch('/service/api/faqs')
+      .then(res => res.json())
+      .then(res => this.results = res);
   }
 }
 

@@ -1,13 +1,14 @@
 import { html, css, LitElement } from "lit-element/lit-element.js";
 import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js";
-// import "@lrnwebcomponents/haxcms-elements/lib/ui-components/query/site-query.js";
-import { autorun, toJS } from "mobx/lib/mobx.module.js";
+import { toJS } from "mobx/lib/mobx.module.js";
 
 class HaxFormItem extends LitElement {
   static get properties() {
     return {
       item: { type: Object },
-      active: { type: Boolean }
+      active: { type: Boolean },
+      isLoggedIn: { type: Boolean },
+      path: { type: String }
     };
   }
 
@@ -124,9 +125,13 @@ class HaxFormItem extends LitElement {
     super();
     this.__disposer = [];
     this.active = false;
+    this.isLoggedIn = false;
+    this.path = null;
+    this.item = {};
   }
 
   firstUpdated() {
+    console.log('item', this.item);
     this.shadowRoot
       .querySelector(".accordion-item a")
       .addEventListener("click", this.__toggleAccordion.bind(this));
@@ -140,26 +145,28 @@ class HaxFormItem extends LitElement {
   }
 
   updated(changedProperties) {
-    const content = this.shadowRoot.querySelector('.content')
-    content.innerHTML = this.item.content;
+    if (this.item) {
+      const contentOutlet = this.shadowRoot.querySelector('#content-outlet')
+      contentOutlet.innerHTML = this.item.content;
+      // update path
+      const manifestItem = store.routerManifest.items.find(i => i.id === this.item.id);
+      this.path = manifestItem.location;
+    }
   }
 
   render() {
-    let content = ''
-    if (this.item) {
-      if (this.item.content) {
-        content = this.item.content;
-        console.log(typeof this.item.content)
-      }
-    }
     return html`
       ${this.item ? html`
         <div class="accordion-item">
-          <a
-            >${this.item.title}
-            <span class="icon">${this.__renderIcon()}</span></a
-          >
+          <a id="toggle">
+            ${this.item.title}
+            <span class="icon">${this.__renderIcon()}</span>
+          </a>
           <div class="content">
+            <div id="content-outlet"></div>
+            <div id="edit">
+              ${this.__renderEditIcon()}
+            </div>
           </div>
         </div>
       ` : html``}
@@ -197,6 +204,15 @@ class HaxFormItem extends LitElement {
           />
         </svg>
       `;
+    }
+  }
+
+  __renderEditIcon() {
+    if (this.isLoggedIn) {
+      return html`<a href="${this.path}" id="edit">edit</a>`;
+    }
+    else {
+      return html``;
     }
   }
 
