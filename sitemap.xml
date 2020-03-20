@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- generator-class="Icamys\SitemapGenerator\SitemapGenerator" -->
 <!-- generator-version="1.1.0" -->
-<!-- generated-on="2020-03-19T20:21:06+00:00" -->
+<!-- generated-on="2020-03-20T13:13:24+00:00" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>/home</loc>
@@ -863,7 +863,7 @@
   </url>
   <url>
     <loc>/resources/contingency/science-specific-needs</loc>
-    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <lastmod>2020-03-20T13:13:24+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
