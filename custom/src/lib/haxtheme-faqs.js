@@ -1,6 +1,6 @@
 import { LitElement, html, css } from "lit-element/lit-element.js";
-import "./hax-faqs.js"
-import "./hax-faqs-item.js"
+import "./odl-faqs.js"
+import "./odl-faqs-item.js"
 
 class HaxthemeFaqs extends LitElement {
   static get tag() {
@@ -71,7 +71,7 @@ class HaxthemeFaqs extends LitElement {
               <slot></slot>
             </div>
           </div>
-          <hax-faqs tags="zoom"></hax-faqs>
+          <odl-faqs tags="zoom"></odl-faqs>
         </div>
       </div>
     `;

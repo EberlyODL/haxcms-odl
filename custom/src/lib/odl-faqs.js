@@ -1,9 +1,9 @@
 import { html, css, LitElement } from "lit-element/lit-element.js";
 import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js";
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
-import "./hax-faqs-item.js"
+import "./odl-faqs-item.js"
 
-class HaxForm extends LitElement {
+class OdlFaqs extends LitElement {
   static get properties() {
     return {
       tags: { type: String },
@@ -158,7 +158,7 @@ class HaxForm extends LitElement {
               <div class="container">
                 <div class="accordion">
                   ${this.results.map(result => html`
-                    <hax-faqs-item .item=${result} .isLoggedIn=${this.isLoggedIn}></hax-faqs-item>
+                    <odl-faqs-item .item=${result} .isLoggedIn=${this.isLoggedIn}></odl-faqs-item>
                   `)}
                 </div>
               </div>
@@ -177,6 +177,6 @@ class HaxForm extends LitElement {
   }
 }
 
-customElements.define("hax-faqs", HaxForm);
+customElements.define("odl-faqs", OdlFaqs);
 
-export { HaxForm };
+export { OdlFaqs };

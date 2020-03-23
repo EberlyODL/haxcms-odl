@@ -2,7 +2,7 @@ import { html, css, LitElement } from "lit-element/lit-element.js";
 import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js";
 import { toJS } from "mobx/lib/mobx.module.js";
 
-class HaxFormItem extends LitElement {
+class OdlFaqsItem extends LitElement {
   static get properties() {
     return {
       item: { type: Object },
@@ -265,6 +265,6 @@ class HaxFormItem extends LitElement {
   }
 }
 
-customElements.define("hax-faqs-item", HaxFormItem);
+customElements.define("odl-faqs-item", OdlFaqsItem);
 
-export { HaxFormItem };
+export { OdlFaqsItem };

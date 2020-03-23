@@ -3,7 +3,7 @@ import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-st
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
 import "./page-banner.js";
 import "./resources-sidemenu.js"
-import "./hax-faqs.js"
+import "./odl-faqs.js"
 
 class HaxThemeResources extends PolymerElement {
   static get template() {
@@ -84,7 +84,7 @@ class HaxThemeResources extends PolymerElement {
         border-left-width: 2px;
         border-left-color: #dcdcdc;
         padding: 0 0 0 20px;
-        height: 750px;
+        height: auto;
       }
 
       @media screen and (max-width: 768px) {

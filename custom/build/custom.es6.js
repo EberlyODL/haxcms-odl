@@ -6942,7 +6942,7 @@ class ResourcesSidemenu extends LitElement {
 }
 window.customElements.define(ResourcesSidemenu.tag, ResourcesSidemenu);
 
-class HaxFormItem extends LitElement {
+class OdlFaqsItem extends LitElement {
   static get properties() {
     return {
       item: { type: Object },
@@ -7205,9 +7205,9 @@ class HaxFormItem extends LitElement {
   }
 }
 
-customElements.define("hax-faqs-item", HaxFormItem);
+customElements.define("odl-faqs-item", OdlFaqsItem);
 
-class HaxForm extends LitElement {
+class OdlFaqs extends LitElement {
   static get properties() {
     return {
       tags: { type: String },
@@ -7362,7 +7362,7 @@ class HaxForm extends LitElement {
               <div class="container">
                 <div class="accordion">
                   ${this.results.map(result => html$1`
-                    <hax-faqs-item .item=${result} .isLoggedIn=${this.isLoggedIn}></hax-faqs-item>
+                    <odl-faqs-item .item=${result} .isLoggedIn=${this.isLoggedIn}></odl-faqs-item>
                   `)}
                 </div>
               </div>
@@ -7381,7 +7381,7 @@ class HaxForm extends LitElement {
   }
 }
 
-customElements.define("hax-faqs", HaxForm);
+customElements.define("odl-faqs", OdlFaqs);
 
 class HaxThemeResources extends PolymerElement {
   static get template() {
@@ -7462,7 +7462,7 @@ class HaxThemeResources extends PolymerElement {
         border-left-width: 2px;
         border-left-color: #dcdcdc;
         padding: 0 0 0 20px;
-        height: 750px;
+        height: auto;
       }
 
       @media screen and (max-width: 768px) {
@@ -7948,7 +7948,7 @@ class HaxThemeSyllabus extends PolymerElement {
 }
 window.customElements.define(HaxThemeSyllabus.tag, HaxThemeSyllabus);
 
-class HaxForm$1 extends LitElement {
+class HaxForm extends LitElement {
   static get properties() {
     return {
       endpoint: { type: String },
@@ -8091,7 +8091,7 @@ class HaxForm$1 extends LitElement {
   }
 }
 
-customElements.define('hax-form', HaxForm$1);
+customElements.define('hax-form', HaxForm);
 
 class ContactForm extends LitElement {
   static get properties() {
@@ -9339,7 +9339,7 @@ class HaxthemeFaqs extends LitElement {
               <slot></slot>
             </div>
           </div>
-          <hax-faqs tags="zoom"></hax-faqs>
+          <odl-faqs tags="zoom"></odl-faqs>
         </div>
       </div>
     `;

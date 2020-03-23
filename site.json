@@ -4416,6 +4416,108 @@
                 "updated": 1541517755,
                 "type": "resources"
             }
+        },
+        {
+            "id": "faqs",
+            "indent": 0,
+            "location": "pages\/faqs\/index.html",
+            "order": "14",
+            "parent": null,
+            "title": "FAQs",
+            "description": "",
+            "metadata": {
+                "created": 1584643837,
+                "updated": 1584724834
+            }
+        },
+        {
+            "id": "item-6a631021-3208-4055-a60d-ba74fabcbda9",
+            "indent": "1",
+            "location": "pages\/faqs\/my-new-zoom-question\/index.html",
+            "order": "2",
+            "parent": "faqs",
+            "title": "My new zoom question",
+            "description": "",
+            "metadata": {
+                "created": 1584987971,
+                "updated": 1584987971,
+                "fields": {
+                    "tags": ["zoom"]
+                }
+            }
+        },
+        {
+            "id": "item-1e47ca14-b431-4341-bec7-2dc0fe0a5cf2",
+            "indent": "1",
+            "location": "pages\/faqs\/should-i-use-one-zoom-room-for-all-of-my-classes-\/index.html",
+            "order": "4",
+            "parent": "faqs",
+            "title": "Should I use one zoom room for all of my classes?",
+            "description": "If there is a concern that your class sessions will overlap, we recommend creating different meeting rooms for each class.",
+            "metadata": {
+                "created": 1584724836,
+                "updated": 1584724874,
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 1,
+                    "schema": [],
+                    "tags": {
+                        "p": 1
+                    },
+                    "elements": 1
+                },
+                "fields": {
+                    "tags": ["zoom"]
+                }
+            }
+        },
+        {
+            "id": "item-8df3873b-7718-4a8e-9046-e92db27ae761",
+            "indent": "1",
+            "location": "pages\/faqs\/how-should-i-record-my-zoom-sessions-\/index.html",
+            "order": "3",
+            "parent": "faqs",
+            "title": "How should I record my Zoom sessions?",
+            "description": "There are two ways to record your sessions, recording \"locally\" or recording in the \"cloud\".\u00a0We recommend using the \"cloud\" option.\u00a0 This saves you the steps of uploading the file to Kaltura after y",
+            "metadata": {
+                "created": 1584723628,
+                "updated": 1584972994,
+                "readtime": 1,
+                "fields": {
+                    "tags": [
+                        "zoom"
+                    ]
+                },
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 1,
+                    "schema": [],
+                    "tags": {
+                        "p": 1,
+                        "img": 1
+                    },
+                    "elements": 2
+                },
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/sites\/haxcms-odl\/files\/zoom.png",
+                        "fullUrl": "\/sites\/haxcms-odl\/files\/zoom.png",
+                        "url": "files\/zoom.png",
+                        "type": "image\/png",
+                        "name": "zoom.png",
+                        "size": 198892
+                    },
+                    {
+                        "path": "\/var\/www\/html\/sites\/haxcms-odl\/files\/Screen Shot 2020-03-18 at 2.04.13 PM.png",
+                        "fullUrl": "\/sites\/haxcms-odl\/files\/Screen Shot 2020-03-18 at 2.04.13 PM.png",
+                        "url": "files\/Screen Shot 2020-03-18 at 2.04.13 PM.png",
+                        "type": "image\/png",
+                        "name": "Screen Shot 2020-03-18 at 2.04.13 PM.png",
+                        "size": 769488
+                    }
+                ]
+            }
         }
     ]
 }
