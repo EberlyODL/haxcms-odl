@@ -73,9 +73,9 @@
   <entry>
     <title>2020 Horizon Report</title>
     <id>/blog-posts/3-5-20</id>
-    <updated>2020-03-11T18:24:39+00:00</updated>
+    <updated>2020-03-20T20:54:48+00:00</updated>
     <published>2020-02-10T05:00:00+00:00</published>
-    <summary>The 2020 Horizon Report has just been released, taking a look at what may be impacting teaching and learning in the future.</summary>
+    <summary>  The 2020 Horizon Report has just been released, taking a look at what may be  impacting teaching and learning in the future. This report is very important  in the digital world as it helps stakeh</summary>
     <link href="/blog-posts/3-5-20"/>
     <category term="Educause" label="Educause" /><category term="Report" label="Report" /><category term="Higer Education" label="Higer Education" />
     <content type="html">
@@ -96,7 +96,9 @@
   interested in your thoughts and ways you think we can have an impact on the
   future of higher education.
 </p>
-<worksheet-download title="2020 Educause Horizon Report" link="https://library.educause.edu/-/media/files/library/2020/3/2020horizonreport.pdf"></worksheet-download> ]]>
+<p>Hello there!</p>
+<worksheet-download title="2020 Educause Horizon Report" link="https://library.educause.edu/-/media/files/library/2020/3/2020horizonreport.pdf"></worksheet-download>
+ ]]>
     </content>
   </entry>
   <entry>
@@ -519,7 +521,7 @@
     <link href="/syllabi/chem202"/>
     
     <content type="html">
-      <![CDATA[ <h2>Description</h2>
+      <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
 <p>
   CHEM 202 is a one-semester, comprehensive course that introduces the students
   to the fundamental principles of organic chemistry including relationships
@@ -541,7 +543,7 @@
   reactivities. An understanding of the structure and function of various
   functional groups is essential to master the content of this course.
 </p>
-<h2>Objectives</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
 <p>When you successfully complete this course, you will be able to:</p>
 <ul>
   <li>
@@ -584,7 +586,7 @@
     E/Z geometrical isomers for unsaturated compounds.
   </li>
 </ul>
-<h2>Materials</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
 <ul>
   <li>
     Fundamentals of Organic Chemistry, by John McMurry, and Eric Simanek. 7th
@@ -602,7 +604,7 @@
     9780205081363. (optional)
   </li>
 </ul>
-<h2>Course Schedule</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
 <table>
   <th>Week</th>
   <th>Topic(s)</th>
@@ -687,13 +689,12 @@
     </td>
   </tr>
 </table>
-
-<h2>Lesson Structure</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Lesson Structure</h2>
 <p>
   Each Lesson contains narrated introductory slides (the PowerPoint slides have
   an audio component), a quiz, and slides from Office Hours.
 </p>
-<h2>
+<h2 style="font-size: 24px; font-weight: 400;">
   Non-proctored, Non-timed Quiz Assignments (220 points)
 </h2>
 <p>(13 x 20 points each / Drop the two lowest / 60 minutes per attempt)</p>
@@ -706,7 +707,7 @@
   time. It will be open for one week. A Blackboard Collaborate session will be
   held weekly to discuss the solutions to the quiz questions.
 </p>
-<h2>Proctored, Timed Midterm Exam (150 points)</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Proctored, Timed Midterm Exam (150 points)</h2>
 <p>
   On materials learned in Lesson 1 - 7
 </p>
@@ -719,7 +720,7 @@
   the exam and students are requested to complete the exam within the time
   allotted.
 </p>
-<h2>Proctored, Timed, Comprehensive, Final Exam (200 points)</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Proctored, Timed, Comprehensive, Final Exam (200 points)</h2>
 <p>
   Students will complete an online, multiple-choice exam consisting of questions
   that will be similar in scope to those given in the homework assignments. This
@@ -729,7 +730,7 @@
   amount of time to complete the exam and students are requested to complete the
   exam within the time allotted.
 </p>
-<h2>Grading</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
 <table>
   <th>Assignment</th>
   <th>Course Points</th>
@@ -750,8 +751,7 @@
     <td>570</td>
   </tr>
 </table>
-
-<h2>Grade Scale</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
 <table>
   <th>Letter Grade</th>
   <th>% of Course Points</th>
@@ -804,7 +804,7 @@
     <link href="/syllabi/chem810"/>
     
     <content type="html">
-      <![CDATA[ <h2>Description</h2>
+      <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
 <p>
   CHEM 810 is the first in a sequence of liquid chromatography-mass spectrometry
   (LC-MS) courses designed to fill an industry need to provide high-quality
@@ -830,7 +830,7 @@
   material and procrastination can quickly lead to a difficult situation. You
   should set aside regular times during the week for focused study.
 </p>
-<h2>Objectives</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
 <p>After successfully completing this course, the student will be able to:</p>
 <ul>
   <li>
@@ -858,7 +858,7 @@
     interest.
   </li>
 </ul>
-<h2>Course Schedule</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
 <table>
   <th>Week</th>
   <th>Topic(s)</th>
@@ -907,8 +907,7 @@
     <td>Sample Preparation</td>
   </tr>
 </table>
-
-<h2>Discussions</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Discussions</h2>
 <p>
   The first activity is to engage in a class discussion related to that week’s
   assigned problems – questions concerning clarification, problem-solving
@@ -924,7 +923,7 @@
   your peers, along with your answers to the assigned problems, are due no later
   than 11:59 PM Sunday each week.
 </p>
-<h2>Grading</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
 <p>
   The course website provides numerous example problems with detailed
   instructor-guided solutions and practice problems for which answer keys are
@@ -970,8 +969,7 @@
     <td>1000</td>
   </tr>
 </table>
-
-<h2>Grade Scale</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
 <table>
   <th>Letter Grade</th>
   <th>Points Earned</th>
@@ -1048,7 +1046,7 @@
     <link href="/syllabi/chem130"/>
     
     <content type="html">
-      <![CDATA[ <h2>Description</h2>
+      <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
 <p>
   This course is a one-semester college level introductory chemistry course
   covering the fundamental principles of general, organic, and biochemistry.
@@ -1064,7 +1062,7 @@
   discussed. The course will emphasize chemistry in environmental and
   health-related contexts.
 </p>
-<h2>Objectives</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
 <p>
   The overall objective of this course is for students to gain knowledge of
   fundamental principles in the areas of general chemistry, organic chemistry,
@@ -1162,11 +1160,12 @@
     </li>
   </ul>
 </ol>
-<h2>Materials</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
 <ol>
   <li>
     Textbook: Ball et al,
     <a
+      style="text-decoration: none; color:#e2801e;"
       href="https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Book%3A_The_Basics_of_GOB_Chemistry_(Ball_et_al.)"
       target="_blank"
       >The basics of General, Organic, and Biological Chemistry</a
@@ -1183,7 +1182,7 @@
   <li>Webcam</li>
   <li>Photo or Scanning Capabilities (Adobe Scan, CamScanner, etc.)</li>
 </ol>
-<h2>Midterm / Final Exams</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Midterm / Final Exams</h2>
 <p>
   There will be three midterm examinations during the semester and a
   comprehensive final examination during the final exam period. Each exam will
@@ -1191,7 +1190,7 @@
   below). Dates and times for midterm exams are flexible; you may sign up to
   take each exam on either Thursday, Friday, or Saturday of each exam week.
 </p>
-<h2>Make-up Exam</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Make-up Exam</h2>
 <p>
   A student having a legitimate excuse for missing any of the three scheduled
   midterms will be provided with a single make-up exam. This cumulative make-up
@@ -1200,7 +1199,7 @@
   The make-up exam will be provided only to students with valid excuses (family
   emergency, illness, university-scheduled activities, etc.).
 </p>
-<h2>Lectures and Course Content</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Lectures and Course Content</h2>
 <p>
   Most course content is delivered in the form of weekly lessons. Each week you
   will have two lessons to complete (or one lesson on exam weeks). These lessons
@@ -1216,7 +1215,7 @@
   version of the lecture slides contains written notes below each slide
   explaining the content from that slide.
 </p>
-<h2>Knowledge Check Quizzes</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Knowledge Check Quizzes</h2>
 <p>
   After finishing each lesson you’ll be asked to complete a Knowledge Check
   Quiz. You’ll receive three attempts on each quiz, and only your highest score
@@ -1230,7 +1229,7 @@
   account for 13% of the total course grade. At the end of the semester your two
   lowest Knowledge Check scores will be dropped.
 </p>
-<h2>Homework Assignments</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Homework Assignments</h2>
 <p>
   Homework is designed to help you develop basic skills and understand and apply
   your understanding of concepts presented in class. Doing all assigned problems
@@ -1272,7 +1271,7 @@
   an image of your homework into a Microsoft Word document and save it as a DOCX
   file.
 </p>
-<h2>Grading</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
 <table>
   <th>Assignments</th>
   <th>% of Course Grade</th>
@@ -1309,8 +1308,7 @@
     <td>100%</td>
   </tr>
 </table>
-
-<h2>Grade Scale</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
 <table>
   <th>Letter Grade</th>
   <th>% of Course Points</th>
@@ -1363,14 +1361,14 @@
     <link href="/syllabi/chem111"/>
     
     <content type="html">
-      <![CDATA[ <h2>Description</h2>
+      <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
 <p>
   CHEM 111 is an introductory chemistry laboratory experience that gives
   students the opportunity to put into practice the essential principles
   utilized in a professional chemistry laboratory regarding topics relevant to
   CHEM 110.
 </p>
-<h2>Objectives</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
 <p>Upon successful completion of this course students will be able to:</p>
 <ul>
   <li>
@@ -1394,10 +1392,11 @@
     standards of completeness, accuracy, clarity, and neatness
   </li>
 </ul>
-<h2>Materials</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
 <ul>
   <li>
     <a
+      style="text-decoration: none; color:#e2801e;"
       href="https://www.carolina.com/catalog/detail.jsp?prodId=581862"
       target="_blank"
       >PSU Experimental Chemistry Kit</a
@@ -1406,7 +1405,7 @@
   <li>LabArchives (email sent to you)</li>
   <li>Scientific Calculator (non-programmable)</li>
 </ul>
-<h2>Course Schedule</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
 <table>
   <th>Week</th>
   <th>Topic(s)</th>
@@ -1471,8 +1470,7 @@
     <td>No Investigation<br />Midterm Exam 2 (Weeks 10-14)</td>
   </tr>
 </table>
-
-<h2>Laboratory Investigations (75%)</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Laboratory Investigations (75%)</h2>
 <p>
   Each week, there will be an investigation to complete. All of the information
   will be provided on LabArchives. The first two weeks are considered a “dry”
@@ -1482,19 +1480,19 @@
   detail below. The deadline to submit all parts of the investigation for the
   week will be on Tuesday of the following week.
 </p>
-<h2>Notebook Pages (10 points)</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Notebook Pages (10 points)</h2>
 <p>
   There will be a dedicated page in LabArchives for collecting raw data and
   recording procedural notes.
 </p>
-<h2>Post-lab Worksheet (50 points)</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Post-lab Worksheet (50 points)</h2>
 <p>
   After completing the investigation and collecting the data, you will complete
   a worksheet where you will analyze the data. Analysis may consist of
   performing calculations with the data, making graphs, and assessing accuracy
   and/or precision of results.
 </p>
-<h2>Quiz (10 points)</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Quiz (10 points)</h2>
 <p>
   The quiz associated with each laboratory investigation can be completed at
   anytime during the week on Canvas. You will have 20-mintues and up to two
@@ -1507,7 +1505,7 @@
   penalties will apply (–10% for each day that an assignment is late). Material
   that is more than one week late will not be accepted.
 </p>
-<h2>Midterm Exams (10% each)</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Midterm Exams (10% each)</h2>
 <p>
   There will be two (2) midterm exams given over the course of the semester.
   Exams are schedule on the following dates and times and will require you to
@@ -1521,7 +1519,7 @@
   of short answer questions and open-ended problems. Some questions may be
   multiple choice. Stay tuned to announcements for details on the format.
 </p>
-<h2>Participation (5%)</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Participation (5%)</h2>
 <p>
   We will have a class forum/chatroom for asking and answering questions about
   the course using Piazza (accessed in Canvas). You can ask and answer questions
@@ -1536,7 +1534,7 @@
   answers) anytime between October 20 and December 7 to earn the remaining 25
   points.
 </p>
-<h2>Grading</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
 <p>
   The final grade is calculated based on scores in each assignment category
   (details follow).
@@ -1561,8 +1559,7 @@
     <td>1000</td>
   </tr>
 </table>
-
-<h2>Grade Scale</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
 <table>
   <th>Letter Grade</th>
   <th>% of Course Points</th>
@@ -1603,8 +1600,7 @@
     <td>< 56%</td>
   </tr>
 </table>
-
-<h2>Make-up Exams</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Make-up Exams</h2>
 <p>
   As required by University regulations, students who miss an exam with a valid
   excuse (family emergency, illness, university-scheduled activities, etc.) will
@@ -1628,7 +1624,7 @@
     date.
   </li>
 </ol>
-<h2>Regrades and Grade Corrections</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Regrades and Grade Corrections</h2>
 <p>
   If after an exam or laboratory investigation is returned there is a question
   concerning the grading of the assignment, the material should be resubmitted
@@ -1661,119 +1657,156 @@
     <id>/resources/contingency/video-conferencing</id>
     <updated>2018-11-06T15:22:35+00:00</updated>
     <published>2018-11-06T15:22:35+00:00</published>
-    <summary></summary>
+    <summary>Penn State has adopted Zoom and Kaltura to work together to provide the University with an optimal conferencing and media-management service. Both tools will serve to enhance Penn State’s live-streaming and media management capabilities.</summary>
     <link href="/resources/contingency/video-conferencing"/>
     
     <content type="html">
-      <![CDATA[   <p>
-    Penn State has adopted Zoom and Kaltura to work together to provide the
-    University with an optimal conferencing and media-management service. Both
-    tools will serve to enhance&nbsp;Penn State’s live-streaming and media
-    management capabilities.
-  </p>
-  <ul>
-    <li>
-      <a href="https://psu.zoom.us/">Zoom</a>: Zoom unifies cloud video
-      conferencing, simple online meetings, group messaging, and a
-      software-defined conference room solution into one easy-to-use platform.
-      This solution offers&nbsp;video, audio, and wireless screen-sharing
-      experience across Windows, Mac, Linux, iOS, Android, Blackberry, Zoom
-      Rooms, and H.323/SIP room systems.
-      <ul>
-        <li>
-          <a href="https://support.zoom.us/hc/en-us/categories/200101697"
-            >Getting Started</a
-          >
-        </li>
-        <li>
-          <a href="https://support.zoom.us/hc/en-us/sections/201740096"
-            >Training</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://wikispaces.psu.edu/display/bwkb/How+To+Create+A+Zoom+Meeting"
-            >How to create a Zoom meeting</a
-          >
-        </li>
-        <li>
-          <a href="https://youtu.be/AnrLFA4T37U"
-            >Recording a presentation in Zoom</a
-          >
-        </li>
-        <li>
-          <a href="https://itld.psu.edu/learning-path/zoom-learning-path-hosts"
-            >Zoom Learning Path</a
-          >
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href="https://psu.mediaspace.kaltura.com/user/login">Kaltura</a
-      >:&nbsp;Kaltura is Penn State’s enterprise-level, cloud-based media
-      management platform for storing, publishing, and streaming videos, video
-      collections, and other media. Kaltura will work in tandem with Zoom, the
-      University’s conferencing system, to help users record, store, and stream
-      media.
-      <ul>
-        <li>
-          &#8203;<a
-            href="http://itld.psu.edu/learning-path/kaltura-learning-path-teachers-and-instructional-content-creators"
-            >Kaltura Learning Path</a
-          >: For Instructors and Instructional Content Creators
-        </li>
-        <li>
-          <a
-            href="https://www.kaltura.com/index.php/extwidget/preview/partner_id/2356971/uiconf_id/42959531/entry_id/1_1ru5wtui/embed/dynamic?"
-            >Kaltura MediaSpace Essentials Remote Training</a
-          >
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href="https://sites.psu.edu/eta/2017/01/16/canvas-conferences"
-        >&nbsp;Canvas Conferences</a
-      >&nbsp;<em
-        >(Note that at most 50 can participate and&nbsp;recordings are deleted
-        after 14 days.)</em
-      >
-    </li>
-  </ul>
-  <h3>Other Conferencing Options</h3>
-  <ul>
-    <li>
-      &#8203;Canvas Conferences:<em>&nbsp;</em
-      ><a href="https://sites.psu.edu/eta/2017/01/16/canvas-conferences/"
-        >https://sites.psu.edu/eta/2017/01/16/canvas-conferences/</a
-      >
-    </li>
-    <li>
-      Microsoft Teams Meetings:&nbsp;<a
-        href="https://docs.microsoft.com/en-us/MicrosoftTeams/tutorial-meetings-in-teams"
-        >https://docs.microsoft.com/en-us/MicrosoftTeams/tutorial-meetings-in-teams</a
-      >
-    </li>
-    <li>
-      Skype:&nbsp;<a href="https://www.skype.com/en/"
-        >https://www.skype.com/en/</a
-      >&nbsp;&nbsp;
-    </li>
-    <li>
-      Whereby:&nbsp;<a href="https://whereby.com/">https://whereby.com/</a>
-    </li>
-  </ul>
-  <p>
-    <a href="https://spark.adobe.com/page/vxKM4IctqwsAB/"
-      >Maximizing Video in Your Classroom</a
-    >: A comprehensive resource of how to implement video in your course.
-  </p>
-  <p>
-    <a href="https://instructionalvideoguide.psu.edu/guide/"
-      >Penn State Instructional Video Guide</a
-    >: This site will help determine what type of video you might want to record
-    depending on the type of content you want to share.
-  </p>
-  <p style="font-size: 16px;">&nbsp; &nbsp; &nbsp;</p>
+      <![CDATA[ <h2 style="font-weight: 400;">Zoom</h2>
+<p>
+  <a
+    style="text-decoration: none; color:#e2801e;"
+    href="https://psu.zoom.us/"
+    target="_blank"
+    >Zoom</a
+  >
+  unifies cloud video conferencing, simple online meetings, group messaging, and
+  a software-defined conference room solution into one easy-to-use platform.
+  This solution offers video, audio, and wireless screen-sharing experience
+  across Windows, Mac, Linux, iOS, Android, Blackberry, Zoom Rooms, and
+  H.323/SIP room systems.
+</p>
+<ul>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="https://support.zoom.us/hc/en-us/categories/200101697"
+      target="_blank"
+      >Getting Started</a
+    >
+  </li>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="https://support.zoom.us/hc/en-us/sections/201740096"
+      target="_blank"
+      >Training</a
+    >
+  </li>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="https://wikispaces.psu.edu/display/bwkb/How+To+Create+A+Zoom+Meeting"
+      target="_blank"
+      >How to create a Zoom meeting</a
+    >
+  </li>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="https://youtu.be/AnrLFA4T37U"
+      target="_blank"
+      >Recording a Presentation in Zoom</a
+    >
+  </li>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="https://itld.psu.edu/learning-path/zoom-learning-path-hosts"
+      target="_blank"
+      >Zoom Learning Path</a
+    >
+  </li>
+</ul>
+<h2 style="font-weight: 400;">Kaltura</h2>
+<p>
+  <a
+    style="text-decoration: none; color:#e2801e;"
+    href="https://psu.mediaspace.kaltura.com/user/login"
+    target="_blank"
+    >Katura</a
+  >
+  is Penn State’s enterprise-level, cloud-based media management platform for
+  storing, publishing, and streaming videos, video collections, and other media.
+  Kaltura will work in tandem with Zoom, the University’s conferencing system,
+  to help users record, store, and stream media.
+</p>
+<ul>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="http://itld.psu.edu/learning-path/kaltura-learning-path-teachers-and-instructional-content-creators"
+      target="_blank"
+      >Kaltura Learning Path</a
+    >: For Instructors and Instructional Content Creators
+  </li>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="https://www.kaltura.com/index.php/extwidget/preview/partner_id/2356971/uiconf_id/42959531/entry_id/1_1ru5wtui/embed/dynamic?"
+      target="_blank"
+      >Kaltura MediaSpace Essentials Remote Training</a
+    >
+  </li>
+</ul>
+<h2 style="font-weight: 400;">Other Conferencing Options</h2>
+<ul>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="https://sites.psu.edu/eta/2017/01/16/canvas-conferences"
+      target="_blank"
+      >Canvas Conferences</a
+    >
+    (Note that at most 50 can participate and recordings are deleted after 14
+    days.)
+  </li>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="https://docs.microsoft.com/en-us/MicrosoftTeams/tutorial-meetings-in-teams"
+      target="_blank"
+      >Microsoft Teams Meetings</a
+    >
+  </li>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="https://www.skype.com/en/  "
+      target="_blank"
+      >Skype</a
+    >
+  </li>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="https://whereby.com/"
+      target="_blank"
+      >Whereby</a
+    >
+  </li>
+</ul>
+<h3 style="font-weight: 400;">Maximizing Video in Your Classroom</h3>
+<p>
+  <a
+    style="text-decoration: none; color:#e2801e;"
+    href="https://spark.adobe.com/page/vxKM4IctqwsAB/"
+    target="_blank"
+    >View</a
+  >
+  a comprehensive resource of how to implement video in your course.
+</p>
+<h3 style="font-weight: 400;">Penn State Instructional Video Guide</h3>
+<p>
+  This
+  <a
+    style="text-decoration: none; color:#e2801e;"
+    href="https://instructionalvideoguide.psu.edu/guide/"
+    target="_blank"
+    >site</a
+  >
+  will help determine what type of video you might want to record depending on
+  the type of content you want to share.
+</p>
  ]]>
     </content>
   </entry>
@@ -1786,7 +1819,7 @@
     <link href="/syllabi/chem101"/>
     
     <content type="html">
-      <![CDATA[ <h2>Description</h2>
+      <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
 <p>
   CHEM 101 is an introductory chemistry course that incorporates lectures,
   readings, problem-solving and laboratory experiments in developing an
@@ -1797,7 +1830,7 @@
   preparation for subsequent Chemistry classes such as CHEM 110 (Chemical
   Principles I) and CHEM 202 (Fundamentals of Organic Chemistry).
 </p>
-<h2>Objectives</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
 <p>When you successfully complete this course, you will be able to:</p>
 <ul>
   <li>Describe the structure and behavior of atoms</li>
@@ -1827,7 +1860,7 @@
   </li>
   <li>Describe and compare the properties of gases, liquids and solids</li>
 </ul>
-<h2>Materials</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
 <ol>
   <li>
     Textbook: Introductory Chemistry: A Foundation by Steven Zumdahl and Donald
@@ -1842,7 +1875,7 @@
     course.
   </li>
 </ol>
-<h2>Additional Materials</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Additional Materials</h2>
 <ul>
   <li>Isopropyl alcohol (rubbing alcohol) 50%, 70%, or 91%</li>
   <li>Clear white vinegar</li>
@@ -1866,7 +1899,7 @@
   <li>Paper Towels</li>
   <li>Pen and Pencil</li>
 </ul>
-<h2>Course Schedule</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
 <table>
   <th>Week</th>
   <th>Topic</th>
@@ -1928,7 +1961,7 @@
   </tr>
 </table>
 
-<h2>Lesson Assignments (20%)</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Lesson Assignments (20%)</h2>
 <p>
   Each lesson will conclude with a few homework assignments. The format of each
   assignment will vary and may include fill-in-the blank, short essay, and
@@ -1936,7 +1969,7 @@
   lesson before beginning the next lesson. The lowest assignment grade will be
   dropped, and all of the others will be weighted equally.
 </p>
-<h2>Video Demonstration Summaries (5%)</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Video Demonstration Summaries (5%)</h2>
 <p>
   There will be multiple video demonstrations for some of the lessons. A short
   online submission (one page or less in length) will be required for five of
@@ -1946,19 +1979,19 @@
   demonstration. Watch all the videos, but please only submit summaries for 5 of
   the videos.
 </p>
-<h2>Lab Experiment Reports (25%)</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Lab Experiment Reports (25%)</h2>
 <p>
   There will be four lab experiments performed individually by the student. Each
   experiment will have an online report submitted consisting of experimental
   data, observations and short answers to interpretive questions.
 </p>
-<h2>Non-Proctored Online Mid-Term Exams (30%)</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Non-Proctored Online Mid-Term Exams (30%)</h2>
 <p>
   The two exams will have multiple choice questions. Both will have a 90-minute
   time limit. Only one attempt is allowed. Each exam will be worth 15% of the
   final grade.
 </p>
-<h2>Non-Proctored, Closed-Book, Comprehensive Final Exam (20%)</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Non-Proctored, Closed-Book, Comprehensive Final Exam (20%)</h2>
 <p>
   Students will complete a closed-book final exam consisting of multiple-choice
   questions that will be similar in scope to those given in the homework
@@ -1972,7 +2005,7 @@
   to know whether your calculator is allowed, email your instructor as soon as
   possible.
 </p>
-<h2>Grade Scale</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
 <table>
   <th>Letter Grade</th>
   <th>% of Course Points</th>
@@ -2021,7 +2054,7 @@
     <link href="/syllabi/frnsc100"/>
     
     <content type="html">
-      <![CDATA[ <h2>Description</h2>
+      <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
 <p>
   Forensic science is the application of scientific principles and practices to
   matters of the law.
@@ -2036,7 +2069,7 @@
   will be illustrated, as well as the ways in which science contributes to the
   resolution of social and legal disputes.
 </p>
-<h2>Objectives</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
 <p>Upon completion of this course, students will be able to:</p>
 <ul>
   <li>
@@ -2116,7 +2149,7 @@
     well as its role in society at large.
   </li>
 </ul>
-<h2>Materials</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
 <ul>
   <li>
     Houde, J. N. (2006). Crime Lab: A Guide for Nonscientists (Second ed.).
@@ -2131,6 +2164,7 @@
 <p>
   The Kindle version costs approx. $6 USD and can be purchased on
   <a
+    style="text-decoration: none; color:#e2801e;"
     href="https://www.amazon.com/Crime-Lab-Guide-Nonscientists-2nd-ebook/dp/B01CTHYAZ2/ref=sr_1_1_twi_kin_1?ie=UTF8&qid=1502221118&sr=8-1&keywords=crime+lab+a+guide+for+nonscientists%20(Links%20to%20an%20external%20site.)Links%20to%20an%20external%20site."
     target="_blank"
     >Amazon</a
@@ -2146,7 +2180,7 @@
   online instructor provided reading and activities on the Canvas website,
   unless specifically stated to the contrary, are testable materials.
 </p>
-<h2>Course Schedule</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
 <table>
   <th>Week</th>
   <th>Topic(s)</th>
@@ -2244,8 +2278,7 @@
     </td>
   </tr>
 </table>
-
-<h2>Reading</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Reading</h2>
 <p>
   Each module contains assigned reading. Some of the reading is from your
   textbook and some will be from online articles, websites, or content provided
@@ -2258,7 +2291,7 @@
   book. In that case, the chapter titles and/or headings are given to provide
   you with starting and stopping points.
 </p>
-<h2>Online Labs or Activities</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Online Labs or Activities</h2>
 <p>
   Online labs or other activities help emphasize important points from your
   reading, or help expand your understanding of the science being used to
@@ -2280,7 +2313,7 @@
   The content of these labs and activities is testable material unless otherwise
   indicated.
 </p>
-<h2>Case Notes and Written Work</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Case Notes and Written Work</h2>
 <p>
   In modules 1-11 you will have homework assignments in the form of case notes.
   While each module's case notes covers a different area of the crime scene or
@@ -2312,21 +2345,21 @@
   - you will need this information to be complete and accurate to do the
   assignments in modules 12-14.
 </p>
-<h2>Evidence Summary Assignment</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Evidence Summary Assignment</h2>
 <p>
   In module 12 you will aggregate the results of the case notes that you have
   taken throughout the semester. Your summary will go over each piece of
   evidence by discussing the analyses performed on them and the results of those
   tests.
 </p>
-<h2>Drawing Conclusions Assignment</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Drawing Conclusions Assignment</h2>
 <p>
   In module 13, you will use the summary from module 12. Using your critical
   thinking skills, you will draw conclusions about the evidence in this case. Is
   it probative? Can it be associated with other evidence or people from the
   crime scene? Is your assumption about the evidence supported by science?
 </p>
-<h2>Timeline of Events (Reconstruction) Assignment</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Timeline of Events (Reconstruction) Assignment</h2>
 <p>
   In module 14, you will use the assignment completed in module 13 to
   reconstruct the timeline of events from the crime scene, as well as discuss
@@ -2335,7 +2368,7 @@
   classmates. This is expected and acceptable, as long as your timeline is
   backed up by your scientific interpretation of the evidence.
 </p>
-<h2>Forensic Science Professional Profiles</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Forensic Science Professional Profiles</h2>
 <p>
   The majority of the textbook is dedicated to criminalistics, but there are
   many other sciences that can be included under the forensic science umbrella.
@@ -2343,7 +2376,7 @@
   Each of these will include short reading assignments, a possible online
   activity or lab, and a 5 question, 5 point quiz.
 </p>
-<h2>Forensic Science Career Assignment</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Forensic Science Career Assignment</h2>
 <p>
   Part of exploring any profession is understanding what it takes to be a part
   of it. You will examine job postings for crime scene, crime lab, and forensic
@@ -2352,7 +2385,7 @@
   skills you develop in the classroom are directly applicable to your career
   once you leave Penn State.
 </p>
-<h2>Forensic Science Education Assignment</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Forensic Science Education Assignment</h2>
 <p>
   As you will see from the Career Assignment, the educational requirements for
   jobs in the forensic science field vary widely depending on the type of work
@@ -2361,7 +2394,7 @@
   Assignment to explore the differences between these degrees and why certain
   degrees may be necessary for some jobs but not others.
 </p>
-<h2>Photography Assignments</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Photography Assignments</h2>
 <p>
   You will have five photography assignments throughout the semester. They will
   each cover different uses and necessities of photography throughout a case
@@ -2370,7 +2403,7 @@
   documentation of evidence analysis, and finally the use of these photos as
   evidence or documentation in the courtroom.
 </p>
-<h2>Quizzes</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Quizzes</h2>
 <p>
   Each module has a 10 question, 10 point quiz that you will have 10 minutes to
   complete. The quizzes contain multiple choice and true/false questions. All
@@ -2402,7 +2435,7 @@
   All quizzes will be available on Canvas. Check the calendar and module pages
   for due dates.
 </p>
-<h2>Case Note Quiz</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Case Note Quiz</h2>
 <p>
   The formatting of case notes in forensic science is guided by some very strict
   standards and guidelines. In the world of forensic science, case notes are
@@ -2420,7 +2453,7 @@
   directions). This quiz is designed to make sure you understand the format that
   is required for case notes - especially the date and time.
 </p>
-<h2>Exams</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Exams</h2>
 <p>
   You will have three exams, each worth 100 points. Exams have 100 multiple
   choice and true/false questions. The questions are drawn from the question
@@ -2437,7 +2470,7 @@
   not enough time to look up every single answer in your notes or on Canvas
   while taking the exam.
 </p>
-<h2>Extra Credit</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Extra Credit</h2>
 <p>
   The instructor will have VoiceThread or Kaltura lectures throughout the
   modules for you to watch. A VoiceThread or Kaltura lecture is like a
@@ -2450,7 +2483,7 @@
   Netflix, or engage in other distractions. Lectures are considered testable
   material unless otherwise stated.
 </p>
-<h2>Class Discussion on Piazza</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Class Discussion on Piazza</h2>
 <p>
   There are no discussion boards or group projects required in this class. That
   being said, students in previous classes have expressed a desire for there to
@@ -2461,7 +2494,7 @@
   is acceptable – telling them the answer is not. This is the ONLY place where
   students are authorized to “collaborate” within this course.
 </p>
-<h2>Grade Scale</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
 <table>
   <th>Letter Grade</th>
   <th>% of Course Grade</th>
@@ -2502,8 +2535,7 @@
     <td>< 60%</td>
   </tr>
 </table>
-
-<h2>Late Submission Policy</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Late Submission Policy</h2>
 <p>
   Late quizzes and exams will not be accepted without prior permission from the
   instructor.
@@ -2527,7 +2559,7 @@
     <link href="/syllabi/frnsc200"/>
     
     <content type="html">
-      <![CDATA[ <h2>Description</h2>
+      <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
 <p>
   This course offers an exploration of the science, management, and
   investigative techniques for the field of crime scene investigation. Students
@@ -2538,7 +2570,7 @@
   their own evidence of competency in each in the form of a professional
   portfolio.
 </p>
-<h2>Objectives</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
 <p>When you successfully complete this course, you will understand:</p>
 <ul>
   <li>
@@ -2583,7 +2615,7 @@
     professional practice, technical competence, and bias.
   </li>
 </ul>
-<h2>Course Schedule</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
 <table>
   <th>Week</th>
   <th>Topic(s)</th>
@@ -2652,8 +2684,7 @@
     <td>Aspects of Shooting Incident Investigation II</td>
   </tr>
 </table>
-
-<h2>Grading</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
 <table>
   <th>Assignment</th>
   <th>Assignment Weight</th>
@@ -2684,7 +2715,7 @@
     <td>14%</td>
   </tr>
 </table>
-<h2>Grade Scale</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
 <table>
   <th>Letter Grade</th>
   <th>% of Course Grade</th>
@@ -2737,7 +2768,7 @@
     <link href="/syllabi/frnsc210"/>
     
     <content type="html">
-      <![CDATA[ <h2>Description</h2>
+      <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
 <p>
   The primary aim of this course is to prepare students for entry into the
   undergraduate forensic science program and to enhance success in the 400 level
@@ -2770,7 +2801,7 @@
   retained as it comprises the essential practices required of all criminalists
   and forensic scientists.
 </p>
-<h2>Objectives</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
 <p>On completion of FRNSC 210, students will be able to:</p>
 <ul>
   <li>
@@ -2831,13 +2862,13 @@
     written communication
   </li>
 </ul>
-<h2>Materials</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
 <p>
   Langford M, Bilissi E. Langford’s Advanced Photography. 8th ed. Oxford: Focal
   Press, 2011.
 </p>
 <p>Additional assigned reading materials will be provided by the instructor.</p>
-<h2>Course Schedule</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
 <table>
   <th>Week</th>
   <th>Topic(s)</th>
@@ -2941,8 +2972,7 @@
     </td>
   </tr>
 </table>
-
-<h2>Grading</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
 <table>
   <th>Assignment</th>
   <th>Points (each)</th>
@@ -2985,7 +3015,7 @@
     <link href="/syllabi/math004"/>
     
     <content type="html">
-      <![CDATA[ <h2>Description</h2>
+      <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
 <p>
   MATH 004 Intermediate Algebra (3 semester hours) Algebraic expressions;
   linear, absolute value Equations and inequalities; lines; systems of linear
@@ -2993,13 +3023,13 @@
   used to satisfy the basic minimum requirements for graduation in any
   Baccalaureate degree program.
 </p>
-<h2>Prerequisite</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Prerequisite</h2>
 <p>
   Basic arithmetic skills or satisfactory performance on the mathematics
   proficiency examination, Students who do not meet the prerequisite may have
   great difficulty in the course.
 </p>
-<h2>Objectives</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
 <ul>
   <li>Unit 1</li>
   <ul>
@@ -3053,24 +3083,24 @@
     <li>Solve polynomial equations by factoring.</li>
   </ul>
 </ul>
-<h2>Materials</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
 <ul>
   <li>
     An 18 week Access to ALEKS 360 is needed to provide access to the ebook and
     supplementary materials
-    <a href="https://www.aleks.com/" target="_blank">www.aleks.com</a>
+    <a style="text-decoration: none; color:#e2801e;" href="https://www.aleks.com/" target="_blank">www.aleks.com</a>
     . This can be purchased separately or with the book.
   </li>
   <li>ALEKS Course Code : MNPMR-LFYMA</li>
 </ul>
-<h2>Textbook</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Textbook</h2>
   <p>Intermediate Algebra with P.O.W.E.R Learning 1st edition, Messersmith, Perez, Feldman </p>
   <ul>
     <li>Ebook with 1 semester ALEKS 360 access (18 weeks) ISBN-10: 0077528530</li>
     <li>Paperback (ALEKS access not included) ISBN-10: 0073406279</li>
   </ul>
 </ul>
-<h2>Grading</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
 <table>
   <th>Conceptual</th>
   <th>Basic Skills</th>
@@ -3096,7 +3126,7 @@
     <td></td>
   </tr>
 </table>
-<h2>Grade Scale</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
 <table>
   <th>Letter Grade</th>
   <th>% Course Grade</th>
@@ -3146,19 +3176,19 @@
     <link href="/syllabi/math021"/>
     
     <content type="html">
-      <![CDATA[ <h2>Description</h2>
+      <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
 <p>
   An extensive look into Quadratic equations; equations in quadratic form; word
   problems, graphing; algebraic fractions; negative and rational exponents, and
   radicals.
 </p>
-<h2>Prerequisite</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Prerequisite</h2>
 <p>
   Math 4 or satisfactory performance on the mathematics proficiency examination.
   Students who do not meet the prerequisite may have great difficulty in the
   course.
 </p>
-<h2>Objectives</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
 <p>
   <strong>Unit 0</strong>
   is designed to ascertain prerequisite knowledge and skills which will
@@ -3385,12 +3415,14 @@
   </li>
   <li>Graph circles from equations using the center and radius.</li>
 </ul>
-<h2>Materials</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
 <p>
   One-semester subscription access to ALEKS and the electronic copy of
   "Intermediate Algebra, 4th edition" published by McGraw-Hill, 2013. Authors:
   Julie Miller, Molly O'Neill, and Nancy Hyde. Access to ALEKS combined with
-  access to the eBook can be purchased through ALEKS (<a
+  access to the eBook can be purchased through ALEKS (
+  <a
+    style="text-decoration: none; color:#e2801e;"
     href="https://www.aleks.com/"
     target="_blank"
     >www.aleks.com</a
@@ -3399,12 +3431,12 @@
   The price is approximately $85. This option is much less expensive than buying
   the book and the code separately.
 </p>
-<h2>Textbook (Optional)</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Textbook (Optional)</h2>
 <p>
   If you would like a hard copy of the text, you may purchase the text from an
   online text vendor of your choice. The ISBN is 9780073384498.
 </p>
-<h2>Course Schedule</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
 <table>
   <th>Unit</th>
   <th>Topic(s)</th>
@@ -3429,8 +3461,7 @@
     <td>Quadratic Equations, Functions, and Inequalities and Circles</td>
   </tr>
 </table>
-
-<h2>Algebraic Skills</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Algebraic Skills</h2>
 <p>
   Algebraic skills will be primarily developed through work on ALEKS. ALEKS is a
   web-based tutorial system which provides students with ongoing skills based
@@ -3441,7 +3472,7 @@
   As necessary, lectures will be done via BlackBoard Collaborate. The midterm
   and final exams will administered via Canvas.
 </p>
-<h2>ALEKS</h2>
+<h2 style="font-size: 24px; font-weight: 400;">ALEKS</h2>
 <p>
   Essentially all of the skills based work will be conducted through ALEKS. The
   ALEKS system will do ongoing assessments of skills based problems and track
@@ -3450,18 +3481,18 @@
   week (60-90 hours for the course). Skills based points will be earned by
   measuring mastered objective milestones and skills based ALEKS quizzes.
 </p>
-<h2>Canvas</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Canvas</h2>
 <p>
   The course management system is Canvas. Canvas will be used to deliver, the
   midterm exam and the final exam and associated practice/study exams.
 </p>
-<h2>PIAZZA & BlackBoard Collaborate</h2>
+<h2 style="font-size: 24px; font-weight: 400;">PIAZZA & BlackBoard Collaborate</h2>
 <p>
   Participation in the course is gauged via a student's interaction on Piazza
   and live sessions. Students are expected to ask questions, pose problems and
   answer questions via the Piazza bulletin board.
 </p>
-<h2>Grading</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
 <p>
   The total number of points for the course will be 600 points. Work completed
   in ALEKS, which builds skills, will be worth 230 points. Participation points
@@ -3496,8 +3527,7 @@
     <td>350 pts</td>
   </tr>
 </table>
-
-<h2>Grading Scale</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Grading Scale</h2>
 <table>
   <th>Letter Grade</th>
   <th>% Score</th>

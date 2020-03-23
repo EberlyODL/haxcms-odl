@@ -185,7 +185,7 @@
             "order": 1,
             "parent": "news",
             "title": "2020 Horizon Report",
-            "description": "The 2020 Horizon Report has just been released, taking a look at what may be impacting teaching and learning in the future.",
+            "description": "  The 2020 Horizon Report has just been released, taking a look at what may be  impacting teaching and learning in the future. This report is very important  in the digital world as it helps stakeh",
             "metadata": {
                 "fields": {
                     "image": "files\/blog-images\/3-5-20.jpg",
@@ -193,7 +193,7 @@
                     "authorId": "melissa"
                 },
                 "created": 1581310800,
-                "updated": 1583951079,
+                "updated": 1584737688,
                 "type": "news",
                 "template": "news",
                 "author": "Melissa Hicks",
@@ -204,21 +204,15 @@
                     "Report",
                     "Higer Education"
                 ],
-                "readtime": 2,
+                "readtime": 1,
                 "contentDetails": {
                     "headings": 0,
-                    "paragraphs": 6,
-                    "schema": [
-                        {
-                            "resource": "#fbb77a1d-12dc-b794-1190",
-                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
-                        }
-                    ],
+                    "paragraphs": 3,
+                    "schema": [],
                     "tags": {
-                        "p": 6,
-                        "video-player": 1
+                        "p": 3
                     },
-                    "elements": 7
+                    "elements": 3
                 }
             }
         },
@@ -4113,7 +4107,7 @@
             "description": "They say it doesn't matter what tool you use as long as your instruction is anchored in appropriate pedagogy and theory. However, using the right tools can elevate learning to a whole new level. This page will host toolkits for some of the most relevant tools for your use. Keep checking more as we continue to add information!",
             "metadata": {
                 "fields": {
-                    "image": "files/theme-images/page-banners/lab-banner.jpg",
+                    "image": "files\/theme-images\/page-banners\/lab-banner.jpg",
                     "alt": "Rows of books in a library. Photo by: Susan Yin - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4412,7 +4406,7 @@
             "order": 3,
             "parent": "contingency",
             "title": "Video Conferencing, Recording, and Media Management",
-            "description": "Penn State has adopted Zoom and Kaltura to work together to provide the University with an optimal conferencing and media-management service. Both tools will serve to enhance Penn State’s live-streaming and media management capabilities.",
+            "description": "Penn State has adopted Zoom and Kaltura to work together to provide the University with an optimal conferencing and media-management service. Both tools will serve to enhance Penn State\u2019s live-streaming and media management capabilities.",
             "metadata": {
                 "fields": {
                     "image": "files\/resource-images\/video-conference-banner.jpg",
