@@ -149,7 +149,6 @@ class HaxForm extends LitElement {
               <div class="container">
                 <div class="accordion">
                   ${this.results.map(result => html`
-                    ${console.log('result:', result)}
                     <hax-faqs-item .item=${result} .isLoggedIn=${this.isLoggedIn}></hax-faqs-item>
                   `)}
                 </div>

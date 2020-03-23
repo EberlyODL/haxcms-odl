@@ -8937,6 +8937,7 @@ class HaxFormItem extends LitElement {
         -webkit-transition: all 0.2s ease 0.15s;
         -o-transition: all 0.2s ease 0.15s;
         transition: all 0.2s ease 0.15s;
+        position: relative;
       }
 
       .content p {
@@ -8952,6 +8953,20 @@ class HaxFormItem extends LitElement {
         -o-transition: all 0.35s ease 0.15s;
         transition: all 0.35s ease 0.15s;
       }
+
+      #edit {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 1em;
+        border: none;
+      }
+
+      #edit-icon {
+        width: 20px;
+        height: 20px;
+      }
     `;
   }
 
@@ -8965,7 +8980,7 @@ class HaxFormItem extends LitElement {
   }
 
   firstUpdated() {
-    console.log('item', this.item);
+    console.log("item", this.item);
     this.shadowRoot
       .querySelector(".accordion-item a")
       .addEventListener("click", this.__toggleAccordion.bind(this));
@@ -8980,30 +8995,34 @@ class HaxFormItem extends LitElement {
 
   updated(changedProperties) {
     if (this.item) {
-      const contentOutlet = this.shadowRoot.querySelector('#content-outlet');
+      const contentOutlet = this.shadowRoot.querySelector("#content-outlet");
       contentOutlet.innerHTML = this.item.content;
       // update path
-      const manifestItem = store.routerManifest.items.find(i => i.id === this.item.id);
+      const manifestItem = store.routerManifest.items.find(
+        i => i.id === this.item.id
+      );
       this.path = manifestItem.location;
     }
   }
 
   render() {
     return html$1`
-      ${this.item ? html$1`
-        <div class="accordion-item">
-          <a id="toggle">
-            ${this.item.title}
-            <span class="icon">${this.__renderIcon()}</span>
-          </a>
-          <div class="content">
-            <div id="content-outlet"></div>
-            <div id="edit">
-              ${this.__renderEditIcon()}
+      ${this.item
+        ? html$1`
+            <div class="accordion-item">
+              <a id="toggle">
+                ${this.item.title}
+                <span class="icon">${this.__renderIcon()}</span>
+              </a>
+              <div class="content">
+                <div id="content-outlet"></div>
+                <div id="edit">
+                  ${this.__renderEditIcon()}
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      ` : html$1``}
+          `
+        : html$1``}
     `;
   }
 
@@ -9043,9 +9062,32 @@ class HaxFormItem extends LitElement {
 
   __renderEditIcon() {
     if (this.isLoggedIn) {
-      return html$1`<a href="${this.path}" id="edit">edit</a>`;
-    }
-    else {
+      return html$1`
+        <a href="${this.path}" id="edit"
+          ><svg
+            id="edit-icon"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 383.947 383.947"
+            style="enable-background:new 0 0 383.947 383.947;"
+            xml:space="preserve"
+          >
+            <g>
+              <polygon
+                points="0,303.947 0,383.947 80,383.947 316.053,147.893 236.053,67.893 			"
+              />
+              <path
+                d="M377.707,56.053L327.893,6.24c-8.32-8.32-21.867-8.32-30.187,0l-39.04,39.04l80,80l39.04-39.04
+         C386.027,77.92,386.027,64.373,377.707,56.053z"
+              />
+            </g>
+          </svg>
+        </a>
+      `;
+    } else {
       return html$1``;
     }
   }
@@ -9205,7 +9247,6 @@ class HaxForm$1 extends LitElement {
               <div class="container">
                 <div class="accordion">
                   ${this.results.map(result => html$1`
-                    ${console.log('result:', result)}
                     <hax-faqs-item .item=${result} .isLoggedIn=${this.isLoggedIn}></hax-faqs-item>
                   `)}
                 </div>
@@ -9302,6 +9343,76 @@ class HaxthemeFaqs extends LitElement {
   }
 }
 window.customElements.define(HaxthemeFaqs.tag, HaxthemeFaqs);
+
+class HaxthemeFaq extends LitElement {
+  static get properties() {
+    return {
+      activeItem: { type: Object }
+    }
+  }
+
+  static get tag() {
+    return "haxtheme-faq";
+  }
+
+  constructor() {
+    super();
+    this.activeItem = null;
+    this.__disposer = [];
+    autorun(reaction => {
+      this.activeItem = toJS(store.activeItem);
+      this.__disposer.push(reaction);
+    });
+  }
+
+  disconnectedCallback() {
+    for (var i in this.__disposer) {
+      this.__disposer[i].dispose();
+    }
+    super.disconnectedCallback();
+  }
+
+  static get styles() {
+    return [
+      css`
+        :host {
+          display: flex;
+          flex: 1 1 auto;
+          flex-direction: column;
+        }
+
+       /**
+        * Hide the slotted content during edit mode. This must be here to work.
+        */
+        :host([edit-mode]) #slot {
+          display: none;
+        }
+
+        #container {
+          display: block;
+          padding: 1em;
+          max-width: 900px;
+          width: 100%;
+          margin: 0 auto;
+        }
+      `
+    ];
+  }
+
+  render() {
+    return html$1`
+      <div id="container">
+        ${this.activeItem ? html$1`<h1>${this.activeItem.title}</h1>` : html$1``}
+        <div id="contentcontainer">
+          <div id="slot">
+            <slot></slot>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+}
+window.customElements.define(HaxthemeFaq.tag, HaxthemeFaq);
 
 /**
  * Copyright 2019 The Pennsylvania State University
@@ -9489,6 +9600,7 @@ tr:hover {
     <haxtheme-resources id="resources" edit-mode$="[[editMode]]"></haxtheme-resources>
     <haxtheme-search id="search" edit-mode$="[[editMode]]"></haxtheme-search>
     <haxtheme-faqs id="faqs" edit-mode$="[[editMode]]"></haxtheme-faqs>
+    <haxtheme-faq id="faq" edit-mode$="[[editMode]]"></haxtheme-faq>
 </iron-pages>
 <scroll-button></scroll-button>
 <page-footer></page-footer>`;
@@ -9621,6 +9733,8 @@ tr:hover {
             target = "resources";
           } else if (location.route.path.startsWith("search")) {
             target = "search";
+          } else if (location.route.path.startsWith("faqs/")) {
+            target = "faq";
           } else if (location.route.path.startsWith("faqs")) {
             target = "faqs";
           }
@@ -9713,9 +9827,9 @@ tr:hover {
               } else if (routePath.startsWith("/search")) {
                 this.selectedPage = 16;
                 target = "search";
-              } else if (routePath.startsWith("/faqs")) {
-                this.selectedPage = 17;
-                target = "faqs";
+              } else if (routePath.startsWith("/faqs/")) {
+                this.selectedPage = 18;
+                target = "faq";
               }
               
               break;

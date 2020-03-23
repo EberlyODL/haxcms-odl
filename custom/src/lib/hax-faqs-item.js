@@ -103,6 +103,7 @@ class HaxFormItem extends LitElement {
         -webkit-transition: all 0.2s ease 0.15s;
         -o-transition: all 0.2s ease 0.15s;
         transition: all 0.2s ease 0.15s;
+        position: relative;
       }
 
       .content p {
@@ -118,6 +119,20 @@ class HaxFormItem extends LitElement {
         -o-transition: all 0.35s ease 0.15s;
         transition: all 0.35s ease 0.15s;
       }
+
+      #edit {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 1em;
+        border: none;
+      }
+
+      #edit-icon {
+        width: 20px;
+        height: 20px;
+      }
     `;
   }
 
@@ -131,7 +146,7 @@ class HaxFormItem extends LitElement {
   }
 
   firstUpdated() {
-    console.log('item', this.item);
+    console.log("item", this.item);
     this.shadowRoot
       .querySelector(".accordion-item a")
       .addEventListener("click", this.__toggleAccordion.bind(this));
@@ -146,30 +161,34 @@ class HaxFormItem extends LitElement {
 
   updated(changedProperties) {
     if (this.item) {
-      const contentOutlet = this.shadowRoot.querySelector('#content-outlet')
+      const contentOutlet = this.shadowRoot.querySelector("#content-outlet");
       contentOutlet.innerHTML = this.item.content;
       // update path
-      const manifestItem = store.routerManifest.items.find(i => i.id === this.item.id);
+      const manifestItem = store.routerManifest.items.find(
+        i => i.id === this.item.id
+      );
       this.path = manifestItem.location;
     }
   }
 
   render() {
     return html`
-      ${this.item ? html`
-        <div class="accordion-item">
-          <a id="toggle">
-            ${this.item.title}
-            <span class="icon">${this.__renderIcon()}</span>
-          </a>
-          <div class="content">
-            <div id="content-outlet"></div>
-            <div id="edit">
-              ${this.__renderEditIcon()}
+      ${this.item
+        ? html`
+            <div class="accordion-item">
+              <a id="toggle">
+                ${this.item.title}
+                <span class="icon">${this.__renderIcon()}</span>
+              </a>
+              <div class="content">
+                <div id="content-outlet"></div>
+                <div id="edit">
+                  ${this.__renderEditIcon()}
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      ` : html``}
+          `
+        : html``}
     `;
   }
 
@@ -209,15 +228,38 @@ class HaxFormItem extends LitElement {
 
   __renderEditIcon() {
     if (this.isLoggedIn) {
-      return html`<a href="${this.path}" id="edit">edit</a>`;
-    }
-    else {
+      return html`
+        <a href="${this.path}" id="edit"
+          ><svg
+            id="edit-icon"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 383.947 383.947"
+            style="enable-background:new 0 0 383.947 383.947;"
+            xml:space="preserve"
+          >
+            <g>
+              <polygon
+                points="0,303.947 0,383.947 80,383.947 316.053,147.893 236.053,67.893 			"
+              />
+              <path
+                d="M377.707,56.053L327.893,6.24c-8.32-8.32-21.867-8.32-30.187,0l-39.04,39.04l80,80l39.04-39.04
+         C386.027,77.92,386.027,64.373,377.707,56.053z"
+              />
+            </g>
+          </svg>
+        </a>
+      `;
+    } else {
       return html``;
     }
   }
 
   __toggleAccordion(e) {
-    this.active = !this.active
+    this.active = !this.active;
     e.target.classList.toggle("active");
     e.target.nextElementSibling.classList.toggle("active");
   }

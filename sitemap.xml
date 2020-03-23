@@ -1,893 +1,923 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- generator-class="Icamys\SitemapGenerator\SitemapGenerator" -->
 <!-- generator-version="1.1.0" -->
-<!-- generated-on="2020-03-19T19:56:48+00:00" -->
+<!-- generated-on="2020-03-23T14:16:34+00:00" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>/courses/astro001</loc>
-    <lastmod>2020-03-19T19:56:35+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:20+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/spotlight/louis</loc>
-    <lastmod>2020-03-19T19:56:47+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/resources/contingency</loc>
-    <lastmod>2020-03-19T19:56:31+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/resources/contingency/academic-integrity-and-assessments</loc>
-    <lastmod>2020-03-19T19:56:32+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>/resources/toolkits/examity</loc>
-    <lastmod>2020-03-19T19:56:34+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:18+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/team-directory/melissa</loc>
-    <lastmod>2020-03-19T19:56:15+00:00</lastmod>
+    <lastmod>2020-03-20T17:19:57+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/blog-posts/2-10-20</loc>
-    <lastmod>2020-03-19T19:56:17+00:00</lastmod>
+    <lastmod>2020-03-20T17:19:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/astro001</loc>
-    <lastmod>2020-03-19T19:56:19+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/home</loc>
-    <lastmod>2020-03-19T19:56:14+00:00</lastmod>
+    <lastmod>2020-03-20T17:19:56+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>/resources/toolkits/h5p</loc>
-    <lastmod>2020-03-19T19:56:34+00:00</lastmod>
+    <loc>/spotlight/louis</loc>
+    <lastmod>2020-03-20T17:20:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/faqs/question-1</loc>
+    <lastmod>2020-03-20T17:20:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency</loc>
+    <lastmod>2020-03-20T17:20:15+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/academic-integrity-and-assessments</loc>
+    <lastmod>2020-03-20T17:20:16+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/team-directory/carly</loc>
-    <lastmod>2020-03-19T19:56:15+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/resources/obs</loc>
-    <lastmod>2020-03-19T19:56:34+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/syllabi/astro011</loc>
-    <lastmod>2020-03-19T19:56:20+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/courses/astro011</loc>
-    <lastmod>2020-03-19T19:56:35+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/blog-posts/3-5-20</loc>
-    <lastmod>2020-03-19T19:56:17+00:00</lastmod>
+    <lastmod>2020-03-20T17:19:57+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/about</loc>
-    <lastmod>2020-03-19T19:56:15+00:00</lastmod>
+    <lastmod>2020-03-20T17:19:56+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>/faqs/question-2</loc>
+    <lastmod>2020-03-20T17:20:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>/resources/contingency/accessibility</loc>
-    <lastmod>2020-03-19T19:56:32+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:16+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>/syllabi/astro120</loc>
-    <lastmod>2020-03-19T19:56:20+00:00</lastmod>
+    <loc>/resources/toolkits/h5p</loc>
+    <lastmod>2020-03-20T17:20:18+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>/blog-posts/3-5-20</loc>
+    <lastmod>2020-03-20T17:19:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/courses/astro120</loc>
-    <lastmod>2020-03-19T19:56:36+00:00</lastmod>
+    <loc>/courses/astro011</loc>
+    <lastmod>2020-03-20T17:20:20+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/blog-posts/2-6-19</loc>
-    <lastmod>2020-03-19T19:56:18+00:00</lastmod>
+    <loc>/resources/obs</loc>
+    <lastmod>2020-03-20T17:20:18+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/team</loc>
-    <lastmod>2020-03-19T19:56:15+00:00</lastmod>
+    <loc>/syllabi/astro011</loc>
+    <lastmod>2020-03-20T17:20:03+00:00</lastmod>
     <changefreq>daily</changefreq>
-    <priority>1.0</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>/team-directory/mike</loc>
-    <lastmod>2020-03-19T19:56:16+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/resources/toolkits</loc>
-    <lastmod>2020-03-19T19:56:34+00:00</lastmod>
+    <lastmod>2020-03-20T17:19:57+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/resources/contingency/canvas</loc>
-    <lastmod>2020-03-19T19:56:32+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:16+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/resources/toolkits/online-labs</loc>
-    <lastmod>2020-03-19T19:56:34+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:19+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>/blog-posts/11-19-18</loc>
-    <lastmod>2020-03-19T19:56:18+00:00</lastmod>
+    <loc>/faqs/question-3</loc>
+    <lastmod>2020-03-20T17:20:35+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/syllabi/astro130</loc>
-    <lastmod>2020-03-19T19:56:20+00:00</lastmod>
+    <loc>/syllabi/astro120</loc>
+    <lastmod>2020-03-20T17:20:03+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/resources/toolkits/zoom</loc>
-    <lastmod>2020-03-19T19:56:35+00:00</lastmod>
+    <loc>/resources/toolkits</loc>
+    <lastmod>2020-03-20T17:20:18+00:00</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>/news</loc>
-    <lastmod>2020-03-19T19:56:17+00:00</lastmod>
+    <loc>/blog-posts/2-6-19</loc>
+    <lastmod>2020-03-20T17:20:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/courses/astro120</loc>
+    <lastmod>2020-03-20T17:20:21+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/team</loc>
+    <lastmod>2020-03-20T17:19:56+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>/courses/astro130</loc>
-    <lastmod>2020-03-19T19:56:36+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:21+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/team-directory/chuck</loc>
+    <lastmod>2020-03-20T17:19:57+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/resources/contingency/educational-technologies</loc>
-    <lastmod>2020-03-19T19:56:32+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:16+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>/team-directory/chuck</loc>
-    <lastmod>2020-03-19T19:56:16+00:00</lastmod>
+    <loc>/faqs/how-should-i-record-my-zoom-sessions-</loc>
+    <lastmod>2020-03-23T14:16:34+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/blog-posts/10-22-18</loc>
-    <lastmod>2020-03-19T19:56:18+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/syllabi</loc>
-    <lastmod>2020-03-19T19:56:19+00:00</lastmod>
+    <loc>/news</loc>
+    <lastmod>2020-03-20T17:19:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>/syllabi/astro140</loc>
-    <lastmod>2020-03-19T19:56:20+00:00</lastmod>
+    <loc>/resources/toolkits/zoom</loc>
+    <lastmod>2020-03-20T17:20:19+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>/syllabi/astro130</loc>
+    <lastmod>2020-03-20T17:20:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/blog-posts/11-19-18</loc>
+    <lastmod>2020-03-20T17:20:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/astro140</loc>
-    <lastmod>2020-03-19T19:56:36+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:21+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/syllabi/astro140</loc>
+    <lastmod>2020-03-20T17:20:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/faqs/should-i-use-one-zoom-room-for-all-of-my-classes-</loc>
+    <lastmod>2020-03-20T17:21:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/resources/contingency/online-lab-toolkit</loc>
-    <lastmod>2020-03-19T19:56:32+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:16+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>/team-directory/sey</loc>
-    <lastmod>2020-03-19T19:56:16+00:00</lastmod>
+    <loc>/blog-posts/10-22-18</loc>
+    <lastmod>2020-03-20T17:20:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/team-directory/louis</loc>
-    <lastmod>2020-03-19T19:56:16+00:00</lastmod>
+    <loc>/team-directory/sey</loc>
+    <lastmod>2020-03-20T17:19:58+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/syllabi</loc>
+    <lastmod>2020-03-20T17:20:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/syllabi/bisc001</loc>
+    <lastmod>2020-03-20T17:20:04+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/blog-posts/10-9-18</loc>
+    <lastmod>2020-03-20T17:20:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/resources/contingency/science-specific-needs</loc>
-    <lastmod>2020-03-19T19:56:33+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:17+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/resources</loc>
-    <lastmod>2020-03-19T19:56:31+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>/blog-posts/10-9-18</loc>
-    <lastmod>2020-03-19T19:56:18+00:00</lastmod>
+    <loc>/team-directory/louis</loc>
+    <lastmod>2020-03-20T17:19:58+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/bisc001</loc>
-    <lastmod>2020-03-19T19:56:36+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/syllabi/bisc001</loc>
-    <lastmod>2020-03-19T19:56:21+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses</loc>
-    <lastmod>2020-03-19T19:56:35+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:19+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>/team-directory/joseph</loc>
-    <lastmod>2020-03-19T19:56:17+00:00</lastmod>
+    <lastmod>2020-03-20T17:19:58+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/bisc002</loc>
-    <lastmod>2020-03-19T19:56:21+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:04+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/bisc002</loc>
-    <lastmod>2020-03-19T19:56:36+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/blog-posts/8-14-18</loc>
-    <lastmod>2020-03-19T19:56:19+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/resources/contingency/students</loc>
-    <lastmod>2020-03-19T19:56:33+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:17+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>/syllabi/bisc003</loc>
-    <lastmod>2020-03-19T19:56:21+00:00</lastmod>
+    <loc>/blog-posts/6-29-18</loc>
+    <lastmod>2020-03-20T17:20:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/teaching-support</loc>
+    <lastmod>2020-03-20T17:20:17+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>/courses/bisc003</loc>
-    <lastmod>2020-03-19T19:56:37+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/blog-posts/6-29-18</loc>
-    <lastmod>2020-03-19T19:56:19+00:00</lastmod>
+    <loc>/syllabi/bisc003</loc>
+    <lastmod>2020-03-20T17:20:04+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/search</loc>
-    <lastmod>2020-03-19T19:56:47+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:33+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>/resources/contingency/teaching-support</loc>
-    <lastmod>2020-03-19T19:56:33+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>/contact</loc>
-    <lastmod>2020-03-19T19:56:47+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>/syllabi/bisc004</loc>
-    <lastmod>2020-03-19T19:56:21+00:00</lastmod>
+    <loc>/blog-posts/6-4-18-2</loc>
+    <lastmod>2020-03-20T17:20:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/bisc004</loc>
-    <lastmod>2020-03-19T19:56:37+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/blog-posts/6-4-18-2</loc>
-    <lastmod>2020-03-19T19:56:19+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/resources/contingency/video-conferencing</loc>
-    <lastmod>2020-03-19T19:56:33+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:17+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>/syllabi/bisc004</loc>
+    <lastmod>2020-03-20T17:20:04+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/contact</loc>
+    <lastmod>2020-03-20T17:20:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>/courses/biol11</loc>
-    <lastmod>2020-03-19T19:56:37+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:23+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/spotlight</loc>
-    <lastmod>2020-03-19T19:56:47+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:33+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>/syllabi/biol11</loc>
-    <lastmod>2020-03-19T19:56:21+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/coursemanagement</loc>
-    <lastmod>2020-03-19T19:56:48+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>/courses/biol110</loc>
-    <lastmod>2020-03-19T19:56:37+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:04+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/biol110</loc>
-    <lastmod>2020-03-19T19:56:22+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:04+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/lab</loc>
-    <lastmod>2020-03-19T19:56:48+00:00</lastmod>
+    <loc>/coursemanagement</loc>
+    <lastmod>2020-03-20T17:20:33+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>/courses/biol120n</loc>
-    <lastmod>2020-03-19T19:56:38+00:00</lastmod>
+    <loc>/courses/biol110</loc>
+    <lastmod>2020-03-20T17:20:23+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/biol120n</loc>
-    <lastmod>2020-03-19T19:56:22+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:05+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/pedagogy</loc>
-    <lastmod>2020-03-19T19:56:48+00:00</lastmod>
+    <loc>/courses/biol120n</loc>
+    <lastmod>2020-03-20T17:20:23+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/lab</loc>
+    <lastmod>2020-03-20T17:20:34+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>/courses/biol125n</loc>
-    <lastmod>2020-03-19T19:56:38+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:23+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/biol125n</loc>
-    <lastmod>2020-03-19T19:56:22+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:05+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/pedagogy</loc>
+    <lastmod>2020-03-20T17:20:34+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/courses/biol127</loc>
+    <lastmod>2020-03-20T17:20:24+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/biol127</loc>
-    <lastmod>2020-03-19T19:56:23+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/courses/biol127</loc>
-    <lastmod>2020-03-19T19:56:38+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:05+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/multimedia</loc>
-    <lastmod>2020-03-19T19:56:48+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>/courses/biol133</loc>
-    <lastmod>2020-03-19T19:56:39+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/faqs</loc>
-    <lastmod>2020-03-19T19:56:48+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:34+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>/syllabi/biol133</loc>
-    <lastmod>2020-03-19T19:56:23+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:05+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/syllabi/biol141</loc>
-    <lastmod>2020-03-19T19:56:23+00:00</lastmod>
+    <loc>/faqs</loc>
+    <lastmod>2020-03-20T17:20:34+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/courses/biol133</loc>
+    <lastmod>2020-03-20T17:20:24+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/biol141</loc>
-    <lastmod>2020-03-19T19:56:39+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:24+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/syllabi/biol141</loc>
+    <lastmod>2020-03-20T17:20:05+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/biol155</loc>
-    <lastmod>2020-03-19T19:56:23+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:06+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/biol155</loc>
-    <lastmod>2020-03-19T19:56:39+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/syllabi/biol177</loc>
-    <lastmod>2020-03-19T19:56:23+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:24+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/biol177</loc>
-    <lastmod>2020-03-19T19:56:39+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:25+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/syllabi/bmmb551</loc>
-    <lastmod>2020-03-19T19:56:24+00:00</lastmod>
+    <loc>/syllabi/biol177</loc>
+    <lastmod>2020-03-20T17:20:06+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/bmmb551</loc>
-    <lastmod>2020-03-19T19:56:40+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:25+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/syllabi/bmmb551</loc>
+    <lastmod>2020-03-20T17:20:06+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/bmmb852</loc>
-    <lastmod>2020-03-19T19:56:40+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:25+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/bmmb852</loc>
-    <lastmod>2020-03-19T19:56:24+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/courses/chem005</loc>
-    <lastmod>2020-03-19T19:56:40+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:07+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/chem005</loc>
-    <lastmod>2020-03-19T19:56:24+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:07+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/syllabi/chem101</loc>
-    <lastmod>2020-03-19T19:56:25+00:00</lastmod>
+    <loc>/courses/chem005</loc>
+    <lastmod>2020-03-20T17:20:25+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/chem101</loc>
-    <lastmod>2020-03-19T19:56:40+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/courses/chem110</loc>
-    <lastmod>2020-03-19T19:56:41+00:00</lastmod>
+    <loc>/syllabi/chem101</loc>
+    <lastmod>2020-03-20T17:20:07+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/chem110</loc>
-    <lastmod>2020-03-19T19:56:25+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:08+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/courses/chem111</loc>
-    <lastmod>2020-03-19T19:56:41+00:00</lastmod>
+    <loc>/courses/chem110</loc>
+    <lastmod>2020-03-20T17:20:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/chem111</loc>
-    <lastmod>2020-03-19T19:56:25+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:08+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/courses/chem130</loc>
-    <lastmod>2020-03-19T19:56:41+00:00</lastmod>
+    <loc>/courses/chem111</loc>
+    <lastmod>2020-03-20T17:20:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/chem130</loc>
-    <lastmod>2020-03-19T19:56:25+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:08+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/courses/chem130</loc>
+    <lastmod>2020-03-20T17:20:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/chem202</loc>
-    <lastmod>2020-03-19T19:56:41+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/chem202</loc>
-    <lastmod>2020-03-19T19:56:26+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:08+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/chem810</loc>
-    <lastmod>2020-03-19T19:56:26+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:09+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/chem810</loc>
-    <lastmod>2020-03-19T19:56:41+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/syllabi/chem811</loc>
-    <lastmod>2020-03-19T19:56:26+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/chem811</loc>
-    <lastmod>2020-03-19T19:56:42+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/syllabi/chem811</loc>
+    <lastmod>2020-03-20T17:20:09+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/chem812</loc>
-    <lastmod>2020-03-19T19:56:26+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:09+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/chem812</loc>
-    <lastmod>2020-03-19T19:56:42+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/syllabi/frnsc100</loc>
-    <lastmod>2020-03-19T19:56:26+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/frnsc100</loc>
-    <lastmod>2020-03-19T19:56:42+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:28+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/syllabi/frnsc100</loc>
+    <lastmod>2020-03-20T17:20:10+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/frnsc200</loc>
-    <lastmod>2020-03-19T19:56:27+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:10+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/frnsc200</loc>
-    <lastmod>2020-03-19T19:56:42+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:28+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/frnsc210</loc>
-    <lastmod>2020-03-19T19:56:43+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:28+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/frnsc210</loc>
-    <lastmod>2020-03-19T19:56:27+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:10+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/math004</loc>
-    <lastmod>2020-03-19T19:56:43+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:29+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/math004</loc>
-    <lastmod>2020-03-19T19:56:27+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/syllabi/math017</loc>
-    <lastmod>2020-03-19T19:56:27+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:10+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/math017</loc>
-    <lastmod>2020-03-19T19:56:43+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:29+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/syllabi/math021</loc>
-    <lastmod>2020-03-19T19:56:28+00:00</lastmod>
+    <loc>/syllabi/math017</loc>
+    <lastmod>2020-03-20T17:20:10+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/math021</loc>
-    <lastmod>2020-03-19T19:56:43+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:29+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/courses/math022</loc>
-    <lastmod>2020-03-19T19:56:43+00:00</lastmod>
+    <loc>/syllabi/math021</loc>
+    <lastmod>2020-03-20T17:20:11+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/math022</loc>
-    <lastmod>2020-03-19T19:56:28+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:11+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/syllabi/math026</loc>
-    <lastmod>2020-03-19T19:56:28+00:00</lastmod>
+    <loc>/courses/math022</loc>
+    <lastmod>2020-03-20T17:20:29+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/math026</loc>
-    <lastmod>2020-03-19T19:56:44+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:30+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/syllabi/math034</loc>
-    <lastmod>2020-03-19T19:56:28+00:00</lastmod>
+    <loc>/syllabi/math026</loc>
+    <lastmod>2020-03-20T17:20:11+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/math034</loc>
-    <lastmod>2020-03-19T19:56:44+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:30+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/syllabi/math034</loc>
+    <lastmod>2020-03-20T17:20:11+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/math036</loc>
-    <lastmod>2020-03-19T19:56:29+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:12+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/math036</loc>
-    <lastmod>2020-03-19T19:56:44+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:30+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/math110</loc>
-    <lastmod>2020-03-19T19:56:44+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:30+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/math110</loc>
-    <lastmod>2020-03-19T19:56:29+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:12+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/math140</loc>
-    <lastmod>2020-03-19T19:56:29+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:12+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/math140</loc>
-    <lastmod>2020-03-19T19:56:44+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:30+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/math141</loc>
-    <lastmod>2020-03-19T19:56:29+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/math141</loc>
-    <lastmod>2020-03-19T19:56:45+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:31+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/math220</loc>
-    <lastmod>2020-03-19T19:56:29+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/math220</loc>
-    <lastmod>2020-03-19T19:56:45+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/courses/math250</loc>
-    <lastmod>2020-03-19T19:56:45+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:31+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/math250</loc>
-    <lastmod>2020-03-19T19:56:30+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:13+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/courses/math250</loc>
+    <lastmod>2020-03-20T17:20:31+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/math436</loc>
-    <lastmod>2020-03-19T19:56:45+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:31+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/math436</loc>
-    <lastmod>2020-03-19T19:56:30+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/micrb106</loc>
-    <lastmod>2020-03-19T19:56:46+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:31+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/micrb106</loc>
-    <lastmod>2020-03-19T19:56:30+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/micrb107</loc>
-    <lastmod>2020-03-19T19:56:46+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:32+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/micrb107</loc>
-    <lastmod>2020-03-19T19:56:30+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/phys010</loc>
-    <lastmod>2020-03-19T19:56:46+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:32+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/phys010</loc>
-    <lastmod>2020-03-19T19:56:30+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/phys211</loc>
-    <lastmod>2020-03-19T19:56:46+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:32+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/phys211</loc>
-    <lastmod>2020-03-19T19:56:31+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/courses/phys212</loc>
-    <lastmod>2020-03-19T19:56:46+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:32+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/syllabi/phys212</loc>
-    <lastmod>2020-03-19T19:56:31+00:00</lastmod>
+    <lastmod>2020-03-20T17:20:15+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

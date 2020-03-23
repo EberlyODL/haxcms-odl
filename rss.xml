@@ -6,7 +6,7 @@
     <description></description>
     <copyright>Copyright (C) 2020 </copyright>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Mar 2020 19:46:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2020 17:20:36 +0000</lastBuildDate>
     <atom:link href="/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Faculty Spotlight: Louis Leblond</title>
@@ -69,6 +69,58 @@
       <pubDate>Thu, 16 Jun 2022 13:46:40 +0000</pubDate>
     </item>
     <item>
+      <title>Should I use one zoom room for all of my classes?</title>
+      <link>/faqs/should-i-use-one-zoom-room-for-all-of-my-classes-</link>
+      <description>
+          <![CDATA[ <p>If there is a concern that your class sessions will overlap, we recommend creating different meeting rooms for each class.</p>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/faqs/should-i-use-one-zoom-room-for-all-of-my-classes-</guid>
+      <pubDate>Fri, 20 Mar 2020 17:20:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>How should I record my Zoom sessions?</title>
+      <link>/faqs/how-should-i-record-my-zoom-sessions-</link>
+      <description>
+          <![CDATA[ <p><span>There are two ways to record your sessions, recording "locally" or recording in the "cloud". </span>We recommend using the "cloud" option.  This saves you the steps of uploading the file to Kaltura after you session has completed.  The "cloud" option handles saving the file and uploading it to the Kaltura service. To enable the "cloud" option in zoom.<br/></p>
+<img src="files/zoom.png"/> ]]>
+      </description>
+      <category></category>
+      <guid>/faqs/how-should-i-record-my-zoom-sessions-</guid>
+      <pubDate>Fri, 20 Mar 2020 17:00:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Question 1</title>
+      <link>/faqs/question-1</link>
+      <description>
+          <![CDATA[ <p>Question1 content</p> ]]>
+      </description>
+      <category></category>
+      <guid>/faqs/question-1</guid>
+      <pubDate>Thu, 19 Mar 2020 19:56:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Question 3</title>
+      <link>/faqs/question-3</link>
+      <description>
+          <![CDATA[ <p>Question 3 content</p> ]]>
+      </description>
+      <category></category>
+      <guid>/faqs/question-3</guid>
+      <pubDate>Thu, 19 Mar 2020 19:56:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Question 2</title>
+      <link>/faqs/question-2</link>
+      <description>
+          <![CDATA[ <p>Question 2 content</p> ]]>
+      </description>
+      <category></category>
+      <guid>/faqs/question-2</guid>
+      <pubDate>Thu, 19 Mar 2020 19:56:49 +0000</pubDate>
+    </item>
+    <item>
       <title>FAQs</title>
       <link>/faqs</link>
       <description>
@@ -77,6 +129,33 @@
       <category></category>
       <guid>/faqs</guid>
       <pubDate>Thu, 19 Mar 2020 18:50:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>2020 Horizon Report</title>
+      <link>/blog-posts/3-5-20</link>
+      <description>
+          <![CDATA[ <p>
+  The 2020 Horizon Report has just been released, taking a look at what may be
+  impacting teaching and learning in the future. This report is very important
+  in the digital world as it helps stakeholders learn, plan, and act on
+  initiatives or developments that may influence higher education. The report
+  summarizes trends that are unfolding as we speak: Social, Technological,
+  Economic, Higher Education, and Political. Additionally, it takes a look at
+  emerging technologies and practices that will have significant impact on the
+  future of postsecondary education.
+</p>
+<p>
+  The Office of Digital Learning is familiar with many of these emerging
+  technologies, including NGDLEs, AI, Analytics, and online education. We hope
+  you have a moment or two to download and look at the report. As always, we are
+  interested in your thoughts and ways you think we can have an impact on the
+  future of higher education.
+</p>
+<worksheet-download title="2020 Educause Horizon Report" link="https://library.educause.edu/-/media/files/library/2020/3/2020horizonreport.pdf"></worksheet-download> ]]>
+      </description>
+      <category>Educause,Report,Higer Education</category>
+      <guid>/blog-posts/3-5-20</guid>
+      <pubDate>Mon, 10 Feb 2020 05:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Drupal Camp NJ: Progressively Decoupled Drupal for Everyone</title>
@@ -160,67 +239,6 @@
       <pubDate>Mon, 10 Feb 2020 05:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>2020 Horizon Report</title>
-      <link>/blog-posts/3-5-20</link>
-      <description>
-          <![CDATA[ <p>
-  The 2020 Horizon Report has just been released, taking a look at what may be
-  impacting teaching and learning in the future. This report is very important
-  in the digital world as it helps stakeholders learn, plan, and act on
-  initiatives or developments that may influence higher education. The report
-  summarizes trends that are unfolding as we speak: Social, Technological,
-  Economic, Higher Education, and Political. Additionally, it takes a look at
-  emerging technologies and practices that will have significant impact on the
-  future of postsecondary education.
-</p>
-<p>
-  The Office of Digital Learning is familiar with many of these emerging
-  technologies, including NGDLEs, AI, Analytics, and online education. We hope
-  you have a moment or two to download and look at the report. As always, we are
-  interested in your thoughts and ways you think we can have an impact on the
-  future of higher education.
-</p>
-<worksheet-download title="2020 Educause Horizon Report" link="https://library.educause.edu/-/media/files/library/2020/3/2020horizonreport.pdf"></worksheet-download> ]]>
-      </description>
-      <category>Educause,Report,Higer Education</category>
-      <guid>/blog-posts/3-5-20</guid>
-      <pubDate>Mon, 10 Feb 2020 05:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Joseph Houck</title>
-      <link>/team-directory/joseph</link>
-      <description>
-          <![CDATA[ <div>
-  Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut
-  lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
-  <br />
-  <br />
-</div>
-<div>
-  Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut
-  lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
-  <br />
-  <br />
-</div>
-<div>
-  Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut
-  lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
-  <br />
-  <br />
-</div>
-<div>
-  Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut
-  lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
-  <br />
-  <br />
-</div>
- ]]>
-      </description>
-      <category></category>
-      <guid>/team-directory/joseph</guid>
-      <pubDate>Tue, 16 Apr 2019 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Louis Leblond</title>
       <link>/team-directory/louis</link>
       <description>
@@ -285,6 +303,40 @@
       </description>
       <category></category>
       <guid>/team-directory/louis</guid>
+      <pubDate>Tue, 16 Apr 2019 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Joseph Houck</title>
+      <link>/team-directory/joseph</link>
+      <description>
+          <![CDATA[ <div>
+  Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut
+  lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
+  <br />
+  <br />
+</div>
+<div>
+  Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut
+  lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
+  <br />
+  <br />
+</div>
+<div>
+  Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut
+  lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
+  <br />
+  <br />
+</div>
+<div>
+  Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut
+  lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
+  <br />
+  <br />
+</div>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/team-directory/joseph</guid>
       <pubDate>Tue, 16 Apr 2019 04:00:00 +0000</pubDate>
     </item>
     <item>
@@ -522,61 +574,63 @@
       <pubDate>Tue, 06 Nov 2018 15:22:36 +0000</pubDate>
     </item>
     <item>
-      <title>Chem 810</title>
-      <link>/syllabi/chem810</link>
+      <title>Frnsc 200</title>
+      <link>/syllabi/frnsc200</link>
       <description>
           <![CDATA[ <h2>Description</h2>
 <p>
-  CHEM 810 is the first in a sequence of liquid chromatography-mass spectrometry
-  (LC-MS) courses designed to fill an industry need to provide high-quality
-  instruction in LC theory and application. The course topics include the
-  background and history of chromatography; fundamental concepts in
-  chromatographic separations; basic instrumentation; column, particle and phase
-  chemistry; and basic method development. The course material is designed to
-  increase student understanding of both the analytical instrument used in the
-  laboratory and the principles underlying the measurements. The course
-  specifically caters to the needs of the analytical chemical industry and
-  individuals newly hired into introductory sample management/preparation and
-  quality assurance/quality control positions within companies using liquid
-  chromatographic techniques.
-</p>
-<p>
-  There is no required textbook. The bulk of the course uses algebra to solve
-  sets of equations. You should feel comfortable doing this and capable of doing
-  this in a timely manner. You will also use Microsoft Excel for a number of
-  assignments. You should feel comfortable preparing spreadsheets, preparing
-  plots, and adding trendlines. If you do not feel confident in these areas talk
-  with the instructor early in the semester so you can acquire some proficiency.
-  Don’t fall behind. Later material in this course depends strongly on earlier
-  material and procrastination can quickly lead to a difficult situation. You
-  should set aside regular times during the week for focused study.
+  This course offers an exploration of the science, management, and
+  investigative techniques for the field of crime scene investigation. Students
+  will develop the intellectual skills needed to be able to plan for and
+  organize a crime scene investigation. Each student will understand the nature
+  and value of each kind of physical evidence and how to recognize, collect and
+  preserve it. They will research all the topics in this course and provide
+  their own evidence of competency in each in the form of a professional
+  portfolio.
 </p>
 <h2>Objectives</h2>
-<p>After successfully completing this course, the student will be able to:</p>
+<p>When you successfully complete this course, you will understand:</p>
 <ul>
   <li>
-    Identify the factors (and associated equations) which influence the
-    efficiency and resolution of a chromatographic separation and be able to
-    quantify these contributions.
+    Techniques used to preserve the crime scene record (notes, sketches, and
+    digital SLR photography).
   </li>
   <li>
-    Identify which factors influence column performance.
+    Techniques used to recognize, enhance, document, collect, handle, and
+    package physical evidence. Comprehension of importance of chain of custody
+    and evidence integrity.
   </li>
   <li>
-    Identify the chemical interactions (intermolecular forces) which give rise
-    to analyte separation and use this knowledge to develop isocratic or
-    gradient-based elution methods.
+    Common field tests for the presumptive identification and enhancement of
+    different types of physical evidence.
   </li>
   <li>
-    Evaluate the instrumental contributions (extra-column) to the resolution and
-    efficiency of chromatographic separations.
+    Incident/crime reconstruction including the analysis of blood traces and
+    projectile trajectory analysis.
   </li>
   <li>
-    Identify and describe the function of each component of an HPLC system.
+    Proper preparation and maintenance of case folders.
   </li>
   <li>
-    Design an SPE sample pretreatment method appropriate for the analyte(s) of
-    interest.
+    Techniques to communicate results including verbal and written
+    communication.
+  </li>
+  <li>
+    Scene management techniques including allocation of personnel, resources,
+    and time.
+  </li>
+  <li>
+    Importance of science and scientific, objective, critical thought processes
+    in scene investigations.
+  </li>
+  <li>
+    Role and impact of the criminalist in incident scene investigations.
+  </li>
+  <li>
+    Codes of professional conduct and ethics for forensic science professional
+    organizations; comprehension of necessity of ethics in forensic science and
+    potential ethical problems in forensic science including issues of
+    professional practice, technical competence, and bias.
   </li>
 </ul>
 <h2>Course Schedule</h2>
@@ -585,218 +639,146 @@
   <th>Topic(s)</th>
   <tr>
     <td>1</td>
-    <td>Background & History of Chromatography</td>
+    <td>Introduction to the Course; CSI; Forensics; Ethics</td>
   </tr>
   <tr>
     <td>2</td>
-    <td>Basics & Terminology</td>
+    <td>Scene Management; CSI Team Structure; Evidence Collection</td>
   </tr>
   <tr>
     <td>3</td>
-    <td>Introduction to Instrumentation</td>
+    <td>Documentation: Motes, Sketches, Scene Entry Logs, Other Forms</td>
   </tr>
   <tr>
     <td>4</td>
-    <td>Column Basics</td>
+    <td>Photography I (general photography)</td>
   </tr>
   <tr>
     <td>5</td>
-    <td>Silica Particles</td>
+    <td>Photography II (CSI photography; photographing people)</td>
   </tr>
   <tr>
     <td>6</td>
-    <td>Bonding and Packing</td>
+    <td>Fingerprints</td>
   </tr>
   <tr>
     <td>7</td>
-    <td>Intermolecular Forces</td>
+    <td>Pattern Evidence</td>
   </tr>
   <tr>
     <td>8</td>
-    <td>Stationary Phase Chemistry</td>
+    <td>Trace Evidence</td>
   </tr>
   <tr>
     <td>9</td>
-    <td>Mobile Phase Chemistry</td>
+    <td>Biological Evidence; Sexual Assault</td>
   </tr>
   <tr>
     <td>10</td>
-    <td>Basic Method Development</td>
+    <td>Firearms</td>
   </tr>
   <tr>
     <td>11</td>
-    <td>Sample Preparation</td>
+    <td>Fires; Explosions; Mass Fatalities</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Digital Evidence; Questioned Documents</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Autopsy; Entomology; Drugs</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Analysis of Blood Traces</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Aspects of Shooting Incident Investigation I</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Aspects of Shooting Incident Investigation II</td>
   </tr>
 </table>
 
-<h2>Discussions</h2>
-<p>
-  The first activity is to engage in a class discussion related to that week’s
-  assigned problems – questions concerning clarification, problem-solving
-  strategies, and placing the questions into a broader context (when/how/why
-  might such a problem be useful in the practical application of LC). You must
-  post an initial response to any one or all assigned problems by 11:59 PM
-  Wednesday of each week. You will then respond to at least two of your
-  colleagues during the week. You must post your initial response before you are
-  able to respond to others. Even though it is due on Wednesday at the latest,
-  the earlier you can post your initial response during the week offers everyone
-  a greater opportunity to respond to others. As with any academic work,
-  procrastination makes the process more difficult in the long run. Responses to
-  your peers, along with your answers to the assigned problems, are due no later
-  than 11:59 PM Sunday each week.
-</p>
 <h2>Grading</h2>
-<p>
-  The course website provides numerous example problems with detailed
-  instructor-guided solutions and practice problems for which answer keys are
-  provided once an initial answer attempt is submitted. No grade is assigned to
-  the instructor-guided example problems or the practice problems.
-</p>
-<p>
-  Each week, a set of 5-10 proficiency- and mastery-level questions associated
-  with each module will be assigned. Students are encouraged to discuss the
-  questions with each other and the instructor (see Course Schedule above) prior
-  to submitting their answers. Answer keys are not provided.
-</p>
-<p>
-  There are a total of 4 exams, one at the end of each module. Each exam is
-  comprehensive in scope. A minimum score of 70% is required on an end-of-module
-  exam before a student is eligible to access the subsequent module (e.g.., a
-  score of 70% is required on Exam 1 – the exam at the end of Module 1 – before
-  a student is permitted access to the material in Module 2).
-</p>
-<p>
-  In fairness to the instructor who must grade the required course work, and to
-  the other students, late work will not be accepted. Think about this. A
-  substantial number of late or missing work will affect your grade. Stay caught
-  up.
-</p>
 <table>
   <th>Assignment</th>
-  <th>% of Course Points</th>
+  <th>Assignment Weight</th>
+  <th>Final Weight</th>
   <tr>
-    <td>Discussion Participation</td>
-    <td>200</td>
+    <td>Exercises (6)</td>
+    <td>3.75%</td>
+    <td>22.50%</td>
   </tr>
   <tr>
-    <td>Problem Assignments</td>
-    <td>400</td>
+    <td>Final Mock Scene Exercise</td>
+    <td>9.50%</td>
+    <td>9.50%</td>
   </tr>
   <tr>
-    <td>Lecture Exams</td>
-    <td>400</td>
+    <td>Quiz (6)</td>
+    <td>5%</td>
+    <td>30%</td>
   </tr>
   <tr>
-    <td>Total</td>
-    <td>1000</td>
+    <td>Midterm Exam</td>
+    <td>12%</td>
+    <td>24%</td>
+  </tr>
+  <tr>
+    <td>Final Exam</td>
+    <td>14%</td>
+    <td>14%</td>
   </tr>
 </table>
-
 <h2>Grade Scale</h2>
 <table>
   <th>Letter Grade</th>
-  <th>Points Earned</th>
+  <th>% of Course Grade</th>
   <tr>
     <td>A</td>
-    <td>930-1000</td>
+    <td>93-100%</td>
   </tr>
   <tr>
     <td>A-</td>
-    <td>900-929</td>
+    <td>90-93%</td>
   </tr>
   <tr>
     <td>B+</td>
-    <td>870-899</td>
+    <td>83-87%</td>
   </tr>
   <tr>
     <td>B</td>
-    <td>820-869</td>
+    <td>83-87%</td>
   </tr>
   <tr>
     <td>B-</td>
-    <td>780-819</td>
+    <td>80-83%</td>
   </tr>
   <tr>
     <td>C+</td>
-    <td>750-779</td>
+    <td>77-80%</td>
   </tr>
   <tr>
     <td>C</td>
-    <td>700-749</td>
+    <td>70-77%</td>
   </tr>
   <tr>
     <td>D</td>
-    <td>600-699</td>
+    <td>60-70%</td>
   </tr>
   <tr>
     <td>F</td>
-    <td> < 600</td>
+    <td>< 60%</td>
   </tr>
 </table>
  ]]>
       </description>
       <category></category>
-      <guid>/syllabi/chem810</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chem 810</title>
-      <link>/courses/chem810</link>
-      <description>
-          <![CDATA[  ]]>
-      </description>
-      <category></category>
-      <guid>/courses/chem810</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chem 811</title>
-      <link>/syllabi/chem811</link>
-      <description>
-          <![CDATA[ <p>CHEM 811 Syllabus Coming Soon!</p> ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/chem811</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chem 811</title>
-      <link>/courses/chem811</link>
-      <description>
-          <![CDATA[ <p></p> ]]>
-      </description>
-      <category></category>
-      <guid>/courses/chem811</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Frnsc 100</title>
-      <link>/courses/frnsc100</link>
-      <description>
-          <![CDATA[ <p></p> ]]>
-      </description>
-      <category></category>
-      <guid>/courses/frnsc100</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chem 812</title>
-      <link>/syllabi/chem812</link>
-      <description>
-          <![CDATA[ <p>CHEM 812 Syllabus Coming Soon!</p> ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/chem812</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chem 812</title>
-      <link>/courses/chem812</link>
-      <description>
-          <![CDATA[ <p></p> ]]>
-      </description>
-      <category></category>
-      <guid>/courses/chem812</guid>
+      <guid>/syllabi/frnsc200</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
@@ -1304,211 +1286,13 @@
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
-      <title>Frnsc 200</title>
-      <link>/syllabi/frnsc200</link>
+      <title>Frnsc 100</title>
+      <link>/courses/frnsc100</link>
       <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  This course offers an exploration of the science, management, and
-  investigative techniques for the field of crime scene investigation. Students
-  will develop the intellectual skills needed to be able to plan for and
-  organize a crime scene investigation. Each student will understand the nature
-  and value of each kind of physical evidence and how to recognize, collect and
-  preserve it. They will research all the topics in this course and provide
-  their own evidence of competency in each in the form of a professional
-  portfolio.
-</p>
-<h2>Objectives</h2>
-<p>When you successfully complete this course, you will understand:</p>
-<ul>
-  <li>
-    Techniques used to preserve the crime scene record (notes, sketches, and
-    digital SLR photography).
-  </li>
-  <li>
-    Techniques used to recognize, enhance, document, collect, handle, and
-    package physical evidence. Comprehension of importance of chain of custody
-    and evidence integrity.
-  </li>
-  <li>
-    Common field tests for the presumptive identification and enhancement of
-    different types of physical evidence.
-  </li>
-  <li>
-    Incident/crime reconstruction including the analysis of blood traces and
-    projectile trajectory analysis.
-  </li>
-  <li>
-    Proper preparation and maintenance of case folders.
-  </li>
-  <li>
-    Techniques to communicate results including verbal and written
-    communication.
-  </li>
-  <li>
-    Scene management techniques including allocation of personnel, resources,
-    and time.
-  </li>
-  <li>
-    Importance of science and scientific, objective, critical thought processes
-    in scene investigations.
-  </li>
-  <li>
-    Role and impact of the criminalist in incident scene investigations.
-  </li>
-  <li>
-    Codes of professional conduct and ethics for forensic science professional
-    organizations; comprehension of necessity of ethics in forensic science and
-    potential ethical problems in forensic science including issues of
-    professional practice, technical competence, and bias.
-  </li>
-</ul>
-<h2>Course Schedule</h2>
-<table>
-  <th>Week</th>
-  <th>Topic(s)</th>
-  <tr>
-    <td>1</td>
-    <td>Introduction to the Course; CSI; Forensics; Ethics</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Scene Management; CSI Team Structure; Evidence Collection</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Documentation: Motes, Sketches, Scene Entry Logs, Other Forms</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Photography I (general photography)</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Photography II (CSI photography; photographing people)</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>Fingerprints</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>Pattern Evidence</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>Trace Evidence</td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>Biological Evidence; Sexual Assault</td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>Firearms</td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>Fires; Explosions; Mass Fatalities</td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>Digital Evidence; Questioned Documents</td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>Autopsy; Entomology; Drugs</td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>Analysis of Blood Traces</td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>Aspects of Shooting Incident Investigation I</td>
-  </tr>
-  <tr>
-    <td>16</td>
-    <td>Aspects of Shooting Incident Investigation II</td>
-  </tr>
-</table>
-
-<h2>Grading</h2>
-<table>
-  <th>Assignment</th>
-  <th>Assignment Weight</th>
-  <th>Final Weight</th>
-  <tr>
-    <td>Exercises (6)</td>
-    <td>3.75%</td>
-    <td>22.50%</td>
-  </tr>
-  <tr>
-    <td>Final Mock Scene Exercise</td>
-    <td>9.50%</td>
-    <td>9.50%</td>
-  </tr>
-  <tr>
-    <td>Quiz (6)</td>
-    <td>5%</td>
-    <td>30%</td>
-  </tr>
-  <tr>
-    <td>Midterm Exam</td>
-    <td>12%</td>
-    <td>24%</td>
-  </tr>
-  <tr>
-    <td>Final Exam</td>
-    <td>14%</td>
-    <td>14%</td>
-  </tr>
-</table>
-<h2>Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% of Course Grade</th>
-  <tr>
-    <td>A</td>
-    <td>93-100%</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>90-93%</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>83-87%</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>83-87%</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>80-83%</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>77-80%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-77%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-70%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 60%</td>
-  </tr>
-</table>
- ]]>
+          <![CDATA[ <p></p> ]]>
       </description>
       <category></category>
-      <guid>/syllabi/frnsc200</guid>
+      <guid>/courses/frnsc100</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
@@ -1519,6 +1303,26 @@
       </description>
       <category></category>
       <guid>/courses/frnsc200</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chem 812</title>
+      <link>/courses/chem812</link>
+      <description>
+          <![CDATA[ <p></p> ]]>
+      </description>
+      <category></category>
+      <guid>/courses/chem812</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chem 812</title>
+      <link>/syllabi/chem812</link>
+      <description>
+          <![CDATA[ <p>CHEM 812 Syllabus Coming Soon!</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/chem812</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
@@ -1775,289 +1579,6 @@
       </description>
       <category></category>
       <guid>/syllabi/frnsc210</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chem 202</title>
-      <link>/syllabi/chem202</link>
-      <description>
-          <![CDATA[ <h2>Description</h2>
-<p>
-  CHEM 202 is a one-semester, comprehensive course that introduces the students
-  to the fundamental principles of organic chemistry including relationships
-  between the molecular structure of organic compounds and their macroscopic
-  properties. Some of the principles are illustrated with a variety of examples
-  from nature and everyday life. The course covers the following topics:
-  alkanes; alkenes, including polymers; alkynes; benzene and aromaticity;
-  alcohols and phenols; ethers; aldehydes; ketones; carboxylic acids and their
-  acyl derivatives; amines; alkyl halides; nomenclature; stereochemistry,
-  including conformational analysis and chirality. Chemical reactions of the
-  functional groups will be discussed along with the mechanistic details,
-  including stereospecificity, of some of these processes. Biological molecules
-  such as carbohydrates, lipids, steroids, peptides/proteins and nucleic acids,
-  along with their importance in living systems, will be surveyed.
-</p>
-<p>
-  To achieve these goals, we will study the structure and function of organic
-  molecules with emphasis on their physical properties and chemical
-  reactivities. An understanding of the structure and function of various
-  functional groups is essential to master the content of this course.
-</p>
-<h2>Objectives</h2>
-<p>When you successfully complete this course, you will be able to:</p>
-<ul>
-  <li>
-    Draw chemical structures for any given chemical formula and be able to name
-    the molecules based on IUPAC nomenclature rules.
-  </li>
-  <li>
-    Identify and draw constitutional and conformational structural isomers for a
-    given formula or structure, including stereoisomers and geometric isomers
-    and understand the relationship between them.
-  </li>
-  <li>
-    Describe bonding- ionic, covalent, hydrogen bonding and van der Waals
-    bonding and understand the concept of hybridization leading to single and
-    multiple covalent bonding.
-  </li>
-  <li>
-    Differentiate between bonding, non-bonded interactions and inductive effects
-    in the determination of physical properties such as bond polarity, boiling
-    points and solubility.
-  </li>
-  <li>
-    Name all classes of molecules. Nomenclature of alkanes, alkenes, alkyl
-    halides, aromatic compounds, alcohols, ethers, aldehydes, ketones,
-    carboxylic acids and derivatives of carboxylic acids is important.
-  </li>
-  <li>
-    Write chemical reactions and know chemical reagents, reactants and products
-    for reactions of alkanes, alkyl halides, alcohols, ethers, aromatic
-    compounds, aldehydes, ketones, amines, carboxylic acids and derivatives.
-  </li>
-  <li>
-    Write stepwise reaction mechanisms for nucleophilic substitution reactions
-    (SN1 and SN2), elimination reactions (E1 and E2), electrophilic aromatic
-    substitutions, nlectrophilic acyl substitution reactions and addition
-    reactions, including polymerizations.
-  </li>
-  <li>
-    Identify enantiomers and diastereomers (meso), optically activity, racemes;
-    E/Z geometrical isomers for unsaturated compounds.
-  </li>
-</ul>
-<h2>Materials</h2>
-<ul>
-  <li>
-    Fundamentals of Organic Chemistry, by John McMurry, and Eric Simanek. 7th
-    edition. Thomson Brooks/Cole. Date published 2011. ISBN-13: 9781439049716.
-  </li>
-  <li>
-    Fundamentals of Organic Chemistry Study Guide and Solutions Manual, by
-    McMurry, Susan. 7th edition. Illustrated. Some students find this
-    useful.Thomson Brooks/Cole. Date published: 2011. ISBN-13: 9781439049723.
-    (optional)
-  </li>
-  <li>
-    Models: A molecular model set is often useful. Recommended Set - Molecular
-    Model Set A for Organic Chemistry [Allyn & Bacon (Prenctice Hall)]. ISBN:
-    9780205081363. (optional)
-  </li>
-</ul>
-<h2>Course Schedule</h2>
-<table>
-  <th>Week</th>
-  <th>Topic(s)</th>
-  <tr>
-    <td>1</td>
-    <td>Structure and Bonding</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Functional Groups and Conformations</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Alkene Structure, Isomerism & Reactions</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Additions to Alkenes, Reaction Mechanism</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Aromatic Compounds, Aromaticity, Reactions & Mechanisms</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>
-      Stereochemistry, Chirality-enatiomers, Diastereomers, and Meso compounds
-    </td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>
-      Alkyl Halides
-    </td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>
-      Midterm Exam
-    </td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>
-      Alcohols, Phenols, Ethers
-    </td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>
-      Aldehydes and Ketones
-    </td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>
-      Carboxylic Acid and Derivatives
-    </td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>
-      Amines
-    </td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>
-      Carbohydrate Structure and Function
-    </td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>
-      Amino acids, Peptides, Proteins. Lipids and Nucleic acids
-    </td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>
-      Final Exam
-    </td>
-  </tr>
-</table>
-
-<h2>Lesson Structure</h2>
-<p>
-  Each Lesson contains narrated introductory slides (the PowerPoint slides have
-  an audio component), a quiz, and slides from Office Hours.
-</p>
-<h2>
-  Non-proctored, Non-timed Quiz Assignments (220 points)
-</h2>
-<p>(13 x 20 points each / Drop the two lowest / 60 minutes per attempt)</p>
-<p>
-  Each lesson will conclude with a quiz which is based on the learning goals
-  listed at the end of the Narrated Introductory Slides. If you know how to
-  solve the homework problems, you will be able to solve a set of the homework
-  problems assigned as a quiz. The best 11 quiz grades will be count. Quiz
-  assignments will not be proctored and have to be completed by the due date and
-  time. It will be open for one week. A Blackboard Collaborate session will be
-  held weekly to discuss the solutions to the quiz questions.
-</p>
-<h2>Proctored, Timed Midterm Exam (150 points)</h2>
-<p>
-  On materials learned in Lesson 1 - 7
-</p>
-<p>
-  Students will complete an online, multiple-choice exam consisting of questions
-  that will be similar in scope to those given in the quiz assignments. Students
-  are NOT allowed to refer to the lessons, the textbook, or their notes to
-  complete the exam. Students are not allowed to consult with another person
-  while working on the exam. Canvas allows a limited amount of time to complete
-  the exam and students are requested to complete the exam within the time
-  allotted.
-</p>
-<h2>Proctored, Timed, Comprehensive, Final Exam (200 points)</h2>
-<p>
-  Students will complete an online, multiple-choice exam consisting of questions
-  that will be similar in scope to those given in the homework assignments. This
-  exam will be proctored, and students are not allowed to refer to the lessons,
-  the textbook, or their notes to complete the exam. Students are not allowed to
-  consult with another person while working on the exam. Canvas allows a limited
-  amount of time to complete the exam and students are requested to complete the
-  exam within the time allotted.
-</p>
-<h2>Grading</h2>
-<table>
-  <th>Assignment</th>
-  <th>Course Points</th>
-  <tr>
-    <td>Midterm</td>
-    <td>150</td>
-  </tr>
-  <tr>
-    <td>Quizzes (13 at 20 points each, lowest 2 scores dropped)</td>
-    <td>220</td>
-  </tr>
-  <tr>
-    <td>Final Exam</td>
-    <td>200</td>
-  </tr>
-  <tr>
-    <td>Total</td>
-    <td>570</td>
-  </tr>
-</table>
-
-<h2>Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% of Course Points</th>
-  <tr>
-    <td>A</td>
-    <td>92-100%</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>90-91%</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>88-89%</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>82-87%</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>80-81%</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>78-79%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-77%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-69%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td> < 60%</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/chem202</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
   </channel>
