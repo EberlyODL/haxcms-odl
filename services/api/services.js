@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const _ = require("lodash");
 // the location of the haxcms site in this container
 const HAXCMS_PATH = process.env.HAXCMS_PATH || "/haxcms"
 // unique id of the parent of the faqs in site.json
@@ -13,7 +14,22 @@ const faqs = (tags = null) => {
       const siteJSON = JSON.parse(fs.readFileSync(path.join(HAXCMS_PATH, "site.json"), 'utf8'));
       // make sure we have items
       if (siteJSON.items) {
-        const _faqs = siteJSON.items.filter(i => i.parent === FAQS_PARENT_ID);
+        let _faqs = siteJSON.items.filter(i => i.parent === FAQS_PARENT_ID);
+        // filter tags
+        if (tags) {
+          _faqs = _faqs.filter(i => {
+            if (_.has(i, 'metadata.fields.tags')) {
+              const itemTagsArray = i.metadata.fields.tags;
+              const diff = _.difference(itemTagsArray, tags);
+              // find out if there were any matches by asking
+              // if the diff array is less than the itemtags array.
+              return diff.length < itemTagsArray.length;
+            }
+            else {
+              return false;
+            }
+          })
+        }
         faqs = _faqs;
       }
     }

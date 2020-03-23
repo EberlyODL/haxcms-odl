@@ -6,7 +6,9 @@ import "./hax-faqs-item.js"
 class HaxForm extends LitElement {
   static get properties() {
     return {
+      tags: { type: String },
       results: { type: Array },
+      search: { type: Boolean },
       isLoggedIn: { type: Boolean }
     };
   }
@@ -125,7 +127,8 @@ class HaxForm extends LitElement {
     this.__disposer = [];
     this.results = [];
     this.isLoggedIn = false;
-    this.__getFaqs();
+    this.tags = '';
+    this.search = false;
     autorun(reaction => {
       this.isLoggedIn = store.isLoggedIn;
       this.__disposer.push(reaction);
@@ -138,11 +141,17 @@ class HaxForm extends LitElement {
     super.disconnectedCallback();
   }
 
+  firstUpdated() {
+    this.__getFaqs();
+  }
+
   render() {
     return html`
-      <div id="search-container">
-        <input id="search" @input=${this.__inputChanged} />
-      </div>
+      ${this.search ? html`
+        <div id="search-container">
+          <input id="search" @input=${this.__inputChanged} />
+        </div>
+      ` : html``}
       <div id="results-container">
         ${this.results
           ? html`
@@ -161,7 +170,8 @@ class HaxForm extends LitElement {
   }
 
   __getFaqs() {
-    fetch('/service/api/faqs')
+    const tags = this.tags ? `?tags=${this.tags}` : ''
+    fetch(`/service/api/faqs${tags}`)
       .then(res => res.json())
       .then(res => this.results = res);
   }

@@ -6942,6 +6942,447 @@ class ResourcesSidemenu extends LitElement {
 }
 window.customElements.define(ResourcesSidemenu.tag, ResourcesSidemenu);
 
+class HaxFormItem extends LitElement {
+  static get properties() {
+    return {
+      item: { type: Object },
+      active: { type: Boolean },
+      isLoggedIn: { type: Boolean },
+      path: { type: String }
+    };
+  }
+
+  static get styles() {
+    return css`
+      :host {
+        display: block;
+      }
+
+      input {
+        margin: auto;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        color: #2c3e50;
+        font-size: 13px;
+      }
+
+      .container {
+        margin: 0 auto;
+        padding: 4rem;
+        width: 48rem;
+      }
+
+      h3 {
+        font-size: 1.75rem;
+        color: var(--odl-haxtheme-accent-color-2);
+        padding: 1.3rem;
+        margin: 0;
+      }
+
+      a {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: auto;
+        padding: 1rem 3rem 1rem 1rem;
+        color: var(--odl-haxtheme-accent-color-1);
+        font-size: 1.15rem;
+        font-weight: 400;
+        border-bottom: 1px solid #ccc;
+      }
+
+      a:hover,
+      a:hover::after {
+        cursor: pointer;
+        color: var(--odl-haxtheme-accent-color-2);
+      }
+
+      a:hover::after {
+        border: 1px solid var(--odl-haxtheme-accent-color-2);
+      }
+
+      a.active {
+        color: var(--odl-haxtheme-accent-color-2);
+        border-bottom: 1px solid var(--odl-haxtheme-accent-color-2);
+      }
+
+      .icon {
+        position: absolute;
+        float: right;
+        right: 1rem;
+      }
+
+      .icon svg {
+        fill: var(--odl-haxtheme-accent-color-1);
+        width: 30px;
+        height: 30px;
+      }
+
+      .active .icon svg {
+        fill: var(--odl-haxtheme-accent-color-2);
+      }
+
+      .content {
+        opacity: 0;
+        padding: 0 1rem;
+        max-height: 0;
+        border-bottom: 1px solid #ccc;
+        overflow: hidden;
+        clear: both;
+        -webkit-transition: all 0.2s ease 0.15s;
+        -o-transition: all 0.2s ease 0.15s;
+        transition: all 0.2s ease 0.15s;
+        position: relative;
+      }
+
+      .content p {
+        font-size: 1rem;
+        font-weight: 300;
+      }
+
+      .content.active {
+        opacity: 1;
+        padding: 1rem;
+        max-height: 100%;
+        -webkit-transition: all 0.35s ease 0.15s;
+        -o-transition: all 0.35s ease 0.15s;
+        transition: all 0.35s ease 0.15s;
+      }
+
+      #edit {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 1em;
+        border: none;
+      }
+
+      #edit-icon {
+        width: 20px;
+        height: 20px;
+      }
+    `;
+  }
+
+  constructor() {
+    super();
+    this.__disposer = [];
+    this.active = false;
+    this.isLoggedIn = false;
+    this.path = null;
+    this.item = {};
+  }
+
+  firstUpdated() {
+    console.log("item", this.item);
+    this.shadowRoot
+      .querySelector(".accordion-item a")
+      .addEventListener("click", this.__toggleAccordion.bind(this));
+  }
+
+  disconnectedCallback() {
+    this.shadowRoot
+      .querySelector(".accordion-item a")
+      .removeEventListener("click", this.__toggleAccordion.bind(this));
+    super.disconnectedCallback();
+  }
+
+  updated(changedProperties) {
+    if (this.item) {
+      const contentOutlet = this.shadowRoot.querySelector("#content-outlet");
+      contentOutlet.innerHTML = this.item.content;
+      // update path
+      const manifestItem = store.routerManifest.items.find(
+        i => i.id === this.item.id
+      );
+      this.path = manifestItem.location;
+    }
+  }
+
+  render() {
+    return html$1`
+      ${this.item
+        ? html$1`
+            <div class="accordion-item">
+              <a id="toggle">
+                ${this.item.title}
+                <span class="icon">${this.__renderIcon()}</span>
+              </a>
+              <div class="content">
+                <div id="content-outlet"></div>
+                <div id="edit">
+                  ${this.__renderEditIcon()}
+                </div>
+              </div>
+            </div>
+          `
+        : html$1``}
+    `;
+  }
+
+  __renderIcon() {
+    if (this.active) {
+      return html$1`
+        <svg
+          enable-background="new 0 0 551.13 551.13"
+          height="512"
+          viewBox="0 0 551.13 551.13"
+          width="512"
+        >
+          <path
+            d="m275.565 0c-151.944 0-275.565 123.621-275.565 275.565s123.621 275.565 275.565 275.565 275.565-123.621 275.565-275.565-123.621-275.565-275.565-275.565zm0 516.685c-132.955 0-241.119-108.164-241.119-241.119s108.164-241.12 241.119-241.12 241.12 108.164 241.12 241.119-108.165 241.12-241.12 241.12z"
+          />
+          <path d="m137.783 258.342h275.565v34.446h-275.565z" />
+        </svg>
+      `;
+    } else {
+      return html$1`
+        <svg
+          enable-background="new 0 0 551.13 551.13"
+          height="512"
+          viewBox="0 0 551.13 551.13"
+          width="512"
+        >
+          <path
+            d="m275.565 0c-151.944 0-275.565 123.621-275.565 275.565s123.621 275.565 275.565 275.565 275.565-123.621 275.565-275.565-123.621-275.565-275.565-275.565zm0 516.685c-132.955 0-241.119-108.164-241.119-241.119s108.164-241.12 241.119-241.12 241.12 108.164 241.12 241.119-108.165 241.12-241.12 241.12z"
+          />
+          <path
+            d="m292.788 137.783h-34.446v120.56h-120.56v34.446h120.56v120.56h34.446v-120.56h120.56v-34.446h-120.56z"
+          />
+        </svg>
+      `;
+    }
+  }
+
+  __renderEditIcon() {
+    if (this.isLoggedIn) {
+      return html$1`
+        <a href="${this.path}" id="edit"
+          ><svg
+            id="edit-icon"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 383.947 383.947"
+            style="enable-background:new 0 0 383.947 383.947;"
+            xml:space="preserve"
+          >
+            <g>
+              <polygon
+                points="0,303.947 0,383.947 80,383.947 316.053,147.893 236.053,67.893 			"
+              />
+              <path
+                d="M377.707,56.053L327.893,6.24c-8.32-8.32-21.867-8.32-30.187,0l-39.04,39.04l80,80l39.04-39.04
+         C386.027,77.92,386.027,64.373,377.707,56.053z"
+              />
+            </g>
+          </svg>
+        </a>
+      `;
+    } else {
+      return html$1``;
+    }
+  }
+
+  __toggleAccordion(e) {
+    this.active = !this.active;
+    e.target.classList.toggle("active");
+    e.target.nextElementSibling.classList.toggle("active");
+  }
+}
+
+customElements.define("hax-faqs-item", HaxFormItem);
+
+class HaxForm extends LitElement {
+  static get properties() {
+    return {
+      tags: { type: String },
+      results: { type: Array },
+      search: { type: Boolean },
+      isLoggedIn: { type: Boolean }
+    };
+  }
+
+  static get styles() {
+    return css`
+      :host {
+        display: block;
+      }
+
+      input {
+        margin: auto;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        color: #2c3e50;
+        font-size: 13px;
+      }
+
+      .container {
+        margin: 0 auto;
+        /* padding: 4rem; */
+        width: 48rem;
+      }
+
+      h3 {
+        font-size: 1.75rem;
+        color: var(--odl-haxtheme-accent-color-2);
+        padding: 1.3rem;
+        margin: 0;
+      }
+
+      .accordion a {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem 3rem 1rem 1rem;
+        color: var(--odl-haxtheme-accent-color-1);
+        font-size: 1.15rem;
+        font-weight: 400;
+        border-bottom: 1px solid #ccc;
+      }
+
+      .accordion a:hover,
+      .accordion a:hover::after {
+        cursor: pointer;
+        color: var(--odl-haxtheme-accent-color-2);
+      }
+
+      .accordion a:hover::after {
+        border: 1px solid var(--odl-haxtheme-accent-color-2);
+      }
+
+      .accordion a.active {
+        color: var(--odl-haxtheme-accent-color-2);
+        border-bottom: 1px solid var(--odl-haxtheme-accent-color-2);
+      }
+
+      .accordion .icon {
+        position: absolute;
+        float: right;
+        right: 1rem;
+      }
+
+      .accordion .icon svg {
+        fill: var(--odl-haxtheme-accent-color-1);
+        width: 30px;
+        height: 30px;
+      }
+
+      .accordion .active .icon svg {
+        fill: var(--odl-haxtheme-accent-color-2);
+      }
+
+      .accordion .content {
+        opacity: 0;
+        padding: 0 1rem;
+        max-height: 0;
+        border-bottom: 1px solid #ccc;
+        overflow: hidden;
+        clear: both;
+        -webkit-transition: all 0.2s ease 0.15s;
+        -o-transition: all 0.2s ease 0.15s;
+        transition: all 0.2s ease 0.15s;
+      }
+
+      .accordion .content p {
+        font-size: 1rem;
+        font-weight: 300;
+      }
+
+      .accordion .content.active {
+        opacity: 1;
+        padding: 1rem;
+        max-height: 100%;
+        -webkit-transition: all 0.35s ease 0.15s;
+        -o-transition: all 0.35s ease 0.15s;
+        transition: all 0.35s ease 0.15s;
+      }
+    `;
+  }
+
+  constructor() {
+    super();
+    this.__disposer = [];
+    this.results = [];
+    this.isLoggedIn = false;
+    this.tags = '';
+    this.search = false;
+    autorun(reaction => {
+      this.isLoggedIn = store.isLoggedIn;
+      this.__disposer.push(reaction);
+    });
+  }
+  disconnectedCallback() {
+    for (var i in this.__disposer) {
+      this.__disposer[i].dispose();
+    }
+    super.disconnectedCallback();
+  }
+
+  firstUpdated() {
+    this.__getFaqs();
+  }
+
+  render() {
+    return html$1`
+      ${this.search ? html$1`
+        <div id="search-container">
+          <input id="search" @input=${this.__inputChanged} />
+        </div>
+      ` : html$1``}
+      <div id="results-container">
+        ${this.results
+          ? html$1`
+              <div class="container">
+                <div class="accordion">
+                  ${this.results.map(result => html$1`
+                    <hax-faqs-item .item=${result} .isLoggedIn=${this.isLoggedIn}></hax-faqs-item>
+                  `)}
+                </div>
+              </div>
+            `
+          : html$1``}
+      </div>
+      <slot></slot>
+    `;
+  }
+
+  __getFaqs() {
+    const tags = this.tags ? `?tags=${this.tags}` : '';
+    fetch(`/service/api/faqs${tags}`)
+      .then(res => res.json())
+      .then(res => this.results = res);
+  }
+}
+
+customElements.define("hax-faqs", HaxForm);
+
 class HaxThemeResources extends PolymerElement {
   static get template() {
     return html`
@@ -7072,6 +7513,8 @@ class HaxThemeResources extends PolymerElement {
                 <slot></slot>
               </div>
             </div>
+          <h3>Frequently Asked Questions</h3>
+          <hax-faqs></hax-faqs>
         </div>
         <div class="sidebar_wrap">
           <div id="resource_archive">
@@ -7514,7 +7957,7 @@ class HaxThemeSyllabus extends PolymerElement {
 }
 window.customElements.define(HaxThemeSyllabus.tag, HaxThemeSyllabus);
 
-class HaxForm extends LitElement {
+class HaxForm$1 extends LitElement {
   static get properties() {
     return {
       endpoint: { type: String },
@@ -7657,7 +8100,7 @@ class HaxForm extends LitElement {
   }
 }
 
-customElements.define('hax-form', HaxForm);
+customElements.define('hax-form', HaxForm$1);
 
 class ContactForm extends LitElement {
   static get properties() {
@@ -8836,437 +9279,6 @@ class HaxthemeSearch extends LitElement {
 }
 window.customElements.define(HaxthemeSearch.tag, HaxthemeSearch);
 
-class HaxFormItem extends LitElement {
-  static get properties() {
-    return {
-      item: { type: Object },
-      active: { type: Boolean },
-      isLoggedIn: { type: Boolean },
-      path: { type: String }
-    };
-  }
-
-  static get styles() {
-    return css`
-      :host {
-        display: block;
-      }
-
-      input {
-        margin: auto;
-        padding: 15px;
-        border: 1px solid #ccc;
-        border-radius: 3px;
-        margin-bottom: 10px;
-        width: 100%;
-        box-sizing: border-box;
-        color: #2c3e50;
-        font-size: 13px;
-      }
-
-      .container {
-        margin: 0 auto;
-        padding: 4rem;
-        width: 48rem;
-      }
-
-      h3 {
-        font-size: 1.75rem;
-        color: var(--odl-haxtheme-accent-color-2);
-        padding: 1.3rem;
-        margin: 0;
-      }
-
-      a {
-        position: relative;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        width: auto;
-        padding: 1rem 3rem 1rem 1rem;
-        color: var(--odl-haxtheme-accent-color-1);
-        font-size: 1.15rem;
-        font-weight: 400;
-        border-bottom: 1px solid #ccc;
-      }
-
-      a:hover,
-      a:hover::after {
-        cursor: pointer;
-        color: var(--odl-haxtheme-accent-color-2);
-      }
-
-      a:hover::after {
-        border: 1px solid var(--odl-haxtheme-accent-color-2);
-      }
-
-      a.active {
-        color: var(--odl-haxtheme-accent-color-2);
-        border-bottom: 1px solid var(--odl-haxtheme-accent-color-2);
-      }
-
-      .icon {
-        position: absolute;
-        float: right;
-        right: 1rem;
-      }
-
-      .icon svg {
-        fill: var(--odl-haxtheme-accent-color-1);
-        width: 30px;
-        height: 30px;
-      }
-
-      .active .icon svg {
-        fill: var(--odl-haxtheme-accent-color-2);
-      }
-
-      .content {
-        opacity: 0;
-        padding: 0 1rem;
-        max-height: 0;
-        border-bottom: 1px solid #ccc;
-        overflow: hidden;
-        clear: both;
-        -webkit-transition: all 0.2s ease 0.15s;
-        -o-transition: all 0.2s ease 0.15s;
-        transition: all 0.2s ease 0.15s;
-        position: relative;
-      }
-
-      .content p {
-        font-size: 1rem;
-        font-weight: 300;
-      }
-
-      .content.active {
-        opacity: 1;
-        padding: 1rem;
-        max-height: 100%;
-        -webkit-transition: all 0.35s ease 0.15s;
-        -o-transition: all 0.35s ease 0.15s;
-        transition: all 0.35s ease 0.15s;
-      }
-
-      #edit {
-        display: inline-block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding: 1em;
-        border: none;
-      }
-
-      #edit-icon {
-        width: 20px;
-        height: 20px;
-      }
-    `;
-  }
-
-  constructor() {
-    super();
-    this.__disposer = [];
-    this.active = false;
-    this.isLoggedIn = false;
-    this.path = null;
-    this.item = {};
-  }
-
-  firstUpdated() {
-    console.log("item", this.item);
-    this.shadowRoot
-      .querySelector(".accordion-item a")
-      .addEventListener("click", this.__toggleAccordion.bind(this));
-  }
-
-  disconnectedCallback() {
-    this.shadowRoot
-      .querySelector(".accordion-item a")
-      .removeEventListener("click", this.__toggleAccordion.bind(this));
-    super.disconnectedCallback();
-  }
-
-  updated(changedProperties) {
-    if (this.item) {
-      const contentOutlet = this.shadowRoot.querySelector("#content-outlet");
-      contentOutlet.innerHTML = this.item.content;
-      // update path
-      const manifestItem = store.routerManifest.items.find(
-        i => i.id === this.item.id
-      );
-      this.path = manifestItem.location;
-    }
-  }
-
-  render() {
-    return html$1`
-      ${this.item
-        ? html$1`
-            <div class="accordion-item">
-              <a id="toggle">
-                ${this.item.title}
-                <span class="icon">${this.__renderIcon()}</span>
-              </a>
-              <div class="content">
-                <div id="content-outlet"></div>
-                <div id="edit">
-                  ${this.__renderEditIcon()}
-                </div>
-              </div>
-            </div>
-          `
-        : html$1``}
-    `;
-  }
-
-  __renderIcon() {
-    if (this.active) {
-      return html$1`
-        <svg
-          enable-background="new 0 0 551.13 551.13"
-          height="512"
-          viewBox="0 0 551.13 551.13"
-          width="512"
-        >
-          <path
-            d="m275.565 0c-151.944 0-275.565 123.621-275.565 275.565s123.621 275.565 275.565 275.565 275.565-123.621 275.565-275.565-123.621-275.565-275.565-275.565zm0 516.685c-132.955 0-241.119-108.164-241.119-241.119s108.164-241.12 241.119-241.12 241.12 108.164 241.12 241.119-108.165 241.12-241.12 241.12z"
-          />
-          <path d="m137.783 258.342h275.565v34.446h-275.565z" />
-        </svg>
-      `;
-    } else {
-      return html$1`
-        <svg
-          enable-background="new 0 0 551.13 551.13"
-          height="512"
-          viewBox="0 0 551.13 551.13"
-          width="512"
-        >
-          <path
-            d="m275.565 0c-151.944 0-275.565 123.621-275.565 275.565s123.621 275.565 275.565 275.565 275.565-123.621 275.565-275.565-123.621-275.565-275.565-275.565zm0 516.685c-132.955 0-241.119-108.164-241.119-241.119s108.164-241.12 241.119-241.12 241.12 108.164 241.12 241.119-108.165 241.12-241.12 241.12z"
-          />
-          <path
-            d="m292.788 137.783h-34.446v120.56h-120.56v34.446h120.56v120.56h34.446v-120.56h120.56v-34.446h-120.56z"
-          />
-        </svg>
-      `;
-    }
-  }
-
-  __renderEditIcon() {
-    if (this.isLoggedIn) {
-      return html$1`
-        <a href="${this.path}" id="edit"
-          ><svg
-            id="edit-icon"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px"
-            y="0px"
-            viewBox="0 0 383.947 383.947"
-            style="enable-background:new 0 0 383.947 383.947;"
-            xml:space="preserve"
-          >
-            <g>
-              <polygon
-                points="0,303.947 0,383.947 80,383.947 316.053,147.893 236.053,67.893 			"
-              />
-              <path
-                d="M377.707,56.053L327.893,6.24c-8.32-8.32-21.867-8.32-30.187,0l-39.04,39.04l80,80l39.04-39.04
-         C386.027,77.92,386.027,64.373,377.707,56.053z"
-              />
-            </g>
-          </svg>
-        </a>
-      `;
-    } else {
-      return html$1``;
-    }
-  }
-
-  __toggleAccordion(e) {
-    this.active = !this.active;
-    e.target.classList.toggle("active");
-    e.target.nextElementSibling.classList.toggle("active");
-  }
-}
-
-customElements.define("hax-faqs-item", HaxFormItem);
-
-class HaxForm$1 extends LitElement {
-  static get properties() {
-    return {
-      results: { type: Array },
-      isLoggedIn: { type: Boolean }
-    };
-  }
-
-  static get styles() {
-    return css`
-      :host {
-        display: block;
-      }
-
-      input {
-        margin: auto;
-        padding: 15px;
-        border: 1px solid #ccc;
-        border-radius: 3px;
-        margin-bottom: 10px;
-        width: 100%;
-        box-sizing: border-box;
-        color: #2c3e50;
-        font-size: 13px;
-      }
-
-      .container {
-        margin: 0 auto;
-        /* padding: 4rem; */
-        width: 48rem;
-      }
-
-      h3 {
-        font-size: 1.75rem;
-        color: var(--odl-haxtheme-accent-color-2);
-        padding: 1.3rem;
-        margin: 0;
-      }
-
-      .accordion a {
-        position: relative;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        width: 100%;
-        padding: 1rem 3rem 1rem 1rem;
-        color: var(--odl-haxtheme-accent-color-1);
-        font-size: 1.15rem;
-        font-weight: 400;
-        border-bottom: 1px solid #ccc;
-      }
-
-      .accordion a:hover,
-      .accordion a:hover::after {
-        cursor: pointer;
-        color: var(--odl-haxtheme-accent-color-2);
-      }
-
-      .accordion a:hover::after {
-        border: 1px solid var(--odl-haxtheme-accent-color-2);
-      }
-
-      .accordion a.active {
-        color: var(--odl-haxtheme-accent-color-2);
-        border-bottom: 1px solid var(--odl-haxtheme-accent-color-2);
-      }
-
-      .accordion .icon {
-        position: absolute;
-        float: right;
-        right: 1rem;
-      }
-
-      .accordion .icon svg {
-        fill: var(--odl-haxtheme-accent-color-1);
-        width: 30px;
-        height: 30px;
-      }
-
-      .accordion .active .icon svg {
-        fill: var(--odl-haxtheme-accent-color-2);
-      }
-
-      .accordion .content {
-        opacity: 0;
-        padding: 0 1rem;
-        max-height: 0;
-        border-bottom: 1px solid #ccc;
-        overflow: hidden;
-        clear: both;
-        -webkit-transition: all 0.2s ease 0.15s;
-        -o-transition: all 0.2s ease 0.15s;
-        transition: all 0.2s ease 0.15s;
-      }
-
-      .accordion .content p {
-        font-size: 1rem;
-        font-weight: 300;
-      }
-
-      .accordion .content.active {
-        opacity: 1;
-        padding: 1rem;
-        max-height: 100%;
-        -webkit-transition: all 0.35s ease 0.15s;
-        -o-transition: all 0.35s ease 0.15s;
-        transition: all 0.35s ease 0.15s;
-      }
-    `;
-  }
-
-  constructor() {
-    super();
-    this.__disposer = [];
-    this.results = [];
-    this.isLoggedIn = false;
-    this.__getFaqs();
-    autorun(reaction => {
-      this.isLoggedIn = store.isLoggedIn;
-      this.__disposer.push(reaction);
-    });
-  }
-  disconnectedCallback() {
-    for (var i in this.__disposer) {
-      this.__disposer[i].dispose();
-    }
-    super.disconnectedCallback();
-  }
-
-  render() {
-    return html$1`
-      <div id="search-container">
-        <input id="search" @input=${this.__inputChanged} />
-      </div>
-      <div id="results-container">
-        ${this.results
-          ? html$1`
-              <div class="container">
-                <div class="accordion">
-                  ${this.results.map(result => html$1`
-                    <hax-faqs-item .item=${result} .isLoggedIn=${this.isLoggedIn}></hax-faqs-item>
-                  `)}
-                </div>
-              </div>
-            `
-          : html$1``}
-      </div>
-      <slot></slot>
-    `;
-  }
-
-  __getFaqs() {
-    fetch('/service/api/faqs')
-      .then(res => res.json())
-      .then(res => this.results = res);
-  }
-}
-
-customElements.define("hax-faqs", HaxForm$1);
-
 class HaxthemeFaqs extends LitElement {
   static get tag() {
     return "haxtheme-faqs";
@@ -9336,7 +9348,7 @@ class HaxthemeFaqs extends LitElement {
               <slot></slot>
             </div>
           </div>
-          <hax-faqs></hax-faqs>
+          <hax-faqs tags="zoom"></hax-faqs>
         </div>
       </div>
     `;
@@ -9576,7 +9588,7 @@ tr:hover {
   conditions='{
     "parent": null,
     "location": {
-      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "multimedia", "contingency", "search"],
+      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "multimedia", "contingency", "search", "faqs"],
       "operator": "!="
     }
   }'>

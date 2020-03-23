@@ -190,7 +190,7 @@ tr:hover {
   conditions='{
     "parent": null,
     "location": {
-      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "multimedia", "contingency", "search"],
+      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "multimedia", "contingency", "search", "faqs"],
       "operator": "!="
     }
   }'>

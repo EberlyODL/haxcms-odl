@@ -1126,6 +1126,9 @@
                         "p": 1
                     },
                     "elements": 1
+                },
+                "fields": {
+                    "tags": ["zoom"]
                 }
             }
         },

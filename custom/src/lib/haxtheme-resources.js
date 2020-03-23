@@ -3,6 +3,7 @@ import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-st
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
 import "./page-banner.js";
 import "./resources-sidemenu.js"
+import "./hax-faqs.js"
 
 class HaxThemeResources extends PolymerElement {
   static get template() {
@@ -134,6 +135,8 @@ class HaxThemeResources extends PolymerElement {
                 <slot></slot>
               </div>
             </div>
+          <h3>Frequently Asked Questions</h3>
+          <hax-faqs></hax-faqs>
         </div>
         <div class="sidebar_wrap">
           <div id="resource_archive">

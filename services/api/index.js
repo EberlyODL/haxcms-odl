@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const { faqs } = require("./services.js");
+const _ = require("lodash")
 
 async function main() {
   const app = express();
@@ -13,7 +14,13 @@ async function main() {
   });
 
   app.get("/faqs", (req, res) => {
-    res.json(faqs())
+    const { query } = req;
+    let tags = null;
+    // check if their are any tags specified
+    if (_.has(query, 'tags')) {
+      tags = query.tags.split(',')
+    }
+    res.json(faqs(tags))
   });
 
   app.listen(3000, () => {

@@ -71,7 +71,7 @@ class HaxthemeFaqs extends LitElement {
               <slot></slot>
             </div>
           </div>
-          <hax-faqs></hax-faqs>
+          <hax-faqs tags="zoom"></hax-faqs>
         </div>
       </div>
     `;
