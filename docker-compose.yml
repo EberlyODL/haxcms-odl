@@ -25,6 +25,28 @@ services:
       update_config:
         order: start-first
 
+  api:
+    build:
+      context: ./services/api
+    image: api-haxcms-odl:${CI_COMMIT_SHORT_SHA:-latest}
+    volumes:
+      - ./site.json:/haxcms/site.json
+      - ./pages:/haxcms/pages
+    networks:
+      - traefik-public
+    deploy:
+      labels:
+        - "traefik.enable=true" # Enable reverse-proxy for this service
+        - "traefik.port=3000" # Enable reverse-proxy for this service
+        - "traefik.frontend.rule=Host:haxcms-odl.haxcms.localhost; PathPrefix:/service/api; ReplacePathRegex: ^/service/api(.*) $$1"
+        - "traefik.tags=traefik-public"
+        - "traefik.docker.network=traefik-public"
+        - "traefik.frontend.entryPoints=http,https"
+        - "traefik.frontend.redirect.entryPoint=https"
+      replicas: 1
+      update_config:
+        order: start-first
+
   hax-forms-service:
     image: heymp/hax-forms-service:next
     command: 'yarn run dev'
