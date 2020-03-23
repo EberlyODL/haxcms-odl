@@ -7462,6 +7462,7 @@ class HaxThemeResources extends PolymerElement {
         border-left-width: 2px;
         border-left-color: #dcdcdc;
         padding: 0 0 0 20px;
+        height: 750px;
       }
 
       @media screen and (max-width: 768px) {
@@ -7676,17 +7677,9 @@ class HaxThemeSyllabus extends PolymerElement {
           display: none;
         }
         a {
-          color: var(--haxtheme-syllabus-a-color);
+          color: var(--odl-haxtheme-accent-color-2);
           text-decoration: var(--haxtheme-syllabus-a-text-decoration);
           @apply --haxtheme-syllabus-a;
-        }
-
-        a:active,
-        a:focus,
-        a:hover {
-          color: var(--haxtheme-syllabus-a-hover-color);
-          text-decoration: var(--haxtheme-syllabus-a-hover-text-decoration);
-          @apply --haxtheme-syllabus-a-hover;
         }
 
         h2 {

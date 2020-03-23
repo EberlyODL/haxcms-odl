@@ -18,17 +18,9 @@ class HaxThemeSyllabus extends PolymerElement {
           display: none;
         }
         a {
-          color: var(--haxtheme-syllabus-a-color);
+          color: var(--odl-haxtheme-accent-color-2);
           text-decoration: var(--haxtheme-syllabus-a-text-decoration);
           @apply --haxtheme-syllabus-a;
-        }
-
-        a:active,
-        a:focus,
-        a:hover {
-          color: var(--haxtheme-syllabus-a-hover-color);
-          text-decoration: var(--haxtheme-syllabus-a-hover-text-decoration);
-          @apply --haxtheme-syllabus-a-hover;
         }
 
         h2 {
