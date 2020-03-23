@@ -38,7 +38,7 @@ services:
       labels:
         - "traefik.enable=true" # Enable reverse-proxy for this service
         - "traefik.port=3000" # Enable reverse-proxy for this service
-        - "traefik.frontend.rule=Host:haxcms-odl.haxcms.localhost; PathPrefix:/service/api; ReplacePathRegex: ^/service/api(.*) $$1"
+        - "traefik.frontend.rule=Host:odl.${HOST:-docker.localhost}; PathPrefix:/service/api; ReplacePathRegex: ^/service/api(.*) $$1"
         - "traefik.tags=traefik-public"
         - "traefik.docker.network=traefik-public"
         - "traefik.frontend.entryPoints=http,https"
