@@ -7513,8 +7513,6 @@ class HaxThemeResources extends PolymerElement {
                 <slot></slot>
               </div>
             </div>
-          <h3>Frequently Asked Questions</h3>
-          <hax-faqs></hax-faqs>
         </div>
         <div class="sidebar_wrap">
           <div id="resource_archive">
