@@ -12,8 +12,6 @@ class ContentListing extends PolymerElement {
       <style>
         :host {
           display: block;
-            --content-listing-grid-count: 3;
-            --content-listing-results-medium-breakpoint: 900;
           }
 
         a {
@@ -167,7 +165,7 @@ class ContentListing extends PolymerElement {
           height: auto;
           margin: 20px;
           display: grid;
-          grid-template-columns: repeat(var(--content-listing-grid-count), 1fr [col-start]);
+          grid-template-columns: repeat(var(--content-listing-grid-count, 3), 1fr [col-start]);
         }
 
         @media screen and (max-width: 768px) {
@@ -280,6 +278,7 @@ class ContentListing extends PolymerElement {
   constructor() {
     super();
     this.__disposer = [];
+    this.__defaultGridCount = getComputedStyle(this).getPropertyValue('--content-listing-grid-count');
     autorun(reaction => {
       this.activeItem = toJS(store.activeItem);
       this.__disposer.push(reaction);
@@ -338,7 +337,7 @@ class ContentListing extends PolymerElement {
 
   __updateResultsGridCount(gridItems) {
     const hostComputedStyle = getComputedStyle(this);
-    const mq = hostComputedStyle.getPropertyValue('--content-listing-results-medium-breakpoint');
+    const mq = hostComputedStyle.getPropertyValue('--content-listing-results-medium-breakpoint') || 900;
     const currentGridCount = hostComputedStyle.getPropertyValue('--content-listing-grid-count');
     let newGridCount;
     // dynamically set grid width
@@ -350,11 +349,11 @@ class ContentListing extends PolymerElement {
         newGridCount = 1;
       }
       else {
-        newGridCount = 3;
+        newGridCount = this.__defaultGridCount;
       }
     }
     else {
-      newGridCount = 2;
+      newGridCount = this.__defaultGridCount;
     }
 
     if (newGridCount !== currentGridCount) {
