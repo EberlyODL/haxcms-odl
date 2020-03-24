@@ -33,8 +33,8 @@ services:
       context: ./services/api
     image: api-haxcms-odl:${CI_COMMIT_SHORT_SHA:-latest}
     volumes:
-      - sitejson-data:/haxcms/site.json
-      - pages-data:/haxcms/pages
+      - sitejson-data:/haxcms/site.json:ro
+      - pages-data:/haxcms/pages:ro
     networks:
       - traefik-public
     deploy:
