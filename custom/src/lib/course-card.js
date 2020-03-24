@@ -34,18 +34,14 @@ class CourseCard extends PolymerElement {
         }
         #course_number {
           font-size: var(--haxtheme-course-card-course-number-font-size, 28px);
-          text-transform: var(
-            --haxtheme-course-card-course-number-text-transform
-          );
+          text-transform: var(--haxtheme-course-card-course-number-text-transform);
+          text-align: var(--haxtheme-course-card-course-name-text-align, center);
           line-height: 1.4;
           @apply --haxtheme-course-card-course-number;
         }
         #course_name {
           font-size: var(--haxtheme-course-card-course-name-font-size);
-          text-align: var(
-            --haxtheme-course-card-course-name-text-align,
-            center
-          );
+          text-align: var(--haxtheme-course-card-course-name-text-align, center);
           width: var(--haxtheme-course-card-course-name-width, 90%);
           margin: var(--haxtheme-course-card-course-name-margin, 0 0 15px 0);
           line-height: 1.2;
