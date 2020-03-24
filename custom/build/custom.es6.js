@@ -8,7 +8,7 @@ import '../../build/es6/node_modules/@polymer/iron-pages/iron-pages.js';
 import '../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/query/site-query.js';
 import '../../build/es6/node_modules/@polymer/polymer/lib/elements/dom-repeat.js';
 import { LitElement, css, html as html$1 } from '../../build/es6/node_modules/lit-element/lit-element.js';
-import '../../build/es6/node_modules/@lrnwebcomponents/simple-picker/simple-picker.js';
+import { SimplePicker } from '../../build/es6/node_modules/@lrnwebcomponents/simple-picker/simple-picker.js';
 import { PromoTile } from '../../build/es6/node_modules/@lrnwebcomponents/promo-tile/promo-tile.js';
 import '../../build/es6/node_modules/@lrnwebcomponents/person-testimonial/person-testimonial.js';
 import '../../build/es6/node_modules/@polymer/iron-icon/iron-icon.js';
@@ -1244,6 +1244,29 @@ class CourseTile extends PolymerElement {
 }
 window.customElements.define(CourseTile.tag, CourseTile);
 
+/**
+ * Copyright 2018 The Pennsylvania State University
+ * @license Apache-2.0, see License.md for full text.
+ */
+
+class OdlSimplePicker extends SimplePicker {
+  static get styles() {
+    return [super.styles, css`
+      .row {
+        display: flex;
+        flex-direction: column;
+      }
+    `];
+  }
+  static get tag() {
+    return "odl-simple-picker";
+  }
+  constructor() {
+    super();
+  }
+}
+window.customElements.define(OdlSimplePicker.tag, OdlSimplePicker);
+
 class ContentListing extends PolymerElement {
   static get template() {
     return html`
@@ -1410,7 +1433,7 @@ class ContentListing extends PolymerElement {
           }
         }
 
-        simple-picker {
+        odl-simple-picker {
           width: 55%;
           --simple-picker-row: {
             display: block;
@@ -1444,15 +1467,14 @@ class ContentListing extends PolymerElement {
                 result="{{__courseitems}}"
                 conditions="[[condition]]"
               ></site-query>
-              <simple-picker
-                allow-null
+              <odl-simple-picker
                 id="courseselect"
                 label="Select a Subject"
                 value="{{__selectedCourse}}"
                 position=""
                 options="[[__courselist(__courseitems)]]"
               >
-              </simple-picker>
+              </odl-simple-picker>
             </div>
 
             <div id="description">

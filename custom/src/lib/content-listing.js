@@ -5,6 +5,7 @@ import { varExists, varGet } from "@lrnwebcomponents/hax-body/lib/haxutils.js";
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
 import "@lrnwebcomponents/simple-picker/simple-picker.js"
 import "./course-tile.js";
+import "./odl-simple-picker.js"
 class ContentListing extends PolymerElement {
   static get template() {
     return html`
@@ -171,7 +172,7 @@ class ContentListing extends PolymerElement {
           }
         }
 
-        simple-picker {
+        odl-simple-picker {
           width: 55%;
           --simple-picker-row: {
             display: block;
@@ -205,15 +206,14 @@ class ContentListing extends PolymerElement {
                 result="{{__courseitems}}"
                 conditions="[[condition]]"
               ></site-query>
-              <simple-picker
-                allow-null
+              <odl-simple-picker
                 id="courseselect"
                 label="Select a Subject"
                 value="{{__selectedCourse}}"
                 position=""
                 options="[[__courselist(__courseitems)]]"
               >
-              </simple-picker>
+              </odl-simple-picker>
             </div>
 
             <div id="description">
