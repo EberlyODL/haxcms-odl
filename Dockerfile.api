@@ -1,0 +1,13 @@
+FROM node:12
+
+WORKDIR /home/node/app
+
+COPY ./services/api/package.json ./
+RUN yarn install
+
+COPY ./services/api .
+
+COPY ./site.json /haxcms/site.json
+COPY ./pages /haxcms
+
+CMD [ "yarn", "start" ]

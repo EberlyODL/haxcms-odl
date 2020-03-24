@@ -24,15 +24,12 @@ services:
       replicas: 1
       update_config:
         order: start-first
-    volumes:
-      - haxcms-data:/var/www/html
 
   api:
     build:
-      context: ./services/api
+      context: .
+      dockerfile: Dockerfile.api
     image: api-haxcms-odl:${CI_COMMIT_SHORT_SHA:-latest}
-    volumes:
-      - haxcms-data:/haxcms:ro
     networks:
       - traefik-public
     deploy:
@@ -87,6 +84,3 @@ secrets:
 networks:
   traefik-public:
     external: true
-
-volumes:
-  haxcms-data:

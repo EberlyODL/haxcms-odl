@@ -20,8 +20,9 @@ services:
       - "traefik.frontend.rule=Host:haxcms-odl.haxcms.localhost"
   
   api:
-    build:
-      context: ./services/api
+    build: 
+      context: .
+      dockerfile: Dockerfile.api
     volumes:
       - .:/haxcms:ro
       - ./services/api:/home/node/app
