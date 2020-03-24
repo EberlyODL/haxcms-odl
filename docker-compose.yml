@@ -24,14 +24,17 @@ services:
       replicas: 1
       update_config:
         order: start-first
+    volumes:
+      - sitejson-data:/var/www/html/site.json
+      - pages-data:/var/www/html/pages
 
   api:
     build:
       context: ./services/api
     image: api-haxcms-odl:${CI_COMMIT_SHORT_SHA:-latest}
     volumes:
-      - ./site.json:/haxcms/site.json
-      - ./pages:/haxcms/pages
+      - sitejson-data:/haxcms/site.json
+      - pages-data:/haxcms/pages
     networks:
       - traefik-public
     deploy:
@@ -86,3 +89,7 @@ secrets:
 networks:
   traefik-public:
     external: true
+
+volumes:
+  sitejson-data:
+  pages-data:
