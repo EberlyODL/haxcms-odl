@@ -23,8 +23,7 @@ services:
     build:
       context: ./services/api
     volumes:
-      - ./site.json:/haxcms/site.json
-      - ./pages:/haxcms/pages
+      - .:/haxcms:ro
       - ./services/api:/home/node/app
       - /home/node/app/node_modules
     labels:

@@ -7,7 +7,4 @@ RUN yarn install
 
 COPY . .
 
-RUN mkdir /haxcms
-RUN chown -R node:node /haxcms
-
 CMD [ "yarn", "start" ]
