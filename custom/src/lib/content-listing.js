@@ -13,6 +13,7 @@ class ContentListing extends PolymerElement {
         :host {
           display: block;
             --content-listing-grid-count: 3;
+            --content-listing-results-medium-breakpoint: 900;
           }
 
         a {
@@ -329,18 +330,36 @@ class ContentListing extends PolymerElement {
       }
     });
 
-    // dynamically set grid width
-    if (filtered.length === 2) {
-      this.style.setProperty('--content-listing-grid-count', 2);
-    }
-    else if (filtered.length === 1) {
-      this.style.setProperty('--content-listing-grid-count', 1);
-    }
-    else {
-      this.style.setProperty('--content-listing-grid-count', 3);
-    }
+    // update the grid column size
+    this.__updateResultsGridCount(filtered.length);
       
     return filtered;  
+  }
+
+  __updateResultsGridCount(gridItems) {
+    const hostComputedStyle = getComputedStyle(this);
+    const mq = hostComputedStyle.getPropertyValue('--content-listing-results-medium-breakpoint');
+    const currentGridCount = hostComputedStyle.getPropertyValue('--content-listing-grid-count');
+    let newGridCount;
+    // dynamically set grid width
+    if (this.offsetWidth > mq) {
+      if (gridItems === 2) {
+        newGridCount = 2;
+      }
+      else if (gridItems === 1) {
+        newGridCount = 1;
+      }
+      else {
+        newGridCount = 3;
+      }
+    }
+    else {
+      newGridCount = 2;
+    }
+
+    if (newGridCount !== currentGridCount) {
+      this.style.setProperty('--content-listing-grid-count', newGridCount);
+    }
   }
 }
 
