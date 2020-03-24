@@ -90,7 +90,7 @@ class ContactForm extends LitElement {
   }
   render() {
     return html`
-      <hax-form endpoint="https://hax-forms-service.odl.courses.science.psu.edu" @loading-changed="${e =>
+      <hax-form endpoint="http://hax-forms-service.odl.science.psu.edu" @loading-changed="${e =>
         (this.loading = e.detail.value)}" @subission-successful=${() => this.submitted = true}>
         <form id="contact-form">
           <div>
