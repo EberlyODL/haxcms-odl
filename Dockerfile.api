@@ -8,6 +8,6 @@ RUN yarn install
 COPY ./services/api .
 
 COPY ./site.json /haxcms/site.json
-COPY ./pages /haxcms
+COPY ./pages /haxcms/pages
 
 CMD [ "yarn", "start" ]
