@@ -12,6 +12,7 @@ class ContentListing extends PolymerElement {
       <style>
         :host {
           display: block;
+            --content-listing-grid-count: 3;
           }
 
         a {
@@ -164,6 +165,8 @@ class ContentListing extends PolymerElement {
           border: solid 2px #dcdcdc;
           height: auto;
           margin: 20px;
+          display: grid;
+          grid-template-columns: repeat(var(--content-listing-grid-count), 1fr [col-start]);
         }
 
         @media screen and (max-width: 768px) {
@@ -217,7 +220,6 @@ class ContentListing extends PolymerElement {
             </div>
 
             <div id="description">
-
               
               <div id="results">
               <dom-repeat items="[[__selectedCourses(__selectedCourse, __courseitems)]]">
@@ -326,11 +328,20 @@ class ContentListing extends PolymerElement {
         return false;
       }
     });
-      
-      return filtered;  
-  }
-  
 
+    // dynamically set grid width
+    if (filtered.length === 2) {
+      this.style.setProperty('--content-listing-grid-count', 2);
+    }
+    else if (filtered.length === 1) {
+      this.style.setProperty('--content-listing-grid-count', 1);
+    }
+    else {
+      this.style.setProperty('--content-listing-grid-count', 3);
+    }
+      
+    return filtered;  
+  }
 }
 
 
