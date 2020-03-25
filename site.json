@@ -4134,10 +4134,28 @@
             }
         },
         {
+            "id": "examity-automated-proctoring",
+            "indent": 0,
+            "location": "pages\/resources\/toolkits\/examity-automated-proctoring\/index.html",
+            "order": 4,
+            "parent": "toolkits",
+            "title": "Examity Automated Proctoring",
+            "description": "Examity® is an online proctoring solution that gives students the flexibility to take exams remotely. It provides instructors, schools, ,and students with the tools they need to prevent cheating and to preserve integrity of assessments.",
+            "metadata": {
+                "fields": {
+                    "image": "files\/resource-images\/examity-banner.jpg",
+                    "alt": "Man using a cellphone with a laptop in front of him. Original Photo by: Joseph Gruenthal - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
             "id": "h5p",
             "indent": 0,
             "location": "pages\/resources\/toolkits\/h5p\/index.html",
-            "order": 3,
+            "order": 5,
             "parent": "toolkits",
             "title": "H5P",
             "description": "Does your website crave rich content and user-engagement? The Office of Digital Learning (ODL) is excited to introduce a free, open-source solution called H5P that will change the way you think about interactive-content.",
@@ -4155,7 +4173,7 @@
             "id": "online-labs",
             "indent": 0,
             "location": "pages\/resources\/contingency\/online-lab-toolkit\/index.html",
-            "order": 3,
+            "order": 6,
             "parent": "toolkits",
             "title": "Online Lab Toolkit",
             "description": "",
@@ -4173,7 +4191,7 @@
             "id": "zoom",
             "indent": 0,
             "location": "pages\/resources\/toolkits\/zoom\/index.html",
-            "order": 3,
+            "order": 7,
             "parent": "toolkits",
             "title": "Zoom",
             "description": "Zoom video conferencing allows you to engage in multi-person video or audio meetings using software installed on your computer, without the need for dedicated video conferencing hardware.",
@@ -4442,7 +4460,9 @@
                 "created": 1584987971,
                 "updated": 1584987971,
                 "fields": {
-                    "tags": ["zoom"]
+                    "tags": [
+                        "zoom"
+                    ]
                 }
             }
         },
@@ -4456,7 +4476,7 @@
             "description": "If there is a concern that your class sessions will overlap, we recommend creating different meeting rooms for each class.",
             "metadata": {
                 "created": 1584724836,
-                "updated": 1584724874,
+                "updated": 1585083152,
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 0,
@@ -4468,7 +4488,9 @@
                     "elements": 1
                 },
                 "fields": {
-                    "tags": ["zoom"]
+                    "tags": [
+                        "zoom"
+                    ]
                 }
             }
         },
