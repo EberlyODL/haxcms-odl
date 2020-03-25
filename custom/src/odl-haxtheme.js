@@ -365,8 +365,7 @@ tr:hover {
    * Notice active item changed state
    */
   _locationChanged(location) {
-    console.log(location)
-    if (typeof location !== typeof undefined) {
+    if (typeof location !== typeof undefined && location) {
       var target;
       switch (location.route.name) {
         case "home":

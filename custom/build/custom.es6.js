@@ -7135,7 +7135,6 @@ class OdlFaqsItem extends LitElement {
   }
 
   firstUpdated() {
-    console.log("item", this.item);
     this.shadowRoot
       .querySelector(".accordion-item a")
       .addEventListener("click", this.__toggleAccordion.bind(this));
@@ -9316,7 +9315,6 @@ class HaxthemeSearch extends LitElement {
   __inputChanged(e) {
     const value = e.target.value;
     const results = fetch('lunrSearchIndex.json').then(res => res.json());
-    console.log('results:', results);
   }
 }
 window.customElements.define(HaxthemeSearch.tag, HaxthemeSearch);
@@ -9805,8 +9803,7 @@ tr:hover {
    * Notice active item changed state
    */
   _locationChanged(location) {
-    console.log(location);
-    if (typeof location !== typeof undefined) {
+    if (typeof location !== typeof undefined && location) {
       var target;
       switch (location.route.name) {
         case "home":

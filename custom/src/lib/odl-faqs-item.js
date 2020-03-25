@@ -146,7 +146,6 @@ class OdlFaqsItem extends LitElement {
   }
 
   firstUpdated() {
-    console.log("item", this.item);
     this.shadowRoot
       .querySelector(".accordion-item a")
       .addEventListener("click", this.__toggleAccordion.bind(this));

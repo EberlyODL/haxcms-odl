@@ -67,7 +67,6 @@ class HaxthemeSearch extends LitElement {
   __inputChanged(e) {
     const value = e.target.value
     const results = fetch('lunrSearchIndex.json').then(res => res.json())
-    console.log('results:', results)
   }
 }
 window.customElements.define(HaxthemeSearch.tag, HaxthemeSearch);
