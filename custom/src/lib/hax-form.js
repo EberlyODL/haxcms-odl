@@ -71,6 +71,8 @@ class HaxForm extends LitElement {
       this._form = form;
       form.addEventListener('submit', _e => {
         _e.preventDefault();
+        // needed for safari
+        _e.stopPropagation();
         this.submitForm();
       });
     }
