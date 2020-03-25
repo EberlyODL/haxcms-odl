@@ -148,15 +148,15 @@ class HaxThemeProfile extends PolymerElement {
         min-width: 3em;
       }
 
-      paper-tooltip {
-          --paper-tooltip-background: var(--theme-color-1);
-          --paper-tooltip-opacity: 1;
-          --paper-tooltip-text-color: var(
+      simple-tooltip {
+          --simple-tooltip-background: var(--theme-color-1);
+          --simple-tooltip-opacity: 1;
+          --simple-tooltip-text-color: var(
             --site-menu-button-tooltip-text,
             #ffffff
           );
-          --paper-tooltip-delay-in: 0;
-          --paper-tooltip: {
+          --simple-tooltip-delay-in: 0;
+          --simple-tooltip: {
             border-radius: 0;
           }
         }
@@ -200,7 +200,6 @@ class HaxThemeProfile extends PolymerElement {
                       <iron-icon icon="haxthemeicons:twitter2" role="img"></iron-icon>
                     </paper-button>
                   </a>
-                  <paper-tooltip for="twitter" offset="8">Twitter</paper-tooltip>
                 </div>  
               <div class="icon"> 
                 <a href="mailto:[[activeItem.metadata.fields.email]]">
@@ -208,7 +207,6 @@ class HaxThemeProfile extends PolymerElement {
                     <iron-icon icon="haxthemeicons:email" role="img"></iron-icon>
                   </paper-button>
                 </a>
-                <paper-tooltip for="email" offset="8">Email</paper-tooltip>
               </div>
               <div class="icon">
                 <a href="tel:[[activeItem.metadata.fields.phone]]" target="_blank">
@@ -216,7 +214,6 @@ class HaxThemeProfile extends PolymerElement {
                     <iron-icon icon="haxthemeicons:phone" role="img"></iron-icon>
                   </paper-button>
                 </a>
-                <paper-tooltip for="phone" offset="8">Phone</paper-tooltip>
               </div>
             </div>
           </div>
@@ -252,7 +249,7 @@ class HaxThemeProfile extends PolymerElement {
     import("@lrnwebcomponents/haxcms-elements/lib/ui-components/blocks/site-recent-content-block.js");
     import("@polymer/iron-image/iron-image.js");
     import("@polymer/paper-button/paper-button.js");
-    import("@polymer/paper-tooltip/paper-tooltip.js");
+    import("@polymer/simple-tooltip/simple-tooltip.js");
     import("@polymer/iron-icon/iron-icon.js");
     this.__disposer = [];
     autorun(reaction => {
