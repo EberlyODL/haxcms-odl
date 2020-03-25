@@ -89,7 +89,7 @@ class HaxThemeHome extends PolymerElement {
       <homepage-banner
         image="files/theme-images/page-banners/odl_homepage_banner.jpg"
         alt="students receiving instruction in classroom"
-        text="A creative studio for your classroom"
+        text="A Creative Studio for your Classroom"
       ></homepage-banner>
       <info-box id="about" title="What We Do" url="about">
         <span slot="action_text">
