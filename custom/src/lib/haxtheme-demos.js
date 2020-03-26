@@ -10,6 +10,12 @@ class HaxThemeDemos extends PolymerElement {
         :host {
           display: block;
         }
+
+        #content-wrap {
+          display: flex;
+          justify-content: center;
+        
+        }
         /**
        * Hide the slotted content during edit mode. This must be here to work.
        */
@@ -23,10 +29,12 @@ class HaxThemeDemos extends PolymerElement {
         alt=""
       ></page-banner>
       <div id="wrap">
-        <div id="contentcontainer">
+        <div id="content-wrap">
+          <div id="contentcontainer">
             <div id="slot">
-            <slot></slot>
+              <slot></slot>
             </div>
+          </div>
         </div>
       </div>
     `;
