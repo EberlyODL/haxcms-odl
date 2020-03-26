@@ -63,7 +63,7 @@ services:
       labels:
         - "traefik.enable=true"
         - "traefik.port=4000"
-        - "traefik.frontend.rule=Host:hax-forms-service.${HOST:-docker.localhost}"
+        - "traefik.frontend.rule=Host:${HOST:-docker.localhost}; PathPrefix:/service/forms; ReplacePathRegex: ^/service/forms(.*) $$1"
         - "traefik.docker.network=traefik-public"
         - "traefik.tags=traefik-public"
         - "traefik.frontend.entryPoints=http,https"
