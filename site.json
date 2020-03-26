@@ -4260,6 +4260,24 @@
             }
         },
         {
+            "id": "canvas-quiz-logs",
+            "indent": 0,
+            "location": "pages\/resources\/canvas-quiz-logs\/index.html",
+            "order": 3,
+            "parent": "contingency",
+            "title": "Canvas Quiz Logs",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/resource-images\/canvas-banner.jpg",
+                    "alt": "MacBook Pro near white open book. Original Photo by: Nick Morrison - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
             "id": "educational-technologies",
             "indent": 0,
             "location": "pages\/resources\/contingency\/educational-technologies\/index.html",
@@ -4436,6 +4454,19 @@
             }
         },
         {
+            "id": "demos",
+            "indent": 0,
+            "location": "pages\/demos\/index.html",
+            "order": "14",
+            "parent": null,
+            "title": "Demos",
+            "description": "",
+            "metadata": {
+                "created": 1584643837,
+                "updated": 1584724834
+            }
+        },
+        {
             "id": "faqs",
             "indent": 0,
             "location": "pages\/faqs\/index.html",
@@ -4446,24 +4477,6 @@
             "metadata": {
                 "created": 1584643837,
                 "updated": 1584724834
-            }
-        },
-        {
-            "id": "item-6a631021-3208-4055-a60d-ba74fabcbda9",
-            "indent": "1",
-            "location": "pages\/faqs\/my-new-zoom-question\/index.html",
-            "order": "2",
-            "parent": "faqs",
-            "title": "My new zoom question",
-            "description": "",
-            "metadata": {
-                "created": 1584987971,
-                "updated": 1584987971,
-                "fields": {
-                    "tags": [
-                        "zoom"
-                    ]
-                }
             }
         },
         {
