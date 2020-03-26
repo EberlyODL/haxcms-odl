@@ -58,7 +58,7 @@
       display: block;
       position: initial;
       height: 100vh;
-      background: orange;
+      background: white;
     }
     haxcms-site-builder:not(:defined) div {
       font-size: 6vw;
@@ -76,21 +76,113 @@
     }
     body[no-js] haxcms-site-builder {
       display: none !important;
+    } 
+    #loading-logo {
+      width: 200px;
+      height: auto;
     }
   </style>
 </head>
 <body no-js vocab="http://schema.org/" prefix="oer:http://oerschema.org cc:http://creativecommons.org/ns dc:http://purl.org/dc/terms/">
-  <haxcms-site-builder id="site" file="site.json"><div class="loading"><div>Site</div><div>loading</div></div></haxcms-site-builder>
-  <div id="haxcmsoutdatedfallback">
-    <haxcms-legacy-player file="site.json"></haxcms-legacy-player>
-    <div id="haxcmsoutdatedfallbacksuperold"> 
-      <iframe id="outline" style="width:18%;float:left;height:500px;padding:0;margin:0;" name="outline" id="frame1"
-        src="legacy-outline.html"></iframe>
-      <iframe id="content" style="width:80%;float:left;height:500px;padding:0;margin:0;" name="content" id="frame2" src=""></iframe>
-      <div style="float:left;padding:16px 0;font-size:32px;text-align: center;width:100%;">Please use a modern browser to
-        view our website correctly. <a href="http://outdatedbrowser.com/">Update my browser now</a></div>
+
+  <div id="pre-bootstrap">
+    <div class="messaging">
+      <img id="loading-logo" src="files/theme-images/logos/odl-logo.png" alt="Office of Digital Learning">
+      <div class="progress-line"></div>
     </div>
+    <style>
+      #pre-bootstrap {
+        background-color: white;
+        bottom: 0px;
+        left: 0px;
+        opacity: 1;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        transition: all linear 300ms;
+        -webkit-transition: all linear 300ms;
+        z-index: 999999;
+      }
+      body[no-js] #pre-bootstrap {
+        display: none !important;
+      }
+      #pre-bootstrap.loaded {
+        animation: fade-out .7s ease-in-out;
+        animation-fill-mode: forwards;
+      }
+      #pre-bootstrap div.messaging {
+        color: rgba(255,255,255, 0.7);
+        font-family: Roboto;
+        left: 0px;
+        margin-top: -75px;
+        position: absolute;
+        right: 0px;
+        text-align: center;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      #pre-bootstrap img {
+        width: 300px;
+        padding-bottom: 50px;
+      }
+      .progress-line,
+      .progress-line:before {
+        height: 5px;
+        width: 100%;
+        margin: auto;
+      }
+      .progress-line {
+        background-color: rgba(0,0,0, 0.05);
+        display: -webkit-flex;
+        display: flex;
+        width: 300px;
+      }
+      .progress-line:before {
+        background-color: orange;
+        content: '';
+        animation: running-progress 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+      @keyframes running-progress {
+        0% {
+          margin-left: 0px;
+          margin-right: 100%;
+        }
+        50% {
+          margin-left: 25%;
+          margin-right: 0%;
+        }
+        100% {
+          margin-left: 100%;
+          margin-right: 0;
+        }
+      }
+      @keyframes fade-out {
+        0% {
+          opacity: 1;
+        }
+        99% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+    </style>
+    <script>
+      window.addEventListener('load', (event) => {
+        // give the web components a second to build
+        setTimeout(function() {
+          document.querySelector('#pre-bootstrap').classList.add('loaded');
+          setTimeout(function() {
+            document.querySelector('#pre-bootstrap').setAttribute('style', 'display: none !important');
+          }, 700)
+        }, 1000)
+      });
+    </script>
   </div>
+
+
+  <haxcms-site-builder id="site" file="site.json"><div class="loading"><img src="files/theme-images/logos/odl-logo.png" alt="Office of Digital Learning"></div></haxcms-site-builder>
   <script>document.body.removeAttribute('no-js');window.__appCDN="./";window.__appForceUpgrade=false;</script>
   <script src="./build.js"></script>
   <script src="./build-haxcms.js"></script>
