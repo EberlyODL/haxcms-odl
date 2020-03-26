@@ -55,7 +55,7 @@ try {
   }
   else {
     if (window.__appForceUpgrade) {
-      window.location = "assets/upgrade-browser.html";
+      window.location = "/upgrade-browser.html";
     }
   }
 }
