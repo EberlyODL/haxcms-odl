@@ -1981,7 +1981,7 @@ class HaxThemeHome extends PolymerElement {
       <homepage-banner
         image="files/theme-images/page-banners/odl_homepage_banner.jpg"
         alt="students receiving instruction in classroom"
-        text="A creative studio for your classroom"
+        text="A Creative Studio for your Classroom"
       ></homepage-banner>
       <info-box id="about" title="What We Do" url="about">
         <span slot="action_text">
@@ -9205,6 +9205,50 @@ class PageFooter extends PolymerElement {
 }
 window.customElements.define(PageFooter.tag, PageFooter);
 
+class HaxThemeDemos extends PolymerElement {
+  static get template() {
+    return html`
+      <style>
+        :host {
+          display: block;
+        }
+        /**
+       * Hide the slotted content during edit mode. This must be here to work.
+       */
+        :host([edit-mode]) #slot {
+          display: none;
+        }
+      </style>
+      <page-banner
+        image="files/theme-images/page-banners/course_banner.jpg"
+        text="Demos Template"
+        alt=""
+      ></page-banner>
+      <div id="wrap">
+        <div id="contentcontainer">
+            <div id="slot">
+            <slot></slot>
+            </div>
+        </div>
+      </div>
+    `;
+  }
+  static get tag() {
+    return "haxtheme-demos";
+  }
+  constructor() {
+    super();
+    this.__disposer = autorun(() => {
+      this.manifest = toJS(store.routerManifest);
+    });
+  }
+  disconnectedCallback() {
+    this.__disposer();
+    super.disconnectedCallback();
+  }
+}
+window.customElements.define(HaxThemeDemos.tag, HaxThemeDemos);
+
 /**
  * Copyright 2019 The Pennsylvania State University
  * @license Apache-2.0, see License.md for full text.
@@ -9625,7 +9669,7 @@ tr:hover {
   conditions='{
     "parent": null,
     "location": {
-      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "multimedia", "contingency", "search", "faqs"],
+      "value": ["syllabi", "spotlight", "coursemanagement", "lab", "pedagogy", "multimedia", "contingency", "search", "faqs", "demos"],
       "operator": "!="
     }
   }'>
@@ -9650,6 +9694,7 @@ tr:hover {
     <haxtheme-search id="search" edit-mode$="[[editMode]]"></haxtheme-search>
     <haxtheme-faqs id="faqs" edit-mode$="[[editMode]]"></haxtheme-faqs>
     <haxtheme-faq id="faq" edit-mode$="[[editMode]]"></haxtheme-faq>
+    <haxtheme-demos id="demos" edit-mode$="[[editMode]]"></haxtheme-demos>
 </iron-pages>
 <scroll-button></scroll-button>
 <page-footer></page-footer>`;
@@ -9786,6 +9831,8 @@ tr:hover {
             target = "faq";
           } else if (location.route.path.startsWith("faqs")) {
             target = "faqs";
+          } else if (location.route.path.startsWith("demos")) {
+            target = "demos";
           }
           break;
       }
@@ -9835,10 +9882,10 @@ tr:hover {
           this.selectedPage = 17;
           target = location.route.name;
           break;
-        // case "resources":
-        //   this.selectedPage = 15;
-        //   target = location.route.name;
-        //   break;
+        case "demos":
+          this.selectedPage = 19;
+          target = location.route.name;
+          break;
           default:
               // normalize the route path so that this logic works on sub directory / multi-site setup
               const routePath = location.route.path.startsWith("/") ? location.route.path : `/${location.route.path}`;
@@ -9879,7 +9926,6 @@ tr:hover {
                 this.selectedPage = 18;
                 target = "faq";
               }
-              
               break;
           }
       if (target) {
