@@ -4140,7 +4140,7 @@
             "order": 4,
             "parent": "toolkits",
             "title": "Examity Automated Proctoring",
-            "description": "Examity® is an online proctoring solution that gives students the flexibility to take exams remotely. It provides instructors, schools, ,and students with the tools they need to prevent cheating and to preserve integrity of assessments.",
+            "description": "Examity\u00ae is an online proctoring solution that gives students the flexibility to take exams remotely. It provides instructors, schools, ,and students with the tools they need to prevent cheating and to preserve integrity of assessments.",
             "metadata": {
                 "fields": {
                     "image": "files\/resource-images\/examity-banner.jpg",
@@ -4262,19 +4262,33 @@
         {
             "id": "canvas-quiz-logs",
             "indent": 0,
-            "location": "pages\/resources\/canvas-quiz-logs\/index.html",
+            "location": "pages\/resources\/contingency\/canvas-quiz-logs\/index.html",
             "order": 3,
             "parent": "contingency",
             "title": "Canvas Quiz Logs",
-            "description": "",
+            "description": "  The quiz starts the log when students begin the quiz, so some logs may show  that the quiz is in progress.  If you gave the student multiple attempts for a quiz, the log will always show  the ",
             "metadata": {
                 "fields": {
                     "image": "files\/resource-images\/canvas-banner.jpg",
                     "alt": "MacBook Pro near white open book. Original Photo by: Nick Morrison - Unsplash.com"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
-                "type": "resources"
+                "updated": 1585244793,
+                "type": "resources",
+                "readtime": 2,
+                "contentDetails": {
+                    "headings": 12,
+                    "paragraphs": 29,
+                    "schema": [],
+                    "tags": {
+                        "p": 29,
+                        "h2": 2,
+                        "ul": 2,
+                        "h3": 10,
+                        "media-image": 1
+                    },
+                    "elements": 44
+                }
             }
         },
         {

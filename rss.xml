@@ -70,16 +70,6 @@
       <pubDate>Thu, 16 Jun 2022 13:46:40 +0000</pubDate>
     </item>
     <item>
-      <title>My new zoom question</title>
-      <link>/faqs/my-new-zoom-question</link>
-      <description>
-          <![CDATA[ <p>This is my answer.</p> ]]>
-      </description>
-      <category></category>
-      <guid>/faqs/my-new-zoom-question</guid>
-      <pubDate>Mon, 23 Mar 2020 18:26:11 +0000</pubDate>
-    </item>
-    <item>
       <title>Should I use one zoom room for all of my classes?</title>
       <link>/faqs/should-i-use-one-zoom-room-for-all-of-my-classes-</link>
       <description>
@@ -109,6 +99,16 @@
       </description>
       <category></category>
       <guid>/faqs</guid>
+      <pubDate>Thu, 19 Mar 2020 18:50:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Demos</title>
+      <link>/demos</link>
+      <description>
+          <![CDATA[ <p>Demos Page!</p> ]]>
+      </description>
+      <category></category>
+      <guid>/demos</guid>
       <pubDate>Thu, 19 Mar 2020 18:50:37 +0000</pubDate>
     </item>
     <item>
@@ -533,63 +533,62 @@
       <pubDate>Tue, 06 Nov 2018 15:22:36 +0000</pubDate>
     </item>
     <item>
-      <title>Math 017</title>
-      <link>/syllabi/math017</link>
-      <description>
-          <![CDATA[ <p>Coming Soon!</p>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/math017</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chem 111</title>
-      <link>/syllabi/chem111</link>
+      <title>Chem 810</title>
+      <link>/syllabi/chem810</link>
       <description>
           <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
 <p>
-  CHEM 111 is an introductory chemistry laboratory experience that gives
-  students the opportunity to put into practice the essential principles
-  utilized in a professional chemistry laboratory regarding topics relevant to
-  CHEM 110.
+  CHEM 810 is the first in a sequence of liquid chromatography-mass spectrometry
+  (LC-MS) courses designed to fill an industry need to provide high-quality
+  instruction in LC theory and application. The course topics include the
+  background and history of chromatography; fundamental concepts in
+  chromatographic separations; basic instrumentation; column, particle and phase
+  chemistry; and basic method development. The course material is designed to
+  increase student understanding of both the analytical instrument used in the
+  laboratory and the principles underlying the measurements. The course
+  specifically caters to the needs of the analytical chemical industry and
+  individuals newly hired into introductory sample management/preparation and
+  quality assurance/quality control positions within companies using liquid
+  chromatographic techniques.
+</p>
+<p>
+  There is no required textbook. The bulk of the course uses algebra to solve
+  sets of equations. You should feel comfortable doing this and capable of doing
+  this in a timely manner. You will also use Microsoft Excel for a number of
+  assignments. You should feel comfortable preparing spreadsheets, preparing
+  plots, and adding trendlines. If you do not feel confident in these areas talk
+  with the instructor early in the semester so you can acquire some proficiency.
+  Don’t fall behind. Later material in this course depends strongly on earlier
+  material and procrastination can quickly lead to a difficult situation. You
+  should set aside regular times during the week for focused study.
 </p>
 <h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
-<p>Upon successful completion of this course students will be able to:</p>
+<p>After successfully completing this course, the student will be able to:</p>
 <ul>
   <li>
-    Conduct experiments on topics relevant to CHEM 110 in a manner that is safe,
-    economical, and environmentally friendly
+    Identify the factors (and associated equations) which influence the
+    efficiency and resolution of a chromatographic separation and be able to
+    quantify these contributions.
   </li>
   <li>
-    Perform fundamental laboratory manipulations
+    Identify which factors influence column performance.
   </li>
   <li>
-    Make accurate experimental observations
+    Identify the chemical interactions (intermolecular forces) which give rise
+    to analyte separation and use this knowledge to develop isocratic or
+    gradient-based elution methods.
   </li>
   <li>
-    Accurately record and interpret data
+    Evaluate the instrumental contributions (extra-column) to the resolution and
+    efficiency of chromatographic separations.
   </li>
   <li>
-    Recognize sources of error in experiments and estimate their importance
+    Identify and describe the function of each component of an HPLC system.
   </li>
   <li>
-    Plan and produce useful reports of laboratory work that meet acceptable
-    standards of completeness, accuracy, clarity, and neatness
+    Design an SPE sample pretreatment method appropriate for the analyte(s) of
+    interest.
   </li>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
-<ul>
-  <li>
-    <a
-      style="text-decoration: none; color:#e2801e;"
-      href="https://www.carolina.com/catalog/detail.jsp?prodId=581862"
-      target="_blank"
-      >PSU Experimental Chemistry Kit</a
-    >
-  </li>
-  <li>LabArchives (email sent to you)</li>
-  <li>Scientific Calculator (non-programmable)</li>
 </ul>
 <h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
 <table>
@@ -597,148 +596,105 @@
   <th>Topic(s)</th>
   <tr>
     <td>1</td>
-    <td>Course Overview & Safety</td>
+    <td>Background & History of Chromatography</td>
   </tr>
   <tr>
     <td>2</td>
-    <td>"Finding Scientific Information” Module</td>
+    <td>Basics & Terminology</td>
   </tr>
   <tr>
     <td>3</td>
-    <td>Uncertainty and Measurement & Faster, Plop, Plop, Fizz, Fizz</td>
+    <td>Introduction to Instrumentation</td>
   </tr>
   <tr>
     <td>4</td>
-    <td>Atomic Emission</td>
+    <td>Column Basics</td>
   </tr>
   <tr>
     <td>5</td>
-    <td>Physical and Chemical Changes</td>
+    <td>Silica Particles</td>
   </tr>
   <tr>
     <td>6</td>
-    <td>Determination of Water Hardness by Titration</td>
+    <td>Bonding and Packing</td>
   </tr>
   <tr>
     <td>7</td>
-    <td>Bonding and properties of water</td>
+    <td>Intermolecular Forces</td>
   </tr>
   <tr>
     <td>8</td>
-    <td>Work week for project proposal</td>
+    <td>Stationary Phase Chemistry</td>
   </tr>
   <tr>
     <td>9</td>
-    <td>No Investigation<br />Midterm Exam 1 (Weeks 1-7)</td>
+    <td>Mobile Phase Chemistry</td>
   </tr>
   <tr>
     <td>10</td>
-    <td>Fundamentals of Chromatography</td>
+    <td>Basic Method Development</td>
   </tr>
   <tr>
     <td>11</td>
-    <td>Investigating Chemical Reactions</td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>Single replacement reactions: Stoich and percent yield</td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>Gases</td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>Enthalpy of a Reaction Using Hess’s Law</td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>No Investigation<br />Midterm Exam 2 (Weeks 10-14)</td>
+    <td>Sample Preparation</td>
   </tr>
 </table>
-<h2 style="font-size: 24px; font-weight: 400;">Laboratory Investigations (75%)</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Discussions</h2>
 <p>
-  Each week, there will be an investigation to complete. All of the information
-  will be provided on LabArchives. The first two weeks are considered a “dry”
-  lab because there will not be an explicit experiment conducted. Most
-  laboratory investigations will be worth 70 points and consist of three parts:
-  notebook pages, post-lab worksheet, and a quiz. Each part is explained in more
-  detail below. The deadline to submit all parts of the investigation for the
-  week will be on Tuesday of the following week.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Notebook Pages (10 points)</h2>
-<p>
-  There will be a dedicated page in LabArchives for collecting raw data and
-  recording procedural notes.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Post-lab Worksheet (50 points)</h2>
-<p>
-  After completing the investigation and collecting the data, you will complete
-  a worksheet where you will analyze the data. Analysis may consist of
-  performing calculations with the data, making graphs, and assessing accuracy
-  and/or precision of results.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Quiz (10 points)</h2>
-<p>
-  The quiz associated with each laboratory investigation can be completed at
-  anytime during the week on Canvas. You will have 20-mintues and up to two
-  attempts (only the highest score will be kept). The quizzes will test your
-  conceptual understanding of the investigation.
-</p>
-<p>
-  All parts of the lab investigations will be due on Tuesdays by 11:59 pm and
-  should be handed in on time. If they are not handed in on time, substantial
-  penalties will apply (–10% for each day that an assignment is late). Material
-  that is more than one week late will not be accepted.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Midterm Exams (10% each)</h2>
-<p>
-  There will be two (2) midterm exams given over the course of the semester.
-  Exams are schedule on the following dates and times and will require you to
-  come to campus. If you are not able to make the exam at that time, you must
-  make arrangements with instructor for an alternate exam time earlier in the
-  day.
-</p>
-<p>
-  Exams will focus on material covered since the last exam; however, you are
-  still responsible for information presented previously. The exams will consist
-  of short answer questions and open-ended problems. Some questions may be
-  multiple choice. Stay tuned to announcements for details on the format.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Participation (5%)</h2>
-<p>
-  We will have a class forum/chatroom for asking and answering questions about
-  the course using Piazza (accessed in Canvas). You can ask and answer questions
-  here, which will be monitored by the TA and instructor. Please direct your
-  questions here before e-mailing. You will be able to ask and answer
-  anonymously if you wish. The beauty of Piazza is that the entire class can
-  benefit from the questions and answers. More information on enrolling and
-  etiquette for using will be provided during the semester. You must make 10
-  posts (questions or answers) anytime before October 19 to earn all 25
-  participation points for the exam period. You will earn a proportionately
-  lower score for fewer than 10 posts. Make an addition 10 posts (questions or
-  answers) anytime between October 20 and December 7 to earn the remaining 25
-  points.
+  The first activity is to engage in a class discussion related to that week’s
+  assigned problems – questions concerning clarification, problem-solving
+  strategies, and placing the questions into a broader context (when/how/why
+  might such a problem be useful in the practical application of LC). You must
+  post an initial response to any one or all assigned problems by 11:59 PM
+  Wednesday of each week. You will then respond to at least two of your
+  colleagues during the week. You must post your initial response before you are
+  able to respond to others. Even though it is due on Wednesday at the latest,
+  the earlier you can post your initial response during the week offers everyone
+  a greater opportunity to respond to others. As with any academic work,
+  procrastination makes the process more difficult in the long run. Responses to
+  your peers, along with your answers to the assigned problems, are due no later
+  than 11:59 PM Sunday each week.
 </p>
 <h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
 <p>
-  The final grade is calculated based on scores in each assignment category
-  (details follow).
+  The course website provides numerous example problems with detailed
+  instructor-guided solutions and practice problems for which answer keys are
+  provided once an initial answer attempt is submitted. No grade is assigned to
+  the instructor-guided example problems or the practice problems.
+</p>
+<p>
+  Each week, a set of 5-10 proficiency- and mastery-level questions associated
+  with each module will be assigned. Students are encouraged to discuss the
+  questions with each other and the instructor (see Course Schedule above) prior
+  to submitting their answers. Answer keys are not provided.
+</p>
+<p>
+  There are a total of 4 exams, one at the end of each module. Each exam is
+  comprehensive in scope. A minimum score of 70% is required on an end-of-module
+  exam before a student is eligible to access the subsequent module (e.g.., a
+  score of 70% is required on Exam 1 – the exam at the end of Module 1 – before
+  a student is permitted access to the material in Module 2).
+</p>
+<p>
+  In fairness to the instructor who must grade the required course work, and to
+  the other students, late work will not be accepted. Think about this. A
+  substantial number of late or missing work will affect your grade. Stay caught
+  up.
 </p>
 <table>
-  <th>Activity</th>
-  <th>Points</th>
+  <th>Assignment</th>
+  <th>% of Course Points</th>
   <tr>
-    <td>Laboratory Investigations</td>
-    <td>750</td>
+    <td>Discussion Participation</td>
+    <td>200</td>
   </tr>
   <tr>
-    <td>Midterm Exams(2)</td>
-    <td>100 each / 200 total</td>
+    <td>Problem Assignments</td>
+    <td>400</td>
   </tr>
   <tr>
-    <td>Participation</td>
-    <td>50</td>
+    <td>Lecture Exams</td>
+    <td>400</td>
   </tr>
   <tr>
     <td>Total</td>
@@ -748,552 +704,544 @@
 <h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
 <table>
   <th>Letter Grade</th>
-  <th>% of Course Points</th>
+  <th>Points Earned</th>
   <tr>
     <td>A</td>
-    <td>93-100%</td>
+    <td>930-1000</td>
   </tr>
   <tr>
     <td>A-</td>
-    <td>90-92%</td>
+    <td>900-929</td>
   </tr>
   <tr>
     <td>B+</td>
-    <td>91-87%</td>
+    <td>870-899</td>
   </tr>
   <tr>
     <td>B</td>
-    <td>83-90%</td>
+    <td>820-869</td>
   </tr>
   <tr>
     <td>B-</td>
-    <td>80-82%</td>
+    <td>780-819</td>
   </tr>
   <tr>
     <td>C+</td>
-    <td>77-79%</td>
+    <td>750-779</td>
   </tr>
   <tr>
     <td>C</td>
-    <td>69-76%</td>
+    <td>700-749</td>
   </tr>
   <tr>
     <td>D</td>
-    <td>57-68%</td>
+    <td>600-699</td>
   </tr>
   <tr>
     <td>F</td>
-    <td>< 56%</td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Make-up Exams</h2>
-<p>
-  As required by University regulations, students who miss an exam with a valid
-  excuse (family emergency, illness, university-scheduled activities, etc.) will
-  be given an opportunity to make-up the exam. Prearranged make ups can be taken
-  earlier in the exam week. In order to be eligible for the make-up exam ALL of
-  the following conditions MUST be fulfilled:
-</p>
-<ol>
-  <li>
-    The missed exam is the result of a University-approved excuse. Per Senate
-    Policy 42-27, “Requests for missing class or an evaluative event due to
-    reasons that are based on false claims may be considered violations of the
-    policy on Academic Integrity”
-  </li>
-  <li>
-    Instructor must be notified in writing (email is preferred) within 24 hours
-    of the missed exam.
-  </li>
-  <li>
-    You must schedule a make up for the exam within 1 week of the original exam
-    date.
-  </li>
-</ol>
-<h2 style="font-size: 24px; font-weight: 400;">Regrades and Grade Corrections</h2>
-<p>
-  If after an exam or laboratory investigation is returned there is a question
-  concerning the grading of the assignment, the material should be resubmitted
-  to instructor for full reconsideration. Under no circumstances will anyone
-  else make changes to the grades. All requests for re-grading are to be made in
-  writing according to the procedure outlined below and must be submitted to
-  instructor within one week of receiving the feedback. Note that the entire
-  assignment will be regraded and this may result in a lower grade. Late
-  re-grades will not be accepted and will not be considered at the end of the
-  semester.
-</p>
-<p>
-  The written request for a re-grade must be on a separate piece of paper. DO
-  NOT ALTER THE ORIGINAL SUBMISSION. The re-grade must include an explanation as
-  to why you feel the problem should be re-graded. I will not discuss with you
-  whether or not you should submit a re-grade. "Brief comparisons" which consist
-  of "I think I deserve more points" or “the answer is correct because my friend
-  had the same answer” are NOT reconsidered.
-</p>
-<p>
-  Note: Addition errors made during point totaling are not considered re-grades
-  and may be given to the instructor for correction at any time during the
-  semester.
-</p>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/chem111</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Math 021</title>
-      <link>/syllabi/math021</link>
-      <description>
-          <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
-<p>
-  An extensive look into Quadratic equations; equations in quadratic form; word
-  problems, graphing; algebraic fractions; negative and rational exponents, and
-  radicals.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Prerequisite</h2>
-<p>
-  Math 4 or satisfactory performance on the mathematics proficiency examination.
-  Students who do not meet the prerequisite may have great difficulty in the
-  course.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
-<p>
-  <strong>Unit 0</strong>
-  is designed to ascertain prerequisite knowledge and skills which will
-  facilitate success in this class. Students are expected to know and/or review
-  and master most of these review topics on ALEKS within the first week of the
-  class. Some of the topics are reviewed as needed in subsequent units.
-</p>
-<ul>
-  <li>Simplify numerical expressions.</li>
-  <li>Perform arithmetic operations with real numbers.</li>
-  <li>Apply properties of real numbers to simplify expressions.</li>
-  <li>Evaluate basic exponential expressions.</li>
-  <li>Simplify and evaluate basic algebraic expressions.</li>
-  <li>Solve first-degree equations.</li>
-  <li>Use equations to solve word problems.</li>
-  <li>Solve equations involving fractions or decimals.</li>
-  <li>
-    Solve basic word problems involving discounts and selling price, simple
-    interest, and mixtures.
-  </li>
-  <li>Solve inequalities, and write solution sets in interval notation.</li>
-  <li>Solve inequalities involving fractions or decimals.</li>
-  <li>Solve compound inequalities.</li>
-  <li>Use inequalities to solve word problems.</li>
-  <li>Solve equations and inequalities that involve absolute value.</li>
-  <li>Find and graph solutions for linear equations in two variables.</li>
-  <li>Graph linear equations by finding the x and y intercepts.</li>
-  <li>
-    Graph lines passing through the origin, vertical lines, and horizontal
-    lines.
-  </li>
-  <li>Use the distance formula.</li>
-  <li>Determine the slope of a line, and use slope to graph lines.</li>
-  <li>Determine the point-slope equation of a line.</li>
-  <li>Determine the slope-intercept equation of a line.</li>
-  <li>Find equations for parallel or perpendicular lines.</li>
-  <li>Add, subtract, and multiply polynomials.</li>
-  <li>Divide monomials.</li>
-  <li>Factor out the greatest common factor.</li>
-  <li>Factor by grouping.</li>
-  <li>
-    Factor the difference of two squares and the sum or difference of two cubes.
-  </li>
-  <li>Factor trinomials by trial-and-error and the four-step method.</li>
-  <li>Solve polynomial equations by factoring.</li>
-  <li>Solve systems of linear equations by graphing and substitution</li>
-</ul>
-<p>
-  <strong>Unit 1</strong>
-  contains review topics, however some of the topics may extend ideas which may
-  be new to students. Upon successfully completing this unit, the student should
-  be able to:
-</p>
-<ul>
-  <li>
-    Determine and interpret the slope of a line as a rate of change from: a
-    table, a set of ordered points, an equation or a graph.
-  </li>
-  <li>
-    Determine and utilize the point-slope equation of a line.
-  </li>
-  <li>
-    Determine and utilize the slope-intercept equation of a line.
-  </li>
-  <li>Determine if two given lines are perpendicular or parallel.</li>
-  <li>
-    Write linear equations and graph lines that are parallel and perpendicular
-    to a given line and passing through a given point.
-  </li>
-  <li>
-    Apply The Pythagorean Formula to create and use the distance formula to find
-    and interpret the distance between any two points on a line.
-  </li>
-  <li>Use the midpoint formula.</li>
-  <li>
-    Identify linear, quadratic, cubic, square root and absolute value functions
-    from algebraic, graphical, tabular and verbal representations.
-  </li>
-  <li>
-    Use function notation and piecewise defined function notation when
-    evaluating polynomial and absolute value functions respectively.
-  </li>
-  <li>
-    Determine the solution set for linear inequalities and graph the solution
-    set on a number line.
-  </li>
-  <li>
-    Determine the solution set for absolute value equations and inequalities and
-    graph the solution set on a number line.
-  </li>
-  <li>
-    Translate applications into algebraic models (equations and inequalities)
-    involving linear and absolute value functions.
-  </li>
-  <li>
-    Determine and interpret the solution sets for applications modeled by linear
-    and absolute value equations and inequalities.
-  </li>
-  <li>
-    Understand and utilize set notation and interval notation to describe,
-    interpret and plot intervals and discrete points on a number line.
-  </li>
-  <li>
-    Solve a system of two linear equations in two variables by substitution,
-    graphing or elimination.
-  </li>
-  <li>
-    Solve a system of three linear equations in three variables by elimination.
-  </li>
-  <li>
-    Model applications which may be represented by a system of 2 linear
-    equations and determine the solution set of the resulting system.
-  </li>
-</ul>
-<p>
-  <strong>Unit 2</strong>
-  consists of topics associated with polynomial and rational expressions and
-  functions. Upon successfully completing this unit, the student should be able
-  to:
-</p>
-<ul>
-  <li>Solve literal equations (solve for one variable in terms of another).</li>
-  <li>Factor basic algebraic expressions (GCF and polynomial factoring).</li>
-  <li>Simplify rational expressions.</li>
-  <li>Add, subtract, multiply, and divide rational expressions.</li>
-  <li>Simplify complex fractions.</li>
-  <li>
-    Identify Polynomial and Rational functions from algebraic, graphical,
-    tabular and verbal representations.
-  </li>
-  <li>Determine the solution set for polynomial and rational equations.</li>
-  <li>
-    Translate applications into algebraic models involving polynomial and
-    rational functions.
-  </li>
-  <li>
-    Determine and interpret the solution sets for applications modeled by
-    polynomial and rational functions.
-  </li>
-  <li>Determine the solution sets of polynomial and rational inequalities.</li>
-  <li>
-    Identify graphs and develop graphs for basic polynomial and rational
-    functions by utilizing symmetry, intercepts, and translation techniques.
-  </li>
-</ul>
-<p>
-  <strong>Unit 3</strong>
-  consists of topics associated with radical expressions and functions. Upon
-  successfully completing this unit, the student should be able to:
-</p>
-<ul>
-  <li>
-    Identify Radical functions from algebraic and graphical representations.
-  </li>
-  <li>
-    Convert from radical notation to rational exponent notation and from
-    exponent notation to radical notation.
-  </li>
-  <li>Simplify radical expressions.</li>
-  <li>Add, subtract, multiply, and divide radical expressions.</li>
-  <li>Simplify radical expressions in terms of i.</li>
-  <li>
-    Add, subtract, multiply, and divide complex numbers and write solutions in
-    standard form.
-  </li>
-  <li>Determine and verify solution sets of radical equations.</li>
-  <li>
-    Translate applications into algebraic models involving radical functions.
-  </li>
-  <li>
-    Determine, verify, and interpret the solution sets for applications modeled
-    by radical functions.
-  </li>
-  <li>
-    Identify graphs and develop graphs for basic radical functions by plotting
-    points and utilizing translation techniques.
-  </li>
-</ul>
-<p>
-  <strong>Unit 4</strong>
-  consists of topics associated with quadratic equations and inequalities,
-  quadratic models, parabolas, circles and applications of the midpoint and
-  distance formulas. Upon successfully completing this unit, the student should
-  be able to:
-</p>
-<ul>
-  <li>
-    Determine the solution set of quadratic equations by factoring, using the
-    square root property, completing the square, and the quadratic formula.
-  </li>
-  <li>
-    Determine the number and type of solutions to a quadratic equation using the
-    discriminant.
-  </li>
-  <li>
-    Given a quadratic function, write in standard form, identify the vertex and
-    whether the vertex represents a maximum or minimum value.
-  </li>
-  <li>
-    Write the quadratic function which represents a given graph of a parabola.
-  </li>
-  <li>
-    Graph parabolas utilizing the vertex, symmetry, intercepts, end-behavior and
-    translation techniques.
-  </li>
-  <li>
-    Translate applications into algebraic models involving quadratic functions.
-  </li>
-  <li>
-    Determine and interpret the solution sets for applications modeled by
-    quadratic functions.
-  </li>
-  <li>
-    Apply the distance formula and the midpoint formula to geometric
-    applications.
-  </li>
-  <li>
-    Interpret the description or graph of a circle to identify the center and
-    the radius and write the equation of the circle in standard form.
-  </li>
-  <li>
-    Convert a non-standard equation of a circle to standard form by completing
-    the square and identify the center and radius.
-  </li>
-  <li>Graph circles from equations using the center and radius.</li>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
-<p>
-  One-semester subscription access to ALEKS and the electronic copy of
-  "Intermediate Algebra, 4th edition" published by McGraw-Hill, 2013. Authors:
-  Julie Miller, Molly O'Neill, and Nancy Hyde. Access to ALEKS combined with
-  access to the eBook can be purchased through ALEKS (
-  <a
-    style="text-decoration: none; color:#e2801e;"
-    href="https://www.aleks.com/"
-    target="_blank"
-    >www.aleks.com</a
-  >
-  ) using the course code and instructions found in the Orientation materials.
-  The price is approximately $85. This option is much less expensive than buying
-  the book and the code separately.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Textbook (Optional)</h2>
-<p>
-  If you would like a hard copy of the text, you may purchase the text from an
-  online text vendor of your choice. The ISBN is 9780073384498.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
-<table>
-  <th>Unit</th>
-  <th>Topic(s)</th>
-  <tr>
-    <td>0</td>
-    <td>Review and Readiness</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Solving Linear Equations and Linear Systems</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Polynomial and Rational Expressions</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Radical Expressions and Complex Numbers</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Quadratic Equations, Functions, and Inequalities and Circles</td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Algebraic Skills</h2>
-<p>
-  Algebraic skills will be primarily developed through work on ALEKS. ALEKS is a
-  web-based tutorial system which provides students with ongoing skills based
-  assessments and tracks progress. The midterm and final exams will also entail
-  skills based problems.
-</p>
-<p>
-  As necessary, lectures will be done via BlackBoard Collaborate. The midterm
-  and final exams will administered via Canvas.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">ALEKS</h2>
-<p>
-  Essentially all of the skills based work will be conducted through ALEKS. The
-  ALEKS system will do ongoing assessments of skills based problems and track
-  student progress. ALEKS is a major component of the course and a typical
-  college algebra student will need to plan on 5-8 hours of online work each
-  week (60-90 hours for the course). Skills based points will be earned by
-  measuring mastered objective milestones and skills based ALEKS quizzes.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Canvas</h2>
-<p>
-  The course management system is Canvas. Canvas will be used to deliver, the
-  midterm exam and the final exam and associated practice/study exams.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">PIAZZA & BlackBoard Collaborate</h2>
-<p>
-  Participation in the course is gauged via a student's interaction on Piazza
-  and live sessions. Students are expected to ask questions, pose problems and
-  answer questions via the Piazza bulletin board.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
-<p>
-  The total number of points for the course will be 600 points. Work completed
-  in ALEKS, which builds skills, will be worth 230 points. Participation points
-  for active participation on the Piazza bulletin board and BlackBoard Live
-  sessions is worth 20 points. The last component of the course consists of two
-  (2) proctored exams, a midterm exam (150 points) and a comprehensive final
-  exam (200 points). The final grade will be determined by the sum of these four
-  areas.
-</p>
-<table>
-  <th>PIAZZA & BlackBoard</th>
-  <th>ALEKS</th>
-  <th>CANVAS Exams</th>
-  <tr>
-    <td>4 Participation Discussions (5 pts / each)</td>
-    <td>Readiness Assessment (10 pts)</td>
-    <td>Midterm Exam (150 pts)</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>4 ALEKS Quizzes (40 pts / each)</td>
-    <td>Final Exam (200 pts)</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>6 Unit Reviews (10 pts / each)</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>20 pts</td>
-    <td>230 pts</td>
-    <td>350 pts</td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Grading Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% Score</th>
-  <th>Total Points</th>
-  <tr>
-    <td>A</td>
-    <td>90-100</td>
-    <td>537-600</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>80-89</td>
-    <td>477-536</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-79</td>
-    <td>417-476</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-69</td>
-    <td>357-416</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>0-59</td>
-    <td>0-356</td>
+    <td> < 600</td>
   </tr>
 </table>
  ]]>
       </description>
       <category></category>
-      <guid>/syllabi/math021</guid>
+      <guid>/syllabi/chem810</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
-      <title>Math 022</title>
-      <link>/syllabi/math022</link>
+      <title>Chem 811</title>
+      <link>/syllabi/chem811</link>
+      <description>
+          <![CDATA[ <p>CHEM 811 Syllabus Coming Soon!</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/chem811</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chem 812</title>
+      <link>/syllabi/chem812</link>
+      <description>
+          <![CDATA[ <p>CHEM 812 Syllabus Coming Soon!</p> ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/chem812</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Math 036</title>
+      <link>/syllabi/math036</link>
       <description>
           <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
 <p>
-  College Algebra II represents a significant opportunity for students to
-  discover the beauty and practical power of mathematics. Concepts and skills
-  are taught while at the same time a sense of algebra's utility in the real
-  world is imparted. This course provides indepth coverage of college algebra
-  topics that students continuing in mathematics will require. This is the kind
-  of mathematics that students will use the rest of their lives in many fields.
-  MATH 022 is a preparatory course intended to provide mathematical background
-  in algebra with a function/graph emphasis required in calculus courses.
-  Linear, polynomial, rational, exponential and logarithmic functions and their
-  graphs provide necessary models for mathematical applications.
+  This course will provide students the mathematical background and quantitative
+  skills in various mathematical applications in such areas which are related to
+  voting, fair divisions which includes apportionment methods, and the
+  understanding and application of basic graph theory such as Euler and Hamilton
+  circuits. This course may be used by students from non-technical majors to
+  satisfy 3 credits of their General Education Quantification (GQ) requirement.
+  This course does not serve as a prerequisite for any mathematics courses and
+  should be treated as a terminal course.
 </p>
 <h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
-<p>Upon successful completion fo the course, students should be able to:</p>
+<p>Upon successful completion of MATH 036, the student should be able to:</p>
+<h2 style="font-size: 24px; font-weight: 400;">The Mathematics of Voting</h2>
 <ul>
-  <li>Solve various types of basic equations.</li>
-  <li>Solve linear, absolute value, non-linear and rational inequalities.</li>
-  <li>
-    Identify functions from algebraic, graphical, tabular and verbal
-    representations.
-  </li>
-  <li>Use function notation when evaluating functions.</li>
-  <li>Identify domain and range of functions.</li>
-  <li>Graph a piece-wise defined function.</li>
-  <li>
-    Identify properties of graphs such as relative and global extrema, symmetry,
-    increasing, decreasing, even, and odd.
-  </li>
-  <li>Identify graphs of Basic Functions and their properties.</li>
-  <li>Transform the graph of a function.</li>
-  <li>Translate the graph of a circle in standard or general form.</li>
-  <li>Write the equation of a line.</li>
-  <li>Write equations of parallel and perpendicular lines to a given line.</li>
-  <li>Extract information from linear and quadratic models.</li>
-  <li>Translate applications into algebraic models and solve.</li>
-  <li>Perform operations on functions, including composition of functions.</li>
-  <li>Identify one-to-one functions.</li>
-  <li>
-    Identify, analyze and graph the inverse of a function. Find the inverse of a
-    given function.
-  </li>
-  <li>Analyze and graph polynomials functions.</li>
-  <li>Divide a polynomial function by another polynomial function.</li>
-  <li>Apply the Remainder Theorem and Factor Theorem.</li>
-  <li>Graph rational functions.</li>
-  <li>Analyze and graph exponential and logarithmic functions.</li>
-  <li>Solve exponential equations.</li>
-  <li>Solve logarithmic equations.</li>
-  <li>Explain what a logarithm is.</li>
-  <li>Use logarithm properties to simplify an expression.</li>
-  <li>Set up and solve exponential and logarithmic application problems.</li>
+  <li>Preference Ballots and Schedules</li>
+  <ul>
+    <li>Construct a preference ballot</li>
+    <li>
+      Apply the Multiplication Rule to count total possible preference ballot
+      outcomes
+    </li>
+    <li>Construct a preference schedule</li>
+    <li>Apply the Transitive Property to determine voting preferences</li>
+  </ul>
+</ul>
+<ul>
+  <li>The Plurality Method</li>
+  <ul>
+    <li>
+      Given a preference schedule, identify a majority candidate and a plurality
+      candidate
+    </li>
+    <li>
+      Given a preference schedule, apply the plurality method to determine a
+      winner
+    </li>
+    <li>
+      Determine the number of points a candidate needs to when when partial
+      results are given
+    </li>
+    <li>Describe when the plurality method is appropriate to use</li>
+    <li>Determine if a voting method violates the majority criterion.</li>
+  </ul>
+</ul>
+<ul>
+  <li>Plurality with Elimination Method</li>
+  <ul>
+    <li>Use the Plurality with Elimination Method to determine a winner</li>
+    <li>
+      Describe when the Plurality with Elimination Method is appropriate to use
+    </li>
+    <li>
+      Understand the Monotonicity Criterion and determine if a voting method
+      supports or violates the Monotonicity Criterion
+    </li>
+  </ul>
+</ul>
+<ul>
+  <li>Borda Count Method</li>
+  <ul>
+    <li>Use the Borda Count Method to determine a winner</li>
+    <li>Determine the number of points given out in one ballot</li>
+    <li>Determine the maximum number of points that a candidate can receive</li>
+    <li>Determine the minimum number of points a candidate can receive</li>
+    <li>
+      Determine the total number of points awarded when there are n candidates
+    </li>
+    <li>Determine the winner of an election when partial results are given</li>
+    <li>Describe when the Borda Count Method is appropriate to use</li>
+    <li>
+      Understand the Monotonicity Criterion and determine if a voting method
+      supports or violates the Monotonicity Criterion
+    </li>
+  </ul>
+</ul>
+<ul>
+  <li>Pairwise Comparisons Method</li>
+  <ul>
+    <li>
+      Determine the total number of Pairwise Comparisons when there are n
+      candidates
+    </li>
+    <li>Use the Pairwise Comparison Method to determine a winner</li>
+    <li>Determine appropriate methods to break ties</li>
+    <li>Determine a winner when partial results are given</li>
+    <li>Describe when the Pairwise Comparison Method is appropriate to use</li>
+    <li>
+      Understand the Condorcet Criterion and determine if a voting method
+      supports or violates the Condorcet Criterion
+    </li>
+  </ul>
+</ul>
+<ul>
+  <li>Applications</li>
+  <ul>
+    <li>
+      Construct a round-robin tournament (or pool play) to determine a winner
+    </li>
+    <li>
+      Construct a table to identify when the 4 different methods can violate the
+      4 different criterions
+    </li>
+    <li>Calculate the sum of all integers from 1 to L</li>
+    <li>
+      Read the constitution of the United States and learn the method for
+      determining the President of the United States
+    </li>
+    <li>Explain Arrow’s Impossibility Theorem</li>
+  </ul>
+</ul>
+<h2 style="font-size: 24px; font-weight: 400;">Weighted Voting</h2>
+<ul>
+  <li>Weighted Voting Systems</li>
+  <ul>
+    <li>
+      Learn and correctly use the terminology for weighted voting systems:
+      players, weights, quotas
+    </li>
+    <li>
+      Identify dictators, dummies, veto power or some power players in a
+      weighted voting system
+    </li>
+    <li>
+      Identify trends in players powers as the quota ranges from its lowest
+      value to its highest value
+    </li>
+  </ul>
+</ul>
+<ul>
+  <li>Banzhaf Power Index</li>
+  <ul>
+    <li>
+      Learn and correctly use the terminology for the Banzhaf Power Index:
+      coalition, winning coalition, critical player
+    </li>
+    <li>Calculate the Banzhaf Power Index for a weighted voting system</li>
+    <li>
+      Calculate the total number of coalitions for a weighted voting system
+    </li>
+  </ul>
+</ul>
+<ul>
+  <li>Shapely-Shubik Power Index</li>
+  <ul>
+    <li>
+      Learn and correctly use the terminology for the Shapely-Shubik Power
+      Index: sequential coalition, winning coalition, pivotal player
+    </li>
+    <li>
+      Calculate the Shapely-Shubik Power Index for a weighted voting system
+    </li>
+    <li>
+      Calculate the total number of sequential coalitions for a weighted voting
+      system
+    </li>
+  </ul>
+</ul>
+<ul>
+  <li>Applications</li>
+  <ul>
+    <li>Use and calculate factorial notation</li>
+    <li>
+      Determine the number of coalitions and sequential coalitions for n players
+      in a weighted voting system and determine which power index method would
+      be most efficient
+    </li>
+    <li>
+      Calculate the Banzhaf and Shapely Shubik Power Index for a voting system
+      with 4 players and one player determines the tie
+    </li>
+    <li>
+      Learn how the Vice-president’s power in the Senate relates to an
+      individual senator’s power.
+    </li>
+  </ul>
+</ul>
+<h2 style="font-size: 24px; font-weight: 400;">Fair Division</h2>
+<ul>
+  <li>Fair Shares</li>
+  <ul>
+    <li>
+      Learn and use the terminology of fair division game: goods, players, value
+      system
+    </li>
+    <li>
+      Identify whether a fair division game is continuous, discrete or mixed
+    </li>
+    <li>Identify when a player has received a fair share</li>
+  </ul>
+</ul>
+<ul>
+  <li>Divider−Chooser Method</li>
+  <ul>
+    <li>
+      Divide an item into fair shares based on a player's value system
+    </li>
+    <li>Explain the Divider Chooser Method</li>
+    <li>Use the Divider-Chooser Method to divide an item</li>
+    <li>Identify when this is an appropriate method to use</li>
+  </ul>
+</ul>
+<ul>
+  <li>Lone-Divider Method</li>
+  <ul>
+    <li>Explain the Lone-Divider Method</li>
+    <li>Use the Lone-Divider Method to divide goods</li>
+    <li>
+      Determine a fair division using the Lone-Divider Method, with missing
+      information
+    </li>
+    <li>Identify when this is an appropriate method to use</li>
+  </ul>
+</ul>
+<ul>
+  <li>Lone-Chooser Method</li>
+  <ul>
+    <li>Explain the Lone-Chooser Method</li>
+    <li>Use the Lone-Chooser Method to divide goods</li>
+    <li>Identify when this is an appropriate method to use</li>
+  </ul>
+</ul>
+<ul>
+  <li>Method of Sealed Bids</li>
+  <ul>
+    <li>Explain the Method of Sealed Bids</li>
+    <li>Use the Method of Sealed Bids to divide goods</li>
+    <li>Identify when this is an appropriate method to use</li>
+  </ul>
+</ul>
+<ul>
+  <li>Method of Markers</li>
+</ul>
+<ul>
+  <li>Explain the Method of Markers</li>
+  <ul>
+    <li>Use the Method of Markers to divide goods</li>
+    <li>
+      Determine a fair division when the value of the items are related to each
+      other
+    </li>
+    <li>Identify when this is an appropriate method to use</li>
+  </ul>
+</ul>
+<ul>
+  <li>Applications</li>
+  <ul>
+    <li>Divider-Chooser Method for a donut</li>
+    <li>Method of Markers for candy</li>
+  </ul>
+</ul>
+<h2 style="font-size: 24px; font-weight: 400;">The Mathmatics of Apportionment</h2>
+<ul>
+  <li>Apportionment Problems</li>
+  <ul>
+    <li>
+      Learn and use the terminology of apportionment: states, seats,
+      populations, standard divisor, standard quota
+    </li>
+    <li>Calculate the standard divisor and standard quotas</li>
+    <li>
+      Calculate the number of seats and standard divisor given the standard
+      quotas
+    </li>
+  </ul>
+</ul>
+<ul>
+  <li>Hamilton’s Method and the Quota Rule</li>
+  <ul>
+    <li>Explain Hamilton’s Method of Apportionment</li>
+    <li>Calculate an apportionment using Hamilton’s Method</li>
+    <li>Explain the Alabama Paradox</li>
+    <li>Explain the New States Paradox</li>
+    <li>Explain the Population Paradox</li>
+  </ul>
+</ul>
+<ul>
+  <li>Jefferson’s Method</li>
+  <ul>
+    <li>Explain Jefferson’s Method of Apportionment</li>
+    <li>Calculate an apportionment using Jefferson’s Method</li>
+    <li>Explain how Jefferson’s Method can violate the quota rule</li>
+  </ul>
+</ul>
+<ul>
+  <li>Adam’s Method</li>
+  <ul>
+    <li>Explain Adam’s Method of Apportionment</li>
+    <li>Calculate an apportionment using Adam’s Method</li>
+    <li>Explain how Adam’s Method can violate the quota rule</li>
+  </ul>
+</ul>
+<ul>
+  <li>Webster’s Method</li>
+  <ul>
+    <li>Explain Webster’s Method of Apportionment</li>
+    <li>Calculate an apportionment using Webster’s Method</li>
+    <li>Explain how Webster’s Method can violate the quota rule</li>
+  </ul>
+</ul>
+<ul>
+  <li>Applications</li>
+  <ul>
+    <li>
+      Construct a chart to show the different apportionment methods indicating
+      violations that can occur
+    </li>
+    <li>
+      Read the US Constitution and learn the apportionment that is required
+    </li>
+    <li>
+      Learn what is the current method used for apportioning the representatives
+      for the House of Representatives
+    </li>
+  </ul>
+</ul>
+<h2 style="font-size: 24px; font-weight: 400;">Euler Circuits</h2>
+<ul>
+  <li>Graph Concepts and Terminology</li>
+  <ul>
+    <li>
+      Learn and use the terminology for graphs: vertex, edge degree of vertex,
+      same graph representations, loops, multiple edges, path, circuit
+    </li>
+    <li>Recognize an Euler Path</li>
+    <li>Recognize an Euler Circuit</li>
+  </ul>
+</ul>
+<ul>
+  <li>Graph Models</li>
+  <ul>
+    <li>
+      Construct a graph to represent relationships within a set of objects
+    </li>
+    <li>Construct a graph to represent a city or neighborhood</li>
+  </ul>
+</ul>
+<ul>
+  <li>Euler’s Theorems</li>
+  <ul>
+    <li>Use Euler’s Theorem to determine if a graph has an Euler Path</li>
+    <li>Use Euler’s Theorem to determine if a graph has an Euler Circuit</li>
+    <li>
+      Use Euler’s Theorem to determine the relationship between the sum of the
+      degrees of the vertices and the number of edges
+    </li>
+  </ul>
+</ul>
+<ul>
+  <li>Fleury’s Theorem</li>
+  <ul>
+    <li>Use Fleury’s Algorithm to determine an Euler circuit.</li>
+    <li>
+      Determine the edges that have to be traveled to complete an Euler circuit
+    </li>
+  </ul>
+</ul>
+<ul>
+  <li>Eulerizing Graphs</li>
+  <ul>
+    <li>Determine an optimal eulerization for a graph</li>
+    <li>Determine an optimal semi-eulerization for a graph</li>
+  </ul>
+</ul>
+<ul>
+  <li>Applications</li>
+  <ul>
+    <li>Determine if a graph is an open or closed unicursal tracing</li>
+    <li>Determine an Euler circuit for an applied graph</li>
+  </ul>
+</ul>
+<h2 style="font-size: 24px; font-weight: 400;">The Traveling Salesman Problem</h2>
+<ul>
+  <li>Hamilton Circuits and Hamilton Paths</li>
+  <ul>
+    <li>
+      Learn and use the terminology for Hamilton circuits and paths: weight of
+      edges, paths and circuits
+    </li>
+    <li>Calculate the weight for a Hamilton circuit and a Hamilton Path</li>
+  </ul>
+</ul>
+<ul>
+  <li>Complete Graphs</li>
+  <ul>
+    <li>Identify a complete graph</li>
+    <li>
+      Given a complete graph, determine the degree of each vertex and the total
+      number of edges
+    </li>
+    <li>Identify a mirror image circuit</li>
+    <li>Calculate the number of Hamilton circuits for a complete graph</li>
+  </ul>
+</ul>
+<ul>
+  <li>Traveling Salesman Problems</li>
+  <ul>
+    <li>Identify when a problem is an example of a Traveling Salesman</li>
+    <li>
+      Differentiate between a Hamilton Circuit(Path) and an Euler Circuit(Path)
+    </li>
+  </ul>
+</ul>
+<ul>
+  <li>Brute-Force Method</li>
+  <ul>
+    <li>
+      Calculate the number of circuits required to determine the optimal
+      solution
+    </li>
+    <li>
+      Use the Brute-Force Method to determine the optimal solution given a graph
+    </li>
+    <li>
+      Use the Brute-Force Method to determine the optimal solution given a table
+    </li>
+  </ul>
+</ul>
+<ul>
+  <li>Nearest Neighbor and Repetitive Nearest Neighbor Method</li>
+  <ul>
+    <li>
+      Calculate the number of circuits required to determine the optimal
+      solution
+    </li>
+    <li>
+      Use the Nearest Neighbor Method to determine the optimal solution given a
+      graph
+    </li>
+    <li>
+      Use the Nearest Neighbor Method to determine the optimal solution given a
+      table
+    </li>
+    <li>
+      Use the Repetitive Nearest Neighbor to determine the optimal solution
+      given a graph
+    </li>
+    <li>
+      Use the Repetitive Nearest Neighbor to determine the optimal solution
+      given a table
+    </li>
+  </ul>
+</ul>
+<ul>
+  <li>The Cheapest Link Method</li>
+  <ul>
+    <li>
+      Calculate the number of circuits required to determine the optimal
+      solution
+    </li>
+    <li>
+      Use the Cheapest Link to determine the optimal solution given a table
+    </li>
+    <li>
+      Use the Cheapest Link to determine the optimal solution given a graph
+    </li>
+  </ul>
+</ul>
+<ul>
+  <li>Applications</li>
+  <ul>
+    <li>Determine which methods are optimal or approximate</li>
+    <li>Determine which methods are efficient or inefficient</li>
+    <li>Perform computations with factorial notation</li>
+  </ul>
 </ul>
 <h2 style="font-size: 24px; font-weight: 400;">Textbook</h2>
 <p>
-  College Algebra, 2nd Edition by John W. Coburn (McGraw-Hill, 2010)
-  pre-packaged with one-semester access to ALEKS
+  Excursions in Modern Mathematics, 7th ed., Prentice Hall 2010. Peter
+  Tannenbaum.
 </p>
 <h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
 <table>
@@ -1304,143 +1252,66 @@
     </tr>
     <tr>
       <td>1</td>
-      <td>
-        Extensive review of intermediate algebra topics. The review will
-        include: solving linear equations and inequalities, fundamental concepts
-        associated with quadratic equations, solving equations and inequalities
-        with absolute values and other miscellaneous equations involving
-        rational expressions and radical expressions. An introduction to complex
-        number arithmetic is also included.
-      </td>
+      <td>The mathematics of voting and counting votes</td>
     </tr>
     <tr>
       <td>2</td>
-      <td>
-        General concepts associated with relations and functions. Topics such as
-        the algebra of functions, function composition and range and domain are
-        studied. The graphical representation of linear and quadratic functions
-        are also presented. The algebraic and graphical representation of
-        circles will also be studied as it pertains to terminology associated
-        with relations in general. Basic graphical transformations are
-        introduced.
-      </td>
+      <td>Fair games and congressional apportionment</td>
     </tr>
     <tr>
       <td>3</td>
-      <td>
-        Polynomial and rational functions are studied in detail. In particular,
-        ideas associated with zeros of polynomials, end-behavior, and graph
-        sketching are discussed. The unit includes synthetic division, the
-        remainder theorem, the conjugate root theorem, horizontal and slant
-        (oblique) asymptotes, and vertical asymptotes.
-      </td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>
-        Exponential and logarithmic functions are studied in detail. Specific
-        skills entail working with the rules of exponents and logarithms and
-        solving exponential and logarithmic equations. Concepts associated with
-        one-to-one functions and the existence of inverses are also studied.
-        Sketching and recognizing the graphical representation of exponential
-        and log functions is included.
-      </td>
+      <td>Introduction to graph theory and routing applications</td>
     </tr>
   </tbody>
 </table>
-<h2 style="font-size: 24px; font-weight: 400;">Algebraic Skills</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Weekly Work</h2>
 <p>
-  Algebraic skills will be primarily developed through work on ALEKS. ALEKS is a
-  web-based tutorial system which provides students with ongoing skills based
-  assessments and tracks progress. The midterm and final exams will also entail
-  skills based problems.
+  Watch assigned mini lecture videos and attend a weely lecture (or review the
+  recorded session). Suggested problems will be assigned, but will not be
+  submitted. Most weeks will also have a specific assignement which is due.
+  These "specific assignements" will vary depending upon the curriculum material
+  of the week.
 </p>
+<h2 style="font-size: 24px; font-weight: 400;">Exams</h2>
 <p>
-  As necessary, lectures will be done via BlackBoard Collaborate. The midterm
-  and final exams will administered via Canvas.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Conceptual Skills</h2>
-<p>
-  Conceptual Skills will be incorporated in lectures, reading, and activities.
-  Lectures and activities will be conducted approximately every other week. A
-  typical lecture and/or activity will tie skill based ideas together to provide
-  a larger overview of the topics. Lectures will be done via Elluminate and
-  activities will be based upon discussion board prompts and/or assigned tasks
-  from the text. The final exam will also incorporate questions which relate to
-  the conceptual tasks.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">ALEKS</h2>
-<p>
-  Essentially all of the skills based work will be conducted through ALEKS. The
-  ALEKS system will do ongoing assessments of skills based problems and track
-  student progress. ALEKS is a major component of the course and a typical
-  college algebra student will need to plan on 4-6 hours of online work each
-  week (50-60 hours for the course). Skills based points will be earned by
-  measuring mastered objective milestones and skills based ALEKS quizzes.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Readings / Problems</h2>
-<p>
-  he text will be primarily used to tie ideas to concepts and skills together.
-  This will be done through assigned readings and suggested problems.
-  Occasionally, a problem may be selected to emphasize a specific skill that
-  ALEKS did not adequately incorporate. Some of the activities will stem from
-  the text. Finally, the text will support the ALEKS work in that explanations
-  within ALEKS will reference specific areas from the text for further reading.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Lecture Attendance</h2>
-<p>
-  Elluminate is the web-conference utility where the virtual classroom resides.
-  This may also be used for more "face-to-face" group correspondence with
-  students.
+  A midterm exam follows each of the three units. The midterms associated with
+  Unit 1 and Unit 3 are NOT proctored, however they are timed exams and will be
+  done via Canvas. The second midterm and final exam will be more comprehensive
+  and are proctored exams. These will also be donve via Canvas assessment, but
+  your secured proctor will need to provide the password to unlock the exam.
 </p>
 <h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
-<p>
-  The total number of points for the course will be 1000 points. Students will
-  have an opportunity to earn 200 points in each of the following three areas:
-  1) Basic Skills (ALEKS work), 2) Conceptual Understanding (Activities and
-  quizzes), and 3) the Final Exam (incorporates both basic skills and conceptual
-  understanding). The final grade will be determined by the sum of these three
-  areas. The minimum of the three area scores and the maximum of the three area
-  scores will be incorporated twice and thus each of these two areas will will
-  contribute to 40% of your overall grade as each will be worth 400 points. This
-  rubric emphasizes that all three areas are of utmost importance.
-</p>
 <table>
   <tbody>
     <tr>
-      <th>Conceptual Assessment</th>
-      <th>Basic Skills</th>
-      <th>Final Exam</th>
-      <th>Minimum 3 Areas</th>
-      <th>Maximum 3 areas</th>
+      <th>Assignments</th>
+      <th>Points Each</th>
+      <th>Total Points</th>
     </tr>
     <tr>
-      <td>4 Activities (5 pts / each)</td>
-      <td>4 ALEKS Units (40 pts / each)</td>
-      <td>1 Proctored Exam (200 pts)</td>
-      <td></td>
-      <td></td>
+      <td>12 Weekly Assignments (Top 10 Counted)</td>
+      <td>10 pts / each</td>
+      <td>100 pts</td>
     </tr>
     <tr>
-      <td>4 Quizzes (20 pts / each)</td>
-      <td>Final Set (40 pts)</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2 Midterm Exams (Unproctored)</td>
+      <td>50 pts / each</td>
+      <td>100 pts</td>
     </tr>
     <tr>
-      <td>2 Midterm Exams (50 pts / each)</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>1 Midterm Exam (Proctored)</td>
+      <td>100 pts</td>
+      <td>100 pts</td>
     </tr>
     <tr>
+      <td>1 Final Exam (Proctored / Comprehensive)</td>
       <td>200 pts</td>
       <td>200 pts</td>
-      <td>200 pts</td>
-      <td>200 pts</td>
-      <td>200 pts</td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td></td>
+      <td>500 pts</td>
     </tr>
   </tbody>
 </table>
@@ -1454,28 +1325,28 @@
     </tr>
     <tr>
       <td>A</td>
-      <td>90-100</td>
-      <td>896-1000</td>
+      <td>90-100%</td>
+      <td>448-500</td>
     </tr>
     <tr>
       <td>B</td>
-      <td>80-89</td>
-      <td>796 -895</td>
+      <td>80-89%</td>
+      <td>398-447</td>
     </tr>
     <tr>
       <td>C</td>
-      <td>70-79</td>
-      <td>696-795</td>
+      <td>70-79%</td>
+      <td>348-397</td>
     </tr>
     <tr>
       <td>D</td>
-      <td>60-69</td>
-      <td>596-695</td>
+      <td>60-69%</td>
+      <td>298-347</td>
     </tr>
     <tr>
       <td>F</td>
-      <td>0-59</td>
-      <td>50-595</td>
+      <td>0-59%</td>
+      <td>0-298</td>
     </tr>
   </tbody>
 </table>
@@ -1526,605 +1397,7 @@
  ]]>
       </description>
       <category></category>
-      <guid>/syllabi/math022</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Math 004</title>
-      <link>/syllabi/math004</link>
-      <description>
-          <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
-<p>
-  MATH 004 Intermediate Algebra (3 semester hours) Algebraic expressions;
-  linear, absolute value Equations and inequalities; lines; systems of linear
-  equations; integral exponents; polynomials; factoring. This course may not be
-  used to satisfy the basic minimum requirements for graduation in any
-  Baccalaureate degree program.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Prerequisite</h2>
-<p>
-  Basic arithmetic skills or satisfactory performance on the mathematics
-  proficiency examination, Students who do not meet the prerequisite may have
-  great difficulty in the course.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
-<ul>
-  <li>Unit 1</li>
-  <ul>
-    <li>Simplify numerical expressions.</li>
-    <li>Perform arithmetic operations with real numbers.</li>
-    <li>Apply properties of real numbers to simplify expressions.</li>
-    <li>Evaluate exponential expressions.</li>
-    <li>Simplify and evaluate algebraic expressions.</li>
-  </ul>
-  <li>Unit 2</li>
-  <ul>
-    <li>Solve first-degree equations.</li>
-    <li>Use equations to solve word problems.</li>
-    <li>Solve equations involving fractions or decimals.</li>
-    <li>
-      Solve word problems involving discount and. selling price, simple
-      interest, and mixtures.
-    </li>
-    <li>Solve inequalities, and write solution sets in interval notation.</li>
-    <li>Solve inequalities involving fractions or decimals.</li>
-    <li>Solve compound inequalities.</li>
-    <li>Use inequalities to solve word problems.</li>
-    <li>Solve equations and inequalities that involve absolute value.</li>
-  </ul>
-  <li>Unit 3</li>
-  <ul>
-    <li>Determine the slope of a line, and use slope to graph lines.</li>
-    <li>Determine the point-slope equation of a line.</li>
-    <li>Determine the slope-intercept equation of a line.</li>
-    <li>Find equations for parallel or perpendicular lines.</li>
-    <li>Find and graph solutions for linear equations in two variables.</li>
-    <li>Graph linear equations by finding the x and y intercept.</li>
-    <li>
-      Graph lines passing through the origin, vertical lines, and horizontal
-      lines.
-    </li>
-    <li>Use the distance formula.</li>
-    <li>Solve systems of linear equations by graphing and substitution.</li>
-  </ul>
-  <li>Unit 4</li>
-  <ul>
-    <li>Add, subtract, and multiply polynomials.</li>
-    <li>Divide monomials.</li>
-    <li>Factor out the greatest common factor.</li>
-    <li>Factor by grouping.</li>
-    <li>
-      Factor the difference of two squares and the sum or difference of two
-      cubes.
-    </li>
-    <li>Factor trinomials by trial-and-error and the four-step method.</li>
-    <li>Solve polynomial equations by factoring.</li>
-  </ul>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
-<ul>
-  <li>
-    An 18 week Access to ALEKS 360 is needed to provide access to the ebook and
-    supplementary materials
-    <a style="text-decoration: none; color:#e2801e;" href="https://www.aleks.com/" target="_blank">www.aleks.com</a>
-    . This can be purchased separately or with the book.
-  </li>
-  <li>ALEKS Course Code : MNPMR-LFYMA</li>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Textbook</h2>
-  <p>Intermediate Algebra with P.O.W.E.R Learning 1st edition, Messersmith, Perez, Feldman </p>
-  <ul>
-    <li>Ebook with 1 semester ALEKS 360 access (18 weeks) ISBN-10: 0077528530</li>
-    <li>Paperback (ALEKS access not included) ISBN-10: 0073406279</li>
-  </ul>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
-<table>
-  <th>Conceptual</th>
-  <th>Basic Skills</th>
-  <th>Exams</th>
-  <tr>
-    <td>200 Points</td>
-    <td>350 Points</td>
-    <td>450 Points</td>
-  </tr>
-  <tr>
-    <td>4 Piazza Participations (25 points each)</td>
-    <td>4 Scheduled ALEKS Assessments (20 each)</td>
-    <td>Final Exam Proctored (250 points)</td>
-  </tr>
-  <tr>
-    <td>4 Concept Quizzes (25 points each) </td>
-    <td>4 Unit ALEKS Quizzes (20 each)</td>
-    <td>Midterm (200 points) </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>4 ALEKS Unit Completion (30 each)<br>Midterm and Final ALEKS Units (35 each)</td>
-    <td></td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% Course Grade</th>
-  <tr>
-    <td>A</td>
-    <td>90-100%</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>80-89%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-79%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-69%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td> < 59%</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/math004</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Frnsc 210</title>
-      <link>/syllabi/frnsc210</link>
-      <description>
-          <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
-<p>
-  The primary aim of this course is to prepare students for entry into the
-  undergraduate forensic science program and to enhance success in the 400 level
-  forensic science courses. This course is designed to introduce students to
-  several fundamental areas and provide the theory and knowledge essential for
-  success in the ﬁeld. The associated skills and abilities for these practices
-  will be developed in later courses required for the forensic science program.
-</p>
-<p>
-  Presently, forensic science and criminalistics are primarily specialized;
-  forensic biologists, forensic chemists, trace evidence examiners, latent print
-  specialists, ﬁrearm and tool mark examiners, etc. While some criminalists may
-  be cross-trained in other areas, the majority practice solely in a speciﬁc
-  sub-discipline. Regardless of the specialty, all criminalists and forensic
-  scientists will be exposed to and required to perform many of the same
-  essential practices. All criminalists will record observations, in the ﬁeld
-  and in the laboratory, as case notes. They will prepare sketches, take and
-  record measurements, and photograph scenes and/or physical evidence.
-  Microscopes are used in nearly every sub-discipline for the examination of
-  physical evidence. Criminalists are expected to report and testify to their
-  examinations, analyses, results, and conclusions.
-</p>
-<p>
-  This course is designed to introduce students to these fundamental areas and
-  provide the theory and knowledge essential for success in the ﬁeld. The
-  associated skills and abilities for these practices will be developed in later
-  courses. FRNSC 210 provides a ﬁrm foundation for all later courses; it is the
-  cornerstone of your education and will serve you well as a criminalist. This
-  knowledge cannot be forgotten upon completion of this course; it must be
-  retained as it comprises the essential practices required of all criminalists
-  and forensic scientists.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
-<p>On completion of FRNSC 210, students will be able to:</p>
-<ul>
-  <li>
-    Describe Kirk’s philosophy of criminalistics and the importance of
-    scientific philosophy in forensic science
-  </li>
-  <li>
-    Describe accuracy, precision, uncertainty of measurement, and assessment of
-    error
-  </li>
-  <li>
-    Describe the terms and organizations: quality assurance; quality control;
-    accreditation; proficiency testing; ASCLD; and ASCLD-LAB.
-  </li>
-  <li>
-    Demonstrate the required ISO/17025 and ASCLD-LAB criteria for note taking at
-    a crime scene or in the laboratory
-  </li>
-  <li>
-    Explain the proper preparation and maintenance of case folders
-  </li>
-  <li>
-    Execute techniques used to preserve the crime scene record, e.g., to take
-    appropriate notes, make proper sketches, and properly use digital SLR
-    photography
-  </li>
-  <li>
-    Describe the importance of evidence integrity and chain of custody as well
-    as demonstrate its use
-  </li>
-  <li>
-    Perform various measurement methods used at crime scenes and evidence
-  </li>
-  <li>
-    Explain the use of f/stop, shutter speed, and ISO in capturing a properly
-    exposed image
-  </li>
-  <li>
-    Describe color temperature and how it affects a captured image and the
-    apparent color of an object
-  </li>
-  <li>
-    Explain proper exposures for different lighting conditions
-  </li>
-  <li>
-    Explain resolution and magnification in visible light images including
-    calculating focal length
-  </li>
-  <li>
-    Describe various aberrations of lenses and their corrections
-  </li>
-  <li>
-    List different microscopes and their uses in a crime lab including
-    advantages and limitations
-  </li>
-  <li>
-    Employ techniques to communicate data, results, and interpretations through
-    written communication
-  </li>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
-<p>
-  Langford M, Bilissi E. Langford’s Advanced Photography. 8th ed. Oxford: Focal
-  Press, 2011.
-</p>
-<p>Additional assigned reading materials will be provided by the instructor.</p>
-<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
-<table>
-  <th>Week</th>
-  <th>Topic(s)</th>
-  <tr>
-    <td>1</td>
-    <td>
-      Introduction<br />National Academy of Science Report on Forensic Science
-    </td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>
-      Forensic science, criminalistics, science, and evidence<br />Professional
-      Organizations in Forensic Science
-    </td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>
-      Quality Assurance, Quality Control and Accreditation<br />Physical
-      evidence: control and authentication
-    </td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>
-      Observations and Preservation of physical evidence record: Notes and
-      sketches
-    </td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>
-      Measurement: tools, techniques, and accuracy/error
-    </td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>
-      Introduction to Light and Photography I
-    </td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>
-      Introduction to Optics and Photography II
-    </td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>
-      Photography III: Cameras, Lenses, and Lighting
-    </td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>
-      Videography
-    </td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>
-      Forensic Microscopy I
-    </td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>
-      Forensic Microscopy II: Phase Contrast and Darkfield
-    </td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>
-      Forensic Microscopy III: Polarized Light and Fluorescence
-    </td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>
-      Forensic Microscopy IV
-    </td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>
-      Thanksgiving Break
-    </td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>
-      Communication of Results I
-    </td>
-  </tr>
-  <tr>
-    <td>16</td>
-    <td>
-      Communication of Results II
-    </td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
-<table>
-  <th>Assignment</th>
-  <th>Points (each)</th>
-  <th>% of Total Grade</th>
-  <tr>
-    <td>Midterm Exam</td>
-    <td>100</td>
-    <td>20%</td>
-  </tr>
-  <tr>
-    <td>Final Exam</td>
-    <td>150</td>
-    <td>30%</td>
-  </tr>
-  <tr>
-    <td>Quizzes (5)</td>
-    <td>20(each) 100(total)</td>
-    <td>20%</td>
-  </tr>
-  <tr>
-    <td>Exercises (3)</td>
-    <td>50(each) 150(total)</td>
-    <td>10%</td>
-  </tr>
-  <tr>
-    <td>Total</td>
-    <td>500</td>
-    <td>100%</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/frnsc210</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Frnsc 200</title>
-      <link>/syllabi/frnsc200</link>
-      <description>
-          <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
-<p>
-  This course offers an exploration of the science, management, and
-  investigative techniques for the field of crime scene investigation. Students
-  will develop the intellectual skills needed to be able to plan for and
-  organize a crime scene investigation. Each student will understand the nature
-  and value of each kind of physical evidence and how to recognize, collect and
-  preserve it. They will research all the topics in this course and provide
-  their own evidence of competency in each in the form of a professional
-  portfolio.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
-<p>When you successfully complete this course, you will understand:</p>
-<ul>
-  <li>
-    Techniques used to preserve the crime scene record (notes, sketches, and
-    digital SLR photography).
-  </li>
-  <li>
-    Techniques used to recognize, enhance, document, collect, handle, and
-    package physical evidence. Comprehension of importance of chain of custody
-    and evidence integrity.
-  </li>
-  <li>
-    Common field tests for the presumptive identification and enhancement of
-    different types of physical evidence.
-  </li>
-  <li>
-    Incident/crime reconstruction including the analysis of blood traces and
-    projectile trajectory analysis.
-  </li>
-  <li>
-    Proper preparation and maintenance of case folders.
-  </li>
-  <li>
-    Techniques to communicate results including verbal and written
-    communication.
-  </li>
-  <li>
-    Scene management techniques including allocation of personnel, resources,
-    and time.
-  </li>
-  <li>
-    Importance of science and scientific, objective, critical thought processes
-    in scene investigations.
-  </li>
-  <li>
-    Role and impact of the criminalist in incident scene investigations.
-  </li>
-  <li>
-    Codes of professional conduct and ethics for forensic science professional
-    organizations; comprehension of necessity of ethics in forensic science and
-    potential ethical problems in forensic science including issues of
-    professional practice, technical competence, and bias.
-  </li>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
-<table>
-  <th>Week</th>
-  <th>Topic(s)</th>
-  <tr>
-    <td>1</td>
-    <td>Introduction to the Course; CSI; Forensics; Ethics</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Scene Management; CSI Team Structure; Evidence Collection</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Documentation: Motes, Sketches, Scene Entry Logs, Other Forms</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Photography I (general photography)</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Photography II (CSI photography; photographing people)</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>Fingerprints</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>Pattern Evidence</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>Trace Evidence</td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>Biological Evidence; Sexual Assault</td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>Firearms</td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>Fires; Explosions; Mass Fatalities</td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>Digital Evidence; Questioned Documents</td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>Autopsy; Entomology; Drugs</td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>Analysis of Blood Traces</td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>Aspects of Shooting Incident Investigation I</td>
-  </tr>
-  <tr>
-    <td>16</td>
-    <td>Aspects of Shooting Incident Investigation II</td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
-<table>
-  <th>Assignment</th>
-  <th>Assignment Weight</th>
-  <th>Final Weight</th>
-  <tr>
-    <td>Exercises (6)</td>
-    <td>3.75%</td>
-    <td>22.50%</td>
-  </tr>
-  <tr>
-    <td>Final Mock Scene Exercise</td>
-    <td>9.50%</td>
-    <td>9.50%</td>
-  </tr>
-  <tr>
-    <td>Quiz (6)</td>
-    <td>5%</td>
-    <td>30%</td>
-  </tr>
-  <tr>
-    <td>Midterm Exam</td>
-    <td>12%</td>
-    <td>24%</td>
-  </tr>
-  <tr>
-    <td>Final Exam</td>
-    <td>14%</td>
-    <td>14%</td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% of Course Grade</th>
-  <tr>
-    <td>A</td>
-    <td>93-100%</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>90-93%</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>83-87%</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>83-87%</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>80-83%</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>77-80%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-77%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-70%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 60%</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/frnsc200</guid>
+      <guid>/syllabi/math036</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
@@ -2631,23 +1904,1004 @@
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
-      <title>Chem 812</title>
-      <link>/syllabi/chem812</link>
+      <title>Frnsc 200</title>
+      <link>/syllabi/frnsc200</link>
       <description>
-          <![CDATA[ <p>CHEM 812 Syllabus Coming Soon!</p> ]]>
+          <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
+<p>
+  This course offers an exploration of the science, management, and
+  investigative techniques for the field of crime scene investigation. Students
+  will develop the intellectual skills needed to be able to plan for and
+  organize a crime scene investigation. Each student will understand the nature
+  and value of each kind of physical evidence and how to recognize, collect and
+  preserve it. They will research all the topics in this course and provide
+  their own evidence of competency in each in the form of a professional
+  portfolio.
+</p>
+<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
+<p>When you successfully complete this course, you will understand:</p>
+<ul>
+  <li>
+    Techniques used to preserve the crime scene record (notes, sketches, and
+    digital SLR photography).
+  </li>
+  <li>
+    Techniques used to recognize, enhance, document, collect, handle, and
+    package physical evidence. Comprehension of importance of chain of custody
+    and evidence integrity.
+  </li>
+  <li>
+    Common field tests for the presumptive identification and enhancement of
+    different types of physical evidence.
+  </li>
+  <li>
+    Incident/crime reconstruction including the analysis of blood traces and
+    projectile trajectory analysis.
+  </li>
+  <li>
+    Proper preparation and maintenance of case folders.
+  </li>
+  <li>
+    Techniques to communicate results including verbal and written
+    communication.
+  </li>
+  <li>
+    Scene management techniques including allocation of personnel, resources,
+    and time.
+  </li>
+  <li>
+    Importance of science and scientific, objective, critical thought processes
+    in scene investigations.
+  </li>
+  <li>
+    Role and impact of the criminalist in incident scene investigations.
+  </li>
+  <li>
+    Codes of professional conduct and ethics for forensic science professional
+    organizations; comprehension of necessity of ethics in forensic science and
+    potential ethical problems in forensic science including issues of
+    professional practice, technical competence, and bias.
+  </li>
+</ul>
+<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
+<table>
+  <th>Week</th>
+  <th>Topic(s)</th>
+  <tr>
+    <td>1</td>
+    <td>Introduction to the Course; CSI; Forensics; Ethics</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Scene Management; CSI Team Structure; Evidence Collection</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Documentation: Motes, Sketches, Scene Entry Logs, Other Forms</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Photography I (general photography)</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Photography II (CSI photography; photographing people)</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Fingerprints</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Pattern Evidence</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Trace Evidence</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Biological Evidence; Sexual Assault</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Firearms</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Fires; Explosions; Mass Fatalities</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Digital Evidence; Questioned Documents</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Autopsy; Entomology; Drugs</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Analysis of Blood Traces</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Aspects of Shooting Incident Investigation I</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Aspects of Shooting Incident Investigation II</td>
+  </tr>
+</table>
+<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
+<table>
+  <th>Assignment</th>
+  <th>Assignment Weight</th>
+  <th>Final Weight</th>
+  <tr>
+    <td>Exercises (6)</td>
+    <td>3.75%</td>
+    <td>22.50%</td>
+  </tr>
+  <tr>
+    <td>Final Mock Scene Exercise</td>
+    <td>9.50%</td>
+    <td>9.50%</td>
+  </tr>
+  <tr>
+    <td>Quiz (6)</td>
+    <td>5%</td>
+    <td>30%</td>
+  </tr>
+  <tr>
+    <td>Midterm Exam</td>
+    <td>12%</td>
+    <td>24%</td>
+  </tr>
+  <tr>
+    <td>Final Exam</td>
+    <td>14%</td>
+    <td>14%</td>
+  </tr>
+</table>
+<h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
+<table>
+  <th>Letter Grade</th>
+  <th>% of Course Grade</th>
+  <tr>
+    <td>A</td>
+    <td>93-100%</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>90-93%</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>83-87%</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>83-87%</td>
+  </tr>
+  <tr>
+    <td>B-</td>
+    <td>80-83%</td>
+  </tr>
+  <tr>
+    <td>C+</td>
+    <td>77-80%</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>70-77%</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>60-70%</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>< 60%</td>
+  </tr>
+</table>
+ ]]>
       </description>
       <category></category>
-      <guid>/syllabi/chem812</guid>
+      <guid>/syllabi/frnsc200</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
-      <title>Chem 811</title>
-      <link>/syllabi/chem811</link>
+      <title>Math 004</title>
+      <link>/syllabi/math004</link>
       <description>
-          <![CDATA[ <p>CHEM 811 Syllabus Coming Soon!</p> ]]>
+          <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
+<p>
+  MATH 004 Intermediate Algebra (3 semester hours) Algebraic expressions;
+  linear, absolute value Equations and inequalities; lines; systems of linear
+  equations; integral exponents; polynomials; factoring. This course may not be
+  used to satisfy the basic minimum requirements for graduation in any
+  Baccalaureate degree program.
+</p>
+<h2 style="font-size: 24px; font-weight: 400;">Prerequisite</h2>
+<p>
+  Basic arithmetic skills or satisfactory performance on the mathematics
+  proficiency examination, Students who do not meet the prerequisite may have
+  great difficulty in the course.
+</p>
+<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
+<ul>
+  <li>Unit 1</li>
+  <ul>
+    <li>Simplify numerical expressions.</li>
+    <li>Perform arithmetic operations with real numbers.</li>
+    <li>Apply properties of real numbers to simplify expressions.</li>
+    <li>Evaluate exponential expressions.</li>
+    <li>Simplify and evaluate algebraic expressions.</li>
+  </ul>
+  <li>Unit 2</li>
+  <ul>
+    <li>Solve first-degree equations.</li>
+    <li>Use equations to solve word problems.</li>
+    <li>Solve equations involving fractions or decimals.</li>
+    <li>
+      Solve word problems involving discount and. selling price, simple
+      interest, and mixtures.
+    </li>
+    <li>Solve inequalities, and write solution sets in interval notation.</li>
+    <li>Solve inequalities involving fractions or decimals.</li>
+    <li>Solve compound inequalities.</li>
+    <li>Use inequalities to solve word problems.</li>
+    <li>Solve equations and inequalities that involve absolute value.</li>
+  </ul>
+  <li>Unit 3</li>
+  <ul>
+    <li>Determine the slope of a line, and use slope to graph lines.</li>
+    <li>Determine the point-slope equation of a line.</li>
+    <li>Determine the slope-intercept equation of a line.</li>
+    <li>Find equations for parallel or perpendicular lines.</li>
+    <li>Find and graph solutions for linear equations in two variables.</li>
+    <li>Graph linear equations by finding the x and y intercept.</li>
+    <li>
+      Graph lines passing through the origin, vertical lines, and horizontal
+      lines.
+    </li>
+    <li>Use the distance formula.</li>
+    <li>Solve systems of linear equations by graphing and substitution.</li>
+  </ul>
+  <li>Unit 4</li>
+  <ul>
+    <li>Add, subtract, and multiply polynomials.</li>
+    <li>Divide monomials.</li>
+    <li>Factor out the greatest common factor.</li>
+    <li>Factor by grouping.</li>
+    <li>
+      Factor the difference of two squares and the sum or difference of two
+      cubes.
+    </li>
+    <li>Factor trinomials by trial-and-error and the four-step method.</li>
+    <li>Solve polynomial equations by factoring.</li>
+  </ul>
+</ul>
+<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
+<ul>
+  <li>
+    An 18 week Access to ALEKS 360 is needed to provide access to the ebook and
+    supplementary materials
+    <a style="text-decoration: none; color:#e2801e;" href="https://www.aleks.com/" target="_blank">www.aleks.com</a>
+    . This can be purchased separately or with the book.
+  </li>
+  <li>ALEKS Course Code : MNPMR-LFYMA</li>
+</ul>
+<h2 style="font-size: 24px; font-weight: 400;">Textbook</h2>
+  <p>Intermediate Algebra with P.O.W.E.R Learning 1st edition, Messersmith, Perez, Feldman </p>
+  <ul>
+    <li>Ebook with 1 semester ALEKS 360 access (18 weeks) ISBN-10: 0077528530</li>
+    <li>Paperback (ALEKS access not included) ISBN-10: 0073406279</li>
+  </ul>
+</ul>
+<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
+<table>
+  <th>Conceptual</th>
+  <th>Basic Skills</th>
+  <th>Exams</th>
+  <tr>
+    <td>200 Points</td>
+    <td>350 Points</td>
+    <td>450 Points</td>
+  </tr>
+  <tr>
+    <td>4 Piazza Participations (25 points each)</td>
+    <td>4 Scheduled ALEKS Assessments (20 each)</td>
+    <td>Final Exam Proctored (250 points)</td>
+  </tr>
+  <tr>
+    <td>4 Concept Quizzes (25 points each) </td>
+    <td>4 Unit ALEKS Quizzes (20 each)</td>
+    <td>Midterm (200 points) </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>4 ALEKS Unit Completion (30 each)<br>Midterm and Final ALEKS Units (35 each)</td>
+    <td></td>
+  </tr>
+</table>
+<h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
+<table>
+  <th>Letter Grade</th>
+  <th>% Course Grade</th>
+  <tr>
+    <td>A</td>
+    <td>90-100%</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>80-89%</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>70-79%</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>60-69%</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td> < 59%</td>
+  </tr>
+</table>
+ ]]>
       </description>
       <category></category>
-      <guid>/syllabi/chem811</guid>
+      <guid>/syllabi/math004</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Frnsc 210</title>
+      <link>/syllabi/frnsc210</link>
+      <description>
+          <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
+<p>
+  The primary aim of this course is to prepare students for entry into the
+  undergraduate forensic science program and to enhance success in the 400 level
+  forensic science courses. This course is designed to introduce students to
+  several fundamental areas and provide the theory and knowledge essential for
+  success in the ﬁeld. The associated skills and abilities for these practices
+  will be developed in later courses required for the forensic science program.
+</p>
+<p>
+  Presently, forensic science and criminalistics are primarily specialized;
+  forensic biologists, forensic chemists, trace evidence examiners, latent print
+  specialists, ﬁrearm and tool mark examiners, etc. While some criminalists may
+  be cross-trained in other areas, the majority practice solely in a speciﬁc
+  sub-discipline. Regardless of the specialty, all criminalists and forensic
+  scientists will be exposed to and required to perform many of the same
+  essential practices. All criminalists will record observations, in the ﬁeld
+  and in the laboratory, as case notes. They will prepare sketches, take and
+  record measurements, and photograph scenes and/or physical evidence.
+  Microscopes are used in nearly every sub-discipline for the examination of
+  physical evidence. Criminalists are expected to report and testify to their
+  examinations, analyses, results, and conclusions.
+</p>
+<p>
+  This course is designed to introduce students to these fundamental areas and
+  provide the theory and knowledge essential for success in the ﬁeld. The
+  associated skills and abilities for these practices will be developed in later
+  courses. FRNSC 210 provides a ﬁrm foundation for all later courses; it is the
+  cornerstone of your education and will serve you well as a criminalist. This
+  knowledge cannot be forgotten upon completion of this course; it must be
+  retained as it comprises the essential practices required of all criminalists
+  and forensic scientists.
+</p>
+<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
+<p>On completion of FRNSC 210, students will be able to:</p>
+<ul>
+  <li>
+    Describe Kirk’s philosophy of criminalistics and the importance of
+    scientific philosophy in forensic science
+  </li>
+  <li>
+    Describe accuracy, precision, uncertainty of measurement, and assessment of
+    error
+  </li>
+  <li>
+    Describe the terms and organizations: quality assurance; quality control;
+    accreditation; proficiency testing; ASCLD; and ASCLD-LAB.
+  </li>
+  <li>
+    Demonstrate the required ISO/17025 and ASCLD-LAB criteria for note taking at
+    a crime scene or in the laboratory
+  </li>
+  <li>
+    Explain the proper preparation and maintenance of case folders
+  </li>
+  <li>
+    Execute techniques used to preserve the crime scene record, e.g., to take
+    appropriate notes, make proper sketches, and properly use digital SLR
+    photography
+  </li>
+  <li>
+    Describe the importance of evidence integrity and chain of custody as well
+    as demonstrate its use
+  </li>
+  <li>
+    Perform various measurement methods used at crime scenes and evidence
+  </li>
+  <li>
+    Explain the use of f/stop, shutter speed, and ISO in capturing a properly
+    exposed image
+  </li>
+  <li>
+    Describe color temperature and how it affects a captured image and the
+    apparent color of an object
+  </li>
+  <li>
+    Explain proper exposures for different lighting conditions
+  </li>
+  <li>
+    Explain resolution and magnification in visible light images including
+    calculating focal length
+  </li>
+  <li>
+    Describe various aberrations of lenses and their corrections
+  </li>
+  <li>
+    List different microscopes and their uses in a crime lab including
+    advantages and limitations
+  </li>
+  <li>
+    Employ techniques to communicate data, results, and interpretations through
+    written communication
+  </li>
+</ul>
+<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
+<p>
+  Langford M, Bilissi E. Langford’s Advanced Photography. 8th ed. Oxford: Focal
+  Press, 2011.
+</p>
+<p>Additional assigned reading materials will be provided by the instructor.</p>
+<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
+<table>
+  <th>Week</th>
+  <th>Topic(s)</th>
+  <tr>
+    <td>1</td>
+    <td>
+      Introduction<br />National Academy of Science Report on Forensic Science
+    </td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>
+      Forensic science, criminalistics, science, and evidence<br />Professional
+      Organizations in Forensic Science
+    </td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>
+      Quality Assurance, Quality Control and Accreditation<br />Physical
+      evidence: control and authentication
+    </td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>
+      Observations and Preservation of physical evidence record: Notes and
+      sketches
+    </td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>
+      Measurement: tools, techniques, and accuracy/error
+    </td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>
+      Introduction to Light and Photography I
+    </td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>
+      Introduction to Optics and Photography II
+    </td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>
+      Photography III: Cameras, Lenses, and Lighting
+    </td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>
+      Videography
+    </td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>
+      Forensic Microscopy I
+    </td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>
+      Forensic Microscopy II: Phase Contrast and Darkfield
+    </td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>
+      Forensic Microscopy III: Polarized Light and Fluorescence
+    </td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>
+      Forensic Microscopy IV
+    </td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>
+      Thanksgiving Break
+    </td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>
+      Communication of Results I
+    </td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>
+      Communication of Results II
+    </td>
+  </tr>
+</table>
+<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
+<table>
+  <th>Assignment</th>
+  <th>Points (each)</th>
+  <th>% of Total Grade</th>
+  <tr>
+    <td>Midterm Exam</td>
+    <td>100</td>
+    <td>20%</td>
+  </tr>
+  <tr>
+    <td>Final Exam</td>
+    <td>150</td>
+    <td>30%</td>
+  </tr>
+  <tr>
+    <td>Quizzes (5)</td>
+    <td>20(each) 100(total)</td>
+    <td>20%</td>
+  </tr>
+  <tr>
+    <td>Exercises (3)</td>
+    <td>50(each) 150(total)</td>
+    <td>10%</td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td>500</td>
+    <td>100%</td>
+  </tr>
+</table>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/frnsc210</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Math 017</title>
+      <link>/syllabi/math017</link>
+      <description>
+          <![CDATA[ <p>Coming Soon!</p>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/math017</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Math 021</title>
+      <link>/syllabi/math021</link>
+      <description>
+          <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
+<p>
+  An extensive look into Quadratic equations; equations in quadratic form; word
+  problems, graphing; algebraic fractions; negative and rational exponents, and
+  radicals.
+</p>
+<h2 style="font-size: 24px; font-weight: 400;">Prerequisite</h2>
+<p>
+  Math 4 or satisfactory performance on the mathematics proficiency examination.
+  Students who do not meet the prerequisite may have great difficulty in the
+  course.
+</p>
+<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
+<p>
+  <strong>Unit 0</strong>
+  is designed to ascertain prerequisite knowledge and skills which will
+  facilitate success in this class. Students are expected to know and/or review
+  and master most of these review topics on ALEKS within the first week of the
+  class. Some of the topics are reviewed as needed in subsequent units.
+</p>
+<ul>
+  <li>Simplify numerical expressions.</li>
+  <li>Perform arithmetic operations with real numbers.</li>
+  <li>Apply properties of real numbers to simplify expressions.</li>
+  <li>Evaluate basic exponential expressions.</li>
+  <li>Simplify and evaluate basic algebraic expressions.</li>
+  <li>Solve first-degree equations.</li>
+  <li>Use equations to solve word problems.</li>
+  <li>Solve equations involving fractions or decimals.</li>
+  <li>
+    Solve basic word problems involving discounts and selling price, simple
+    interest, and mixtures.
+  </li>
+  <li>Solve inequalities, and write solution sets in interval notation.</li>
+  <li>Solve inequalities involving fractions or decimals.</li>
+  <li>Solve compound inequalities.</li>
+  <li>Use inequalities to solve word problems.</li>
+  <li>Solve equations and inequalities that involve absolute value.</li>
+  <li>Find and graph solutions for linear equations in two variables.</li>
+  <li>Graph linear equations by finding the x and y intercepts.</li>
+  <li>
+    Graph lines passing through the origin, vertical lines, and horizontal
+    lines.
+  </li>
+  <li>Use the distance formula.</li>
+  <li>Determine the slope of a line, and use slope to graph lines.</li>
+  <li>Determine the point-slope equation of a line.</li>
+  <li>Determine the slope-intercept equation of a line.</li>
+  <li>Find equations for parallel or perpendicular lines.</li>
+  <li>Add, subtract, and multiply polynomials.</li>
+  <li>Divide monomials.</li>
+  <li>Factor out the greatest common factor.</li>
+  <li>Factor by grouping.</li>
+  <li>
+    Factor the difference of two squares and the sum or difference of two cubes.
+  </li>
+  <li>Factor trinomials by trial-and-error and the four-step method.</li>
+  <li>Solve polynomial equations by factoring.</li>
+  <li>Solve systems of linear equations by graphing and substitution</li>
+</ul>
+<p>
+  <strong>Unit 1</strong>
+  contains review topics, however some of the topics may extend ideas which may
+  be new to students. Upon successfully completing this unit, the student should
+  be able to:
+</p>
+<ul>
+  <li>
+    Determine and interpret the slope of a line as a rate of change from: a
+    table, a set of ordered points, an equation or a graph.
+  </li>
+  <li>
+    Determine and utilize the point-slope equation of a line.
+  </li>
+  <li>
+    Determine and utilize the slope-intercept equation of a line.
+  </li>
+  <li>Determine if two given lines are perpendicular or parallel.</li>
+  <li>
+    Write linear equations and graph lines that are parallel and perpendicular
+    to a given line and passing through a given point.
+  </li>
+  <li>
+    Apply The Pythagorean Formula to create and use the distance formula to find
+    and interpret the distance between any two points on a line.
+  </li>
+  <li>Use the midpoint formula.</li>
+  <li>
+    Identify linear, quadratic, cubic, square root and absolute value functions
+    from algebraic, graphical, tabular and verbal representations.
+  </li>
+  <li>
+    Use function notation and piecewise defined function notation when
+    evaluating polynomial and absolute value functions respectively.
+  </li>
+  <li>
+    Determine the solution set for linear inequalities and graph the solution
+    set on a number line.
+  </li>
+  <li>
+    Determine the solution set for absolute value equations and inequalities and
+    graph the solution set on a number line.
+  </li>
+  <li>
+    Translate applications into algebraic models (equations and inequalities)
+    involving linear and absolute value functions.
+  </li>
+  <li>
+    Determine and interpret the solution sets for applications modeled by linear
+    and absolute value equations and inequalities.
+  </li>
+  <li>
+    Understand and utilize set notation and interval notation to describe,
+    interpret and plot intervals and discrete points on a number line.
+  </li>
+  <li>
+    Solve a system of two linear equations in two variables by substitution,
+    graphing or elimination.
+  </li>
+  <li>
+    Solve a system of three linear equations in three variables by elimination.
+  </li>
+  <li>
+    Model applications which may be represented by a system of 2 linear
+    equations and determine the solution set of the resulting system.
+  </li>
+</ul>
+<p>
+  <strong>Unit 2</strong>
+  consists of topics associated with polynomial and rational expressions and
+  functions. Upon successfully completing this unit, the student should be able
+  to:
+</p>
+<ul>
+  <li>Solve literal equations (solve for one variable in terms of another).</li>
+  <li>Factor basic algebraic expressions (GCF and polynomial factoring).</li>
+  <li>Simplify rational expressions.</li>
+  <li>Add, subtract, multiply, and divide rational expressions.</li>
+  <li>Simplify complex fractions.</li>
+  <li>
+    Identify Polynomial and Rational functions from algebraic, graphical,
+    tabular and verbal representations.
+  </li>
+  <li>Determine the solution set for polynomial and rational equations.</li>
+  <li>
+    Translate applications into algebraic models involving polynomial and
+    rational functions.
+  </li>
+  <li>
+    Determine and interpret the solution sets for applications modeled by
+    polynomial and rational functions.
+  </li>
+  <li>Determine the solution sets of polynomial and rational inequalities.</li>
+  <li>
+    Identify graphs and develop graphs for basic polynomial and rational
+    functions by utilizing symmetry, intercepts, and translation techniques.
+  </li>
+</ul>
+<p>
+  <strong>Unit 3</strong>
+  consists of topics associated with radical expressions and functions. Upon
+  successfully completing this unit, the student should be able to:
+</p>
+<ul>
+  <li>
+    Identify Radical functions from algebraic and graphical representations.
+  </li>
+  <li>
+    Convert from radical notation to rational exponent notation and from
+    exponent notation to radical notation.
+  </li>
+  <li>Simplify radical expressions.</li>
+  <li>Add, subtract, multiply, and divide radical expressions.</li>
+  <li>Simplify radical expressions in terms of i.</li>
+  <li>
+    Add, subtract, multiply, and divide complex numbers and write solutions in
+    standard form.
+  </li>
+  <li>Determine and verify solution sets of radical equations.</li>
+  <li>
+    Translate applications into algebraic models involving radical functions.
+  </li>
+  <li>
+    Determine, verify, and interpret the solution sets for applications modeled
+    by radical functions.
+  </li>
+  <li>
+    Identify graphs and develop graphs for basic radical functions by plotting
+    points and utilizing translation techniques.
+  </li>
+</ul>
+<p>
+  <strong>Unit 4</strong>
+  consists of topics associated with quadratic equations and inequalities,
+  quadratic models, parabolas, circles and applications of the midpoint and
+  distance formulas. Upon successfully completing this unit, the student should
+  be able to:
+</p>
+<ul>
+  <li>
+    Determine the solution set of quadratic equations by factoring, using the
+    square root property, completing the square, and the quadratic formula.
+  </li>
+  <li>
+    Determine the number and type of solutions to a quadratic equation using the
+    discriminant.
+  </li>
+  <li>
+    Given a quadratic function, write in standard form, identify the vertex and
+    whether the vertex represents a maximum or minimum value.
+  </li>
+  <li>
+    Write the quadratic function which represents a given graph of a parabola.
+  </li>
+  <li>
+    Graph parabolas utilizing the vertex, symmetry, intercepts, end-behavior and
+    translation techniques.
+  </li>
+  <li>
+    Translate applications into algebraic models involving quadratic functions.
+  </li>
+  <li>
+    Determine and interpret the solution sets for applications modeled by
+    quadratic functions.
+  </li>
+  <li>
+    Apply the distance formula and the midpoint formula to geometric
+    applications.
+  </li>
+  <li>
+    Interpret the description or graph of a circle to identify the center and
+    the radius and write the equation of the circle in standard form.
+  </li>
+  <li>
+    Convert a non-standard equation of a circle to standard form by completing
+    the square and identify the center and radius.
+  </li>
+  <li>Graph circles from equations using the center and radius.</li>
+</ul>
+<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
+<p>
+  One-semester subscription access to ALEKS and the electronic copy of
+  "Intermediate Algebra, 4th edition" published by McGraw-Hill, 2013. Authors:
+  Julie Miller, Molly O'Neill, and Nancy Hyde. Access to ALEKS combined with
+  access to the eBook can be purchased through ALEKS (
+  <a
+    style="text-decoration: none; color:#e2801e;"
+    href="https://www.aleks.com/"
+    target="_blank"
+    >www.aleks.com</a
+  >
+  ) using the course code and instructions found in the Orientation materials.
+  The price is approximately $85. This option is much less expensive than buying
+  the book and the code separately.
+</p>
+<h2 style="font-size: 24px; font-weight: 400;">Textbook (Optional)</h2>
+<p>
+  If you would like a hard copy of the text, you may purchase the text from an
+  online text vendor of your choice. The ISBN is 9780073384498.
+</p>
+<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
+<table>
+  <th>Unit</th>
+  <th>Topic(s)</th>
+  <tr>
+    <td>0</td>
+    <td>Review and Readiness</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Solving Linear Equations and Linear Systems</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Polynomial and Rational Expressions</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Radical Expressions and Complex Numbers</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Quadratic Equations, Functions, and Inequalities and Circles</td>
+  </tr>
+</table>
+<h2 style="font-size: 24px; font-weight: 400;">Algebraic Skills</h2>
+<p>
+  Algebraic skills will be primarily developed through work on ALEKS. ALEKS is a
+  web-based tutorial system which provides students with ongoing skills based
+  assessments and tracks progress. The midterm and final exams will also entail
+  skills based problems.
+</p>
+<p>
+  As necessary, lectures will be done via BlackBoard Collaborate. The midterm
+  and final exams will administered via Canvas.
+</p>
+<h2 style="font-size: 24px; font-weight: 400;">ALEKS</h2>
+<p>
+  Essentially all of the skills based work will be conducted through ALEKS. The
+  ALEKS system will do ongoing assessments of skills based problems and track
+  student progress. ALEKS is a major component of the course and a typical
+  college algebra student will need to plan on 5-8 hours of online work each
+  week (60-90 hours for the course). Skills based points will be earned by
+  measuring mastered objective milestones and skills based ALEKS quizzes.
+</p>
+<h2 style="font-size: 24px; font-weight: 400;">Canvas</h2>
+<p>
+  The course management system is Canvas. Canvas will be used to deliver, the
+  midterm exam and the final exam and associated practice/study exams.
+</p>
+<h2 style="font-size: 24px; font-weight: 400;">PIAZZA & BlackBoard Collaborate</h2>
+<p>
+  Participation in the course is gauged via a student's interaction on Piazza
+  and live sessions. Students are expected to ask questions, pose problems and
+  answer questions via the Piazza bulletin board.
+</p>
+<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
+<p>
+  The total number of points for the course will be 600 points. Work completed
+  in ALEKS, which builds skills, will be worth 230 points. Participation points
+  for active participation on the Piazza bulletin board and BlackBoard Live
+  sessions is worth 20 points. The last component of the course consists of two
+  (2) proctored exams, a midterm exam (150 points) and a comprehensive final
+  exam (200 points). The final grade will be determined by the sum of these four
+  areas.
+</p>
+<table>
+  <th>PIAZZA & BlackBoard</th>
+  <th>ALEKS</th>
+  <th>CANVAS Exams</th>
+  <tr>
+    <td>4 Participation Discussions (5 pts / each)</td>
+    <td>Readiness Assessment (10 pts)</td>
+    <td>Midterm Exam (150 pts)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>4 ALEKS Quizzes (40 pts / each)</td>
+    <td>Final Exam (200 pts)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>6 Unit Reviews (10 pts / each)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>20 pts</td>
+    <td>230 pts</td>
+    <td>350 pts</td>
+  </tr>
+</table>
+<h2 style="font-size: 24px; font-weight: 400;">Grading Scale</h2>
+<table>
+  <th>Letter Grade</th>
+  <th>% Score</th>
+  <th>Total Points</th>
+  <tr>
+    <td>A</td>
+    <td>90-100</td>
+    <td>537-600</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>80-89</td>
+    <td>477-536</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>70-79</td>
+    <td>417-476</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>60-69</td>
+    <td>357-416</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>0-59</td>
+    <td>0-356</td>
+  </tr>
+</table>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/syllabi/math021</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
   </channel>
