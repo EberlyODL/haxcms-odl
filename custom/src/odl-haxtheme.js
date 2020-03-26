@@ -128,6 +128,7 @@ odl-site-top-menu {
     width: 100%;
     border-radius: 0;
   };
+
   --site-top-menu-button-hover: {
     background-color: var(--theme-color-1);
     color: white;

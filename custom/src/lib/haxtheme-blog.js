@@ -201,6 +201,10 @@ class HaxThemeBlog extends PolymerElement {
       site-recent-content-block {
       --site-recent-content-block-header-color: var(--odl-haxtheme-accent-color-2);
       }
+
+      site-menu-button {
+      --site-menu-button-icon-fill-color: white;
+      }
     </style>
     
     <page-banner image="[[activeItem.metadata.fields.image]]" text="[[activeItem.metadata.tagLine]]" alt="Gateway to the Sciences"></page-banner>
