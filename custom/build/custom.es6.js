@@ -4,6 +4,7 @@ import { store } from '../../build/es6/node_modules/@lrnwebcomponents/haxcms-ele
 import { autorun, toJS } from '../../build/es6/node_modules/mobx/lib/mobx.module.js';
 import { dom } from '../../build/es6/node_modules/@polymer/polymer/lib/legacy/polymer.dom.js';
 import { varGet, wipeSlot } from '../../build/es6/node_modules/@lrnwebcomponents/hax-body/lib/haxutils.js';
+import '../../build/es6/node_modules/@lrnwebcomponents/media-image/media-image.js';
 import '../../build/es6/node_modules/@polymer/iron-pages/iron-pages.js';
 import '../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/query/site-query.js';
 import '../../build/es6/node_modules/@polymer/polymer/lib/elements/dom-repeat.js';
@@ -9544,6 +9545,7 @@ class OdlHaxtheme extends HAXCMSPolymerElementTheme {
   --haxtheme-homepage-banner-image-text-h1-color: #FFFFFF;
   --site-recent-content-block-active-color: #e2801e;
   --site-rss-bg-color: var(--theme-color-2);
+  /* --content-listing-grid-count: 4; */
 
   --site-breadcrumb-color: #a9a9a9;
   --site-breadcrumb-text-decoration: none;
