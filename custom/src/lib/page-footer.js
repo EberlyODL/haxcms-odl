@@ -318,7 +318,7 @@ class PageFooter extends PolymerElement {
             </div>
           </div>
           <div id="odl_mark">
-            <a href="http://haxcms.ddev.local/_sites/odl/index.html">
+            <a href="http://odl.science.psu.edu">
               <iron-image
                 style="width:60px; height:60px;"
                 alt="Office of Digital Learning, Eberly College of Science"

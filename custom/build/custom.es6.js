@@ -6174,6 +6174,10 @@ class HaxThemeBlog extends PolymerElement {
       site-recent-content-block {
       --site-recent-content-block-header-color: var(--odl-haxtheme-accent-color-2);
       }
+
+      site-menu-button {
+      --site-menu-button-icon-fill-color: white;
+      }
     </style>
     
     <page-banner image="[[activeItem.metadata.fields.image]]" text="[[activeItem.metadata.tagLine]]" alt="Gateway to the Sciences"></page-banner>
@@ -9182,7 +9186,7 @@ class PageFooter extends PolymerElement {
             </div>
           </div>
           <div id="odl_mark">
-            <a href="http://haxcms.ddev.local/_sites/odl/index.html">
+            <a href="http://odl.science.psu.edu">
               <iron-image
                 style="width:60px; height:60px;"
                 alt="Office of Digital Learning, Eberly College of Science"
@@ -9213,6 +9217,12 @@ class HaxThemeDemos extends PolymerElement {
         :host {
           display: block;
         }
+
+        #content-wrap {
+          display: flex;
+          justify-content: center;
+        
+        }
         /**
        * Hide the slotted content during edit mode. This must be here to work.
        */
@@ -9226,10 +9236,12 @@ class HaxThemeDemos extends PolymerElement {
         alt=""
       ></page-banner>
       <div id="wrap">
-        <div id="contentcontainer">
+        <div id="content-wrap">
+          <div id="contentcontainer">
             <div id="slot">
-            <slot></slot>
+              <slot></slot>
             </div>
+          </div>
         </div>
       </div>
     `;
@@ -9608,6 +9620,7 @@ odl-site-top-menu {
     width: 100%;
     border-radius: 0;
   };
+
   --site-top-menu-button-hover: {
     background-color: var(--theme-color-1);
     color: white;
