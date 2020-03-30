@@ -61,9 +61,9 @@ class PageTopBar extends LitElement {
       <company-mark></company-mark>
       <div class="spacer"></div>
       <div class="action_button">
-        <a href="https://nam01.safelinks.protection.outlook.com/?url=https%3A%2F%2Foutlook.office365.com%2Fowa%2Fcalendar%2Fb58fc79c95a249aa8de9afbc555ed6ab%40psu.edu%2F16fac4c6e6aa4f5f90aabda235ee917710394492065995205772%2Fcalendar.html&data=02%7C01%7Ccmd30%40psu.edu%7C7909d5ecf71d4d74be9508d7aa714dc0%7C7cf48d453ddb4389a9c1c115526eb52e%7C0%7C0%7C637165277560978827&sdata=YisxiX9FgsqsT%2BeuAfzDs1ZfsTzPwM52HL270vPFvIE%3D&reserved=0" target=_blank>
+        <a href="https://outlook.office365.com/owa/calendar/ECOSODL@PennStateOffice365.onmicrosoft.com/bookings/" target=_blank>
           <paper-button noink id="schedule">
-            <div class="title">Schedule Our Studio</div>
+            <div class="title">Book a Consultation</div>
             <iron-icon icon="date-range"></iron-icon>
           </paper-button>
         </a>
