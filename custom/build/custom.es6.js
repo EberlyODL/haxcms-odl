@@ -1259,6 +1259,13 @@ class OdlSimplePicker extends SimplePicker {
           display: flex;
           flex-direction: column;
         }
+
+        @media screen and (max-width: 600px) {
+          #collapse {
+            position: absolute;
+            top: -225px;
+          }
+        }
     `];
   }
   static get tag() {
