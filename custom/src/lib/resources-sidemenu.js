@@ -19,7 +19,7 @@ class ResourcesSidemenu extends LitElement {
       css`
         :host {
           display: block;
-          height: 100vh;
+          height: auto;
         }
 
         ul {
