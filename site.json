@@ -4080,6 +4080,24 @@
             }
         },
         {
+            "id": "test-and-quizzes",
+            "indent": 0,
+            "location": "pages\/resources\/test-and-quizzes\/index.html",
+            "order": 2,
+            "parent": "resources",
+            "title": "Test and Quizzes",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/theme-images\/page-banners\/lab-banner.jpg",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
             "id": "obs",
             "indent": 0,
             "location": "pages\/resources\/obs\/index.html",
