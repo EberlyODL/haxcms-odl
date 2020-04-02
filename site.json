@@ -4116,24 +4116,6 @@
             }
         },
         {
-            "id": "examity",
-            "indent": 0,
-            "location": "pages\/resources\/toolkits\/examity\/index.html",
-            "order": 3,
-            "parent": "toolkits",
-            "title": "Examity",
-            "description": "Examity\u00ae is an online proctoring solution that gives students the flexibility to take exams remotely. It provides instructors, schools, ,and students with the tools they need to prevent cheating and to preserve integrity of assessments.",
-            "metadata": {
-                "fields": {
-                    "image": "files\/resource-images\/examity-banner.jpg",
-                    "alt": "Man using a cellphone with a laptop in front of him. Original Photo by: Joseph Gruenthal - Unsplash.com"
-                },
-                "created": 1541517755,
-                "updated": 1541517755,
-                "type": "resources"
-            }
-        },
-        {
             "id": "examity-automated-proctoring",
             "indent": 0,
             "location": "pages\/resources\/toolkits\/examity-automated-proctoring\/index.html",
