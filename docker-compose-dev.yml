@@ -38,3 +38,14 @@ services:
     volumes:
       - ./custom:/home/node/app
       - /home/node/app/node_modules
+  
+  imaginary:
+    image: h2non/imaginary:latest
+    # optionally mount a volume as local image source
+    volumes:
+      - /mnt/data
+    environment:
+       PORT: 9000
+    command: -enable-url-source -mount /mnt/data
+    ports:
+      - "9000:9000"
