@@ -29,7 +29,7 @@ deploy-cod1-swarm:
   only:
     - development
 
-deploy-cod1-swarm:
+deploy-dev-cod1-swarm:
   stage: deploy
   variables:
     HOST: "odl.science.psu.edu"
