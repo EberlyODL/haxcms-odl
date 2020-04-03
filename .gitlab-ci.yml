@@ -19,7 +19,7 @@ build-cod1-swarm:
 deploy-cod1-swarm:
   stage: deploy
   variables:
-    HOST: "odl-dev.science.psu.edu"
+    HOST: "odl-dev.courses.science.psu.edu"
   tags:
     - cod1
   script:
