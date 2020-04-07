@@ -8,6 +8,16 @@ services:
       # - "8080:8080" # The Web UI (enabled by --api)
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock # So that Traefik can listen to the Docker events
+  
+  # prod:
+  #   build: .
+  #   environment: 
+  #     CONFIG_VARS: IMAGINARY_URL,IMAGINARY_HOST_URL
+  #     IMAGINARY_URL: http://imaginary.traefik.me:9000
+  #     IMAGINARY_HOST_URL: http://haxcms/sites/haxcms-odl
+  #   labels:
+  #     - "traefik.enable=true" # Enable reverse-proxy for this service
+  #     - "traefik.frontend.rule=Host:odl.traefik.me"
 
   haxcms:
     image: elmsln/haxcms:1f7a2b4ae2
