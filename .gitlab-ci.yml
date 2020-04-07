@@ -21,8 +21,8 @@ deploy-dev-cod1-swarm:
   variables:
     HOST: "odl-dev.courses.science.psu.edu"
     CONFIG_VARS: IMAGINARY_URL,IMAGINARY_HOST_URL
-    IMAGINARY_URL: http://imaginary.traefik.me:9000
-    IMAGINARY_HOST_URL: http://haxcms/sites/haxcms-odl
+    IMAGINARY_URL: https://imaginary.courses.science.psu.edu
+    IMAGINARY_HOST_URL: https://odl-dev.courses.science.psu.edu
   tags:
     - cod1
   script:
@@ -37,8 +37,8 @@ deploy-cod1-swarm:
   variables:
     HOST: "odl.science.psu.edu"
     CONFIG_VARS: IMAGINARY_URL,IMAGINARY_HOST_URL
-    IMAGINARY_URL: http://imaginary.traefik.me:9000
-    IMAGINARY_HOST_URL: http://haxcms/sites/haxcms-odl
+    IMAGINARY_URL: https://imaginary.courses.science.psu.edu
+    IMAGINARY_HOST_URL: https://odl.science.psu.edu
   tags:
     - cod1
   script:

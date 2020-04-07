@@ -75,27 +75,6 @@ services:
       - odl_hax_form_email_password
       - odl_recaptcha_secret
 
-  imaginary:
-    image: h2non/imaginary:latest
-    # optionally mount a volume as local image source
-    volumes:
-      - imaginary-data:/mnt/data
-    environment:
-       PORT: 9000
-    command: -enable-url-source -mount /mnt/data
-    deploy:
-      labels:
-        - "traefik.enable=true"
-        - "traefik.port=9000"
-        - "traefik.frontend.rule=Host:${HOST:-docker.localhost}; PathPrefix:/service/forms; ReplacePathRegex: ^/service/forms(.*) $$1"
-        - "traefik.docker.network=traefik-public"
-        - "traefik.tags=traefik-public"
-        - "traefik.frontend.entryPoints=http,https"
-        - "traefik.frontend.redirect.entryPoint=https"
-      replicas: 1
-      update_config:
-        order: start-first
-
 secrets:
   odl_hax_form_email_password:
     external: true
@@ -105,6 +84,3 @@ secrets:
 networks:
   traefik-public:
     external: true
-
-volumes:
-  imaginary-data:
