@@ -156,7 +156,8 @@ class CourseCard extends ImaginaryMixin(PolymerElement) {
     };
   }
   computeImaginaryUrl(image) {
-    return this.imaginaryGenerateUrl(`${image}`, 'resize', ["width=500"])
+    const _image = this.imaginaryGenerateUrl(`${image}`, 'resize', ["width=500"]);
+    return _image;
   }
 }
 window.customElements.define(CourseCard.tag, CourseCard);
