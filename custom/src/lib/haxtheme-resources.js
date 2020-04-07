@@ -121,7 +121,7 @@ class HaxThemeResources extends ImaginaryMixin(PolymerElement) {
       }
     </style>
     
-    <page-banner image="[[imaginaryGenerateUrl(item.metadata.fields.image, 'resize', ['width=1600'])]]" text="[[activeItem.title]]" alt="Gateway to the Sciences"></page-banner>
+    <page-banner image="[[item.metadata.fields.image]]" text="[[activeItem.title]]" alt="Gateway to the Sciences"></page-banner>
     <div id="resource_wrap">
       <div class="resource_container">
         <div id="resource_inner_wrap">

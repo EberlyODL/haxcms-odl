@@ -4737,7 +4737,7 @@ class NewsCard extends ImaginaryMixin(LitElement) {
     // notes:
     // http://haxcms-odl.haxcms/sites/haxcms-odl/files/blog-images/2-10-20.jpg?imaginary&width=200&height=500&gravity=smart&operation=crop
     // utilize the imaginary image server
-    let imageResized = this.imaginaryGenerateUrl(this.image, 'resize', [ "width=400"]);
+    let imageResized = this.imaginaryGenerateUrl(this.image, 'smartcrop', [ "width=450", "height=600", "quality=75", "type=jpeg" ]);
     return html$1`
       <div id="news_wrap">
         <div
@@ -5637,7 +5637,7 @@ class CourseCard extends ImaginaryMixin(PolymerElement) {
     };
   }
   computeImaginaryUrl(image) {
-    const _image = this.imaginaryGenerateUrl(`${image}`, 'resize', ["width=500"]);
+    const _image = this.imaginaryGenerateUrl(`${image}`, 'smartcrop', [ "width=450", "height=300", "quality=75", "type=jpeg" ]);
     return _image;
   }
 }
@@ -7636,7 +7636,7 @@ class HaxThemeResources extends ImaginaryMixin(PolymerElement) {
       }
     </style>
     
-    <page-banner image="[[imaginaryGenerateUrl(item.metadata.fields.image, 'resize', ['width=1600'])]]" text="[[activeItem.title]]" alt="Gateway to the Sciences"></page-banner>
+    <page-banner image="[[item.metadata.fields.image]]" text="[[activeItem.title]]" alt="Gateway to the Sciences"></page-banner>
     <div id="resource_wrap">
       <div class="resource_container">
         <div id="resource_inner_wrap">

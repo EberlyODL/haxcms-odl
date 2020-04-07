@@ -159,7 +159,7 @@ class NewsCard extends ImaginaryMixin(LitElement) {
     // notes:
     // http://haxcms-odl.haxcms/sites/haxcms-odl/files/blog-images/2-10-20.jpg?imaginary&width=200&height=500&gravity=smart&operation=crop
     // utilize the imaginary image server
-    let imageResized = this.imaginaryGenerateUrl(this.image, 'resize', [ "width=400"]);
+    let imageResized = this.imaginaryGenerateUrl(this.image, 'smartcrop', [ "width=450", "height=600", "quality=75", "type=jpeg" ]);
     return html`
       <div id="news_wrap">
         <div
