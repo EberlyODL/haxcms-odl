@@ -10,6 +10,7 @@ build-cod1-swarm:
     - cod1
   script:
     # Cache busters
+    - rm config.js
     - sed -i -E "s/file=\"site\.json\"/file=\"site\.json\?v${CI_COMMIT_SHORT_SHA}\"/" index.html
     - docker-compose build
   only:
