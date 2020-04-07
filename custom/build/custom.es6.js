@@ -4565,7 +4565,27 @@ class HaxThemeServiceMultimedia extends PolymerElement {
 }
 window.customElements.define(HaxThemeServiceMultimedia.tag, HaxThemeServiceMultimedia);
 
-class NewsCard extends LitElement {
+const ImaginaryMixin = (base) =>
+  class Imaginary extends base {
+    constructor() {
+      super();
+      this.__imaginaryUrl = window.__env.IMAGINARY_URL;
+      this.__imaginaryHostUrl = window.__env.IMAGINARY_HOST_URL;
+    }
+
+    imaginaryGenerateUrl(image, operation = 'resize', options = []) {
+      if (this.__imaginaryHostUrl && this.__imaginaryUrl && image) {
+        const optionsString = options.join('&');
+        return `${this.__imaginaryUrl}/${operation}?url=${
+          this.__imaginaryHostUrl
+        }/${image}&${optionsString}`;
+      } else {
+        return image;
+      }
+    }
+  };
+
+class NewsCard extends ImaginaryMixin(LitElement) {
   static get styles() {
     return [
       css`
@@ -4723,10 +4743,7 @@ class NewsCard extends LitElement {
     // notes:
     // http://haxcms-odl.haxcms/sites/haxcms-odl/files/blog-images/2-10-20.jpg?imaginary&width=200&height=500&gravity=smart&operation=crop
     // utilize the imaginary image server
-    let imageResized = this.image;
-    if (this.__imaginaryHostUrl !== null && this.__imaginaryUrl !== null && this.image) {
-      imageResized = `${this.__imaginaryUrl}/resize?url=${this.__imaginaryHostUrl}/${this.image}&width=500`;
-    }
+    let imageResized = this.imaginaryGenerateUrl(this.image, 'resize', [ "width=400"]);
     return html$1`
       <div id="news_wrap">
         <div
@@ -4825,20 +4842,11 @@ class NewsCard extends LitElement {
        */
       url: {
         type: String
-      },
-      __imaginaryHostUrl: {
-        type: String
-      },
-      __imaginaryUrl: {
-        type: String
       }
     };
   }
   constructor() {
     super();
-    this.__baseUrl = null;
-    this.__imaginaryUrl = window.__env.IMAGINARY_URL;
-    this.__imaginaryHostUrl = window.__env.IMAGINARY_HOST_URL;
     import('../../build/es6/node_modules/@polymer/paper-button/paper-button.js');
   }
 }
@@ -5480,7 +5488,7 @@ class HaxThemeTeam extends PolymerElement {
 }
 window.customElements.define(HaxThemeTeam.tag, HaxThemeTeam);
 
-class CourseCard extends PolymerElement {
+class CourseCard extends ImaginaryMixin(PolymerElement) {
   static get template() {
     return html`
       <style>
@@ -5575,7 +5583,7 @@ class CourseCard extends PolymerElement {
         <div id="card_wrap">
           <div
             id="course_image"
-            style$="background-image:url([[image]])"
+            style$="background-image:url([[__imaginaryUrl]])"
             alt="[[alt]]"
           ></div>
           <div id="course_icon">
@@ -5627,8 +5635,15 @@ class CourseCard extends PolymerElement {
        */
       url: {
         type: String
+      },
+      __imaginaryUrl: {
+        type: String,
+        computed: "computeImaginaryUrl(image)"
       }
     };
+  }
+  computeImaginaryUrl(image) {
+    return this.imaginaryGenerateUrl(`${image}`, 'resize', ["width=500"])
   }
 }
 window.customElements.define(CourseCard.tag, CourseCard);
@@ -5719,7 +5734,7 @@ class HaxThemeCourses extends PolymerElement {
 }
 window.customElements.define(HaxThemeCourses.tag, HaxThemeCourses);
 
-class HaxThemeCourse extends PolymerElement {
+class HaxThemeCourse extends ImaginaryMixin(PolymerElement) {
   static get template() {
     return html`
       <style>

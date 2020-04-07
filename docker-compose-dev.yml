@@ -28,7 +28,7 @@ services:
     labels:
       - "traefik.enable=true" # Enable reverse-proxy for this service
       - "traefik.frontend.rule=Host:haxcms-odl.traefik.me"
-  
+
   api:
     build: 
       context: .

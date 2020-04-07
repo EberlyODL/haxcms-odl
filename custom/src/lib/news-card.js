@@ -1,6 +1,7 @@
 import { LitElement, html, css } from "lit-element/lit-element.js";
+import { ImaginaryMixin } from "./ImaginaryMixin.js"
 
-class NewsCard extends LitElement {
+class NewsCard extends ImaginaryMixin(LitElement) {
   static get styles() {
     return [
       css`
@@ -158,10 +159,7 @@ class NewsCard extends LitElement {
     // notes:
     // http://haxcms-odl.haxcms/sites/haxcms-odl/files/blog-images/2-10-20.jpg?imaginary&width=200&height=500&gravity=smart&operation=crop
     // utilize the imaginary image server
-    let imageResized = this.image;
-    if (this.__imaginaryHostUrl !== null && this.__imaginaryUrl !== null && this.image) {
-      imageResized = `${this.__imaginaryUrl}/resize?url=${this.__imaginaryHostUrl}/${this.image}&width=500`
-    }
+    let imageResized = this.imaginaryGenerateUrl(this.image, 'resize', [ "width=400"]);
     return html`
       <div id="news_wrap">
         <div
@@ -260,20 +258,11 @@ class NewsCard extends LitElement {
        */
       url: {
         type: String
-      },
-      __imaginaryHostUrl: {
-        type: String
-      },
-      __imaginaryUrl: {
-        type: String
       }
     };
   }
   constructor() {
     super();
-    this.__baseUrl = null;
-    this.__imaginaryUrl = window.__env.IMAGINARY_URL;
-    this.__imaginaryHostUrl = window.__env.IMAGINARY_HOST_URL;
     import("@polymer/paper-button/paper-button.js");
   }
 }
