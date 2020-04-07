@@ -7521,7 +7521,7 @@ class OdlFaqs extends LitElement {
 
 customElements.define("odl-faqs", OdlFaqs);
 
-class HaxThemeResources extends PolymerElement {
+class HaxThemeResources extends ImaginaryMixin(PolymerElement) {
   static get template() {
     return html`
     <style>
@@ -7636,7 +7636,7 @@ class HaxThemeResources extends PolymerElement {
       }
     </style>
     
-    <page-banner image="[[activeItem.metadata.fields.image]]" text="[[activeItem.title]]" alt="Gateway to the Sciences"></page-banner>
+    <page-banner image="[[imaginaryGenerateUrl(item.metadata.fields.image, 'resize', ['width=1600'])]]" text="[[activeItem.title]]" alt="Gateway to the Sciences"></page-banner>
     <div id="resource_wrap">
       <div class="resource_container">
         <div id="resource_inner_wrap">

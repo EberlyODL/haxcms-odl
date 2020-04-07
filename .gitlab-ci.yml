@@ -36,6 +36,9 @@ deploy-cod1-swarm:
   stage: deploy
   variables:
     HOST: "odl.science.psu.edu"
+    CONFIG_VARS: IMAGINARY_URL,IMAGINARY_HOST_URL
+    IMAGINARY_URL: http://imaginary.traefik.me:9000
+    IMAGINARY_HOST_URL: http://haxcms/sites/haxcms-odl
   tags:
     - cod1
   script:
