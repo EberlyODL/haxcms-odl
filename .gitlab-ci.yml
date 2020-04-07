@@ -10,7 +10,6 @@ build-cod1-swarm:
     - cod1
   script:
     # Cache busters
-    - rm config.js
     - sed -i -E "s/file=\"site\.json\"/file=\"site\.json\?v${CI_COMMIT_SHORT_SHA}\"/" index.html
     - docker-compose build
   only:
@@ -21,7 +20,6 @@ deploy-dev-cod1-swarm:
   stage: deploy
   variables:
     HOST: "odl-dev.courses.science.psu.edu"
-    CONFIG_VARS: IMAGINARY_URL,IMAGINARY_HOST_URL
     IMAGINARY_URL: https://imaginary.courses.science.psu.edu
     IMAGINARY_HOST_URL: https://odl-dev.courses.science.psu.edu
   tags:
@@ -37,7 +35,6 @@ deploy-cod1-swarm:
   stage: deploy
   variables:
     HOST: "odl.science.psu.edu"
-    CONFIG_VARS: IMAGINARY_URL,IMAGINARY_HOST_URL
     IMAGINARY_URL: https://imaginary.courses.science.psu.edu
     IMAGINARY_HOST_URL: https://odl.science.psu.edu
   tags:
