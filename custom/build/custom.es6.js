@@ -5,6 +5,7 @@ import { autorun, toJS } from '../../build/es6/node_modules/mobx/lib/mobx.module
 import { dom } from '../../build/es6/node_modules/@polymer/polymer/lib/legacy/polymer.dom.js';
 import { varGet, wipeSlot } from '../../build/es6/node_modules/@lrnwebcomponents/hax-body/lib/haxutils.js';
 import '../../build/es6/node_modules/@lrnwebcomponents/media-image/media-image.js';
+import '../../build/es6/node_modules/@lrnwebcomponents/citation-element/citation-element.js';
 import '../../build/es6/node_modules/@polymer/iron-pages/iron-pages.js';
 import '../../build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/ui-components/query/site-query.js';
 import '../../build/es6/node_modules/@polymer/polymer/lib/elements/dom-repeat.js';
