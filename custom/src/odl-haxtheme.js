@@ -9,6 +9,7 @@ import { autorun, toJS } from "mobx/lib/mobx.module.js";
 import { dom } from "@polymer/polymer/lib/legacy/polymer.dom.js";
 import { wipeSlot } from "@lrnwebcomponents/hax-body/lib/haxutils.js";
 import "@lrnwebcomponents/media-image/media-image.js";
+import "@lrnwebcomponents/citation-element/citation-element.js";
 import "@polymer/iron-pages/iron-pages.js";
 import "./lib/haxtheme-home.js";
 import "./lib/haxtheme-about.js";
