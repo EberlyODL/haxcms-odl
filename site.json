@@ -4089,12 +4089,51 @@
             "description": "Assessments are crucial for measuring the educational effectiveness and quality of a classroom in resident and online instruction.  Below you will find access to a number of valuable resources that will help make your course assessments meaningful and productive.",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/test-and-quizzes-banner.jpg",
+                    "image": "files\/resource-images\/test-and-quizzes-banner.jpg",
                     "alt": "Penn State students taking an exam.  Photo by: Carly Dreibelbis"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
                 "type": "resources"
+            }
+        },
+        {
+            "id": "understandingbydesign",
+            "indent": 0,
+            "location": "pages\/resources\/understanding-by-design\/index.html",
+            "order": 2,
+            "parent": "resources",
+            "title": "Understanding by Design",
+            "description": "Backward design is a pedagogical approach where instructors begin with the end, their learning outcomes, in mind. By identifying outcomes and the initial learning goals, instructors can figure out appropriate ways to fill in the required elements for instructions and make sure the content is aligned toward what the students need to learn to succeed in the course.",
+            "metadata": {
+                "fields": {
+                    "image": "files\/resource-images\/test-and-quizzes-banner.jpg",
+                    "alt": "Penn State students taking an exam.  Photo by: Carly Dreibelbis"
+                },
+                "created": 1541517755,
+                "updated": 1586389502,
+                "type": "resources",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 2,
+                    "paragraphs": 2,
+                    "schema": [
+                        {
+                            "resource": "#57f7b0a4-eb7b-d9a1-2868-14103d9deba3"
+                        },
+                        {
+                            "resource": "#f085f292-3b66-8065-af7a-46788efbfb6e",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        }
+                    ],
+                    "tags": {
+                        "h2": 2,
+                        "citation-element": 1,
+                        "video-player": 1,
+                        "p": 2
+                    },
+                    "elements": 6
+                }
             }
         },
         {
