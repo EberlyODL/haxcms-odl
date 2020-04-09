@@ -21,8 +21,8 @@ deploy-dev-cod1-swarm:
   stage: deploy
   variables:
     HOST: "odl-dev.courses.science.psu.edu"
-    IMAGINARY_URL: https://imaginary.courses.science.psu.edu
-    IMAGINARY_HOST_URL: https://odl-dev.courses.science.psu.edu
+    IMAGINARY_URL: "https://imaginary.courses.science.psu.edu"
+    IMAGINARY_HOST_URL: "https://odl-dev.courses.science.psu.edu"
   tags:
     - cod1
   script:
@@ -36,8 +36,8 @@ deploy-staging-cod1-swarm:
   stage: deploy
   variables:
     HOST: "odl-staging.courses.science.psu.edu"
-    IMAGINARY_URL: https://imaginary.courses.science.psu.edu
-    IMAGINARY_HOST_URL: https://odl-staging.courses.science.psu.edu
+    IMAGINARY_URL: "https://imaginary.courses.science.psu.edu"
+    IMAGINARY_HOST_URL: "https://odl-staging.courses.science.psu.edu"
   tags:
     - cod1
   script:
@@ -51,8 +51,8 @@ deploy-cod1-swarm:
   stage: deploy
   variables:
     HOST: "odl.science.psu.edu"
-    IMAGINARY_URL: https://imaginary.courses.science.psu.edu
-    IMAGINARY_HOST_URL: https://odl.science.psu.edu
+    IMAGINARY_URL: "https://imaginary.courses.science.psu.edu"
+    IMAGINARY_HOST_URL: "https://odl.science.psu.edu"
   tags:
     - cod1
   script:
