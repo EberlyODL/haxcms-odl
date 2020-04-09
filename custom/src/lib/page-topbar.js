@@ -78,7 +78,7 @@ class PageTopBar extends LitElement {
       return html`
        <div id="alert">
         <alert-message url="resources/contingency">
-          Information about Coronavirus and Contingency Planning
+          Information about Coronavirus, Contingency Planning and Remote Teaching
         </alert-message>
        </div>
       `;

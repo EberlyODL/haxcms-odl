@@ -1,6 +1,7 @@
 import { LitElement, html, css } from "lit-element/lit-element.js";
+import { ImaginaryMixin } from "./ImaginaryMixin.js"
 
-class NewsCard extends LitElement {
+class NewsCard extends ImaginaryMixin(LitElement) {
   static get styles() {
     return [
       css`
@@ -155,11 +156,15 @@ class NewsCard extends LitElement {
     ];
   }
   render() {
+    // notes:
+    // http://haxcms-odl.haxcms/sites/haxcms-odl/files/blog-images/2-10-20.jpg?imaginary&width=200&height=500&gravity=smart&operation=crop
+    // utilize the imaginary image server
+    let imageResized = this.imaginaryGenerateUrl(this.image, 'smartcrop', [ "width=450", "height=600", "quality=75", "type=jpeg" ]);
     return html`
       <div id="news_wrap">
         <div
           id="news_image"
-          style="background-image:url(${this.image})"
+          style="background-image:url(${imageResized})"
           alt="${this.alt}"
         ></div>
         <div id="content_wrap">

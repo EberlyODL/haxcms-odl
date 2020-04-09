@@ -1,11 +1,12 @@
 import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
 import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js";
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
+import { ImaginaryMixin } from "./ImaginaryMixin.js"
 import "@polymer/polymer/lib/elements/dom-if.js";
 import "./page-banner.js";
 import "./course-icons.js";
 
-class HaxThemeCourse extends PolymerElement {
+class HaxThemeCourse extends ImaginaryMixin(PolymerElement) {
   static get template() {
     return html`
       <style>

@@ -1,6 +1,7 @@
 import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
+import { ImaginaryMixin } from "./ImaginaryMixin.js"
 
-class CourseCard extends PolymerElement {
+class CourseCard extends ImaginaryMixin(PolymerElement) {
   static get template() {
     return html`
       <style>
@@ -95,7 +96,7 @@ class CourseCard extends PolymerElement {
         <div id="card_wrap">
           <div
             id="course_image"
-            style$="background-image:url([[image]])"
+            style$="background-image:url([[__imaginaryUrl]])"
             alt="[[alt]]"
           ></div>
           <div id="course_icon">
@@ -147,8 +148,16 @@ class CourseCard extends PolymerElement {
        */
       url: {
         type: String
+      },
+      __imaginaryUrl: {
+        type: String,
+        computed: "computeImaginaryUrl(image)"
       }
     };
+  }
+  computeImaginaryUrl(image) {
+    const _image = this.imaginaryGenerateUrl(`${image}`, 'smartcrop', [ "width=450", "height=300", "quality=75", "type=jpeg" ]);
+    return _image;
   }
 }
 window.customElements.define(CourseCard.tag, CourseCard);

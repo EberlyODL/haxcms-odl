@@ -11,6 +11,10 @@ services:
       - "traefik.enable=true"
       - "traefik.port=80"
       - "traefik.frontend.rule=Host:${HOST:-docker.localhost}"
+    environment:
+      - CONFIG_VARS=IMAGINARY_URL,IMAGINARY_HOST_URL
+      - IMAGINARY_URL=${IMAGINARY_URL}
+      - IMAGINARY_HOST_URL=${IMAGINARY_HOST_URL}
     deploy:
       labels:
         - "traefik.enable=true"

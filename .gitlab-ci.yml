@@ -14,11 +14,29 @@ build-cod1-swarm:
     - docker-compose build
   only:
     - master
+    - development
+
+deploy-dev-cod1-swarm:
+  stage: deploy
+  variables:
+    HOST: "odl-dev.courses.science.psu.edu"
+    IMAGINARY_URL: https://imaginary.courses.science.psu.edu
+    IMAGINARY_HOST_URL: https://odl-dev.courses.science.psu.edu
+  tags:
+    - cod1
+  script:
+    - pwd
+    - ls -la
+    - docker stack deploy -c docker-compose.yml --resolve-image always odl-development
+  only:
+    - development
 
 deploy-cod1-swarm:
   stage: deploy
   variables:
     HOST: "odl.science.psu.edu"
+    IMAGINARY_URL: https://imaginary.courses.science.psu.edu
+    IMAGINARY_HOST_URL: https://odl.science.psu.edu
   tags:
     - cod1
   script:
