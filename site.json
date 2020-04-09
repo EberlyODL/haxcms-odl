@@ -4266,7 +4266,7 @@
             "order": 3,
             "parent": "contingency",
             "title": "Canvas Quiz Logs",
-            "description": "  The quiz starts the log when students begin the quiz, so some logs may show  that the quiz is in progress.  If you gave the student multiple attempts for a quiz, the log will always show  the ",
+            "description": "The quiz starts the log when students begin the quiz, so some logs may show  that the quiz is in progress.  If you gave the student multiple attempts for a quiz, the log will always show the most recent attempt by default. However, you can view any attempt within the log.",
             "metadata": {
                 "fields": {
                     "image": "files\/resource-images\/canvas-banner.jpg",
