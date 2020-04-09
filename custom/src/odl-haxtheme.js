@@ -118,6 +118,10 @@ iron-pages {
     flex-direction: column;
     flex: 1 1 auto;
   }
+
+  a11y-tabs {
+    --a11y-tabs-content-background: orange;
+  }
 /* Menu Styles */
 
 odl-site-top-menu {
