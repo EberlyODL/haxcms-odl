@@ -7518,8 +7518,11 @@ class OdlFaqs extends LitElement {
   }
 
   __getFaqs() {
-    const tags = this.tags ? `?tags=${this.tags}` : '';
-    fetch(`/service/api/faqs${tags}`)
+    let params = ["parent=faqs"];
+    if (this.tags) {
+      params.push(`tags=${this.tags}`);
+    }
+    fetch(`/service/api/items?${params.join('&')}`)
       .then(res => res.json())
       .then(res => this.results = res);
   }

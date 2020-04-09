@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const { faqs } = require("./services.js");
+const { items } = require("./services.js");
 const _ = require("lodash")
 
 async function main() {
@@ -13,14 +13,26 @@ async function main() {
     res.send("ok")
   });
 
-  app.get("/faqs", (req, res) => {
+  app.get("/items", (req, res) => {
     const { query } = req;
     let tags = null;
+    let operator = "or";
+    let includeContent = true;
+    let parent = null;
     // check if their are any tags specified
     if (_.has(query, 'tags')) {
-      tags = query.tags.split(',')
+      tags = query.tags.split(',');
     }
-    res.json(faqs(tags))
+    if (_.has(query, 'operator')) {
+      operator = query.operator;
+    }
+    if (_.has(query, 'includeContent')) {
+      includeContent = query.includeContent;
+    }
+    if (_.has(query, 'parent')) {
+      parent = query.parent;
+    }
+    res.json(items({ tags, operator, includeContent, parent }))
   });
 
   app.listen(3000, () => {
