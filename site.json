@@ -4137,6 +4137,60 @@
             }
         },
         {
+            "id": "stage1",
+            "indent": 0,
+            "location": "pages\/resources\/understanding-by-design\/stage1\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Stage One",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "stage2",
+            "indent": 0,
+            "location": "pages\/resources\/understanding-by-design\/stage2\/index.html",
+            "order": 2,
+            "parent": "",
+            "title": "Stage Two",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "stage3",
+            "indent": 0,
+            "location": "pages\/resources\/understanding-by-design\/stage3\/index.html",
+            "order": 3,
+            "parent": "",
+            "title": "Stage Three",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
             "id": "examity",
             "indent": 0,
             "location": "pages\/resources\/test-and-quizzes\/examity\/index.html",
