@@ -607,7 +607,8 @@
         "user-action": "@lrnwebcomponents/user-action/user-action.js",
         "rss-items": "@lrnwebcomponents/rss-items/rss-items.js",
         "odl-promo-tile": "@lrnwebcomponents/rss-items/rss-items.js",
-        "odl-faqs": "@lrnwebcomponents/rss-items/rss-items.js"
+        "odl-faqs": "@lrnwebcomponents/rss-items/rss-items.js",
+        "odl-accordion": "@lrnwebcomponents/rss-items/rss-items.js"
     },
       "apiKeys": {
           "youtube": "",

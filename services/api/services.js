@@ -17,8 +17,8 @@ const FAQS_PARENT_ID = process.env.FAQS_PARENT_ID || "faqs"
  * @param {Boolean} includeContent
  *  include the html of the items content
  */
-const items = ({ tags = null, operator = 'and', includeContent = true, parent = null }) => {
-  let items = [];
+const items = ({ tags = null, operator = 'and', includeContent = true, parent = null, items = null }) => {
+  let result = [];
   if (fs.existsSync(path.join(HAXCMS_PATH))) {
     // check if site.json exists
     if (fs.existsSync(path.join(HAXCMS_PATH, "site.json"))) {
@@ -29,6 +29,9 @@ const items = ({ tags = null, operator = 'and', includeContent = true, parent = 
         // if there is a parent then filter on that.
         if (parent) {
           _items = _items.filter(i => i.parent === parent);
+        }
+        if (items) {
+          _items = _items.filter(i => items.includes(i.id));
         }
         // filter tags
         if (tags) {
@@ -54,14 +57,14 @@ const items = ({ tags = null, operator = 'and', includeContent = true, parent = 
             }
           })
         }
-        items = _items;
+        result = _items;
       }
     }
   }
 
   // Load the html for the faqs
   if (includeContent) {
-    items = items.map(item => {
+    result = result.map(item => {
       try {
         const pageContent = fs.readFileSync(path.join(HAXCMS_PATH, item.location), 'utf8');
         item.content = pageContent;
@@ -72,7 +75,7 @@ const items = ({ tags = null, operator = 'and', includeContent = true, parent = 
     })
   }
 
-  return items;
+  return result;
 }
 
 module.exports.items = items;

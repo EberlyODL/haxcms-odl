@@ -35,6 +35,7 @@ import "./lib/odl-site-top-menu.js";
 import "./lib/haxtheme-search.js";
 import "./lib/haxtheme-faqs.js";
 import "./lib/haxtheme-faq.js";
+import "./lib/odl-accordion.js";
 
 /**
  * `odl-haxtheme`

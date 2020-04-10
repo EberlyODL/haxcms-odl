@@ -10,7 +10,8 @@ class OdlAccordion extends LitElement {
       results: { type: Array },
       search: { type: Boolean },
       isLoggedIn: { type: Boolean },
-      parent: { type: String }
+      parent: { type: String },
+      items: { type: String }
     };
   }
 
@@ -131,6 +132,7 @@ class OdlAccordion extends LitElement {
     this.tags = '';
     this.search = false;
     this.parent = null
+    this.items = "";
     autorun(reaction => {
       this.isLoggedIn = store.isLoggedIn;
       this.__disposer.push(reaction);
@@ -141,6 +143,36 @@ class OdlAccordion extends LitElement {
       this.__disposer[i].dispose();
     }
     super.disconnectedCallback();
+  }
+
+  static get haxProperties() {
+    return {
+      canScale: false,
+      canPosition: true,
+      canEditSource: false,
+      gizmo: {
+        title: "Accordion",
+        description: "",
+        icon: "icons:file-download",
+        color: "blue",
+        meta: {
+          author: "LRNWebComponents"
+        }
+      },
+      settings: {
+        quick: [],
+        configure: [
+          {
+            property: "items",
+            title: "Items",
+            description: "Specify the items you want included by item id. Comma separated.",
+            inputMethod: "textfield",
+            icon: "editor:title"
+          }
+        ],
+        advanced: []
+      }
+    };
   }
 
   firstUpdated() {
@@ -178,6 +210,9 @@ class OdlAccordion extends LitElement {
     }
     if (this.parent) {
       params.push(`parent=${this.parent}`);
+    }
+    if (this.items && this.items !== "") {
+      params.push(`items=${this.items}`);
     }
     fetch(`/service/api/items?${params.join('&')}`)
       .then(res => res.json())
