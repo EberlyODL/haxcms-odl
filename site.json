@@ -4330,6 +4330,24 @@
             }
         },
         {
+            "id": "synchronous-vs-asynchronous",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/synchronous-vs-asynchronous\/index.html",
+            "order": 3,
+            "parent": "contingency",
+            "title": "Synchronous vs. Asynchronous",
+            "description": "Synchronous vs. asynchronous makes for a catchy headline, but faculty need to know that it isn’t an either/or, it’s a little bit of both. We have all these tools, content, students, faculty with their own strengths and challenges. We need to think deeply about the right approach.",
+            "metadata": {
+                "fields": {
+                    "image": "files\/resource-images\/academic-integrity-banner.jpg",
+                    "alt": "Students sitting on chairs with papers and pens. Photo by: Miguel Henriques - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
             "id": "accessibility",
             "indent": 0,
             "location": "pages\/resources\/contingency\/accessibility\/index.html",
