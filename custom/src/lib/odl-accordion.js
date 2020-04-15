@@ -1,15 +1,17 @@
 import { html, css, LitElement } from "lit-element/lit-element.js";
 import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js";
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
-import "./odl-faqs-item.js"
+import "./odl-accordion-item.js"
 
-class OdlFaqs extends LitElement {
+class OdlAccordion extends LitElement {
   static get properties() {
     return {
       tags: { type: String },
       results: { type: Array },
       search: { type: Boolean },
-      isLoggedIn: { type: Boolean }
+      isLoggedIn: { type: Boolean },
+      parent: { type: String },
+      items: { type: String }
     };
   }
 
@@ -129,6 +131,8 @@ class OdlFaqs extends LitElement {
     this.isLoggedIn = false;
     this.tags = '';
     this.search = false;
+    this.parent = null
+    this.items = "";
     autorun(reaction => {
       this.isLoggedIn = store.isLoggedIn;
       this.__disposer.push(reaction);
@@ -141,8 +145,38 @@ class OdlFaqs extends LitElement {
     super.disconnectedCallback();
   }
 
+  static get haxProperties() {
+    return {
+      canScale: false,
+      canPosition: true,
+      canEditSource: false,
+      gizmo: {
+        title: "Accordion",
+        description: "",
+        icon: "icons:file-download",
+        color: "blue",
+        meta: {
+          author: "LRNWebComponents"
+        }
+      },
+      settings: {
+        quick: [],
+        configure: [
+          {
+            property: "items",
+            title: "Items",
+            description: "Specify the items you want included by item id. Comma separated.",
+            inputMethod: "textfield",
+            icon: "editor:title"
+          }
+        ],
+        advanced: []
+      }
+    };
+  }
+
   firstUpdated() {
-    this.__getFaqs();
+    this.__getItems();
   }
 
   render() {
@@ -169,10 +203,16 @@ class OdlFaqs extends LitElement {
     `;
   }
 
-  __getFaqs() {
-    let params = ["parent=faqs"];
+  __getItems() {
+    let params = [];
     if (this.tags) {
       params.push(`tags=${this.tags}`);
+    }
+    if (this.parent) {
+      params.push(`parent=${this.parent}`);
+    }
+    if (this.items && this.items !== "") {
+      params.push(`items=${this.items}`);
     }
     fetch(`/service/api/items?${params.join('&')}`)
       .then(res => res.json())
@@ -180,6 +220,6 @@ class OdlFaqs extends LitElement {
   }
 }
 
-customElements.define("odl-faqs", OdlFaqs);
+customElements.define("odl-accordion", OdlAccordion);
 
-export { OdlFaqs };
+export { OdlAccordion };

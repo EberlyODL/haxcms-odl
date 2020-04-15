@@ -10,6 +10,7 @@ import { dom } from "@polymer/polymer/lib/legacy/polymer.dom.js";
 import { wipeSlot } from "@lrnwebcomponents/hax-body/lib/haxutils.js";
 import "@lrnwebcomponents/media-image/media-image.js";
 import "@lrnwebcomponents/citation-element/citation-element.js";
+import "@lrnwebcomponents/stop-note/stop-note.js";
 import "@polymer/iron-pages/iron-pages.js";
 import "./lib/haxtheme-home.js";
 import "./lib/haxtheme-about.js";
@@ -35,6 +36,7 @@ import "./lib/odl-site-top-menu.js";
 import "./lib/haxtheme-search.js";
 import "./lib/haxtheme-faqs.js";
 import "./lib/haxtheme-faq.js";
+import "./lib/odl-accordion.js";
 
 /**
  * `odl-haxtheme`

@@ -4086,15 +4086,28 @@
             "order": 2,
             "parent": "resources",
             "title": "Test and Quizzes",
-            "description": "Assessments are crucial for measuring the educational effectiveness and quality of a classroom in resident and online instruction.  Below you will find access to a number of valuable resources that will help make your course assessments meaningful and productive.",
+            "description": "      Encourage your students not to use Safari for taking exams or quizzes when    they include images as part of your exam. We have had reports recently from    several students about issues of",
             "metadata": {
                 "fields": {
                     "image": "files\/resource-images\/test-and-quizzes-banner.jpg",
                     "alt": "Penn State students taking an exam.  Photo by: Carly Dreibelbis"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
-                "type": "resources"
+                "updated": 1586893764,
+                "type": "resources",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 1,
+                    "paragraphs": 2,
+                    "schema": [],
+                    "tags": {
+                        "p": 2,
+                        "stop-note": 1,
+                        "h2": 1,
+                        "ol": 1
+                    },
+                    "elements": 5
+                }
             }
         },
         {
@@ -4107,7 +4120,7 @@
             "description": "Backward design is a pedagogical approach where instructors begin with the end, their learning outcomes, in mind. By identifying outcomes and the initial learning goals, instructors can figure out appropriate ways to fill in the required elements for instructions and make sure the content is aligned toward what the students need to learn to succeed in the course.",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/understand-design-banner.jpg",
+                    "image": "files\/resource-images\/understand-design-banner.jpg",
                     "alt": "Penn State students taking an exam.  Photo by: Carly Dreibelbis"
                 },
                 "created": 1541517755,
@@ -4134,6 +4147,60 @@
                     },
                     "elements": 6
                 }
+            }
+        },
+        {
+            "id": "stage1",
+            "indent": 0,
+            "location": "pages\/resources\/understanding-by-design\/stage1\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Stage One",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "stage2",
+            "indent": 0,
+            "location": "pages\/resources\/understanding-by-design\/stage2\/index.html",
+            "order": 2,
+            "parent": "",
+            "title": "Stage Two",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "stage3",
+            "indent": 0,
+            "location": "pages\/resources\/understanding-by-design\/stage3\/index.html",
+            "order": 3,
+            "parent": "",
+            "title": "Stage Three",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
             }
         },
         {
@@ -4247,15 +4314,33 @@
         {
             "id": "academic-integrity-and-assessments",
             "indent": 0,
-            "location": "pages\/resources\/contingency\/academic-integrity-and-assessments\/index.html",
+            "location": "pages\/resources\/contingency\/academic-integrity\/index.html",
             "order": 3,
             "parent": "contingency",
-            "title": "Academic Integrity and Assessments",
-            "description": "Currently, there is no university-wide supported proctoring service for online classes. World Campus utilizes the Examity proctoring service, for a fee.",
+            "title": "Academic Integrity",
+            "description": "When we think of academic integrity, we may think of copying information off the internet, sharing information off the internet, or allowing others to do work for the student. While these, at the base, are important facets of academic integrity, ultimately, cheating is unfair to all students because it creates an uneven playing field. It also harms those students who are doing the cheating.",
             "metadata": {
                 "fields": {
                     "image": "files\/resource-images\/academic-integrity-banner.jpg",
                     "alt": "Students sitting on chairs with papers and pens. Photo by: Miguel Henriques - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
+            "id": "synchronous-vs-asynchronous",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/synchronous-vs-asynchronous\/index.html",
+            "order": 3,
+            "parent": "contingency",
+            "title": "Synchronous vs. Asynchronous",
+            "description": "Synchronous vs. asynchronous makes for a catchy headline, but faculty need to know that it isn’t an either/or, it’s a little bit of both. We have all these tools, content, students, faculty with their own strengths and challenges. We need to think deeply about the right approach.",
+            "metadata": {
+                "fields": {
+                    "image": "files/resource-images/sync-async-banner.jpg",
+                    "alt": "Criss-cross. Photo by: Dhruv Weaver - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
