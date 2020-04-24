@@ -4643,6 +4643,24 @@
             }
         },
         {
+            "id": "cc9",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/students\/student-readiness-online\/oasis\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Online Assessment System for Internet Students (OASIS)",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
             "id": "teaching-support",
             "indent": 0,
             "location": "pages\/resources\/contingency\/teaching-support\/index.html",
