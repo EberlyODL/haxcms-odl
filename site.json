@@ -4540,7 +4540,7 @@
             "location": "pages\/resources\/contingency\/students\/student-readiness-online\/online-readiness-self-assessment\/index.html",
             "order": 1,
             "parent": "",
-            "title": "Online Readiness Self-Assessment (Online Course)",
+            "title": "Online Readiness Self-Assessment",
             "description": "",
             "metadata": {
                 "fields": {
@@ -4571,12 +4571,66 @@
             }
         },
         {
-            "id": "cc4",
+            "id": "cc5",
             "indent": 0,
-            "location": "pages\/resources\/contingency\/students\/student-readiness-online\/learning-readiness-assessment\/index.html",
+            "location": "pages\/resources\/contingency\/students\/student-readiness-online\/test-online-learning-success\/index.html",
             "order": 1,
             "parent": "",
-            "title": "Online Learning Readiness Assessment (Quiz/Test)",
+            "title": "TOOLS: Test of Online Learning Success (Quiz/Test)",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "cc6",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/students\/student-readiness-online\/assessing-readiness-for-e-learning\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Assessing Readiness for E-Learning (Open (Access) Journal-Article)",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "cc7",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/students\/student-readiness-online\/self-assessment-online-learning-readiness\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Self Assessment of Online Learning Readiness (Quiz/Test)",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "cc8",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/students\/student-readiness-online\/self-evaluation-distance-learning\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Self-evaluation for students considering taking Distance Learning courses (Quiz/Test)",
             "description": "",
             "metadata": {
                 "fields": {
