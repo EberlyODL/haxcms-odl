@@ -758,7 +758,7 @@
             "order": 1,
             "parent": "spotlight",
             "title": "Faculty Spotlight: Louis Leblond",
-            "description": "Louis Leblonde is the Director of Online Education in Physics. With a strong passion for all things education (research and online), he teaches large enrollment intro physics courses and has worked tirelessly to enhance them with engaging, accessible, and innovative materials.",
+            "description": "Louis Leblond is the Director of Online Education in Physics. With a strong passion for all things education (research and online), he teaches large enrollment intro physics courses and has worked tirelessly to enhance them with engaging, accessible, and innovative materials.",
             "metadata": {
                 "fields": {
                     "name": "Louis Leblond",
@@ -767,7 +767,7 @@
                     "jobTitle": "Director of Online Education in Physics",
                     "authorId": "chuck"
                 },
-                "created": 1655387200,
+                "created": 1584244800,
                 "updated": 1583942512,
                 "author": "Charles Lavera",
                 "authorImage": "files\/odl-team\/chuck.jpg",
