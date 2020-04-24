@@ -4505,7 +4505,7 @@
             "order": 3,
             "parent": "contingency",
             "title": "Students",
-            "description": "During this time of social distancing and remote teaching, students are stressed and having a rough time acclimating to this new world. We certainly know how they feel, and we want to support them.",
+            "description": "During this time of social distancing and remote teaching, students may experiene difficulties and/or stress. We wanted to share some tools and resources that will help faculty navigate those challenges with both wisdom and empathy.",
             "metadata": {
                 "fields": {
                     "image": "files\/resource-images\/students-banner.jpg",
@@ -4514,6 +4514,78 @@
                 "created": 1541517755,
                 "updated": 1541517755,
                 "type": "resources"
+            }
+        },
+        {
+            "id": "cc1",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/students\/student-readiness-online\/online-learning-readiness-questionnaire\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Online Learning Readiness Questionnaire (Quiz/Test)",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "cc2",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/students\/student-readiness-online\/online-readiness-self-assessment\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Online Readiness Self-Assessment (Online Course)",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "cc3",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/students\/student-readiness-online\/skills-effective-online-learning\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Skills for Effective Online Learning (Reference Material)",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "cc4",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/students\/student-readiness-online\/learning-readiness-assessment\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Online Learning Readiness Assessment (Quiz/Test)",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
             }
         },
         {
