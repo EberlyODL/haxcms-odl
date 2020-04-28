@@ -4661,6 +4661,42 @@
             }
         },
         {
+            "id": "webcam-class",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/teaching-support\/webcam-requirements\/webcam-class\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Class Meetings",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "webcam-assessment",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/teaching-support\/webcam-requirements\/webcam-assessment\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Exams and Assessments",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
             "id": "teaching-support",
             "indent": 0,
             "location": "pages\/resources\/contingency\/teaching-support\/index.html",
