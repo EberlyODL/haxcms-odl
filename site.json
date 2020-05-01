@@ -4733,6 +4733,96 @@
             }
         },
         {
+            "id": "ssie-async-interactions",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/synchronous-vs-asynchronous\/engagement-scenarios\/ssie-async-interactions\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Asynchronous Interactions",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "ssie-sync-engagement",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/synchronous-vs-asynchronous\/engagement-scenarios\/ssie-sync-engagement\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Synchronous Engagement",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "scie-async-interactions",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/synchronous-vs-asynchronous\/engagement-scenarios\/scie-async-interactions\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Asynchronous Interactions",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "scie-sync-engagement",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/synchronous-vs-asynchronous\/engagement-scenarios\/scie-sync-engagement\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Synchronous Engagement",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "engagement-scenarios-references",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/synchronous-vs-asynchronous\/engagement-scenarios\/engagement-scenarios-references\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Credit / References",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
             "id": "teaching-support",
             "indent": 0,
             "location": "pages\/resources\/contingency\/teaching-support\/index.html",

@@ -280,3 +280,8 @@
   a {
     color: pink;
   }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
