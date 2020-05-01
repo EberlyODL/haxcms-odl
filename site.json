@@ -4697,6 +4697,42 @@
             }
         },
         {
+            "id": "tsie-async-interactions",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/synchronous-vs-asynchronous\/engagement-scenarios\/tsie-async-interactions\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Asynchronous Interactions",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "tsie-sync-engagment",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/synchronous-vs-asynchronous\/engagement-scenarios\/tsie-sync-engagment\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Synchronous Engagement",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
             "id": "teaching-support",
             "indent": 0,
             "location": "pages\/resources\/contingency\/teaching-support\/index.html",
