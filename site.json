@@ -4305,8 +4305,8 @@
             "description": "Deliver and grade your Assessments anywhere. Gradescope helps you seamlessly administer and grade all of your assessments, whether online or in-class. Save time grading and get a clear picture of how your students are doing.",
             "metadata": {
                 "fields": {
-                    "image": "files\/resource-images\/h5p-banner.jpg",
-                    "alt": "Person holding tablet. Original Photo by: Henry Ascroft - Unsplash.com"
+                    "image": "files/resource-images/gradescope-banner.jpg",
+                    "alt": "People looking over paperwork. Photo by: Scott Graham - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
@@ -4314,7 +4314,7 @@
             }
         },
         {
-            "id": "eric-hudson-tips-gradescope",
+            "id": "ehtipg",
             "indent": 0,
             "location": "pages/resources/toolkits/gradescope/eric-hudson-tips-gradescope/index.html",
             "order": 1,
@@ -4377,12 +4377,30 @@
             "description": "Automatically ensure every student is prepared for every class with the world's only truly social e-reader. Engage your students, save time, reduce book costs, and help students help each other learn by collectively annotating readings in threads, responding to each other's comments, and interacting.",
             "metadata": {
                 "fields": {
-                    "image": "files\/resource-images\/online-lab-toolkit-banner.jpg",
-                    "alt": "Pendant Light Bulb. Photo by: Luca Florio - Unsplash.com"
+                    "image": "files/resource-images/perusall-banner.jpg",
+                    "alt": "Books open on a desk. Photo by: Aaron Burden - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
                 "type": "resources"
+            }
+        },
+        {
+            "id": "ehtipsp",
+            "indent": 0,
+            "location": "pages/resources/toolkits/perusall/eric-hudson-perusall/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Eric Hudson's Tips",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
             }
         },
         {
@@ -4392,15 +4410,51 @@
             "order": 6,
             "parent": "toolkits",
             "title": "Piazza",
-            "description": "",
+            "description": "Piazza is a free online gathering place where students can ask, answer, and explore 24/7, under the guidance of their instructors. Anyone can ask and answer questions using this Wiki-style discussion boad. With students teaching students, conversations on Piazza can continue long after office hours are over.",
             "metadata": {
                 "fields": {
-                    "image": "files\/resource-images\/online-lab-toolkit-banner.jpg",
-                    "alt": "Pendant Light Bulb. Photo by: Luca Florio - Unsplash.com"
+                    "image": "files/resource-images/piazza-banner.jpg",
+                    "alt": "Person touching laptop. Photo by: Mimi Thian - Unsplash.com"
                 },
                 "created": 1541517755,
                 "updated": 1541517755,
                 "type": "resources"
+            }
+        },
+        {
+            "id": "pztipseh",
+            "indent": 0,
+            "location": "pages/resources/toolkits/piazza/hudson-tips/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Eric Hudson's Tips",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "jhtipspzza",
+            "indent": 0,
+            "location": "pages/resources/toolkits/piazza/haubrick-tips/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "John Haubrick's Tips",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
             }
         },
         {
