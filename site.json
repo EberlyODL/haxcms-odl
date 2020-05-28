@@ -4296,6 +4296,24 @@
             }
         },
         {
+            "id": "Gradescope",
+            "indent": 0,
+            "location": "pages\/resources\/toolkits\/gradescope\/index.html",
+            "order": 5,
+            "parent": "toolkits",
+            "title": "Gradescope",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/resource-images\/h5p-banner.jpg",
+                    "alt": "Person holding tablet. Original Photo by: Henry Ascroft - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
             "id": "h5p",
             "indent": 0,
             "location": "pages\/resources\/toolkits\/h5p\/index.html",
@@ -4320,6 +4338,42 @@
             "order": 6,
             "parent": "toolkits",
             "title": "Online Lab Toolkit",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/resource-images\/online-lab-toolkit-banner.jpg",
+                    "alt": "Pendant Light Bulb. Photo by: Luca Florio - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
+            "id": "perusall",
+            "indent": 0,
+            "location": "pages\/resources\/toolkits\/perusall\/index.html",
+            "order": 6,
+            "parent": "toolkits",
+            "title": "Perusall",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/resource-images\/online-lab-toolkit-banner.jpg",
+                    "alt": "Pendant Light Bulb. Photo by: Luca Florio - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
+            "id": "piazza",
+            "indent": 0,
+            "location": "pages\/resources\/toolkits\/piazza\/index.html",
+            "order": 6,
+            "parent": "toolkits",
+            "title": "Piazza",
             "description": "",
             "metadata": {
                 "fields": {
