@@ -4302,7 +4302,7 @@
             "order": 5,
             "parent": "toolkits",
             "title": "Gradescope",
-            "description": "",
+            "description": "Deliver and grade your Assessments anywhere. Gradescope helps you seamlessly administer and grade all of your assessments, whether online or in-class. Save time grading and get a clear picture of how your students are doing.",
             "metadata": {
                 "fields": {
                     "image": "files\/resource-images\/h5p-banner.jpg",
@@ -4311,6 +4311,24 @@
                 "created": 1541517755,
                 "updated": 1541517755,
                 "type": "resources"
+            }
+        },
+        {
+            "id": "eric-hudson-tips-gradescope",
+            "indent": 0,
+            "location": "pages/resources/toolkits/gradescope/eric-hudson-tips-gradescope/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Eric Hudson's Tips",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
             }
         },
         {
@@ -4356,7 +4374,7 @@
             "order": 6,
             "parent": "toolkits",
             "title": "Perusall",
-            "description": "",
+            "description": "Automatically ensure every student is prepared for every class with the world's only truly social e-reader. Engage your students, save time, reduce book costs, and help students help each other learn by collectively annotating readings in threads, responding to each other's comments, and interacting.",
             "metadata": {
                 "fields": {
                     "image": "files\/resource-images\/online-lab-toolkit-banner.jpg",
