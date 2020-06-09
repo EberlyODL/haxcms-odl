@@ -190,14 +190,14 @@
                 "fields": {
                     "image": "files/blog-images/6-8-20.jpg",
                     "imageAlt": "Zoom call with coffee. Photo by: Chris Montgomery - Unsplash.com",
-                    "authorId": "chuck"
+                    "authorId": "melissa"
                 },
                 "created": 1591588800,
                 "updated": 1588305600,
                 "type": "news",
                 "template": "news",
-                "author": "Charles Lavera",
-                "authorImage": "files\/odl-team\/chuck.jpg",
+                "author": "Melissa Hicks",
+                "authorImage": "files\/odl-team\/melissa.jpg",
                 "tagLine": "June Conference",
                 "tags": [
                     "Conference",
