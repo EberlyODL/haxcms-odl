@@ -38,12 +38,12 @@ class HaxThemeSyllabus extends PolymerElement {
         }
 
         #contentcontainer {
-        font-size: var(--haxtheme-syllabus-contentcontainer-font-size);
-        font-weight: var(--haxtheme-syllabus-contentcontainer-font-weight);
-        line-height: var(--haxtheme-syllabus-contentcontainer-line-height);
-        @apply --haxtheme-syllabus-contentcontainer;
-      }
-      
+          font-size: var(--haxtheme-syllabus-contentcontainer-font-size);
+          font-weight: var(--haxtheme-syllabus-contentcontainer-font-weight);
+          line-height: var(--haxtheme-syllabus-contentcontainer-line-height);
+          @apply --haxtheme-syllabus-contentcontainer;
+        }
+
         #syllabus_header {
           border-left: var(--haxtheme-syllabus-header-border-left);
           border-left-width: var(--haxtheme-syllabus-header-border-left-width);
@@ -257,7 +257,10 @@ class HaxThemeSyllabus extends PolymerElement {
             </div>
           </div>
         </div>
-        <worksheet-download title="Download Sample" link="[[activeItem.metadata.fields.pdf]]"></worksheet-download>
+        <worksheet-download
+          title="Download Sample"
+          link="[[activeItem.metadata.fields.pdf]]"
+        ></worksheet-download>
       </div>
     `;
   }
@@ -271,11 +274,11 @@ class HaxThemeSyllabus extends PolymerElement {
     import("@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-print-button.js");
     import("@polymer/iron-image/iron-image.js");
     this.__disposer = [];
-    autorun(reaction => {
+    autorun((reaction) => {
       this.manifest = toJS(store.routerManifest);
       this.__disposer.push(reaction);
     });
-    autorun(reaction => {
+    autorun((reaction) => {
       this.activeItem = toJS(store.activeItem);
       this.__disposer.push(reaction);
     });
