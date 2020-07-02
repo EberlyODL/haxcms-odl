@@ -4937,6 +4937,132 @@
             }
         },
         {
+            "id": "blendedsnyc",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/teaching-support\/delivery-modes\/blended-synchronous\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Blended Synchronous",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "flippedmodified",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/teaching-support\/delivery-modes\/flipped-class-modified\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Flipped Class Modified",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "flippedclassroom",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/teaching-support\/delivery-modes\/flipped-classroom\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Flipped Classroom",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "fullinperson",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/teaching-support\/delivery-modes\/full-in-person\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Full In Person",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "fullonline",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/teaching-support\/delivery-modes\/full-online\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Full Online",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "simulcastlecture",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/teaching-support\/delivery-modes\/simulcast-lecture\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Simulcast Lecture",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
+            "id": "specialcircumstances",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/teaching-support\/delivery-modes\/special-circumstances\/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Special Circumstances",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
             "id": "tsie-async-interactions",
             "indent": 0,
             "location": "pages\/resources\/contingency\/synchronous-vs-asynchronous\/engagement-scenarios\/tsie-async-interactions\/index.html",
