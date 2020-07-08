@@ -4534,6 +4534,24 @@
             }
         },
         {
+            "id": "kregenowtipspzza",
+            "indent": 0,
+            "location": "pages/resources/toolkits/piazza/kregenow-tips/index.html",
+            "order": 1,
+            "parent": "",
+            "title": "Julia Kregenow's Tips",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "",
+                    "alt": ""
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": ""
+            }
+        },
+        {
             "id": "zoom",
             "indent": 0,
             "location": "pages\/resources\/toolkits\/zoom\/index.html",
