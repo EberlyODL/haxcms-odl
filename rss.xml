@@ -9,65 +9,128 @@
     <lastBuildDate>Tue, 03 Dec 2019 15:41:08 +0000</lastBuildDate>
     <atom:link href="/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Faculty Spotlight: Louis Leblond</title>
-      <link>/spotlight/louis</link>
+      <title>Keep Teaching: More Resources for Fall 2020 </title>
+      <link>/blog-posts/6-30-20</link>
       <description>
           <![CDATA[ <p>
-  Louis Leblonde is the Director of Online Education in Physics. With a strong
-  passion for all things education (research and online), he teaches large
-  enrollment intro physics courses and has worked tirelessly to enhance them
-  with engaging, accessible, and innovative materials.
+  A task group of faculty, staff, and administrators is currently developing
+  specific guidelines for teaching remotely and in-person during the fall 2020
+  semester. The task group is taking active steps to engage the Penn State
+  teaching community in this process.
 </p>
 <p>
-  Louis excells in creating unique online course experiences to enrich
-  face-to-face classes and currently he is working on developing a hands-on lab
-  for future physics online courses.
+  Information on fall 2020 delivery, teaching and testing,
+  technology training, and many other questions are provided.
 </p>
 <p>
-  Specifically, Louis has filmed a number of creative instructional lab videos.
-  The videos feature Louis performing a variety of experiments that would help
-  students visualize difficult concepts online.
-</p>
-<p>
-  Check out some of his
+  For more information, visit:
   <a
+    href="https://keepteaching.psu.edu/fall-2020/"
     style="text-decoration: none; color:#e2801e;"
-    href="https://www.youtube.com/watch?v=9PnJRokt-Ow&list=PLBBCdKoDCnCBA6YR6q4hkMM4_jOza7BQJ"
     target="_blank"
-    >videos</a
-  >.
+    >keepteaching.psu.edu/fall-2020/</a
+  >
 </p>
-<p>
-  Moreover, when Loius isn't pouring over his course materials for quality and
-  effectiveness, he's working to create resources for fellow faculty to improve
-  the college.
-</p>
-<p>
-  For example, here is a helpful video Louis created recently to help faculty
-  transition into Canvas during the Corona Virus outbreak.
-</p>
-<video-player
-  accent-color="grey"
-  iframed="iframed"
-  is-a11y-media="is-a11y-media"
-  is-youtube="is-youtube"
-  lang="en"
-  preload="metadata"
-  source="https://youtu.be/zPwe8nMYCq0"
-  source-type="youtube"
-  sticky-corner="top-right"
-  youtube-id="zPwe8nMYCq0"
-  schema-resource-id="#ff04a88e-140c-185a-7bef"
-  resource="#ff04a88e-140c-185a-7bef"
-  prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org "
-  sources="[]"
-  tracks="[]"
-></video-player>
  ]]>
       </description>
-      <category>Spotlight,Education,Learning</category>
-      <guid>/spotlight/louis</guid>
-      <pubDate>Thu, 16 Jun 2022 13:46:40 +0000</pubDate>
+      <category>Resources,Remote Learning,Teaching</category>
+      <guid>/blog-posts/6-30-20</guid>
+      <pubDate>Tue, 30 Jun 2020 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>'Summer Institute on Education, Equity, & Justice' is Hosting a Free Virtual Conference</title>
+      <link>/blog-posts/6-8-20</link>
+      <description>
+          <![CDATA[ <p>
+  The 'Summer Institute on Education, Equity, and Justice' is hosting a free
+  virtual conference the last week of June. There will be a number of great
+  topics to take in, including:
+</p>
+<h3 style="font-weight: 400;">
+  June 23 from 12:00-1:30 p.m. EST: Learning in Digital Age (Lunch Session)
+</h3>
+<p>
+  Dr. Joshua Schuschke will discuss “Expectations, Opportunities, and Futures:
+  Culturally Responsive Learning Environments for Black Girls in the Digital
+  Age” Bring your lunch and join us!
+</p>
+<h3 style="font-weight: 400;">
+  June 24 from 12:00-1:30 p.m. EST: Teaching Young Women of Color: Antiracist
+  Practices and Strategies (Lunch Session)
+</h3>
+<p>
+  This session focuses on antiracist and culturally responsive strategies that
+  the audience can utilize in learning environments. Presenters: Dr. Jenice View
+  (George Mason University) and Dr. Meredith Anderson (United Negro College
+  Fund). Facilitated by Dr. Samantha Cohen, Director of AU EdD Program.
+</p>
+<p>
+  For more information, and a complete schedule of events visit:
+  <a
+    style="text-decoration: none; color:#e2801e;"
+    href="https://www.american.edu/soe/summer.cfm"
+    target="_blank"
+    >https://www.american.edu/soe/summer.cfm
+  </a>
+</p>
+ ]]>
+      </description>
+      <category>Conference,Workshop,Training</category>
+      <guid>/blog-posts/6-8-20</guid>
+      <pubDate>Mon, 08 Jun 2020 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Canvas Accessibility Training</title>
+      <link>/blog-posts/5-1-20</link>
+      <description>
+          <![CDATA[ <p>
+  ODL is offering training for Accessibility in Canvas. This training opportunity is for ECoS faculty and staff who
+  are working with Remote Teaching and Learning.
+</p>
+<p>
+  Are you putting your courses online for the first time this summer and need
+  help creating accessible web content? Do you already have a course in Canvas
+  that you need to make accessible? Have you heard about accessibility in online
+  courses, but want to know more? Register for for the following session:
+</p>
+<p>Canvas Accessibility training reserved for ECoS faculty and staff</p>
+<ul>
+  <li>Thursday, May 14 (9:15am-12:00pm)</li>
+  <p></p>
+  <div class="action_button">
+    <a
+      style="text-decoration: none; color: #fff;"
+      href="https://nam01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fpsu.csod.com%2FLMS%2FLoDetails%2FDetailsLo.aspx%3Floid%3D6d4ede00-8da5-46cc-9cbf-19f13036fbee%23t%3D1&data=02%7C01%7Cmjs100%40psu.edu%7C6573dbea456d41e1f81c08d7ec477519%7C7cf48d453ddb4389a9c1c115526eb52e%7C0%7C0%7C637237663957032703&sdata=9jBklJ9vmk%2FLcfqp7pzNzW3PtPL%2BihfUOAVSpd5I4XU%3D&reserved=0"
+      target="_blank"
+    >
+      <paper-button
+        style="background-color: #e2801e; text-transform: none;"
+        noink
+      >
+        <div class="title">Register</div>
+        <iron-icon icon="chevron-right"></iron-icon>
+      </paper-button>
+    </a>
+  </div>
+</ul>
+<p>
+  The training  will cover how to create and modify content to meet the
+  Penn State accessibility policy and guidelines, ensuring all students are
+  afforded an equal experience in our online courses.
+</p>
+<p>
+  If you have any questions, please contact our Accessibility Coordinator,
+  <a
+    style="text-decoration: none; color:#e2801e; font-size: 18px; font-weight: 400; border-bottom: none;"
+    href="mailto:cmd30@psu.edu"
+    >Carly Dreibelbis</a
+  >
+</p>
+ ]]>
+      </description>
+      <category>Accessibility,Canvas,Training</category>
+      <guid>/blog-posts/5-1-20</guid>
+      <pubDate>Fri, 01 May 2020 04:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Should I use one zoom room for all of my classes?</title>
@@ -270,6 +333,67 @@
       <category></category>
       <guid>/demos</guid>
       <pubDate>Thu, 19 Mar 2020 18:50:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Faculty Spotlight: Louis Leblond</title>
+      <link>/spotlight/louis</link>
+      <description>
+          <![CDATA[ <p>
+  Louis Leblond is the Director of Online Education in Physics. With a strong
+  passion for all things education (research and online), he teaches large
+  enrollment intro physics courses and has worked tirelessly to enhance them
+  with engaging, accessible, and innovative materials.
+</p>
+<p>
+  Louis excells in creating unique online course experiences to enrich
+  face-to-face classes and currently he is working on developing a hands-on lab
+  for future physics online courses.
+</p>
+<p>
+  Specifically, Louis has filmed a number of creative instructional lab videos.
+  The videos feature Louis performing a variety of experiments that would help
+  students visualize difficult concepts online.
+</p>
+<p>
+  Check out some of his
+  <a
+    style="text-decoration: none; color:#e2801e;"
+    href="https://www.youtube.com/watch?v=9PnJRokt-Ow&list=PLBBCdKoDCnCBA6YR6q4hkMM4_jOza7BQJ"
+    target="_blank"
+    >videos</a
+  >.
+</p>
+<p>
+  Moreover, when Loius isn't pouring over his course materials for quality and
+  effectiveness, he's working to create resources for fellow faculty to improve
+  the college.
+</p>
+<p>
+  For example, here is a helpful video Louis created recently to help faculty
+  transition into Canvas during the Corona Virus outbreak.
+</p>
+<video-player
+  accent-color="grey"
+  iframed="iframed"
+  is-a11y-media="is-a11y-media"
+  is-youtube="is-youtube"
+  lang="en"
+  preload="metadata"
+  source="https://youtu.be/zPwe8nMYCq0"
+  source-type="youtube"
+  sticky-corner="top-right"
+  youtube-id="zPwe8nMYCq0"
+  schema-resource-id="#ff04a88e-140c-185a-7bef"
+  resource="#ff04a88e-140c-185a-7bef"
+  prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org "
+  sources="[]"
+  tracks="[]"
+></video-player>
+ ]]>
+      </description>
+      <category>Spotlight,Education,Learning</category>
+      <guid>/spotlight/louis</guid>
+      <pubDate>Sun, 15 Mar 2020 04:00:00 +0000</pubDate>
     </item>
     <item>
       <title>2020 Horizon Report</title>
@@ -693,2544 +817,782 @@
       <pubDate>Tue, 06 Nov 2018 15:22:36 +0000</pubDate>
     </item>
     <item>
-      <title>Frnsc 100</title>
-      <link>/syllabi/frnsc100</link>
+      <title>Phys 212</title>
+      <link>/syllabi/phys212</link>
       <description>
           <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
 <p>
-  Forensic science is the application of scientific principles and practices to
-  matters of the law.
+  Calculus-based introduction to classical electricity and magnetism, including
+  such topics as, electric charge and electric fields, Gauss's law, electric
+  potential, capacitance, current, resistance, and circuits, magnetic fields,
+  and fields due to currents, induction and inductance, magnetism of matter,
+  Maxwell's equations, and electromagnetic oscillations
 </p>
+<h2 style="font-size: 24px; font-weight: 400;">Prerequisite</h2>
+<p>Math 140, Phys 211 Concurrent: MATH 141</p>
+<h2 style="font-size: 24px; font-weight: 400;">Textbook</h2>
 <p>
-  This course introduces students to the field of forensic science and
-  criminalist with focus on the collection, examination, evaluation, and
-  interpretation of evidence. Following a single case over the semester, the
-  course will review the basic applications of selected forensic science
-  disciplines and will explore the underlying scientific principals and methods
-  used within each. The capabilities and limitations of the forensic sciences
-  will be illustrated, as well as the ways in which science contributes to the
-  resolution of social and legal disputes.
+  Physics for Scientists and Engineers: A Strategic Approach by Knight, 4th
+  edition. This course will cover (in parts) chapters 22-32 and Chap 16 from the
+  Phys 211 book.
 </p>
-<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
-<p>Upon completion of this course, students will be able to:</p>
-<ul>
-  <li>
-    Describe crime scene procedures and technologies used to reveal, collect,
-    process, and transport crime scene evidence.
-  </li>
-  <li>
-    Identify the role of the criminalist within the broad scope of forensic
-    science and science in general.
-  </li>
-  <li>
-    Describe the forensic roles that scientists from the fields outside of
-    criminalistics play in the investigation and criminal justice process.
-  </li>
-  <li>
-    Explain categories of evidence (direct, circumstantial, testimonial), their
-    limitations, and value in a criminal investigation.
-  </li>
-  <li>
-    Describe the necessity of photography in all stages of the forensic science
-    process, from crime scene to court room, and its dual purpose as both
-    evidence and documentation in case work.
-  </li>
-  <li>
-    Compare the generalist versus specialist philosophies of forensic science,
-    and explain how each informs the way forensic science is approached.
-  </li>
-  <li>
-    Explain how to identify and scientifically examine different types of
-    physical evidence, such as glass, soil, hairs, fibers, paint, controlled
-    substances or drugs, blood, DNA, etc.
-  </li>
-  <li>
-    Describe identification, enhancement, collection, and analysis techniques
-    for impression and pattern evidence.
-  </li>
-  <li>
-    List characteristics of handwriting and document analysis.
-  </li>
-  <li>
-    Recall historical developments and landmarks of forensic science.
-  </li>
-  <li>
-    Illustrate critical thinking by obtaining results and collecting facts, and
-    then drawing conclusions from those results and making decisions based on
-    the facts presented.
-  </li>
-  <li>
-    Demonstrate knowledge of the underlying scientific principles for analyses
-    performed and instruments used in forensic science and the science lab.
-  </li>
-  <li>
-    Demonstrate quantitative literacy by solving numerical problems and
-    performing numerical manipulations, and interpreting tabulated, graphical,
-    and/or statistical data.
-  </li>
-  <li>
-    Identify the limitations of forensic science in what it can and cannot
-    prove.
-  </li>
-  <li>
-    Describe the differences between presumptive and confirmatory testing, and
-    demonstrate knowledge of the appropriate application of each to evidence.
-  </li>
-  <li>
-    Relate forensic science principles and technological advances to real-world
-    applications.
-  </li>
-  <li>
-    Explain the importance of ethics in science.
-  </li>
-  <li>
-    Summarize how the legal field influences forensic science and vise-versa.
-  </li>
-  <li>
-    Describe the role of forensic science in the criminal justice system, as
-    well as its role in society at large.
-  </li>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
-<ul>
-  <li>
-    Houde, J. N. (2006). Crime Lab: A Guide for Nonscientists (Second ed.).
-  </li>
-  <li>Rollingbay, WA: Calico Press, LLC. ISBN: 978-0965828666</li>
-</ul>
-<p>
-  It is HIGHLY recommended that you purchase the e-book. You can buy it on
-  amazon.com. You do not need a kindle to read the book - just download the free
-  kindle app onto your computer or device.
-</p>
-<p>
-  The Kindle version costs approx. $6 USD and can be purchased on
-  <a
-    style="text-decoration: none; color:#e2801e;"
-    href="https://www.amazon.com/Crime-Lab-Guide-Nonscientists-2nd-ebook/dp/B01CTHYAZ2/ref=sr_1_1_twi_kin_1?ie=UTF8&qid=1502221118&sr=8-1&keywords=crime+lab+a+guide+for+nonscientists%20(Links%20to%20an%20external%20site.)Links%20to%20an%20external%20site."
-    target="_blank"
-    >Amazon</a
-  >
-  .
-</p>
-<p>
-  If you choose to buy the paper book instead of the e-book, no dude date
-  extensions will be granted for late work because your book has has not arrived
-  yet. The paper book costs about $30 USD, so it is remarkably more expensive
-  than the e-book. If you still decide to purchase the physical copy, make sure
-  you purchase the second edition and not the first. They are not the same. All
-  online instructor provided reading and activities on the Canvas website,
-  unless specifically stated to the contrary, are testable materials.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Course Topics</h2>
 <table>
-  <th>Week</th>
+  <th>Unit</th>
   <th>Topic(s)</th>
   <tr>
     <td>1</td>
-    <td>
-      What is forensic science; crime scene investigation – scene management and
-      approach
-    </td>
+    <td>Electric Force and Field</td>
   </tr>
   <tr>
     <td>2</td>
-    <td>
-      Crime scene investigation – processing the scene, evidence collection
-      methods
-    </td>
+    <td>Electric Potential & Current</td>
   </tr>
   <tr>
     <td>3</td>
-    <td>
-      Crime scene investigation – packaging and transport of evidence
-    </td>
+    <td>DC Circuits</td>
   </tr>
   <tr>
     <td>4</td>
-    <td>
-      Forensic biology/serology; collecting evidence samples from
-      victims/suspects∏
-    </td>
+    <td>Magnetism</td>
   </tr>
   <tr>
     <td>5</td>
-    <td>
-      Evidence intake and initial examination at crime lab
-    </td>
+    <td>Electromagnetic Induction</td>
   </tr>
   <tr>
     <td>6</td>
-    <td>
-      Lab instrumentation
-    </td>
+    <td>AC Circuits</td>
   </tr>
   <tr>
     <td>7</td>
-    <td>
-      Trace evidence
-    </td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>
-      Blood
-    </td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>
-      DNA
-    </td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>
-      Drug chemistry and toxicology
-    </td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>
-      Impression evidence; tool marks and firearms
-    </td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>
-      The courtroom, ethics, and credibility
-    </td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>
-      Reconstruction and drawing conclusions from results
-    </td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>
-      Reconstruction and critical thinking
-    </td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>
-      Forensic science in the “real world;” social/legal impacts
-    </td>
+    <td>Electromagnetic Waves</td>
   </tr>
 </table>
-<h2 style="font-size: 24px; font-weight: 400;">Reading</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
 <p>
-  Each module contains assigned reading. Some of the reading is from your
-  textbook and some will be from online articles, websites, or content provided
-  by the instructor on the course content website. All material from the reading
-  is testable unless otherwise indicated.
+  This is a 4 credit course that is fairly intensive with course work due almost
+  every day. A standard week contains three phases: exploratory phase, problem
+  solving phase and revision phase. The exploratory phase of a giving week
+  overlaps with the revision phase of the previous week. The final assignment
+  for a week are due on Tuesday of the next week allowing time to review and
+  discuss.
+</p>
+<table>
+  <th>Days</th>
+  <th>Wednesday</th>
+  <th>Thursday</th>
+  <th>Friday</th>
+  <th>Saturday</th>
+  <th>Sunday</th>
+  <th>Monday</th>
+  <th>Tuesday</th>
+  <tr>
+    <td></td>
+    <td colspan="2">Exploratory Phase</td>
+    <td colspan="2">Problem Solving Phase</td>
+    <td colspan="3">Revision Phase / Exploratory Phase (Next Week)</td>
+  </tr>
+  <tr>
+    <td>Graded Assignments due</td>
+    <td>Discussion Board - 1st Post</td>
+    <td>Reading Quiz</td>
+    <td></td>
+    <td>Tutorial / Lab - 1st Draft</td>
+    <td>Discussion Boards - Replies</td>
+    <td>Peer Reviews</td>
+    <td>Tutorial / Lab - Final Version</td>
+  </tr>
+  <tr>
+    <td>Live Sessions</td>
+    <td></td>
+    <td>Office Hours</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td colspan="2">Learning Sessions</td>
+  </tr>
+</table>
+<p>
+  Not every week will contain all different types of assignments. For an exam
+  week, the exam is on Thursday (on the material of the previous weeks).
 </p>
 <p>
-  If you have a paper book, the page numbers are listed. If you are using an
-  e-book (recommended), the page numbers may differ from the physical paper
-  book. In that case, the chapter titles and/or headings are given to provide
-  you with starting and stopping points.
+  Most of the material is posted ahead and it is entirely possible for you to
+  adjust this schedule to fit better with your own work/study schedule.
 </p>
-<h2 style="font-size: 24px; font-weight: 400;">Online Labs or Activities</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Reading Quiz</h2>
 <p>
-  Online labs or other activities help emphasize important points from your
-  reading, or help expand your understanding of the science being used to
-  examine evidence. Most of this content is hosted on third-party websites that
-  we do not control. If the content on one of these websites becomes unavailable
-  or you have trouble accessing it, email the instructor immediately for
-  assistance. We will help you troubleshoot as best we can. If you choose to
-  skip the activity and move on to the quiz without seeking assistance, and are
-  unable to answer quiz questions because of it, points will not be given back.
-  You MUST contact one of us to troubleshoot before "giving up and moving on" if
-  you cannot access a site in order for points to be granted for missed
-  questions.
+  We will be using an online computer grading system called MasteringPhysics
+  (https://www.pearsonmylabandmastering.com/) to do reading quiz . Access to
+  MasteringPhysics is provided in the PSU custom book in the bookstore.
 </p>
 <p>
-  If you do not already have a YouTube account, you may need to create one to
-  watch many of the videos.
+  The reading quiz are due early in the week and they are meant to be places to
+  first learn the material, not a place to “test” your knowledge. Most of the
+  questions are “tutorials” that will walk you through how to solve problems.
+  You get immediate feedback when answering questions and many questions provide
+  hints.
+</p>
+<h2 style="font-size: 24px; font-weight: 400;">Tutorial</h2>
+<p>
+  Each week, we will have a tutorial. There are three options on how to do the
+  tutorials:
+</p>
+<ul>
+  <li>
+    Print it and write your answer by hand, take a picture (or a scan) and
+    submit.
+  </li>
+  <li>
+    Use a blank sheet, write your answer by hand clearly numbering them. Take a
+    pic or scan and submit.
+  </li>
+  <li>
+    Using a tablet, write your answer by hand on the tutorial pdf and submit.
+  </li>
+</ul>
+<p>
+  In this type of assignments, we will grade your work and not just your answer.
+  If you have a real professional scanner, that will work great. If we have to
+  use a phone we recommend to use scanning app which do better than just
+  pictures.
+</p>
+<h2 style="font-size: 24px; font-weight: 400;">Labs</h2>
+<p>
+  The laboratories (8 in total) are designed to provide you with hands-on
+  experience with the material being investigated in class as well as teaching
+  data sensemaking and observational experimental methods. See the list of
+  learning objectives for more details. All of those skills and topics learned
+  in the lab may be tested in the exams. The lab will be using the IOLab device
+  various sensors together with the accompanying software. While the lab
+  component is officially only worth 10% of the grade, a zero on all labs will
+  result in a letter grade of D at best irrespective of all other course work.
+</p>
+<h2 style="font-size: 24px; font-weight: 400;">Peer-Review</h2>
+<p>
+  It is very beneficial for students to see each other works and to receive and
+  give feedback. Therefore, a first draft of the weekly tutorial and lab is
+  required to be posted every Saturday. You will then be randomly assigned to
+  peer-review multiple of your peers and give feedback on their work (not grade
+  their work which is only a draft anyway). The instructors will also review
+  each draft submission and help out where needed. The tutorial and lab will
+  then be resubmitted for grading every Tuesday. The peer-review is graded and
+  is part of the quiz grade. As you will see, there are some points every week
+  in the quiz assigned to a peer-review question.
+</p>
+<h2 style="font-size: 24px; font-weight: 400;">Discussion Boards</h2>
+<p>
+  Maybe the most important part of this course is the weekly discussion board.
+  You will be assigned a team and you will need to post and reply to your
+  teammates.
+</p>
+<p>Often the post will include three parts:</p>
+<ul>
+  <li>
+    Your answers and reasoning to a couple of conceptual questions on the
+    material
+  </li>
+  <li>Comments/questions on your work on the tutorial</li>
+  <li>Comments/questions on your work on the lab</li>
+</ul>
+<p>
+  Instructor and TA will provide feedback in the discussion boards. The
+  discussion boards are the online analog of a lecture where the students
+  discuss with continuous instructor feedback.
 </p>
 <p>
-  The content of these labs and activities is testable material unless otherwise
-  indicated.
+  The first post of the discussion is due on Wednesday but replies will continue
+  as long as needed.
 </p>
-<h2 style="font-size: 24px; font-weight: 400;">Case Notes and Written Work</h2>
+<h2 style="font-size: 24px; font-weight: 400;">Quiz</h2>
 <p>
-  In modules 1-11 you will have homework assignments in the form of case notes.
-  While each module's case notes covers a different area of the crime scene or
-  crime lab (toxicology, DNA, drugs, etc.), they are all part of the same case
-  and will all have the same case number – PSUCL-01.
+  There will be individual quizzes throughout the semester with questions that
+  closely resembled the exams. These are graded on correctness. You get two
+  tries and the best score is kept. The quiz will also self-reflections
+  questions and this is where the points for the peer-review will be attributed.
 </p>
+<h2 style="font-size: 24px; font-weight: 400;">TA Sessions</h2>
 <p>
-  Most of these assignments require you to fill in the provided
-  worksheets/outlines and then submit the work for grading on Canvas. All of the
-  case notes must be typewritten and submitted as a Microsoft Word or PDF
-  document. If you submit your work in a format that is unreadable (bad file,
-  .pages, html link, etc.), your work will be given a 0. If we can’t read it, we
-  can’t – and won’t - grade it. The same goes for anyone who uses Google Docs.
-  If it does funny things to the document format and alters the assignment or
-  makes it unreadable, the assignment may lose points or not be graded. YOU are
-  responsible for making sure your work is submitted properly and
-  legible/readable.
+  These are required live discussions once a week where we will review previous
+  material and look ahead to the upcoming week. These sessions will be hosted by
+  teaching assistanta and the instructor. We will have multiple time options.
 </p>
+<h2 style="font-size: 24px; font-weight: 400;">Discussions with Professor</h2>
 <p>
-  You will need Microsoft Word in order to complete the assignments for this
-  class. As a Penn State student, you receive free access to Office 365 online.
-  Every single student gets use of the Microsoft Office platforms using this
-  app; therefore, no excuses of “But I don’t have Word.” or “But I use a Mac.”
-  will be accepted for why your work is not in the proper format. If we cannot
-  read it, we cannot grade it.
-</p>
-<p>
-  It is important to keep up with case notes assignments throughout the semester
-  - you will need this information to be complete and accurate to do the
-  assignments in modules 12-14.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Evidence Summary Assignment</h2>
-<p>
-  In module 12 you will aggregate the results of the case notes that you have
-  taken throughout the semester. Your summary will go over each piece of
-  evidence by discussing the analyses performed on them and the results of those
-  tests.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Drawing Conclusions Assignment</h2>
-<p>
-  In module 13, you will use the summary from module 12. Using your critical
-  thinking skills, you will draw conclusions about the evidence in this case. Is
-  it probative? Can it be associated with other evidence or people from the
-  crime scene? Is your assumption about the evidence supported by science?
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Timeline of Events (Reconstruction) Assignment</h2>
-<p>
-  In module 14, you will use the assignment completed in module 13 to
-  reconstruct the timeline of events from the crime scene, as well as discuss
-  some alternate theories of the case. Based on the conclusions you come to in
-  module 13, your timeline may vary greatly from those of your fellow
-  classmates. This is expected and acceptable, as long as your timeline is
-  backed up by your scientific interpretation of the evidence.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Forensic Science Professional Profiles</h2>
-<p>
-  The majority of the textbook is dedicated to criminalistics, but there are
-  many other sciences that can be included under the forensic science umbrella.
-  There are ten forensic science specialties discussed throughout the course.
-  Each of these will include short reading assignments, a possible online
-  activity or lab, and a 5 question, 5 point quiz.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Forensic Science Career Assignment</h2>
-<p>
-  Part of exploring any profession is understanding what it takes to be a part
-  of it. You will examine job postings for crime scene, crime lab, and forensic
-  specialty work in order to explore what it takes to enter the forensic science
-  field. This is also an opportunity to see how the courses you take and the
-  skills you develop in the classroom are directly applicable to your career
-  once you leave Penn State.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Forensic Science Education Assignment</h2>
-<p>
-  As you will see from the Career Assignment, the educational requirements for
-  jobs in the forensic science field vary widely depending on the type of work
-  you want to do. For the Education Assignment, you will examine different
-  degree options in relation to the job postings you analyzed during the Career
-  Assignment to explore the differences between these degrees and why certain
-  degrees may be necessary for some jobs but not others.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Photography Assignments</h2>
-<p>
-  You will have five photography assignments throughout the semester. They will
-  each cover different uses and necessities of photography throughout a case
-  including the use of photography for crime scene investigation (CSI),
-  documentation of victims and suspects, initial evidence examination,
-  documentation of evidence analysis, and finally the use of these photos as
-  evidence or documentation in the courtroom.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Quizzes</h2>
-<p>
-  Each module has a 10 question, 10 point quiz that you will have 10 minutes to
-  complete. The quizzes contain multiple choice and true/false questions. All
-  material in the module - except for the professional profile - is fair game
-  for the quiz.
-</p>
-<p>
-  Quiz questions are randomly drawn from a question bank specific to the module
-  in which you are taking the quiz. Each bank may have up to 50 questions. The
-  questions are pulled from the textbook reading, Canvas page reading, articles
-  and third party website information, videos, and online labs/activities. While
-  the quiz is open book, it is HIGHLY RECOMMENDED that you take some notes to
-  use on your quiz and exams as you complete each module. Students who try to do
-  the reading and take the quiz simultaneously generally run out of time because
-  there is not enough time to do both.
-</p>
-<p>
-  Each professional profile has a 5 question, 5 point quiz that you will have 10
-  minutes to complete. The quizzes contain multiple choice and true/false
-  questions. These quiz questions will only be on the information in the
-  professional profile - no other content from the module will be in the 5 point
-  quiz.
-</p>
-<p>
-  Quizzes are open book and open note - they are not open friend. Make sure your
-  work is your own.
-</p>
-<p>
-  All quizzes will be available on Canvas. Check the calendar and module pages
-  for due dates.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Case Note Quiz</h2>
-<p>
-  The formatting of case notes in forensic science is guided by some very strict
-  standards and guidelines. In the world of forensic science, case notes are
-  considered a legal document, and if they are done incorrectly, they can get
-  thrown out of court. You will be introduced to the basics of proper case notes
-  documentation in this class. The format you are being asked to follow is a
-  bare bones version of what anyone entering a law enforcement or forensics
-  profession will encounter. This is also a good introduction to the handwritten
-  version of case notes you will encounter in FRNSC 210 if you intend to pursue
-  the forensic science major at Penn State.
-</p>
-<p>
-  Every semester, students needlessly lose points on their case notes
-  assignments because they refuse to follow the format (or simply ignore the
-  directions). This quiz is designed to make sure you understand the format that
-  is required for case notes - especially the date and time.
+  I will host a discussion hour on Thursdays (not graded or required but very
+  useful). These may be recorded but I will need students to start the
+  discussions!
 </p>
 <h2 style="font-size: 24px; font-weight: 400;">Exams</h2>
 <p>
-  You will have three exams, each worth 100 points. Exams have 100 multiple
-  choice and true/false questions. The questions are drawn from the question
-  banks used to make the module quizzes. It is likely you will see some of the
-  same questions on your exam that you had on a previous quiz - these will be
-  mixed in with new questions you have not seen before.
+  There will be two midterm exams. Both midterms are worth the same: 20% each
+  for a total of 40%.
 </p>
 <p>
-  You will have 1 hour (60 minutes) to complete each exam. While the exams are
-  open book, it is HIGHLY RECOMMENDED that you take some notes to use on your
-  exams as you complete each module. It is also HIGHLY RECOMMENDED that you
-  study for this exam the same as you would any other. If you are unfamiliar
-  with the material, you will have trouble finishing the exam on time - there is
-  not enough time to look up every single answer in your notes or on Canvas
-  while taking the exam.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Extra Credit</h2>
-<p>
-  The instructor will have VoiceThread or Kaltura lectures throughout the
-  modules for you to watch. A VoiceThread or Kaltura lecture is like a
-  PowerPoint lecture - you watch the slides while I talk over them. However,
-  these are NOT traditional lectures. They will vary in length and complexity
-  depending on the subject matter being discussed and there is not a lecture for
-  every module. These lectures are designed to help explain concepts and
-  assignments that students have struggled with in the past. It is worth your
-  while to watch them with your full attention - do not do other work, watch
-  Netflix, or engage in other distractions. Lectures are considered testable
-  material unless otherwise stated.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Class Discussion on Piazza</h2>
-<p>
-  There are no discussion boards or group projects required in this class. That
-  being said, students in previous classes have expressed a desire for there to
-  be some sort of voluntary discussion forum where they can post questions or
-  discuss assignments with fellow students. I have set up Piazza so that you can
-  do just that. These forums will be monitored, so do not use them to cheat.
-  Pointing a student to the correct section of the textbook to find and answer
-  is acceptable – telling them the answer is not. This is the ONLY place where
-  students are authorized to “collaborate” within this course.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% of Course Grade</th>
-  <tr>
-    <td>A</td>
-    <td>93-100%</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>90-93%</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>83-87%</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>83-87%</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>80-83%</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>77-80%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-77%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-70%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 60%</td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Late Submission Policy</h2>
-<p>
-  Late quizzes and exams will not be accepted without prior permission from the
-  instructor.
+  Exams will be closed book. Relevant physical constants and formulae will be
+  provided. Calculators, cellular phones and other communication devices are NOT
+  allowed and the exam will be designed such that they are not needed. The exams
+  will be based on the assigned reading in the textbook, the material covered in
+  course content, the quizzes, discussion boards and the laboratories/tutorial.
 </p>
 <p>
-  Very late work may be accepted on a case-by-case basis. Students with
-  long-term or serious illnesses or experiencing catastrophic life events have
-  been granted extensions in the past. Doctor's notes or other documentation may
-  be required. Again, extensions are not guaranteed, and are granted on a
-  case-by-case basis by the instructor.
+  Each exam will be delivered through Canvas. All exams are proctored using
+  Examity which allow you to take the exam anywhere and to schedule at any time
+  (in the appropriate time window where the exam is opened).
 </p>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/frnsc100</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Frnsc 200</title>
-      <link>/syllabi/frnsc200</link>
-      <description>
-          <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
-<p>
-  This course offers an exploration of the science, management, and
-  investigative techniques for the field of crime scene investigation. Students
-  will develop the intellectual skills needed to be able to plan for and
-  organize a crime scene investigation. Each student will understand the nature
-  and value of each kind of physical evidence and how to recognize, collect and
-  preserve it. They will research all the topics in this course and provide
-  their own evidence of competency in each in the form of a professional
-  portfolio.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
-<p>When you successfully complete this course, you will understand:</p>
-<ul>
-  <li>
-    Techniques used to preserve the crime scene record (notes, sketches, and
-    digital SLR photography).
-  </li>
-  <li>
-    Techniques used to recognize, enhance, document, collect, handle, and
-    package physical evidence. Comprehension of importance of chain of custody
-    and evidence integrity.
-  </li>
-  <li>
-    Common field tests for the presumptive identification and enhancement of
-    different types of physical evidence.
-  </li>
-  <li>
-    Incident/crime reconstruction including the analysis of blood traces and
-    projectile trajectory analysis.
-  </li>
-  <li>
-    Proper preparation and maintenance of case folders.
-  </li>
-  <li>
-    Techniques to communicate results including verbal and written
-    communication.
-  </li>
-  <li>
-    Scene management techniques including allocation of personnel, resources,
-    and time.
-  </li>
-  <li>
-    Importance of science and scientific, objective, critical thought processes
-    in scene investigations.
-  </li>
-  <li>
-    Role and impact of the criminalist in incident scene investigations.
-  </li>
-  <li>
-    Codes of professional conduct and ethics for forensic science professional
-    organizations; comprehension of necessity of ethics in forensic science and
-    potential ethical problems in forensic science including issues of
-    professional practice, technical competence, and bias.
-  </li>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
-<table>
-  <th>Week</th>
-  <th>Topic(s)</th>
-  <tr>
-    <td>1</td>
-    <td>Introduction to the Course; CSI; Forensics; Ethics</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Scene Management; CSI Team Structure; Evidence Collection</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Documentation: Motes, Sketches, Scene Entry Logs, Other Forms</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Photography I (general photography)</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Photography II (CSI photography; photographing people)</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>Fingerprints</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>Pattern Evidence</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>Trace Evidence</td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>Biological Evidence; Sexual Assault</td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>Firearms</td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>Fires; Explosions; Mass Fatalities</td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>Digital Evidence; Questioned Documents</td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>Autopsy; Entomology; Drugs</td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>Analysis of Blood Traces</td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>Aspects of Shooting Incident Investigation I</td>
-  </tr>
-  <tr>
-    <td>16</td>
-    <td>Aspects of Shooting Incident Investigation II</td>
-  </tr>
-</table>
 <h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
+<p>
+  Your grade in the course will be based on your performance in the
+  labs/tutorials, on the quizzes, on the discussion boards/wrap-ups/peer-reviews
+  and on the exams with the following weights:
+</p>
 <table>
   <th>Assignment</th>
-  <th>Assignment Weight</th>
-  <th>Final Weight</th>
+  <th>% Score</th>
   <tr>
-    <td>Exercises (6)</td>
-    <td>3.75%</td>
-    <td>22.50%</td>
-  </tr>
-  <tr>
-    <td>Final Mock Scene Exercise</td>
-    <td>9.50%</td>
-    <td>9.50%</td>
-  </tr>
-  <tr>
-    <td>Quiz (6)</td>
+    <td>Reading Quiz</td>
     <td>5%</td>
-    <td>30%</td>
   </tr>
   <tr>
-    <td>Midterm Exam</td>
-    <td>12%</td>
-    <td>24%</td>
+    <td>Quiz</td>
+    <td>5%</td>
   </tr>
   <tr>
-    <td>Final Exam</td>
-    <td>14%</td>
-    <td>14%</td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% of Course Grade</th>
-  <tr>
-    <td>A</td>
-    <td>93-100%</td>
+    <td>Discussion Boards</td>
+    <td>5%</td>
   </tr>
   <tr>
-    <td>A-</td>
-    <td>90-93%</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>83-87%</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>83-87%</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>80-83%</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>77-80%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-77%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-70%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>< 60%</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/frnsc200</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Frnsc 210</title>
-      <link>/syllabi/frnsc210</link>
-      <description>
-          <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
-<p>
-  The primary aim of this course is to prepare students for entry into the
-  undergraduate forensic science program and to enhance success in the 400 level
-  forensic science courses. This course is designed to introduce students to
-  several fundamental areas and provide the theory and knowledge essential for
-  success in the ﬁeld. The associated skills and abilities for these practices
-  will be developed in later courses required for the forensic science program.
-</p>
-<p>
-  Presently, forensic science and criminalistics are primarily specialized;
-  forensic biologists, forensic chemists, trace evidence examiners, latent print
-  specialists, ﬁrearm and tool mark examiners, etc. While some criminalists may
-  be cross-trained in other areas, the majority practice solely in a speciﬁc
-  sub-discipline. Regardless of the specialty, all criminalists and forensic
-  scientists will be exposed to and required to perform many of the same
-  essential practices. All criminalists will record observations, in the ﬁeld
-  and in the laboratory, as case notes. They will prepare sketches, take and
-  record measurements, and photograph scenes and/or physical evidence.
-  Microscopes are used in nearly every sub-discipline for the examination of
-  physical evidence. Criminalists are expected to report and testify to their
-  examinations, analyses, results, and conclusions.
-</p>
-<p>
-  This course is designed to introduce students to these fundamental areas and
-  provide the theory and knowledge essential for success in the ﬁeld. The
-  associated skills and abilities for these practices will be developed in later
-  courses. FRNSC 210 provides a ﬁrm foundation for all later courses; it is the
-  cornerstone of your education and will serve you well as a criminalist. This
-  knowledge cannot be forgotten upon completion of this course; it must be
-  retained as it comprises the essential practices required of all criminalists
-  and forensic scientists.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
-<p>On completion of FRNSC 210, students will be able to:</p>
-<ul>
-  <li>
-    Describe Kirk’s philosophy of criminalistics and the importance of
-    scientific philosophy in forensic science
-  </li>
-  <li>
-    Describe accuracy, precision, uncertainty of measurement, and assessment of
-    error
-  </li>
-  <li>
-    Describe the terms and organizations: quality assurance; quality control;
-    accreditation; proficiency testing; ASCLD; and ASCLD-LAB.
-  </li>
-  <li>
-    Demonstrate the required ISO/17025 and ASCLD-LAB criteria for note taking at
-    a crime scene or in the laboratory
-  </li>
-  <li>
-    Explain the proper preparation and maintenance of case folders
-  </li>
-  <li>
-    Execute techniques used to preserve the crime scene record, e.g., to take
-    appropriate notes, make proper sketches, and properly use digital SLR
-    photography
-  </li>
-  <li>
-    Describe the importance of evidence integrity and chain of custody as well
-    as demonstrate its use
-  </li>
-  <li>
-    Perform various measurement methods used at crime scenes and evidence
-  </li>
-  <li>
-    Explain the use of f/stop, shutter speed, and ISO in capturing a properly
-    exposed image
-  </li>
-  <li>
-    Describe color temperature and how it affects a captured image and the
-    apparent color of an object
-  </li>
-  <li>
-    Explain proper exposures for different lighting conditions
-  </li>
-  <li>
-    Explain resolution and magnification in visible light images including
-    calculating focal length
-  </li>
-  <li>
-    Describe various aberrations of lenses and their corrections
-  </li>
-  <li>
-    List different microscopes and their uses in a crime lab including
-    advantages and limitations
-  </li>
-  <li>
-    Employ techniques to communicate data, results, and interpretations through
-    written communication
-  </li>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
-<p>
-  Langford M, Bilissi E. Langford’s Advanced Photography. 8th ed. Oxford: Focal
-  Press, 2011.
-</p>
-<p>Additional assigned reading materials will be provided by the instructor.</p>
-<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
-<table>
-  <th>Week</th>
-  <th>Topic(s)</th>
-  <tr>
-    <td>1</td>
-    <td>
-      Introduction<br />National Academy of Science Report on Forensic Science
-    </td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>
-      Forensic science, criminalistics, science, and evidence<br />Professional
-      Organizations in Forensic Science
-    </td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>
-      Quality Assurance, Quality Control and Accreditation<br />Physical
-      evidence: control and authentication
-    </td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>
-      Observations and Preservation of physical evidence record: Notes and
-      sketches
-    </td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>
-      Measurement: tools, techniques, and accuracy/error
-    </td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>
-      Introduction to Light and Photography I
-    </td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>
-      Introduction to Optics and Photography II
-    </td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>
-      Photography III: Cameras, Lenses, and Lighting
-    </td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>
-      Videography
-    </td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>
-      Forensic Microscopy I
-    </td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>
-      Forensic Microscopy II: Phase Contrast and Darkfield
-    </td>
-  </tr>
-  <tr>
-    <td>12</td>
-    <td>
-      Forensic Microscopy III: Polarized Light and Fluorescence
-    </td>
-  </tr>
-  <tr>
-    <td>13</td>
-    <td>
-      Forensic Microscopy IV
-    </td>
-  </tr>
-  <tr>
-    <td>14</td>
-    <td>
-      Thanksgiving Break
-    </td>
-  </tr>
-  <tr>
-    <td>15</td>
-    <td>
-      Communication of Results I
-    </td>
-  </tr>
-  <tr>
-    <td>16</td>
-    <td>
-      Communication of Results II
-    </td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
-<table>
-  <th>Assignment</th>
-  <th>Points (each)</th>
-  <th>% of Total Grade</th>
-  <tr>
-    <td>Midterm Exam</td>
-    <td>100</td>
-    <td>20%</td>
-  </tr>
-  <tr>
-    <td>Final Exam</td>
-    <td>150</td>
-    <td>30%</td>
-  </tr>
-  <tr>
-    <td>Quizzes (5)</td>
-    <td>20(each) 100(total)</td>
-    <td>20%</td>
-  </tr>
-  <tr>
-    <td>Exercises (3)</td>
-    <td>50(each) 150(total)</td>
+    <td>Labs</td>
     <td>10%</td>
   </tr>
   <tr>
+    <td>Tutorials</td>
+    <td>5%</td>
+  </tr>
+  <tr>
+    <td>Midterms</td>
+    <td>40%</td>
+  </tr>
+  <tr>
+    <td>Final</td>
+    <td>25%</td>
+  </tr>
+  <tr>
+    <td>Concept Surveys</td>
+    <td>2%</td>
+  </tr>
+  <tr>
+    <td>TA Sessions</td>
+    <td>3%</td>
+  </tr>
+  <tr>
     <td>Total</td>
-    <td>500</td>
     <td>100%</td>
   </tr>
 </table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/frnsc210</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Math 004</title>
-      <link>/syllabi/math004</link>
-      <description>
-          <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
-<p>
-  MATH 004 Intermediate Algebra (3 semester hours) Algebraic expressions;
-  linear, absolute value Equations and inequalities; lines; systems of linear
-  equations; integral exponents; polynomials; factoring. This course may not be
-  used to satisfy the basic minimum requirements for graduation in any
-  Baccalaureate degree program.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Prerequisite</h2>
-<p>
-  Basic arithmetic skills or satisfactory performance on the mathematics
-  proficiency examination, Students who do not meet the prerequisite may have
-  great difficulty in the course.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
-<ul>
-  <li>Unit 1</li>
-  <ul>
-    <li>Simplify numerical expressions.</li>
-    <li>Perform arithmetic operations with real numbers.</li>
-    <li>Apply properties of real numbers to simplify expressions.</li>
-    <li>Evaluate exponential expressions.</li>
-    <li>Simplify and evaluate algebraic expressions.</li>
-  </ul>
-  <li>Unit 2</li>
-  <ul>
-    <li>Solve first-degree equations.</li>
-    <li>Use equations to solve word problems.</li>
-    <li>Solve equations involving fractions or decimals.</li>
-    <li>
-      Solve word problems involving discount and. selling price, simple
-      interest, and mixtures.
-    </li>
-    <li>Solve inequalities, and write solution sets in interval notation.</li>
-    <li>Solve inequalities involving fractions or decimals.</li>
-    <li>Solve compound inequalities.</li>
-    <li>Use inequalities to solve word problems.</li>
-    <li>Solve equations and inequalities that involve absolute value.</li>
-  </ul>
-  <li>Unit 3</li>
-  <ul>
-    <li>Determine the slope of a line, and use slope to graph lines.</li>
-    <li>Determine the point-slope equation of a line.</li>
-    <li>Determine the slope-intercept equation of a line.</li>
-    <li>Find equations for parallel or perpendicular lines.</li>
-    <li>Find and graph solutions for linear equations in two variables.</li>
-    <li>Graph linear equations by finding the x and y intercept.</li>
-    <li>
-      Graph lines passing through the origin, vertical lines, and horizontal
-      lines.
-    </li>
-    <li>Use the distance formula.</li>
-    <li>Solve systems of linear equations by graphing and substitution.</li>
-  </ul>
-  <li>Unit 4</li>
-  <ul>
-    <li>Add, subtract, and multiply polynomials.</li>
-    <li>Divide monomials.</li>
-    <li>Factor out the greatest common factor.</li>
-    <li>Factor by grouping.</li>
-    <li>
-      Factor the difference of two squares and the sum or difference of two
-      cubes.
-    </li>
-    <li>Factor trinomials by trial-and-error and the four-step method.</li>
-    <li>Solve polynomial equations by factoring.</li>
-  </ul>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
-<ul>
-  <li>
-    An 18 week Access to ALEKS 360 is needed to provide access to the ebook and
-    supplementary materials
-    <a style="text-decoration: none; color:#e2801e;" href="https://www.aleks.com/" target="_blank">www.aleks.com</a>
-    . This can be purchased separately or with the book.
-  </li>
-  <li>ALEKS Course Code : MNPMR-LFYMA</li>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Textbook</h2>
-  <p>Intermediate Algebra with P.O.W.E.R Learning 1st edition, Messersmith, Perez, Feldman </p>
-  <ul>
-    <li>Ebook with 1 semester ALEKS 360 access (18 weeks) ISBN-10: 0077528530</li>
-    <li>Paperback (ALEKS access not included) ISBN-10: 0073406279</li>
-  </ul>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
-<table>
-  <th>Conceptual</th>
-  <th>Basic Skills</th>
-  <th>Exams</th>
-  <tr>
-    <td>200 Points</td>
-    <td>350 Points</td>
-    <td>450 Points</td>
-  </tr>
-  <tr>
-    <td>4 Piazza Participations (25 points each)</td>
-    <td>4 Scheduled ALEKS Assessments (20 each)</td>
-    <td>Final Exam Proctored (250 points)</td>
-  </tr>
-  <tr>
-    <td>4 Concept Quizzes (25 points each) </td>
-    <td>4 Unit ALEKS Quizzes (20 each)</td>
-    <td>Midterm (200 points) </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>4 ALEKS Unit Completion (30 each)<br>Midterm and Final ALEKS Units (35 each)</td>
-    <td></td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% Course Grade</th>
-  <tr>
-    <td>A</td>
-    <td>90-100%</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>80-89%</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-79%</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-69%</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td> < 59%</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/math004</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Math 017</title>
-      <link>/syllabi/math017</link>
-      <description>
-          <![CDATA[ <p>Coming Soon!</p>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/math017</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Math 141</title>
-      <link>/syllabi/math141</link>
-      <description>
-          <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
-<p>
-  Calculus is an important building block in the education of any professional
-  who uses quantitative analysis. This course further introduces and develops
-  the mathematical skills required for analyzing growth and change and creating
-  mathematical models that replicate reallife phenomena. The goals of our
-  calculus courses include to develop the students' knowledge of calculus
-  techniques and to use the calculus environment to develop critical thinking
-  and problem solving skills. This course covers the following topics:
-  logarithms, exponentials, and inverse trigonometric functions; applications of
-  the definite integral and techniques of integration; sequences and series;
-  power series and Taylor polynomials; parametric equations and polar functions.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Prerequisite</h2>
-<p>
-  Math 140,140A, 140E, or 140H, or a score of 4 or 5 on the AP Calculus AB Exam.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
-<p>Upon successful completion of Math 141, the student should be able to:</p>
-<ul>
-  <li>
-    Differentiate exponential, logarithmic, and inverse trigonometric functions.
-  </li>
-  <li>
-    Integrate exponential, logarithmic, and inverse trigonometric functions.
-  </li>
-  <li>Recognize integrands for which integration by parts is appropriate.</li>
-  <li>Use the formula to integrate by parts.</li>
-  <li>Use techniques for integrals of products of sines and cosines.</li>
-  <li>
-    Use techniques for integrals of secants and tangents, and for cosecants and
-    cotangents.
-  </li>
-  <li>
-    Use techniques of trigonometric substitution to integrate various forms of
-    integrands.
-  </li>
-  <li>
-    Complete the square to express an irreducible quadratic polynomial as a sum
-    or difference of squares.
-  </li>
-  <li>
-    Perform polynomial long division to reduce an integrand to a more easily
-    integrated form.
-  </li>
-  <li>
-    Use the technique of partial fraction decomposition to reduce an integrand
-    to a more easily integrated form.
-  </li>
-  <li>
-    Given a random integration problem, choose the proper method and proceed
-    with integration.
-  </li>
-  <li>Identify indeterminate limit forms.</li>
-  <li>Evaluate limits using L’Hospital’s Rule.</li>
-  <li>
-    Recognize improper integrals and put in proper form for determination.
-  </li>
-  <li>
-    Determine if an improper integral diverges or converges (and if so, to
-    what?).
-  </li>
-  <li>Identify and compare different types of sequences.</li>
-  <li>Determine if a sequence diverges or converges (and if so, to what?).</li>
-  <li>Recognize famous series in standard and non-standard form.</li>
-  <li>Apply infinite series tests for convergence and divergence.</li>
-  <li>
-    Determine the error associated with a partial sum of an alternating series.
-  </li>
-  <li>
-    Find the interval of convergence and radius of convergence for a given power
-    series.
-  </li>
-  <li>
-    Generate power series representations of some functions from a geometric
-    series perspective.
-  </li>
-  <li>
-    Generate power series representations of some functions from a Taylor Series
-    perspective.
-  </li>
-  <li>
-    Recognize and manipulate important Maclaurin Series \(\left( e^x, \ \
-    \sin{x}, \ \ \cos{x}, \ \ \tan^{-1} x,\ \ \displaystyle{{1}/{(1-x)}}
-    \right)\) by differentiation, integration, and substitution.
-  </li>
-  <li>
-    Find the \(n^{\rm th} \) degree Taylor Polynomial of a function \(f\) at a
-    point a and determine the error associated with the estimate.
-  </li>
-  <li>Sketch graphs of curves defined parametrically.</li>
-  <li>
-    Use calculus techniques to analyze the behavior of graphs of parametrically
-    defined curves.
-  </li>
-  <li>Sketch graphs of polar equations.</li>
-  <li>Find slopes of tangents to polar-defined curves.</li>
-  <li>Find areas enclosed by polar-defined curves.</li>
-  <li>Synthesize concepts from two or more separate sections of the text.</li>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Textbook</h2>
-<p>
-  Calculus, Seventh Edition, (OR) Calculus(Single Variable), Seventh Edition, by
-  James Stewart, published by Thomson (Brooks/Cole). ISBN13: 978-0-538-49781-7
-  (OR) ISBN13: 978-0-538-49783-1 ebook options available from Cengage Learning.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Calculators</h2>
-<p>
-  A graphics calculator is useful as a study and learning tool when used
-  appropriately, but it is not essential. Calculus is a collection of ideas that
-  is not mastered through calculator skills. Therefore, NO calculators are
-  allowed on exams.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Exams</h2>
-<p>
-  Two 90-minute examinations will be given during the semester and a
-  comprehensive final exam will be given at the end of the semester. All three
-  of these exams are proctored exams.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
-<table>
-  <tbody>
-    <tr>
-      <th>Assignment</th>
-      <th>Points</th>
-    </tr>
-    <tr>
-      <td>Exam 1</td>
-      <td>100</td>
-    </tr>
-    <tr>
-      <td>Exam 2</td>
-      <td>100</td>
-    </tr>
-    <tr>
-      <td>Homework / Quizzes / Participation</td>
-      <td>100</td>
-    </tr>
-    <tr>
-      <td>Final Exam</td>
-      <td>150</td>
-    </tr>
-    <tr>
-      <td>Total</td>
-      <td>450</td>
-    </tr>
-  </tbody>
-</table>
 <h2 style="font-size: 24px; font-weight: 400;">Grading Scale</h2>
 <table>
   <th>Letter Grade</th>
   <th>% Score</th>
-  <th>Total Points</th>
   <tr>
     <td>A</td>
-    <td>92-100%</td>
-    <td>412-450</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>90-91%</td>
-    <td>403-411</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>87-89%</td>
-    <td>390-402</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>83-86%</td>
-    <td>372-389</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>80-82%</td>
-    <td>358-371</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>77-79%</td>
-    <td>345-357</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-76%</td>
-    <td>313-344</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-69%</td>
-    <td>268-312</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>0-59%</td>
-    <td>0-267</td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Arranging a Proctor</h2>
-<p>
-  You will need to secure a proctor in order to take exams in this course. A
-  proctor will not automatically be assigned to you; rather, you must make the
-  necessary contacts to secure a professional who will serve in this capacity.
-</p>
-<ul>
-  <li>
-    Contact a person who meets the qualifications and ask him or her to proctor
-    your exam.
-  </li>
-  <li>
-    Student Services must approve your proctor before any exams can be taken.
-    Please see instructions for securing a
-    <a
-      style="text-decoration: none; color:#e2801e;"
-      href="https://student.worldcampus.psu.edu/courses/proctored-exams"
-      target="_blank"
-    >
-      suitable proctor</a
-    >
-    . While many proctors will serve on a voluntary basis, you are responsible
-    for paying any expenses incurred in retaining a proctor.
-  </li>
-  <li>
-    You must complete a Proctor Information Form and submit the completed form
-    with the proctor verification documentation. Note: If your proctor has been
-    previously approved by the World Campus during a prior course within two
-    years, you do not need to obtain verification. World Campus retains proctor
-    information on file for two years.
-  </li>
-  <li>
-    If your proctor does not meet the required specifications, Student Services
-    will notify you within 5 to 7 business days.
-  </li>
-  <li>
-    You will need to complete an Exam Request Form for each exam. Contact your
-    proctor to confirm the date, time, and location of your exam(s). Complete
-    the form 3 weeks prior to your scheduled exam to allow for processing the
-    request and mailing exams to proctors. If you are located outside the United
-    States, in order to allow adequate time for mailing, please plan to request
-    your exam earlier than 3 weeks prior to the exam week.
-  </li>
-  <li>Contact Student Services if you cannot take a scheduled exam.</li>
-</ul>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/math141</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Math 022</title>
-      <link>/syllabi/math022</link>
-      <description>
-          <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
-<p>
-  College Algebra II represents a significant opportunity for students to
-  discover the beauty and practical power of mathematics. Concepts and skills
-  are taught while at the same time a sense of algebra's utility in the real
-  world is imparted. This course provides indepth coverage of college algebra
-  topics that students continuing in mathematics will require. This is the kind
-  of mathematics that students will use the rest of their lives in many fields.
-  MATH 022 is a preparatory course intended to provide mathematical background
-  in algebra with a function/graph emphasis required in calculus courses.
-  Linear, polynomial, rational, exponential and logarithmic functions and their
-  graphs provide necessary models for mathematical applications.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
-<p>Upon successful completion fo the course, students should be able to:</p>
-<ul>
-  <li>Solve various types of basic equations.</li>
-  <li>Solve linear, absolute value, non-linear and rational inequalities.</li>
-  <li>
-    Identify functions from algebraic, graphical, tabular and verbal
-    representations.
-  </li>
-  <li>Use function notation when evaluating functions.</li>
-  <li>Identify domain and range of functions.</li>
-  <li>Graph a piece-wise defined function.</li>
-  <li>
-    Identify properties of graphs such as relative and global extrema, symmetry,
-    increasing, decreasing, even, and odd.
-  </li>
-  <li>Identify graphs of Basic Functions and their properties.</li>
-  <li>Transform the graph of a function.</li>
-  <li>Translate the graph of a circle in standard or general form.</li>
-  <li>Write the equation of a line.</li>
-  <li>Write equations of parallel and perpendicular lines to a given line.</li>
-  <li>Extract information from linear and quadratic models.</li>
-  <li>Translate applications into algebraic models and solve.</li>
-  <li>Perform operations on functions, including composition of functions.</li>
-  <li>Identify one-to-one functions.</li>
-  <li>
-    Identify, analyze and graph the inverse of a function. Find the inverse of a
-    given function.
-  </li>
-  <li>Analyze and graph polynomials functions.</li>
-  <li>Divide a polynomial function by another polynomial function.</li>
-  <li>Apply the Remainder Theorem and Factor Theorem.</li>
-  <li>Graph rational functions.</li>
-  <li>Analyze and graph exponential and logarithmic functions.</li>
-  <li>Solve exponential equations.</li>
-  <li>Solve logarithmic equations.</li>
-  <li>Explain what a logarithm is.</li>
-  <li>Use logarithm properties to simplify an expression.</li>
-  <li>Set up and solve exponential and logarithmic application problems.</li>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Textbook</h2>
-<p>
-  College Algebra, 2nd Edition by John W. Coburn (McGraw-Hill, 2010)
-  pre-packaged with one-semester access to ALEKS
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
-<table>
-  <tbody>
-    <tr>
-      <th>Unit</th>
-      <th>Topic(s)</th>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>
-        Extensive review of intermediate algebra topics. The review will
-        include: solving linear equations and inequalities, fundamental concepts
-        associated with quadratic equations, solving equations and inequalities
-        with absolute values and other miscellaneous equations involving
-        rational expressions and radical expressions. An introduction to complex
-        number arithmetic is also included.
-      </td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>
-        General concepts associated with relations and functions. Topics such as
-        the algebra of functions, function composition and range and domain are
-        studied. The graphical representation of linear and quadratic functions
-        are also presented. The algebraic and graphical representation of
-        circles will also be studied as it pertains to terminology associated
-        with relations in general. Basic graphical transformations are
-        introduced.
-      </td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>
-        Polynomial and rational functions are studied in detail. In particular,
-        ideas associated with zeros of polynomials, end-behavior, and graph
-        sketching are discussed. The unit includes synthetic division, the
-        remainder theorem, the conjugate root theorem, horizontal and slant
-        (oblique) asymptotes, and vertical asymptotes.
-      </td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>
-        Exponential and logarithmic functions are studied in detail. Specific
-        skills entail working with the rules of exponents and logarithms and
-        solving exponential and logarithmic equations. Concepts associated with
-        one-to-one functions and the existence of inverses are also studied.
-        Sketching and recognizing the graphical representation of exponential
-        and log functions is included.
-      </td>
-    </tr>
-  </tbody>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Algebraic Skills</h2>
-<p>
-  Algebraic skills will be primarily developed through work on ALEKS. ALEKS is a
-  web-based tutorial system which provides students with ongoing skills based
-  assessments and tracks progress. The midterm and final exams will also entail
-  skills based problems.
-</p>
-<p>
-  As necessary, lectures will be done via BlackBoard Collaborate. The midterm
-  and final exams will administered via Canvas.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Conceptual Skills</h2>
-<p>
-  Conceptual Skills will be incorporated in lectures, reading, and activities.
-  Lectures and activities will be conducted approximately every other week. A
-  typical lecture and/or activity will tie skill based ideas together to provide
-  a larger overview of the topics. Lectures will be done via Elluminate and
-  activities will be based upon discussion board prompts and/or assigned tasks
-  from the text. The final exam will also incorporate questions which relate to
-  the conceptual tasks.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">ALEKS</h2>
-<p>
-  Essentially all of the skills based work will be conducted through ALEKS. The
-  ALEKS system will do ongoing assessments of skills based problems and track
-  student progress. ALEKS is a major component of the course and a typical
-  college algebra student will need to plan on 4-6 hours of online work each
-  week (50-60 hours for the course). Skills based points will be earned by
-  measuring mastered objective milestones and skills based ALEKS quizzes.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Readings / Problems</h2>
-<p>
-  he text will be primarily used to tie ideas to concepts and skills together.
-  This will be done through assigned readings and suggested problems.
-  Occasionally, a problem may be selected to emphasize a specific skill that
-  ALEKS did not adequately incorporate. Some of the activities will stem from
-  the text. Finally, the text will support the ALEKS work in that explanations
-  within ALEKS will reference specific areas from the text for further reading.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Lecture Attendance</h2>
-<p>
-  Elluminate is the web-conference utility where the virtual classroom resides.
-  This may also be used for more "face-to-face" group correspondence with
-  students.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
-<p>
-  The total number of points for the course will be 1000 points. Students will
-  have an opportunity to earn 200 points in each of the following three areas:
-  1) Basic Skills (ALEKS work), 2) Conceptual Understanding (Activities and
-  quizzes), and 3) the Final Exam (incorporates both basic skills and conceptual
-  understanding). The final grade will be determined by the sum of these three
-  areas. The minimum of the three area scores and the maximum of the three area
-  scores will be incorporated twice and thus each of these two areas will will
-  contribute to 40% of your overall grade as each will be worth 400 points. This
-  rubric emphasizes that all three areas are of utmost importance.
-</p>
-<table>
-  <tbody>
-    <tr>
-      <th>Conceptual Assessment</th>
-      <th>Basic Skills</th>
-      <th>Final Exam</th>
-      <th>Minimum 3 Areas</th>
-      <th>Maximum 3 areas</th>
-    </tr>
-    <tr>
-      <td>4 Activities (5 pts / each)</td>
-      <td>4 ALEKS Units (40 pts / each)</td>
-      <td>1 Proctored Exam (200 pts)</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>4 Quizzes (20 pts / each)</td>
-      <td>Final Set (40 pts)</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>2 Midterm Exams (50 pts / each)</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>200 pts</td>
-      <td>200 pts</td>
-      <td>200 pts</td>
-      <td>200 pts</td>
-      <td>200 pts</td>
-    </tr>
-  </tbody>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Grading Scale</h2>
-<table>
-  <tbody>
-    <tr>
-      <th>Letter Grade</th>
-      <th>% Score</th>
-      <th>Total Points</th>
-    </tr>
-    <tr>
-      <td>A</td>
-      <td>90-100</td>
-      <td>896-1000</td>
-    </tr>
-    <tr>
-      <td>B</td>
-      <td>80-89</td>
-      <td>796 -895</td>
-    </tr>
-    <tr>
-      <td>C</td>
-      <td>70-79</td>
-      <td>696-795</td>
-    </tr>
-    <tr>
-      <td>D</td>
-      <td>60-69</td>
-      <td>596-695</td>
-    </tr>
-    <tr>
-      <td>F</td>
-      <td>0-59</td>
-      <td>50-595</td>
-    </tr>
-  </tbody>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Arranging a Proctor</h2>
-<p>
-  You will need to secure a proctor in order to take exams in this course. A
-  proctor will not automatically be assigned to you; rather, you must make the
-  necessary contacts to secure a professional who will serve in this capacity.
-</p>
-<ul>
-  <li>
-    Contact a person who meets the qualifications and ask him or her to proctor
-    your exam.
-  </li>
-  <li>
-    Student Services must approve your proctor before any exams can be taken.
-    Please see instructions for securing a
-    <a
-      style="text-decoration: none; color:#e2801e;"
-      href="https://student.worldcampus.psu.edu/courses/proctored-exams"
-      target="_blank"
-      >suitable proctor</a
-    >
-    . While many proctors will serve on a voluntary basis, you are responsible
-    for paying any expenses incurred in retaining a proctor.
-  </li>
-  <li>
-    You must complete a Proctor Information Form and submit the completed form
-    with the proctor verification documentation. Note: If your proctor has been
-    previously approved by the World Campus during a prior course within two
-    years, you do not need to obtain verification. World Campus retains proctor
-    information on file for two years.
-  </li>
-  <li>
-    If your proctor does not meet the required specifications, Student Services
-    will notify you within 5 to 7 business days.
-  </li>
-  <li>
-    You will need to complete an Exam Request Form for each exam. Contact your
-    proctor to confirm the date, time, and location of your exam(s). Complete
-    the form 3 weeks prior to your scheduled exam to allow for processing the
-    request and mailing exams to proctors. If you are located outside the United
-    States, in order to allow adequate time for mailing, please plan to request
-    your exam earlier than 3 weeks prior to the exam week.
-  </li>
-  <li>Contact Student Services if you cannot take a scheduled exam.</li>
-</ul>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/math022</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Math 021</title>
-      <link>/syllabi/math021</link>
-      <description>
-          <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
-<p>
-  An extensive look into Quadratic equations; equations in quadratic form; word
-  problems, graphing; algebraic fractions; negative and rational exponents, and
-  radicals.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Prerequisite</h2>
-<p>
-  Math 4 or satisfactory performance on the mathematics proficiency examination.
-  Students who do not meet the prerequisite may have great difficulty in the
-  course.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
-<p>
-  <strong>Unit 0</strong>
-  is designed to ascertain prerequisite knowledge and skills which will
-  facilitate success in this class. Students are expected to know and/or review
-  and master most of these review topics on ALEKS within the first week of the
-  class. Some of the topics are reviewed as needed in subsequent units.
-</p>
-<ul>
-  <li>Simplify numerical expressions.</li>
-  <li>Perform arithmetic operations with real numbers.</li>
-  <li>Apply properties of real numbers to simplify expressions.</li>
-  <li>Evaluate basic exponential expressions.</li>
-  <li>Simplify and evaluate basic algebraic expressions.</li>
-  <li>Solve first-degree equations.</li>
-  <li>Use equations to solve word problems.</li>
-  <li>Solve equations involving fractions or decimals.</li>
-  <li>
-    Solve basic word problems involving discounts and selling price, simple
-    interest, and mixtures.
-  </li>
-  <li>Solve inequalities, and write solution sets in interval notation.</li>
-  <li>Solve inequalities involving fractions or decimals.</li>
-  <li>Solve compound inequalities.</li>
-  <li>Use inequalities to solve word problems.</li>
-  <li>Solve equations and inequalities that involve absolute value.</li>
-  <li>Find and graph solutions for linear equations in two variables.</li>
-  <li>Graph linear equations by finding the x and y intercepts.</li>
-  <li>
-    Graph lines passing through the origin, vertical lines, and horizontal
-    lines.
-  </li>
-  <li>Use the distance formula.</li>
-  <li>Determine the slope of a line, and use slope to graph lines.</li>
-  <li>Determine the point-slope equation of a line.</li>
-  <li>Determine the slope-intercept equation of a line.</li>
-  <li>Find equations for parallel or perpendicular lines.</li>
-  <li>Add, subtract, and multiply polynomials.</li>
-  <li>Divide monomials.</li>
-  <li>Factor out the greatest common factor.</li>
-  <li>Factor by grouping.</li>
-  <li>
-    Factor the difference of two squares and the sum or difference of two cubes.
-  </li>
-  <li>Factor trinomials by trial-and-error and the four-step method.</li>
-  <li>Solve polynomial equations by factoring.</li>
-  <li>Solve systems of linear equations by graphing and substitution</li>
-</ul>
-<p>
-  <strong>Unit 1</strong>
-  contains review topics, however some of the topics may extend ideas which may
-  be new to students. Upon successfully completing this unit, the student should
-  be able to:
-</p>
-<ul>
-  <li>
-    Determine and interpret the slope of a line as a rate of change from: a
-    table, a set of ordered points, an equation or a graph.
-  </li>
-  <li>
-    Determine and utilize the point-slope equation of a line.
-  </li>
-  <li>
-    Determine and utilize the slope-intercept equation of a line.
-  </li>
-  <li>Determine if two given lines are perpendicular or parallel.</li>
-  <li>
-    Write linear equations and graph lines that are parallel and perpendicular
-    to a given line and passing through a given point.
-  </li>
-  <li>
-    Apply The Pythagorean Formula to create and use the distance formula to find
-    and interpret the distance between any two points on a line.
-  </li>
-  <li>Use the midpoint formula.</li>
-  <li>
-    Identify linear, quadratic, cubic, square root and absolute value functions
-    from algebraic, graphical, tabular and verbal representations.
-  </li>
-  <li>
-    Use function notation and piecewise defined function notation when
-    evaluating polynomial and absolute value functions respectively.
-  </li>
-  <li>
-    Determine the solution set for linear inequalities and graph the solution
-    set on a number line.
-  </li>
-  <li>
-    Determine the solution set for absolute value equations and inequalities and
-    graph the solution set on a number line.
-  </li>
-  <li>
-    Translate applications into algebraic models (equations and inequalities)
-    involving linear and absolute value functions.
-  </li>
-  <li>
-    Determine and interpret the solution sets for applications modeled by linear
-    and absolute value equations and inequalities.
-  </li>
-  <li>
-    Understand and utilize set notation and interval notation to describe,
-    interpret and plot intervals and discrete points on a number line.
-  </li>
-  <li>
-    Solve a system of two linear equations in two variables by substitution,
-    graphing or elimination.
-  </li>
-  <li>
-    Solve a system of three linear equations in three variables by elimination.
-  </li>
-  <li>
-    Model applications which may be represented by a system of 2 linear
-    equations and determine the solution set of the resulting system.
-  </li>
-</ul>
-<p>
-  <strong>Unit 2</strong>
-  consists of topics associated with polynomial and rational expressions and
-  functions. Upon successfully completing this unit, the student should be able
-  to:
-</p>
-<ul>
-  <li>Solve literal equations (solve for one variable in terms of another).</li>
-  <li>Factor basic algebraic expressions (GCF and polynomial factoring).</li>
-  <li>Simplify rational expressions.</li>
-  <li>Add, subtract, multiply, and divide rational expressions.</li>
-  <li>Simplify complex fractions.</li>
-  <li>
-    Identify Polynomial and Rational functions from algebraic, graphical,
-    tabular and verbal representations.
-  </li>
-  <li>Determine the solution set for polynomial and rational equations.</li>
-  <li>
-    Translate applications into algebraic models involving polynomial and
-    rational functions.
-  </li>
-  <li>
-    Determine and interpret the solution sets for applications modeled by
-    polynomial and rational functions.
-  </li>
-  <li>Determine the solution sets of polynomial and rational inequalities.</li>
-  <li>
-    Identify graphs and develop graphs for basic polynomial and rational
-    functions by utilizing symmetry, intercepts, and translation techniques.
-  </li>
-</ul>
-<p>
-  <strong>Unit 3</strong>
-  consists of topics associated with radical expressions and functions. Upon
-  successfully completing this unit, the student should be able to:
-</p>
-<ul>
-  <li>
-    Identify Radical functions from algebraic and graphical representations.
-  </li>
-  <li>
-    Convert from radical notation to rational exponent notation and from
-    exponent notation to radical notation.
-  </li>
-  <li>Simplify radical expressions.</li>
-  <li>Add, subtract, multiply, and divide radical expressions.</li>
-  <li>Simplify radical expressions in terms of i.</li>
-  <li>
-    Add, subtract, multiply, and divide complex numbers and write solutions in
-    standard form.
-  </li>
-  <li>Determine and verify solution sets of radical equations.</li>
-  <li>
-    Translate applications into algebraic models involving radical functions.
-  </li>
-  <li>
-    Determine, verify, and interpret the solution sets for applications modeled
-    by radical functions.
-  </li>
-  <li>
-    Identify graphs and develop graphs for basic radical functions by plotting
-    points and utilizing translation techniques.
-  </li>
-</ul>
-<p>
-  <strong>Unit 4</strong>
-  consists of topics associated with quadratic equations and inequalities,
-  quadratic models, parabolas, circles and applications of the midpoint and
-  distance formulas. Upon successfully completing this unit, the student should
-  be able to:
-</p>
-<ul>
-  <li>
-    Determine the solution set of quadratic equations by factoring, using the
-    square root property, completing the square, and the quadratic formula.
-  </li>
-  <li>
-    Determine the number and type of solutions to a quadratic equation using the
-    discriminant.
-  </li>
-  <li>
-    Given a quadratic function, write in standard form, identify the vertex and
-    whether the vertex represents a maximum or minimum value.
-  </li>
-  <li>
-    Write the quadratic function which represents a given graph of a parabola.
-  </li>
-  <li>
-    Graph parabolas utilizing the vertex, symmetry, intercepts, end-behavior and
-    translation techniques.
-  </li>
-  <li>
-    Translate applications into algebraic models involving quadratic functions.
-  </li>
-  <li>
-    Determine and interpret the solution sets for applications modeled by
-    quadratic functions.
-  </li>
-  <li>
-    Apply the distance formula and the midpoint formula to geometric
-    applications.
-  </li>
-  <li>
-    Interpret the description or graph of a circle to identify the center and
-    the radius and write the equation of the circle in standard form.
-  </li>
-  <li>
-    Convert a non-standard equation of a circle to standard form by completing
-    the square and identify the center and radius.
-  </li>
-  <li>Graph circles from equations using the center and radius.</li>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Materials</h2>
-<p>
-  One-semester subscription access to ALEKS and the electronic copy of
-  "Intermediate Algebra, 4th edition" published by McGraw-Hill, 2013. Authors:
-  Julie Miller, Molly O'Neill, and Nancy Hyde. Access to ALEKS combined with
-  access to the eBook can be purchased through ALEKS (
-  <a
-    style="text-decoration: none; color:#e2801e;"
-    href="https://www.aleks.com/"
-    target="_blank"
-    >www.aleks.com</a
-  >
-  ) using the course code and instructions found in the Orientation materials.
-  The price is approximately $85. This option is much less expensive than buying
-  the book and the code separately.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Textbook (Optional)</h2>
-<p>
-  If you would like a hard copy of the text, you may purchase the text from an
-  online text vendor of your choice. The ISBN is 9780073384498.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
-<table>
-  <th>Unit</th>
-  <th>Topic(s)</th>
-  <tr>
-    <td>0</td>
-    <td>Review and Readiness</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Solving Linear Equations and Linear Systems</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Polynomial and Rational Expressions</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Radical Expressions and Complex Numbers</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Quadratic Equations, Functions, and Inequalities and Circles</td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Algebraic Skills</h2>
-<p>
-  Algebraic skills will be primarily developed through work on ALEKS. ALEKS is a
-  web-based tutorial system which provides students with ongoing skills based
-  assessments and tracks progress. The midterm and final exams will also entail
-  skills based problems.
-</p>
-<p>
-  As necessary, lectures will be done via BlackBoard Collaborate. The midterm
-  and final exams will administered via Canvas.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">ALEKS</h2>
-<p>
-  Essentially all of the skills based work will be conducted through ALEKS. The
-  ALEKS system will do ongoing assessments of skills based problems and track
-  student progress. ALEKS is a major component of the course and a typical
-  college algebra student will need to plan on 5-8 hours of online work each
-  week (60-90 hours for the course). Skills based points will be earned by
-  measuring mastered objective milestones and skills based ALEKS quizzes.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Canvas</h2>
-<p>
-  The course management system is Canvas. Canvas will be used to deliver, the
-  midterm exam and the final exam and associated practice/study exams.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">PIAZZA & BlackBoard Collaborate</h2>
-<p>
-  Participation in the course is gauged via a student's interaction on Piazza
-  and live sessions. Students are expected to ask questions, pose problems and
-  answer questions via the Piazza bulletin board.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
-<p>
-  The total number of points for the course will be 600 points. Work completed
-  in ALEKS, which builds skills, will be worth 230 points. Participation points
-  for active participation on the Piazza bulletin board and BlackBoard Live
-  sessions is worth 20 points. The last component of the course consists of two
-  (2) proctored exams, a midterm exam (150 points) and a comprehensive final
-  exam (200 points). The final grade will be determined by the sum of these four
-  areas.
-</p>
-<table>
-  <th>PIAZZA & BlackBoard</th>
-  <th>ALEKS</th>
-  <th>CANVAS Exams</th>
-  <tr>
-    <td>4 Participation Discussions (5 pts / each)</td>
-    <td>Readiness Assessment (10 pts)</td>
-    <td>Midterm Exam (150 pts)</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>4 ALEKS Quizzes (40 pts / each)</td>
-    <td>Final Exam (200 pts)</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>6 Unit Reviews (10 pts / each)</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>20 pts</td>
-    <td>230 pts</td>
-    <td>350 pts</td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Grading Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% Score</th>
-  <th>Total Points</th>
-  <tr>
-    <td>A</td>
-    <td>90-100</td>
-    <td>537-600</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>80-89</td>
-    <td>477-536</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-79</td>
-    <td>417-476</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-69</td>
-    <td>357-416</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>0-59</td>
-    <td>0-356</td>
-  </tr>
-</table>
- ]]>
-      </description>
-      <category></category>
-      <guid>/syllabi/math021</guid>
-      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Math 026</title>
-      <link>/syllabi/math026</link>
-      <description>
-          <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
-<p>
-  Plane Trigonometry (3) Trigonometric functions; solutions of triangles;
-  trigonometric equations; identities.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Prerequisite</h2>
-<p>
-  Math 21 or satisfactory performance on the mathematics proficiency
-  examination.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
-<p>Upon successful completion of Math 26, the student should be able to:</p>
-<ul>
-  <li>Describe angles</li>
-  <li>Use radian measure</li>
-  <li>Use degree measure</li>
-  <li>Identify a unit circle and describe its relationship to real numbers</li>
-  <li>
-    Use special triangle (30-60-90; 45-45-90) ratios to label a given point on
-    the unit circle.
-  </li>
-  <li>Evaluate trigonometric functions using the unit circle</li>
-  <li>Use the domain and period to evaluate sine and cosine functions</li>
-  <li>Evaluate trigonometric functions of acute angles</li>
-  <li>Recognize and write the fundamental trigonometric identities</li>
-  <li>
-    Use angles and trigonometric functions to model and solve real-life problems
-  </li>
-  <li>Find reference angles</li>
-  <li>Evaluate trigonometric functions of any angle</li>
-  <li>Sketch graphs of basic trigonometric functions</li>
-  <ul>
-    <li>Sketch translations of graphs of basic trigonometric functions</li>
-  </ul>
-  <li>Identify the domain of inverse trigonometric functions</li>
-  <li>Evaluate inverse trigonometric functions</li>
-  <li>Evaluate compositions involving inverse trigonometric functions</li>
-  <li>Sketch graphs of inverse trigonometric functions</li>
-  <li>Use fundamental trigonometric identities and formulas</li>
-  <ul>
-    <li>Evaluate trigonometric functions</li>
-    <li>Simplify trigonometric expressions</li>
-    <li>Rewrite trigonometric expressions</li>
-    <li>Verify trigonometric identities</li>
-    <li>Solve trigonometric equations</li>
-    <ul>
-      <li>Solve using standard algebraic techniques</li>
-      <li>Solve trigonometric equations of quadratic type</li>
-      <li>Solve trigonometric equations involving multiple angles.</li>
-    </ul>
-  </ul>
-  <li>
-    Use non-fundamental identities/formulas to evaluate, simplify, rewrite, and
-    solve trigonometric expressions and equations
-  </li>
-  <ul>
-    <li>Double angle</li>
-    <li>Sum and difference</li>
-    <li>Power reducing</li>
-    <li>Product-to-sum and sum-to-product</li>
-    <li>Half-angle</li>
-  </ul>
-  <li>Use Law of Sines</li>
-  <ul>
-    <li>Solve oblique triangles (AAS or ASA)</li>
-    <li>Solve oblique triangles (SSA)</li>
-  </ul>
-  <li>Find areas of oblique triangles</li>
-  <li>Use Law of Cosines to solve oblique triangles (SSS or SAS)</li>
-  <li>Use Heron’s Area Formula to find the area of a triangle</li>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Textbook</h2>
-<p>Trigonometry, 2nd Edition by John W. Coburn (McGraw-Hill, 2010).</p>
-<h2 style="font-size: 24px; font-weight: 400;">Course Format</h2>
-<p>
-  Both algebraic skills and conceptual understanding will be expected and
-  assessed.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Basic Skills</h2>
-<p>
-  Basic skills will be primarily developed through work on ALEKS. ALEKS is a
-  web-based tutorial system which provides students with ongoing skills based
-  assessments and tracks progress. The final exam will also entail skills based
-  problems.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Conceptual Skills</h2>
-<p>
-  Conceptual skills will be incorporated in lectures, reading, and quizzes.
-  Lectures will be conducted approximately every other week. A typical lecture
-  will tie skill based ideas together to provide a larger overview of the
-  topics. Lectures will be done via Zoom and activities will be based upon
-  discussion board prompts and/or assigned tasks from the text. The final exam
-  will also incorporate questions which relate to the conceptual tasks.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">ALEKS Work</h2>
-<p>
-  Essentially all of the skills based work will be conducted through ALEKS. The
-  ALEKS system will do ongoing assessments of skills based problems and track
-  student progress. ALEKS is a major component of the course and a typical
-  trigonometry student will need to plan on 4–6 hours of online work each week
-  (50–60 hours for the course). Skills based points will be earned by measuring
-  mastered objective milestones and skills based ALEKS quizzes.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Text-book Reading & Suggested Problems</h2>
-<p>
-  The text will be primarily used to tie ideas to concepts and skills together.
-  This will be done through assigned readings and suggested problems.
-  Occasionally, a problem may be selected to emphasize a specific skill that
-  ALEKS did not adequately incorporate. Some of the activities will stem from
-  the text. Finally, the text will support the ALEKS work in that explanations
-  within ALEKS will reference specific areas from the text for further reading.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Canvas Work</h2>
-<p>
-  The course management system is Canvas and most correspondence will be
-  conducted here. Canvas quizzes will be used for conceptual based quizzes, the
-  midterm exams and the final exam.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Class Participation</h2>
-<p>
-  Zoom is the web-conference utility where the virtual classroom resides. This
-  may also be used for more “face-to-face” group correspondence with students.
-  Canvas discussion boards will be used for more general “open” classroom
-  interaction between students and the instruction team. Students are encouraged
-  to post questions on this advanced bulletin board.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
-<p>
-  The total number of points for the course will be 600 points as described
-  below.
-</p>
-<table>
-  <th>Canvas Quizzes</th>
-  <th>ALEKS Work</th>
-  <th>Proctored Exams (Canvas)</th>
-  <tr>
-    <td>4 Unit Quizzes (20pts each)</td>
-    <td>4 Unit Quizzes (20pts each)</td>
-    <td>Midterm Exam 1 (100pts)</td>
-  </tr>
-  <tr>
-    <td>2 Exam Review Quizzes (20pts each)</td>
-    <td>4 Objective Sets (25pts each)</td>
-    <td>Midterm Exam 2 (100pts)</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td>Final Exam (100pts)</td>
-  </tr>
-  <tr>
-    <td>120 Total Points</td>
-    <td>180 Total Points</td>
-    <td>300 Total Points</td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Grade Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>Minimum Points</th>
-  <th>% Score</th>
-  <tr>
-    <td>A</td>
-    <td>558</td>
     <td>93-100%</td>
   </tr>
   <tr>
     <td>A-</td>
-    <td>540</td>
     <td>90-92%</td>
   </tr>
   <tr>
     <td>B+</td>
-    <td>522</td>
     <td>87-89%</td>
   </tr>
   <tr>
     <td>B</td>
-    <td>498</td>
     <td>83-86%</td>
   </tr>
   <tr>
     <td>B-</td>
-    <td>480</td>
     <td>80-82%</td>
   </tr>
   <tr>
     <td>C+</td>
-    <td>462</td>
     <td>77-79%</td>
   </tr>
   <tr>
     <td>C</td>
-    <td>420</td>
     <td>70-76%</td>
   </tr>
   <tr>
     <td>D</td>
-    <td>360</td>
     <td>60-69%</td>
   </tr>
   <tr>
     <td>F</td>
-    <td>0</td>
     <td>< 59%</td>
   </tr>
 </table>
-<h2 style="font-size: 24px; font-weight: 400;">Arranging a Proctor</h2>
-<p>
-  You will need to secure a proctor in order to take exams in this course. A
-  proctor will not automatically be assigned to you; rather, you must make the
-  necessary contacts to secure a professional who will serve in this capacity.
-</p>
-<ul>
-  <li>
-    Contact a person who meets the qualifications and ask him or her to proctor
-    your exam.
-  </li>
-  <li>
-    Student Services must approve your proctor before any exams can be taken.
-    Please see instructions for securing a
-    <a
-      style="text-decoration: none; color:#e2801e;"
-      href="https://student.worldcampus.psu.edu/courses/proctored-exams"
-      target="_blank"
-    >
-      suitable proctor</a
-    >
-    . While many proctors will serve on a voluntary basis, you are responsible
-    for paying any expenses incurred in retaining a proctor.
-  </li>
-  <li>
-    You must complete a Proctor Information Form and submit the completed form
-    with the proctor verification documentation. Note: If your proctor has been
-    previously approved by the World Campus during a prior course within two
-    years, you do not need to obtain verification. World Campus retains proctor
-    information on file for two years.
-  </li>
-  <li>
-    If your proctor does not meet the required specifications, Student Services
-    will notify you within 5 to 7 business days.
-  </li>
-  <li>
-    You will need to complete an Exam Request Form for each exam. Contact your
-    proctor to confirm the date, time, and location of your exam(s). Complete
-    the form 3 weeks prior to your scheduled exam to allow for processing the
-    request and mailing exams to proctors. If you are located outside the United
-    States, in order to allow adequate time for mailing, please plan to request
-    your exam earlier than 3 weeks prior to the exam week.
-  </li>
-  <li>Contact Student Services if you cannot take a scheduled exam.</li>
-</ul>
  ]]>
       </description>
       <category></category>
-      <guid>/syllabi/math026</guid>
+      <guid>/syllabi/phys212</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
     <item>
-      <title>Math 034</title>
-      <link>/syllabi/math034</link>
+      <title>coursemanagement</title>
+      <link>/coursemanagement</link>
       <description>
-          <![CDATA[ <h2 style="font-size: 24px; font-weight: 400;">Description</h2>
-<p>
-  The mathematics of money course allows students to learn mathematical
-  techniques that aid in the understanding of life's financial decisions, such
-  as those involving interest, annuities, investments, retirement plans, taxes,
-  credit cards, and mortgages. The goal of this course is to help students
-  develop the knowledge and skills needed to make sound financial decisions. The
-  U.S. Department of Treasury has stated that "Today's complex
-  financial-services market offers consumers a vast array of products and
-  providers to meet their financial needs. This degree of choice requires that
-  consumers be equipped with the knowledge and skills to evaluate the options
-  and identify those that best suit their needs and circumstances." This course
-  will help students obtain this knowledge and skills.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Objectives</h2>
-<p>Upon successful completion of Math 034, the student should be able to:</p>
-<ul>
-  <li>
-    Understand the concept of the time value of money, recognize the reasoning
-    behind the payment of interest and use the simple interest formula to find
-    the principal, interest, simple interest rate, or term of a loan.
-  </li>
-  <li>
-    Use linear equations, arithmetic sequences and linear functions to analyze
-    interest problems.
-  </li>
-  <li>
-    Use the simple discount formula to find the maturity value, proceeds, simple
-    discount, simple discount rate, or term of a discount note.
-  </li>
-  <li>
-    Use geometric sequences and partial geometric sums to understand the concept
-    of compound interest.
-  </li>
-  <li>
-    Use the basic compound interest formula, exponential functions and
-    logarithms to solve problems of compound interest which entail different
-    compounding frequencies, future values and present values.
-  </li>
-  <li>
-    Use infinite geometric sums to approximate economic stimulation/impact.
-  </li>
-  <li>
-    Use mathematical expectation to set interest associated with loan risk.
-  </li>
-  <li>
-    Use geometric sequences and partial geometric sums to understand the concept
-    of an annuity.
-  </li>
-  <li>
-    Calculate the future and/or present value of an annuity and an annuity
-    payment using annuity formulas and logarithms.
-  </li>
-  <li>
-    Use graphical representations and interpretation to understand the concept
-    of amortization.
-  </li>
-  <li>
-    Understand the structure of state sales tax and federal income taxes,
-    calculate the total taxes owed, and calculate the federal income tax
-    withholding and FICA for payroll deductions.
-  </li>
-  <li>
-    Use financial formulas and linear equations to calculate dividend rates,
-    dividend yields, compound annual growth rates, and total rates of return for
-    investments in stocks, bonds and mutual funds.
-  </li>
-  <li>
-    Calculate the employee contribution and employer matching for different
-    retirement plans and calculate the impact of contributions made to
-    traditional and Roth IRAs.
-  </li>
-  <li>
-    Use geometric sequences, partial geometric sums and linear systems of
-    equations to solve problems which incorporate inflation and make projections
-    for investments that take into account the impact of inflation.
-  </li>
-  <li>
-    Use geometric sequences, partial geometric sums, linear equations, and
-    exponential decay models to solve problems associated with depreciation.
-  </li>
-  <li>
-    Calculate credit card interest and compare credit card offers for their
-    annual fees and interest rates.
-  </li>
-  <li>
-    Calculate the equity, maximum loan amount, and closing costs for a mortgage
-    loan.
-  </li>
-  <li>
-    Calculate the monthly payment on a lease, given the residual value and
-    interest rate and understand the financial difference between leasing and
-    buying.
-  </li>
-  <li>
-    Calculate price, cost, percent markup or markdown, gross profit margin and
-    net profit margin.
-  </li>
-  <li>
-    Understand the concept of cost-revenue analysis and break-even points as it
-    applies to financial problems.
-  </li>
-</ul>
-<h2 style="font-size: 24px; font-weight: 400;">Textbook</h2>
-<p>
-  Business Math: The Mathematics of Money, Second Edition, by Timothy Biehler.
-</p>
-<h2 style="font-size: 24px; font-weight: 400;">Course Schedule</h2>
-<table>
-  <th>Unit</th>
-  <th>Category</th>
-  <th>Topic(s)</th>
-  <tr>
-    <td>1</td>
-    <td>The Basics - Time Value of Money</td>
-    <td>
-      - Introduce and work with loans and associated interest calculations
-    </td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Common Investment</td>
-    <td>
-      - Work with basic investments such as annuities, stocks and bonds<br />-
-      Understand sales and income taxes<br />- Introduce retirement planning
-    </td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Business Applications and Personal Financial Planning</td>
-    <td>
-      - Work with inflation and depreciation
-      <br />- Consider consumer implications associated with credit cards,
-      mortgages and leasing <br />- Consider profit margin and cost-revenue
-      analysis associated with business
-    </td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Grading</h2>
-<table>
-  <th>Quizzes</th>
-  <th>Midterm Exams</th>
-  <th>Final Exam (Comprehensive)</th>
-  <tr>
-    <td>10 Weekly Quizzes (10 pts / each)</td>
-    <td>2 Midterm Exams (50 pts / each)</td>
-    <td>1 Proctored Exam</td>
-  </tr>
-  <tr>
-    <td>Each may be taken twice</td>
-    <td>First Midterm is Unproctored</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Best score recorded</td>
-    <td>Second Midterm is Proctored</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>100 pts</td>
-    <td>100 pts</td>
-    <td>100 pts</td>
-  </tr>
-</table>
-<h2 style="font-size: 24px; font-weight: 400;">Grading Scale</h2>
-<table>
-  <th>Letter Grade</th>
-  <th>% Score</th>
-  <th>Total Points</th>
-  <tr>
-    <td>A</td>
-    <td>93-100%</td>
-    <td>279-300</td>
-  </tr>
-  <tr>
-    <td>A-</td>
-    <td>90-92%</td>
-    <td>270-278</td>
-  </tr>
-  <tr>
-    <td>B+</td>
-    <td>87-89%</td>
-    <td>261-269</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>83-86%</td>
-    <td>249-260</td>
-  </tr>
-  <tr>
-    <td>B-</td>
-    <td>80-82%</td>
-    <td>240-248</td>
-  </tr>
-  <tr>
-    <td>C+</td>
-    <td>77-79%</td>
-    <td>231-239</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>70-76%</td>
-    <td>210-230</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>60-69%</td>
-    <td>180-209</td>
-  </tr>
-  <tr>
-    <td>F</td>
-    <td>0-59%</td>
-    <td>0-179</td>
-  </tr>
-</table>
+          <![CDATA[ <p>This is the ngdle page!</p> ]]>
+      </description>
+      <category></category>
+      <guid>/coursemanagement</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lab</title>
+      <link>/lab</link>
+      <description>
+          <![CDATA[ <p>This is the innovation lab service page.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/lab</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pedagogy</title>
+      <link>/pedagogy</link>
+      <description>
+          <![CDATA[ <p>This is the pedagogy service page.</p> ]]>
+      </description>
+      <category></category>
+      <guid>/pedagogy</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multimedia</title>
+      <link>/multimedia</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>/multimedia</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>/resources</link>
+      <description>
+          <![CDATA[ <div id="container" style="margin: 25px 0 25px;">
+  <div id="cards" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); grid-column-gap: 2vw; grid-row-gap: 2vw;">
+    <course-card style="--haxtheme-course-card-course-number-font-size: 24px;"
+    image="files/resource-images/contingency.jpg"
+    alt=""
+    number="Contingency"
+    icon="serviceicons:computer"
+    name="Move your content online with the help of our team"
+    url="resources/contingency"
+    >
+    </course-card>
+    <course-card style="--haxtheme-course-card-course-number-font-size: 24px;"
+    image="files/resource-images/test-and-quizzes-banner.jpg"
+    alt="Penn State students taking an exam.  Photo by: Carly Dreibelbis"
+    number="Tests and Quizzes"
+    icon="serviceicons:reportcard"
+    name="Research tools for assessment"
+    url="resources/test-and-quizzes"
+    >
+    </course-card>
+    <course-card style="--haxtheme-course-card-course-number-font-size: 24px;"
+    image="files/resource-images/understand-design-banner.jpg"
+    alt=""
+    number="Understanding by Design"
+    icon="serviceicons:idea"
+    name="A look at Backward design"
+    url="resources/understanding-by-design"
+    >
+    </course-card>
+    <course-card style="--haxtheme-course-card-course-number-font-size: 24px;"
+    image="files/resource-images/obs-banner.jpg"
+    alt=""
+    number="One Button Studio"
+    icon="serviceicons:camera"
+    name="Create engaging video content using our OBS"
+    url="resources/obs"
+    >
+    </course-card>
+    <course-card style="--haxtheme-course-card-course-number-font-size: 24px;"
+    image="files/theme-images/page-banners/lab-banner.jpg"
+    alt=""
+    number="Tool Kits"
+    icon="serviceicons:gears"
+    name="Elevate your instruction with innovative tools"
+    url="resources/toolkits"
+    >
+    </course-card>
+  </div>
+  <h2 style="font-weight: 400;">Frequently Asked Questions</h2>
+  <odl-faqs></odl-faqs>
+</div>
  ]]>
       </description>
       <category></category>
-      <guid>/syllabi/math034</guid>
+      <guid>/resources</guid>
+      <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Contingency</title>
+      <link>/resources/contingency</link>
+      <description>
+          <![CDATA[ <p style="font-size: 24px; color:#e2801e;">
+  ***This Page is Continually Being Updated***
+</p>
+<h2 style="font-weight: 400; margin: 0;">Need Help?</h2>
+<link-preview
+  image="files/theme-images/page-banners/calendarbook.jpg"
+  title="Book An Appointment"
+  url="https://outlook.office365.com/owa/calendar/ECOSODL@PennStateOffice365.onmicrosoft.com/bookings/"
+></link-preview>
+<h2 style="font-weight: 400; margin: 0;">Calling for Faculty Mentors</h2>
+<p>
+  If you are a comfortable with Canvas and want to share your knowledge with
+  others, let us know and we can help direct others to you. We have had many
+  faculty members who either teach online or use Canvas all the time who are
+  already helping other faculty who might not be up to speed with the tools. Let
+  us know if you are willing to help and we can help get you connected!
+</p>
+<h2 style="font-weight: 400; margin: 0;">Frequently Asked Questions</h2>
+<p>
+  Video How To:
+  <a
+    style="text-decoration: none; color:#e2801e;"
+    href="https://psu.mediaspace.kaltura.com/media/How+Do+I+Find+Access+My+Canvas+SpaceF/1_ux8lsfiu"
+    target="_blank"
+    >How Do I Find My Canvas Space Online?</a
+  >
+</p>
+<p>
+  Video How To:
+  <a
+    style="text-decoration: none; color:#e2801e;"
+    href="https://psu.mediaspace.kaltura.com/media/Locating+Your+Personal+Zoom+Link+and+Other+Settings/1_tkpyccm6"
+    target="_blank"
+    >How Do I Find My Zoom Room?</a
+  >
+</p>
+<p>Video How To: How Do I Access My Penn State Media Space? (Coming Soon)</p>
+<h2 style="font-weight: 400; margin: 0;">Get Started</h2>
+<p>
+  It may seem overwhelming when you think about moving your course online
+  quickly, but there are some steps that you can take that make it a little more
+  manageable.
+</p>
+<ul>
+  <li>
+    Put your syllabus online. You can upload your syllabus as a Word Document or
+    a PDF to Canvas so that students have access to all the important and
+    relevant information about the course.
+  </li>
+  <ul>
+    <li>
+      <a
+        style="text-decoration: none; color:#e2801e;"
+        href="https://psu.instructure.com/courses/1741795/pages/3d-create-content-pages-and-files"
+        target="_blank"
+        >How to upload files to Canvas</a
+      >
+    </li>
+  </ul>
+  <li>
+    Make a statement in your syllabus about what would happen if classes were
+    cancelled, including how the class may change and how you will stay in
+    contact with them.
+  </li>
+  <ul>
+    <li>
+      <a
+        style="text-decoration: none; color:#e2801e;"
+        href="https://sites.psu.edu/virusinfo/"
+        target="_blank"
+        >Penn State Virus Info</a
+      >
+    </li>
+  </ul>
+  <li>
+    If something does happen, get details about the event. Find out what Penn
+    State is saying and the policies around the event.
+  </li>
+  <li>
+    Talk with your department. Departments may have unique strategies and plans
+    for their own particular courses.
+  </li>
+  <li>
+    Communicate with students early and often. Use
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="https://community.canvaslms.com/docs/DOC-12740"
+      target="_blank"
+      >Canvas Inbox</a
+    >
+    to mail students about changes that are coming and any details they need to
+    know.
+  </li>
+  <li>
+    Make sure you set realistic goals for instruction. What can you move online
+    and how do you ensure students will have structure and be accountable for
+    their learning.
+  </li>
+  <li>
+    Determine course priorities. What do students really need to know?
+  </li>
+  <li>
+    Review your syllabus for places where instruction may change. How will you
+    modify due dates and assignments? You will need to update your syllabus
+    accordingly.
+  </li>
+  <li>
+    Realize that this is as tough on your students as it is for you. What will
+    participation look like now and how you can be equitable and accommodating
+    to all?
+  </li>
+  <li>
+    Make sure you continue to communicate with students and update them on
+    details and changes they will need to know.
+  </li>
+</ul>
+<p>
+  For more information, please
+  <a style="text-decoration: none; color:#e2801e;" href="mailto: mjs100@psu.edu"
+    >contact our office</a
+  >.
+</p>
+<h2 style="font-weight: 400; margin: 0;">
+  General University Resources and Information on Planning for Disruption
+</h2>
+<ul>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="https://sites.psu.edu/virusinfo/"
+      target="_blank"
+      >Latest University response to COVID-19</a
+    >
+  </li>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="https://spark.adobe.com/page/N2qApGLfUYvja/"
+      target="_blank"
+      >Snow Day and Other Disruptions from Digital Pedagogy Subcommittee</a
+    >
+  </li>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="https://weblearning.psu.edu/contingency-planning/"
+      target="_blank"
+      >Contingency Planning resources from Faculty Engagement Subcommittee</a
+    >
+  </li>
+</ul>
+<p>
+  World Campus Faculty Development is hosting a public Office 365 Teams chat
+  space for transitioning faculty to interact with experienced online
+  instructors, ask questions, and in general talk and seek/give support. If we
+  see ongoing posts here, we are ready to assign our OL faculty as facilitators
+  throughout the day. The team's chat is
+  <a
+    style="text-decoration: none; color:#e2801e;"
+    href="https://nam01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fteams.microsoft.com%2Fl%2Fchannel%2F19%253ac977b4b654344e169b03acaafdec61a1%2540thread.tacv2%2FGeneral%3FgroupId%3D922abcbd-f472-48f3-8846-ab414eb33f53%26tenantId%3D7cf48d45-3ddb-4389-a9c1-c115526eb52e&data=02%7C01%7Cmjs100%40psu.edu%7C61e94ee71dd44450f8b908d7c6feccd8%7C7cf48d453ddb4389a9c1c115526eb52e%7C0%7C0%7C637196669971687058&sdata=A%2Fc7d3WkzxkjxehyUvuJrHcEy4RCKNZKdGbEc4pvZbg%3D&reserved=0"
+    target="_blank"
+    >here</a
+  >.
+</p>
+<h2 style="font-weight: 400;">
+  Getting Your Course Online
+</h2>
+<p>
+  Louis Leblond, instructor from Physics, shares his tips about how to move your
+  course online.
+</p>
+<iframe
+  width="100%"
+  height="515"
+  src="https://www.youtube.com/embed/zPwe8nMYCq0"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+<h2 style="font-weight: 400;">How to Design an Online Course</h2>
+<h3 style="font-weight: 400;">Backward Design</h3>
+<p>
+  Backward design is a pedagogical approach where instructors begin with the
+  end, their learning outcomes, in mind. By identifying outcomes and the initial
+  learning goals, instructors can figure out appropriate ways to fill in the
+  required elements for instructions and make sure the content is aligned toward
+  what the students need to learn to succeed in the course. Review the 
+  <a
+    style="text-decoration: none; color:#e2801e;"
+    href="resources/understanding-by-design"
+  >Backward Design Guide
+  </a>.
+</p>
+<h3 style="font-weight: 400;">LinkedIn Learning</h3>
+<p>
+  LinkedIn Learning, formerly Lynda.com has a nice tutorial about putting your
+  course content online. Interested in taking your training program to the
+  online space? In this course, join instructor Samantha Calamari as she steps
+  through how to design engaging elearning content that connects with a diverse
+  set of participants. To begin, Samantha helps you determine if elearning is
+  the right approach for your training program. She then acquaints you with key
+  instructional design methods and theories, explaining how to apply them in
+  your design process. Next, she shows how to organize the learning experience
+  and design content that effectively delivers information to learners. Discover
+  how to approach tone and engagement, create an active learning environment,
+  design assessments that enrich your learner's experience, and more.
+</p>
+<p>
+  Take the course:
+  <a
+    style="text-decoration: none; color:#e2801e;"
+    href="https://www.linkedom/learning/elearning-essentials-instructional-design/building-your-elearn"
+    target="_blank"
+    >E-learning Essentials</a
+  >
+</p>
+<h2 style="font-weight: 400; margin: 0;">More Resources</h2>
+<ul>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="resources/contingency/canvas"
+      >Canvas</a
+    >
+  </li>
+  <ul>
+    <li>
+      How do I use Canvas to teach a class online? How do I share my content?
+      How can I assess my students?
+    </li>
+  </ul>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="resources/contingency/video-conferencing"
+      >Video Conferencing, Recording, and Media Management</a
+    >
+  </li>
+  <ul>
+    <li>
+      How do I interact with students via video synchronously, asynchronously,
+      and where do I store it/share it? What tools are best to use for the types
+      of video I want to do?
+    </li>
+  </ul>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="resources/contingency/academic-integrity"
+      >Academic Integrity</a
+    >
+  </li>
+  <ul>
+    <li>
+      How do I prevent cheating when my students are at a distance? How do I encourage my students to act with honor?
+    </li>
+  </ul>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="resources/test-and-quizzes"
+      >Tests and Quizzes</a
+    >
+  </li>
+  <ul>
+    <li>
+      How do I assess online? What are the different types of assessments I can use?
+    </li>
+  </ul>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="resources/contingency/synchronous-vs-asynchronous"
+      >Synchronous vs. Asynchronous</a
+    >
+  </li>
+  <ul>
+    <li>
+      What is the difference between synchronous and asynchronous? Which method is right for me?
+    </li>
+  </ul>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="resources/contingency/accessibility"
+      >Accessibility and Copyright</a
+    >
+  </li>
+  <ul>
+    <li>
+      How do I ensure my students have equal access to my materials and how do I
+      ensure I am in compliance?
+    </li>
+  </ul>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="resources/contingency/educational-technologies"
+      >Educational Technologies</a
+    >
+  </li>
+  <ul>
+    <li>
+      Which tools should I use? How do I choose?
+    </li>
+  </ul>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="resources/contingency/teaching-support"
+      >Teaching Support</a
+    >
+  </li>
+  <ul>
+    <li>
+      What resources are at the college that can help me think about my
+      teaching?
+    </li>
+  </ul>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="resources/contingency/students"
+      >Students</a
+    >
+  </li>
+  <ul>
+    <li>
+      How do I take care of my students? What things can I do to let them know I
+      am here to help them?
+    </li>
+  </ul>
+  <li>
+    <a
+      style="text-decoration: none; color:#e2801e;"
+      href="resources/contingency/science-specific-needs"
+      >Science-specific Needs</a
+    >
+  </li>
+  <ul>
+    <li>
+      What do I do about online labs? How do I show my students how to work
+      through a complicated problem?
+    </li>
+  </ul>
+</ul>
+ ]]>
+      </description>
+      <category></category>
+      <guid>/resources/contingency</guid>
       <pubDate>Tue, 06 Nov 2018 15:22:35 +0000</pubDate>
     </item>
   </channel>
