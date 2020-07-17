@@ -188,8 +188,8 @@
             "description": "A task group of faculty, staff, and administrators is currently developing specific guidelines for teaching remotely and in-person during the fall 2020 semester. The task group is taking active steps to engage the Penn State teaching community in this process.",
             "metadata": {
                 "fields": {
-                    "image": "files/blog-images/6-30-20.jpg",
-                    "imageAlt": "Woman in home office working on laptop. Photo referenced from https://keepteaching.psu.edu/",
+                    "image": "files\/blog-images\/6-30-20.jpg",
+                    "imageAlt": "Woman in home office working on laptop. Photo referenced from https:\/\/keepteaching.psu.edu\/",
                     "authorId": "melissa"
                 },
                 "created": 1593489600,
@@ -226,7 +226,7 @@
             "description": "The 'Summer Institute on Education, Equity, and Justice' is having a free online conference the last week of June. There will be a number of great topics to take in.",
             "metadata": {
                 "fields": {
-                    "image": "files/blog-images/6-8-20.jpg",
+                    "image": "files\/blog-images\/6-8-20.jpg",
                     "imageAlt": "Zoom call with coffee. Photo by: Chris Montgomery - Unsplash.com",
                     "authorId": "melissa"
                 },
@@ -264,7 +264,7 @@
             "description": "ODL is offering training for Accessibility in Canvas. This training opportunity is for ECoS faculty and staff who are working with Remote Teaching and Learning.",
             "metadata": {
                 "fields": {
-                    "image": "files/blog-images/5-1-20.jpg",
+                    "image": "files\/blog-images\/5-1-20.jpg",
                     "imageAlt": "Faculty working around a table together.  Photo by: Carly Dreibelbis",
                     "authorId": "carly"
                 },
@@ -4381,7 +4381,7 @@
             "description": "Deliver and grade your Assessments anywhere. Gradescope helps you seamlessly administer and grade all of your assessments, whether online or in-class. Save time grading and get a clear picture of how your students are doing.",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/gradescope-banner.jpg",
+                    "image": "files\/resource-images\/gradescope-banner.jpg",
                     "alt": "People looking over paperwork. Photo by: Scott Graham - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4392,7 +4392,7 @@
         {
             "id": "ehtipg",
             "indent": 0,
-            "location": "pages/resources/toolkits/gradescope/eric-hudson-tips-gradescope/index.html",
+            "location": "pages\/resources\/toolkits\/gradescope\/eric-hudson-tips-gradescope\/index.html",
             "order": 1,
             "parent": "",
             "title": "Eric Hudson's Tips",
@@ -4453,7 +4453,7 @@
             "description": "Automatically ensure every student is prepared for every class with the world's only truly social e-reader. Engage your students, save time, reduce book costs, and help students help each other learn by collectively annotating readings in threads, responding to each other's comments, and interacting.",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/perusall-banner.jpg",
+                    "image": "files\/resource-images\/perusall-banner.jpg",
                     "alt": "Books open on a desk. Photo by: Aaron Burden - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4464,7 +4464,7 @@
         {
             "id": "ehtipsp",
             "indent": 0,
-            "location": "pages/resources/toolkits/perusall/eric-hudson-perusall/index.html",
+            "location": "pages\/resources\/toolkits\/perusall\/eric-hudson-perusall\/index.html",
             "order": 1,
             "parent": "",
             "title": "Eric Hudson's Tips",
@@ -4486,10 +4486,10 @@
             "order": 6,
             "parent": "toolkits",
             "title": "Piazza",
-            "description": "Piazza is a free online gathering place where students can ask, answer, and explore 24/7, under the guidance of their instructors. Anyone can ask and answer questions using this Wiki-style discussion board. With students teaching students, conversations on Piazza can continue long after office hours are over.",
+            "description": "Piazza is a free online gathering place where students can ask, answer, and explore 24\/7, under the guidance of their instructors. Anyone can ask and answer questions using this Wiki-style discussion board. With students teaching students, conversations on Piazza can continue long after office hours are over.",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/piazza-banner.jpg",
+                    "image": "files\/resource-images\/piazza-banner.jpg",
                     "alt": "Person touching laptop. Photo by: Mimi Thian - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4500,7 +4500,7 @@
         {
             "id": "pztipseh",
             "indent": 0,
-            "location": "pages/resources/toolkits/piazza/hudson-tips/index.html",
+            "location": "pages\/resources\/toolkits\/piazza\/hudson-tips\/index.html",
             "order": 1,
             "parent": "",
             "title": "Eric Hudson's Tips",
@@ -4518,7 +4518,7 @@
         {
             "id": "jhtipspzza",
             "indent": 0,
-            "location": "pages/resources/toolkits/piazza/haubrick-tips/index.html",
+            "location": "pages\/resources\/toolkits\/piazza\/haubrick-tips\/index.html",
             "order": 1,
             "parent": "",
             "title": "John Haubrick's Tips",
@@ -4536,7 +4536,7 @@
         {
             "id": "kregenowtipspzza",
             "indent": 0,
-            "location": "pages/resources/toolkits/piazza/kregenow-tips/index.html",
+            "location": "pages\/resources\/toolkits\/piazza\/kregenow-tips\/index.html",
             "order": 1,
             "parent": "",
             "title": "Julia Kregenow's Tips",
@@ -4594,10 +4594,10 @@
             "order": 3,
             "parent": "contingency",
             "title": "Synchronous vs. Asynchronous",
-            "description": "Synchronous vs. asynchronous makes for a catchy headline, but faculty need to know that it isn’t an either/or, it’s a little bit of both. We have all these tools, content, students, faculty with their own strengths and challenges. We need to think deeply about the right approach.",
+            "description": "Synchronous vs. asynchronous makes for a catchy headline, but faculty need to know that it isn\u2019t an either\/or, it\u2019s a little bit of both. We have all these tools, content, students, faculty with their own strengths and challenges. We need to think deeply about the right approach.",
             "metadata": {
                 "fields": {
-                    "image": "files/resource-images/sync-async-banner.jpg",
+                    "image": "files\/resource-images\/sync-async-banner.jpg",
                     "alt": "Criss-cross. Photo by: Dhruv Weaver - Unsplash.com"
                 },
                 "created": 1541517755,
@@ -4715,15 +4715,34 @@
             "order": 3,
             "parent": "contingency",
             "title": "Online Lab Toolkit",
-            "description": "With all this talk of contingency planning, many of our colleagues are asking, How do you deal with labs in the face of a cancellation? And the answer, as always, is that it depends.",
+            "description": "  If we are talking about a University shutdown of a couple of weeks, think  about how you could flexibly work around the concepts and procedures that need  to be taught and the timing. Is this som",
             "metadata": {
                 "fields": {
                     "image": "files\/resource-images\/online-lab-toolkit-banner.jpg",
                     "alt": "Pendant Light Bulb. Photo by: Luca Florio - Unsplash.com"
                 },
                 "created": 1541517755,
-                "updated": 1541517755,
-                "type": "resources"
+                "updated": 1595014147,
+                "type": "resources",
+                "readtime": 7,
+                "contentDetails": {
+                    "headings": 29,
+                    "paragraphs": 12,
+                    "schema": [
+                        {
+                            "resource": "#95754ce3-85d1-6035-003d",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        }
+                    ],
+                    "tags": {
+                        "p": 12,
+                        "h2": 15,
+                        "video-player": 1,
+                        "h3": 14,
+                        "ul": 23
+                    },
+                    "elements": 65
+                }
             }
         },
         {
@@ -4763,7 +4782,7 @@
             "order": 3,
             "parent": "contingency",
             "title": "Students",
-            "description": "During this time of social distancing and remote teaching, students may experiene difficulties and/or stress. We wanted to share some tools and resources that will help faculty navigate those challenges with both wisdom and empathy.",
+            "description": "During this time of social distancing and remote teaching, students may experiene difficulties and\/or stress. We wanted to share some tools and resources that will help faculty navigate those challenges with both wisdom and empathy.",
             "metadata": {
                 "fields": {
                     "image": "files\/resource-images\/students-banner.jpg",
@@ -4780,7 +4799,7 @@
             "location": "pages\/resources\/contingency\/students\/student-readiness-online\/online-learning-readiness-questionnaire\/index.html",
             "order": 1,
             "parent": "",
-            "title": "Online Learning Readiness Questionnaire (Quiz/Test)",
+            "title": "Online Learning Readiness Questionnaire (Quiz\/Test)",
             "description": "",
             "metadata": {
                 "fields": {
@@ -4834,7 +4853,7 @@
             "location": "pages\/resources\/contingency\/students\/student-readiness-online\/test-online-learning-success\/index.html",
             "order": 1,
             "parent": "",
-            "title": "TOOLS: Test of Online Learning Success (Quiz/Test)",
+            "title": "TOOLS: Test of Online Learning Success (Quiz\/Test)",
             "description": "",
             "metadata": {
                 "fields": {
@@ -4870,7 +4889,7 @@
             "location": "pages\/resources\/contingency\/students\/student-readiness-online\/self-assessment-online-learning-readiness\/index.html",
             "order": 1,
             "parent": "",
-            "title": "Self Assessment of Online Learning Readiness (Quiz/Test)",
+            "title": "Self Assessment of Online Learning Readiness (Quiz\/Test)",
             "description": "",
             "metadata": {
                 "fields": {
@@ -4888,7 +4907,7 @@
             "location": "pages\/resources\/contingency\/students\/student-readiness-online\/self-evaluation-distance-learning\/index.html",
             "order": 1,
             "parent": "",
-            "title": "Self-evaluation for students considering taking Distance Learning courses (Quiz/Test)",
+            "title": "Self-evaluation for students considering taking Distance Learning courses (Quiz\/Test)",
             "description": "",
             "metadata": {
                 "fields": {
@@ -5194,7 +5213,7 @@
             "location": "pages\/resources\/contingency\/synchronous-vs-asynchronous\/engagement-scenarios\/engagement-scenarios-references\/index.html",
             "order": 1,
             "parent": "",
-            "title": "Credit / References",
+            "title": "Credit \/ References",
             "description": "",
             "metadata": {
                 "fields": {

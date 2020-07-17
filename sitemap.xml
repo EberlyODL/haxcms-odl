@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- generator-class="Icamys\SitemapGenerator\SitemapGenerator" -->
 <!-- generator-version="1.1.0" -->
-<!-- generated-on="2020-04-14T19:49:24+00:00" -->
+<!-- generated-on="2020-07-17T19:29:07+00:00" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>/home</loc>
@@ -14,6 +14,24 @@
     <lastmod>2018-12-11T15:53:14+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/blog-posts/6-30-20</loc>
+    <lastmod>2020-06-30T04:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/blog-posts/6-8-20</loc>
+    <lastmod>2020-05-01T04:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/blog-posts/5-1-20</loc>
+    <lastmod>2020-05-01T04:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>/blog-posts/3-5-20</loc>
@@ -844,6 +862,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>/resources/toolkits/gradescope</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/toolkits/gradescope/eric-hudson-tips-gradescope</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>/resources/toolkits/h5p</loc>
     <lastmod>2018-11-06T15:22:35+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -856,6 +886,42 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>/resources/toolkits/perusall</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/toolkits/perusall/eric-hudson-perusall</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/toolkits/piazza</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/toolkits/piazza/hudson-tips</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/toolkits/piazza/haubrick-tips</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/toolkits/piazza/kregenow-tips</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>/resources/toolkits/zoom</loc>
     <lastmod>2018-11-06T15:22:35+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -863,6 +929,12 @@
   </url>
   <url>
     <loc>/resources/contingency/academic-integrity</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/synchronous-vs-asynchronous</loc>
     <lastmod>2018-11-06T15:22:35+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -893,7 +965,7 @@
   </url>
   <url>
     <loc>/resources/contingency/online-lab-toolkit</loc>
-    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <lastmod>2020-07-17T19:29:07+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -908,6 +980,150 @@
     <lastmod>2018-11-06T15:22:35+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/students/student-readiness-online/online-learning-readiness-questionnaire</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/students/student-readiness-online/online-readiness-self-assessment</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/students/student-readiness-online/skills-effective-online-learning</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/students/student-readiness-online/test-online-learning-success</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/students/student-readiness-online/assessing-readiness-for-e-learning</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/students/student-readiness-online/self-assessment-online-learning-readiness</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/students/student-readiness-online/self-evaluation-distance-learning</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/students/student-readiness-online/oasis</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/teaching-support/webcam-requirements/webcam-class</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/teaching-support/webcam-requirements/webcam-assessment</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/teaching-support/delivery-modes/blended-synchronous</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/teaching-support/delivery-modes/flipped-class-modified</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/teaching-support/delivery-modes/flipped-classroom</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/teaching-support/delivery-modes/full-in-person</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/teaching-support/delivery-modes/full-online</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/teaching-support/delivery-modes/simulcast-lecture</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/teaching-support/delivery-modes/special-circumstances</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/synchronous-vs-asynchronous/engagement-scenarios/tsie-async-interactions</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/synchronous-vs-asynchronous/engagement-scenarios/tsie-sync-engagment</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/synchronous-vs-asynchronous/engagement-scenarios/ssie-async-interactions</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/synchronous-vs-asynchronous/engagement-scenarios/ssie-sync-engagement</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/synchronous-vs-asynchronous/engagement-scenarios/scie-async-interactions</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/synchronous-vs-asynchronous/engagement-scenarios/scie-sync-engagement</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>/resources/contingency/synchronous-vs-asynchronous/engagement-scenarios/engagement-scenarios-references</loc>
+    <lastmod>2018-11-06T15:22:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>/resources/contingency/teaching-support</loc>
