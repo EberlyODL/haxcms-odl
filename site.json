@@ -179,6 +179,44 @@
             }
         },
         {
+            "id": "edf2c1a7-d89d-41f0-9871-c88bbfaea2b0",
+            "indent": 1,
+            "location": "pages\/blog-posts\/8-7-20\/index.html",
+            "order": 1,
+            "parent": "news",
+            "title": "Faculty Senate Releases Suggested Syllabus Language for 2020-2021",
+            "description": "A task group of faculty, staff, and administrators have released a syllabus resource that contains suggested language for faculty to use in their syllabi.",
+            "metadata": {
+                "fields": {
+                    "image": "files\/blog-images\/8-7-20.jpg",
+                    "imageAlt": "Close up image of someone typing on a laptop.",
+                    "authorId": "melissa"
+                },
+                "created": 1593489600,
+                "updated": 1593489600,
+                "type": "news",
+                "template": "news",
+                "author": "Melissa Hicks",
+                "authorImage": "files\/odl-team\/melissa.jpg",
+                "tagLine": "Teaching Support",
+                "tags": [
+                    "Resources",
+                    "Remote Learning",
+                    "Teaching"
+                ],
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 3,
+                    "schema": [],
+                    "tags": {
+                        "p": 3
+                    },
+                    "elements": 3
+                }
+            }
+        },
+        {
             "id": "keep-teaching",
             "indent": 1,
             "location": "pages\/blog-posts\/6-30-20\/index.html",
