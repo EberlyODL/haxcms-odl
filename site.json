@@ -179,6 +179,44 @@
             }
         },
         {
+            "id": "3dvrseyvideo",
+            "indent": 1,
+            "location": "pages\/blog-posts\/8-18-20\/index.html",
+            "order": 1,
+            "parent": "news",
+            "title": "A look into Virtual Reality at ODL",
+            "description": "Virtual Reality(VR) tools are quickly finding homes among faculty looking to enhance their online course content. The implementation of VR will add value to important lessons and topics while also increasing student engagement.",
+            "metadata": {
+                "fields": {
+                    "image": "files\/blog-images\/8-18-20.jpg",
+                    "imageAlt": "Man using virtual reality to explore the inside of a space vessle. Photo by: Laurens Derks - unsplash.com",
+                    "authorId": "sey"
+                },
+                "created": 1597723200,
+                "updated": 1597723200,
+                "type": "news",
+                "template": "news",
+                "author": "Sey Yeaple",
+                "authorImage": "files\/odl-team\/sey.jpg",
+                "tagLine": "Virtual Reality",
+                "tags": [
+                    "Virtual Reality",
+                    "Remote Learning",
+                    "Online Course"
+                ],
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 3,
+                    "schema": [],
+                    "tags": {
+                        "p": 3
+                    },
+                    "elements": 3
+                }
+            }
+        },
+        {
             "id": "edf2c1a7-d89d-41f0-9871-c88bbfaea2b0",
             "indent": 1,
             "location": "pages\/blog-posts\/8-7-20\/index.html",
