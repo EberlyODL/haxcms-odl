@@ -6,7 +6,6 @@ import "./page-banner.js";
 class HaxThemeBlog extends PolymerElement {
   static get template() {
     return html`
-    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f453e5822b777001998c099&product=sop' async='async'></script>
     <style>
       :host {
         display: block;
