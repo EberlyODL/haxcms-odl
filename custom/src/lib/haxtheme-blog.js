@@ -205,8 +205,17 @@ class HaxThemeBlog extends PolymerElement {
       site-menu-button {
       --site-menu-button-icon-fill-color: white;
       }
+
+      /* .st-custom-button[data-network] {
+        background-color: #9EEC46;
+        display: inline-block;
+        padding: 5px 10px;
+        cursor: pointer;
+        font-weight: bold;
+        color: #fff;
+        } */
+
     </style>
-    
     <page-banner image="[[activeItem.metadata.fields.image]]" text="[[activeItem.metadata.tagLine]]" alt="Gateway to the Sciences"></page-banner>
     <div id="blog_wrap">
       <div class="blog_container">
@@ -235,11 +244,15 @@ class HaxThemeBlog extends PolymerElement {
             <site-print-button></site-print-button>
           </div> -->
           <div id="contentcontainer">
-              <div id="slot">
-                <slot></slot>
-              </div>
+            <div id="slot">
+              <slot></slot>
             </div>
-           <div class="sharethis-inline-share-buttons"></div>
+          </div>
+          <div class="sharethis-inline-share-buttons"></div>
+          <!-- <div data-network="twitter" class="st-custom-button">Twitter</div>
+          <div data-network="facebook" class="st-custom-button">Facebook</div> 
+          <div data-network="linkedin" class="st-custom-button">LinkedIn</div> 
+          <div data-network="email" class="st-custom-button">Email</div>  -->
            <div id="taxonomy">
             <div class="tag_wrap">
               <h2>Tags:</h2>
@@ -277,6 +290,7 @@ class HaxThemeBlog extends PolymerElement {
   static get tag() {
     return "haxtheme-blog";
   }
+  
   _formatDate(unixTimecode) {
     const date = new Date(unixTimecode * 1000);
     const dateFormatted = date.toLocaleDateString("en-US", {
