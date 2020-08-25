@@ -206,7 +206,6 @@ class HaxThemeBlog extends PolymerElement {
       --site-menu-button-icon-fill-color: white;
       }
     </style>
-    
     <page-banner image="[[activeItem.metadata.fields.image]]" text="[[activeItem.metadata.tagLine]]" alt="Gateway to the Sciences"></page-banner>
     <div id="blog_wrap">
       <div class="blog_container">
@@ -235,11 +234,10 @@ class HaxThemeBlog extends PolymerElement {
             <site-print-button></site-print-button>
           </div> -->
           <div id="contentcontainer">
-              <div id="slot">
-                <slot></slot>
-              </div>
+            <div id="slot">
+              <slot></slot>
             </div>
-           <div class="sharethis-inline-share-buttons"></div>
+          </div>
            <div id="taxonomy">
             <div class="tag_wrap">
               <h2>Tags:</h2>
@@ -277,6 +275,7 @@ class HaxThemeBlog extends PolymerElement {
   static get tag() {
     return "haxtheme-blog";
   }
+  
   _formatDate(unixTimecode) {
     const date = new Date(unixTimecode * 1000);
     const dateFormatted = date.toLocaleDateString("en-US", {
