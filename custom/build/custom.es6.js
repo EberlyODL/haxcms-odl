@@ -6347,7 +6347,7 @@ class HaxThemeBlog extends PolymerElement {
                 <slot></slot>
               </div>
             </div>
-           <div class="sharethis-inline-share-buttons">here</div>
+           <div class="sharethis-inline-share-buttons"></div>
            <div id="taxonomy">
             <div class="tag_wrap">
               <h2>Tags:</h2>
