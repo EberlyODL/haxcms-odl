@@ -6114,8 +6114,6 @@ window.customElements.define(HaxThemeCourse.tag, HaxThemeCourse);
 class HaxThemeBlog extends PolymerElement {
   static get template() {
     return html`
-    <!--import sharethis.com service-->
-    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5f45274dae128d00117af002&product=inline-share-buttons" async="async"></script>
     <style>
       :host {
         display: block;
