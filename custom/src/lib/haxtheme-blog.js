@@ -206,6 +206,7 @@ class HaxThemeBlog extends PolymerElement {
       --site-menu-button-icon-fill-color: white;
       }
     </style>
+    
     <page-banner image="[[activeItem.metadata.fields.image]]" text="[[activeItem.metadata.tagLine]]" alt="Gateway to the Sciences"></page-banner>
     <div id="blog_wrap">
       <div class="blog_container">
@@ -270,12 +271,13 @@ class HaxThemeBlog extends PolymerElement {
         </div>
         </div>
       </div>
-    </div>`;
+    </div>
+`;
   }
   static get tag() {
     return "haxtheme-blog";
   }
-  
+
   _formatDate(unixTimecode) {
     const date = new Date(unixTimecode * 1000);
     const dateFormatted = date.toLocaleDateString("en-US", {
@@ -306,5 +308,6 @@ class HaxThemeBlog extends PolymerElement {
     super.disconnectedCallback();
   }
 }
+
 window.customElements.define(HaxThemeBlog.tag, HaxThemeBlog);
 export { HaxThemeBlog };

@@ -6343,11 +6343,10 @@ class HaxThemeBlog extends PolymerElement {
             <site-print-button></site-print-button>
           </div> -->
           <div id="contentcontainer">
-              <div id="slot">
-                <slot></slot>
-              </div>
+            <div id="slot">
+              <slot></slot>
             </div>
-           <div class="sharethis-inline-share-buttons"></div>
+          </div>
            <div id="taxonomy">
             <div class="tag_wrap">
               <h2>Tags:</h2>
@@ -6380,11 +6379,13 @@ class HaxThemeBlog extends PolymerElement {
         </div>
         </div>
       </div>
-    </div>`;
+    </div>
+`;
   }
   static get tag() {
     return "haxtheme-blog";
   }
+
   _formatDate(unixTimecode) {
     const date = new Date(unixTimecode * 1000);
     const dateFormatted = date.toLocaleDateString("en-US", {
@@ -6415,6 +6416,7 @@ class HaxThemeBlog extends PolymerElement {
     super.disconnectedCallback();
   }
 }
+
 window.customElements.define(HaxThemeBlog.tag, HaxThemeBlog);
 
 class HaxThemeProfile extends PolymerElement {
