@@ -4430,6 +4430,24 @@
             }
         },
         {
+            "id": "videotestkit",
+            "indent": 0,
+            "location": "pages\/resources\/instructional-video-kits\/index.html",
+            "order": 1,
+            "parent": "resources",
+            "title": "Instructional Video Kits",
+            "description": "The college has instructional video kits to improve your online recordings; explore the documentation below for more information on how to setup and use these kits to achieve the best results.",
+            "metadata": {
+                "fields": {
+                    "image": "files\/resource-images\/video-kit.jpg",
+                    "alt": "What's in the box? Photo by: Kal Visuals - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
             "id": "toolkits",
             "indent": 0,
             "location": "pages\/resources\/toolkits\/index.html",
