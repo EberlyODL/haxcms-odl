@@ -188,10 +188,10 @@ class HaxThemeNews extends PolymerElement {
               >
               </site-recent-content-block>
             </div>
-            <div id="share_actions">
+            <!-- <div id="share_actions">
               <site-rss-button type="rss"></site-rss-button>
               <site-rss-button type="atom"></site-rss-button>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
