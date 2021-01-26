@@ -13,13 +13,11 @@ class ODLPromoTile extends PromoTile {
 
         a {
           text-decoration: var(--promo-tile-a-text-decoration, none);
-          @apply --promo-tile-a;
         }
 
         #container {
           width: var(--promo-tile-container-width, 100%);
           height: var(--promo-tile-container-height, auto);
-          @apply --promo-tile-container;
         }
 
         .back_card {
@@ -31,7 +29,6 @@ class ODLPromoTile extends PromoTile {
           opacity: var(--promo-tile-back-card-opacity, 0);
           display: var(--promo-tile-back-card-display, flex);
           flex-direction: var(--promo-tile-back-card-flex-direction, column);
-          @apply --promo-tile-back-card;
         }
 
         :host([hover]) #container .back_card {
@@ -40,7 +37,6 @@ class ODLPromoTile extends PromoTile {
             --promo-tile-container-back-card-hover-transition,
             all 0.3s ease-in-out
           );
-          @apply --promo-tile-container-back-card-hover;
         }
 
         :host([hover]) #container .front_card .front_title {
@@ -52,7 +48,6 @@ class ODLPromoTile extends PromoTile {
             --promo-tile-container-front-card-front-title-hover-transition,
             all 0.3s ease-in-out
           );
-          @apply --promo-tile-container-front-card-hover;
         }
 
         .image {
@@ -69,7 +64,6 @@ class ODLPromoTile extends PromoTile {
           background-size: var(--promo-tile-image-background-size, cover);
           width: var(--promo-tile-image-width, 100%);
           height: var(--promo-tile-image-height, 100%);
-          @apply --promo-tile-image;
         }
 
         .front_title {
@@ -78,7 +72,6 @@ class ODLPromoTile extends PromoTile {
           display: var(--promo-tile-front-title-display, flex);
           align-self: var(--promo-tile-front-title-align-self, flex-end);
           padding: var(--promo-tile-front-title-padding, 0 0 25px 0);
-          @apply --promo-tile-front-title;
         }
 
         .front_title h1 {
@@ -90,7 +83,6 @@ class ODLPromoTile extends PromoTile {
             1px 1px 3px
               var(--promo-tile-front-title-h1-text-shadow-color, #363533)
           );
-          @apply --promo-title-front-title-h1;
         }
 
         .back_title {
@@ -98,14 +90,12 @@ class ODLPromoTile extends PromoTile {
           display: var(--promo-tile-back-title-display, flex);
           justify-content: var(--promo-tile-back-title-justify-content, center);
           padding: var(--promo-tile-back-title-padding, 20px 0 0 0);
-          @apply --promo-tile-back-title;
         }
 
         .back_title h1 {
           color: var(--promo-tile-back-title-h1-color, #ffffff);
           font-size: var(--promo-tile-back-title-h1-font-size, 36px);
           font-weight: var(--promo-tile-back-title-h1-font-weight, 400);
-          @apply --promo-tile-back-title-h1;
         }
 
         .back_content {
@@ -115,7 +105,6 @@ class ODLPromoTile extends PromoTile {
           line-height: var(--promo-tile-back-content-line-height, 1.4);
           padding: var(--promo-title-back-content-padding, 0 20px 0 20px);
           text-align: justify;
-          @apply --promo-tile-back-content;
         }
 
         paper-button#learn {
@@ -134,7 +123,6 @@ class ODLPromoTile extends PromoTile {
           );
           border-radius: var(--promo-tile-paper-button-learn-border-radius, 0);
           width: var(--promo-tile-paper-button-learn-width, 50%);
-          @apply --promo-tile-paper-button-learn;
         }
 
         paper-button#learn:hover,
@@ -143,7 +131,6 @@ class ODLPromoTile extends PromoTile {
             --promo-tile-paper-button-learn-background-color-active,
             #363533
           );
-          @apply --promo-tile-paper-button-learn-active;
         }
       </style>
       <div id="container">
@@ -165,7 +152,7 @@ class ODLPromoTile extends PromoTile {
                 <slot></slot>
               </div>
               <div class="learn_more">
-                <!-- <a
+                <a
                   tabindex="-1"
                   href="[[url]]"
                   id="link"
@@ -175,7 +162,7 @@ class ODLPromoTile extends PromoTile {
                     >[[label]]
                     <iron-icon icon="chevron-right"></iron-icon>
                   </paper-button>
-                </a> -->
+                </a>
               </div>
             </div>
           </div>
