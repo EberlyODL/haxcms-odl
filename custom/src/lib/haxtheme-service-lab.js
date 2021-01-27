@@ -133,7 +133,7 @@ class HaxThemeServiceLab extends PolymerElement {
           <service-icon
             icon="serviceicons:vr"
             title="Virtual Reality"
-            info="Explore new 3D models and virtual landscapes using the HTC Vive or our custom VR applications."
+            info="Explore new 3D models and landscapes using our custom VR applications."
           ></service-icon>
           <service-icon icon="serviceicons:oer" title="" info=""></service-icon>
         </div>
