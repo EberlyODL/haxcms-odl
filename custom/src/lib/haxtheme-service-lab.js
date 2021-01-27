@@ -111,36 +111,31 @@ class HaxThemeServiceLab extends PolymerElement {
         <div id="header">
           <h1>Innovation Lab</h1>
           <div class="description">
-            The wheels of innovation are always turning and our office realizes
-            the importance of staying current on the emerging technologies and
-            trends that will ultimately shape our future landscape. That said,
-            we take great pride in exploring and leveraging open-source tools
-            that will elevate the teaching and learning experience. Take a look at
-            some of the examples below and see how we can help you enhance your
-            course.
+            The wheels of innovation are always turning and our office
+            recognizes the importance of staying current on the emerging
+            technologies and trends that will shape our future. We take great
+            pride in exploring and leveraging open-source tools that elevate the
+            teaching and learning experience, and here in the innovation lab,
+            you will receive a sneak-peek at our latest work.
           </div>
         </div>
         <div id="icon-banner">
           <service-icon
             icon="serviceicons:ngdle"
-            title="NGDLE"
-            info="Host your course using our Next Generation Digital Learning Environment and instantly gain access to a powerful suite of tools."
+            title="Course Enhancements"
+            info="Discover our newest course features and learn how to implement them."
           ></service-icon>
           <service-icon
             icon="serviceicons:container"
             title="Web Components"
-            info="Discover how our office uses web components to create custom learning tools for faculty."
+            info="Preview the latest projects we're building using reusable web-components."
           ></service-icon>
           <service-icon
             icon="serviceicons:vr"
             title="Virtual Reality"
-            info="Explore virtual landscapes and interact with 3D models using our latest VR technology."
+            info="Explore new 3D models and virtual landscapes using the HTC Vive or our custom VR applications."
           ></service-icon>
-          <service-icon
-            icon="serviceicons:oer"
-            title="OER Schema"
-            info="Attach pedagogical terminology and licensing to the metadata of your content using OER Schema."
-          ></service-icon>
+          <service-icon icon="serviceicons:oer" title="" info=""></service-icon>
         </div>
         <div id="service-banner">
           <service-band
