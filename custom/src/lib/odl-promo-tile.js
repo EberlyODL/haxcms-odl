@@ -151,7 +151,7 @@ class ODLPromoTile extends PromoTile {
               <div class="back_content">
                 <slot></slot>
               </div>
-              <div class="learn_more">
+              <!-- <div class="learn_more">
                 <a
                   tabindex="-1"
                   href="[[url]]"
@@ -163,7 +163,7 @@ class ODLPromoTile extends PromoTile {
                     <iron-icon icon="chevron-right"></iron-icon>
                   </paper-button>
                 </a>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
