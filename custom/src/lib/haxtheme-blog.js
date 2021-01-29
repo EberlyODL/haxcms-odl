@@ -207,75 +207,72 @@ class HaxThemeBlog extends PolymerElement {
       }
     </style>
     
-    <body>
-      <page-banner image="[[activeItem.metadata.fields.image]]" text="[[activeItem.metadata.tagLine]]" alt="Gateway to the Sciences"></page-banner>
-      <div id="blog_wrap">
-        <div class="blog_container">
-          <div id="blog_inner_wrap">
-              <site-breadcrumb></site-breadcrumb>
-            <div class="publish_credentials">
-              <div class="title">
-                <h1>[[activeItem.title]]</h1>
-              </div>
-              <div class="date">
-                <h2>[[_formatDate(activeItem.metadata.created)]]</h2>
-              </div>
-              <div id="author_info">
-                <iron-image
-                  id="author_image"
-                  style="width:60px; height:60px;"
-                  sizing="cover"
-                  src="[[activeItem.metadata.authorImage]]">
-                </iron-image>
-                <div id="author">By:
-                  <a href="/team-directory/[[activeItem.metadata.fields.authorId]]">[[activeItem.metadata.author]]</a> 
-                </div>
-              </div>
+
+    <page-banner image="[[activeItem.metadata.fields.image]]" text="[[activeItem.metadata.tagLine]]" alt="Gateway to the Sciences"></page-banner>
+    <div id="blog_wrap">
+      <div class="blog_container">
+        <div id="blog_inner_wrap">
+            <site-breadcrumb></site-breadcrumb>
+          <div class="publish_credentials">
+            <div class="title">
+              <h1>[[activeItem.title]]</h1>
             </div>
-            <!-- <div id="share_actions">
-              <site-print-button></site-print-button>
-            </div> -->
-            <div id="contentcontainer">
-              <div id="slot">
-                <slot></slot>
-              </div>
+            <div class="date">
+              <h2>[[_formatDate(activeItem.metadata.created)]]</h2>
             </div>
-            <div id="taxonomy">
-              <div class="tag_wrap">
-                <h2>Tags:</h2>
+            <div id="author_info">
+              <iron-image
+                id="author_image"
+                style="width:60px; height:60px;"
+                sizing="cover"
+                src="[[activeItem.metadata.authorImage]]">
+              </iron-image>
+              <div id="author">By:
+                <a href="/team-directory/[[activeItem.metadata.fields.authorId]]">[[activeItem.metadata.author]]</a> 
               </div>
-              <template is="dom-repeat" items="[[activeItem.metadata.tags]]" as="tag">
-              <a href="#">[[tag]]</a> 
-              </template>
-            </div>
-            <div id="prev_next_btns">
-              <site-menu-button type="prev" position="top" label="Previous">
-                <div slot="suffix">Prev</div>
-              </site-menu-button>
-              <site-menu-button type="next" position="top" label="Next">
-                <div slot="prefix">Next</div>
-              </site-menu-button>
             </div>
           </div>
-          <div class="sidebar_wrap">
-            <div id="news_archive">
-              <site-recent-content-block
-                title="News Archive"
-                conditions='{"metadata.type": {
-                            "value": ["spotlight", "news"],
-                            "operator": "=="
-                }}'
-                limit="5"
-              >
-              </site-recent-content-block>
+          <!-- <div id="share_actions">
+            <site-print-button></site-print-button>
+          </div> -->
+          <div id="contentcontainer">
+            <div id="slot">
+              <slot></slot>
             </div>
           </div>
+          <div id="taxonomy">
+            <div class="tag_wrap">
+              <h2>Tags:</h2>
+            </div>
+            <template is="dom-repeat" items="[[activeItem.metadata.tags]]" as="tag">
+            <a href="#">[[tag]]</a> 
+            </template>
+          </div>
+          <div id="prev_next_btns">
+            <site-menu-button type="prev" position="top" label="Previous">
+              <div slot="suffix">Prev</div>
+            </site-menu-button>
+            <site-menu-button type="next" position="top" label="Next">
+              <div slot="prefix">Next</div>
+            </site-menu-button>
           </div>
         </div>
+        <div class="sidebar_wrap">
+          <div id="news_archive">
+            <site-recent-content-block
+              title="News Archive"
+              conditions='{"metadata.type": {
+                          "value": ["spotlight", "news"],
+                          "operator": "=="
+              }}'
+              limit="5"
+            >
+            </site-recent-content-block>
+          </div>
+        </div>
+        </div>
       </div>
-      <!-- Go to www.addthis.com/dashboard to customize your tools -->
-      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-601477720d06b1b0"></script>
-    </body>
+    </div>
 `;
   }
   static get tag() {
