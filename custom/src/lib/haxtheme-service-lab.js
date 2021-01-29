@@ -1,6 +1,5 @@
 import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
 import { store } from "@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-store.js";
-import "@lrnwebcomponents/person-testimonial/person-testimonial.js";
 import { autorun, toJS } from "mobx/lib/mobx.module.js";
 import "./page-banner.js";
 import "./service-icon.js";
@@ -112,52 +111,45 @@ class HaxThemeServiceLab extends PolymerElement {
         <div id="header">
           <h1>Innovation Lab</h1>
           <div class="description">
-            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur
-            aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit.
+            The wheels of innovation are always turning and our office
+            recognizes the importance of staying current on the emerging
+            technologies and trends that will shape our future. We take great
+            pride in exploring and leveraging open-source tools that elevate the
+            teaching and learning experience, and here in the innovation lab,
+            you will receive a sneak-peek at our latest work.
           </div>
         </div>
         <div id="icon-banner">
           <service-icon
-            icon="serviceicons:vr"
-            title="Virtual Reality"
-            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          ></service-icon>
-          <service-icon
             icon="serviceicons:ngdle"
-            title="NGDLE"
-            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            title="Course Enhancements"
+            info="Discover our newest course features and learn how to implement them."
           ></service-icon>
           <service-icon
             icon="serviceicons:container"
-            title="Containers on Demand"
-            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            title="Web Components"
+            info="Preview the latest projects we're building using reusable web-components."
           ></service-icon>
           <service-icon
-            icon="serviceicons:oer"
-            title="OER Schema"
-            info="Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-            dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            icon="serviceicons:vr"
+            title="Virtual Reality"
+            info="Explore new 3D models and landscapes using our custom VR applications."
           ></service-icon>
+          <service-icon icon="serviceicons:oer" title="" info=""></service-icon>
         </div>
         <div id="service-banner">
           <service-band
             type="video"
-            source="https://youtu.be/o55m5yfdF-o"
-            alt="A student raises their hand in a lecture hall."
-            title="Track Real-time Anayltics to Measure Student Performance"
+            source="https://youtu.be/HngXvQEkUGk"
+            title="Take a Look into Virtual Reality at ODL"
           >
             <span slot>
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-              Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit.</span
+              Virtual Reality(VR) tools are quickly finding homes among faculty
+              looking to enhance their online course content. The implementation
+              of VR will add value to important lessons and topics while also
+              increasing student engagement. Check out the video to see what
+              we've been working on and how it might apply to your course
+              needs.</span
             >
           </service-band>
           <service-band
@@ -189,11 +181,6 @@ class HaxThemeServiceLab extends PolymerElement {
             >
           </service-band>
         </div>
-        <div id="whatsnext">
-          <div id="whatsnext_header">
-            <h2>What's Next</h2>
-          </div>
-        </div>
       </div>
     `;
   }
@@ -203,11 +190,11 @@ class HaxThemeServiceLab extends PolymerElement {
   connectedCallback() {
     super.connectedCallback();
     this.__disposer = [];
-    autorun(reaction => {
+    autorun((reaction) => {
       this.manifest = toJS(store.routerManifest);
       this.__disposer.push(reaction);
     });
-    autorun(reaction => {
+    autorun((reaction) => {
       this.activeItem = toJS(store.activeItem);
       this.__disposer.push(reaction);
     });
