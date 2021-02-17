@@ -3082,27 +3082,27 @@
             }
         },
         {
-            "id": "biol120nsyllabi",
+            "id": "sc120nsyllabi",
             "indent": 0,
-            "location": "pages\/syllabi\/biol120n\/index.html",
+            "location": "pages\/syllabi\/sc120n\/index.html",
             "order": 12,
             "parent": "syllabi",
-            "title": "Biol 120N",
+            "title": "SC120N",
             "description": "Description  This course is designed to introduce you to the discipline of plant biology  and increase your awareness and appreciation of the impact of plants on your  daily lives. The first part ",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/biol120n.png",
+                    "image": "files\/course-banners\/sc120n.png",
                     "imageAlt": "People sitting on mountain side.  Photo by: Muhammed Fayiz - Unsplash.com",
                     "program": "Undergraduate",
                     "credits": "3",
                     "name": "Plants, Places, and People",
-                    "pdf": "files\/syllabi\/biol120n\/biol120n-sample-syllabus.pdf"
+                    "pdf": "files\/syllabi\/sc120n\/sc120n-sample-syllabus.pdf"
                 },
                 "created": 1541517755,
                 "updated": 1573663687,
                 "type": "syllabi",
                 "template": "syllabi",
-                "icon": "courseicons:biol120n",
+                "icon": "courseicons:sc120n",
                 "readtime": 2,
                 "contentDetails": {
                     "headings": 6,
