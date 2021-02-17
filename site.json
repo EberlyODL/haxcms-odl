@@ -2761,7 +2761,7 @@
                     "program": "Undergraduate",
                     "credits": "3",
                     "video": "",
-                    "description": "The purpose of Biology 120N is to introduce you to the fascinating world of plants with an emphasis on the historical, cultural, and economic uses. This course is designed to introduce you to the discipline of plant biology and increase your awareness and appreciation of the impact of plants on your daily lives. The first part of the course will present the fundamentals of botany to provide you with a basic understanding of plant form and function. The rest of the course will be devoted to a survey of historical, cultural, and economic aspects of botany and related fields. We will finish up with an examination of the role of plants as an integral part of the world's ecosystem.",
+                    "description": "The purpose of SC120N is to introduce you to the fascinating world of plants with an emphasis on the historical, cultural, and economic uses. This course is designed to introduce you to the discipline of plant biology and increase your awareness and appreciation of the impact of plants on your daily lives. The first part of the course will present the fundamentals of botany to provide you with a basic understanding of plant form and function. The rest of the course will be devoted to a survey of historical, cultural, and economic aspects of botany and related fields. We will finish up with an examination of the role of plants as an integral part of the world's ecosystem.",
                     "name": "Plants, Places, and People"
                 },
                 "created": 1541517755,
@@ -2769,7 +2769,7 @@
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/sc120n",
-                "icon": "courseicons:scl120n",
+                "icon": "courseicons:sc120n",
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 0,
