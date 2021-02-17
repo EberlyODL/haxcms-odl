@@ -1417,16 +1417,16 @@
             }
         },
         {
-            "id": "biol120n",
+            "id": "sc120n",
             "indent": 0,
-            "location": "pages\/courses\/biol120n\/index.html",
+            "location": "pages\/courses\/sc120n\/index.html",
             "order": 12,
             "parent": "courses",
-            "title": "Biol 120N",
+            "title": "SC120N",
             "description": "",
             "metadata": {
                 "fields": {
-                    "image": "files\/course-banners\/biol120n.png",
+                    "image": "files\/course-banners\/sc120n.png",
                     "imageAlt": "People sitting on mountain side.  Photo by: Muhammed Fayiz - Unsplash.com",
                     "subject": "Biology",
                     "program": "Undergraduate",
@@ -1439,8 +1439,8 @@
                 "updated": 1571325882,
                 "type": "course",
                 "template": "courses",
-                "syllabus": "syllabi\/biol120n",
-                "icon": "courseicons:biol120n",
+                "syllabus": "syllabi\/sc120n",
+                "icon": "courseicons:scl120n",
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 0,
