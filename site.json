@@ -1417,41 +1417,6 @@
             }
         },
         {
-            "id": "sc120n",
-            "indent": 0,
-            "location": "pages\/courses\/sc120n\/index.html",
-            "order": 12,
-            "parent": "courses",
-            "title": "SC120N",
-            "description": "",
-            "metadata": {
-                "fields": {
-                    "image": "files\/course-banners\/sc120n.png",
-                    "imageAlt": "People sitting on mountain side.  Photo by: Muhammed Fayiz - Unsplash.com",
-                    "subject": "Biology",
-                    "program": "Undergraduate",
-                    "credits": "3",
-                    "video": "",
-                    "description": "The purpose of Biology 120N is to introduce you to the fascinating world of plants with an emphasis on the historical, cultural, and economic uses. This course is designed to introduce you to the discipline of plant biology and increase your awareness and appreciation of the impact of plants on your daily lives. The first part of the course will present the fundamentals of botany to provide you with a basic understanding of plant form and function. The rest of the course will be devoted to a survey of historical, cultural, and economic aspects of botany and related fields. We will finish up with an examination of the role of plants as an integral part of the world's ecosystem.",
-                    "name": "Plants, Places, and People"
-                },
-                "created": 1541517755,
-                "updated": 1571325882,
-                "type": "course",
-                "template": "courses",
-                "syllabus": "syllabi\/sc120n",
-                "icon": "courseicons:scl120n",
-                "readtime": 1,
-                "contentDetails": {
-                    "headings": 0,
-                    "paragraphs": 0,
-                    "schema": [],
-                    "tags": [],
-                    "elements": 0
-                }
-            }
-        },
-        {
             "id": "biol125n",
             "indent": 0,
             "location": "pages\/courses\/biol125n\/index.html",
@@ -2770,6 +2735,41 @@
                 "template": "courses",
                 "syllabus": "syllabi\/phys212",
                 "icon": "courseicons:phys010",
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 0,
+                    "schema": [],
+                    "tags": [],
+                    "elements": 0
+                }
+            }
+        },
+        {
+            "id": "sc120n",
+            "indent": 0,
+            "location": "pages\/courses\/sc120n\/index.html",
+            "order": 51,
+            "parent": "courses",
+            "title": "SC120N",
+            "description": "",
+            "metadata": {
+                "fields": {
+                    "image": "files\/course-banners\/sc120n.png",
+                    "imageAlt": "People sitting on mountain side.  Photo by: Muhammed Fayiz - Unsplash.com",
+                    "subject": "Biology",
+                    "program": "Undergraduate",
+                    "credits": "3",
+                    "video": "",
+                    "description": "The purpose of Biology 120N is to introduce you to the fascinating world of plants with an emphasis on the historical, cultural, and economic uses. This course is designed to introduce you to the discipline of plant biology and increase your awareness and appreciation of the impact of plants on your daily lives. The first part of the course will present the fundamentals of botany to provide you with a basic understanding of plant form and function. The rest of the course will be devoted to a survey of historical, cultural, and economic aspects of botany and related fields. We will finish up with an examination of the role of plants as an integral part of the world's ecosystem.",
+                    "name": "Plants, Places, and People"
+                },
+                "created": 1541517755,
+                "updated": 1571325882,
+                "type": "course",
+                "template": "courses",
+                "syllabus": "syllabi\/sc120n",
+                "icon": "courseicons:scl120n",
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 0,
