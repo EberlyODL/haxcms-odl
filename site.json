@@ -2769,7 +2769,7 @@
                 "type": "course",
                 "template": "courses",
                 "syllabus": "syllabi\/sc120n",
-                "icon": "courseicons:biol120n",
+                "icon": "courseicons:sc120n",
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 0,
