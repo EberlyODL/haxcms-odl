@@ -793,45 +793,10 @@
             }
         },
         {
-            "id": "mike",
-            "indent": 1,
-            "location": "pages\/team-directory\/mike\/index.html",
-            "order": 3,
-            "parent": "team",
-            "title": "Michael Potter",
-            "description": "  Michael is an educational technologist who brings a decade\u2019s worth of  experience building websites and applications to the edtech space. His  non-traditional path began at Penn State where he ",
-            "metadata": {
-                "fields": {
-                    "name": "Michael Potter",
-                    "image": "files\/odl-team\/mike.jpg",
-                    "jobTitle": "Instructional Systems Engineer",
-                    "address": "221 Ritenour",
-                    "phone": "814-867-4602",
-                    "email": "mgp140@psu.edu",
-                    "twitter": "https:\/\/twitter.com\/hey__MP",
-                    "info": "Educational technologies, Programming (applications, infrastructure, microservices); let's build your next project."
-                },
-                "created": 1541517819,
-                "updated": 1568915823,
-                "type": "team",
-                "template": "team",
-                "readtime": 1,
-                "contentDetails": {
-                    "headings": 0,
-                    "paragraphs": 0,
-                    "schema": [],
-                    "tags": {
-                        "div": 4
-                    },
-                    "elements": 4
-                }
-            }
-        },
-        {
             "id": "chuck",
             "indent": 1,
             "location": "pages\/team-directory\/chuck\/index.html",
-            "order": 4,
+            "order": 3,
             "parent": "team",
             "title": "Charles Lavera",
             "description": "",
@@ -839,7 +804,7 @@
                 "fields": {
                     "name": "Charles Lavera",
                     "image": "files\/odl-team\/chuck.jpg",
-                    "jobTitle": "Multimedia Specialist",
+                    "jobTitle": "Programmer/Analyst",
                     "address": "221 Ritenour",
                     "phone": "814-867-4604",
                     "email": "cgl109@psu.edu",
@@ -856,7 +821,7 @@
             "id": "sey",
             "indent": 1,
             "location": "pages\/team-directory\/sey\/index.html",
-            "order": 5,
+            "order": 4,
             "parent": "team",
             "title": "",
             "description": "",
@@ -864,7 +829,7 @@
                 "fields": {
                     "name": "Sey Yeaple",
                     "image": "files\/odl-team\/sey.jpg",
-                    "jobTitle": "3D Generalist \/ Student Intern",
+                    "jobTitle": "3D Generalist",
                     "address": "221 Ritenour",
                     "phone": "814-867-4604",
                     "email": "scy5038@psu.edu",
@@ -881,7 +846,7 @@
             "id": "louis",
             "indent": 1,
             "location": "pages\/team-directory\/louis\/index.html",
-            "order": 6,
+            "order": 5,
             "parent": "team",
             "title": "Louis Leblond",
             "description": "",
@@ -906,7 +871,7 @@
             "id": "joe",
             "indent": 1,
             "location": "pages\/team-directory\/joseph\/index.html",
-            "order": 7,
+            "order": 6,
             "parent": "team",
             "title": "Joseph Houck",
             "description": "",
