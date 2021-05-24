@@ -1563,7 +1563,7 @@
             "order": 18,
             "parent": "courses",
             "title": "Biol 161",
-            "description": "Biology 161 will be examining the structure and function of the human organ systems and more importantly, how they work together to ensure homeostasis in a healthy individual.",
+            "description": "",
             "metadata": {
                 "fields": {
                     "image": "files\/course-banners\/biol155.png",
