@@ -4780,6 +4780,24 @@
             }
         },
         {
+            "id": "accessibility-challenge",
+            "indent": 0,
+            "location": "pages\/resources\/contingency\/accessibility-challenge\/index.html",
+            "order": 3,
+            "parent": "Accessibility",
+            "title": "Accessibility Challenge",
+            "description": "Description for Accessibility Challenge.",
+            "metadata": {
+                "fields": {
+                    "image": "files\/resource-images\/accessibility-banner.jpg",
+                    "alt": "Magnifying glass near gray laptop computer. Photo by: Agence Olloweb - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
             "id": "canvas",
             "indent": 0,
             "location": "pages\/resources\/contingency\/canvas\/index.html",
