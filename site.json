@@ -4784,7 +4784,7 @@
             "indent": 0,
             "location": "pages\/resources\/contingency\/accessibility\/accessibility-challenge\/index.html",
             "order": 3,
-            "parent": "Accessibility",
+            "parent": "contingency",
             "title": "Accessibility Challenge",
             "description": "Description for Accessibility Challenge.",
             "metadata": {
