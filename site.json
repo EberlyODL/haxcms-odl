@@ -4781,9 +4781,9 @@
         },
         {
             "id": "accessibility-challenge",
-            "indent": 0,
+            "indent": 1,
             "location": "pages\/resources\/contingency\/accessibility-challenge\/index.html",
-            "order": 3,
+            "order": 1,
             "parent": "Accessibility",
             "title": "Accessibility Challenge",
             "description": "Description for Accessibility Challenge.",
