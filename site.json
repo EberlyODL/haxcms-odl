@@ -4512,6 +4512,24 @@
             }
         },
         {
+            "id": "honorlock",
+            "indent": 0,
+            "location": "pages\/resources\/test-and-quizzes\/honorlock\/index.html",
+            "order": 3,
+            "parent": "test-and-quizzes",
+            "title": "Honorlock",
+            "description": "Honorlock provides remote proctoring for online exams with complete Canvas integration.",
+            "metadata": {
+                "fields": {
+                    "image": "files\/resource-images\/examity-banner.jpg",
+                    "alt": "Original Photo by: Joseph Gruenthal - Unsplash.com"
+                },
+                "created": 1541517755,
+                "updated": 1541517755,
+                "type": "resources"
+            }
+        },
+        {
             "id": "obs",
             "indent": 0,
             "location": "pages\/resources\/obs\/index.html",
