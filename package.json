@@ -131,6 +131,7 @@
     "build": "polymer build && yarn run terser",
     "terser": "gulp",
     "dev": "polymer serve --open --entrypoint dist/dev.html",
-    "dev-theme": "cd custom && yarn start"
+    "dev-theme": "cd custom && yarn start",
+    "no-build": ""
   }
 }
