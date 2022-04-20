@@ -1,0 +1,1 @@
+define(["./dist/app.js"],function(_app){"use strict"});
